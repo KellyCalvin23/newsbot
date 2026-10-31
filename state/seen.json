@@ -1768,7 +1768,7 @@
 "CVE-2026-97229"
 ],
 "meta": {
-"nvd_cursor": "2026-10-31T12:23:58Z"
+"nvd_cursor": "2026-10-31T17:13:51Z"
 },
 "seeded_sources": [
 "Al Jazeera",
@@ -2199,6 +2199,27 @@
 "url": "https://allafrica.com/stories/202610300198.html",
 "weight": 1
 },
+"14fb70146bfabaefa60783822c8362ba2dc140ed989ef5324d2ce0ea3860f021": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "14fb70146bfabaefa60783822c8362ba2dc140ed989ef5324d2ce0ea3860f021",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T12:55:00Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "West Indies thrash Bangladesh by eight wickets in first Test in Mirpur",
+"url": "https://www.aljazeera.com/sports/2026/10/31/west-indies-bangladesh-first-test-eight-wickets-mirpur-series-lead?traffic_source=rss",
+"weight": 1
+},
 "166041d528fa71f5bb21508efd31c47b573df11a545a10d6671553f3fc8dab11": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -2303,6 +2324,22 @@
 "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
 "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html"
 },
+"17ce927fd558d74d032ece37ab751b782f5292656c85ec69c425260aa95fa21a": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "17ce927fd558d74d032ece37ab751b782f5292656c85ec69c425260aa95fa21a",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T15:00:00Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Vic Mensa can’t live without the Voice Memos app",
+"url": "https://www.theverge.com/entertainment/1023477/vic-mensa-voice-memos-app-interview"
+},
 "1a71ea5977ba328dce0ee480140e4f48cd8d5c4f9b0e7029c41a2f189647be33": {
 "category": "world",
 "coverage_count": 1,
@@ -2368,6 +2405,22 @@
 ],
 "title": "AI Tools Are Generating Massive Attacks for Little Cost",
 "url": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost"
+},
+"2237d84f3f21df75c227240c171e8d09ae9eda33001f0ad3f06bd254f12254ae": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "2237d84f3f21df75c227240c171e8d09ae9eda33001f0ad3f06bd254f12254ae",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T13:10:19Z",
+"route": "drop",
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+"url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/"
 },
 "230f9e93b0a5a5098f4b6bc3b633d7bc8aa8a35e6e5d24c831d3ded4ced5716c": {
 "category": "security",
@@ -2828,6 +2881,61 @@
 "title": "Seabirds racing home over the ocean can get jet-lagged",
 "url": "https://arstechnica.com/science/2026/10/seabirds-racing-home-over-the-ocean-can-get-jet-lagged/"
 },
+"334fdc8272e123e704a3ef1d47d81e5141f2f1c2f66ca0c1f184cd6105ba572d": {
+"category": "security",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-58882"
+],
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "334fdc8272e123e704a3ef1d47d81e5141f2f1c2f66ca0c1f184cd6105ba572d",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T15:35:11Z",
+"reasons": [
+"matches Google Android (Tier 2)"
+],
+"route": "drop",
+"score": 2,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+"url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Android",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+"33e40e2a2dfca9f7be38e22f8d6dcf59a57baa2927f6c6fc7d5182227cae4bc4": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "33e40e2a2dfca9f7be38e22f8d6dcf59a57baa2927f6c6fc7d5182227cae4bc4",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T10:21:30Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Serbia just elected the world's brainiest parliament",
+"url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+"weight": 3
+},
 "34501d421ef54a03175ec69742e87c23b6bfcbdaae8fe4b28ceaac1f04b2b625": {
 "category": "tech",
 "coverage_count": 1,
@@ -2971,6 +3079,29 @@
 ],
 "url": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward"
 },
+"3ab38aed12b3e2f264a89d0c26707826d8e888c142e4ee5309925da291eb090b": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "3ab38aed12b3e2f264a89d0c26707826d8e888c142e4ee5309925da291eb090b",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-31T12:50:09Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+"url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/"
+},
 "3c790dfdf8baf7504ef2c24f8ca9ad402ee96fc813eaed3c4ab7c3d371cfafc6": {
 "category": "security",
 "coverage_count": 1,
@@ -3060,6 +3191,31 @@
 "vendor": "Google"
 }
 ]
+},
+"3fb88de5d5ad5305ca9436040c8845e1605007eeec4073325d463283bb462581": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "3fb88de5d5ad5305ca9436040c8845e1605007eeec4073325d463283bb462581",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T15:43:46Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "South Africa hammer Australia as Harmer takes career best bowling of 6-16",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/sports/2026/10/31/south-africa-hammer-australia-as-harmer-takes-career-best-bowling-of-6-16?traffic_source=rss",
+"weight": 1
 },
 "4023971c7430625110fba0ae05dcc3661830187343fc1c1b97ebf54d83c5a98b": {
 "category": "vulnerabilities",
@@ -3583,6 +3739,30 @@
 "title": "ZDI-26-833: Valkey clusterCreatePublishMsgBlock Numeric Truncation Error Remote Code Execution Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-833/"
 },
+"543ce21170b5b1cd487f928759e288b7e959e2aa9007bfc875211b6dddeac250": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "543ce21170b5b1cd487f928759e288b7e959e2aa9007bfc875211b6dddeac250",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T02:46:36Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Tell HN: Scribd Breached",
+"url": "https://news.ycombinator.com/item?id=50312756",
+"weight": 3
+},
 "5631a7d6f1b2a07d0b315589d377feab08d608fe85dbb110563bd0855a5d23b8": {
 "category": "security",
 "coverage_count": 1,
@@ -3632,6 +3812,48 @@
 "vendor": "Cisco"
 }
 ]
+},
+"5795e6100d80578c6d20eeef2943df48870bdbdb35676b77fd3d5a05da972e06": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "5795e6100d80578c6d20eeef2943df48870bdbdb35676b77fd3d5a05da972e06",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T12:22:49Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Paris steps up security as police patrol streets",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/paris-steps-up-security-as-police-patrol-streets?traffic_source=rss",
+"weight": 1
+},
+"584c43149053b1d8530a74cba18dd3d72abc8af11aaba6d964587b29055fac05": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "584c43149053b1d8530a74cba18dd3d72abc8af11aaba6d964587b29055fac05",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T13:35:51Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Israel voted for Israel: Why Gaza wasn’t on the ballot",
+"url": "https://www.aljazeera.com/news/2026/10/31/israel-voted-for-israel-why-gaza-wasnt-on-the-ballot?traffic_source=rss",
+"weight": 1
 },
 "5a79924d8be0b8dbe4a0086f92671ee825dae9571f76d6673355b0493d2f3f15": {
 "category": "security",
@@ -3753,6 +3975,22 @@
 "vendor": "VMware"
 }
 ]
+},
+"5ebabbb5fc42d656c53fce2cce2da13b3259cc0adb3d68069384f33d3f6aaa55": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "5ebabbb5fc42d656c53fce2cce2da13b3259cc0adb3d68069384f33d3f6aaa55",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T14:05:15Z",
+"route": "drop",
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "Reddit to lock content behind logins to fight scrapers",
+"url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/"
 },
 "5f0b201b442125f51348bd29965fe1107db158e6a43be2d0b65ae38ed5dc70c2": {
 "category": "security",
@@ -4006,6 +4244,27 @@
 "title": "OVHcloud GitHub Compromise Tied to GlassWorm Threat Actors",
 "url": "https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors"
 },
+"6a7f6aa07e3efd06ea4a4e44d093a6232f26f483fb3009d213f9a71d1d3d7f8b": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "6a7f6aa07e3efd06ea4a4e44d093a6232f26f483fb3009d213f9a71d1d3d7f8b",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T14:28:15Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Ethiopian PM puts ministers through military training",
+"url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o",
+"weight": 1
+},
 "6b82dc3bec2a4a1f3b748419c7384f1290a768b67e844e5ad7b0fca5c51f6b73": {
 "category": "security",
 "coverage_count": 1,
@@ -4105,6 +4364,27 @@
 "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
 "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
 "weight": 3
+},
+"6d3ee06e714cc7d8da45566e46bb097dcaeb0c2bf3e11b23597b0acbcab71445": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "6d3ee06e714cc7d8da45566e46bb097dcaeb0c2bf3e11b23597b0acbcab71445",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T15:09:59Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Chelsea beat Man United as Martinez sent off to pile pressure on Carrick",
+"url": "https://www.aljazeera.com/sports/2026/10/31/chelsea-beat-man-united-as-martinez-sees-red-for-crazy-moment-in-thriller?traffic_source=rss",
+"weight": 1
 },
 "6dcbc5a23f0513cfd01ee7cf13c9fb0c78136ff7b6a8385dd78498a3c9bdc204": {
 "category": "vulnerabilities",
@@ -4343,6 +4623,27 @@
 "url": "https://www.bbc.co.uk/news/articles/crm941n0413o",
 "weight": 1
 },
+"768d5968f99e4ae76ddc066098c0770bb81324cb6ca443e78bc7b93faa6cc927": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "768d5968f99e4ae76ddc066098c0770bb81324cb6ca443e78bc7b93faa6cc927",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T12:49:04Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Studios destroyed, traditions saved: Artists fight to save Sudan’s culture",
+"url": "https://www.aljazeera.com/features/2026/10/31/studios-destroyed-traditions-saved-artists-fight-to-save-sudans-culture?traffic_source=rss",
+"weight": 1
+},
 "7701adff134e524b030b346b02b9bf7219cd0ac35b4f79786ca9f493a152a2f4": {
 "category": "security",
 "coverage_count": 1,
@@ -4539,6 +4840,30 @@
 "url": "https://allafrica.com/stories/202610290316.html",
 "weight": 1
 },
+"7df492c453799774c356c46eb89143d0148e9180fa258b2c0f9f5a43ed9fcf8e": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "7df492c453799774c356c46eb89143d0148e9180fa258b2c0f9f5a43ed9fcf8e",
+"last_seen": "2026-10-31",
+"published": "2026-10-27T18:42:55Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Breaking the open web won't stop the bad bots",
+"url": "https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/",
+"weight": 3
+},
 "7e50c9d38c8c2b26f00124f26b84952d4958852c2f2851f0c90b8c125c2953c5": {
 "category": "world",
 "coverage_count": 1,
@@ -4709,6 +5034,22 @@
 "title": "AI Takes Root in Hospital Corridors, Raises Security Stakes",
 "url": "https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes"
 },
+"88bf30e7eda212210afe392385c491c4d18f680d87004ac49cb6b9bc5dcc8b96": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "88bf30e7eda212210afe392385c491c4d18f680d87004ac49cb6b9bc5dcc8b96",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T16:05:00Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "I built an AI Tamagotchi before Meta could",
+"url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code"
+},
 "89808ba5239b8c7003a3d5c8ddbfa64a0b3380995c3a5564e32add6b3741d400": {
 "category": "security",
 "coverage_count": 1,
@@ -4846,6 +5187,27 @@
 "url": "https://github.com/kevinraymond/florilegium",
 "weight": 3
 },
+"8c0161b354d14c34335b5a764ed6ef262b598d5038c2771a3f997536684c1d98": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "8c0161b354d14c34335b5a764ed6ef262b598d5038c2771a3f997536684c1d98",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T12:23:06Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Former rebel leader elected chief minister of Philippine Muslim region",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/former-rebel-leader-elected-chief-minister-of-philippine-muslim-region?traffic_source=rss",
+"weight": 1
+},
 "8c2b58d3566adcd12a460a898a42f1c841fb2b6b6fbb19f17517db7b3e928ef1": {
 "category": "security",
 "coverage_count": 1,
@@ -4946,6 +5308,27 @@
 ],
 "title": "Behind the Business Dream - New Book Unpacks the Realities of Entrepreneurship",
 "url": "https://allafrica.com/stories/202610290278.html",
+"weight": 1
+},
+"8f5c1e8dfed66b6fb4921cce702e782301433ddf1c048f094c89f1bf273a4d12": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "8f5c1e8dfed66b6fb4921cce702e782301433ddf1c048f094c89f1bf273a4d12",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T12:22:45Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Iran lawmakers call for withdrawal from NPT: Will we have war or peace?",
+"url": "https://www.aljazeera.com/news/2026/10/31/iran-lawmakers-call-for-withdrawal-from-npt-will-we-have-war-or-peace?traffic_source=rss",
 "weight": 1
 },
 "909bcf09ef167e87c97a02965c1499b0897b2da6a22ac601d57c9e7f93fe1f1f": {
@@ -5268,6 +5651,34 @@
 ],
 "title": "Rare meteorite from Mars gives us a view into its ancient crust",
 "url": "https://arstechnica.com/science/2026/10/rare-meteorite-from-mars-gives-us-a-view-into-its-ancient-crust/"
+},
+"9bbacc04c5d6a3955b522d5cb0e595cfc5008e6357bfade3eaa022bdca398023": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "9bbacc04c5d6a3955b522d5cb0e595cfc5008e6357bfade3eaa022bdca398023",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T15:12:19Z",
+"reasons": [
+"matches Microsoft Windows (Tier 2)"
+],
+"route": "drop",
+"score": 2,
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
+"url": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
 },
 "9bf1aa79496967642aa02750b9b6275390060807dce3c320e02eade8535edf6d": {
 "category": "security",
@@ -5971,6 +6382,33 @@
 "title": "CVE-2022-51025: pentasecurity wapples Improper Limitation of a Pathname to a Restricted Directory",
 "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51025"
 },
+"CVE-2023-2356": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2023-2356"
+],
+"epss": 0.04153,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2023-2356",
+"last_seen": "2026-10-31",
+"published": "2026-10-30T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-2356: lfprojects MLflow Relative Path Traversal",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-2356"
+},
 "CVE-2023-42442": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -6471,6 +6909,36 @@
 "title": "CVE-2025-57231: Improper Limitation of a Pathname to a Restricted Directory",
 "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57231"
 },
+"CVE-2025-67964": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-67964"
+],
+"cvss": 7.1,
+"epss": 0.00291,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2025-67964",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.1",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-67964: Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67964"
+},
 "CVE-2025-71434": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -6700,6 +7168,36 @@
 ],
 "title": "CVE-2026-103688: Unrestricted Upload of File with Dangerous Type",
 "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103688"
+},
+"CVE-2026-103898": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-103898"
+],
+"cvss": 8.1,
+"epss": 0.0044,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-103898",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.1",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-103898: Wpmet wp_social_login_and_register_social_counter Improper Authentication",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103898"
 },
 "CVE-2026-104995": {
 "category": "vulnerabilities",
@@ -7151,6 +7649,38 @@
 ],
 "title": "CVE-2026-115886: lfprojects MLflow Use of Externally-Controlled Input to Select Classes or Code",
 "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115886"
+},
+"CVE-2026-116512": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116512"
+],
+"epss": 0.00584,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-116512",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-30T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"remote code execution",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-116512: weDevs wp_project_manager Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116512"
 },
 "CVE-2026-116690": {
 "category": "vulnerabilities",
@@ -7768,6 +8298,36 @@
 "title": "ZDI-26-844: MLflow get-artifacts Server-Side Request Forgery Information Disclosure Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-844/"
 },
+"CVE-2026-119096": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119096"
+],
+"cvss": 9.8,
+"epss": 0.00463,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-119096",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-119096: Improper Authentication",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119096"
+},
 "CVE-2026-119977": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -8297,6 +8857,33 @@
 "vendor": "Linux kernel"
 }
 ]
+},
+"CVE-2026-34892": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-34892"
+],
+"epss": 0.00295,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-34892",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-34892: Rank Math seo Missing Authorization",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34892"
 },
 "CVE-2026-40281": {
 "category": "vulnerabilities",
@@ -18360,6 +18947,1060 @@
 }
 ]
 },
+"CVE-2026-99094": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99094"
+],
+"cvss": 7.5,
+"epss": 0.00164,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99094",
+"last_seen": "2026-10-31",
+"published": "2026-10-26T15:16:48Z",
+"reasons": [
+"CVSS 7.5",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99094: In the Linux kernel, the following vulnerability has been resolved: Bluetooth: btintel_pcie: fix TX descriptor bounds…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99094",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99099": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99099"
+],
+"cvss": 7.8,
+"epss": 0.00162,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99099",
+"last_seen": "2026-10-31",
+"published": "2026-10-26T15:16:48Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99099: In the Linux kernel, the following vulnerability has been resolved: x86/CPU/AMD: Fix AMD TLBI Erratum #1718 The processor may fail to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99099",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99107": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99107"
+],
+"cvss": 7.8,
+"epss": 0.00156,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99107",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:30Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99107: In the Linux kernel, the following vulnerability has been resolved: ntfs: fix incorrect MFT record pointer passed to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99107",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99109": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99109"
+],
+"cvss": 7.8,
+"epss": 0.00163,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99109",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:30Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99109: In the Linux kernel, the following vulnerability has been resolved: smb: client: reject SetEA requests that do not fit the request…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99109",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99110": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99110"
+],
+"cvss": 7.0,
+"epss": 0.00186,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99110",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:30Z",
+"reasons": [
+"CVSS 7.0",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99110: In the Linux kernel, the following vulnerability has been resolved: smb: client: fix heap overflow in cifs_do_set_acl() cifs_set_acl()…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99110",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99112": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99112"
+],
+"cvss": 7.1,
+"epss": 0.00185,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99112",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:30Z",
+"reasons": [
+"CVSS 7.1",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99112: In the Linux kernel, the following vulnerability has been resolved: net/sched: cls_flower: validate mask pointer after…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99112",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99116": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99116"
+],
+"cvss": 7.8,
+"epss": 0.00174,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99116",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:31Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99116: In the Linux kernel, the following vulnerability has been resolved: net: psp: do not inherit the Rx association on clone sk->psp_assoc…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99116",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99117": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99117"
+],
+"cvss": 7.8,
+"epss": 0.00177,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99117",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:31Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99117: In the Linux kernel, the following vulnerability has been resolved: net: bridge: mcast: don't truncate the port group walk on…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99117",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99122": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99122"
+],
+"cvss": 7.3,
+"epss": 0.00167,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99122",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:31Z",
+"reasons": [
+"CVSS 7.3",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99122: In the Linux kernel, the following vulnerability has been resolved: vsock/vmci: validate packet source for connected…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99122",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99123": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99123"
+],
+"cvss": 7.1,
+"epss": 0.00173,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99123",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:31Z",
+"reasons": [
+"CVSS 7.1",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99123: In the Linux kernel, the following vulnerability has been resolved: vsock/virtio: validate packet source for connected…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99123",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99131": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99131"
+],
+"cvss": 8.2,
+"epss": 0.0019,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99131",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:32Z",
+"reasons": [
+"CVSS 8.2",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99131: In the Linux kernel, the following vulnerability has been resolved: xfs: fix capability check in xfs An user reported a bug where he…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99131",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99136": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99136"
+],
+"cvss": 7.0,
+"epss": 0.00177,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99136",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:33Z",
+"reasons": [
+"CVSS 7.0",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99136: In the Linux kernel, the following vulnerability has been resolved: dm-crypt: fix a tiny race condition in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99136",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99142": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99142"
+],
+"cvss": 7.1,
+"epss": 0.00176,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99142",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:34Z",
+"reasons": [
+"CVSS 7.1",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99142: In the Linux kernel, the following vulnerability has been resolved: tracing: Check operator stack capacity before…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99142",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99143": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99143"
+],
+"cvss": 7.8,
+"epss": 0.00168,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99143",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:34Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99143: In the Linux kernel, the following vulnerability has been resolved: tracing: Keep the predicate limit separate from program…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99143",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99148": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99148"
+],
+"cvss": 7.0,
+"epss": 0.00167,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99148",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:34Z",
+"reasons": [
+"CVSS 7.0",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99148: In the Linux kernel, the following vulnerability has been resolved: drm/amdgpu: keep the eviction fence until the last handle is…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99148",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99152": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99152"
+],
+"cvss": 7.5,
+"epss": 0.00191,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99152",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:35Z",
+"reasons": [
+"CVSS 7.5",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99152: In the Linux kernel, the following vulnerability has been resolved: scsi: libiscsi: Validate the task named by a management…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99152",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99153": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99153"
+],
+"cvss": 9.8,
+"epss": 0.00191,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99153",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:35Z",
+"reasons": [
+"CVSS 9.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99153: In the Linux kernel, the following vulnerability has been resolved: scsi: libiscsi: Validate the ITT reflected in a Reject PDU A Reject…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99153",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99154": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99154"
+],
+"cvss": 9.8,
+"epss": 0.00183,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99154",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:35Z",
+"reasons": [
+"CVSS 9.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99154: In the Linux kernel, the following vulnerability has been resolved: scsi: libiscsi: Reject a negative task index from parse_pdu_itt A…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99154",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99156": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99156"
+],
+"cvss": 7.8,
+"epss": 0.00183,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99156",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:35Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99156: In the Linux kernel, the following vulnerability has been resolved: scsi: st: Fix use-after-free race between st_remove() and…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99156",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99163": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99163"
+],
+"cvss": 7.8,
+"epss": 0.00183,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99163",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:36Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99163: In the Linux kernel, the following vulnerability has been resolved: tracing/histograms: Reject non-stacktrace fields for synthetic…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99163",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99164": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99164"
+],
+"cvss": 7.8,
+"epss": 0.00163,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99164",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:36Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99164: In the Linux kernel, the following vulnerability has been resolved: spi: imx: fix slab corruption from undersized DMA bounce…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99164",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99167": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99167"
+],
+"cvss": 7.8,
+"epss": 0.00183,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99167",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:37Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99167: In the Linux kernel, the following vulnerability has been resolved: net/sched: fix use-after-free in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99167",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99170": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99170"
+],
+"cvss": 8.8,
+"epss": 0.00163,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99170",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:37Z",
+"reasons": [
+"CVSS 8.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99170: In the Linux kernel, the following vulnerability has been resolved: namespace: a mount that copy_tree() leaves out can't take over a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99170",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99173": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99173"
+],
+"cvss": 7.8,
+"epss": 0.00168,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99173",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:37Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99173: In the Linux kernel, the following vulnerability has been resolved: eventfs: Free the eventfs_inode after an rcu grace period…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99173",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99177": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99177"
+],
+"cvss": 7.8,
+"epss": 0.00156,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99177",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:38Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99177: In the Linux kernel, the following vulnerability has been resolved: KVM: SEV: Fix page dirtying in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99177",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99180": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99180"
+],
+"cvss": 7.8,
+"epss": 0.00183,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99180",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:38Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99180: In the Linux kernel, the following vulnerability has been resolved: unicode: free the map after a grace period generic_ci_d_hash() and…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99180",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99185": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99185"
+],
+"cvss": 8.8,
+"epss": 0.00156,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99185",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:39Z",
+"reasons": [
+"CVSS 8.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99185: In the Linux kernel, the following vulnerability has been resolved: firewire: core: fix race condition in split transaction handling For…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99185",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99203": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99203"
+],
+"cvss": 7.8,
+"epss": 0.00171,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99203",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:41Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99203: In the Linux kernel, the following vulnerability has been resolved: pipe: preserve existing fasync readers on writer setup…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99203",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99212": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99212"
+],
+"cvss": 7.0,
+"epss": 0.00167,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99212",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:42Z",
+"reasons": [
+"CVSS 7.0",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99212: In the Linux kernel, the following vulnerability has been resolved: net/rds: don't let the rdma_cm destroy an id RDS still owns on route…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99212",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99213": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99213"
+],
+"cvss": 7.8,
+"epss": 0.00171,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99213",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:42Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99213: In the Linux kernel, the following vulnerability has been resolved: vsock: treat TCP_CLOSING as once-established Handle the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99213",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-99216": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99216"
+],
+"cvss": 8.4,
+"epss": 0.00171,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "CVE-2026-99216",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T11:17:43Z",
+"reasons": [
+"CVSS 8.4",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-99216: In the Linux kernel, the following vulnerability has been resolved: Drivers: hv: Don't reset VMBus connection state on error/exit…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99216",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
 "a0eb98276638ef48e49f6846fa340946a6ac8e6178679926b6fe59f473be6d5a": {
 "category": "world",
 "coverage_count": 1,
@@ -18598,6 +20239,27 @@
 "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
 "weight": 3
 },
+"ac2f98d87a1596fd09d2b26f3101fe7c540228c1d6aa7c1146d399403f57c791": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "ac2f98d87a1596fd09d2b26f3101fe7c540228c1d6aa7c1146d399403f57c791",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T15:16:20Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+"url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo",
+"weight": 1
+},
 "ad3061efb7355ef47577d3566147d98e157a8639567d43e51e955d3efd44401d": {
 "category": "world",
 "coverage_count": 1,
@@ -18638,6 +20300,27 @@
 "vendor": "Google"
 }
 ]
+},
+"adf5d476a1d3c1935ca4413a779650b86ade39a02463691a0c145450ff1f0279": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "adf5d476a1d3c1935ca4413a779650b86ade39a02463691a0c145450ff1f0279",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T12:45:49Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "New Yemen fighting displaces 290,000, says UN, with pregnant women at risk",
+"url": "https://www.aljazeera.com/news/2026/10/31/new-yemen-fighting-displaces-290000-says-un-with-pregnant-women-at-risk?traffic_source=rss",
+"weight": 1
 },
 "ae44635ca346e7480347e7915796829a54e7e2bcf5aa19d3aedb2968aa0ea93a": {
 "category": "vulnerabilities",
@@ -18692,6 +20375,27 @@
 "Africa"
 ],
 "url": "https://allafrica.com/stories/202610290346.html",
+"weight": 1
+},
+"b1c557d6a618864c9dc75c8b49df20cc427e0194da3e225575876c41a4782025": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "b1c557d6a618864c9dc75c8b49df20cc427e0194da3e225575876c41a4782025",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T12:58:28Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "On the Norway-Russia border, the Sámi people face a growing divide",
+"url": "https://www.aljazeera.com/features/longform/2026/10/31/on-the-norway-russia-border-the-sami-people-face-a-growing-divide?traffic_source=rss",
 "weight": 1
 },
 "b1e1b2a4e14956329f6b2452a86293408907535735fd87672bf26e2c8432d58f": {
@@ -18829,6 +20533,27 @@
 ],
 "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
 "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo",
+"weight": 1
+},
+"baf4c173319af267454ad62054e443c39937009f15fee2a82c966216a6f68b61": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "baf4c173319af267454ad62054e443c39937009f15fee2a82c966216a6f68b61",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T12:50:45Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Watch: Blood donors get a Halloween fright in Thailand",
+"url": "https://www.bbc.co.uk/news/videos/cmze42el49d9o",
 "weight": 1
 },
 "bbf8ebbb7f6134c1788c160b39fc1f6e1337f5ee0cd61b8e56c99c999c1dc158": {
@@ -19170,6 +20895,34 @@
 "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
 "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html"
 },
+"cfed6c8492f59ffe68fd8463d4abf1c697c7e147b0cd224b739e4e59f320784b": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "cfed6c8492f59ffe68fd8463d4abf1c697c7e147b0cd224b739e4e59f320784b",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T15:00:00Z",
+"reasons": [
+"matches Apple (Tier 2)"
+],
+"route": "drop",
+"score": 2,
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Best Buy is bundling a $100 gift card with touchscreen MacBook Pro preorders",
+"url": "https://www.theverge.com/gadgets/1023302/best-buy-gift-card-macbook-pro-proled-xdr-preorder-deal-sale",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apple",
+"tier": 2,
+"vendor": "Apple"
+}
+]
+},
 "d11683dacb976a463639d2707b15f4492d6f5a6ce8eb212d17d466c2acd18657": {
 "category": "world",
 "coverage_count": 1,
@@ -19225,6 +20978,27 @@
 "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
 "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html"
 },
+"d4ff4d516ff4b6d2d5079b31a8add0eeeb83f40362d43ab2b59f87a4a3196fdc": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "d4ff4d516ff4b6d2d5079b31a8add0eeeb83f40362d43ab2b59f87a4a3196fdc",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T16:32:08Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+"url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o",
+"weight": 1
+},
 "d592079f146437127b89d297eac44b458225c3e4a5e74844a07b8c971b03e788": {
 "category": "world",
 "coverage_count": 1,
@@ -19261,6 +21035,27 @@
 "title": "My favourite PowerMac is a Nintendo Wii",
 "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
 "weight": 3
+},
+"d626e9276412d6ca0d1d5cd115264abd13199039109f1aaadaee65f088d9d136": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "d626e9276412d6ca0d1d5cd115264abd13199039109f1aaadaee65f088d9d136",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T16:28:04Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Thousands rally in Berlin as Gen Z plans protests in 30 German cities",
+"url": "https://www.aljazeera.com/news/2026/10/31/thousands-rally-in-berlin-as-gen-z-plans-protests-in-30-german-cities?traffic_source=rss",
+"weight": 1
 },
 "d65d0365e66e8fac1be13d7ddbf7bda58c6bb0b4363852767b4aaaa26d9c01e2": {
 "category": "world",
@@ -19419,6 +21214,27 @@
 }
 ]
 },
+"dc6279e8e91a7732ebba5e7c6604e1639fe9600169f086011deaf23bd6b2ab25": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "dc6279e8e91a7732ebba5e7c6604e1639fe9600169f086011deaf23bd6b2ab25",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T12:47:16Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Alaska’s two ‘Dan Sullivans’: How common is ballot stacking, does it work?",
+"url": "https://www.aljazeera.com/news/2026/10/31/alaskas-two-dan-sullivans-how-common-is-ballot-stacking-does-it-work?traffic_source=rss",
+"weight": 1
+},
 "dd100a6c32303da188269d6ffd9a96c7e1f400a5a8acecac2c0556334621b8c5": {
 "category": "world",
 "coverage_count": 1,
@@ -19451,6 +21267,27 @@
 ],
 "title": "3 Frameworks to Protect CISOs & Orgs Against AI Liability",
 "url": "https://www.darkreading.com/cyber-risk/3-frameworks-cisos-ai-liability"
+},
+"dea3cea6fc0e650753e94e796e7a2cc72603a6f57f78457a5026b2c536819136": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "dea3cea6fc0e650753e94e796e7a2cc72603a6f57f78457a5026b2c536819136",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T14:31:37Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks",
+"url": "https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks?traffic_source=rss",
+"weight": 1
 },
 "def14b7edadce4f098264aafcf9f30910e7f7acf09de9941b4751d5d00fc5281": {
 "category": "vulnerabilities",
@@ -19506,6 +21343,27 @@
 ],
 "title": "UFC champion Islam Makhachev says his next fight will be ‘one of last’",
 "url": "https://www.aljazeera.com/sports/2026/10/31/islam-makhachev-ufc-welterweight-title-one-of-last-fight-prates-morales?traffic_source=rss",
+"weight": 1
+},
+"e2cfc74bf9fd3384b5a552a7ec6a4cbb50f0255977ee8a967a53367af054d85c": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "e2cfc74bf9fd3384b5a552a7ec6a4cbb50f0255977ee8a967a53367af054d85c",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T14:20:23Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Syria considering entry into Mecca defence pact, says foreign minister",
+"url": "https://www.aljazeera.com/news/2026/10/31/syria-considering-entry-into-mecca-defence-pact-says-foreign-minister?traffic_source=rss",
 "weight": 1
 },
 "e3e6bbed60100380ea4052da387fff46ecb4f577afa3867ba5eb624896d8bb89": {
@@ -20016,6 +21874,27 @@
 ],
 "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
 "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html"
+},
+"f39ceb05ba787539b6b1153a3f02976bb303a635add56b78e3af8205dea474ee": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T17:13:51Z",
+"id": "f39ceb05ba787539b6b1153a3f02976bb303a635add56b78e3af8205dea474ee",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T13:19:23Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Burnham opens door to formal apology for Britain’s slave trade",
+"url": "https://www.aljazeera.com/news/2026/10/31/burnham-opens-door-to-formal-apology-for-britains-slave-trade?traffic_source=rss",
+"weight": 1
 },
 "f42bf1110434463ed9b76f86e560738e119c4dc277889eaeff3c0d913cbd4724": {
 "category": "security",
