@@ -1,0 +1,313 @@
+# =============================================================================
+# newsbot configuration. Every source, weight and threshold lives in this file.
+# Secrets NEVER go here: they come from environment variables / GitHub Secrets.
+# After editing, try it safely with:  python -m newsbot run --mode alerts --dry-run
+# =============================================================================
+
+settings:
+  timezone: Africa/Kigali
+
+  # Routing: score >= alert_threshold rings; digest_threshold up to that goes to the
+  # daily digest; anything lower is dropped.
+  alert_threshold: 7
+  digest_threshold: 3
+
+  # Anti-flood: the top N alerts are sent individually, the rest as ONE bundled message.
+  max_alerts_per_run: 5
+
+  # In quiet hours, alerts below always_ring_score arrive without a sound.
+  quiet_hours:
+    enabled: true
+    start: "23:00"
+    end: "06:00"
+    always_ring_score: 9
+
+  digest_max_per_category: 15  # lower-scored items are counted, not listed
+  digest_queue_max: 500
+
+  # Dedup
+  fuzzy_threshold: 85       # rapidfuzz token_set_ratio percentage
+  fuzzy_window_hours: 48
+  retention_days: 30        # forget a story 30 days after it was last seen in a feed
+  max_item_age_days: 14     # ignore older items. MUST stay below retention_days.
+
+  # Network safety
+  http_timeout_seconds: 20
+  http_retries: 2
+  http_backoff_seconds: 2
+  max_response_bytes: 16000000
+  fetch_budget_seconds: 120
+  run_budget_seconds: 180   # no new requests after this; the job itself is killed at 5 min
+
+  epss_url: https://api.first.org/data/v1/epss
+  nvd_lookups_per_run: 3    # CVSS lookups for KEV/news CVEs; each takes ~6.5 s without a key
+
+# =============================================================================
+# Scoring. Points add up and are capped at max_score. Reasons are kept for each message.
+# =============================================================================
+scoring:
+  max_score: 10
+  cisa_kev: 6
+  kev_ransomware_bonus: 1
+  vulncheck_kev: 5
+  cvss_critical_min: 9.0
+  cvss_critical: 4
+  cvss_high_min: 7.0
+  cvss_high: 2
+  epss_min: 0.5
+  epss: 2
+  keyword: 3            # any keywords.critical term; counted once
+  watchlist_points: {tier1: 3, tier2: 2, tier3: 2}
+  extra_keyword: 2      # keywords.extra or keywords.regional; counted once
+  big_story: 2          # keywords.big_story, only in big_story_categories
+  coverage_min: 3
+  coverage: 2
+
+  # Watchlist and extra keywords apply only to these categories. World feeds are left
+  # out because "Apple", "Apache" (helicopter), "Oracle" and "Google" there are almost
+  # never security news. Regional keywords apply everywhere.
+  watchlist_categories: [vulnerabilities, security, tech]
+  big_story_categories: [world]
+
+  # NVD records with no watchlist hit and no exploitation signal (KEV, high EPSS) cannot
+  # exceed this. At 2 they are dropped: about 700 CVEs appear daily and many score CVSS 9+
+  # on obscure plugins. Remove the line to score NVD strictly by the points above, but
+  # expect dozens of extra alerts a day.
+  unmatched_vuln_cap: 2
+
+# =============================================================================
+# Sources.
+#   type:     rss | cisa_kev | vulncheck_kev | nvd | hn
+#   category: vulnerabilities | security | tech | world (digest grouping)
+#   weight:   points ADDED to every item from this source. 0 means no effect.
+#             It lets a source reach the digest without any keyword match.
+#   requires_secret: env var that must be set, otherwise the source is skipped silently.
+# =============================================================================
+sources:
+  # --- Exploited-vulnerability catalogs ------------------------------------
+  - {name: CISA KEV, type: cisa_kev, category: vulnerabilities, weight: 0, enabled: true,
+     url: "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"}
+  - {name: VulnCheck KEV, type: vulncheck_kev, category: vulnerabilities, weight: 0, enabled: true,
+     requires_secret: VULNCHECK_API_TOKEN,
+     url: "https://api.vulncheck.com/v3/index/vulncheck-kev"}
+  - {name: NVD, type: nvd, category: vulnerabilities, weight: 0, enabled: true,
+     url: "https://services.nvd.nist.gov/rest/json/cves/2.0"}
+
+  # --- Government advisories -----------------------------------------------
+  - {name: CISA Advisories, type: rss, category: security, weight: 0, enabled: true,
+     url: "https://www.cisa.gov/cybersecurity-advisories/cybersecurity-advisories.xml"}
+  - {name: NCSC UK, type: rss, category: security, weight: 0, enabled: true,  # added
+     url: "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml"}
+
+  # --- Vendor PSIRTs -------------------------------------------------------
+  - {name: Microsoft MSRC, type: rss, category: vulnerabilities, weight: 0, enabled: true,
+     url: "https://api.msrc.microsoft.com/update-guide/rss"}
+  - {name: Cisco PSIRT, type: rss, category: vulnerabilities, weight: 0, enabled: true,
+     url: "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml"}
+  - {name: Fortinet PSIRT, type: rss, category: vulnerabilities, weight: 0, enabled: true,
+     url: "https://www.fortiguard.com/rss/ir.xml"}
+  - {name: Palo Alto Networks, type: rss, category: vulnerabilities, weight: 0, enabled: true,
+     url: "https://security.paloaltonetworks.com/rss.xml"}
+  - {name: Ivanti, type: rss, category: vulnerabilities, weight: 0, enabled: true,
+     url: "https://www.ivanti.com/blog/topics/security-advisory/rss"}
+  - {name: Zero Day Initiative, type: rss, category: vulnerabilities, weight: 0, enabled: true,  # added
+     url: "https://www.zerodayinitiative.com/rss/published/"}
+
+  # --- Security news -------------------------------------------------------
+  - {name: BleepingComputer, type: rss, category: security, weight: 0, enabled: true,
+     url: "https://www.bleepingcomputer.com/feed/"}
+  - {name: The Hacker News, type: rss, category: security, weight: 0, enabled: true,
+     url: "https://feeds.feedburner.com/TheHackersNews"}
+  - {name: SecurityWeek, type: rss, category: security, weight: 0, enabled: true,
+     url: "https://www.securityweek.com/feed/"}
+  - {name: Krebs on Security, type: rss, category: security, weight: 0, enabled: true,
+     url: "https://krebsonsecurity.com/feed/"}
+  - {name: The Record, type: rss, category: security, weight: 0, enabled: true,
+     url: "https://therecord.media/feed"}
+  - {name: Dark Reading, type: rss, category: security, weight: 0, enabled: true,
+     url: "https://www.darkreading.com/rss.xml"}
+
+  # --- Tech ----------------------------------------------------------------
+  - {name: Hacker News, type: hn, category: tech, weight: 3, enabled: true,
+     top_n: 30, min_score: 300,   # already filtered by popularity, so weight 3 reaches the digest
+     url: "https://hacker-news.firebaseio.com/v0/topstories.json"}
+  - {name: Ars Technica, type: rss, category: tech, weight: 0, enabled: true,
+     url: "https://feeds.arstechnica.com/arstechnica/index"}
+  - {name: The Verge, type: rss, category: tech, weight: 0, enabled: true,
+     url: "https://www.theverge.com/rss/index.xml"}
+
+  # --- World (low weight: only big stories and regional news get through) ---
+  - {name: BBC World, type: rss, category: world, weight: 1, enabled: true,
+     url: "https://feeds.bbci.co.uk/news/world/rss.xml"}
+  - {name: Al Jazeera, type: rss, category: world, weight: 1, enabled: true,  # replaces Reuters
+     url: "https://www.aljazeera.com/xml/rss/all.xml"}
+  - {name: allAfrica Rwanda, type: rss, category: world, weight: 1, enabled: true,  # added
+     url: "https://allafrica.com/tools/headlines/rdf/rwanda/headlines.rdf"}
+
+# =============================================================================
+# Watchlist. Only the HIGHEST matching tier counts. Matching is case-insensitive
+# and on whole terms: "FortiGate" matches, and counts as Fortinet.
+#   vendor / aliases:     any of these names is a match
+#   products:             distinctive names that match on their own
+#   products_need_vendor: ordinary words that count only next to the vendor name
+#                         (so "economic outlook" is not Microsoft Outlook). They only
+#                         improve the label, since the vendor name already matched.
+#   platforms:            match in news ("Windows zero-day"), but on NVD records only
+#                         next to the vendor, since third-party CVEs often name the
+#                         platform they run on ("installer for Windows").
+# =============================================================================
+watchlist:
+  # Tier 1: network edge / perimeter, the most exploited class of product.
+  tier1:
+    - vendor: Fortinet
+      products: [FortiOS, FortiGate, FortiProxy, FortiManager, FortiWeb, FortiClient EMS, FortiClient, FortiSIEM]
+    - vendor: Palo Alto Networks
+      aliases: [Palo Alto]
+      products: [PAN-OS, GlobalProtect]
+    - vendor: Ivanti
+      products: [Connect Secure, Policy Secure, EPMM]
+      products_need_vendor: [Neurons]
+    - vendor: Cisco
+      products: [Firepower, Secure Firewall Management Center, IOS XE]
+      products_need_vendor: [ASA, FTD, ISE]
+    - vendor: Citrix
+      products: [NetScaler, NetScaler ADC, NetScaler Gateway, CitrixBleed]
+    - {vendor: SonicWall, products: [SonicOS]}
+    - {vendor: F5, products: [BIG-IP]}
+    - {vendor: Juniper, products: [Junos]}
+    - {vendor: Check Point}
+    - {vendor: WatchGuard, products: [Firebox]}
+    - {vendor: Zyxel}
+    - {vendor: Sophos}
+    - {vendor: Progress LoadMaster, aliases: [LoadMaster, Kemp LoadMaster]}
+    # Added from suggest-watchlist (KEV, last 12 months): internet-facing network gear.
+    - {vendor: MikroTik, products: [RouterOS]}
+    - {vendor: Ubiquiti, products: [UniFi]}
+    - {vendor: Arista, products: [VeloCloud]}
+
+  # Tier 2: core platforms.
+  tier2:
+    - vendor: Microsoft
+      products: [Windows Server, Exchange Server, SharePoint, Entra ID, Azure AD]
+      platforms: [Windows]
+      products_need_vendor: [Exchange, Office, Outlook, Edge]
+    - vendor: Linux kernel
+      products: [OpenSSH, OpenSSL, glibc, sudo]
+    - vendor: VMware
+      products: [ESXi, vCenter]
+      products_need_vendor: [Workstation]
+    - vendor: Apple
+      products: [WebKit]
+      platforms: [iOS, macOS]
+      products_need_vendor: [Safari]
+    - vendor: Google
+      platforms: [Chromium, Android]
+      products_need_vendor: [Chrome]
+    - vendor: Oracle
+      products: [WebLogic, E-Business Suite]
+      products_need_vendor: [Java]
+    - vendor: Apache
+      products: [Tomcat, Struts, ActiveMQ]
+      products_need_vendor: [HTTP Server]
+    - vendor: Adobe
+      products: [ColdFusion]
+      products_need_vendor: [Acrobat]
+    # Added from suggest-watchlist. Deliberately specific: bare "PHP" or "WordPress"
+    # would match every third-party plugin CVE.
+    - {vendor: PHP Group, aliases: [PHP core, PHP2Shell]}
+    - {vendor: WordPress Core}
+
+  # Tier 3: high-value enterprise targets.
+  tier3:
+    - {vendor: Progress MOVEit, aliases: [MOVEit]}
+    - {vendor: Fortra GoAnywhere, aliases: [GoAnywhere]}
+    - {vendor: Cleo, products: [Harmony, VLTrader, LexiCom]}
+    - {vendor: CrushFTP}
+    - {vendor: ConnectWise, products: [ScreenConnect]}
+    - {vendor: N-able, products: [N-central]}
+    - {vendor: SolarWinds}
+    - {vendor: Kaseya}
+    - {vendor: SimpleHelp}
+    - {vendor: Veeam}
+    - {vendor: Commvault}
+    - {vendor: JetBrains, products: [TeamCity]}
+    - {vendor: GitLab}
+    - {vendor: Jenkins}
+    - {vendor: Atlassian, products: [Confluence, Jira]}
+    - {vendor: SAP, products: [NetWeaver]}
+    - {vendor: Zimbra}
+    - {vendor: Roundcube}
+    - {vendor: AWS, aliases: [Amazon Web Services]}
+    - {vendor: Azure}
+    - {vendor: Google Cloud, aliases: [GCP]}
+    - {vendor: Okta}
+    - {vendor: Cloudflare}
+    - {vendor: Langflow}
+    # Added from suggest-watchlist (KEV, last 12 months).
+    - {vendor: BeyondTrust}
+    - {vendor: SmarterTools, products: [SmarterMail]}
+    - {vendor: PaperCut}
+    - {vendor: Gladinet, products: [CentreStack, Triofox]}
+    - {vendor: JFrog, products: [Artifactory]}
+    - {vendor: BerriAI, products: [LiteLLM]}
+    - {vendor: MCP server, aliases: [MCP servers, Model Context Protocol]}
+    - {vendor: Ollama}
+    - {vendor: LLM framework, aliases: [LLM frameworks, LangChain, LlamaIndex]}
+
+keywords:
+  # +3, counted once
+  critical:
+    - zero-day
+    - 0-day
+    - actively exploited
+    - exploited in the wild
+    - RCE
+    - remote code execution
+    - unauthenticated
+    - wormable
+    - emergency patch
+    - out-of-band
+    - supply chain attack
+    - data breach
+    - ransomware
+
+  # +2
+  extra:
+    - Active Directory
+    - Kerberos
+    - Kubernetes
+    - Docker
+    - container escape
+    - npm
+    - PyPI
+    - malicious package
+    - prompt injection
+    - phishing kit
+    - infostealer
+    - botnet
+    - nation-state
+    - critical infrastructure
+  # Case-sensitive, because lowercase "apt" is an English word and a Linux tool.
+  # The "re:" prefix means a regular expression, here also matching APT28, APT41...
+  extra_case_sensitive:
+    - 're:APT\d*\b'
+
+  # +2, applies to all categories, so local news reaches you
+  regional: [Rwanda, Kigali, East Africa, Africa]
+
+  # +2, world feeds only, titles only. With weight 1 this reaches the digest.
+  # Addition to the brief: without it, world stories could almost never score 3.
+  big_story:
+    - earthquake
+    - tsunami
+    - coup
+    - declares war
+    - declared war
+    - ceasefire
+    - assassinated
+    - invasion
+    - pandemic
+    - nuclear
+
+  # Score becomes 0. Titles only; KEV and NVD records are never muted.
+  muted: [sponsored, webinar, giveaway, deal, "% off"]

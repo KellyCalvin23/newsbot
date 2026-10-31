@@ -1,0 +1,44 @@
+name: Alerts
+
+on:
+  schedule:
+    # Every 15 minutes. Minutes are offset from :00 because GitHub delays or drops more
+    # runs at the top of the hour.
+    - cron: "7,22,37,52 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Shared with digest.yml so two runs can never write state at once.
+concurrency:
+  group: newsbot-state
+  cancel-in-progress: false
+
+jobs:
+  alerts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+
+      - name: Run alert pipeline
+        # Shorter than the job timeout, so the commit step below still gets to run.
+        timeout-minutes: 4
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+          VULNCHECK_API_TOKEN: ${{ secrets.VULNCHECK_API_TOKEN }}
+        run: python -m newsbot run --mode alerts
+
+      - name: Commit state
+        # Runs even if the step above failed: whatever was already sent must stay recorded.
+        if: always()
+        run: scripts/commit_state.sh

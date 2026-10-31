@@ -1,0 +1,5 @@
+{"resultsPerPage":3,"startIndex":0,"totalResults":3,"vulnerabilities":[
+{"cve":{"id":"CVE-2026-2000","published":"2026-10-30T10:00:00.000","vulnStatus":"Analyzed","descriptions":[{"lang":"es","value":"Hola"},{"lang":"en","value":"Fortinet FortiWeb allows remote code execution. More detail here."}],
+ "metrics":{"cvssMetricV31":[{"type":"Primary","cvssData":{"baseScore":9.8}},{"type":"Secondary","cvssData":{"baseScore":7.5}}]}}},
+{"cve":{"id":"CVE-2015-9999","published":"2015-01-01T10:00:00.000","vulnStatus":"Modified","descriptions":[{"lang":"en","value":"Ancient bug only just edited."}],"metrics":{}}},
+{"cve":{"id":"CVE-2026-2002","published":"2026-10-30T10:00:00.000","vulnStatus":"Rejected","descriptions":[{"lang":"en","value":"Rejected reason."}],"metrics":{}}}]}
