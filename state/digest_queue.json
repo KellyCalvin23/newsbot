@@ -1411,5 +1411,189 @@
 ],
 "url": "https://www.aljazeera.com/sports/2026/10/31/south-africa-hammer-australia-as-harmer-takes-career-best-bowling-of-6-16?traffic_source=rss",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-83831"
+],
+"cvss": 8.8,
+"epss": 0.00767,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-83831",
+"last_seen": "2026-10-31",
+"published": "2026-10-27T21:19:08Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+"title": "CVE-2026-83831: Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83831",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-118304"
+],
+"cvss": 8.8,
+"epss": 0.00275,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118304",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+"title": "Chromium: CVE-2026-118304 Improper input validation in SVG",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118304",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-118313"
+],
+"cvss": 8.8,
+"epss": 0.00275,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118313",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+"title": "Chromium: CVE-2026-118313 Use after free in Video",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118313",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-118311"
+],
+"cvss": 8.8,
+"epss": 0.00275,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118311",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
+"title": "Chromium: CVE-2026-118311 Memory corruption in Media",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118311",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "71c605729cec83277600d95e2a1b24ca6e4e859e53386aa6498f765f149012f0",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T10:58:08Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The African Medicines Agency (AMA) has launched two hubs in Kigali to help African countries make faster regulatory decisions on medicines and support local manufacturers in bringing medical products to market.",
+"title": "African Medicines Agency Opens Key Regulatory Hubs in Kigali",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202610280328.html",
+"weight": 1
 }
 ]
