@@ -75,6 +75,11 @@ scoring:
   # expect dozens of extra alerts a day.
   unmatched_vuln_cap: 2
 
+  # VulnCheck KEV entries with no watchlist hit, EPSS below epss_min and no CISA listing
+  # cannot exceed this, so they go to the digest. Without it, about 10 entries a day would
+  # alert, most for products you do not use. Remove the line for strict scoring.
+  unmatched_vulncheck_cap: 6
+
 # =============================================================================
 # Sources.
 #   type:     rss | cisa_kev | vulncheck_kev | nvd | hn

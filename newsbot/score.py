@@ -74,4 +74,16 @@ def score_item(item, cfg: dict) -> tuple[int, list[str]]:
         total = cap
         reasons.append("capped: not on watchlist")
 
+    # VulnCheck lists far more than CISA: measured at ~10 entries a day that would alert,
+    # mostly for products not on the watchlist. Worth knowing, but not worth waking up for.
+    # High EPSS, a watchlist hit, or a CISA listing still lets it ring.
+    vc_cap = s.get("unmatched_vulncheck_cap")
+    if (
+        vc_cap is not None and "vulncheck_kev" in item.tags and "cisa_kev" not in item.tags
+        and not item.vendor_matches and not (item.epss is not None and item.epss >= s["epss_min"])
+        and total > vc_cap
+    ):
+        total = vc_cap
+        reasons.append("capped: not on watchlist")
+
     return max(0, min(int(total), s["max_score"])), reasons

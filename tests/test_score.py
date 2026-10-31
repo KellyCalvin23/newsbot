@@ -77,3 +77,17 @@ def test_nvd_cap_lifts_on_watchlist_or_exploitation(cfg, make_item):
 
 def test_news_is_not_affected_by_nvd_cap(cfg, make_item):
     assert score_item(make_item("Plugin zero-day", cvss=9.8), cfg)[0] == 7
+
+
+def test_unwatched_vulncheck_entry_goes_to_digest_not_alert(cfg, make_item):
+    item = make_item("Obscure CMS unauthenticated flaw", source="VulnCheck KEV", source_type="vulncheck_kev",
+                     tags=["vulncheck_kev"], cvss=9.8)
+    score, reasons = score_item(item, cfg)
+    assert score == 6 and "capped: not on watchlist" in reasons
+
+
+def test_vulncheck_can_ring_with_watchlist_epss_or_cisa(cfg, make_item):
+    common = dict(source="VulnCheck KEV", source_type="vulncheck_kev", cvss=9.8)
+    assert score_item(make_item("FortiWeb flaw", tags=["vulncheck_kev"], **common), cfg)[0] >= 7
+    assert score_item(make_item("Obscure CMS flaw", tags=["vulncheck_kev"], epss=0.9, **common), cfg)[0] >= 7
+    assert score_item(make_item("Obscure CMS flaw", tags=["vulncheck_kev", "cisa_kev"], **common), cfg)[0] >= 7

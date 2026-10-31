@@ -148,6 +148,9 @@ suggestions and never edits your config. Running it every few months is plenty.
   and plain scoring would alert on any unknown plugin with CVSS 9+ and "unauthenticated" in
   its text. CVEs with no watchlist match and no exploitation signal are now dropped. Remove
   the setting to get strict scoring.
+- **VulnCheck entries off the watchlist go to the digest (`unmatched_vulncheck_cap`).**
+  Measured over 14 days, plain scoring would have sent 135 alerts, 116 of them for products
+  not on the watchlist. High EPSS, a watchlist match or a CISA listing still lets one ring.
 - **Mute words check the title only**, and never apply to KEV or NVD records. "Sponsored"
   does not fire on "state-sponsored", and "how to deal with" in a summary mutes nothing.
 - **World feeds skip the watchlist.** "Apache", "Apple" and "Oracle" there are almost never
