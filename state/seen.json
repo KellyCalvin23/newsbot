@@ -1768,7 +1768,7 @@
 "CVE-2026-97229"
 ],
 "meta": {
-"nvd_cursor": "2026-10-31T12:07:30Z"
+"nvd_cursor": "2026-10-31T12:23:30Z"
 },
 "seeded_sources": [
 "Al Jazeera",
@@ -1791,6 +1791,7 @@
 "The Hacker News",
 "The Record",
 "The Verge",
+"VulnCheck KEV",
 "Zero Day Initiative",
 "allAfrica Rwanda"
 ],
@@ -2650,6 +2651,22 @@
 "vendor": "Google"
 }
 ]
+},
+"2f9a655cf6e1ab45596b26cbdcbe5c7ff058398376bce57cd3701e75b08e8eaa": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "2f9a655cf6e1ab45596b26cbdcbe5c7ff058398376bce57cd3701e75b08e8eaa",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T12:01:56Z",
+"route": "drop",
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+"url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html"
 },
 "2fb46e2a4cb8dd5c83e27ae8c7ac2b16630730a2a294c63bab8bbf7a5e1c0987": {
 "category": "world",
@@ -4805,6 +4822,30 @@
 }
 ]
 },
+"8bbf6d88503caaada3286b61517d86ff0d2dc1b92b2fcc2784728f5575afac86": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "8bbf6d88503caaada3286b61517d86ff0d2dc1b92b2fcc2784728f5575afac86",
+"last_seen": "2026-10-31",
+"published": "2026-10-30T15:48:12Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Florilegium: Procedural Flowers in LaTeX",
+"url": "https://github.com/kevinraymond/florilegium",
+"weight": 3
+},
 "8c2b58d3566adcd12a460a898a42f1c841fb2b6b6fbb19f17517db7b3e928ef1": {
 "category": "security",
 "coverage_count": 1,
@@ -5328,6 +5369,678 @@
 "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
 "url": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/"
 },
+"CVE-2010-20125": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2010-20125"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2010-20125",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-30T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2010-20125: DedeCMS DedeCMS Improper Control of Filename for Include/Require Statement in PHP Program",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2010-20125"
+},
+"CVE-2015-20130": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2015-20130"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2015-20130",
+"last_seen": "2026-10-31",
+"published": "2026-10-30T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2015-20130: netsweeper netsweeper Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2015-20130"
+},
+"CVE-2017-14537": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2017-14537"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2017-14537",
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2017-14537: netfortris trixbox Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14537"
+},
+"CVE-2017-20287": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2017-20287"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2017-20287",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2017-20287: Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2017-20287"
+},
+"CVE-2017-20288": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2017-20288"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2017-20288",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2017-20288: QCubed QCubed Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2017-20288"
+},
+"CVE-2017-20289": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2017-20289"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2017-20289",
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2017-20289: Improper Control of Filename for Include/Require Statement in PHP Program",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2017-20289"
+},
+"CVE-2017-20290": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2017-20290"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2017-20290",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2017-20290: discourse discourse Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2017-20290"
+},
+"CVE-2019-25778": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2019-25778"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2019-25778",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2019-25778: seacms seacms Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25778"
+},
+"CVE-2019-25779": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2019-25779"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2019-25779",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2019-25779: Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25779"
+},
+"CVE-2019-9041": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2019-9041"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2019-9041",
+"last_seen": "2026-10-31",
+"published": "2026-10-29T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2019-9041: zzzcms zzzphp Improper Neutralization of Special Elements used in an Expression Language Statement",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-9041"
+},
+"CVE-2020-13945": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2020-13945"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2020-13945",
+"last_seen": "2026-10-31",
+"published": "2026-10-27T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2020-13945: Apache APISIX Admin API Default Token Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-13945",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+"CVE-2020-35847": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2020-35847"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2020-35847",
+"last_seen": "2026-10-31",
+"published": "2026-10-30T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2020-35847: agentejo cockpit Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-35847"
+},
+"CVE-2020-37284": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2020-37284"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2020-37284",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2020-37284: Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-37284"
+},
+"CVE-2021-23337": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2021-23337"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2021-23337",
+"last_seen": "2026-10-31",
+"published": "2026-10-23T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-23337: lodash lodash Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23337"
+},
+"CVE-2021-48013": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2021-48013"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2021-48013",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-48013: Weaver e-cology Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48013"
+},
+"CVE-2021-48016": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2021-48016"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2021-48016",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-48016: DedeCMS DedeCMS Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48016"
+},
+"CVE-2021-48017": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2021-48017"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2021-48017",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-48017: Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48017"
+},
+"CVE-2022-0208": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2022-0208"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2022-0208",
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-0208: mappresspro mappress Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0208"
+},
+"CVE-2022-1471": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2022-1471"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2022-1471",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-1471: snakeyaml_project snakeyaml Improper Input Validation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-1471"
+},
+"CVE-2022-24637": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2022-24637"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2022-24637",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-25T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-24637: openwebanalytics open_web_analytics Improper Privilege Management",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-24637"
+},
+"CVE-2022-51021": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2022-51021"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2022-51021",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-51021: WPDeveloper notificationx Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51021"
+},
+"CVE-2022-51022": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2022-51022"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2022-51022",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-51022: Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51022"
+},
+"CVE-2022-51024": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2022-51024"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2022-51024",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-51024: kavitareader kavita Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51024"
+},
+"CVE-2022-51025": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2022-51025"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2022-51025",
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-51025: pentasecurity wapples Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51025"
+},
+"CVE-2023-42442": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2023-42442"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2023-42442",
+"last_seen": "2026-10-31",
+"published": "2026-10-29T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-42442: fit2cloud jumpserver Improper Authentication",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-42442"
+},
+"CVE-2023-51411": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2023-51411"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2023-51411",
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-51411: dynamiapps frontend_admin Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-51411"
+},
+"CVE-2023-54413": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2023-54413"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2023-54413",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-54413: Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54413"
+},
+"CVE-2024-33563": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-33563"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2024-33563",
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-33563: 8theme Xstore Missing Authorization",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-33563"
+},
 "CVE-2024-37052": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -5349,6 +6062,452 @@
 ],
 "title": "ZDI-26-845: MLflow Statsmodels _load_model Deserialization of Untrusted Data Remote Code Execution Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-845/"
+},
+"CVE-2024-3848": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-3848"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2024-3848",
+"last_seen": "2026-10-31",
+"published": "2026-10-27T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-3848: lfprojects MLflow Path Traversal: '\\..\\filename'",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-3848"
+},
+"CVE-2024-47167": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-47167"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2024-47167",
+"last_seen": "2026-10-31",
+"published": "2026-10-27T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-47167: gradio_project gradio Server-Side Request Forgery",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47167"
+},
+"CVE-2024-58393": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-58393"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2024-58393",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-58393: Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58393"
+},
+"CVE-2024-58394": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-58394"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2024-58394",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-58394: retool retool Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58394"
+},
+"CVE-2024-58396": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-58396"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2024-58396",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-58396: Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58396"
+},
+"CVE-2024-8517": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-8517"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2024-8517",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-24T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-8517: SPIP SPIP External Control of File Name or Path",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-8517"
+},
+"CVE-2025-11201": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-11201"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2025-11201",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-30T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-11201: lfprojects MLflow Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11201"
+},
+"CVE-2025-11452": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-11452"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2025-11452",
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-11452: asgaros asgaros_forum Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11452"
+},
+"CVE-2025-1232": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-1232"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2025-1232",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-1232: geminilabs site_reviews Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1232"
+},
+"CVE-2025-14657": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-14657"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2025-14657",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-14657: themewinter eventin Missing Authorization",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14657"
+},
+"CVE-2025-26986": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-26986"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2025-26986",
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-26986: Improper Control of Filename for Include/Require Statement in PHP Program",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-26986"
+},
+"CVE-2025-31704": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-31704"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2025-31704",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-30T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-31704: Improper Neutralization of Special Elements used in an OS Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31704"
+},
+"CVE-2025-41656": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-41656"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2025-41656",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-30T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-41656: Missing Authentication for Critical Functionality",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41656"
+},
+"CVE-2025-54988": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-54988"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2025-54988",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-54988: Apache tika Improper Restriction of XML External Entity Reference",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54988",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+"CVE-2025-5569": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-5569"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2025-5569",
+"last_seen": "2026-10-31",
+"published": "2026-10-31T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-5569: ideacms ideacms Improper Neutralization of Special Elements in Output Used by a Downstream Component",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-5569"
+},
+"CVE-2025-57231": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-57231"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2025-57231",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-25T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-57231: Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57231"
+},
+"CVE-2025-71434": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-71434"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2025-71434",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-71434: Weaver e-cology Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71434"
+},
+"CVE-2026-101767": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-101767"
+],
+"cvss": 3.1,
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-101767",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-27T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-101767: Oracle application_object_library Improper Authentication",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101767",
+"vendor_matches": [
+{
+"points": 2,
+"term": "E-Business Suite",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
 },
 "CVE-2026-102204": {
 "category": "vulnerabilities",
@@ -5404,6 +6563,32 @@
 }
 ]
 },
+"CVE-2026-102785": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-102785"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-102785",
+"keyword_hits": [
+"remote code execution",
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-27T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-102785: Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102785"
+},
 "CVE-2026-102870": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -5425,6 +6610,97 @@
 ],
 "title": "CVE-2026-102870 ASP.NET Core Remote Code Execution Vulnerability",
 "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102870"
+},
+"CVE-2026-103039": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-103039"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-103039",
+"last_seen": "2026-10-31",
+"published": "2026-10-30T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-103039: Deserialization of Untrusted Data",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103039"
+},
+"CVE-2026-103366": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-103366"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-103366",
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-103366: Authorization Bypass Through User-Controlled Key",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103366"
+},
+"CVE-2026-103688": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-103688"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-103688",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-28T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-103688: Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103688"
+},
+"CVE-2026-104995": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-104995"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-104995",
+"last_seen": "2026-10-31",
+"published": "2026-10-29T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-104995: Improper Control of Filename for Include/Require Statement in PHP Program",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104995"
 },
 "CVE-2026-105014": {
 "category": "vulnerabilities",
@@ -5456,6 +6732,31 @@
 }
 ]
 },
+"CVE-2026-10526": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-10526"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-10526",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-28T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-10526: WPDeveloper embedpress Server-Side Request Forgery",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10526"
+},
 "CVE-2026-105728": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -5474,6 +6775,36 @@
 ],
 "title": "CVE-2026-105728 Dynamics Business Central Information Disclosure Vulnerability",
 "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105728"
+},
+"CVE-2026-106173": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-106173"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-106173",
+"last_seen": "2026-10-31",
+"published": "2026-10-23T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-106173: Fortinet FortiSIEM Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106173",
+"vendor_matches": [
+{
+"points": 3,
+"term": "FortiSIEM",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
 },
 "CVE-2026-108456": {
 "category": "vulnerabilities",
@@ -5501,6 +6832,28 @@
 "vendor": "Azure"
 }
 ]
+},
+"CVE-2026-109432": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-109432"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-109432",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-109432: Improper Neutralization of Special Elements used in an OS Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109432"
 },
 "CVE-2026-110063": {
 "category": "vulnerabilities",
@@ -5559,6 +6912,28 @@
 }
 ]
 },
+"CVE-2026-112353": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-112353"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-112353",
+"last_seen": "2026-10-31",
+"published": "2026-10-27T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-112353: Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112353"
+},
 "CVE-2026-112656": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -5604,6 +6979,28 @@
 ],
 "title": "CVE-2026-114148 ASP.NET Core Elevation of Privilege Vulnerability",
 "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114148"
+},
+"CVE-2026-114509": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114509"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-114509",
+"last_seen": "2026-10-31",
+"published": "2026-10-27T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-114509: Laravel Laravel Framework Improper Authentication",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114509"
 },
 "CVE-2026-114549": {
 "category": "vulnerabilities",
@@ -5687,6 +7084,97 @@
 "title": "ZDI-26-811: MailEnable parseObjectResponse XML External Entity Processing Information Disclosure Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-811/"
 },
+"CVE-2026-11565": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-11565"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-11565",
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-11565: advancedfilemanager advanced_file_manager Missing Authorization",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11565"
+},
+"CVE-2026-115886": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-115886"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-115886",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-29T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-115886: lfprojects MLflow Use of Externally-Controlled Input to Select Classes or Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115886"
+},
+"CVE-2026-116690": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116690"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-116690",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-116690: lfprojects MLflow Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116690"
+},
+"CVE-2026-117601": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-117601"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-117601",
+"last_seen": "2026-10-31",
+"published": "2026-10-27T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-117601: electrum electrum Improper Verification of Cryptographic Signature",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117601"
+},
 "CVE-2026-118147": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -5705,6 +7193,28 @@
 ],
 "title": "CVE-2026-118147 Visual Studio Spoofing Vulnerability",
 "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118147"
+},
+"CVE-2026-118539": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-118539"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-118539",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-118539: Drupal Commerce Core Module Unspecified Access Bypass",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118539"
 },
 "CVE-2026-118601": {
 "category": "vulnerabilities",
@@ -6237,6 +7747,109 @@
 "title": "ZDI-26-844: MLflow get-artifacts Server-Side Request Forgery Information Disclosure Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-844/"
 },
+"CVE-2026-119977": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119977"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-119977",
+"keyword_hits": [
+"remote code execution",
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-30T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-119977: WordPress wordpress Time-of-check Time-of-use (TOCTOU) Race Condition",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
+"vendor_matches": [
+{
+"points": 2,
+"term": "WordPress Core",
+"tier": 2,
+"vendor": "WordPress Core"
+}
+]
+},
+"CVE-2026-16482": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-16482"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-16482",
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-16482: Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16482"
+},
+"CVE-2026-16947": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-16947"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-16947",
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-16947: Server-Side Request Forgery",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16947"
+},
+"CVE-2026-18789": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-18789"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-18789",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-18789: Missing Authorization",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18789"
+},
 "CVE-2026-19175": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -6494,6 +8107,149 @@
 "title": "ZDI-26-787: NVIDIA Megatron Bridge YAML File Parsing Code Injection Remote Code Execution Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-787/"
 },
+"CVE-2026-25639": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-25639"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-25639",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-25639: axios axios Improper Check for Unusual or Exceptional Conditions",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25639"
+},
+"CVE-2026-27413": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-27413"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-27413",
+"last_seen": "2026-10-31",
+"published": "2026-10-28T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-27413: Cozmoslabs profile_builder Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27413"
+},
+"CVE-2026-28039": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-28039"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-28039",
+"last_seen": "2026-10-31",
+"published": "2026-10-27T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-28039: wpdatatables wpdatatables Improper Control of Filename for Include/Require Statement in PHP Program",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28039"
+},
+"CVE-2026-28177": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-28177"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-28177",
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-28177: code-atlantic popup_maker Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28177"
+},
+"CVE-2026-28185": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-28185"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-28185",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-23T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-28185: Insufficient Verification of Data Authenticity",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28185",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+"CVE-2026-32557": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-32557"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-32557",
+"last_seen": "2026-10-31",
+"published": "2026-10-29T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-32557: Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32557"
+},
 "CVE-2026-34182": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -6520,6 +8276,123 @@
 "vendor": "Linux kernel"
 }
 ]
+},
+"CVE-2026-40281": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-40281"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-40281",
+"last_seen": "2026-10-31",
+"published": "2026-10-27T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-40281: thecodingmachine gotenberg Improper Neutralization of Argument Delimiters in a Command",
+"topic_hits": [
+"Docker"
+],
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40281"
+},
+"CVE-2026-49083": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-49083"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-49083",
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-49083: LatePoint LatePoint Incorrect Privilege Assignment",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49083"
+},
+"CVE-2026-53595": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-53595"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-53595",
+"last_seen": "2026-10-31",
+"published": "2026-10-30T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-53595: freescout freescout Improper Handling of Case Sensitivity",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53595"
+},
+"CVE-2026-54675": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-54675"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-54675",
+"keyword_hits": [
+"RCE",
+"remote code execution"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-54675: Sangoma FreePBX Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54675"
+},
+"CVE-2026-54836": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-54836"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-54836",
+"last_seen": "2026-10-31",
+"published": "2026-10-29T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-54836: ymc-22 filter_\\&_grids Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54836"
 },
 "CVE-2026-57083": {
 "category": "vulnerabilities",
@@ -6593,6 +8466,31 @@
 ],
 "title": "ZDI-26-838: FreeBSD Kernel TTY Race Condition Local Privilege Escalation Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-838/"
+},
+"CVE-2026-58115": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-58115"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-58115",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-30T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-58115: Missing Authentication for Critical Functionality",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58115"
 },
 "CVE-2026-6064": {
 "category": "vulnerabilities",
@@ -6805,6 +8703,28 @@
 ],
 "title": "ZDI-26-846: MLflow Webhook Server-Side Request Forgery Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-846/"
+},
+"CVE-2026-66592": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-66592"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-66592",
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-66592: Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66592"
 },
 "CVE-2026-69284": {
 "category": "vulnerabilities",
@@ -7253,6 +9173,75 @@
 "vendor": "Linux kernel"
 }
 ]
+},
+"CVE-2026-73181": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-73181"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-73181",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-28T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-73181: Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73181"
+},
+"CVE-2026-7467": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-7467"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-7467",
+"last_seen": "2026-10-31",
+"published": "2026-10-27T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-7467: edmonsoft read_more_\\&_accordion Improper Privilege Management",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7467"
+},
+"CVE-2026-7542": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-7542"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-7542",
+"last_seen": "2026-10-31",
+"published": "2026-10-29T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-7542: themepunch slider_revolution Exposure of Sensitive Information to an Unauthorized Actor",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7542"
 },
 "CVE-2026-76418": {
 "category": "vulnerabilities",
@@ -15476,6 +17465,53 @@
 }
 ]
 },
+"CVE-2026-81543": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-81543"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-81543",
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-81543: Improper Privilege Management",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81543"
+},
+"CVE-2026-82187": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82187"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-82187",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-82187: Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82187"
+},
 "CVE-2026-83519": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -15650,6 +17686,78 @@
 }
 ]
 },
+"CVE-2026-84740": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-84740"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-84740",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-84740: StellarWP the_events_calendar Improper Neutralization of Special Elements in Output Used by a Downstream Component",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84740"
+},
+"CVE-2026-84999": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-84999"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-84999",
+"last_seen": "2026-10-31",
+"published": "2026-10-27T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-84999: Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84999"
+},
+"CVE-2026-85688": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-85688"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-85688",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-28T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-85688: Missing Authentication for Critical Functionality",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85688"
+},
 "CVE-2026-85868": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -15676,6 +17784,31 @@
 "vendor": "Microsoft"
 }
 ]
+},
+"CVE-2026-86426": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-86426"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-86426",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-10-31",
+"published": "2026-10-28T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-86426: librenms librenms Improper Authentication",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86426"
 },
 "CVE-2026-86974": {
 "category": "vulnerabilities",
@@ -15706,6 +17839,28 @@
 "vendor": "Apple"
 }
 ]
+},
+"CVE-2026-87855": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-87855"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-87855",
+"last_seen": "2026-10-31",
+"published": "2026-10-22T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-87855: Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87855"
 },
 "CVE-2026-88078": {
 "category": "vulnerabilities",
@@ -15740,6 +17895,28 @@
 }
 ]
 },
+"CVE-2026-90898": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-90898"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-90898",
+"last_seen": "2026-10-31",
+"published": "2026-10-23T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-90898: Improper Access Control",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90898"
+},
 "CVE-2026-92211": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -15761,6 +17938,28 @@
 ],
 "title": "ZDI-26-791: Pixar Animation Studio OpenUSD Crate File Parsing Double Free Remote Code Execution Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-791/"
+},
+"CVE-2026-92975": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-92975"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-92975",
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-92975: groundhogg groundhogg Improper Privilege Management",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92975"
 },
 "CVE-2026-93826": {
 "category": "vulnerabilities",
@@ -15788,6 +17987,50 @@
 "vendor": "Linux kernel"
 }
 ]
+},
+"CVE-2026-94238": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-94238"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-94238",
+"last_seen": "2026-10-31",
+"published": "2026-10-26T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-94238: loco_translate_project loco_translate Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94238"
+},
+"CVE-2026-95610": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-95610"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-95610",
+"last_seen": "2026-10-31",
+"published": "2026-10-27T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-95610: Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95610"
 },
 "CVE-2026-96185": {
 "category": "vulnerabilities",
@@ -15973,6 +18216,28 @@
 "vendor": "Microsoft"
 }
 ]
+},
+"CVE-2026-96662": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-96662"
+],
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-96662",
+"last_seen": "2026-10-31",
+"published": "2026-10-29T00:00:00Z",
+"route": "seed",
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-96662: Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96662"
 },
 "CVE-2026-96913": {
 "category": "vulnerabilities",
