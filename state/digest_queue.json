@@ -1653,5 +1653,346 @@
 "title": "HackerTube: YouTube built from videos recommended by HN",
 "url": "https://karpathy.bearblog.dev/hacker-tube/",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-13756"
+],
+"cvss": 8.8,
+"epss": 0.00442,
+"first_seen": "2026-11-01T02:39:19Z",
+"id": "CVE-2026-13756",
+"last_seen": "2026-11-01",
+"published": "2026-10-22T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "WP Grid Builder WP Grid Builder. The WP Grid Builder plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.3.3. This is due to missing authorization and meta key validation in the `update()` handler for the `/wp-json/wpgb/v2/metadata` REST endpoint. This…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-13756: Improper Privilege Management",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13756"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2018-25438"
+],
+"cvss": 8.7,
+"epss": 0.00536,
+"first_seen": "2026-11-01T02:39:19Z",
+"id": "CVE-2018-25438",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-01",
+"published": "2026-10-22T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.7",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Intermesh Group-Office. Intermesh Group-Office 3.3.0 before 3.5.5 contains an unauthenticated path traversal vulnerability in compress.php that allows remote attackers to read arbitrary files by manipulating the 'file' parameter. Attackers can send GET requests to /compress.php with '../' sequences…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2018-25438: intermesh group-office Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25438"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-66533"
+],
+"epss": 0.00305,
+"first_seen": "2026-11-01T02:39:19Z",
+"id": "CVE-2025-66533",
+"last_seen": "2026-11-01",
+"published": "2026-10-22T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Liquid Web / StellarWP GiveWP. Improper Control of Generation of Code ('Code Injection') vulnerability in Liquid Web / StellarWP GiveWP give allows Code Injection.This issue affects GiveWP: from n/a through 4.13.1.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-66533: GiveWP GiveWP Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66533"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2022-51023"
+],
+"epss": 0.00262,
+"first_seen": "2026-11-01T02:39:19Z",
+"id": "CVE-2022-51023",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-01",
+"published": "2026-10-22T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "PHPOK PHPOK. PHPOK 4.5.000 before 5.4.081 contains an SQL injection vulnerability that allows unauthenticated attackers to manipulate ORDER BY clauses via the sort parameter. Attackers can send GET requests to /api.php?c=project&f=index with extractvalue payloads in sort to extract database…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-51023: phpok phpok Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51023"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-85113"
+],
+"epss": 0.00306,
+"first_seen": "2026-11-01T02:39:19Z",
+"id": "CVE-2026-85113",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-01",
+"published": "2026-10-22T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "GiveWP GiveWP. The GiveWP WordPress plugin before 4.16.9 does not remove shortcode delimiters from donor-supplied values before rendering them on public pages, and the shortcode stripping it applies can be defeated by nesting, allowing unauthenticated users to execute arbitrary shortcodes…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-85113: GiveWP GiveWP Improper Neutralization of Special Elements in Output Used by a Downstream Component",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85113"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-97237"
+],
+"epss": 0.00175,
+"first_seen": "2026-11-01T02:39:19Z",
+"id": "CVE-2026-97237",
+"last_seen": "2026-11-01",
+"published": "2026-10-22T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Crocoblock JetEngine. Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Crocoblock JetEngine jet-engine allows DOM-Based XSS.This issue affects JetEngine: from n/a through 3.8.14.3.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-97237: Crocoblock JetEngine Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97237"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2018-25439"
+],
+"epss": 0.00469,
+"first_seen": "2026-11-01T02:39:19Z",
+"id": "CVE-2018-25439",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-01",
+"published": "2026-10-22T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "MetInfo MetInfo. MetInfo CMS 6.0.0 before 6.1.1 contains a path traversal vulnerability in /include/thumb.php that allows unauthenticated attackers to read arbitrary files via the dir parameter. Attackers can send crafted requests with backslash sequences bypassing the str_replace filter to read…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2018-25439: MetInfo MetInfo Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25439"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2021-48014"
+],
+"epss": 0.02031,
+"first_seen": "2026-11-01T02:39:19Z",
+"id": "CVE-2021-48014",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-01",
+"published": "2026-10-22T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "FanRuan FineReport. FineReport 9.0 contains a path traversal vulnerability in the /WebReport/ReportServer design_save_svg operation that allows unauthenticated attackers to write arbitrary files via the filePath parameter. Attackers can send a POST request with directory traversal sequences in…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-48014: Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48014"
+},
+{
+"category": "security",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-98432"
+],
+"epss": 0.00457,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "92d48920ef249d2b7a7428ba1067863c2b93fd998c53d8005a89824f1de0fb32",
+"last_seen": "2026-11-01",
+"published": "2026-10-29T15:57:05Z",
+"reasons": [
+"matches Linux kernel (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"Hacker News",
+"The Hacker News"
+],
+"summary": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit that uses the flaw to…",
+"tags": [
+"hn"
+],
+"title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+"url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+],
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-01T02:39:19Z",
+"id": "867019b8515a3a722e7f87e756acad7bc905712dbe4e3ec253c1781aba395e7f",
+"last_seen": "2026-11-01",
+"published": "2026-10-31T10:23:41Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
+"url": "https://piefed.world/post/1503394",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-01T02:39:19Z",
+"id": "7bf5111259ac02c5bac4ade4ce3191a87574172e48509f6c8796af10443d9144",
+"last_seen": "2026-11-01",
+"published": "2026-10-31T10:30:11Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Do the math: How we took over ChatGPT accounts",
+"url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+"weight": 3
 }
 ]
