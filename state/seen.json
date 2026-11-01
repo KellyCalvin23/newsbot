@@ -1768,7 +1768,7 @@
 "CVE-2026-97229"
 ],
 "meta": {
-"nvd_cursor": "2026-11-01T09:47:46Z"
+"nvd_cursor": "2026-11-01T16:27:10Z"
 },
 "seeded_sources": [
 "Al Jazeera",
@@ -1978,6 +1978,27 @@
 "title": "Survey Finds High-Profile Executives Feel Untouchable as Digital Exposure Turns Into Physical Risk",
 "url": "https://www.darkreading.com/cybersecurity-operations/360-privacy-survey-high-profile-executives-feel-untouchable"
 },
+"060d8f746789a511849199546350da2b2575acfcf52fd9668f900dbe16510ee9": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "060d8f746789a511849199546350da2b2575acfcf52fd9668f900dbe16510ee9",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T13:25:27Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Palestinians in Lebanon suffering worsened by high energy prices, inflation",
+"url": "https://www.aljazeera.com/features/2026/11/1/palestinians-in-lebanon-suffering-worsened-by-high-energy-prices-inflation?traffic_source=rss",
+"weight": 1
+},
 "0687fb60b4e518511941b17792ffbf06f4ef2df6f45a9d29640bea071fcc643e": {
 "category": "world",
 "coverage_count": 1,
@@ -2125,6 +2146,27 @@
 "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
 "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru"
 },
+"0c1c1310bbf6d25361c3ce24b52e12ea23088fe4b5442b09dcc4d791ec076411": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "0c1c1310bbf6d25361c3ce24b52e12ea23088fe4b5442b09dcc4d791ec076411",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T00:41:24Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
+"url": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo",
+"weight": 1
+},
 "0cfe1ce373683617e49fcbf3c99ee01bcfdbefaf2b9bf746e058c50ef18f94b2": {
 "category": "world",
 "coverage_count": 1,
@@ -2171,7 +2213,7 @@
 "coverage_count": 1,
 "first_seen": "2026-10-31T12:06:31Z",
 "id": "0d9111fbeb8bea9f4551bcd3485cfba7cb83576bf4b8b0dab44f7bde35088f78",
-"last_seen": "2026-10-31",
+"last_seen": "2026-11-01",
 "published": "2026-10-31T00:29:58Z",
 "route": "seed",
 "source": "BBC World",
@@ -2689,6 +2731,27 @@
 ],
 "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
 "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html"
+},
+"235587c2d8f2aa3051a9f348c15aa47833257da143130386b6d366e74b86e519": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "235587c2d8f2aa3051a9f348c15aa47833257da143130386b6d366e74b86e519",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T12:50:55Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Binance restarts withdrawals after $6.3bn heist",
+"url": "https://www.aljazeera.com/news/2026/11/1/binance-restarts-withdrawals-after-6-3bn-heist?traffic_source=rss",
+"weight": 1
 },
 "240047a900359f5176e589179a63e47bc303c6859d656f89e27f78e0a232d856": {
 "category": "world",
@@ -3254,6 +3317,22 @@
 "title": "Seabirds racing home over the ocean can get jet-lagged",
 "url": "https://arstechnica.com/science/2026/10/seabirds-racing-home-over-the-ocean-can-get-jet-lagged/"
 },
+"327d30b680bcd860f936cea8722f5d9ef713a35e2951b665a50107d337349671": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "327d30b680bcd860f936cea8722f5d9ef713a35e2951b665a50107d337349671",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T13:53:11Z",
+"route": "drop",
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+"url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/"
+},
 "32b43c6b43619167dc3fa713a820b96ab57b5d17f1cca451bb1d3edd47619e88": {
 "category": "world",
 "coverage_count": 1,
@@ -3457,6 +3536,43 @@
 ],
 "title": "British spy agency cannot account for thousands of data storage devices, watchdog says",
 "url": "https://therecord.media/gchq-cannot-account-for-thousands-of-data-devices"
+},
+"383a8062c87002a4756f9f3ea2b67c0e0d58e362f0610e4c7a64fc67d9a3d9df": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "383a8062c87002a4756f9f3ea2b67c0e0d58e362f0610e4c7a64fc67d9a3d9df",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T16:19:21Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "A fully playable version of Portal prequel F-Stop leaked",
+"url": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak"
+},
+"3846bcbb9a37378e24b31af8c03f9b67512d8050c818bbfab3e705551099f0b7": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "3846bcbb9a37378e24b31af8c03f9b67512d8050c818bbfab3e705551099f0b7",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T14:16:14Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Israel election: When will government be formed, who will lead it?",
+"url": "https://www.aljazeera.com/news/2026/11/1/israel-election-when-will-government-be-formed-who-will-lead-it?traffic_source=rss",
+"weight": 1
 },
 "38845b3b274fd5cd889c2158be3473b428e8d0df9fc22b6030106cfbc72270a3": {
 "category": "world",
@@ -3723,6 +3839,27 @@
 ],
 "title": "Protests outside Poland’s constitutional court: What’s the crisis about?",
 "url": "https://www.aljazeera.com/news/2026/10/31/protests-outside-polands-constitutional-court-whats-the-crisis-about?traffic_source=rss",
+"weight": 1
+},
+"458ed82cbfb4ac1038e920a2b24a0e1f2f67a91b05badc84da62bde8ec313bb1": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "458ed82cbfb4ac1038e920a2b24a0e1f2f67a91b05badc84da62bde8ec313bb1",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T14:10:59Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Israeli attacks on Gaza kill at least nine people",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/israeli-attacks-on-gaza-kill-at-least-nine-people?traffic_source=rss",
 "weight": 1
 },
 "45a39f31a305e1eb5d804fabea0c1324dff88b89be8c1d33f233fd8334b76030": {
@@ -4045,6 +4182,27 @@
 "title": "Hackers steal $6.3 billion from Binance in record crypto heist",
 "url": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/"
 },
+"4d0c8208999ebaaea3a631f2632a2ba2964a5d0d854d99e426530df3ba562d04": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "4d0c8208999ebaaea3a631f2632a2ba2964a5d0d854d99e426530df3ba562d04",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T13:36:16Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "At least eight Palestinians killed in Israeli attacks across Gaza",
+"url": "https://www.aljazeera.com/news/2026/11/1/at-least-eight-palestinians-killed-in-israeli-attacks-across-gaza?traffic_source=rss",
+"weight": 1
+},
 "4d93a5f385685ca00a149b1b8373f4cdf5e7e6a381e1e7539b86d5a2ea569c11": {
 "category": "world",
 "coverage_count": 1,
@@ -4077,6 +4235,27 @@
 ],
 "title": "Lebanon charges 13 over confiscated Hezbollah explosives",
 "url": "https://www.aljazeera.com/news/2026/10/31/lebanon-charges-13-over-hezbollah-confiscated-explosives?traffic_source=rss",
+"weight": 1
+},
+"4f7d5e4317240340765071c1e81670b7427ac316cc27349bac80b283599b903b": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "4f7d5e4317240340765071c1e81670b7427ac316cc27349bac80b283599b903b",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T14:46:03Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Photos: Thousands join India’s opposition rally against election chief",
+"url": "https://www.aljazeera.com/gallery/2026/11/1/photos-indian-opposition-rallies-against-elections-chief?traffic_source=rss",
 "weight": 1
 },
 "508329150a8aa6a04ec8b034aeddac15a49ef4f9960b2e24ac1c03c3485b12c5": {
@@ -4747,6 +4926,27 @@
 "url": "https://allafrica.com/stories/202610300199.html",
 "weight": 1
 },
+"63c377279c24b2959170c3e3dd2e530640e31913baecad7b640121db64824969": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "63c377279c24b2959170c3e3dd2e530640e31913baecad7b640121db64824969",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T13:33:09Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Liverpool vs Arsenal live: Premier League",
+"url": "https://www.aljazeera.com/sports/liveblog/2026/11/1/liverpool-vs-arsenal-live-premier-league?traffic_source=rss",
+"weight": 1
+},
 "648fd736b20c69fd585c6fb77dbec8a1ff39257fa5a60ae610b72e2ed39d3061": {
 "category": "world",
 "coverage_count": 1,
@@ -4997,6 +5197,30 @@
 }
 ]
 },
+"69246496ccc68901bd0a843a30458f3fb1e85bbc2e8b3a1d6aa00f297696413c": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "69246496ccc68901bd0a843a30458f3fb1e85bbc2e8b3a1d6aa00f297696413c",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T10:47:58Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Restrooms along the Norwegian Scenic Routes",
+"url": "https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/",
+"weight": 3
+},
 "6939b49721dae4f314e948427d7907299391348c0a0f17063ca62f2b2cd91876": {
 "category": "security",
 "coverage_count": 1,
@@ -5033,6 +5257,38 @@
 "title": "Ethiopian PM puts ministers through military training",
 "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o",
 "weight": 1
+},
+"6a94c883014ce4747934a8fde2983cff6ef8632603db57a2ec7c255c896c278f": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "6a94c883014ce4747934a8fde2983cff6ef8632603db57a2ec7c255c896c278f",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-01",
+"published": "2026-11-01T15:11:21Z",
+"reasons": [
+"RCE",
+"matches GitLab (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+"url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "GitLab",
+"tier": 3,
+"vendor": "GitLab"
+}
+]
 },
 "6b82dc3bec2a4a1f3b748419c7384f1290a768b67e844e5ad7b0fca5c51f6b73": {
 "category": "security",
@@ -5153,6 +5409,27 @@
 ],
 "title": "Chelsea beat Man United as Martinez sent off to pile pressure on Carrick",
 "url": "https://www.aljazeera.com/sports/2026/10/31/chelsea-beat-man-united-as-martinez-sees-red-for-crazy-moment-in-thriller?traffic_source=rss",
+"weight": 1
+},
+"6d7e27b1ed45f20d9d335f6c4886ea86a39cab010454b03171b10e73989dcc2d": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "6d7e27b1ed45f20d9d335f6c4886ea86a39cab010454b03171b10e73989dcc2d",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T00:27:33Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Judge orders Trump administration to stop threatening US election officials",
+"url": "https://www.bbc.co.uk/news/articles/c8qln1539y37o",
 "weight": 1
 },
 "6dcbc5a23f0513cfd01ee7cf13c9fb0c78136ff7b6a8385dd78498a3c9bdc204": {
@@ -5499,6 +5776,27 @@
 ],
 "title": "The Indian chef who brought curry to America - then vanished",
 "url": "https://www.bbc.co.uk/news/articles/crm941n0413o",
+"weight": 1
+},
+"7639e4d06c2e5f3afa1d290d1586a90a5a2632037f8702ca0825e586c47a1656": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "7639e4d06c2e5f3afa1d290d1586a90a5a2632037f8702ca0825e586c47a1656",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T13:47:53Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Macklemore concludes ‘Free Palestine’ tour with solidarity message",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/macklemore-concludes-free-palestine-tour-with-solidarity-message?traffic_source=rss",
 "weight": 1
 },
 "768d5968f99e4ae76ddc066098c0770bb81324cb6ca443e78bc7b93faa6cc927": {
@@ -6060,6 +6358,27 @@
 "title": "I built an AI Tamagotchi before Meta could",
 "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code"
 },
+"88e3149cc34597b8e235ef2c247b181a8961758433eb3532bb82c0b518935a86": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "88e3149cc34597b8e235ef2c247b181a8961758433eb3532bb82c0b518935a86",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T13:03:38Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Michigan race: All you need to know about Abdul El-Sayed v Mike Rogers",
+"url": "https://www.aljazeera.com/news/2026/11/1/michigan-race-all-you-need-to-know-about-abdul-el-sayed-v-mike-rogers?traffic_source=rss",
+"weight": 1
+},
 "88f093538db41f272bb2e170173597610c230005256f0b6fbc0395ff0ef76a16": {
 "category": "world",
 "coverage_count": 1,
@@ -6308,6 +6627,27 @@
 "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
 "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/"
 },
+"8cc498098a60edaf253e89401886ca19423770da56457a25572ab870acb92464": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "8cc498098a60edaf253e89401886ca19423770da56457a25572ab870acb92464",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T11:26:08Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Thousands rally in New Delhi to demand India’s election chief resign",
+"url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign?traffic_source=rss",
+"weight": 1
+},
 "8d8c83bda4aa012dd0d3f7572de12b573c85251525c73ba4c0fdbe34e4bf6146": {
 "category": "security",
 "coverage_count": 1,
@@ -6381,6 +6721,27 @@
 ],
 "title": "Iran lawmakers call for withdrawal from NPT: Will we have war or peace?",
 "url": "https://www.aljazeera.com/news/2026/10/31/iran-lawmakers-call-for-withdrawal-from-npt-will-we-have-war-or-peace?traffic_source=rss",
+"weight": 1
+},
+"8fdbd98c00bc53292cc22f93404753441c45fb75e3189ffbab7c93c1eb34b0f7": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "8fdbd98c00bc53292cc22f93404753441c45fb75e3189ffbab7c93c1eb34b0f7",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T13:02:10Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Iran and US explore diplomacy amid rising threats of war",
+"url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war?traffic_source=rss",
 "weight": 1
 },
 "909bcf09ef167e87c97a02965c1499b0897b2da6a22ac601d57c9e7f93fe1f1f": {
@@ -6602,6 +6963,27 @@
 "title": "Exclusive details about Akai’s MPC Sample Key",
 "url": "https://www.theverge.com/gadgets/1023649/akai-mpc-sample-key-exclusive"
 },
+"979059696975783e4199668099cf7909f818bb66aa083a63a3674b30e401ab83": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "979059696975783e4199668099cf7909f818bb66aa083a63a3674b30e401ab83",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T15:36:13Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Serbia arrests police chief over abuse of office allegations",
+"url": "https://www.aljazeera.com/news/2026/11/1/serbia-arrests-police-chief-over-abuse-of-office-allegations?traffic_source=rss",
+"weight": 1
+},
 "97de3228ce74d02113d37095f2b10fc15e9fe286054b05c1afefc1c9ceccea2a": {
 "category": "world",
 "coverage_count": 1,
@@ -6634,6 +7016,27 @@
 ],
 "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
 "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html"
+},
+"9865f7e76891b235d20deabffb01d2e0608317462f89d2bfa0b36581e904295f": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "9865f7e76891b235d20deabffb01d2e0608317462f89d2bfa0b36581e904295f",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T15:38:12Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "JERUSALEM DAILY: Israel continues siege and arrests in Hebron",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/jerusalem-daily-israel-continues-siege-and-arrests-in-hebron?traffic_source=rss",
+"weight": 1
 },
 "988b4faf7731c582834b594cf481331cea5ce7ec085dff1c37980a432e4b17c0": {
 "category": "security",
@@ -12163,6 +12566,37 @@
 ],
 "title": "CVE-2026-34892: Rank Math seo Missing Authorization",
 "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34892"
+},
+"CVE-2026-39738": {
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-39738"
+],
+"cvss": 9.8,
+"epss": 0.00408,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "CVE-2026-39738",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-39738: Deserialization of Untrusted Data",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39738"
 },
 "CVE-2026-40281": {
 "category": "vulnerabilities",
@@ -23599,6 +24033,27 @@
 "url": "https://allafrica.com/stories/202610300269.html",
 "weight": 1
 },
+"a6f0887e524122db88be990b4a43dd1251947c38d0f0fdf7857f352ad50b5c73": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "a6f0887e524122db88be990b4a43dd1251947c38d0f0fdf7857f352ad50b5c73",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T14:26:43Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Why is Morocco celebrating the defeat of a UN resolution on Western Sahara?",
+"url": "https://www.aljazeera.com/news/2026/11/1/why-is-morocco-celebrating-the-defeat-of-a-un-resolution-on-western-sahara?traffic_source=rss",
+"weight": 1
+},
 "a71956b82a7e36d5c7d2d7e4ba6475f6d8525e19a751b6d058cc3fa1f772132a": {
 "category": "world",
 "coverage_count": 1,
@@ -23668,6 +24123,27 @@
 ],
 "title": "Human rights lawyer couple sentenced to 10 years' prison in Pakistan",
 "url": "https://www.bbc.co.uk/news/articles/crq5nplyvlg8o",
+"weight": 1
+},
+"aa3efeb6972b03fc6a0b9ffcff02fbf5b2aaa6514f55e62f91c34564ab89d03a": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "aa3efeb6972b03fc6a0b9ffcff02fbf5b2aaa6514f55e62f91c34564ab89d03a",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T13:43:57Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Ireland’s European athletics champion Ciara Mageean dies aged 34",
+"url": "https://www.aljazeera.com/sports/2026/11/1/irelands-european-athletics-champion-ciara-mageean-dies-aged-34?traffic_source=rss",
 "weight": 1
 },
 "aa47637c75056bf7fa31d24a868bd06a08932ec7efc04fb8b3a3525fc73e3670": {
@@ -23887,6 +24363,27 @@
 }
 ]
 },
+"ae65a5f749e64674bb7463ca560f871fa30b27fbae43eaa070e7ae138cd99dcf": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "ae65a5f749e64674bb7463ca560f871fa30b27fbae43eaa070e7ae138cd99dcf",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T13:42:25Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "US midterms live: Trump, Democrats in last-ditch efforts before polls",
+"url": "https://www.aljazeera.com/news/liveblog/2026/11/1/us-midterms-live-last-ditch-efforts-ahead-of-tuesdays-elections?traffic_source=rss",
+"weight": 1
+},
 "b0a5b85f2f505a8ffe0e629ae696ccde1fbd71e4f7aae44b3510c4a2f049a48b": {
 "category": "security",
 "coverage_count": 1,
@@ -23984,6 +24481,27 @@
 ],
 "title": "L’Italia è afflitta da vulnerabilità informatiche, senza una causa chiara",
 "url": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy-italian"
+},
+"b22367513762e042897aad16380aa2d7ae5eda1d03889fada2193b0e1005f8e2": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "b22367513762e042897aad16380aa2d7ae5eda1d03889fada2193b0e1005f8e2",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T15:24:08Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Burnham ‘open’ to UK slavery apology, but not reparations: Why now?",
+"url": "https://www.aljazeera.com/news/2026/11/1/burnham-open-to-uk-slavery-apology-but-not-reparations-why-now?traffic_source=rss",
+"weight": 1
 },
 "b2777bedd6174cab2e58a077a291ea5e4b547d68e5d35659e4b655fbd0389340": {
 "category": "world",
@@ -24138,6 +24656,22 @@
 "url": "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo",
 "weight": 1
 },
+"b77091df521f363cfd7b84a077639ea7f8b090a89e0144f895f5039c2bac4ea1": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "b77091df521f363cfd7b84a077639ea7f8b090a89e0144f895f5039c2bac4ea1",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T13:00:00Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Prop 45 in California could be hiding a loophole for data centers",
+"url": "https://www.theverge.com/policy/1023877/prop-45-california-data-centers-energy"
+},
 "b840130ea00004798cdef55d1c2bf94cbf180ca7ad272bb75358bc21365c68bb": {
 "category": "world",
 "coverage_count": 1,
@@ -24170,6 +24704,27 @@
 ],
 "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
 "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo",
+"weight": 1
+},
+"ba7608a1781277d90a6e4292ad69927152e3f66bbcbbfa0fb00c7d5624161bdf": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "ba7608a1781277d90a6e4292ad69927152e3f66bbcbbfa0fb00c7d5624161bdf",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T13:32:59Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "More than 50 million votes cast in US midterm elections: What does it mean?",
+"url": "https://www.aljazeera.com/news/2026/11/1/more-than-50-million-votes-cast-in-us-midterm-elections-what-does-it-mean?traffic_source=rss",
 "weight": 1
 },
 "baf4c173319af267454ad62054e443c39937009f15fee2a82c966216a6f68b61": {
@@ -24305,6 +24860,27 @@
 "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo",
 "weight": 1
 },
+"bfa681480f9d7a4fd89434160162550151b3367fb4ab7f3ce25a54c31d21c214": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "bfa681480f9d7a4fd89434160162550151b3367fb4ab7f3ce25a54c31d21c214",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T13:16:03Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Qatar unveils countdown clock for 2027 Basketball World Cup",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/qatar-unveils-countdown-clock-for-2027-basketball-world-cup?traffic_source=rss",
+"weight": 1
+},
 "bfc424b3bcfe29bf5522ae9f48334f4c3ba696f29a15dbdc736a804d80c7dd00": {
 "category": "security",
 "coverage_count": 1,
@@ -24355,6 +24931,27 @@
 "prompt injection"
 ],
 "url": "https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown"
+},
+"c05c8c90509c757163489237cf4a26e8c75a3f035740f7e84a0640ee1af11a84": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "c05c8c90509c757163489237cf4a26e8c75a3f035740f7e84a0640ee1af11a84",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T12:12:31Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Fire engulfs hotel in Nepal along Everest Base Camp route",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/fire-engulfs-hotel-in-nepal-along-everest-base-camp-route?traffic_source=rss",
+"weight": 1
 },
 "c2035ff64d5c35d90efea4b916dc1776cc3dc1494f8494652cbc12863408097c": {
 "category": "tech",
@@ -24426,6 +25023,34 @@
 "url": "https://www.bbc.co.uk/news/videos/cj040yd1xdrlo",
 "weight": 1
 },
+"c3dac15e90ab8e887217e787093549ba33be4392df1c1edc34db9619cd17c671": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "c3dac15e90ab8e887217e787093549ba33be4392df1c1edc34db9619cd17c671",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T14:00:00Z",
+"reasons": [
+"matches Apple (Tier 2)"
+],
+"route": "drop",
+"score": 2,
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "HomePod Mini 2 first look: Three things I love and one disappointment",
+"url": "https://www.theverge.com/tech/1024108/homepod-mini-2-hands-on-siri-smart-home-mac-speaker",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apple",
+"tier": 2,
+"vendor": "Apple"
+}
+]
+},
 "c4fd76bcb319f4d8631faa0ed9e428075cba162283fa94d2f25d1bb9b7093833": {
 "category": "world",
 "coverage_count": 1,
@@ -24467,6 +25092,30 @@
 "title": "Brighton shock Man City, closing gap on Premier League leader to two points",
 "url": "https://www.aljazeera.com/sports/2026/10/31/brighton-shock-man-city-closing-gap-on-premier-league-leader-to-two-points?traffic_source=rss",
 "weight": 1
+},
+"c54f207d0ccaae20bf048fb0bb67227e1fce541fbe0029242cc6022142ba0464": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "c54f207d0ccaae20bf048fb0bb67227e1fce541fbe0029242cc6022142ba0464",
+"last_seen": "2026-11-01",
+"published": "2026-10-31T22:46:12Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+"url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+"weight": 3
 },
 "c8524c9c25c1e2480b68cbba253b4d637961062aa00a9c026c45c24d0def5056": {
 "category": "tech",
@@ -24616,6 +25265,43 @@
 "url": "https://allafrica.com/stories/202610290344.html",
 "weight": 1
 },
+"cefaab1a9be4bf10bf360e0f839396259b2e633d7210fc69b756da3fb88a7697": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "cefaab1a9be4bf10bf360e0f839396259b2e633d7210fc69b756da3fb88a7697",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T14:33:11Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "North Korea linked to massive Binance crypto heist",
+"url": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist"
+},
+"cf0f4e5aaab21077aee25c6450b8c8dafd40218c77ddc63bf09dd64d648a9b75": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "cf0f4e5aaab21077aee25c6450b8c8dafd40218c77ddc63bf09dd64d648a9b75",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T12:45:44Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Senegal kicks off the Youth Games 2026",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/senegal-kicks-off-the-youth-games-2026?traffic_source=rss",
+"weight": 1
+},
 "cf5c078a08808e0c72735b00d8b2b7de86186e9d477e8450714fd5231ae4aa0e": {
 "category": "tech",
 "coverage_count": 1,
@@ -24631,6 +25317,22 @@
 ],
 "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
 "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
+},
+"cf8e1e918bfc26d29bfb80643fbd7942a85bfdb2bb106504d1d63cc691c9ab3e": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "cf8e1e918bfc26d29bfb80643fbd7942a85bfdb2bb106504d1d63cc691c9ab3e",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T11:15:00Z",
+"route": "drop",
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
+"url": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/"
 },
 "cfa0f1cbe5c408e2f6b6a42a8fdcaf82fd5f952c503ec77b8f7a64221eaa13df": {
 "category": "security",
@@ -25113,6 +25815,22 @@
 "url": "https://allafrica.com/stories/202610300205.html",
 "weight": 1
 },
+"dd412d3827780041037806aad15c5c8f75a0eea7bfebd3723a98a922b7c95856": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "dd412d3827780041037806aad15c5c8f75a0eea7bfebd3723a98a922b7c95856",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T13:00:00Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "New Zelda and GTA represent a games industry that no longer exists",
+"url": "https://www.theverge.com/column/1022402/new-zelda-and-gta-represent-a-games-industry-that-no-longer-exists"
+},
 "dd4796f74d80496fce13ad657eea648e49f51084ad1dc028b924efaa688378d8": {
 "category": "security",
 "coverage_count": 1,
@@ -25225,6 +25943,27 @@
 ],
 "title": "UFC champion Islam Makhachev says his next fight will be ‘one of last’",
 "url": "https://www.aljazeera.com/sports/2026/10/31/islam-makhachev-ufc-welterweight-title-one-of-last-fight-prates-morales?traffic_source=rss",
+"weight": 1
+},
+"e29379584f981c6dee5b54cdc3b9a40c5c96a0a504a55eb720f8962d55b7c268": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "e29379584f981c6dee5b54cdc3b9a40c5c96a0a504a55eb720f8962d55b7c268",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T15:40:58Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Dramatic helicopter rescue saves climbers stranded on Italian cliff",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/dramatic-helicopter-rescue-saves-climbers-stranded-on-italian-cliff?traffic_source=rss",
 "weight": 1
 },
 "e2cfc74bf9fd3384b5a552a7ec6a4cbb50f0255977ee8a967a53367af054d85c": {
@@ -25341,6 +26080,29 @@
 "url": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?traffic_source=rss",
 "weight": 1
 },
+"e7728f36d406044e22b66228527a9dbf49d66993b27ba4626bec1fdc38f401f9": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "e7728f36d406044e22b66228527a9dbf49d66993b27ba4626bec1fdc38f401f9",
+"last_seen": "2026-11-01",
+"muted_hits": [
+"deal"
+],
+"published": "2026-11-01T15:50:19Z",
+"reasons": [
+"muted: deal"
+],
+"route": "drop",
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Trump slams ex-lawyer’s $50m deal with pardoned banker’s family",
+"url": "https://www.aljazeera.com/news/2026/11/1/trump-slams-ex-lawyers-50m-deal-with-pardoned-bankers-family?traffic_source=rss",
+"weight": 1
+},
 "e7af6854f5f3a95846b81439ca50e9dff2b8154cbd00b2103fcd605495f442d5": {
 "category": "world",
 "coverage_count": 1,
@@ -25427,6 +26189,27 @@
 "vendor": "Cisco"
 }
 ]
+},
+"e890669197a762d326eb1d1efe3b891be1695665fc526ef9f00d05a44cc93dc8": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "e890669197a762d326eb1d1efe3b891be1695665fc526ef9f00d05a44cc93dc8",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T12:32:24Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Yamaha pulls out of Qatar MotoGP over ‘situation in the Middle East’",
+"url": "https://www.aljazeera.com/sports/2026/11/1/yamaha-pulls-out-of-qatar-motogp-over-situation-in-the-middle-east?traffic_source=rss",
+"weight": 1
 },
 "e89bc26266a3b531af01779a68f3b79728d4c40d60cb0e8b862e6be17c376137": {
 "category": "tech",
@@ -25839,6 +26622,27 @@
 ],
 "title": "Dead dolphins, naval mines: Russia-Ukraine war destroys the Black Sea",
 "url": "https://www.aljazeera.com/news/2026/10/31/dead-dolphins-naval-mines-russia-ukraine-war-destroys-the-black-sea?traffic_source=rss",
+"weight": 1
+},
+"f1effddbc632933ef513832edb15bf0146daa1a6bd6a834eb697a3e6cee7a3d7": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T16:27:10Z",
+"id": "f1effddbc632933ef513832edb15bf0146daa1a6bd6a834eb697a3e6cee7a3d7",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T11:14:27Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Mediators continue US-Iran negotiations amid war rhetoric: What we know",
+"url": "https://www.aljazeera.com/news/2026/11/1/mediators-continue-us-iran-negotiations-amid-war-rhetoric-what-we-know?traffic_source=rss",
 "weight": 1
 },
 "f32ee3e9b9696d0ad7fa0326f8192f9ffbb3ccb0935fc301eacd27ee0aba855d": {
