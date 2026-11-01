@@ -111,5 +111,90 @@
 "title": "Restrooms along the Norwegian Scenic Routes",
 "url": "https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-107759"
+],
+"cvss": 7.2,
+"epss": 0.00272,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "CVE-2026-107759",
+"last_seen": "2026-11-01",
+"published": "2026-10-31T08:16:48Z",
+"reasons": [
+"CVSS 7.2",
+"matches Microsoft (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The WPO365 | MICROSOFT 365 GRAPH MAILER plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'Subject (via wp_mail/PHPMailer, e.g. CF7 your-subject)' parameter in all versions up to, and including, 6.2 due to insufficient input sanitization and output escaping. This makes it…",
+"title": "CVE-2026-107759: The WPO365 | MICROSOFT 365 GRAPH MAILER plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'Subject (via…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107759",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "f3964cf0345a1e4c718d5202e61ecc973586d8fe8ec483ef546adf8bbf1f75bb",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T15:58:28Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+"url": "https://hackerbooks.org",
+"weight": 3
+},
+{
+"big_story_hits": [
+"ceasefire"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "244da312b8560aa26dfd69a759d503fa88101bf73b5e10815f46ec0936e4a6a3",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T19:48:17Z",
+"reasons": [
+"big story: ceasefire",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "A rare humanitarian ceasefire has allowed civilians to evacuate the Russian-occupied city of Oleshky.",
+"title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire to end",
+"url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo",
+"weight": 1
 }
 ]

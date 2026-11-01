@@ -1768,7 +1768,7 @@
 "CVE-2026-97229"
 ],
 "meta": {
-"nvd_cursor": "2026-11-01T16:27:10Z"
+"nvd_cursor": "2026-11-01T20:45:59Z"
 },
 "seeded_sources": [
 "Al Jazeera",
@@ -2388,6 +2388,27 @@
 "url": "https://www.aljazeera.com/sports/2026/10/31/west-indies-bangladesh-first-test-eight-wickets-mirpur-series-lead?traffic_source=rss",
 "weight": 1
 },
+"1547b394f08414871962a7c075cc772b50d5d762e2a7f86dffd2f0b0ac0c4fea": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "1547b394f08414871962a7c075cc772b50d5d762e2a7f86dffd2f0b0ac0c4fea",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T16:19:57Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Trump rallies in Iowa, Kansas to maintain Republican control of US Senate",
+"url": "https://www.aljazeera.com/news/2026/11/1/trump-rallies-in-iowa-kansas-to-maintain-republican-control-of-us-senate?traffic_source=rss",
+"weight": 1
+},
 "155f89493f895f684cb6bb6ef365617900e924628737060f776debd02c64c9f2": {
 "category": "world",
 "coverage_count": 1,
@@ -2773,6 +2794,31 @@
 "url": "https://allafrica.com/stories/202610300124.html",
 "weight": 1
 },
+"244da312b8560aa26dfd69a759d503fa88101bf73b5e10815f46ec0936e4a6a3": {
+"big_story_hits": [
+"ceasefire"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "244da312b8560aa26dfd69a759d503fa88101bf73b5e10815f46ec0936e4a6a3",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T19:48:17Z",
+"reasons": [
+"big story: ceasefire",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire to end",
+"url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo",
+"weight": 1
+},
 "25abc74f2f252cc0f1dc4405e8a5abbdadf08b73bcdaa095bb669335d8b920b3": {
 "category": "security",
 "coverage_count": 1,
@@ -3141,6 +3187,27 @@
 }
 ]
 },
+"2f7a559356806d5c1c30b6227f2022f22521817d10314970558bbb85da77df9b": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "2f7a559356806d5c1c30b6227f2022f22521817d10314970558bbb85da77df9b",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T18:51:56Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Peaceful protests in Germany spiral into violence and looting",
+"url": "https://www.bbc.co.uk/news/videos/cqgm0der7zkmo",
+"weight": 1
+},
 "2f9a655cf6e1ab45596b26cbdcbe5c7ff058398376bce57cd3701e75b08e8eaa": {
 "category": "security",
 "coverage_count": 1,
@@ -3260,6 +3327,43 @@
 "vendor": "Oracle"
 }
 ]
+},
+"30ae278579a739edf3faea315fac793e5fe0f9c1a405b75693b0bf0fd641d40e": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "30ae278579a739edf3faea315fac793e5fe0f9c1a405b75693b0bf0fd641d40e",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T19:57:53Z",
+"route": "drop",
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+"url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/"
+},
+"317089a9e223424f96291ef2a6b926029ea22d2be62ad3be44483ad39838ae7c": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "317089a9e223424f96291ef2a6b926029ea22d2be62ad3be44483ad39838ae7c",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T18:58:23Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "France opens ‘attempted murder’ probe into petrol bomb attacks on police",
+"url": "https://www.aljazeera.com/news/2026/11/1/france-opens-attempted-murder-probe-into-molotov-attacks-on-police?traffic_source=rss",
+"weight": 1
 },
 "31ae387e67e784a45e630d063490fd0bcbaa53afd168d9c6d166cfb46e60a6ae": {
 "category": "world",
@@ -3720,6 +3824,27 @@
 "title": "The FDA wants to pull its approval of a drug. It’s not so easy.",
 "url": "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/"
 },
+"3f14925475b8aceedd099e2c0bb365cc229c8058fdac068ae26d65582112c9c4": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "3f14925475b8aceedd099e2c0bb365cc229c8058fdac068ae26d65582112c9c4",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T16:59:41Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Al Jazeera marks 30 years of transforming news in Middle East and beyond",
+"url": "https://www.aljazeera.com/news/2026/11/1/al-jazeera-celebrates-30-years-of-transforming-news-in-region-and-beyond?traffic_source=rss",
+"weight": 1
+},
 "3f7709eaa6570bb6834f7bfcf8ebd0ba408e678b781ca5f95e13577d439fdb35": {
 "category": "security",
 "coverage_count": 1,
@@ -3808,6 +3933,27 @@
 }
 ]
 },
+"41e0ada9e5cecd897d1d0ed1e89384c1d1d261d359fa8d7764be67f9d2145cbd": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "41e0ada9e5cecd897d1d0ed1e89384c1d1d261d359fa8d7764be67f9d2145cbd",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T20:11:26Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat escalates",
+"url": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o",
+"weight": 1
+},
 "43264eb7fc2af957407a6a413542b04e2522af5ad35441a3789de6101468bc89": {
 "category": "tech",
 "coverage_count": 1,
@@ -3823,6 +3969,55 @@
 ],
 "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
 "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/"
+},
+"43a80c40e0c97b67d4299a9735a05db9c901e2138b45e1a148093c3fed2d73bb": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "43a80c40e0c97b67d4299a9735a05db9c901e2138b45e1a148093c3fed2d73bb",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T17:16:07Z",
+"reasons": [
+"matches Apple (Tier 2)"
+],
+"route": "drop",
+"score": 2,
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Apple’s HomeView could add security camera features",
+"url": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apple",
+"tier": 2,
+"vendor": "Apple"
+}
+]
+},
+"43f51fac352b7d6b2188aa32f052ee6e4385293b29a4bfa5b12a263b17d8a814": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "43f51fac352b7d6b2188aa32f052ee6e4385293b29a4bfa5b12a263b17d8a814",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T18:51:07Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Michigan Dem Haley Stevens endorses Republican Senate candidate Mike Rogers",
+"url": "https://www.aljazeera.com/news/2026/11/1/michigan-dem-haley-stevens-endorses-republican-senate-candidate-mike-rogers?traffic_source=rss",
+"weight": 1
 },
 "454d3cb60d18f2f11f8687a85bd6392ea980f861f1ed1262ad09d23e3f17207d": {
 "category": "world",
@@ -4006,6 +4201,27 @@
 ],
 "title": "Review: You Can See Everything blurs the view of Elizabeth Holmes' deceit",
 "url": "https://arstechnica.com/culture/2026/10/review-you-can-see-everything-blurs-the-view-of-elizabeth-holmes-deceit/"
+},
+"4755e5c4169908fe1043e618f651641214a7de33a77afe67b95722d12f880ff1": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "4755e5c4169908fe1043e618f651641214a7de33a77afe67b95722d12f880ff1",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T18:37:37Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Sullivan vows to honour Alaska race outcome, US judge dismisses DOJ lawsuit",
+"url": "https://www.aljazeera.com/news/2026/11/1/sullivan-vows-to-honour-alaska-race-outcome-us-judge-dismisses-doj-lawsuit?traffic_source=rss",
+"weight": 1
 },
 "4758820f20a411b49ccd1a902a9951547af8af9e0b7e2c1ccd20ecbb40737f66": {
 "category": "world",
@@ -5708,6 +5924,27 @@
 "url": "https://www.bbc.co.uk/news/articles/c893z699q401o",
 "weight": 1
 },
+"740b15a6b4135d86c4f901dca4d579b1911f34a68e89dd1b1eaac914bf57841d": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "740b15a6b4135d86c4f901dca4d579b1911f34a68e89dd1b1eaac914bf57841d",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T17:56:47Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Armed police start patrols in Sydney after Bondi Beach attack",
+"url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro",
+"weight": 1
+},
 "7454715217ac4c360e4d6e3156eee526c5937b20eb66c0ead02b431befe8a989": {
 "category": "security",
 "coverage_count": 1,
@@ -6121,6 +6358,27 @@
 ],
 "title": "Who Is Eric Nshimiye, the Genocide Suspect Convicted By U.S. Court?",
 "url": "https://allafrica.com/stories/202610300162.html",
+"weight": 1
+},
+"7e64e3c3e1401fc760b9ea1fc1170db51f16ed2b1c4fa9b0ba18fbe54a4a4fe1": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "7e64e3c3e1401fc760b9ea1fc1170db51f16ed2b1c4fa9b0ba18fbe54a4a4fe1",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T16:17:37Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Al Jazeera Balkans relaunches in new digital-first format",
+"url": "https://www.aljazeera.com/news/2026/11/1/al-jazeera-balkans-relaunches-in-new-digital-first-format?traffic_source=rss",
 "weight": 1
 },
 "7fccd0fa0981b50afe98ac5dd0e04628a1dd0ae2dd859bd2931807a8c7719764": {
@@ -6871,6 +7129,27 @@
 ],
 "weight": 3
 },
+"92f32ee1c9707ae9125c626b575f59effb2e0058712e1ae32f272bc9d9d1a0c0": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "92f32ee1c9707ae9125c626b575f59effb2e0058712e1ae32f272bc9d9d1a0c0",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T17:29:08Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Lindsay Clancy is back in court - where will her case go next?",
+"url": "https://www.bbc.co.uk/news/articles/ck3r5z3pw928o",
+"weight": 1
+},
 "9487194795c94bc1377c9585599439856c739571003a05ef027d8a02940ef8c9": {
 "category": "security",
 "coverage_count": 1,
@@ -6946,6 +7225,27 @@
 "vendor": "Apple"
 }
 ]
+},
+"96e229921ecf217e02d1c124ffc1daab3763102c07a3d47f1105de1fb685a1c9": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "96e229921ecf217e02d1c124ffc1daab3763102c07a3d47f1105de1fb685a1c9",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T16:42:18Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "India protesters march with 1km banner of deleted voters’ names",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/india-protesters-march-with-1km-banner-of-deleted-voters-names?traffic_source=rss",
+"weight": 1
 },
 "9789039a5bee3aaa69ce575b476efff0f29a4a8f6b747ca85f97ca4138d427bc": {
 "category": "tech",
@@ -7310,6 +7610,27 @@
 ],
 "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
 "url": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/"
+},
+"9f724ef3fc6170cc0c0341a9b9b81820b4d72120792558c095a307f1f38d8b23": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "9f724ef3fc6170cc0c0341a9b9b81820b4d72120792558c095a307f1f38d8b23",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T16:24:16Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Russia detains minor over alleged Moscow attack plot after US warning",
+"url": "https://www.aljazeera.com/news/2026/11/1/russia-detains-minor-over-alleged-moscow-attack-plot-after-us-warning?traffic_source=rss",
+"weight": 1
 },
 "CVE-2010-20125": {
 "category": "vulnerabilities",
@@ -9023,6 +9344,40 @@
 "term": "FortiSIEM",
 "tier": 1,
 "vendor": "Fortinet"
+}
+]
+},
+"CVE-2026-107759": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-107759"
+],
+"cvss": 7.2,
+"epss": 0.00272,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "CVE-2026-107759",
+"last_seen": "2026-11-01",
+"published": "2026-10-31T08:16:48Z",
+"reasons": [
+"CVSS 7.2",
+"matches Microsoft (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-107759: The WPO365 | MICROSOFT 365 GRAPH MAILER plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'Subject (via…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107759",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
 }
 ]
 },
@@ -23882,6 +24237,27 @@
 "title": "Reddit is moving to “a logged-in-only experience,” CEO says",
 "url": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/"
 },
+"a25273d27ae9e89e6a8b55ddb344967d91ffc15925844f71c352e2fac3853074": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "a25273d27ae9e89e6a8b55ddb344967d91ffc15925844f71c352e2fac3853074",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T17:05:18Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "University of Cambridge scientist among those who died in Spanish train crash",
+"url": "https://www.bbc.co.uk/news/articles/cq5ynzvkn1d8o",
+"weight": 1
+},
 "a28f18779991abf48511fd9ca7911a5209f016273aad8d9c9dc8d0510968348e": {
 "category": "world",
 "coverage_count": 1,
@@ -25117,6 +25493,27 @@
 "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
 "weight": 3
 },
+"c71bae562b02f65a6bf7df6f77d4840e7a78b8aa9a45251ce2dbba8cb0bbe1ac": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "c71bae562b02f65a6bf7df6f77d4840e7a78b8aa9a45251ce2dbba8cb0bbe1ac",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T17:30:45Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Hebron siege continues for 10th day as Israel threatens wider offensive",
+"url": "https://www.aljazeera.com/news/2026/11/1/hebron-siege-continues-for-10th-day-as-israel-threatens-wider-offensive?traffic_source=rss",
+"weight": 1
+},
 "c8524c9c25c1e2480b68cbba253b4d637961062aa00a9c026c45c24d0def5056": {
 "category": "tech",
 "coverage_count": 1,
@@ -25132,6 +25529,27 @@
 ],
 "title": "GM to pay $220 million after selling customer Smart Driver data",
 "url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/"
+},
+"c8f2426b5fc1bc30d987154e3feb6d09210db21310957bc99bbef2e8e86486bd": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "c8f2426b5fc1bc30d987154e3feb6d09210db21310957bc99bbef2e8e86486bd",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T19:56:47Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Video captures house collapsing due to Ecuador floods",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/video-captures-house-collapsing-due-to-ecuador-floods?traffic_source=rss",
+"weight": 1
 },
 "c9219eb38c88afc413ab8d6bd5171e15eefd8559118adadbd7f13f89ce228094": {
 "category": "world",
@@ -25416,6 +25834,48 @@
 ],
 "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
 "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+},
+"d1680823ee8980d2028ac12bb46fd00b4ab9c9e2690bdc9ce17bd4f085709bce": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "d1680823ee8980d2028ac12bb46fd00b4ab9c9e2690bdc9ce17bd4f085709bce",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T17:06:32Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Israeli strikes in Gaza kill eight including child, hospitals say",
+"url": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo",
+"weight": 1
+},
+"d311f30df36c7589a6d493a9633a8f9d1a21d1d3c7314f9d0cb1d00e04c6336e": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "d311f30df36c7589a6d493a9633a8f9d1a21d1d3c7314f9d0cb1d00e04c6336e",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T16:52:42Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Bangladesh workers clash with police in protests over low pay",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/bangladesh-workers-clash-with-police-in-protests-over-low-pay?traffic_source=rss",
+"weight": 1
 },
 "d32b8dad10491994a31e78325849556b9a64b1044bf2dcf2ee1c572ad3390e45": {
 "category": "world",
@@ -25798,6 +26258,22 @@
 "url": "https://www.aljazeera.com/news/2026/10/31/alaskas-two-dan-sullivans-how-common-is-ballot-stacking-does-it-work?traffic_source=rss",
 "weight": 1
 },
+"dce764bbe1f4582133be5684cba0f42a92459b5b9ab6eb8be66c27a19641c4a3": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "dce764bbe1f4582133be5684cba0f42a92459b5b9ab6eb8be66c27a19641c4a3",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T19:58:02Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Flock keeps ignoring requests to cancel its contracts",
+"url": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts"
+},
 "dd100a6c32303da188269d6ffd9a96c7e1f400a5a8acecac2c0556334621b8c5": {
 "category": "world",
 "coverage_count": 1,
@@ -26022,6 +26498,27 @@
 "Africa"
 ],
 "url": "https://allafrica.com/stories/202610300268.html",
+"weight": 1
+},
+"e56819e95d2e5cd77a62667ad3974c6b5f9cd8a83d229a7250475a65a4998716": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "e56819e95d2e5cd77a62667ad3974c6b5f9cd8a83d229a7250475a65a4998716",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T18:23:57Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Israel’s first ambassador to Somaliland presents credentials in Hargeisa",
+"url": "https://www.aljazeera.com/news/2026/11/1/israels-first-ambassador-to-somaliland-presents-credentials-in-hargeisa?traffic_source=rss",
 "weight": 1
 },
 "e5c1053cea523edb10665f927d0a1447ace2e3baea961d23890fa6d9be36df30": {
@@ -26281,6 +26778,27 @@
 ],
 "title": "Turkiye’s Erdogan urges Russia and Ukraine to stop Black Sea attacks",
 "url": "https://www.aljazeera.com/news/2026/10/31/turkiyes-erdogan-urges-russia-and-ukraine-to-stop-black-sea-attacks?traffic_source=rss",
+"weight": 1
+},
+"e8e4c5365e4c02953f5e15849a835a3cc84f6cce94aee72a31f2bd1ea01e85fc": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "e8e4c5365e4c02953f5e15849a835a3cc84f6cce94aee72a31f2bd1ea01e85fc",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T19:00:32Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "How will the Iran war shape the outcome of the US midterm vote?",
+"url": "https://www.aljazeera.com/video/inside-story/2026/11/1/how-will-the-iran-war-shape-the-outcome-of-the-u-s-midterm-vote?traffic_source=rss",
 "weight": 1
 },
 "e91a966d27ca71513e8068f2d48dabbd23afec99e7100b441f2f5d41a4b3cf01": {
@@ -26661,6 +27179,30 @@
 "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
 "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html"
 },
+"f3964cf0345a1e4c718d5202e61ecc973586d8fe8ec483ef546adf8bbf1f75bb": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "f3964cf0345a1e4c718d5202e61ecc973586d8fe8ec483ef546adf8bbf1f75bb",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T15:58:28Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+"url": "https://hackerbooks.org",
+"weight": 3
+},
 "f39ceb05ba787539b6b1153a3f02976bb303a635add56b78e3af8205dea474ee": {
 "category": "world",
 "coverage_count": 1,
@@ -26860,6 +27402,27 @@
 ],
 "title": "Close Identity Gaps in Software Development Before Unleashing AI",
 "url": "https://www.darkreading.com/application-security/close-identity-gaps-sdlc-before-ai"
+},
+"fb18c9762204ff02a110d9b8db29d7a29cdd18704b47062df88c62b9c7583dd8": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T20:45:59Z",
+"id": "fb18c9762204ff02a110d9b8db29d7a29cdd18704b47062df88c62b9c7583dd8",
+"last_seen": "2026-11-01",
+"published": "2026-11-01T19:09:18Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Arsenal go top after narrow win at Liverpool",
+"url": "https://www.aljazeera.com/sports/2026/11/1/arsenal-go-top-after-narrow-win-at-liverpool?traffic_source=rss",
+"weight": 1
 },
 "fc40b2292e90cd913c54c366f5142194649a52d626f39fc25b97e482af541a27": {
 "category": "security",
