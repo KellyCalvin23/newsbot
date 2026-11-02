@@ -1,1 +1,834 @@
-[]
+[
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-101410"
+],
+"cvss": 7.5,
+"epss": 0.00335,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "CVE-2026-101410",
+"last_seen": "2026-11-02",
+"published": "2026-10-20T22:17:49Z",
+"reasons": [
+"CVSS 7.5",
+"matches Oracle (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Business Interlink). Supported versions that are affected are 8.61-8.63. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise PeopleSoft Enterprise…",
+"title": "CVE-2026-101410: Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Business Interlink)",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101410",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Oracle",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-101431"
+],
+"cvss": 8.7,
+"epss": 0.00321,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "CVE-2026-101431",
+"last_seen": "2026-11-02",
+"published": "2026-10-20T22:17:51Z",
+"reasons": [
+"CVSS 8.7",
+"matches Oracle (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Test Framework). Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise PeopleSoft Enterprise…",
+"title": "CVE-2026-101431: Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Test Framework)",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101431",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Oracle",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-115416"
+],
+"cvss": 7.7,
+"epss": 0.00273,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "CVE-2026-115416",
+"last_seen": "2026-11-02",
+"published": "2026-10-22T17:16:58Z",
+"reasons": [
+"CVSS 7.7",
+"matches AWS (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization checks in Amazon Athena engine version 3 query processing could have allowed an authenticated user to read AWS account identifiers and SQL statement text query metadata from other AWS accounts. Query results, and data stored in Amazon S3 or other data sources, were not…",
+"title": "CVE-2026-115416: Incorrect authorization checks in Amazon Athena engine version 3 query processing could have allowed an authenticated user to read AWS…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115416",
+"vendor_matches": [
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-107858"
+],
+"cvss": 7.2,
+"epss": 0.0036,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "CVE-2026-107858",
+"last_seen": "2026-11-02",
+"published": "2026-10-23T06:17:03Z",
+"reasons": [
+"CVSS 7.2",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Missing Origin Validation in WebSockets (CWE-1385) and Permissive Cross-domain Policy with Untrusted Domains (CWE-942) in the development web server (ADK Web) in Google Agent Development Kit (ADK) for Java (com.google.adk:google-adk-dev versions 0.1.0 before 1.13.0 and…",
+"title": "CVE-2026-107858: Missing Origin Validation in WebSockets (CWE-1385) and Permissive Cross-domain Policy with Untrusted Domains (CWE-942) in the development…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107858",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-64618"
+],
+"cvss": 9.8,
+"epss": 0.00229,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "CVE-2026-64618",
+"last_seen": "2026-11-02",
+"published": "2026-10-30T09:17:15Z",
+"reasons": [
+"CVSS 9.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper Neutralization of Special Elements used in an SQL Command (\"SQL Injection\") vulnerability exists in Apache Fineract (through version 1.15.0). The vulnerability affects the outStandingAmountPercentageCondition parameter of the /fineract-provider/api/v1/search/advance HTTP API endpoint…",
+"title": "CVE-2026-64618: Improper Neutralization of Special Elements used in an SQL Command (\"SQL Injection\") vulnerability exists in Apache Fineract (through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64618",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-65874"
+],
+"cvss": 8.8,
+"epss": 0.00276,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "CVE-2026-65874",
+"last_seen": "2026-11-02",
+"published": "2026-10-30T09:17:15Z",
+"reasons": [
+"CVSS 8.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "This issue affects Apache Fineract versions up to and including 1.15.0. The Center read endpoint (GET /api/v1/centers) and the datatable entry read endpoints (GET /api/v1/datatables/{datatable}/{apptableId} and GET /api/v1/datatables/{datatable}/{apptableId}/{datatableId}) concatenate…",
+"title": "CVE-2026-65874: This issue affects Apache Fineract versions up to and including 1.15.0",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65874",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-47670"
+],
+"cvss": 9.4,
+"epss": 0.01757,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "CVE-2026-47670",
+"keyword_hits": [
+"RCE",
+"remote code execution"
+],
+"last_seen": "2026-11-02",
+"published": "2026-11-02T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.4",
+"RCE",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "dbgate dbgate. DbGate is cross-platform database manager. Versions 7.1.8 and prior are vulnerable to authenticated Remote Code Execution (RCE). Any user with valid DbGate credentials can execute arbitrary OS commands as root by exploiting an unsanitized `functionName` parameter in the…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-47670: dbgate dbgate Improper Neutralization of Special Elements used in a Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47670"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2021-48015"
+],
+"cvss": 8.7,
+"epss": 0.00563,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "CVE-2021-48015",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-02",
+"published": "2026-10-22T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.7",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "erzhongxmu JeeWMS. JeeWMS before commit 0a610e8 contains an unauthenticated path traversal vulnerability that allows remote attackers to read arbitrary files via the dbPath parameter. Attackers can send GET requests to /systemController/showOrDownByurl.do with ../ sequences in dbPath, which…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-48015: huayi-tec jeewms Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48015"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "63bb34558836082fee5846901c57b1d37bf43980f4f177347baf22c1b1870d0b",
+"keyword_hits": [
+"actively exploited",
+"RCE",
+"remote code execution"
+],
+"last_seen": "2026-11-02",
+"published": "2026-11-02T12:47:00Z",
+"reasons": [
+"actively exploited",
+"matches GitLab (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Over 1,000 Internet-exposed GitLab servers are still unpatched against a maximum-severity flaw actively exploited in remote code execution attacks. [...]",
+"title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
+"url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "GitLab",
+"tier": 3,
+"vendor": "GitLab"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "b46d44e996188a3f858adfc448e46a1dc39a2c330a4aecbb43f92f9fe079767b",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-02",
+"published": "2026-11-02T11:28:42Z",
+"reasons": [
+"ransomware"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Taiwanese network-attached storage (NAS) appliance maker Synology warned customers to update their devices immediately due to a surge in C3RB3r ransomware attacks. [...]",
+"title": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
+"url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "776c3f0c20243995de4b3fe1e4b11d1c7c48684cad989aa0d7a43137a20680e4",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-02",
+"published": "2026-11-02T11:50:00Z",
+"reasons": [
+"unauthenticated",
+"matches Langflow (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code, IBM said last week. Langflow is an open-source tool for building AI agents and workflows, and its vulnerability reports go to IBM. Every release from 1.0.0 through 1.12.8 has the…",
+"title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
+"url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Langflow",
+"tier": 3,
+"vendor": "Langflow"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "b0496e2f02a09d0dbf46b8a37b184c4ee0503ed77ccebbe56ae4d86a43d941d1",
+"last_seen": "2026-11-02",
+"published": "2026-11-02T11:08:45Z",
+"reasons": [
+"matches Microsoft (Tier 2)",
+"topic: Active Directory"
+],
+"route": "digest",
+"score": 4,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller. Microsoft said…",
+"title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
+"topic_hits": [
+"Active Directory"
+],
+"url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "b52cfc79b3855d18147257f3d0197188e7190a79c54ecb9e1cad84d90bacc9c0",
+"last_seen": "2026-11-02",
+"published": "2026-11-02T10:49:59Z",
+"reasons": [
+"matches Palo Alto Networks (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure. The activity, observed by Palo Alto Networks Unit 42 between October 2025 and April 2026, has been…",
+"title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
+"url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Palo Alto Networks",
+"tier": 1,
+"vendor": "Palo Alto Networks"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "1be6e03d1804c4e651ddcd33587e51e0ec6fdf3d22ee0930391a5a6a12b3c80b",
+"last_seen": "2026-11-02",
+"published": "2026-11-02T05:51:07Z",
+"reasons": [
+"matches Microsoft Windows (Tier 2)",
+"topic: infostealer"
+],
+"route": "digest",
+"score": 4,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and…",
+"title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+"topic_hits": [
+"infostealer"
+],
+"url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-97229"
+],
+"cvss": 10.0,
+"epss": 0.273,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "d4ffdf43e7ec351c93ece84d6588bf5ea62f62d568f595ca9bc1ce9d79bf3d6f",
+"last_seen": "2026-11-02",
+"published": "2026-10-29T09:05:39Z",
+"reasons": [
+"CVSS 10.0",
+"matches GitLab (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular…",
+"title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+"url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "GitLab",
+"tier": 3,
+"vendor": "GitLab"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "850a5d3fa1671348d9b4900bf2446a02a0f3970ba4d8ea757f7de27d08d7f367",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-02",
+"published": "2026-11-02T13:35:21Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Hackers accessed its online shopping platform and stole customers’ personal and payment card information. The post Revolve Data Breach Impacts at Least 180,000 People appeared first on SecurityWeek .",
+"title": "Revolve Data Breach Impacts at Least 180,000 People",
+"url": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "7def4613973f47566e2c1bbd79044a59875b7a9e899131d694f194718c642df0",
+"keyword_hits": [
+"supply chain attack"
+],
+"last_seen": "2026-11-02",
+"published": "2026-11-02T11:29:39Z",
+"reasons": [
+"supply chain attack"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "The extension performed host reconnaissance and attempted to create a reverse SSH tunnel. The post Malicious Claude Code Extension Served in Cursor Supply Chain Attack appeared first on SecurityWeek .",
+"title": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack",
+"url": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "caa76a74b240f6027862953df75ee4bc77224fcfc7e46f0e0638bcdd656d362e",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-02",
+"published": "2026-11-02T10:27:49Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "The attackers used offensive agentic techniques to access the company’s systems and internal tools. The post Chainalysis Discloses Data Breach Following AI-Driven Cyberattack appeared first on SecurityWeek .",
+"title": "Chainalysis Discloses Data Breach Following AI-Driven Cyberattack",
+"url": "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "54ab4b5f1b54aabf7568304216d9ce04da2efbd0e76477ce0b794db2ca87bebb",
+"last_seen": "2026-11-02",
+"published": "2026-10-31T01:38:56Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Postgres 19 is late because so many more bugs are being found now",
+"url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "455a78335bc29d602c3416c00b6e13acbdb2b2e8be5495fb2192181dad0071b2",
+"last_seen": "2026-11-02",
+"published": "2026-11-01T19:35:27Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Ask HN: Which TV do you recommend for privacy?",
+"url": "https://news.ycombinator.com/item?id=50328896",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "a0725e070d9ebf0ca065901bff979e1ccc86857d8d460c7dbf5436c2f53f0ec6",
+"last_seen": "2026-11-02",
+"published": "2026-11-02T00:17:27Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "OccupySaaS",
+"url": "https://occupysaas.com/",
+"weight": 3
+},
+{
+"big_story_hits": [
+"nuclear"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-01T23:56:00Z",
+"id": "1b6849b2933c1094aed9b843964aecacfed17b894bbc7e27759f77938bfb9c75",
+"last_seen": "2026-11-02",
+"published": "2026-11-01T22:38:24Z",
+"reasons": [
+"big story: nuclear",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "Neither government has confirmed who was responsible for the cyberattacks on Sunday evening.",
+"title": "Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says",
+"url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo",
+"weight": 1
+},
+{
+"big_story_hits": [
+"nuclear"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "8e0130f490dd1e7164cea0858c04d35d500d2d9dd6232820f6cc3aec3fcf161c",
+"last_seen": "2026-11-02",
+"published": "2026-11-02T09:35:46Z",
+"reasons": [
+"big story: nuclear",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "Warnings startle people in Ukraine, but authorities say they cleared up the confusion in under an hour.",
+"title": "Nuclear radiation in Russia, Ukraine? No, just hacked warning alerts",
+"url": "https://www.aljazeera.com/news/2026/11/2/nuclear-radiation-in-russia-ukraine-no-just-hacked-warning-alerts?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "a2a84ee97fb9775be4d670e9f498ef0472338abeb740858f6116c0ba06cabd83",
+"last_seen": "2026-11-02",
+"published": "2026-11-02T10:40:41Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda head coach Stephen Constantine has largely retained the squad that made an impressive start to the 2027 Africa Cup of Nations (AFCON) qualifiers, with defender Thierry Manzi and midfielder Jean Bosco Ruboneka returning for two crucial Group K encounters against Mali in November.",
+"title": "Constantine Recalls Ruboneka, Manzi in Squad for Mali Double-Header",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611020252.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "08d1deb2e97b8091a4deb28ddabe1337366d8d8745798573577fab730637cad0",
+"last_seen": "2026-11-02",
+"published": "2026-11-02T10:32:13Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda U-23 head coach Eric Nshimiyimana has named his squad for the upcoming 2027 Africa Cup of Nations (AFCON) U-23 second-round qualifying tie against Cameroon.",
+"title": "Afcon U-23 - Nshimiyimana Summons Squad for Cameroon Qualifier",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611020239.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "754384362a29a803acf4d5a6a7bc3e7f5d6082867d18dd4fe26553b5120ddee9",
+"last_seen": "2026-11-02",
+"published": "2026-11-02T09:47:12Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Women with disabilities in Rwanda are calling for stronger measures to address barriers that continue to limit their access to employment, despite existing policies promoting equal opportunities.",
+"title": "Women With Disabilities Push for Fairer Access to Jobs",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611020173.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "97942a3cfb70bc65bfdbc7eaca623ad087c40c4781b084bd61e888b736486762",
+"last_seen": "2026-11-02",
+"published": "2026-11-02T09:46:50Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda's ties with South Korea have gained a new dimension with the opening of the country's first King Sejong Institute, which will offer Korean language and cultural education while creating opportunities for young people.",
+"title": "Kigali's First King Sejong Institute Opens Doors to South Korean Opportunities",
+"topic_hits": [
+"Rwanda",
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611020172.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-02T13:52:40Z",
+"id": "9e335b4e0dd3d32af12b100bb23f07544bfaa9c8fc54dd01f4860fa0e8e8ca33",
+"last_seen": "2026-11-02",
+"published": "2026-11-02T09:46:31Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] DSP Doha, a Qatari architectural engineering and fabrication company, is expanding its presence in Rwanda beyond construction into manufacturing and investment, combining heavy steel structure manufacturing, planned electric vehicle assembly and skills development with ambitions to…",
+"title": "Inside Qatari Firm Dsp's Plan to Make Rwanda a Regional Manufacturing Hub",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611020171.html",
+"weight": 1
+}
+]
