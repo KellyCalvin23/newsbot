@@ -1526,23 +1526,27 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-120534"
 ],
+"cvss": 9.8,
 "epss": 0.00312,
 "first_seen": "2026-11-03T18:38:33Z",
 "id": "CVE-2026-120534",
 "last_seen": "2026-11-03",
 "published": "2026-11-03T00:00:00Z",
 "reasons": [
-"new VulnCheck KEV"
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
 ],
 "route": "digest",
-"score": 5,
+"score": 6,
 "source": "VulnCheck KEV",
 "source_type": "vulncheck_kev",
 "sources": [
+"NVD",
 "VulnCheck KEV"
 ],
 "summary": "ACF Extended Advanced Custom Fields: Extended PRO. The Advanced Custom Fields: Extended PRO plugin for WordPress is vulnerable to Limited Code Injection in all versions up to, and including, 0.9.2.6 via the render_field function. This is due to insufficient validation of form configuration…",
@@ -2091,5 +2095,5818 @@
 ],
 "url": "https://www.aljazeera.com/news/2026/11/3/opposition-party-organiser-killed-ahead-of-south-africa-elections?traffic_source=rss",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-118309"
+],
+"cvss": 9.6,
+"epss": 0.00307,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-118309",
+"last_seen": "2026-11-03",
+"published": "2026-10-27T23:16:59Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect reference resolution in UI in Google Chrome on on Android prior to 156.0.8078.73 allowed a remote attacker leveraging social engineering to obtain sensitive information via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-118309: Incorrect reference resolution in UI in Google Chrome on on Android prior to 156.0.8078.73 allowed a remote attacker leveraging social…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118309",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-118314"
+],
+"cvss": 8.8,
+"epss": 0.00275,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-118314",
+"last_seen": "2026-11-03",
+"published": "2026-10-27T23:16:59Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect reference resolution in UI in Google Chrome on on Android prior to 156.0.8078.73 allowed a local attacker leveraging social engineering to obtain sensitive information via a co-installed app. (Chromium security severity: High)",
+"title": "CVE-2026-118314: Incorrect reference resolution in UI in Google Chrome on on Android prior to 156.0.8078.73 allowed a local attacker leveraging social…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118314",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-118321"
+],
+"cvss": 9.6,
+"epss": 0.00354,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-118321",
+"last_seen": "2026-11-03",
+"published": "2026-10-27T23:17:00Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Core in Google Chrome on on Android prior to 156.0.8078.73 allowed a remote attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-118321: Use after free in Core in Google Chrome on on Android prior to 156.0.8078.73 allowed a remote attacker who had compromised the renderer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118321",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119261"
+],
+"cvss": 9.6,
+"epss": 0.00282,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-119261",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:44Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Buffer overflow in Skia in Google Chrome prior to 156.0.8078.79 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-119261: Buffer overflow in Skia in Google Chrome prior to 156.0.8078.79 allowed a remote attacker who had compromised the renderer process to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119261",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119262"
+],
+"cvss": 8.8,
+"epss": 0.0028,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-119262",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:44Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Out of bounds write in V8 in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-119262: Out of bounds write in V8 in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to execute arbitrary code inside the sandbox…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119262",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119263"
+],
+"cvss": 9.6,
+"epss": 0.00271,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-119263",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:45Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in GarbageCollection in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-119263: Use after free in GarbageCollection in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to execute arbitrary code inside the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119263",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119264"
+],
+"cvss": 8.8,
+"epss": 0.00242,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-119264",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:45Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Dawn in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-119264: Use after free in Dawn in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to potentially execute arbitrary code outside the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119264",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119265"
+],
+"cvss": 8.8,
+"epss": 0.00242,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-119265",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:45Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect reference resolution in Quota in Google Chrome prior to 156.0.8078.79 allowed a remote attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via crafted network traffic. (Chromium security severity: High)",
+"title": "CVE-2026-119265: Incorrect reference resolution in Quota in Google Chrome prior to 156.0.8078.79 allowed a remote attacker who had compromised the renderer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119265",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119266"
+],
+"cvss": 8.8,
+"epss": 0.00242,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-119266",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:45Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect reference resolution in Quota in Google Chrome prior to 156.0.8078.79 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-119266: Incorrect reference resolution in Quota in Google Chrome prior to 156.0.8078.79 allowed a remote attacker who had compromised the renderer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119266",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119267"
+],
+"cvss": 8.8,
+"epss": 0.00242,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-119267",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:45Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in DOM in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-119267: Use after free in DOM in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119267",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119268"
+],
+"cvss": 8.8,
+"epss": 0.00242,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-119268",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:45Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Editing in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-119268: Use after free in Editing in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to execute arbitrary code inside the sandbox…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119268",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119269"
+],
+"cvss": 8.8,
+"epss": 0.00242,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-119269",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:45Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization in Blink in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to bypass web origin policy via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-119269: Incorrect authorization in Blink in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to bypass web origin policy via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119269",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119270"
+],
+"cvss": 8.8,
+"epss": 0.00252,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-119270",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:45Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect reference resolution in CacheStorage in Google Chrome prior to 156.0.8078.79 allowed a remote attacker who had compromised the renderer process to obtain sensitive information via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-119270: Incorrect reference resolution in CacheStorage in Google Chrome prior to 156.0.8078.79 allowed a remote attacker who had compromised the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119270",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119271"
+],
+"cvss": 8.8,
+"epss": 0.00242,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-119271",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:46Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Uninitialized resource in Skia in Google Chrome prior to 156.0.8078.79 allowed a remote attacker who had compromised the renderer process to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-119271: Uninitialized resource in Skia in Google Chrome prior to 156.0.8078.79 allowed a remote attacker who had compromised the renderer process…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119271",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-76025"
+],
+"cvss": 8.8,
+"epss": 0.00303,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-76025",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:46Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization in FileSystem in Google Chrome prior to 156.0.8078.79 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-76025: Incorrect authorization in FileSystem in Google Chrome prior to 156.0.8078.79 allowed a remote attacker leveraging social engineering to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76025",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-76026"
+],
+"cvss": 8.8,
+"epss": 0.00242,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-76026",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:47Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Origin validation error in Autofill in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to bypass web origin policy via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-76026: Origin validation error in Autofill in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to bypass web origin policy via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76026",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-76028"
+],
+"cvss": 8.8,
+"epss": 0.00242,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-76028",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:47Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization in FileSystem in Google Chrome prior to 156.0.8078.79 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-76028: Incorrect authorization in FileSystem in Google Chrome prior to 156.0.8078.79 allowed a remote attacker leveraging social engineering to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76028",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-76029"
+],
+"cvss": 8.8,
+"epss": 0.00242,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-76029",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:47Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper input validation in Network in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to execute arbitrary code inside the sandbox via crafted network traffic. (Chromium security severity: High)",
+"title": "CVE-2026-76029: Improper input validation in Network in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to execute arbitrary code inside the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76029",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-76030"
+],
+"cvss": 8.8,
+"epss": 0.00242,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-76030",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:47Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization in FileSystem in Google Chrome prior to 156.0.8078.79 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-76030: Incorrect authorization in FileSystem in Google Chrome prior to 156.0.8078.79 allowed a remote attacker leveraging social engineering to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76030",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-76031"
+],
+"cvss": 8.8,
+"epss": 0.00304,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-76031",
+"last_seen": "2026-11-03",
+"published": "2026-10-30T01:16:47Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization in Input in Google Chrome prior to 156.0.8078.79 allowed a remote attacker leveraging social engineering to bypass web origin policy via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-76031: Incorrect authorization in Input in Google Chrome prior to 156.0.8078.79 allowed a remote attacker leveraging social engineering to bypass…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76031",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99246"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-99246",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T12:17:31Z",
+"reasons": [
+"CVSS 8.1",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: tipc: protect node reset trace dump with node lock The tipc_node_reset_links trace event asks tipc_node_dump() to walk the node's link entries. Unlike the other node events that request link data, this event runs without the node…",
+"title": "CVE-2026-99246: In the Linux kernel, the following vulnerability has been resolved: tipc: protect node reset trace dump with node lock The…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99246",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99264"
+],
+"cvss": 7.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-99264",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T12:17:33Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: io_uring/net: don't retry recv on uncommitted buffers Commit 41b70df5b38b (\"io_uring/net: commit partial buffers on retry\") commits ring provided buffers when a receive is going to be retried after a partial transfer, so that…",
+"title": "CVE-2026-99264: In the Linux kernel, the following vulnerability has been resolved: io_uring/net: don't retry recv on uncommitted buffers Commit…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99264",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99269"
+],
+"cvss": 7.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-99269",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T12:17:34Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: sched_ext: Wait for SCX_OPSS_DISPATCHING before moving tasks off DSQs A task can be found on a non-local DSQ while the CPU which dispatched it is still running ops.dequeue() and hasn't cleared SCX_OPSS_DISPATCHING. The DSQ consume…",
+"title": "CVE-2026-99269: In the Linux kernel, the following vulnerability has been resolved: sched_ext: Wait for SCX_OPSS_DISPATCHING before moving tasks off…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99269",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99270"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-99270",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T13:17:24Z",
+"reasons": [
+"CVSS 8.1",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: tcp: Fix potential UAF in reqsk_timer_handler(). When TCP socket migration fails at inet_ehash_insert() in reqsk_timer_handler(), we jump to the no_ownership: label and free the new reqsk immediately with __reqsk_free(). Thus, we…",
+"title": "CVE-2026-99270: In the Linux kernel, the following vulnerability has been resolved: tcp: Fix potential UAF in reqsk_timer_handler(). When TCP socket…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99270",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121030"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121030",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:06Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization in DevTools in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121030: Incorrect authorization in DevTools in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121030",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121034"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121034",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:06Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Views in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121034: Use after free in Views in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121034",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121035"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121035",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:06Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Prerender in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+"title": "CVE-2026-121035: Use after free in Prerender in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code outside the sandbox…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121035",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121036"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121036",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:06Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in CSS in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121036: Use after free in CSS in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121036",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121037"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121037",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:07Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Out of bounds write in ANGLE in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121037: Out of bounds write in ANGLE in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker to potentially execute…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121037",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121044"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121044",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:08Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Layout in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121044: Use after free in Layout in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121044",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121047"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121047",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:09Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Buffer overflow in Media in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121047: Buffer overflow in Media in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121047",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121048"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121048",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:09Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Race condition in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121048: Race condition in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121048",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121052"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121052",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:09Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in GPU in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121052: Use after free in GPU in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121052",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121057"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121057",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:10Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121057: Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121057",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121060"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121060",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:10Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization in FileSystem in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121060: Incorrect authorization in FileSystem in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121060",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121061"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121061",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:10Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Modularization in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121061: Use after free in Modularization in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121061",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121068"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121068",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:11Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121068: Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121068",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121069"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121069",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:11Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Track in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Low)",
+"title": "CVE-2026-121069: Use after free in Track in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121069",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121070"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121070",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:11Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in WTF in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121070: Use after free in WTF in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121070",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121071"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121071",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:12Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization in FileSystem in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121071: Incorrect authorization in FileSystem in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121071",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121074"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121074",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:12Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory corruption in GPU in Google Chrome on on Android prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121074: Memory corruption in GPU in Google Chrome on on Android prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121074",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121076"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121076",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:12Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in WebXR in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121076: Use after free in WebXR in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to execute…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121076",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121077"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121077",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:12Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Mobile in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121077: Use after free in Mobile in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to potentially…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121077",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121078"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121078",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:13Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121078: Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code inside the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121078",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121079"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121079",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:13Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Race condition in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121079: Race condition in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121079",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121082"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121082",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:13Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121082: Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121082",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121083"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121083",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:13Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Compositing in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121083: Use after free in Compositing in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121083",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121084"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121084",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:13Z",
+"reasons": [
+"CVSS 8.3",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Out of bounds read in Skia in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121084: Out of bounds read in Skia in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121084",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121086"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121086",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:14Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Buffer overflow in Skia in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121086: Buffer overflow in Skia in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code outside the sandbox via…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121086",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121089"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121089",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:14Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in WebGPU in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121089: Use after free in WebGPU in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121089",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121090"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121090",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:14Z",
+"reasons": [
+"CVSS 8.3",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper privilege management in Navigation in Google Chrome on on iOS prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121090: Improper privilege management in Navigation in Google Chrome on on iOS prior to 157.0.8103.38 allowed a remote attacker who had compromised…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121090",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121092"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121092",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:14Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Uncontrolled recursion in SVG in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Low)",
+"title": "CVE-2026-121092: Uncontrolled recursion in SVG in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121092",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121094"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121094",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:15Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121094: Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121094",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121097"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121097",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:15Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Printing in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121097: Use after free in Printing in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121097",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121098"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121098",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:15Z",
+"reasons": [
+"CVSS 8.3",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper state validation in GPU in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121098: Improper state validation in GPU in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121098",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121100"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121100",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:16Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in DOM in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121100: Use after free in DOM in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121100",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121104"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121104",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:16Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization in FileSystem in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121104: Incorrect authorization in FileSystem in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121104",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121112"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121112",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:18Z",
+"reasons": [
+"CVSS 8.3",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Out of bounds read in Permissions in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121112: Out of bounds read in Permissions in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121112",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121114"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121114",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:19Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in TabStrip in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121114: Use after free in TabStrip in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code outside the sandbox…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121114",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121117"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121117",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:19Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Paint in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121117: Use after free in Paint in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121117",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121118"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121118",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:19Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in SVG in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121118: Use after free in SVG in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121118",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121119"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121119",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:19Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Controls in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121119: Use after free in Controls in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121119",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121123"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121123",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:20Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Canvas in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121123: Use after free in Canvas in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121123",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121124"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121124",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:20Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper adherence to coding standards in XML in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121124: Improper adherence to coding standards in XML in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121124",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121126"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121126",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:20Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Core in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+"title": "CVE-2026-121126: Use after free in Core in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121126",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121127"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121127",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:20Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in WebAudio in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121127: Use after free in WebAudio in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121127",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121128"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121128",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:21Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Scheduling in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121128: Use after free in Scheduling in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121128",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121129"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121129",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:21Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in WebRTC in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121129: Use after free in WebRTC in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121129",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121137"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121137",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:22Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Type confusion in DevTools in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121137: Type confusion in DevTools in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to execute…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121137",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121140"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121140",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:22Z",
+"reasons": [
+"CVSS 8.3",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Out of bounds read in Internals in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121140: Out of bounds read in Internals in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121140",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121148"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121148",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:23Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in ANGLE in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121148: Use after free in ANGLE in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code outside the sandbox via…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121148",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121156"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121156",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:23Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Buffer overflow in Dawn in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+"title": "CVE-2026-121156: Buffer overflow in Dawn in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121156",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121168"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121168",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:24Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper resource exposure in DevTools in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Low)",
+"title": "CVE-2026-121168: Improper resource exposure in DevTools in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121168",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121178"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121178",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:26Z",
+"reasons": [
+"CVSS 8.3",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Aura in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121178: Use after free in Aura in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121178",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121179"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121179",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:26Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in PDFium in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121179: Use after free in PDFium in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121179",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121180"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121180",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:26Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Buffer overflow in Media in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121180: Buffer overflow in Media in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121180",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121181"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121181",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:26Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Editing in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121181: Use after free in Editing in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121181",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121182"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121182",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:26Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in DOM in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121182: Use after free in DOM in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121182",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121183"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121183",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:26Z",
+"reasons": [
+"CVSS 8.3",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization in Extensions in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121183: Incorrect authorization in Extensions in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121183",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121184"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121184",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:27Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Out of bounds read in Media in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121184: Out of bounds read in Media in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code inside…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121184",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121185"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121185",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:27Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in PictureInPicture in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121185: Use after free in PictureInPicture in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121185",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121188"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121188",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:27Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in PerformanceAPIs in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121188: Use after free in PerformanceAPIs in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121188",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121189"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121189",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:27Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Browser in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Low)",
+"title": "CVE-2026-121189: Use after free in Browser in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code outside the sandbox…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121189",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121200"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121200",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:28Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect reference resolution in DevTools in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121200: Incorrect reference resolution in DevTools in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121200",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121201"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121201",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:29Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Animation in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121201: Use after free in Animation in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121201",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121202"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121202",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:29Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Autofill in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121202: Use after free in Autofill in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to potentially…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121202",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121203"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121203",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:29Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Geometry in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+"title": "CVE-2026-121203: Use after free in Geometry in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121203",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121208"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121208",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:30Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Out of bounds read in Media in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121208: Out of bounds read in Media in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code inside…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121208",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121210"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121210",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:30Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121210: Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121210",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121214"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121214",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:30Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Passwords in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121214: Use after free in Passwords in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121214",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121218"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121218",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:31Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121218: Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121218",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121219"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121219",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:31Z",
+"reasons": [
+"CVSS 8.3",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Integer overflow in GPU in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121219: Integer overflow in GPU in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121219",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121221"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121221",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:31Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121221: Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code inside the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121221",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121226"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121226",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:32Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121226: Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code inside the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121226",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121228"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121228",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:32Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121228: Type confusion in V8 in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121228",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121229"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121229",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:32Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory corruption in ANGLE in Google Chrome on on Android prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+"title": "CVE-2026-121229: Memory corruption in ANGLE in Google Chrome on on Android prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121229",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121230"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121230",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:32Z",
+"reasons": [
+"CVSS 8.3",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Race condition in ANGLE in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Low)",
+"title": "CVE-2026-121230: Race condition in ANGLE in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121230",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121233"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121233",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:33Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Type confusion in CacheStorage in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121233: Type confusion in CacheStorage in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121233",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121234"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121234",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:33Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Privilege elevation in Contacts in Google Chrome on on Android prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121234: Privilege elevation in Contacts in Google Chrome on on Android prior to 157.0.8103.38 allowed a remote attacker to potentially execute…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121234",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121238"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121238",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:34Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Source in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121238: Use after free in Source in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121238",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121241"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121241",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:34Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Navigation in Google Chrome on on Android prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121241: Use after free in Navigation in Google Chrome on on Android prior to 157.0.8103.38 allowed a remote attacker to potentially execute…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121241",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121246"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121246",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:35Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in WebGL in Google Chrome on on Android prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+"title": "CVE-2026-121246: Use after free in WebGL in Google Chrome on on Android prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121246",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121247"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121247",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:35Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Buffer overflow in Dawn in Google Chrome on on Android prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+"title": "CVE-2026-121247: Buffer overflow in Dawn in Google Chrome on on Android prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121247",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121249"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121249",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:35Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Buffer overflow in ANGLE in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121249: Buffer overflow in ANGLE in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code outside the sandbox…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121249",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121256"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121256",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:17:36Z",
+"reasons": [
+"CVSS 8.3",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use of released resource in GPU in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121256: Use of released resource in GPU in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121256",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119084"
+],
+"cvss": 9.2,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-119084",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T22:19:29Z",
+"reasons": [
+"CVSS 9.2",
+"matches AWS (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Unsafe reflection in the connection parameter and credentials profile handling of Amazon Redshift JDBC Driver before 2.3.0 might allow an actor who can influence the JDBC connection URL or the AWS credentials profile to execute arbitrary code in the application context, provided a suitable class is…",
+"title": "CVE-2026-119084: Unsafe reflection in the connection parameter and credentials profile handling of Amazon Redshift JDBC Driver before 2.3.0 might allow an…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119084",
+"vendor_matches": [
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120931"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-120931",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T22:19:31Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Out of bounds write in WebGL in Google Chrome on on Android prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+"title": "CVE-2026-120931: Out of bounds write in WebGL in Google Chrome on on Android prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120931",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-110288"
+],
+"cvss": 5.3,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-110288",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-03T23:17:25Z",
+"reasons": [
+"unauthenticated",
+"matches Microsoft (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A cross-site request forgery vulnerability was identified in GitHub Enterprise Server that allowed an unauthenticated attacker to delete stored Slack and Microsoft Teams ChatOps configuration and provider credentials by inducing an authenticated Management Console operator's browser to send a…",
+"title": "CVE-2026-110288: A cross-site request forgery vulnerability was identified in GitHub Enterprise Server that allowed an unauthenticated attacker to delete…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110288",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121730"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-121730",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T23:17:36Z",
+"reasons": [
+"CVSS 7.1",
+"matches Cloudflare (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "emailflare before commit cf31f33 contains a missing authorization vulnerability in POST /api/inbox/compose that allows authenticated members to send mail as any sender address. Attackers can supply an arbitrary from field, which is passed unchecked to the Cloudflare send call, to impersonate other…",
+"title": "CVE-2026-121730: emailflare before commit cf31f33 contains a missing authorization vulnerability in POST /api/inbox/compose that allows authenticated…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121730",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Cloudflare",
+"tier": 3,
+"vendor": "Cloudflare"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118305"
+],
+"cvss": 9.6,
+"epss": 0.00369,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118305",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 9.6",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Type confusion in Turbolev in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118305 Memory corruption in Turbolev",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118305",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118306"
+],
+"cvss": 9.6,
+"epss": 0.00369,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118306",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 9.6",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in FileSystem in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+"title": "Chromium: CVE-2026-118306 Memory corruption in FileSystem",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118306",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118307"
+],
+"cvss": 8.8,
+"epss": 0.0033,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118307",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in Paint in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118307 Use after free in Paint",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118307",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118308"
+],
+"cvss": 9.6,
+"epss": 0.00307,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118308",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 9.6",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in SVG in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118308 Use after free in SVG",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118308",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118310"
+],
+"cvss": 9.6,
+"epss": 0.00307,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118310",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 9.6",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118310 Improper input validation in Views",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118310",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118312"
+],
+"cvss": 9.6,
+"epss": 0.00307,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118312",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 9.6",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Observable discrepancy in Paint in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to potentially obtain cross-origin data via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "Chromium: CVE-2026-118312 Memory corruption in Paint",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118312",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118315"
+],
+"cvss": 8.8,
+"epss": 0.00264,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118315",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Type confusion in SVG in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118315 Improper input validation in SVG",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118315",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118316"
+],
+"cvss": 9.6,
+"epss": 0.00295,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118316",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 9.6",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in V8 in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118316 Improper input validation in V8",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118316",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118317"
+],
+"cvss": 8.8,
+"epss": 0.00317,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118317",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in HTML in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118317 Memory corruption in HTML",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118317",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118320"
+],
+"cvss": 8.8,
+"epss": 0.00317,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118320",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Race condition in V8 in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118320 Memory corruption in V8",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118320",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118327"
+],
+"cvss": 8.8,
+"epss": 0.00275,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118327",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Incorrect authorization in Media in Google Chrome prior to 156.0.8078.73 allowed a remote attacker leveraging social engineering to obtain sensitive information via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118327 Memory corruption in Media",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118327",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118328"
+],
+"cvss": 8.8,
+"epss": 0.00401,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118328",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Out of bounds read in WebRTC in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to read memory inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118328 Improper input validation in WebRTC",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118328",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118329"
+],
+"cvss": 8.8,
+"epss": 0.00388,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118329",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Uninitialized resource in ANGLE in Google Chrome on on Mac prior to 156.0.8078.73 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118329 Improper input validation in ANGLE",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118329",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118330"
+],
+"cvss": 8.8,
+"epss": 0.00334,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118330",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in Browser in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118330 Use after free in Browser",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118330",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118331"
+],
+"cvss": 8.8,
+"epss": 0.0034,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118331",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in FileAPI in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+"title": "Chromium: CVE-2026-118331 Improper input validation in FileAPI",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118331",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118332"
+],
+"cvss": 9.6,
+"epss": 0.00295,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118332",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 9.6",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in Compositing in Google Chrome prior to 156.0.8078.73 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118332 Improper input validation in Compositing",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118332",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118333"
+],
+"cvss": 9.3,
+"epss": 0.00201,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118333",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 9.3",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Buffer overflow in Video in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118333 Missing authorization in Video",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118333",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118336"
+],
+"cvss": 8.8,
+"epss": 0.00317,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118336",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Race condition in Headless in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118336 Improper input validation in Headless",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118336",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118337"
+],
+"cvss": 9.3,
+"epss": 0.00201,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118337",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 9.3",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in Forms in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118337 Improper access control in Forms",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118337",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118338"
+],
+"cvss": 8.8,
+"epss": 0.00264,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118338",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Observable discrepancy in Animation in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to obtain cross-origin data via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "Chromium: CVE-2026-118338 Use after free in Animation",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118338",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118340"
+],
+"cvss": 9.6,
+"epss": 0.00354,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118340",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 9.6",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Integer overflow in Skia in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to obtain cross-origin data via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118340 Memory corruption in Skia",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118340",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118342"
+],
+"cvss": 9.6,
+"epss": 0.00295,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118342",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 9.6",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in Editing in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118342 Out of bounds write in Editing",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118342",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118343"
+],
+"cvss": 8.8,
+"epss": 0.00264,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118343",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in ReadingList in Google Chrome prior to 156.0.8078.73 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118343 Improper input validation in ReadingList",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118343",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118345"
+],
+"cvss": 8.8,
+"epss": 0.00264,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118345",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Buffer overflow in PDFium in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted PDF file. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118345 Use after free in PDFium",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118345",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118346"
+],
+"cvss": 8.8,
+"epss": 0.00264,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118346",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Out of bounds read in Compositing in Google Chrome prior to 156.0.8078.73 allowed a remote attacker who had compromised the renderer process and leveraged social engineering to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118346 Use after free in Compositing",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118346",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118347"
+],
+"cvss": 8.8,
+"epss": 0.00264,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118347",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in FileSystem in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118347 Use after free in FileSystem",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118347",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118348"
+],
+"cvss": 8.8,
+"epss": 0.0034,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118348",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Integer overflow in Skia in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+"title": "Chromium: CVE-2026-118348 Improper input validation in Skia",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118348",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118349"
+],
+"cvss": 8.8,
+"epss": 0.00264,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118349",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in Payments in Google Chrome prior to 156.0.8078.73 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118349 Memory corruption in Payments",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118349",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118350"
+],
+"cvss": 8.8,
+"epss": 0.00264,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118350",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Type confusion in Turbolev in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118350 Use after free in Turbolev",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118350",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118351"
+],
+"cvss": 8.8,
+"epss": 0.00264,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118351",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in Skia in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118351 Memory corruption in Skia",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118351",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118352"
+],
+"cvss": 8.8,
+"epss": 0.00264,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118352",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in Cache in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118352 Memory corruption in Cache",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118352",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118353"
+],
+"cvss": 8.8,
+"epss": 0.00264,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118353",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Missing authorization in Paint in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to obtain cross-origin data via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118353 Use after free in Paint",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118353",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118354"
+],
+"cvss": 8.8,
+"epss": 0.00264,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118354",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Uninitialized resource in Skia in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to obtain cross-origin data via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118354 Improper input validation in Skia",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118354",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118355"
+],
+"cvss": 9.6,
+"epss": 0.00295,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118355",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 9.6",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in Command in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118355 Improper input validation in Command",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118355",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118356"
+],
+"cvss": 8.8,
+"epss": 0.00264,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118356",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in WTF in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118356 Use after free in WTF",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118356",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118357"
+],
+"cvss": 8.8,
+"epss": 0.00283,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118357",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in FileSystem in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118357 Use after free in FileSystem",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118357",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118358"
+],
+"cvss": 8.8,
+"epss": 0.00358,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118358",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in WebAudio in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118358 Memory corruption in WebAudio",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118358",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118359"
+],
+"cvss": 8.8,
+"epss": 0.00283,
+"first_seen": "2026-10-31T20:28:45Z",
+"id": "CVE-2026-118359",
+"last_seen": "2026-11-03",
+"published": "2026-10-31T14:00:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC",
+"NVD"
+],
+"summary": "Use after free in V8 in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "Chromium: CVE-2026-118359 Memory corruption in V8",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118359",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Chromium",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-20043"
+],
+"epss": 0.00364,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-20043",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-03T06:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Cisco (Tier 1)"
+],
+"route": "digest",
+"score": 6,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Snort. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8. The following CVEs are assigned: CVE-2026-20043.",
+"title": "ZDI-26-867: Cisco Snort sf_unfold_header Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-867/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Cisco",
+"tier": 1,
+"vendor": "Cisco"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-92196"
+],
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-92196",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-03T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.2. The following CVEs are assigned: CVE-2026-92196.",
+"title": "ZDI-26-866: Quest Foglight for Databases renderTemplateString Server-Side Template Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-866/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-92189"
+],
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-92189",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-03T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8. The following CVEs are assigned: CVE-2026-92189.",
+"title": "ZDI-26-861: Quest Foglight for Databases writeTopologySectionToFile External Control of File Path Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-861/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-92197"
+],
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-92197",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-03T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92197.",
+"title": "ZDI-26-860: Quest Foglight for Databases unzipFile Directory Traversal Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-860/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-92191"
+],
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-92191",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-03T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92191.",
+"title": "ZDI-26-859: Quest Foglight for Databases runScript Incorrect Authorization Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-859/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-92186"
+],
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-92186",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-03T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92186.",
+"title": "ZDI-26-858: Quest Foglight for Databases paFnUploadFileAndCreateInfo Directory Traversal Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-858/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-92194"
+],
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-92194",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-03T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92194.",
+"title": "ZDI-26-857: Quest Foglight for Databases loadManageServerLicense Directory Traversal Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-857/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-92195"
+],
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-92195",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-03T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92195.",
+"title": "ZDI-26-856: Quest Foglight for Databases loadEvolveLicense Directory Traversal Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-856/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-92192"
+],
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-92192",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-03T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92192.",
+"title": "ZDI-26-855: Quest Foglight for Databases installLicense Directory Traversal Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-855/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-92188"
+],
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-92188",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-03T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8. The following CVEs are assigned: CVE-2026-92188.",
+"title": "ZDI-26-854: Quest Foglight for Databases ForgeMBeanServerSupport Missing Authentication Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-854/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-92187"
+],
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-92187",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-03T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92187.",
+"title": "ZDI-26-852: Quest Foglight for Databases extractAndCreateUploadInfoList Directory Traversal Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-92190"
+],
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "CVE-2026-92190",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-03T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8. The following CVEs are assigned: CVE-2026-92190.",
+"title": "ZDI-26-851: Quest Foglight for Databases baseRmiServiceExporter Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-851/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "35e24b98f21b31974c441b543b409e4bf79ad89506e30020b98ad1612ee08f84",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-03T21:28:44Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
+"title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+"url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "a0551d94564caf81c5c143f77513ee9c7878daf791ba11a676ae04af2ab22f04",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T19:48:00Z",
+"reasons": [
+"matches Google Android (Tier 2)",
+"topic: botnet"
+],
+"route": "digest",
+"score": 4,
+"source": "The Record",
+"source_type": "rss",
+"sources": [
+"The Record"
+],
+"summary": "The overwhelming majority of the infected devices in the X.CPE botnet are Android TV set-top boxes, Google said, adding that they observed a number of other infected Android-based IoT devices, including telehealth devices, karaoke machines and digital signage devices.",
+"title": "Google dismantles massive botnet hidden in Android TV boxes",
+"topic_hits": [
+"botnet"
+],
+"url": "https://therecord.media/google-dismantles-botnet-hidden-android-tv-boxes",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Android",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "f0994319faa5b425ae013943ff91c09389ffc1647891288c7806e92d38468463",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T16:47:29Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Stringman, an $800 open-source room scale gripper robot",
+"url": "https://neufangled.com/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "fa8d1090376c91aaa87ee703a96666eebcad57cc7f74f14dbedfd1195167f6fc",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T17:40:00Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+"url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 2,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "43264eb7fc2af957407a6a413542b04e2522af5ad35441a3789de6101468bc89",
+"last_seen": "2026-11-03",
+"published": "2026-11-02T14:02:42Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Ars Technica",
+"source_type": "rss",
+"sources": [
+"Ars Technica",
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+"url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-03T23:43:31Z",
+"id": "263b9ea0803de0ffb2833763460ba485501220af63d26bd81d7166aa3f721ad6",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T15:29:15Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Kalshi and its co-founders face felony charges for violating Utah gambling laws",
+"url": "https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/",
+"weight": 3
 }
 ]
