@@ -3933,5 +3933,270 @@
 "title": "Iran pushing accelerated plan for ceasefire talks with US",
 "url": "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us?traffic_source=rss",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-76955"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-03T03:44:16Z",
+"id": "CVE-2026-76955",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T02:16:53Z",
+"reasons": [
+"CVSS 8.8",
+"matches Zyxel (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A buffer overflow vulnerability in the zdp_wtp binary in Zyxel NWA110AX firmware versions through 7.12(ABTG.0)C0 could allow a LAN-based attacker to escalate privileges on an affected device.",
+"title": "CVE-2026-76955: A buffer overflow vulnerability in the zdp_wtp binary in Zyxel NWA110AX firmware versions through 7.12(ABTG.0)C0 could allow a LAN-based…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76955",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Zyxel",
+"tier": 1,
+"vendor": "Zyxel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82244"
+],
+"cvss": 9.4,
+"epss": 0.00886,
+"first_seen": "2026-11-03T03:44:16Z",
+"id": "CVE-2026-82244",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-02T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.4",
+"remote code execution",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "budibase budibase. Budibase versions before 3.41.3 contain a remote code execution vulnerability in plugin handling that allows authenticated admin users to execute arbitrary code by uploading a malicious plugin tarball. The server calls eval() on plugin JavaScript files without sandboxing in the…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-82244: budibase budibase Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82244"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-03T03:44:16Z",
+"id": "e3f52f582670cc2aeee5716651f6790ed29c7f50b66be1555ddfff9f83af8b42",
+"last_seen": "2026-11-03",
+"published": "2026-11-02T15:50:26Z",
+"reasons": [
+"matches Google Android (Tier 2)",
+"topic: botnet"
+],
+"route": "digest",
+"score": 4,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google. Google says it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to criminals. They used the…",
+"title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+"topic_hits": [
+"botnet"
+],
+"url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Android",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-03T03:44:16Z",
+"id": "7a9cf8c66ce4f1c9ace4c719733eb26fa70e6ec8af0b90fa59e92646e8a56904",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T02:24:31Z",
+"reasons": [
+"matches Google Android (Tier 2)",
+"topic: botnet"
+],
+"route": "digest",
+"score": 4,
+"source": "Krebs on Security",
+"source_type": "rss",
+"sources": [
+"Krebs on Security"
+],
+"summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown…",
+"title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+"topic_hits": [
+"botnet"
+],
+"url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Android",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-03T03:44:16Z",
+"id": "022e210a13b4357e60aa0b1a04364df802d8cac872eca4b772f07ef01d3d99b4",
+"last_seen": "2026-11-03",
+"published": "2026-11-02T16:34:36Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "US boy names that became girl names and vice versa",
+"url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-03T03:44:16Z",
+"id": "d2734203376282abdff4030d145993de0343e9568b7a025e5eb4f6ce8e213717",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-02T18:39:38Z",
+"reasons": [
+"RCE",
+"source weight +3"
+],
+"route": "digest",
+"score": 6,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+"url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-03T03:44:16Z",
+"id": "a1197b98b2bbd45ed5b743149116162d826c44300a444eb19d28b4479dbf4140",
+"last_seen": "2026-11-03",
+"published": "2026-11-02T21:56:07Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Livestock farmers across Rwanda are set to receive 15 million pasture grass seedlings as the government steps up efforts to address animal feed shortages.",
+"title": "15m Pasture Seedlings to Help Address Livestock Feed Shortages",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611020793.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-03T03:44:16Z",
+"id": "cd7dce777630c716594ec5e8ee6ebe4cabde1f815dd7832996565235b6dbce0b",
+"last_seen": "2026-11-03",
+"published": "2026-11-02T21:56:05Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Prices received by producers in Rwanda increased by 21.5 per cent in September 2026 compared with the same month last year, driven largely by increases in the cost of manufactured food products and beverages.",
+"title": "Producer Prices Rise 21.5 Percent, Says Nisr",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611020792.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-03T03:44:16Z",
+"id": "6f0cd9224c5b65122c08ed28009d3d65e33f3c205b413c5e6a2e3eb982e03296",
+"last_seen": "2026-11-03",
+"published": "2026-11-02T15:38:43Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda Rise Technical and Vocational Training Centre has graduated 413 students, bringing the total number of graduates since its establishment to more than 5,300, as the institution seeks to expand its programmes and introduce higher TVET levels.",
+"title": "Rwanda Rise Graduates Over 400, Sets Sights On Expanding opportunities",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611020551.html",
+"weight": 1
 }
 ]
