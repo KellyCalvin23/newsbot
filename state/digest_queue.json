@@ -3204,7 +3204,7 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-81648"
 ],
@@ -3215,7 +3215,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-02",
+"last_seen": "2026-11-03",
 "published": "2026-11-02T00:00:00Z",
 "reasons": [
 "new VulnCheck KEV",
@@ -3228,6 +3228,7 @@
 "source": "VulnCheck KEV",
 "source_type": "vulncheck_kev",
 "sources": [
+"The Hacker News",
 "VulnCheck KEV"
 ],
 "summary": "CryptoPayment Gateway CryptoPayment Gateway. The CryptoPayment Gateway WordPress plugin from 1.2.1 to 1.2.2 does not apply an authorization check on one of its AJAX endpoints, allowing unauthenticated users to invoke administrative operations, including deleting arbitrary files on the server…",
@@ -4197,6 +4198,609 @@
 "Rwanda"
 ],
 "url": "https://allafrica.com/stories/202611020551.html",
+"weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-101566"
+],
+"cvss": 7.8,
+"epss": 0.00118,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "CVE-2026-101566",
+"last_seen": "2026-11-03",
+"published": "2026-10-20T22:18:08Z",
+"reasons": [
+"CVSS 7.8",
+"matches Oracle E-Business Suite (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Vulnerability in the Oracle Application Object Library product of Oracle E-Business Suite (component: DB Privileges). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle Application…",
+"title": "CVE-2026-101566: Vulnerability in the Oracle Application Object Library product of Oracle E-Business Suite (component: DB Privileges)",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101566",
+"vendor_matches": [
+{
+"points": 2,
+"term": "E-Business Suite",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-101676"
+],
+"cvss": 7.8,
+"epss": 0.00171,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "CVE-2026-101676",
+"last_seen": "2026-11-03",
+"published": "2026-10-20T22:18:22Z",
+"reasons": [
+"CVSS 7.8",
+"matches Oracle E-Business Suite (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Vulnerability in the Oracle Concurrent Processing product of Oracle E-Business Suite (component: Other Issues). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle Concurrent…",
+"title": "CVE-2026-101676: Vulnerability in the Oracle Concurrent Processing product of Oracle E-Business Suite (component: Other Issues)",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101676",
+"vendor_matches": [
+{
+"points": 2,
+"term": "E-Business Suite",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-101705"
+],
+"cvss": 7.7,
+"epss": 0.00344,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "CVE-2026-101705",
+"last_seen": "2026-11-03",
+"published": "2026-10-20T22:18:24Z",
+"reasons": [
+"CVSS 7.7",
+"matches Oracle E-Business Suite (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Vulnerability in the Oracle Common Applications product of Oracle E-Business Suite (component: Role Summary). Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle Common…",
+"title": "CVE-2026-101705: Vulnerability in the Oracle Common Applications product of Oracle E-Business Suite (component: Role Summary)",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101705",
+"vendor_matches": [
+{
+"points": 2,
+"term": "E-Business Suite",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-101757"
+],
+"cvss": 7.8,
+"epss": 0.0016,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "CVE-2026-101757",
+"last_seen": "2026-11-03",
+"published": "2026-10-20T22:18:30Z",
+"reasons": [
+"CVSS 7.8",
+"matches Oracle E-Business Suite (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Vulnerability in the Oracle Application Object Library product of Oracle E-Business Suite (component: DB Privileges). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle Application…",
+"title": "CVE-2026-101757: Vulnerability in the Oracle Application Object Library product of Oracle E-Business Suite (component: DB Privileges)",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101757",
+"vendor_matches": [
+{
+"points": 2,
+"term": "E-Business Suite",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-77691"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "CVE-2026-77691",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T10:17:18Z",
+"reasons": [
+"CVSS 8.1",
+"matches Microsoft (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "ZohoCorp ManageEngine Key Manager Plus versions before 7151 allow authenticated users to enter malicious input when configuring a Microsoft CA",
+"title": "CVE-2026-77691: ZohoCorp ManageEngine Key Manager Plus versions before 7151 allow authenticated users to enter malicious input when configuring a Microsoft…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77691",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "9ec02a3dcddb4b05f07ee4b4a7de1b0208aec6aa0fa05adfd8b6660a74dd125e",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-03T10:53:25Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned. [...]",
+"title": "Harvard University data breach exposed info of 851,000 accounts",
+"url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "33ee66d7b3ee1eb55bcbbe731a8900c60696486e08653413dd34dd2169f24e53",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-03",
+"published": "2026-11-03T07:43:07Z",
+"reasons": [
+"ransomware"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated…",
+"title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+"url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-58115"
+],
+"cvss": 10.0,
+"epss": 0.00953,
+"first_seen": "2026-10-31T12:23:30Z",
+"id": "CVE-2026-58115",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-03",
+"published": "2026-10-30T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 10.0",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"The Hacker News",
+"VulnCheck KEV"
+],
+"summary": "Siemens SIMATIC IoT2050 Advanced. A vulnerability has been identified in SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2) (All versions < V4.3.4.1 running Industrial OS with Node-RED installed). Affected devices do not enforce authentication on the Node-RED HTTP interface, allowing unauthenticated…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-58115: Missing Authentication for Critical Functionality",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58115"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "600c3e04be991557ec124c2da3aa68a048763e0413dadd12cfc41db824f884f0",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T09:22:09Z",
+"reasons": [
+"matches Google Android (Tier 2)",
+"topic: botnet"
+],
+"route": "digest",
+"score": 4,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "The botnet was created and operated for financial gain by Android OEM/ODM Videostrong Technology. The post Google Dismantles XCPE Botnet of 1.3 Million Android Devices appeared first on SecurityWeek .",
+"title": "Google Dismantles XCPE Botnet of 1.3 Million Android Devices",
+"topic_hits": [
+"botnet"
+],
+"url": "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Android",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "109370220ae60c27e2f706e05325b901404089418453818152488954ecd6e4e7",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T01:53:34Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+"url": "https://hackertimes.ca/",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "e21bdadb3650024701456a8576751ade41b7a999adbef4966c98abd9dd6424e4",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T06:42:05Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[allAfrica]",
+"title": "All of Africa Today - November 3, 2026",
+"topic_hits": [
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611030156.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "d614dac7b9dde9858fed04adc0ff09fb516ed75f1935b89f4010a4e79cfe2808",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T06:25:05Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[DW] The Trump administration has said South Africa and Rwanda are breaking the rules of the AGOA free trade initiative, a centerpiece of US economic engagement with sub-Saharan Africa.",
+"title": "U.S. to Drop South Africa, Rwanda from AGOA Duty-Free Trade Initiative",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611030128.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "33aa3821502c89c95f69ca059485de412ad321a12812d0d0c675f61d6352c7df",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T11:17:16Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] President Paul Kagame and Jamaican Prime Minister Andrew Holness on Monday, November 2, discussed ways to strengthen cooperation between Rwanda and the Caribbean nation, including in health, defence and tourism.",
+"title": "Kagame, Jamaica PM Discuss Defence, Tourism Cooperation",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611030374.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "2835bc190835c337d4e1284a30fb30de219a9899a084d2793eee177132dc8689",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T05:12:59Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The government has stepped up efforts to combat illegal trade in environmentally harmful refrigerants, as Rwanda works to enforce international commitments aimed at protecting the ozone layer and combating climate change.",
+"title": "How Govt Is Tackling Illegal Refrigerant Trade",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611030076.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "8918e009c1a3e73854ec9566f7dfcf0d88fe426269d28f775a0e37d4779fdfdb",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T05:12:58Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Farmers in some of Rwanda's drought-prone districts could soon receive a boost in their efforts to cope with erratic rainfall and prolonged dry spells, following the approval of new funding to strengthen climate resilience and protect agricultural livelihoods.",
+"title": "New Funding Offers Relief to Drought-Hit Farming Districts",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611030075.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "dd394e96510d5a6af36b3e3cffbce80db6f34d1857c5256c603ef923ed506fe6",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T05:13:05Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Twenty-eight military, police and civilian personnel on Monday, November 2, began the International Human Rights Law in Peace Support Operations Course at the Rwanda Peace Academy in Musanze District.",
+"title": "Officers, Civilians Begin Training On Human Rights Law - Musanze",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611030077.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "8f1bfca9a454b56c74a4198ac758730554dadc2fe73a4f4b574f1c0d769f4db9",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T11:17:43Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Team Rwanda athletes are making steady progress at the Dakar 2026 Summer Youth Olympic Games, recording personal bests and gaining valuable international experience as the competition unfolds in Senegal.",
+"title": "Rwanda's Medal Hunt Continues At Dakar Youth Olympics",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611030375.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "0947f7e8ffaebcd3083d38db3a545f3ce2dec54ce9ba034be158fbe5f204c811",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T11:16:42Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The African Export-Import Bank (Afreximbank) and the African Petroleum Producers' Organisation (APPO) have announced the establishment of the Africa Energy Bank (AEB), which aims to finance key energy projects on the continent.",
+"title": "Africa Energy Bank Launches With $5bn in Capital",
+"topic_hits": [
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611030373.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "906051b41da2a9705e17c2c32ac9a45313408889fda87e799820a95ffa94b4ff",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T10:44:06Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] As sovereigns, investors, bankers, development finance institutions and corporate issuers prepare to gather in Kigali, the conversation shifts from how Africa attracts capital to how it can build stronger markets to move, mobilise and deploy it.",
+"title": "Kigali International Financial Centre & Gbm Bring Bonds, Loans & Esg Africa 2026 to Kigali",
+"topic_hits": [
+"Kigali",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611030325.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "884a84ea9c1646c2c530d5aff5ba8025a8b333e9549e2e7de5062d13a8d42fc9",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T10:42:51Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Inganzo Ngari Cultural Troupe is set to celebrate 20 years of promoting Rwandan culture with a concert dubbed Umurage w'Intore, scheduled for November 21 at BK Arena.",
+"title": "Inganzo Ngari's Two Decades of Keeping Rwanda's Cultural Heritage Alive",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611030324.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-03T11:23:32Z",
+"id": "31c858132f69260042edf62362a202a16da7072333477789f33a6bc1a95e7d6b",
+"last_seen": "2026-11-03",
+"published": "2026-11-03T10:42:30Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Post-genocide justice in Rwanda was delivered through a multi-tiered legal framework designed to prosecute more than a million perpetrators, rebuild the shattered domestic judicial system and promote national reconciliation.",
+"title": "How the RPF Prioritised Post-Genocide Justice",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611030323.html",
 "weight": 1
 }
 ]
