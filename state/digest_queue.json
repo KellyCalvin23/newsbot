@@ -7460,300 +7460,243 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-92196"
 ],
+"cvss": 7.2,
 "first_seen": "2026-11-03T23:43:31Z",
 "id": "CVE-2026-92196",
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-03",
+"last_seen": "2026-11-04",
 "published": "2026-11-03T06:00:00Z",
 "reasons": [
+"CVSS 7.2",
 "remote code execution"
 ],
 "route": "digest",
-"score": 3,
+"score": 5,
 "source": "Zero Day Initiative",
 "source_type": "rss",
 "sources": [
+"NVD",
 "Zero Day Initiative"
 ],
-"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.2. The following CVEs are assigned: CVE-2026-92196.",
+"summary": "Quest Foglight for Databases renderTemplateString Server-Side Template Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this…",
 "title": "ZDI-26-866: Quest Foglight for Databases renderTemplateString Server-Side Template Injection Remote Code Execution Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-866/"
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
-"cve_ids": [
-"CVE-2026-92189"
-],
-"first_seen": "2026-11-03T23:43:31Z",
-"id": "CVE-2026-92189",
-"keyword_hits": [
-"remote code execution"
-],
-"last_seen": "2026-11-03",
-"published": "2026-11-03T06:00:00Z",
-"reasons": [
-"remote code execution"
-],
-"route": "digest",
-"score": 3,
-"source": "Zero Day Initiative",
-"source_type": "rss",
-"sources": [
-"Zero Day Initiative"
-],
-"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8. The following CVEs are assigned: CVE-2026-92189.",
-"title": "ZDI-26-861: Quest Foglight for Databases writeTopologySectionToFile External Control of File Path Remote Code Execution Vulnerability",
-"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-861/"
-},
-{
-"category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-92197"
 ],
+"cvss": 8.8,
 "first_seen": "2026-11-03T23:43:31Z",
 "id": "CVE-2026-92197",
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-03",
+"last_seen": "2026-11-04",
 "published": "2026-11-03T06:00:00Z",
 "reasons": [
+"CVSS 8.8",
 "remote code execution"
 ],
 "route": "digest",
-"score": 3,
+"score": 5,
 "source": "Zero Day Initiative",
 "source_type": "rss",
 "sources": [
+"NVD",
 "Zero Day Initiative"
 ],
-"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92197.",
+"summary": "Quest Foglight for Databases unzipFile Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw…",
 "title": "ZDI-26-860: Quest Foglight for Databases unzipFile Directory Traversal Remote Code Execution Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-860/"
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-92191"
 ],
+"cvss": 8.8,
 "first_seen": "2026-11-03T23:43:31Z",
 "id": "CVE-2026-92191",
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-03",
+"last_seen": "2026-11-04",
 "published": "2026-11-03T06:00:00Z",
 "reasons": [
+"CVSS 8.8",
 "remote code execution"
 ],
 "route": "digest",
-"score": 3,
+"score": 5,
 "source": "Zero Day Initiative",
 "source_type": "rss",
 "sources": [
+"NVD",
 "Zero Day Initiative"
 ],
-"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92191.",
+"summary": "Quest Foglight for Databases runScript Incorrect Authorization Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific…",
 "title": "ZDI-26-859: Quest Foglight for Databases runScript Incorrect Authorization Remote Code Execution Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-859/"
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-92186"
 ],
+"cvss": 8.8,
 "first_seen": "2026-11-03T23:43:31Z",
 "id": "CVE-2026-92186",
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-03",
+"last_seen": "2026-11-04",
 "published": "2026-11-03T06:00:00Z",
 "reasons": [
+"CVSS 8.8",
 "remote code execution"
 ],
 "route": "digest",
-"score": 3,
+"score": 5,
 "source": "Zero Day Initiative",
 "source_type": "rss",
 "sources": [
+"NVD",
 "Zero Day Initiative"
 ],
-"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92186.",
+"summary": "Quest Foglight for Databases paFnUploadFileAndCreateInfo Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability…",
 "title": "ZDI-26-858: Quest Foglight for Databases paFnUploadFileAndCreateInfo Directory Traversal Remote Code Execution Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-858/"
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-92194"
 ],
+"cvss": 8.8,
 "first_seen": "2026-11-03T23:43:31Z",
 "id": "CVE-2026-92194",
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-03",
+"last_seen": "2026-11-04",
 "published": "2026-11-03T06:00:00Z",
 "reasons": [
+"CVSS 8.8",
 "remote code execution"
 ],
 "route": "digest",
-"score": 3,
+"score": 5,
 "source": "Zero Day Initiative",
 "source_type": "rss",
 "sources": [
+"NVD",
 "Zero Day Initiative"
 ],
-"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92194.",
+"summary": "Quest Foglight for Databases loadManageServerLicense Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The…",
 "title": "ZDI-26-857: Quest Foglight for Databases loadManageServerLicense Directory Traversal Remote Code Execution Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-857/"
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-92195"
 ],
+"cvss": 8.8,
 "first_seen": "2026-11-03T23:43:31Z",
 "id": "CVE-2026-92195",
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-03",
+"last_seen": "2026-11-04",
 "published": "2026-11-03T06:00:00Z",
 "reasons": [
+"CVSS 8.8",
 "remote code execution"
 ],
 "route": "digest",
-"score": 3,
+"score": 5,
 "source": "Zero Day Initiative",
 "source_type": "rss",
 "sources": [
+"NVD",
 "Zero Day Initiative"
 ],
-"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92195.",
+"summary": "Quest Foglight for Databases loadEvolveLicense Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The…",
 "title": "ZDI-26-856: Quest Foglight for Databases loadEvolveLicense Directory Traversal Remote Code Execution Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-856/"
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-92192"
 ],
+"cvss": 8.8,
 "first_seen": "2026-11-03T23:43:31Z",
 "id": "CVE-2026-92192",
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-03",
+"last_seen": "2026-11-04",
 "published": "2026-11-03T06:00:00Z",
 "reasons": [
+"CVSS 8.8",
 "remote code execution"
 ],
 "route": "digest",
-"score": 3,
+"score": 5,
 "source": "Zero Day Initiative",
 "source_type": "rss",
 "sources": [
+"NVD",
 "Zero Day Initiative"
 ],
-"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92192.",
+"summary": "Quest Foglight for Databases installLicense Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific…",
 "title": "ZDI-26-855: Quest Foglight for Databases installLicense Directory Traversal Remote Code Execution Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-855/"
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
-"cve_ids": [
-"CVE-2026-92188"
-],
-"first_seen": "2026-11-03T23:43:31Z",
-"id": "CVE-2026-92188",
-"keyword_hits": [
-"remote code execution"
-],
-"last_seen": "2026-11-03",
-"published": "2026-11-03T06:00:00Z",
-"reasons": [
-"remote code execution"
-],
-"route": "digest",
-"score": 3,
-"source": "Zero Day Initiative",
-"source_type": "rss",
-"sources": [
-"Zero Day Initiative"
-],
-"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8. The following CVEs are assigned: CVE-2026-92188.",
-"title": "ZDI-26-854: Quest Foglight for Databases ForgeMBeanServerSupport Missing Authentication Remote Code Execution Vulnerability",
-"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-854/"
-},
-{
-"category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-92187"
 ],
+"cvss": 8.8,
 "first_seen": "2026-11-03T23:43:31Z",
 "id": "CVE-2026-92187",
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-03",
+"last_seen": "2026-11-04",
 "published": "2026-11-03T06:00:00Z",
 "reasons": [
+"CVSS 8.8",
 "remote code execution"
 ],
 "route": "digest",
-"score": 3,
+"score": 5,
 "source": "Zero Day Initiative",
 "source_type": "rss",
 "sources": [
+"NVD",
 "Zero Day Initiative"
 ],
-"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92187.",
+"summary": "Quest Foglight for Databases extractAndCreateUploadInfoList Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this…",
 "title": "ZDI-26-852: Quest Foglight for Databases extractAndCreateUploadInfoList Directory Traversal Remote Code Execution Vulnerability",
 "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
-},
-{
-"category": "vulnerabilities",
-"coverage_count": 1,
-"cve_ids": [
-"CVE-2026-92190"
-],
-"first_seen": "2026-11-03T23:43:31Z",
-"id": "CVE-2026-92190",
-"keyword_hits": [
-"remote code execution"
-],
-"last_seen": "2026-11-03",
-"published": "2026-11-03T06:00:00Z",
-"reasons": [
-"remote code execution"
-],
-"route": "digest",
-"score": 3,
-"source": "Zero Day Initiative",
-"source_type": "rss",
-"sources": [
-"Zero Day Initiative"
-],
-"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8. The following CVEs are assigned: CVE-2026-92190.",
-"title": "ZDI-26-851: Quest Foglight for Databases baseRmiServiceExporter Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-851/"
 },
 {
 "category": "security",
@@ -7908,5 +7851,280 @@
 "title": "Kalshi and its co-founders face felony charges for violating Utah gambling laws",
 "url": "https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114730"
+],
+"cvss": 7.2,
+"epss": 0.00373,
+"first_seen": "2026-11-04T03:21:03Z",
+"id": "CVE-2026-114730",
+"last_seen": "2026-11-04",
+"published": "2026-10-22T03:16:38Z",
+"reasons": [
+"CVSS 7.2",
+"matches Roundcube (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Roundcube Webmail 1.6.14 before 1.6.20 and 1.7.0 before 1.7.5 is affected by a server-side request forgery filter bypass. The network blocklist used by rcube_utils::is_local_url() omitted the RFC 6052 NAT64 prefix 64:ff9b::/96, the RFC 8215 local-use NAT64 prefix 64:ff9b:1::/48 and the unspecified…",
+"title": "CVE-2026-114730: Roundcube Webmail 1.6.14 before 1.6.20 and 1.7.0 before 1.7.5 is affected by a server-side request forgery filter bypass",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114730",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Roundcube",
+"tier": 3,
+"vendor": "Roundcube"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114732"
+],
+"cvss": 8.1,
+"epss": 0.00359,
+"first_seen": "2026-11-04T03:21:03Z",
+"id": "CVE-2026-114732",
+"last_seen": "2026-11-04",
+"published": "2026-10-22T03:16:38Z",
+"reasons": [
+"CVSS 8.1",
+"matches Roundcube (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Roundcube Webmail before 1.6.20 and 1.7.x before 1.7.5 is affected by an improper authentication vulnerability in multi-host installations. When a user logs in with an alias address, rcube_user::query() matched the address against identity records without qualifying the lookup by IMAP host, so a…",
+"title": "CVE-2026-114732: Roundcube Webmail before 1.6.20 and 1.7.x before 1.7.5 is affected by an improper authentication vulnerability in multi-host installations",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114732",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Roundcube",
+"tier": 3,
+"vendor": "Roundcube"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-110245"
+],
+"cvss": 7.5,
+"epss": 0.00365,
+"first_seen": "2026-11-04T03:21:03Z",
+"id": "CVE-2026-110245",
+"last_seen": "2026-11-04",
+"published": "2026-10-29T16:17:56Z",
+"reasons": [
+"CVSS 7.5",
+"matches Langflow (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote attacker to obtain sensitive information due to improper authentication.",
+"title": "CVE-2026-110245: IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote attacker to obtain sensitive information due to improper authentication.",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110245",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Langflow",
+"tier": 3,
+"vendor": "Langflow"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-114550"
+],
+"cvss": 8.1,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-114550",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T00:17:22Z",
+"reasons": [
+"CVSS 8.1",
+"remote code execution"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "libwebsockets MQTT Protocol PUBACK Packet Handling Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of libwebsockets. Authentication is not required to exploit this vulnerability. The specific…",
+"title": "CVE-2026-114550: libwebsockets MQTT Protocol PUBACK Packet Handling Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114550"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118623"
+],
+"cvss": 7.8,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-118623",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T00:17:23Z",
+"reasons": [
+"CVSS 7.8",
+"remote code execution"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "MLflow PickleEvaluationArtifact Deserialization of Untrusted Data Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of MLflow. User interaction is required to exploit this vulnerability in that the target must visit a…",
+"title": "CVE-2026-118623: MLflow PickleEvaluationArtifact Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118623"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118627"
+],
+"cvss": 7.8,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-118627",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T00:17:23Z",
+"reasons": [
+"CVSS 7.8",
+"remote code execution"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "MLflow SHAP load_explainer Deserialization of Untrusted Data Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of MLflow. User interaction is required to exploit this vulnerability in that the target must visit a…",
+"title": "CVE-2026-118627: MLflow SHAP load_explainer Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118627"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-92211"
+],
+"cvss": 7.8,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-92211",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T00:17:31Z",
+"reasons": [
+"CVSS 7.8",
+"remote code execution"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "Pixar Animation Studio OpenUSD Crate File Parsing Double Free Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Pixar Animation Studio OpenUSD. Interaction with this library is required to exploit this…",
+"title": "CVE-2026-92211: Pixar Animation Studio OpenUSD Crate File Parsing Double Free Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92211"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-04T03:21:03Z",
+"id": "b5085c9f9c7b77a6e3d6977342cd0878037f408f32484d877d00eda4cbce63b8",
+"last_seen": "2026-11-04",
+"published": "2026-11-03T21:39:05Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Safari introduces Adaptive Dark Mode in 27.3",
+"url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-04T03:21:03Z",
+"id": "5fde809e856511e8498caeab96bd8a19ceaeb43a67aa0f49fd94c335879de715",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T00:03:19Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "As South Africans vote in local elections, residents tell the BBC they are tired of the poor quality of services they get.",
+"title": "ANC under pressure to reverse South Africa decline",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.bbc.co.uk/news/articles/cr4g1x6l77xyo",
+"weight": 1
 }
 ]
