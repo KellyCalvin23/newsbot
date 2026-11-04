@@ -8126,5 +8126,358 @@
 ],
 "url": "https://www.bbc.co.uk/news/articles/cr4g1x6l77xyo",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111962"
+],
+"first_seen": "2026-11-04T11:13:46Z",
+"id": "CVE-2026-111962",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T06:16:58Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The WP Remote Users Sync WordPress plugin before 2.2.0 does not adequately restrict access to the user export files it writes beneath the public web root, relying on an Apache access-control file that other web servers such as Nginx ignore, which allows an unauthenticated attacker who requests the…",
+"title": "CVE-2026-111962: The WP Remote Users Sync WordPress plugin before 2.2.0 does not adequately restrict access to the user export files it writes beneath the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111962",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-58868"
+],
+"epss": 0.00211,
+"first_seen": "2026-11-04T11:13:46Z",
+"id": "d653744dc70192a9db7841c7ac086eb5fab8768038237f6460338204917ec23d",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T07:46:15Z",
+"reasons": [
+"RCE",
+"matches Google Android (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and…",
+"title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+"url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Android",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-04T11:13:46Z",
+"id": "0600a658286962c7e8e37b20097d5b6ad26c0132bbde1c910a9de1b175f32e0f",
+"keyword_hits": [
+"supply chain attack"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T10:54:48Z",
+"reasons": [
+"supply chain attack"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Using compromised credentials, the attackers accessed OpsShield’s update servers and poisoned multiple cPGuard versions. The post Malicious cPGuard Updates Served in OpsShield Supply Chain Attack appeared first on SecurityWeek .",
+"title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
+"url": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-04T11:13:46Z",
+"id": "b9f5186c11f6b577b445646636c264ee137ef5b50dd3200d1f1d87aa03a80e7e",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T00:33:22Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "C++26 Disapproved",
+"url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-04T11:13:46Z",
+"id": "f5122c282e228c87f8c7f6db3cc90e252bb5fd29ae03a06400cbf9b219673563",
+"last_seen": "2026-11-04",
+"published": "2026-11-03T01:18:09Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels",
+"url": "https://hackertv.org",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-04T11:13:46Z",
+"id": "c6996493159d472a6a8a1df6188a43bc29f0061abfb0689775605e1792b777b2",
+"last_seen": "2026-11-04",
+"published": "2026-11-03T21:40:53Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+"url": "https://arxiv.org/abs/2605.29713",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-04T11:13:46Z",
+"id": "a5ddaf71d3cfcaa823a18f51bac29ed1aaf0cb8e6d435a0d171b172bf4f56d50",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T11:12:15Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "The US imposed sanctions on Rwanda's army over its role in the conflict in DR Congo.",
+"title": "Rwanda's army team removed from Africa league after US sanctions, NBA says",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://www.bbc.co.uk/news/articles/c699zdx9knmpo",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-04T11:13:46Z",
+"id": "388a1197c6859415fbb90a19b0f99ab259f5e27b0549c590811cb882489a8a99",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T10:17:13Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] A citizen should not have to travel to Kigali or wait for approval from a distant office for a service that a local authority could competently provide. The Government's review of which additional services to decentralise is therefore necessary and timely.",
+"title": "Bring Public Services Closer to the People",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611040281.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-04T11:13:46Z",
+"id": "6934d8d3d2f020e84fad7ae07c90503dd21eecfa7a93172dcc7910f0c5aee673",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T10:15:40Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The Rwanda Defence Force (RDF) Chief of Defence Staff, Gen Mubarakh Muganga on Tuesday, November 3, held discussions with Gen Zéphirin Mamadou, Chief of General Staff of the Central African Republic Armed Forces (FACA) on ways to strengthen defence cooperation.",
+"title": "Rwanda, CAR Military Chiefs Discuss Cooperation",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611040279.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-04T11:13:46Z",
+"id": "e13c09806599a76fb1370964fa2c54c2bdf73feae8d8530d766b5bb13c102160",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T09:51:34Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] APR FC were forced to come from behind to salvage a 1-1 draw against a resilient Gasogi United side in a BK Pro League Matchday 8 encounter at Kigali Pelé Stadium on Tuesday.",
+"title": "Bk Pro League - Gasogi United Hold APR As Mukura Go Top",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611040240.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-04T11:13:46Z",
+"id": "368df4124e1fa08259b554964452bc0fdde65b161ca7cbfb6a88d97391747f4c",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T09:47:34Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Angola's Shido Boris Esperança, popularly known as 'Machine', will face Nigeria's unbeaten David Samuel in the main event of the Professional Fighters League (PFL) Africa finals at BK Arena in Kigali on December 12, with both fighters bidding for the welterweight championship.",
+"title": "PFL Africa - Samuel, Esperança Showdown Headlines Kigali Finals Fight Card",
+"topic_hits": [
+"Kigali",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611040230.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-04T11:13:46Z",
+"id": "4dc8a67e09a67dd716cfdf5f9078d531c2722154d885db5100b25588e914f6a7",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T09:46:52Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda's women's cricket team will be targeting a place in the Victoria Series final when they face hosts Uganda, Namibia and the United States in a four-nation T20 International (T20I) tournament scheduled for November 6-14 at Entebbe Cricket Oval.",
+"title": "Victoria Series Offers Rwanda Crucial 2027 World Cup Qualifier Test--Nhamburo",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611040229.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-04T11:13:46Z",
+"id": "daad2ca201cee5358caab7227f541257534d71f5d0496b8c452749c18fbe3bb9",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T09:45:55Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] As Rwanda races to achieve universal electricity access by 2030, new opportunities for regional cooperation could help the country overcome some of the financial and technical challenges standing in the way of that ambition.",
+"title": "Could Regional Support Accelerate Electricity Access?",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611040225.html",
+"weight": 1
 }
 ]
