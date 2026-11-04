@@ -1,1 +1,1474 @@
-[]
+[
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-85299"
+],
+"cvss": 8.3,
+"epss": 0.00255,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-85299",
+"last_seen": "2026-11-04",
+"published": "2026-10-27T10:16:56Z",
+"reasons": [
+"CVSS 8.3",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A Missing Authorization vulnerability in the disks.createSnapshot and regionDisks.createSnapshot APIs in Google Compute Engine versions prior to 2026-08-31 on Google Cloud Platform allows an authenticated attacker to exfiltrate cross-project disk data. This vulnerability was patched on 31 August…",
+"title": "CVE-2026-85299: A Missing Authorization vulnerability in the disks.createSnapshot and regionDisks.createSnapshot APIs in Google Compute Engine versions…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85299",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-106078"
+],
+"cvss": 6.9,
+"epss": 0.00261,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-106078",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-04",
+"published": "2026-10-27T17:16:56Z",
+"reasons": [
+"unauthenticated",
+"matches Microsoft (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A vulnerability allowing an unauthenticated attacker to bypass REST API authentication with a forged federation token and receive responses from REST API endpoints that do not call the Veeam Backup for Microsoft 365 backup service.",
+"title": "CVE-2026-106078: A vulnerability allowing an unauthenticated attacker to bypass REST API authentication with a forged federation token and receive responses…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106078",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121131"
+],
+"cvss": 9.6,
+"epss": 0.00251,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-121131",
+"last_seen": "2026-11-04",
+"published": "2026-11-03T21:17:21Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in Mobile in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted Chrome extension. (Chromium security severity: High)",
+"title": "CVE-2026-121131: Use after free in Mobile in Google Chrome prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to execute…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121131",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121166"
+],
+"cvss": 8.8,
+"epss": 0.00251,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-121166",
+"last_seen": "2026-11-04",
+"published": "2026-11-03T21:17:24Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Type confusion in PDFium in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted PDF file. (Chromium security severity: High)",
+"title": "CVE-2026-121166: Type confusion in PDFium in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to execute arbitrary code inside the sandbox via…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121166",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-100252"
+],
+"cvss": 8.6,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-100252",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T11:17:06Z",
+"reasons": [
+"CVSS 8.6",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper Authorization vulnerability in Apache ZooKeeper. When SASL authentication is enabled on the client port, the server's SASL callback handler grants every authorization identity (authzid) that a client requests, without checking it against the principal the client authenticated as. The…",
+"title": "CVE-2026-100252: Improper Authorization vulnerability in Apache ZooKeeper. When SASL authentication is enabled on the client port, the server's SASL…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100252",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-100302"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-100302",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T11:17:07Z",
+"reasons": [
+"CVSS 7.1",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Allocation of Resources Without Limits or Throttling in the multiRead request handler of Apache ZooKeeper allows a remote attacker to crash the server (denial of service) with a single small request. The multiRead handler places no limit on the number of bundled read operations or on the cumulative…",
+"title": "CVE-2026-100302: Allocation of Resources Without Limits or Throttling in the multiRead request handler of Apache ZooKeeper allows a remote attacker to crash…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100302",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-115448"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-115448",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T11:17:14Z",
+"reasons": [
+"CVSS 8.7",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Uncontrolled recursion in Apache ZooKeeper. The server serializes its data tree to a snapshot by recursing one stack frame per znode level, with no depth bound. A client permitted to create znodes (the default root ACL is open) can build a chain of nested znodes deep enough that taking a snapshot…",
+"title": "CVE-2026-115448: Uncontrolled recursion in Apache ZooKeeper",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115448",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-59264"
+],
+"cvss": 7.8,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-59264",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T11:17:16Z",
+"reasons": [
+"CVSS 7.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The Windows installers of Apache OpenOffice 4.1.16 and earlier allow an already manipulated system to run external code with elevated access. Users are recommended to upgrade to version 4.1.17, which fixes this issue.",
+"title": "CVE-2026-59264: The Windows installers of Apache OpenOffice 4.1.16 and earlier allow an already manipulated system to run external code with elevated…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59264",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-59268"
+],
+"cvss": 7.3,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-59268",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T11:17:16Z",
+"reasons": [
+"CVSS 7.3",
+"matches Microsoft (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An out-of-bounds Write vulnerability in Apache OpenOffice versions through 4.1.16 could allow an attacker to craft a Microsoft Word document that would crash the program, or otherwise corrupt other memory areas. Users are recommended to upgrade to version 4.1.17, which fixes this issue.",
+"title": "CVE-2026-59268: An out-of-bounds Write vulnerability in Apache OpenOffice versions through 4.1.16 could allow an attacker to craft a Microsoft Word…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59268",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-90624"
+],
+"cvss": 7.3,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-90624",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T11:17:18Z",
+"reasons": [
+"CVSS 7.3",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An unchecked memory access in the PDF import code of Apache OpenOffice versions through 4.1.16 on allows a crafted PDF to execute an out-of-bounds memory write. This could crash the program or cause memory corruption. Users are recommended to upgrade to version 4.1.17, which fixes this issue.",
+"title": "CVE-2026-90624: An unchecked memory access in the PDF import code of Apache OpenOffice versions through 4.1.16 on allows a crafted PDF to execute an…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90624",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-90626"
+],
+"cvss": 7.3,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-90626",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T11:17:19Z",
+"reasons": [
+"CVSS 7.3",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An uncontrolled memory access in the PDF import code of Apache OpenOffice versions through 4.1.16 allows a crafted PDF to cause an out-of-bounds memory write, causing program crash or memory corruption. Users are recommended to upgrade to version 4.1.17, which fixes this issue.",
+"title": "CVE-2026-90626: An uncontrolled memory access in the PDF import code of Apache OpenOffice versions through 4.1.16 allows a crafted PDF to cause an…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90626",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-90628"
+],
+"cvss": 7.3,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-90628",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T11:17:19Z",
+"reasons": [
+"CVSS 7.3",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An uncontrolled memory access in the PDF export code of Apache OpenOffice versions through 4.1.16 allows a crafted CFF font to cause a stack overflow problem, causing program crash or memory corruption, or even running other code. Users are recommended to upgrade to version 4.1.17, which fixes this…",
+"title": "CVE-2026-90628: An uncontrolled memory access in the PDF export code of Apache OpenOffice versions through 4.1.16 allows a crafted CFF font to cause a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90628",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-90629"
+],
+"cvss": 7.3,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-90629",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T11:17:19Z",
+"reasons": [
+"CVSS 7.3",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An uncontrolled memory access in the WMF import code of Apache OpenOffice versions through 4.1.16 allows a crafted WMF file to cause an invalid memory access, causing program crash or memory corruption. Users are recommended to upgrade to version 4.1.17, which fixes this issue.",
+"title": "CVE-2026-90629: An uncontrolled memory access in the WMF import code of Apache OpenOffice versions through 4.1.16 allows a crafted WMF file to cause an…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90629",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-90634"
+],
+"cvss": 7.3,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-90634",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T11:17:19Z",
+"reasons": [
+"CVSS 7.3",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An uncontrolled memory access in the PDF import code of Apache OpenOffice versions through 4.1.16 allows a crafted PDF to cause an out-of-bounds memory write, causing program crash or memory corruption. Users are recommended to upgrade to version 4.1.17, which fixes this issue.",
+"title": "CVE-2026-90634: An uncontrolled memory access in the PDF import code of Apache OpenOffice versions through 4.1.16 allows a crafted PDF to cause an…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90634",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-59267"
+],
+"cvss": 7.8,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-59267",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T12:17:06Z",
+"reasons": [
+"CVSS 7.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A crafted DXF document causes a heap buffer overflow in Draw in Apache OpenOffice 4.1.16 and earlier. This could cause a crash or otherwise a corruption of memory areas. Users are recommended to upgrade to version 4.1.17, which fixes this issue.",
+"title": "CVE-2026-59267: A crafted DXF document causes a heap buffer overflow in Draw in Apache OpenOffice 4.1.16 and earlier",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59267",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-97397"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-97397",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T12:17:07Z",
+"reasons": [
+"CVSS 7.2",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The Remove Google Fonts – Disable, Block, or Replace with Bunny Fonts for GDPR Compliance plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Comment Field via Regex-Mangled Output Buffer in all versions up to, and including, 1.7 due to insufficient input sanitization and output…",
+"title": "CVE-2026-97397: The Remove Google Fonts – Disable, Block, or Replace with Bunny Fonts for GDPR Compliance plugin for WordPress is vulnerable to Stored…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97397",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121637"
+],
+"cvss": 8.9,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-121637",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T15:17:42Z",
+"reasons": [
+"CVSS 8.9",
+"matches WatchGuard (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An improper integrity validation vulnerability in WatchGuard AuthPoint Gateway's LDAP authentication callback allows a network attacker who has obtained a valid header signature to forge the authentication result and transaction identifier in the request body, resulting in unauthorized session…",
+"title": "CVE-2026-121637: An improper integrity validation vulnerability in WatchGuard AuthPoint Gateway's LDAP authentication callback allows a network attacker who…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121637",
+"vendor_matches": [
+{
+"points": 3,
+"term": "WatchGuard",
+"tier": 1,
+"vendor": "WatchGuard"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-20241"
+],
+"cvss": 5.3,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-20241",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T17:17:35Z",
+"reasons": [
+"unauthenticated",
+"matches Cisco ISE (Tier 1)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"Cisco PSIRT",
+"NVD"
+],
+"summary": "A vulnerability in the authorization mechanism of Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an unauthenticated, remote attacker to obtain an endpoint identity certificate. This vulnerability is due to improper authorization checks. An…",
+"title": "CVE-2026-20241: A vulnerability in the authorization mechanism of Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC)…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20241",
+"vendor_matches": [
+{
+"points": 3,
+"term": "ISE",
+"tier": 1,
+"vendor": "Cisco"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-76419"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-76419",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T17:17:36Z",
+"reasons": [
+"unauthenticated",
+"matches Cisco (Tier 1)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"Cisco PSIRT",
+"NVD"
+],
+"summary": "A vulnerability in the web-based management interface of Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a…",
+"title": "CVE-2026-76419: A vulnerability in the web-based management interface of Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76419",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Cisco",
+"tier": 1,
+"vendor": "Cisco"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-115732"
+],
+"cvss": 9.0,
+"epss": 0.00745,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-115732",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.0",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Perforce Puppet Enterprise. Incorrect authorization in the certificate-name matching of trapperkeeper-authorization, as used by Puppet Server, in the affected products, allows a client that holds a CA-signed certificate whose name extends or shortens an authorized hostname to be authorized as that…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-115732: Incorrect Comparison",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115732"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-102435"
+],
+"cvss": 9.8,
+"epss": 0.0059,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-102435",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Themefic Ultra Addons for Contact Form 7. The Ultra Addons for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the _getObjAttr function in all versions up to, and including, 3.5.54. This makes it possible for unauthenticated…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-102435: Themefic ultimate_addons_for_contact_form_7 Deserialization of Untrusted Data",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102435"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-85200"
+],
+"cvss": 7.5,
+"epss": 0.03227,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-85200",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.5",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "ninjew GEO my WP. The GEO my WP plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 4.5.5.3 via the gmw_posts_locator_ajax_info_window_loader function. This makes it possible for unauthenticated attackers to include and execute arbitrary .php files on…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-85200: geomywp geo_my_wordpress Improper Control of Filename for Include/Require Statement in PHP Program",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85200"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-49387"
+],
+"epss": 0.00379,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2025-49387",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "add-ons.org Drag and Drop File Upload for Elementor Forms. Unrestricted Upload of File with Dangerous Type vulnerability in add-ons.org Drag and Drop File Upload for Elementor Forms drag-and-drop-file-upload-for-elementor-forms allows Upload a Web Shell to a Web Server.This issue affects Drag and…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-49387: Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49387"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-24849"
+],
+"epss": 0.02174,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-24849",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "open-emr openemr. OpenEMR is a free and open source electronic health records and medical practice management application. Prior to version 7.0.4, the `disposeDocument()` method in `EtherFaxActions.php` allows authenticated users to read arbitrary files from the server filesystem. Any authenticated…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-24849: open-emr openemr Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24849"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-109447"
+],
+"epss": 0.00335,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-109447",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Cozmoslabs User Profile Builder – Beautiful User Registration Forms, User Profiles & User Role Editor. The User Profile Builder – Beautiful User Registration Forms, User Profiles & User Role Editor plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-109447: Cozmoslabs profile_builder Improper Privilege Management",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109447"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-75807"
+],
+"epss": 0.0041,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-75807",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "cyberlord92 SAML Single Sign On – SSO Login. The SAML Single Sign On – SSO Login plugin for WordPress is vulnerable to Authentication Bypass in versions up to, and including, 5.4.6. This is due to the mo_saml_login_validate() ACS handler persisting the X.509 certificate extracted from an incoming…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-75807: Improper Authentication",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75807"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-4162"
+],
+"epss": 0.00251,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-4162",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "RocketGenius Gravity SMTP. The Gravity SMTP plugin for WordPress is vulnerable to Missing Authorization in versions up to, and including, 2.1.4. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for authenticated attackers, with…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-4162: Missing Authorization",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4162"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-11556"
+],
+"epss": 0.01614,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-11556",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Tenda f451_firmware. A security flaw has been discovered in Tenda F451 1.0.0.7/1.0.0.9. Impacted is the function formWriteFacMac of the file /goform/WriteFacMac of the component Web Management Interface. Performing a manipulation of the argument mac results in os command injection. Remote…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-11556: Tenda f451_firmware Improper Neutralization of Special Elements used in a Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11556"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121742"
+],
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-121742",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-874: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-874/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121743"
+],
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-121743",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-873: (0Day) Ashlar-Vellum Cobalt AR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-873/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121753"
+],
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-121753",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-872: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-872/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121752"
+],
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-121752",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-871: (0Day) Ashlar-Vellum Cobalt LI File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-871/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121744"
+],
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "CVE-2026-121744",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-870: (0Day) Ashlar-Vellum Cobalt XE File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-870/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-76506",
+"CVE-2026-76419",
+"CVE-2026-20241"
+],
+"cvss": 7.6,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "45a39f31a305e1eb5d804fabea0c1324dff88b89be8c1d33f233fd8334b76030",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T16:01:02Z",
+"reasons": [
+"CVSS 7.6",
+"remote code execution",
+"matches Cisco ISE (Tier 1)"
+],
+"route": "digest",
+"score": 8,
+"source": "Cisco PSIRT",
+"source_type": "rss",
+"sources": [
+"Cisco PSIRT"
+],
+"summary": "On November 4, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories: Cisco Security Advisory CVE ID Security Impact Rating CVSS Base Score Cisco UCS Central Software Remote Code Execution Vulnerability CVE-2026-76506 High 7.6 Cisco Unified…",
+"title": "Cisco Advance Notification for Publication of November 4, 2026, Security Advisories",
+"url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-I8z3n6lK",
+"vendor_matches": [
+{
+"points": 3,
+"term": "ISE",
+"tier": 1,
+"vendor": "Cisco"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "bd73071b42b83bcbf746b32960fcf6640b7344247b4a7eccc6e05ab39df7c9d5",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T14:42:25Z",
+"reasons": [
+"matches SonicWall (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. [...]",
+"title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
+"url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "SonicWall",
+"tier": 1,
+"vendor": "SonicWall"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "ae617d1f87a8acc04467fea6545f148e1514da245865f88e909fb3eee8d654b1",
+"keyword_hits": [
+"actively exploited",
+"RCE"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T12:11:05Z",
+"reasons": [
+"actively exploited"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
+"title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+"url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "66937ae17e09450937d54e8ee26c7922c2554279f8ce689e19cc5c229ae4aff3",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T16:06:43Z",
+"reasons": [
+"matches Check Point (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research…",
+"title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+"url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Check Point",
+"tier": 1,
+"vendor": "Check Point"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "cb80d4fcfcdc66aa1e8f7803c022dfb007a32046f7946e3469e8ba33eb47265d",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-04",
+"published": "2026-11-04T12:07:04Z",
+"reasons": [
+"unauthenticated"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advisory and fixed it in versions 8.1.4.1 and 8.0.5.2. The flaw…",
+"title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+"url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "bf4783e58560e9216acc2c2766d4bc11cfe68da7d96f153166943d7d8a64800e",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T16:24:08Z",
+"reasons": [
+"matches Google Android (Tier 2)",
+"topic: botnet"
+],
+"route": "digest",
+"score": 4,
+"source": "Dark Reading",
+"source_type": "rss",
+"sources": [
+"Dark Reading"
+],
+"summary": "Google alleges that Android device manufacturer Videostrong ran the operation, which infected set-top boxes and IoT devices with a backdoor to create infrastructure for criminal activity.",
+"title": "Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
+"topic_hits": [
+"botnet"
+],
+"url": "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Android",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "6925b3f6dc5355c02f62600f12bbe58bcde04dfd470f2d9ee337fde88d4dbec5",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T11:52:17Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "AI is forcing us to pay off 40 years of technical debt",
+"url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "73a21db063f29cc5dde58d995e914c217ecb36481c3cea5e5d62be2c5cddfef0",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T08:46:29Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+"url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "166be95e1d21622842a3384e3f97386a9ddc5389ff8c644b653c6ccb31c6d593",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T14:09:55Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "North Korean fake job interview led to $6.3B Binance heist",
+"url": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "3dd86c9945534b58954c2bb7bfc5f82b9cafe083205184c7975ce075e4f8ecd8",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T10:10:27Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+"url": "https://news.ycombinator.com/item?id=50363461",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "b7a453ee495e719b2d78ebfae1e9aef322eb7936b040801d1793cd1a36a24868",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T03:40:50Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Jelly Sheet",
+"url": "https://mrdoob.github.io/codevember-2026/01/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "22c613c16d2b19f4eed7661070b3d13f4dfb4fa0c39bc45aa6b7ced84d9bb359",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T08:57:10Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Kitty 0.50",
+"url": "https://sw.kovidgoyal.net/kitty/changelog/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "ad3457d442223f491050857fe1ec0d9dc1e144c504a1d43043d2f61ae7af80c5",
+"last_seen": "2026-11-04",
+"published": "2026-11-03T21:51:06Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "The Internals of PostgreSQL",
+"url": "https://www.interdb.jp/pg/index.html",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "b69e0a4cf36e34ee12583a5f8ded2ea8b30ffae3e20dd5ec07571bbbf319cc52",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T16:47:15Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Many young people reach university without a clear idea of what they want to become, often making decisions about their education and future careers with limited knowledge of the opportunities available to them.",
+"title": "Why This Kigali Startup Wants Children to Explore Careers Early",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611040627.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-04T18:40:37Z",
+"id": "186a20632da2224048bddfca3a4281e5fb044b82d24b8e924682dc62f5bfd36c",
+"last_seen": "2026-11-04",
+"published": "2026-11-04T16:47:15Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] When American point guard Antino Jackson first stepped onto the court at Lycée de Kigali Gymnasium in 2024, he probably never imagined how deeply Rwanda would become part of his basketball journey.",
+"title": "'Rwanda Has Been a Second Home to Me' - Antino Jackson",
+"topic_hits": [
+"Rwanda",
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611040628.html",
+"weight": 1
+}
+]
