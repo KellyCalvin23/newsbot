@@ -1,1 +1,1021 @@
-[]
+[
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123025"
+],
+"cvss": 9.4,
+"epss": 0.0063,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-123025",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T07:17:25Z",
+"reasons": [
+"CVSS 9.4",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An OS Command Injection vulnerability was discovered in the Google Cloud DNS validation module of the OPNsense os-acme-client plugin through 4.17. The DnsGcloud::prepare() method decodes the dns_gcloud_key model field and directly interpolates the string fields gcloud_account and gcloud_project…",
+"title": "CVE-2026-123025: An OS Command Injection vulnerability was discovered in the Google Cloud DNS validation module of the OPNsense os-acme-client plugin…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123025",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121489"
+],
+"cvss": 10.0,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-121489",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T12:17:49Z",
+"reasons": [
+"CVSS 10.0",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache Juneau. The microservice DirectoryResource does not keep request paths inside its configured root directory. When an application enables the resource's view, upload or delete settings (all off by…",
+"title": "CVE-2026-121489: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache Juneau. The microservice…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121489",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-73098"
+],
+"cvss": 10.0,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-73098",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T12:17:50Z",
+"reasons": [
+"CVSS 10.0",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper control of dynamically-loaded code vulnerability in Apache Juneau. When Apache Juneau parses a value into a property of type java.lang.Class (including parameterized forms), the default class swap loaded the named class with initialization enabled, so input naming a class on the…",
+"title": "CVE-2026-73098: Improper control of dynamically-loaded code vulnerability in Apache Juneau. When Apache Juneau parses a value into a property of type…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73098",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-73099"
+],
+"cvss": 10.0,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-73099",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T12:17:50Z",
+"reasons": [
+"CVSS 10.0",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Cross-Site Request Forgery (CSRF) vulnerability in Apache Juneau. The REST server accepts a \"content\" query parameter that replaces the request body, and this is enabled by default on every HTTP method, including GET. A cross-site link can therefore deliver an attacker-chosen request body to an…",
+"title": "CVE-2026-73099: Cross-Site Request Forgery (CSRF) vulnerability in Apache Juneau. The REST server accepts a \"content\" query parameter that replaces the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73099",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-73100"
+],
+"cvss": 10.0,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-73100",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T12:17:51Z",
+"reasons": [
+"CVSS 10.0",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Insertion of Sensitive Information into Log File vulnerability in Apache Juneau. The default REST server call logger records request headers for requests that end in a server error, without redacting them. Any client able to cause a server error gets headers such as Authorization, Cookie…",
+"title": "CVE-2026-73100: Insertion of Sensitive Information into Log File vulnerability in Apache Juneau. The default REST server call logger records request…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73100",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-73101"
+],
+"cvss": 10.0,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-73101",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T12:17:51Z",
+"reasons": [
+"CVSS 10.0",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Generation of Error Message Containing Sensitive Information vulnerability in Apache Juneau. The REST server sends the internal exception class and message to clients in a \"Thrown\" response header on every error response, and can include internal exception messages in the error body, even when…",
+"title": "CVE-2026-73101: Generation of Error Message Containing Sensitive Information vulnerability in Apache Juneau. The REST server sends the internal exception…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73101",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-73116"
+],
+"cvss": 10.0,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-73116",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T12:17:51Z",
+"reasons": [
+"CVSS 10.0",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Insufficiently Protected Credentials vulnerability in Apache Juneau. The Apache Juneau RestClient followed HTTP redirects while keeping credential headers from the original request, so a server that redirected the client to a different host or port, or from HTTPS to HTTP, could receive headers such…",
+"title": "CVE-2026-73116: Insufficiently Protected Credentials vulnerability in Apache Juneau. The Apache Juneau RestClient followed HTTP redirects while keeping…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73116",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-73117"
+],
+"cvss": 10.0,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-73117",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T12:17:51Z",
+"reasons": [
+"CVSS 10.0",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Response Splitting') vulnerability in Apache Juneau. The Apache Juneau REST server passed response header values and redirect targets to the servlet container unchecked. An application that sets a response header or redirect target…",
+"title": "CVE-2026-73117: Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Response Splitting') vulnerability in Apache Juneau. The Apache Juneau…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73117",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-96677"
+],
+"cvss": 10.0,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-96677",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T12:17:51Z",
+"reasons": [
+"CVSS 10.0",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Apache Juneau. HTML document serialization does not HTML-encode variable substitutions in the page chrome (header, nav, aside, footer and similar fields). Applications whose chrome includes…",
+"title": "CVE-2026-96677: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Apache Juneau. HTML document…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96677",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-105330"
+],
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-105330",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T14:16:59Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use of Hard-coded Cryptographic Key in JWT token authentication in Apache OFBiz 24.09.06 and 24.09.07 on all platforms allows an unauthenticated, network-reachable attacker to obtain full administrative access via a forged JWT signed with the factory-default security.token.key value that…",
+"title": "CVE-2026-105330: Use of Hard-coded Cryptographic Key in JWT token authentication in Apache OFBiz 24.09.06 and 24.09.07 on all platforms allows an…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105330",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114229"
+],
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-114229",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T14:17:00Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in the Catalog image viewer in Apache OFBiz 24.09 before 24.09.08 on all platforms allows an unauthenticated attacker to execute arbitrary JavaScript in the browser session of a logged-in back-office user via a…",
+"title": "CVE-2026-114229: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in the Catalog image viewer in Apache OFBiz 24.09…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114229",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82904"
+],
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-82904",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T14:17:05Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Uncontrolled Resource Consumption in ServiceMultiEventHandler in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to pin a server request thread for an attacker-chosen number of synchronous service dispatches, up to the signed-integer maximum, by…",
+"title": "CVE-2026-82904: Uncontrolled Resource Consumption in ServiceMultiEventHandler in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82904",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82907"
+],
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-82907",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T14:17:05Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Authentication Bypass by Capture-replay in ExternalLoginKeysManager in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker who captures a live externalLoginKey value to obtain a complete, cookie-free, reusable session as the user who issued it, in every…",
+"title": "CVE-2026-82907: Authentication Bypass by Capture-replay in ExternalLoginKeysManager in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82907",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-83538"
+],
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-83538",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T14:17:06Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Missing Authorization in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to disclose internal business records — including organization, employee, product catalog, and product-store data — by requesting several helper endpoints across the Human…",
+"title": "CVE-2026-83538: Missing Authorization in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to disclose internal…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83538",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-83542"
+],
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-83542",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T14:17:06Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper Control of Generation of Code ('Code Injection') in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to execute arbitrary code on the server by staging crafted widget XML in a multipart upload and overriding the mainDecoratorLocation used by a…",
+"title": "CVE-2026-83542: Improper Control of Generation of Code ('Code Injection') in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83542",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-92887"
+],
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-92887",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T14:17:07Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect default value in the REST API framework's .rest.xml definition parser (ModelApiReader) in Apache OFBiz through 24.09.07 on all platforms allows a remote, unauthenticated attacker to invoke a REST API operation without providing valid credentials via a .rest.xml resource or operation…",
+"title": "CVE-2026-92887: Incorrect default value in the REST API framework's .rest.xml definition parser (ModelApiReader) in Apache OFBiz through 24.09.07 on all…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92887",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-97355"
+],
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-97355",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T14:17:07Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use of Hard-coded Password vulnerability in the AdminServer component in Apache OFBiz 24.09.07 on all platforms allows an attacker able to reach the AdminServer control port to query the server's running state and trigger an unauthenticated shutdown of the instance via the fixed default control key…",
+"title": "CVE-2026-97355: Use of Hard-coded Password vulnerability in the AdminServer component in Apache OFBiz 24.09.07 on all platforms allows an attacker able to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97355",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-56000"
+],
+"cvss": 9.8,
+"epss": 0.00517,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2024-56000",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "SeventhQueen K Elements. Incorrect Privilege Assignment vulnerability in SeventhQueen K Elements k-elements allows Privilege Escalation.This issue affects K Elements: from n/a through < 5.4.0.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-56000: Incorrect Privilege Assignment",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56000"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-26966"
+],
+"cvss": 9.8,
+"epss": 0.00635,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2025-26966",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Aldo Latino PrivateContent. Authentication Bypass Using an Alternate Path or Channel vulnerability in Aldo Latino PrivateContent private-content.This issue affects PrivateContent: from n/a through <= 8.11.5.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-26966: lcweb privatecontent Authentication Bypass Using an Alternate Path or Channel",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-26966"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2021-42911"
+],
+"cvss": 9.8,
+"epss": 0.03524,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2021-42911",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "DrayTek vigor2960_firmware. A Format String vulnerability exists in DrayTek Vigor 2960 <= 1.5.1.3, DrayTek Vigor 3900 <= 1.5.1.3, and DrayTek Vigor 300B <= 1.5.1.3 in the mainfunction.cgi file via a crafted HTTP message containing malformed QUERY STRING, which could let a remote malicious user…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-42911: DrayTek vigor2960_firmware Use of Externally-Controlled Format String",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-42911"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-73996"
+],
+"epss": 0.00522,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "CVE-2026-73996",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "ThemeGrill Masteriyo - LMS. Unrestricted Upload of File with Dangerous Type vulnerability in ThemeGrill Masteriyo - LMS learning-management-system allows Upload a Web Shell to a Web Server.This issue affects Masteriyo - LMS: from n/a through 2.3.2.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-73996: masteriyo masteriyo Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73996"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "465b5e5ff1d96fdc1fe3ba4c9a1c1106f9216c4ae14efacf7e0504097fa4dde1",
+"keyword_hits": [
+"zero-day",
+"actively exploited"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T07:06:33Z",
+"reasons": [
+"zero-day",
+"matches Zyxel (Tier 1)"
+],
+"route": "digest",
+"score": 6,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found. The exploit lets anyone who can reach a switch's web management interface run commands on it without logging in. Zyxel has…",
+"title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+"url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Zyxel",
+"tier": 1,
+"vendor": "Zyxel"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "430027efa52f5c22f7fb8228aa0ee746f7ac3328f779c14b79210820e760353e",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T12:33:49Z",
+"reasons": [
+"RCE",
+"matches Cisco (Tier 1)"
+],
+"route": "digest",
+"score": 6,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws. The post Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws appeared first on SecurityWeek .",
+"title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
+"url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Cisco",
+"tier": 1,
+"vendor": "Cisco"
+},
+{
+"points": 3,
+"term": "SonicWall",
+"tier": 1,
+"vendor": "SonicWall"
+},
+{
+"points": 3,
+"term": "WatchGuard",
+"tier": 1,
+"vendor": "WatchGuard"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "73efd24753c1cc7d3cf585c261069dac9adf286943583fd6d381447850b494ef",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T12:19:02Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Sshole",
+"url": "https://sshhole.com",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "c8474fd0ac7978f5fb42e50d658404939bb74dd84c1172f4c8e2a282d7e6af6c",
+"last_seen": "2026-11-05",
+"published": "2026-11-04T23:33:14Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "A thousand fewer paths to root",
+"url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "eaf4c33df1fb117567e2214abc68801c2328451ba7d39c39e52dbff176bd2931",
+"last_seen": "2026-11-05",
+"published": "2026-11-04T23:35:44Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Images 2.6",
+"url": "https://openai.com/index/introducing-images-2-6/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "1ada494446e76623ec7eb4918b6cd9460d17deb0749a108bc2a0023c1d6263ee",
+"last_seen": "2026-11-05",
+"published": "2026-11-04T18:53:29Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+"url": "https://www.ricursive.com/ripple",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "5db9bcc083b6587cf52358083865e4889fc4816f57045f367372a5f49bb2aa85",
+"last_seen": "2026-11-05",
+"published": "2026-11-04T17:52:11Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "A new Go API for JSON",
+"url": "https://go.dev/blog/jsonv2",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "c3961d5e950d2b0ebc35cd09cea4b12e6cc5fbe4320f70279c7c9774b7364316",
+"last_seen": "2026-11-05",
+"published": "2026-11-04T14:37:22Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Ask HN: What's your current AI agentic setup?",
+"url": "https://news.ycombinator.com/item?id=50366117",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "d009b69f9c22338a0fb94f850e1772266c7fe8dc07f42dcc6eb2f6e9697b5cbe",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T11:50:55Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Kigali is a city built on grand planning ambitions, yet one of its most pressing development challenges remains largely hidden underground. For years, urban planners and residents have looked towards the proposed 92-kilometre centralised sewerage system, designed to channel the…",
+"title": "Kigali's Sanitation Future Lies in Cell-Level Decentralisation",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611050325.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "f5fba946a4b7a33e90c56666c6283f1c5838bbd9331f8f41165db865840fd4c4",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T10:35:22Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] For decades, Africa has watched some of the world's biggest sporting spectacles unfold on other continents. Now, Formula 1 is preparing to return to African soil, with Rwanda set to host a Grand Prix in the early 2030s. One question deserves our attention: when the world comes to…",
+"title": "Rwanda Is Preparing to Host Formula 1. Are We Preparing to Benefit?",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611050270.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-05T14:55:05Z",
+"id": "bd4f862bb46d3caa9ec9991ab129347ace3712fd61a0bce11f55aeeca460ecd5",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T14:11:05Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[Premium Times] This new policy is the latest measure of the Trump administration against South Africa, following its false accusation that the government is persecuting white South Africans.",
+"title": "U.S. Suspends South Africa, Rwanda From Agoa",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611050511.html",
+"weight": 1
+}
+]
