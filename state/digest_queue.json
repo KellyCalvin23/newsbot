@@ -3344,5 +3344,222 @@
 "title": "AMD expects to outsell Intel in Q4 for the first time in history",
 "url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123010"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-05T06:27:55Z",
+"id": "CVE-2026-123010",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T05:18:36Z",
+"reasons": [
+"CVSS 7.2",
+"matches Okta (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "@twilio-labs/netlify-okta-auth through 1.0.2 relies on an unverified iss claim. This affects an outbound HTTP request to retrieve a public signing key. There may be other impacts in a misconfiguration where oktaUrl isn't set.",
+"title": "CVE-2026-123010: @twilio-labs/netlify-okta-auth through 1.0.2 relies on an unverified iss claim",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123010",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Okta",
+"tier": 3,
+"vendor": "Okta"
+}
+]
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-05T06:27:55Z",
+"id": "38708239e223607eb6137f164d39789713ccba231a369aadd6cffbfea5d4b978",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T02:43:04Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "Votes are being counted across South Africa after a record 29.2 million people registered to vote.",
+"title": "Vote counting underway in critical South Africa elections",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/vote-counting-underway-in-critical-south-africa-elections?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-05T06:27:55Z",
+"id": "b7541c9d489a3c3dfc0b33c2dda37316667396690e1634264075b847620200a5",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T00:39:18Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "Nigerian billionaire Aliko Dangote launched a fuel storage facility in Namibia to future-proof Southern Africa's supply.",
+"title": "Africa’s richest man launches mega oil tank farm in Namibia",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/africas-richest-man-launches-mega-oil-tank-farm-in-namibia?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-05T06:27:55Z",
+"id": "293f6295b94d933fa5d3c8220b0b36ac3c85b183ffbd3832846c282e359d0d86",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T04:24:25Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The City of Kigali ordered the temporary closure of 10 buildings and commercial facilities for failing to comply with fire safety standards.",
+"title": "10 More Facilities Closed Over Fire Safety Concerns",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611050071.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-05T06:27:55Z",
+"id": "b9376d0f81be1ba4da6d1ab665a7ded4211f93e393b9b570c6c5126626e1c2f7",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T04:16:16Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The Common Market for Eastern and Southern Africa (COMESA) and the Russian government have signed an agreement to strengthen cooperation in trade, investment, agriculture, energy, transport and technology, following high-level engagements at the Third Russia-Africa Summit in Moscow.",
+"title": "COMESA, Russia Sign Agreement to Expand Trade, Investment Cooperation",
+"topic_hits": [
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611050023.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-05T06:27:55Z",
+"id": "62a1a0d2e85d875f27eb86d34039e9de774863a554c66b6746fc2a821dd904d8",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T04:16:16Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Diplomatic missions from 11 countries are expected to bring their cultures to Kigali for the second edition of the Rwanda Diplomatic Charity Bazaar, showcasing their food, traditions, fashion, music and heritage.",
+"title": "Kigali to Host Cultures From 11 Countries At Diplomatic Bazaar",
+"topic_hits": [
+"Rwanda",
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611050024.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-05T06:27:55Z",
+"id": "78434ab907c4004b7de6e45c3805f8ebc7b9d58a2c588437a5abc6ff2b3dabf8",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T03:59:18Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] As countries prepare for another round of global climate negotiations, Rwanda is heading to the 31st United Nations Climate Change Conference (COP31) with significant interests at stake and expectations that previous international commitments will translate into meaningful action.",
+"title": "What's At Stake for Rwanda As COP31 Approaches?",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611050016.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-05T06:27:55Z",
+"id": "6d138a4a9da2fb6f3f1f511785c768ece4f8059aaa5cafc185c7292a18671394",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T03:59:18Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda will begin administering a new HIV prevention injection that provides protection for six months on December 1, marking a significant step in the country's efforts to curb new infections.",
+"title": "Govt to Roll Out Six-Month HIV Prevention Injection On December 1",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611050017.html",
+"weight": 1
 }
 ]
