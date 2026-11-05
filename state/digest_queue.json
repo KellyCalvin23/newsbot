@@ -382,78 +382,6 @@
 "category": "vulnerabilities",
 "coverage_count": 1,
 "cve_ids": [
-"CVE-2026-82904"
-],
-"first_seen": "2026-11-05T14:55:05Z",
-"id": "CVE-2026-82904",
-"keyword_hits": [
-"unauthenticated"
-],
-"last_seen": "2026-11-05",
-"published": "2026-11-05T14:17:05Z",
-"reasons": [
-"unauthenticated",
-"matches Apache (Tier 2)"
-],
-"route": "digest",
-"score": 5,
-"source": "NVD",
-"source_type": "nvd",
-"sources": [
-"NVD"
-],
-"summary": "Uncontrolled Resource Consumption in ServiceMultiEventHandler in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to pin a server request thread for an attacker-chosen number of synchronous service dispatches, up to the signed-integer maximum, by…",
-"title": "CVE-2026-82904: Uncontrolled Resource Consumption in ServiceMultiEventHandler in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82904",
-"vendor_matches": [
-{
-"points": 2,
-"term": "Apache",
-"tier": 2,
-"vendor": "Apache"
-}
-]
-},
-{
-"category": "vulnerabilities",
-"coverage_count": 1,
-"cve_ids": [
-"CVE-2026-82907"
-],
-"first_seen": "2026-11-05T14:55:05Z",
-"id": "CVE-2026-82907",
-"keyword_hits": [
-"unauthenticated"
-],
-"last_seen": "2026-11-05",
-"published": "2026-11-05T14:17:05Z",
-"reasons": [
-"unauthenticated",
-"matches Apache (Tier 2)"
-],
-"route": "digest",
-"score": 5,
-"source": "NVD",
-"source_type": "nvd",
-"sources": [
-"NVD"
-],
-"summary": "Authentication Bypass by Capture-replay in ExternalLoginKeysManager in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker who captures a live externalLoginKey value to obtain a complete, cookie-free, reusable session as the user who issued it, in every…",
-"title": "CVE-2026-82907: Authentication Bypass by Capture-replay in ExternalLoginKeysManager in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82907",
-"vendor_matches": [
-{
-"points": 2,
-"term": "Apache",
-"tier": 2,
-"vendor": "Apache"
-}
-]
-},
-{
-"category": "vulnerabilities",
-"coverage_count": 1,
-"cve_ids": [
 "CVE-2026-83538"
 ],
 "first_seen": "2026-11-05T14:55:05Z",
@@ -477,42 +405,6 @@
 "summary": "Missing Authorization in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to disclose internal business records — including organization, employee, product catalog, and product-store data — by requesting several helper endpoints across the Human…",
 "title": "CVE-2026-83538: Missing Authorization in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to disclose internal…",
 "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83538",
-"vendor_matches": [
-{
-"points": 2,
-"term": "Apache",
-"tier": 2,
-"vendor": "Apache"
-}
-]
-},
-{
-"category": "vulnerabilities",
-"coverage_count": 1,
-"cve_ids": [
-"CVE-2026-83542"
-],
-"first_seen": "2026-11-05T14:55:05Z",
-"id": "CVE-2026-83542",
-"keyword_hits": [
-"unauthenticated"
-],
-"last_seen": "2026-11-05",
-"published": "2026-11-05T14:17:06Z",
-"reasons": [
-"unauthenticated",
-"matches Apache (Tier 2)"
-],
-"route": "digest",
-"score": 5,
-"source": "NVD",
-"source_type": "nvd",
-"sources": [
-"NVD"
-],
-"summary": "Improper Control of Generation of Code ('Code Injection') in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to execute arbitrary code on the server by staging crafted widget XML in a multipart upload and overriding the mainDecoratorLocation used by a…",
-"title": "CVE-2026-83542: Improper Control of Generation of Code ('Code Injection') in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83542",
 "vendor_matches": [
 {
 "points": 2,
@@ -1016,6 +908,1551 @@
 "Africa"
 ],
 "url": "https://allafrica.com/stories/202611050511.html",
+"weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-103392"
+],
+"cvss": 4.8,
+"epss": 0.00216,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-103392",
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:17:22Z",
+"reasons": [
+"matches Juniper (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An Out-of-Bounds Write vulnerability in the TCP header processing in Juniper Networks Session Smart Router allows an attacker to corrupt TCP payload data and potentially cause session desynchronization via a transit TCP packet with an oversized SACK option length.",
+"title": "CVE-2026-103392: An Out-of-Bounds Write vulnerability in the TCP header processing in Juniper Networks Session Smart Router allows an attacker to corrupt…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103392",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Juniper",
+"tier": 1,
+"vendor": "Juniper"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-103393"
+],
+"cvss": 4.3,
+"epss": 0.00154,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-103393",
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:17:22Z",
+"reasons": [
+"matches Juniper (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An Out-of-Bounds Read vulnerability in the VRRP implementation in Juniper Networks Session Smart Router allows an L2-adjacent attacker to read stale memory contents or cause a system fault via a specially crafted VRRPv3 advertisement.",
+"title": "CVE-2026-103393: An Out-of-Bounds Read vulnerability in the VRRP implementation in Juniper Networks Session Smart Router allows an L2-adjacent attacker to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103393",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Juniper",
+"tier": 1,
+"vendor": "Juniper"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-103411"
+],
+"cvss": 7.1,
+"epss": 0.00174,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-103411",
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:17:28Z",
+"reasons": [
+"CVSS 7.1",
+"matches Juniper (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An Integer Underflow vulnerability in DhcpMessageDecoder in Juniper Networks Session Smart Router allows an attacker with local network access to cause information disclosure and a denial of service via a malicious DHCP reply.",
+"title": "CVE-2026-103411: An Integer Underflow vulnerability in DhcpMessageDecoder in Juniper Networks Session Smart Router allows an attacker with local network…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103411",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Juniper",
+"tier": 1,
+"vendor": "Juniper"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-106079"
+],
+"cvss": 8.8,
+"epss": 0.01182,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-106079",
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:17:32Z",
+"reasons": [
+"CVSS 8.8",
+"matches Juniper (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in AccessManager in Juniper Networks Session Smart Router and Session Smart Conductor allows an attacker with config-write privileges to achieve arbitrary command execution as root in the…",
+"title": "CVE-2026-106079: An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in AccessManager in Juniper…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106079",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Juniper",
+"tier": 1,
+"vendor": "Juniper"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111108"
+],
+"cvss": 9.1,
+"epss": 0.00266,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-111108",
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:17:38Z",
+"reasons": [
+"CVSS 9.1",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Apache Kafka's code-generated protocol readers pre-size an array's collection from the element count declared by the sender. That count is checked only against the bytes remaining in the request buffer, which assumes about one byte per element; because most elements need several bytes, a request…",
+"title": "CVE-2026-111108: Apache Kafka's code-generated protocol readers pre-size an array's collection from the element count declared by the sender",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111108",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111115"
+],
+"cvss": 9.1,
+"epss": 0.00236,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-111115",
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:17:38Z",
+"reasons": [
+"CVSS 9.1",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Apache Kafka's code-generated readers for flexible protocol versions read a tagged-field count declared by the sender and retain a RawTaggedField object for each unknown field. That count was bounded only by the outer request frame size (socket.request.max.bytes); it was not checked against the…",
+"title": "CVE-2026-111115: Apache Kafka's code-generated readers for flexible protocol versions read a tagged-field count declared by the sender and retain a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111115",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-115644"
+],
+"cvss": 8.8,
+"epss": 0.00258,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-115644",
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:18:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Apache Kafka Connect contains an authentication bypass vulnerability affecting the admin REST API when admin.listeners is configured with a separate listener from the main listeners property. When operators isolate the admin REST API by explicitly configuring the \"admin.listeners\" property, REST…",
+"title": "CVE-2026-115644: Apache Kafka Connect contains an authentication bypass vulnerability affecting the admin REST API when admin.listeners is configured with a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115644",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116593"
+],
+"cvss": 8.1,
+"epss": 0.00227,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-116593",
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:18:00Z",
+"reasons": [
+"CVSS 8.1",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Apache Kafka Connect has the /connector-plugins/{connector-type}/config/validate endpoint on its REST API to validate connector configurations. Apache Kafka Connect also support Configuration Providers which enable to hide the values of sensitive configuration and only resolve them at runtime. An…",
+"title": "CVE-2026-116593: Apache Kafka Connect has the /connector-plugins/{connector-type}/config/validate endpoint on its REST API to validate connector…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116593",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-88967"
+],
+"cvss": 7.7,
+"epss": 0.0029,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-88967",
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:18:46Z",
+"reasons": [
+"CVSS 7.7",
+"matches Azure (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A user with query access to an Azure Monitor data source in Grafana can cause server-side requests to an attacker-controlled endpoint that disclose the data source's Azure access token (server-side request forgery).",
+"title": "CVE-2026-88967: A user with query access to an Azure Monitor data source in Grafana can cause server-side requests to an attacker-controlled endpoint that…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88967",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Azure",
+"tier": 3,
+"vendor": "Azure"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82910"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-82910",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T14:17:05Z",
+"reasons": [
+"CVSS 8.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper Neutralization of Special Elements Used in a Template Engine ('Server-Side Template Injection') in MacroScreenRenderer in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only the two view permissions of a control-servlet webapp (e.g…",
+"title": "CVE-2026-82910: Improper Neutralization of Special Elements Used in a Template Engine ('Server-Side Template Injection') in MacroScreenRenderer in Apache…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82910",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82912"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-82912",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T14:17:06Z",
+"reasons": [
+"CVSS 8.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper Neutralization of Special Elements Used in an Expression Language Statement ('Expression Language Injection') in EmailServices in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only OFBTOOLS_VIEW and ACCOUNTING_VIEW, the two view-level…",
+"title": "CVE-2026-82912: Improper Neutralization of Special Elements Used in an Expression Language Statement ('Expression Language Injection') in EmailServices in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82912",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82916"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-82916",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T14:17:06Z",
+"reasons": [
+"CVSS 7.1",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Missing Authorization in XmlDsDump in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only the webtools base permissions (OFBTOOLS_VIEW, WEBTOOLS_VIEW) — explicitly not the ENTITY_MAINT permission the export feature declares and visibly refuses to…",
+"title": "CVE-2026-82916: Missing Authorization in XmlDsDump in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82916",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82960"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-82960",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T14:17:06Z",
+"reasons": [
+"CVSS 8.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper Control of Generation of Code ('Code Injection') in ModelFormField in the Apache OFBiz cms plugin before 24.09.08 on all platforms allows a remote authenticated attacker holding only CMS content-editor access to execute arbitrary operating system commands as the OFBiz process user via a…",
+"title": "CVE-2026-82960: Improper Control of Generation of Code ('Code Injection') in ModelFormField in the Apache OFBiz cms plugin before 24.09.08 on all platforms…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82960",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-84183"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-84183",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T14:17:06Z",
+"reasons": [
+"CVSS 8.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect Authorization in the updateLayout simple-method in applications/content/minilang/layout/LayoutEvents.xml in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only OFBTOOLS_VIEW and CONTENTMGR_VIEW to execute arbitrary commands as the OFBiz…",
+"title": "CVE-2026-84183: Incorrect Authorization in the updateLayout simple-method in applications/content/minilang/layout/LayoutEvents.xml in Apache OFBiz 24.09…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84183",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-68524"
+],
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-68524",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T15:17:22Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An unauthenticated attacker can exploit temporary-file handling, access an open file descriptor, and inject a \"file:\" URI to cause OFBiz to load an attacker-controlled Screen definition. This issue affects Apache OFBiz: before 24.09.08. Users are recommended to upgrade to version 24.09.08, which…",
+"title": "CVE-2026-68524: An unauthenticated attacker can exploit temporary-file handling, access an open file descriptor, and inject a \"file:\" URI to cause OFBiz to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68524",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-73577"
+],
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-73577",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T15:17:22Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization in RequestHandler in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to bypass the authentication requirement of a protected view by appending it as a path suffix to a public request (e.g…",
+"title": "CVE-2026-73577: Incorrect authorization in RequestHandler in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73577",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-73578"
+],
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-73578",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T15:17:22Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Missing authorization enforcement in RequestHandler.renderView in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to bypass the request-map authentication policy for protected views by supplying a crafted _LAST_VIEW_NAME_ value, which is stored as…",
+"title": "CVE-2026-73578: Missing authorization enforcement in RequestHandler.renderView in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73578",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-73580"
+],
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-73580",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T15:17:22Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Missing authorization check in the getHRChild service in Apache OFBiz through 24.09.07 on all platforms allows a remote unauthenticated attacker to recursively enumerate Human Resources organization and employee data, including department names and identifiers, employment position names and…",
+"title": "CVE-2026-73580: Missing authorization check in the getHRChild service in Apache OFBiz through 24.09.07 on all platforms allows a remote unauthenticated…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73580",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-81815"
+],
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-81815",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T15:17:26Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SQL Injection in the entity engine's generic performFind service in Apache OFBiz 24.09 before 24.09.08 on MySQL/MariaDB-backed deployments allows a remote unauthenticated attacker to disclose arbitrary rows from the queried entity by submitting an ignore-case find request (e.g. _ic=Y) with a…",
+"title": "CVE-2026-81815: SQL Injection in the entity engine's generic performFind service in Apache OFBiz 24.09 before 24.09.08 on MySQL/MariaDB-backed deployments…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81815",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82894"
+],
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-82894",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T15:17:26Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper Authorization in ContentWorker in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to trigger arbitrary OFBiz service invocation with attacker-controlled parameters, resulting in arbitrary file write, arbitrary file deletion, and server-side…",
+"title": "CVE-2026-82894: Improper Authorization in ContentWorker in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82894",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-104269"
+],
+"cvss": 8.6,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-104269",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T16:17:29Z",
+"reasons": [
+"CVSS 8.6",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx. From 3.0.0 until 3.0.17, ModSecurity's multipart parser does not apply the RFC 2231 filename* parameter precedence used by common Go, Python, Node.js, and Java application parsers. A…",
+"title": "CVE-2026-104269: ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104269",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123158"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-123158",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T16:17:47Z",
+"reasons": [
+"CVSS 8.1",
+"matches Linux kernel OpenSSH (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "sshd in OpenSSH before 10.6p2 on Linux, when musl libc is used without PAM, lacks a workaround for a password authentication bypass (related to misinterpretation of whether a string is intended to be a password hash). For some configurations of accounts, any password between 256 and 1024 characters…",
+"title": "CVE-2026-123158: sshd in OpenSSH before 10.6p2 on Linux, when musl libc is used without PAM, lacks a workaround for a password authentication bypass…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
+"vendor_matches": [
+{
+"points": 2,
+"term": "OpenSSH",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-73856"
+],
+"cvss": 8.6,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-73856",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T16:17:48Z",
+"reasons": [
+"CVSS 8.6",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx. From 3.0.0 until 3.0.17, src/transaction.cc compares a response Content-Type value against SecResponseBodyMimeType entries case-sensitively. A mixed-case response media type that is…",
+"title": "CVE-2026-73856: ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73856",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-54140"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-54140",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T17:18:18Z",
+"reasons": [
+"CVSS 8.3",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "OpenHuman is an open-source agent harness available as a desktop application and Rust library. Before 0.57.13, OpenHuman places names, descriptions, titles, and parameter definitions returned by configured external MCP servers into the agent model context without neutralizing instructions or…",
+"title": "CVE-2026-54140: OpenHuman is an open-source agent harness available as a desktop application and Rust library",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54140",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123271"
+],
+"cvss": 8.0,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-123271",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T19:17:20Z",
+"reasons": [
+"CVSS 8.0",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "ChatCLI before v1.215.2 contains an improper validation vulnerability in the MCP OAuth login flow that uses server-supplied Protected Resource Metadata as the resource indicator without checking it matches the configured server URL. A malicious MCP server can declare another resource on the same…",
+"title": "CVE-2026-123271: ChatCLI before v1.215.2 contains an improper validation vulnerability in the MCP OAuth login flow that uses server-supplied Protected…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123271",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123272"
+],
+"cvss": 8.0,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-123272",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T19:17:20Z",
+"reasons": [
+"CVSS 8.0",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Mark3labs mcp-go before v1.2.1 contains an improper validation vulnerability in OAuthHandler.fetchServerMetadata that allows malicious MCP servers to obtain tokens for other resources by declaring arbitrary resources in well-known metadata. Attackers can declare a different MCP server as the RFC…",
+"title": "CVE-2026-123272: Mark3labs mcp-go before v1.2.1 contains an improper validation vulnerability in OAuthHandler.fetchServerMetadata that allows malicious MCP…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123272",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-119163"
+],
+"cvss": 7.5,
+"epss": 0.00304,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-119163",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.5",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": ". The FunnelKit Automations – Email Marketing Automation and CRM for WordPress & WooCommerce plugin for WordPress is vulnerable to time-based SQL Injection via the 'bwfan_cart_id' parameter in all versions up to, and including, 3.8.5.2 due to insufficient escaping on the user supplied parameter and…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-119163: Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119163"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111411"
+],
+"cvss": 9.3,
+"epss": 0.00342,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-111411",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.3",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "FunnelKit funnelkit_automations. Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Aman FunnelKit Automations wp-marketing-automations allows Blind SQL Injection.This issue affects FunnelKit Automations: from n/a through 3.8.5.2.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-111411: FunnelKit funnelkit_automations Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111411"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-8857"
+],
+"cvss": 8.8,
+"epss": 0.02098,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "CVE-2026-8857",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "mediawiki mediawiki. A vulnerability in Wikimedia Foundation timeline. This vulnerability is associated with program files scripts/EasyTimeline.Pl, includes/Timeline.Php. This issue affects timeline: from * before 1.46.0, 1.45.4, 1.44.6, 1.43.9.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-8857: mediawiki mediawiki Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8857"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118601"
+],
+"cvss": 6.3,
+"epss": 0.00274,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-118601",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:18:27Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "Alpine iLX-F511 SSH Hard-Coded Credentials Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists…",
+"title": "CVE-2026-118601: Alpine iLX-F511 SSH Hard-Coded Credentials Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118601"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118603"
+],
+"cvss": 8.0,
+"epss": 0.00237,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-118603",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:18:27Z",
+"reasons": [
+"CVSS 8.0",
+"remote code execution"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "Alpine iLX-F511 vCard Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected Alpine iLX-F511 devices. User interaction is required to exploit this vulnerability in that the target must…",
+"title": "CVE-2026-118603: Alpine iLX-F511 vCard Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118603"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118604"
+],
+"cvss": 6.8,
+"epss": 0.00297,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-118604",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:18:27Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "Alpine iLX-F511 Framework Service Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The…",
+"title": "CVE-2026-118604: Alpine iLX-F511 Framework Service Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118604"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118605"
+],
+"cvss": 8.0,
+"epss": 0.00237,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-118605",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:18:27Z",
+"reasons": [
+"CVSS 8.0",
+"remote code execution"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "Alpine iLX-F511 prh_sdp_service_search_decode Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. An attacker must first obtain the ability to pair a…",
+"title": "CVE-2026-118605: Alpine iLX-F511 prh_sdp_service_search_decode Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118605"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118606"
+],
+"cvss": 8.8,
+"epss": 0.00338,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-118606",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:18:27Z",
+"reasons": [
+"CVSS 8.8",
+"remote code execution"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "Alpine iLX-F511 Framework Service Exposed Dangerous Function Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The…",
+"title": "CVE-2026-118606: Alpine iLX-F511 Framework Service Exposed Dangerous Function Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118606"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118609"
+],
+"cvss": 6.8,
+"epss": 0.00297,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-118609",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:18:28Z",
+"reasons": [
+"remote code execution",
+"matches Google Android (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "Alpine iLX-F511 Android Auto Connection Handler Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this…",
+"title": "CVE-2026-118609: Alpine iLX-F511 Android Auto Connection Handler Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118609",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Android",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118611"
+],
+"cvss": 6.8,
+"epss": 0.00297,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-118611",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:18:28Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "Alpine iLX-F511 Bluetooth OBEX Packet Handling Heap-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this…",
+"title": "CVE-2026-118611: Alpine iLX-F511 Bluetooth OBEX Packet Handling Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118611"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118613"
+],
+"cvss": 7.8,
+"epss": 0.00241,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-118613",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:18:28Z",
+"reasons": [
+"CVSS 7.8",
+"remote code execution"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "Ultralytics torch_load Deserialization of Untrusted Data Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a…",
+"title": "CVE-2026-118613: Ultralytics torch_load Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118613"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118614"
+],
+"cvss": 7.8,
+"epss": 0.00202,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-118614",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:18:28Z",
+"reasons": [
+"CVSS 7.8",
+"remote code execution"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "Ultralytics check_det_dataset Code Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page…",
+"title": "CVE-2026-118614: Ultralytics check_det_dataset Code Injection Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118614"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118615"
+],
+"cvss": 7.8,
+"epss": 0.00412,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-118615",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:18:28Z",
+"reasons": [
+"CVSS 7.8",
+"remote code execution"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "Ultralytics torch_safe_load Command Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page…",
+"title": "CVE-2026-118615: Ultralytics torch_safe_load Command Injection Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118615"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118616"
+],
+"cvss": 7.8,
+"epss": 0.00202,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-118616",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:18:28Z",
+"reasons": [
+"CVSS 7.8",
+"remote code execution"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "Ultralytics parse_model Code Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or…",
+"title": "CVE-2026-118616: Ultralytics parse_model Code Injection Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118616"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118617"
+],
+"cvss": 7.8,
+"epss": 0.00264,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-118617",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:18:28Z",
+"reasons": [
+"CVSS 7.8",
+"remote code execution"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "Ultralytics load_dataset_cache_file Deserialization of Untrusted Data Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target…",
+"title": "CVE-2026-118617: Ultralytics load_dataset_cache_file Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118617"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-118618"
+],
+"cvss": 7.8,
+"epss": 0.00221,
+"first_seen": "2026-10-31T12:06:31Z",
+"id": "CVE-2026-118618",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-05",
+"published": "2026-10-28T17:18:28Z",
+"reasons": [
+"CVSS 7.8",
+"remote code execution"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "Ultralytics parse_model Code Injection Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or…",
+"title": "CVE-2026-118618: Ultralytics parse_model Code Injection Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118618"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "4a06d31d547000fba7979ce299cc14a069a6f6145896831b5a6563c7ac2a5875",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T16:12:46Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
+"title": "DigiCert data breach exposes customer information, identity documents",
+"url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "c845458cd6113bf6abfc5cd8f33c3d1916b4b5f3d40c79e5fea04a74524e6ed1",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-05",
+"published": "2026-11-05T14:41:10Z",
+"reasons": [
+"RCE",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster…",
+"title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+"url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "8eb0b7b08d655cb8eb7523959b7a5b200fee63c556506f0964840edac2bd5b98",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T14:44:20Z",
+"reasons": [
+"matches Linux kernel OpenSSH (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
+"url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "OpenSSH",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+],
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "1de0347e6d33284c42e9436afcd1740ab3fdd0219a29d9d0cc98401e29ddd2c4",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T16:01:34Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Motorola Signature 27 with GrapheneOS support",
+"url": "https://motorolanews.com/motorola-signature-27-2/",
+"weight": 3
+},
+{
+"big_story_hits": [
+"ceasefire"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-05T21:26:31Z",
+"id": "c53ff5fefe5ba91586cc37fd090436479e157b70901f4aaa7141427dfb9103de",
+"last_seen": "2026-11-05",
+"published": "2026-11-05T20:43:46Z",
+"reasons": [
+"big story: ceasefire",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "US First Lady Melania Trump has brought Russian and Ukrainian representatives together at the White House.",
+"title": "Melania Trump hosts Russia-Ukraine meeting after Oleshky ceasefire",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/melania-trump-hosts-russia-ukraine-meeting-after-oleshky-ceasefire?traffic_source=rss",
 "weight": 1
 }
 ]
