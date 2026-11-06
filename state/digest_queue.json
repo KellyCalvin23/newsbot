@@ -1,1 +1,1263 @@
-[]
+[
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-74759"
+],
+"cvss": 9.8,
+"epss": 0.00177,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-74759",
+"last_seen": "2026-11-06",
+"published": "2026-11-01T17:16:34Z",
+"reasons": [
+"CVSS 9.8",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Google::Auth versions 0.12 for Perl allow server side request forgery via unvalidated credential_source URLs in AWS external account credentials. An external_account configuration with the AWS subject token type selects Google::Auth::ExternalAccountCredentials::Aws. Its retrieve_subject_token sends…",
+"title": "CVE-2026-74759: Google::Auth versions 0.12 for Perl allow server side request forgery via unvalidated credential_source URLs in AWS external account…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74759",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-74760"
+],
+"cvss": 8.8,
+"epss": 0.00124,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-74760",
+"last_seen": "2026-11-06",
+"published": "2026-11-01T17:16:34Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Google::Auth versions from 0.11 through 0.12 for Perl accept an authorization code from any local process because the gcloud-auth login callback does not check the OAuth state. The gcloud-auth login and application-default login commands send a state parameter with the authorization request, then…",
+"title": "CVE-2026-74760: Google::Auth versions from 0.11 through 0.12 for Perl accept an authorization code from any local process because the gcloud-auth login…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74760",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-85627"
+],
+"cvss": 8.8,
+"epss": 0.00266,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-85627",
+"last_seen": "2026-11-06",
+"published": "2026-11-05T14:17:07Z",
+"reasons": [
+"CVSS 8.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper Neutralization of Special Elements Used in a Template Engine ('Server-Side Template Injection') in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only a stock non-administrative account to execute arbitrary operating system commands as…",
+"title": "CVE-2026-85627: Improper Neutralization of Special Elements Used in a Template Engine ('Server-Side Template Injection') in Apache OFBiz 24.09 before…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85627",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123276"
+],
+"cvss": 7.8,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123276",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:05Z",
+"reasons": [
+"CVSS 7.8",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains CLion before 2026.3, 2026.2.4.1 code execution was possible in Safe Mode via a crafted GDB server debug profile",
+"title": "CVE-2026-123276: In JetBrains CLion before 2026.3, 2026.2.4.1 code execution was possible in Safe Mode via a crafted GDB server debug profile",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123276",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123278"
+],
+"cvss": 6.7,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123278",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:06Z",
+"reasons": [
+"unauthenticated",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains IntelliJ IDEA before 2026.3 code execution was possible via the unauthenticated JDBC worker RMI endpoint",
+"title": "CVE-2026-123278: In JetBrains IntelliJ IDEA before 2026.3 code execution was possible via the unauthenticated JDBC worker RMI endpoint",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123278",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123279"
+],
+"cvss": 9.0,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123279",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:06Z",
+"reasons": [
+"CVSS 9.0",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains Datalore before 2026.4 code execution was possible in a notebook's computation by view-only collaborators",
+"title": "CVE-2026-123279: In JetBrains Datalore before 2026.4 code execution was possible in a notebook's computation by view-only collaborators",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123279",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123281"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123281",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:06Z",
+"reasons": [
+"CVSS 7.5",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains Datalore before 2026.4 notebook code could execute commands in the sidecar container via the mount broker",
+"title": "CVE-2026-123281: In JetBrains Datalore before 2026.4 notebook code could execute commands in the sidecar container via the mount broker",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123281",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123282"
+],
+"cvss": 7.4,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123282",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:06Z",
+"reasons": [
+"CVSS 7.4",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains Datalore before 2026.4 missing expiration validation of account tokens allowed a new authenticated session",
+"title": "CVE-2026-123282: In JetBrains Datalore before 2026.4 missing expiration validation of account tokens allowed a new authenticated session",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123282",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123290"
+],
+"cvss": 5.3,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123290",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:07Z",
+"reasons": [
+"unauthenticated",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains Datalore before 2026.4 hidden notebook code was exposed to unauthenticated users via the public interactive report content endpoint",
+"title": "CVE-2026-123290: In JetBrains Datalore before 2026.4 hidden notebook code was exposed to unauthenticated users via the public interactive report content…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123290",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123293"
+],
+"cvss": 7.8,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123293",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:08Z",
+"reasons": [
+"CVSS 7.8",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains IntelliJ IDEA before 2026.3, 2026.2.4 code execution was possible in untrusted projects via the Terraform tool path setting",
+"title": "CVE-2026-123293: In JetBrains IntelliJ IDEA before 2026.3, 2026.2.4 code execution was possible in untrusted projects via the Terraform tool path setting",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123293",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123294"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123294",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:08Z",
+"reasons": [
+"CVSS 9.6",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains Hub before 2026.2.52556 privilege escalation was possible by changing email authentication details during the verification flow",
+"title": "CVE-2026-123294: In JetBrains Hub before 2026.2.52556 privilege escalation was possible by changing email authentication details during the verification flow",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123294",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123295"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123295",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:08Z",
+"reasons": [
+"CVSS 8.1",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains Hub before 2026.2.52519 enforced two-factor authentication could be disabled via the profile update endpoint",
+"title": "CVE-2026-123295: In JetBrains Hub before 2026.2.52519 enforced two-factor authentication could be disabled via the profile update endpoint",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123295",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123296"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123296",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:08Z",
+"reasons": [
+"CVSS 7.5",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains Hub before 2026.2.52519 privilege escalation via forged email verification was possible",
+"title": "CVE-2026-123296: In JetBrains Hub before 2026.2.52519 privilege escalation via forged email verification was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123296",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123301"
+],
+"cvss": 8.2,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123301",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:09Z",
+"reasons": [
+"CVSS 8.2",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains IntelliJ IDEA before 2026.3 dOM-based XSS in the OpenAPI preview error view was possible",
+"title": "CVE-2026-123301: In JetBrains IntelliJ IDEA before 2026.3 dOM-based XSS in the OpenAPI preview error view was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123301",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123302"
+],
+"cvss": 7.8,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123302",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:09Z",
+"reasons": [
+"CVSS 7.8",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains IntelliJ IDEA before 2026.3, 2026.2.4, 2026.1.5.1, 2025.3.6.2 code execution was possible in untrusted projects via script engine discovery",
+"title": "CVE-2026-123302: In JetBrains IntelliJ IDEA before 2026.3, 2026.2.4, 2026.1.5.1, 2025.3.6.2 code execution was possible in untrusted projects via script…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123302",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123304"
+],
+"cvss": 7.8,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123304",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:09Z",
+"reasons": [
+"CVSS 7.8",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains IntelliJ IDEA before 2026.3 code execution in untrusted projects via a configured ShellCheck path",
+"title": "CVE-2026-123304: In JetBrains IntelliJ IDEA before 2026.3 code execution in untrusted projects via a configured ShellCheck path",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123304",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123305"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123305",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:09Z",
+"reasons": [
+"CVSS 7.5",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains IntelliJ IDEA before 2026.3 path traversal was possible via unpacking Dev Container archives from a remote host",
+"title": "CVE-2026-123305: In JetBrains IntelliJ IDEA before 2026.3 path traversal was possible via unpacking Dev Container archives from a remote host",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123305",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123306"
+],
+"cvss": 7.4,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123306",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:09Z",
+"reasons": [
+"CVSS 7.4",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains IntelliJ IDEA before 2026.3 improper checks allowed server certificates to be added to the trust store during headless runs",
+"title": "CVE-2026-123306: In JetBrains IntelliJ IDEA before 2026.3 improper checks allowed server certificates to be added to the trust store during headless runs",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123306",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123307"
+],
+"cvss": 6.8,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123307",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:09Z",
+"reasons": [
+"unauthenticated",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains IntelliJ IDEA before 2026.3, 2026.2.4 unauthenticated connection to an arbitrary host via run configurations was possible",
+"title": "CVE-2026-123307: In JetBrains IntelliJ IDEA before 2026.3, 2026.2.4 unauthenticated connection to an arbitrary host via run configurations was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123307",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123315"
+],
+"cvss": 7.0,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123315",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:10Z",
+"reasons": [
+"CVSS 7.0",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains Junie CLI before 26.8.24 command execution was possible via the Allow Similar Commands option",
+"title": "CVE-2026-123315: In JetBrains Junie CLI before 26.8.24 command execution was possible via the Allow Similar Commands option",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123315",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123317"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123317",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:11Z",
+"reasons": [
+"CVSS 8.1",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains Ktor before 3.6.1 session forgery was possible via tampered encrypted session cookies",
+"title": "CVE-2026-123317: In JetBrains Ktor before 3.6.1 session forgery was possible via tampered encrypted session cookies",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123317",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123321"
+],
+"cvss": 7.8,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123321",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:11Z",
+"reasons": [
+"CVSS 7.8",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains WebStorm before 2026.3, 2026.2.3 code execution via Grunt and Gulp task loading was possible in untrusted projects",
+"title": "CVE-2026-123321: In JetBrains WebStorm before 2026.3, 2026.2.3 code execution via Grunt and Gulp task loading was possible in untrusted projects",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123321",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123323"
+],
+"cvss": 8.4,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123323",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:11Z",
+"reasons": [
+"CVSS 8.4",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains YouTrack before 2025.3.170763, 2026.1.14150, 2026.2.19656 improper URL validation in the app widget host allowed apps to send REST requests without user confirmation",
+"title": "CVE-2026-123323: In JetBrains YouTrack before 2025.3.170763, 2026.1.14150, 2026.2.19656 improper URL validation in the app widget host allowed apps to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123323",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123324"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123324",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:12Z",
+"reasons": [
+"CVSS 7.7",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains YouTrack before 2026.2.19562 information disclosure via shared mailbox message history was possible",
+"title": "CVE-2026-123324: In JetBrains YouTrack before 2026.2.19562 information disclosure via shared mailbox message history was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123324",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123325"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123325",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:12Z",
+"reasons": [
+"CVSS 7.1",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains YouTrack before 2025.3.170763, 2026.1.14150, 2026.2.19656 inclusion of untrusted remote code was possible via the plugin sandbox page",
+"title": "CVE-2026-123325: In JetBrains YouTrack before 2025.3.170763, 2026.1.14150, 2026.2.19656 inclusion of untrusted remote code was possible via the plugin…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123325",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123326"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123326",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:12Z",
+"reasons": [
+"CVSS 7.1",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains YouTrack before 2026.2.19197 incorrect authorisation in the scripts debugger allowed workflow script disclosure and suspension",
+"title": "CVE-2026-123326: In JetBrains YouTrack before 2026.2.19197 incorrect authorisation in the scripts debugger allowed workflow script disclosure and suspension",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123326",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123327"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-123327",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T11:17:12Z",
+"reasons": [
+"CVSS 7.5",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains YouTrack before 2026.2.19562 missing authorization in the saved query endpoint allowed disclosure of issue descriptions",
+"title": "CVE-2026-123327: In JetBrains YouTrack before 2026.2.19562 missing authorization in the saved query endpoint allowed disclosure of issue descriptions",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123327",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-85111"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-85111",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T12:17:23Z",
+"reasons": [
+"CVSS 8.7",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Allocation of Resources Without Limits or Throttling in Apache James Mime4J library prior version 0.8.15 allows Denial of Service upon parsing Mime messages. Users are recommended to upgrade to Apache James server 3.9.1 that relies on fixed MIME4J 0.8.15 which addresses the issue. See…",
+"title": "CVE-2026-85111: Allocation of Resources Without Limits or Throttling in Apache James Mime4J library prior version 0.8.15 allows Denial of Service upon…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85111",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119170"
+],
+"cvss": 8.2,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-119170",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T15:17:12Z",
+"reasons": [
+"CVSS 8.2",
+"matches Linux kernel OpenSSL (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "There was a regression in how FIPS algorithms were enforced for the hashlib module. Only users that are using OpenSSL in FIPS mode are affected. Only Python 3.14.10 is affected, all other Python versions are unaffected.",
+"title": "CVE-2026-119170: There was a regression in how FIPS algorithms were enforced for the hashlib module",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119170",
+"vendor_matches": [
+{
+"points": 2,
+"term": "OpenSSL",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-59105"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "CVE-2026-59105",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T15:17:22Z",
+"reasons": [
+"CVSS 9.8",
+"matches Microsoft (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Jumis (formerly Tildes Jumis) creates and uses a Microsoft SQL Server login named ##Tilde_JumisAdmin## whose password is derived deterministically from a single non-secret input - the SQL Server name (@@servername). The derivation algorithm is hard-coded in the client application and is identical…",
+"title": "CVE-2026-59105: Jumis (formerly Tildes Jumis) creates and uses a Microsoft SQL Server login named ##Tilde_JumisAdmin## whose password is derived…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59105",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-83844"
+],
+"epss": 0.00734,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "70455b42efa9f741802e74fc214a3a668e2beb46eed20ce88e6e1b870fcc81ae",
+"keyword_hits": [
+"RCE",
+"remote code execution"
+],
+"last_seen": "2026-11-06",
+"published": "2026-11-06T12:06:43Z",
+"reasons": [
+"RCE",
+"matches Microsoft Windows (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today. The…",
+"title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+"url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "84dce42295f934ccacc645c9a517d85bb8a2c39fc7a30aef215967dc4f12143d",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-06",
+"published": "2026-11-06T14:40:09Z",
+"reasons": [
+"ransomware",
+"matches SAP (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Noteworthy stories that might have slipped under the radar: Synology warns about NAS ransomware attacks, Flowise ‘hello’ attacks, Chainalysis breach impact expands. The post In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days appeared first on SecurityWeek .",
+"title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
+"url": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SAP",
+"tier": 3,
+"vendor": "SAP"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "f5acb978d0e0160a22323a55c55b0c3367d2f723d5b4ec6629201216befb5bbd",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-06",
+"published": "2026-11-06T14:00:07Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Hackers created an account on an internal system and accessed names, email addresses, phone numbers, and business addresses. The post DigiCert Data Breach Impacts Business Customer Information appeared first on SecurityWeek .",
+"title": "DigiCert Data Breach Impacts Business Customer Information",
+"url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "6eaa32a4ee6f126916061d3a12e7eb99db0b4e544905c769f4fa2209015c840a",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T09:27:12Z",
+"reasons": [
+"matches Google Android (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+"url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Android",
+"tier": 2,
+"vendor": "Google"
+}
+],
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "29ac3a51747857dfe476e60d64e3ccafb2dd577f975128f1922c25cd99c19a49",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T07:40:35Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Blender's UI and Runtime: Much Faster Than GPUI",
+"url": "https://github.com/ppmpreetham/BUI",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "06b3a3e38140ef16c55dc7242bb4a3dc77a0cad3fe9b88ac6ebe154bda854c7f",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T07:22:04Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Britain to make salary disclosure in job ads mandatory",
+"url": "https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/",
+"weight": 3
+},
+{
+"big_story_hits": [
+"ceasefire"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "acd3a4fda2c782cecd0f7a81ee3b9361ff58eaf88a5775a631dd3c7dba1b9cbb",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T16:04:19Z",
+"reasons": [
+"big story: ceasefire",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "French- and British-led military drills in Poland will testing post-ceasefire deployment in Ukraine.",
+"title": "European troops prepare for possible post-ceasefire deployment to Ukraine",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-06T16:11:32Z",
+"id": "c762604ac064e0c8d6c8f904b4d5c82cadefda30436327e18b6ed6c16c5d1504",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T12:23:02Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[Capital FM] Nairobi -- Rwanda has launched Africa's first clinical trial of a long-acting injectable drug for malaria prevention, marking a potential shift in how the disease is prevented as drug resistance and climate change threaten progress against the mosquito-borne illness.",
+"title": "Rwanda Launches Africa's First Trial of Long-Acting Malaria Prevention Injection",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611060285.html",
+"weight": 1
+}
+]
