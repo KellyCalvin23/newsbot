@@ -3006,5 +3006,250 @@
 ],
 "url": "https://www.aljazeera.com/news/2026/11/5/south-africas-anc-on-track-for-new-lows-in-local-polls?traffic_source=rss",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120844"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-06T08:32:20Z",
+"id": "CVE-2026-120844",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T08:17:19Z",
+"reasons": [
+"CVSS 9.8",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect Privilege Assignment vulnerability in miniOrange OAuth Single Sign On – SSO (OAuth Client) miniorange-login-with-eve-online-google-facebook allows Privilege Escalation.This issue affects OAuth Single Sign On – SSO (OAuth Client): from n/a through 7.1.3.",
+"title": "CVE-2026-120844: Incorrect Privilege Assignment vulnerability in miniOrange OAuth Single Sign On – SSO (OAuth Client)…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120844",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-47717"
+],
+"cvss": 7.5,
+"epss": 0.01375,
+"first_seen": "2026-11-06T08:32:20Z",
+"id": "CVE-2026-47717",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.5",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "frangoteam fuxa. FUXA is a web-based Process Visualization (SCADA/HMI/Dashboard) software. In fuxa-server version 1.3.0, the GET /api/project endpoint exposes sensitive project configuration data to guest-context requests even when secureEnabled is enabled. Version 1.3.1 fixes the issue.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-47717: frangoteam fuxa Insertion of Sensitive Information Into Sent Data",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47717"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-06T08:32:20Z",
+"id": "3fc6e47a4e6620f35abb3bed7dd11f0de9af8b804168ad2df2ebf597041d5efa",
+"last_seen": "2026-11-06",
+"published": "2026-11-05T19:08:22Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "The Hackintosh Reborn",
+"url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-06T08:32:20Z",
+"id": "ed4576308e567e903d40936224e2b3baf0e17056d286279e095b5f61afee943b",
+"last_seen": "2026-11-06",
+"published": "2026-11-05T16:50:14Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Window Sweaters",
+"url": "https://github.com/saragordic/window-sweaters",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-06T08:32:20Z",
+"id": "c7572155a4dc237c7015a20af8e6790f22bb578fb0c584252b647b42924e99a3",
+"last_seen": "2026-11-06",
+"published": "2026-11-05T13:00:11Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Download your favourite YouTube videos",
+"url": "https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/",
+"weight": 3
+},
+{
+"big_story_hits": [
+"tsunami"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-06T08:32:20Z",
+"id": "ddc4363c9e3de910bad168ea47ab337b16f7368d4198aa82715f06dfa3b0ed44",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T05:03:57Z",
+"reasons": [
+"big story: tsunami",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "Republican redistricting largely backfired in Texas and beyond, but one redrawn district delivered for the party.",
+"title": "Why one Republican won a redrawn Texas district despite blue tsunami",
+"url": "https://www.aljazeera.com/news/2026/11/6/why-one-republican-won-a-redrawn-texas-district-despite-blue-tsunami?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-06T08:32:20Z",
+"id": "7bf4279f729a75533cffabbf21d168f2a15c96e57d323c69142bfd08d417be17",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T04:29:40Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] A crucial round of funding negotiations is underway in Kigali, with countries seeking to secure the resources needed to sustain global efforts to protect the ozone layer and curb emissions from powerful climate-warming gases.",
+"title": "Kigali Amendment Faces Crucial Test As Countries Negotiate Funding",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611060109.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-06T08:32:20Z",
+"id": "c94a308c3691f8ddc769765981d42427a96cb602841e57f3fc6f93037db6496f",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T04:29:40Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Prime Minister Justin Nsengiyumva has called for greater investment in sustainable cooling technologies, urging countries to move beyond commitments and deliver tangible results as the Kigali Amendment to the Montreal Protocol marks its 10th anniversary.",
+"title": "PM Urges Action Beyond Pledges As Kigali Amendment Marks Decade",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611060110.html",
+"weight": 1
+},
+{
+"big_story_hits": [
+"earthquake"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-06T08:32:20Z",
+"id": "6f8f33185e06fb2006a25d638565cfe84990710f62be2e820caab8b3bd042b60",
+"last_seen": "2026-11-06",
+"published": "2026-11-06T04:11:47Z",
+"reasons": [
+"topic: Kigali",
+"big story: earthquake",
+"source weight +1"
+],
+"route": "digest",
+"score": 5,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] An earthquake was felt in Kigali on Thursday morning, November 5, with residents in Tanzania's Mwanza, Kampala, Nairobi and other parts of the region also reporting tremors.",
+"title": "Magnitude 6.4 Earthquake Felt in Kigali Orginated From Tanzania - Data",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611060068.html",
+"weight": 1
 }
 ]
