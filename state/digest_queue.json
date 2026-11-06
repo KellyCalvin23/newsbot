@@ -2454,5 +2454,557 @@
 "title": "Melania Trump hosts Russia-Ukraine meeting after Oleshky ceasefire",
 "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/melania-trump-hosts-russia-ukraine-meeting-after-oleshky-ceasefire?traffic_source=rss",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-105031"
+],
+"cvss": 9.1,
+"epss": 0.00134,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "CVE-2026-105031",
+"last_seen": "2026-11-06",
+"published": "2026-10-29T11:17:24Z",
+"reasons": [
+"CVSS 9.1",
+"matches Linux kernel OpenSSL (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "When using the OpenSSL TLS implementation, both the pn_ssl_domain_set_trusted_ca_db() & pn_tls_config_set_trusted_certs() APIs added to rather than replaced the default system trust anchors. Leading to potentially trusting unexpected peer certificates. This can be worked around by setting the…",
+"title": "CVE-2026-105031: When using the OpenSSL TLS implementation, both the pn_ssl_domain_set_trusted_ca_db() & pn_tls_config_set_trusted_certs() APIs added to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105031",
+"vendor_matches": [
+{
+"points": 2,
+"term": "OpenSSL",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-105042"
+],
+"cvss": 9.8,
+"epss": 0.00228,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "CVE-2026-105042",
+"last_seen": "2026-11-06",
+"published": "2026-10-29T11:17:24Z",
+"reasons": [
+"CVSS 9.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A message body that is deeply nested and decoded by pn_message_body() could overflow the stack and cause a crash. This issue affects Apache Qpid Proton C: through 0.40.0. Users are recommended to upgrade to version 0.41.1, which fixes the issue.",
+"title": "CVE-2026-105042: A message body that is deeply nested and decoded by pn_message_body() could overflow the stack and cause a crash. This issue affects…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105042",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-115942"
+],
+"cvss": 7.5,
+"epss": 0.00137,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "CVE-2026-115942",
+"last_seen": "2026-11-06",
+"published": "2026-10-29T11:17:30Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A misconfigured wildcard TLS certificate causes a stack read overflow. This issue does not affect any wildcard certificate issued to the RFC9525 standard - the fix only accepts certificates that comply to this standard. This issue affects Apache Qpid Proton C: through 0.40.0. Users are recommended…",
+"title": "CVE-2026-115942: A misconfigured wildcard TLS certificate causes a stack read overflow. This issue does not affect any wildcard certificate issued to the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115942",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-66911"
+],
+"cvss": 5.3,
+"epss": 0.0054,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "CVE-2026-66911",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-06",
+"published": "2026-10-29T16:18:15Z",
+"reasons": [
+"unauthenticated",
+"matches Zimbra (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Zimbra is vulnerable to stored cross-site scripting (XSS) via the Content-Location MIME header in email attachments. Due to lack of sanitization of the Content-Location header, an attacker can set it to a javascript: URI. An unauthenticated remote attacker can send a crafted email to a victim; when…",
+"title": "CVE-2026-66911: Zimbra is vulnerable to stored cross-site scripting (XSS) via the Content-Location MIME header in email attachments",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66911",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Zimbra",
+"tier": 3,
+"vendor": "Zimbra"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119115"
+],
+"cvss": 8.5,
+"epss": 0.0017,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "CVE-2026-119115",
+"last_seen": "2026-11-06",
+"published": "2026-10-29T17:18:07Z",
+"reasons": [
+"CVSS 8.5",
+"matches AWS (Tier 3)",
+"topic: Kubernetes"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization in the issuer resolution logic in AWS Private CA Connector for Kubernetes (aws-privateca-issuer) before v1.10.1 might allow an authenticated remote user to obtain certificates, including subordinate CA certificates, signed by a cluster-scoped AWS Private CA issuer that their…",
+"title": "CVE-2026-119115: Incorrect authorization in the issuer resolution logic in AWS Private CA Connector for Kubernetes (aws-privateca-issuer) before v1.10.1…",
+"topic_hits": [
+"Kubernetes"
+],
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119115",
+"vendor_matches": [
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-61738"
+],
+"cvss": 10.0,
+"epss": 0.00558,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "CVE-2026-61738",
+"last_seen": "2026-11-06",
+"published": "2026-10-30T15:16:53Z",
+"reasons": [
+"CVSS 10.0",
+"matches Google Cloud (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SOCFortress CoPilot focuses on providing a single pane of glass for all your security operations needs. Prior to 0.1.77, `POST /api/scoutsuite/generate-gcp-report` in `backend/app/integrations/scoutsuite/routes/scoutsuite.py` admits admin and analyst users and validates the uploaded content as…",
+"title": "CVE-2026-61738: SOCFortress CoPilot focuses on providing a single pane of glass for all your security operations needs",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61738",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google Cloud",
+"tier": 3,
+"vendor": "Google Cloud"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-71901"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "CVE-2026-71901",
+"last_seen": "2026-11-06",
+"published": "2026-11-05T15:17:22Z",
+"reasons": [
+"CVSS 8.1",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper Control of Resource Identifiers ('Resource Injection') vulnerability in Apache OFBiz. An authenticate user with access to sfa component can override the service to use on vcard import and access to other service. This issue affects Apache OFBiz: before 24.09.08. Users are recommended to…",
+"title": "CVE-2026-71901: Improper Control of Resource Identifiers ('Resource Injection') vulnerability in Apache OFBiz. An authenticate user with access to sfa…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71901",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111768"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "CVE-2026-111768",
+"last_seen": "2026-11-06",
+"published": "2026-11-05T22:17:45Z",
+"reasons": [
+"CVSS 7.5",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The Model Context Protocol TypeScript SDK provides TypeScript client and server implementations of the Model Context Protocol. From 1.3.0 until 1.32.0 in @modelcontextprotocol/sdk and from 2.0.0 until 2.3.0 in @modelcontextprotocol/server, HTTP servers did not enforce a limit on the number of array…",
+"title": "CVE-2026-111768: The Model Context Protocol TypeScript SDK provides TypeScript client and server implementations of the Model Context Protocol",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111768",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111770"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "CVE-2026-111770",
+"last_seen": "2026-11-06",
+"published": "2026-11-05T22:17:45Z",
+"reasons": [
+"CVSS 7.7",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The Model Context Protocol TypeScript SDK provides TypeScript client and server implementations of the Model Context Protocol. From 2.0.0 until 2.3.0 in @modelcontextprotocol/server, applications that shared one stateless HTTP transport or one McpServer or Server instance among multiple clients…",
+"title": "CVE-2026-111770: The Model Context Protocol TypeScript SDK provides TypeScript client and server implementations of the Model Context Protocol",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111770",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-119757"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "CVE-2026-119757",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-06",
+"published": "2026-11-05T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "BTCPay Server BTCPay Server. BTCPay Server before 2.4.2, including 2.4.2 release candidates, contains an information disclosure vulnerability that allows unauthenticated remote attackers to retrieve .macaroon credential files for an LND (Lightning Network Daemon) node. Attackers can use the exposed…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-119757: Insufficiently Protected Credentials",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119757"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "3b90917b2163e0274a9970604e1810c8f1aa9df5b2c28d76aa9a37b8e6df82a8",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-06",
+"published": "2026-11-05T22:08:00Z",
+"reasons": [
+"ransomware"
+],
+"route": "digest",
+"score": 3,
+"source": "The Record",
+"source_type": "rss",
+"sources": [
+"The Record"
+],
+"summary": "The library system, which has 66 branches serving the borough’s 2.3 million residents, published multiple alerts on Wednesday confirming that the disruption was caused by a ransomware attack.",
+"title": "Queens Public Library says ransomware attack disrupted Wi-Fi, on-site computers",
+"url": "https://therecord.media/queens-library-ransomware-causes-disruptions"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "9539e57e98b9189f4d3f68ffbaf36ec4784d093a15e8ebb82f0c1ab098f43063",
+"last_seen": "2026-11-06",
+"published": "2026-11-05T22:17:15Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Claude Code sends your email address to websites",
+"url": "https://github.com/anthropics/claude-code/issues/107757",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "1825762fda9ae713f647f6bba03b0ed83a72ad389d7b9e6c5d31c1d312229d5d",
+"last_seen": "2026-11-06",
+"published": "2026-11-05T20:03:34Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Search for everyone",
+"url": "https://kagi.com/changelog",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "37e101f2b115c70a830801b9b7aeff4e606b6b8a9bbf2134fedf06af4ad2726f",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-06",
+"published": "2026-11-05T20:43:42Z",
+"reasons": [
+"remote code execution",
+"source weight +3"
+],
+"route": "digest",
+"score": 6,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "MS Paint Remote Code Execution Vulnerability",
+"url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "88f8eea2b2c480ddf3f8c7a966afab0513060a0ba11070756da2e0c6fc84f85a",
+"last_seen": "2026-11-06",
+"published": "2026-11-05T20:03:29Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Goodbye from Salon",
+"url": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "c55d5d954489c3d910d301b0c21d50f5d962801b01554f07bf98a70ed3839774",
+"last_seen": "2026-11-06",
+"published": "2026-11-05T13:40:52Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "I wish tech companies knew more about me",
+"url": "https://rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "db53f1902494d5cd18c1ebde3dfdb63445088e54a98140ffa813151f785ab501",
+"last_seen": "2026-11-06",
+"published": "2026-11-05T07:44:30Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "GPT-6 Astra covertly underperforms on safety research",
+"url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-06T01:45:48Z",
+"id": "5f5b73d7236ae2473e5ec2b91705dfb1cc686db6ec7a32a044f6fc1158039f6f",
+"last_seen": "2026-11-06",
+"published": "2026-11-05T21:48:16Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "The ANC was on about 32 percent of the vote with more than 60 percent of votes counted in municipal elections.",
+"title": "South Africa’s ANC on track for new lows in local polls",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/news/2026/11/5/south-africas-anc-on-track-for-new-lows-in-local-polls?traffic_source=rss",
+"weight": 1
 }
 ]
