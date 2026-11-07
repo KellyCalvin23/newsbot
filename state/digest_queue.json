@@ -2613,5 +2613,633 @@
 "title": "Musk says Tesla to wind down polarising Cybertruck production as sales lag",
 "url": "https://www.aljazeera.com/news/2026/11/6/musk-says-tesla-to-wind-down-polarising-cybertruck-production-as-sales-lag?traffic_source=rss",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120043"
+],
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-120043",
+"last_seen": "2026-11-07",
+"published": "2026-11-06T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": ".",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-120043:",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120043"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-109884"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-109884",
+"last_seen": "2026-11-07",
+"published": "2026-11-06T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.1",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Elementor Website Builder. Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Elementor Elementor Website Builder elementor allows Reflected XSS.This issue affects Elementor Website Builder: from n/a through 4.3.5.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-109884: elementor Website Builder Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109884"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-83844"
+],
+"epss": 0.00734,
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-83844",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Windows (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "To comprehensively address the vulnerability identified by this CVE, Microsoft has released a new version of Paint with build version number 11.2609.401.0. Microsoft recommends installing this new version or ensuring that it was automatically updated.",
+"title": "CVE-2026-83844 Windows Paint Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-76181"
+],
+"epss": 0.00139,
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-76181",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of LibreOffice. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following…",
+"title": "ZDI-26-895: LibreOffice dBase File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-895/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121741"
+],
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-121741",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Trimble SketchUp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-893: Trimble SketchUp SKP File Parsing Use-After-Free Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-893/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-118632"
+],
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-118632",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge Pro. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The ZDI has assigned a CVSS rating of 8.0…",
+"title": "ZDI-26-891: Philips Hue Bridge Pro SQL Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-891/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-10935"
+],
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2025-10935",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of libilbm. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following…",
+"title": "ZDI-26-887: libilbm ILBM File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-887/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114558"
+],
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-114558",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8…",
+"title": "ZDI-26-886: OriginLab Origin Viewer OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-886/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114568"
+],
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-114568",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8…",
+"title": "ZDI-26-885: OriginLab Origin Viewer OPJ File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-885/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114567"
+],
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-114567",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8…",
+"title": "ZDI-26-884: OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-884/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114566"
+],
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-114566",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8…",
+"title": "ZDI-26-883: OriginLab Origin Viewer OGM File Parsing Memory Corruption Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-883/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114565"
+],
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-114565",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8…",
+"title": "ZDI-26-882: OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-882/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114564"
+],
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-114564",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8…",
+"title": "ZDI-26-881: OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-881/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114563"
+],
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-114563",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8…",
+"title": "ZDI-26-880: OriginLab Origin Viewer OGWU File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-880/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114562"
+],
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-114562",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8…",
+"title": "ZDI-26-879: OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-879/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114561"
+],
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-114561",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8…",
+"title": "ZDI-26-878: OriginLab Origin Viewer OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-878/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114560"
+],
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-114560",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8…",
+"title": "ZDI-26-877: OriginLab Origin Viewer OPJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-877/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114559"
+],
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-114559",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8…",
+"title": "ZDI-26-876: OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-876/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114569"
+],
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "CVE-2026-114569",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-07",
+"published": "2026-11-06T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8…",
+"title": "ZDI-26-875: OriginLab Origin Viewer OGWU File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-875/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "c03a5c5539374133ce6a0f9e67c6af1d24ac7c7a14a42b6ea62ac1702884bef6",
+"last_seen": "2026-11-07",
+"published": "2026-11-07T00:00:55Z",
+"reasons": [
+"matches SonicWall SonicOS (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
+"title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+"url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "SonicOS",
+"tier": 1,
+"vendor": "SonicWall"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "42ecf0fb6436f1811743612e3e7d14788a520bc9fcf03660dae90eed9637e801",
+"last_seen": "2026-11-07",
+"published": "2026-11-06T19:48:51Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+"url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "ccf26cff4af84feb6a3270bae83ac0d1fa784da515a1adcd33fd76070c204915",
+"last_seen": "2026-11-07",
+"published": "2026-11-06T12:13:51Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Tesla to wind down Cybertruck production",
+"url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-07T01:09:04Z",
+"id": "fe4620e03a9fa50e2ec7b9ae7af33abc91d34cae38e64fa4354ca6c55eced1ef",
+"last_seen": "2026-11-07",
+"published": "2026-11-06T15:44:36Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Deus Ex",
+"url": "https://www.filfre.net/2026/11/deus-ex/",
+"weight": 3
 }
 ]
