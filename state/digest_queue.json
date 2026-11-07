@@ -88,7 +88,7 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-118267"
 ],
@@ -107,6 +107,7 @@
 "source": "VulnCheck KEV",
 "source_type": "vulncheck_kev",
 "sources": [
+"NVD",
 "VulnCheck KEV"
 ],
 "summary": "wpdataaccess wp_data_access. The WP Data Access – App Builder for Tables, Forms, Dashboards, Charts & Maps plugin for WordPress is vulnerable to Incorrect Authorization leading to Privilege Escalation in all versions up to, and including, 5.5.89 This is due to the plugin's write endpoints…",
