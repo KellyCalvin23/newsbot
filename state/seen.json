@@ -1771,7 +1771,7 @@
 "CVE-2026-97229"
 ],
 "meta": {
-"nvd_cursor": "2026-11-08T01:45:16Z"
+"nvd_cursor": "2026-11-08T08:01:41Z"
 },
 "seeded_sources": [
 "Al Jazeera",
@@ -2992,6 +2992,27 @@
 ],
 "weight": 1
 },
+"0bde456d405705e4bae6a08e3dd3c971e9a4c92148c05ed85371e2361faa1873": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-08T08:01:41Z",
+"id": "0bde456d405705e4bae6a08e3dd3c971e9a4c92148c05ed85371e2361faa1873",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T04:56:37Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Drone attack on Colombian army base kills three soldiers and wounds 16",
+"url": "https://www.aljazeera.com/news/2026/11/8/drone-attack-on-colombian-army-base-kills-three-soldiers-and-wounds-16?traffic_source=rss",
+"weight": 1
+},
 "0bfc39c3762ca06ed37235944772627dba877217e44de361ada4fa55547b4a6e": {
 "category": "tech",
 "coverage_count": 1,
@@ -3776,10 +3797,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "14d76508f030ab34207d9612beed7c4b89e75b6edf24d4075898aa1c9ef74724",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T00:00:00Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -3787,8 +3804,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Iran war live: IRGC says two oil tankers and tugboat caught fire in Hormuz",
-"url": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
 "weight": 1
 },
 "14fb70146bfabaefa60783822c8362ba2dc140ed989ef5324d2ce0ea3860f021": {
@@ -3878,10 +3893,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "15c62ba3a6a2f32468e09da744f5ab333c43471d60c457df7f6c2011011a261b",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T04:11:45Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -3889,8 +3900,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Paraguay bank collapses with half of population’s savings",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/paraguay-bank-collapses-with-half-of-populations-savings?traffic_source=rss",
 "weight": 1
 },
 "15cb61325eb229c44aeaf2b86829ff2d00b6912788da83d3c2956c0d752746f9": {
@@ -4807,6 +4816,31 @@
 "title": "Nvidia hardware worth $11.4M vanished between Oakland and Texas",
 "url": "https://arstechnica.com/gadgets/2026/11/nvidia-hardware-worth-11-4m-vanished-between-oakland-and-texas/"
 },
+"1d13406600cb682feef72111192a71f5af861382cd39a8de1ee34d1553671b4b": {
+"big_story_hits": [
+"earthquake"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-08T08:01:41Z",
+"id": "1d13406600cb682feef72111192a71f5af861382cd39a8de1ee34d1553671b4b",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T04:20:57Z",
+"reasons": [
+"big story: earthquake",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Earthquake hits central Japan, injuring more than 20 people",
+"url": "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people?traffic_source=rss",
+"weight": 1
+},
 "1d20c6bbcfec451923cd37e3ce34b32db3835b9ecce0614442c066e68b7cbe22": {
 "category": "security",
 "coverage_count": 1,
@@ -5381,6 +5415,27 @@
 ],
 "title": "Rocket Report: Artemis II literally tore through the atmosphere; New Glenn delay",
 "url": "https://arstechnica.com/space/2026/11/rocket-report-new-glenn-wont-fly-this-year-china-launches-mini-falcon-heavy/"
+},
+"22bf24e2e9bffd6aae26497543a3112d449a6341417198681bd86a16b867ca20": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-08T08:01:41Z",
+"id": "22bf24e2e9bffd6aae26497543a3112d449a6341417198681bd86a16b867ca20",
+"last_seen": "2026-11-08",
+"published": "2026-11-07T21:36:16Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
+"url": "https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo",
+"weight": 1
 },
 "22c613c16d2b19f4eed7661070b3d13f4dfb4fa0c39bc45aa6b7ced84d9bb359": {
 "category": "tech",
@@ -6038,11 +6093,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "293f6295b94d933fa5d3c8220b0b36ac3c85b183ffbd3832846c282e359d0d86",
 "last_seen": "2026-11-08",
-"published": "2026-11-05T04:24:25Z",
-"reasons": [
-"topic: Kigali",
-"source weight +1"
-],
 "route": "digest",
 "score": 3,
 "source": "allAfrica Rwanda",
@@ -6050,11 +6100,9 @@
 "sources": [
 "allAfrica Rwanda"
 ],
-"title": "10 More Facilities Closed Over Fire Safety Concerns",
 "topic_hits": [
 "Kigali"
 ],
-"url": "https://allafrica.com/stories/202611050071.html",
 "weight": 1
 },
 "296bdcd1aecbb8d80eaf083adc431fe3a9147aec21b9bbc00f4af8c5ea81b400": {
@@ -6310,10 +6358,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "2be72dac905c1e6c9c8c7edf43ee6269fb37107253ec0386203320cbfb7f78a8",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T04:49:56Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -6321,8 +6365,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Zelenskyy hopes Democratic Congress will bring more US help for Ukraine",
-"url": "https://www.aljazeera.com/news/2026/11/5/zelenskyy-hopes-democratic-congress-will-bring-more-us-help-for-ukraine?traffic_source=rss",
 "weight": 1
 },
 "2c0069d53ee77673ca5fb4631461c20d049d1e8dd89d257c2302c327ddadef67": {
@@ -6555,6 +6597,27 @@
 "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
 "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/"
 },
+"2d263d52e9accc65070d8d285ace3d66d640210a909f7fb5e6f7298b23bed9bf": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-08T08:01:41Z",
+"id": "2d263d52e9accc65070d8d285ace3d66d640210a909f7fb5e6f7298b23bed9bf",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T03:04:28Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Egypt sacks winning football coach after wives’ scandal",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/aje-onl-nf_egypt-sacks-winning-football-coach-after-scandal-071126?traffic_source=rss",
+"weight": 1
+},
 "2dcf1348acd604a59e96ee0f0162a0a90ebbfffa3f2142c853abd1f84e301041": {
 "category": "world",
 "coverage_count": 1,
@@ -6618,10 +6681,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "2e9f238ecd2250b38061d454f8530ed678dcba2b49a6923e85f86c0a555189b2",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T02:06:07Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -6629,8 +6688,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Election deniers lose races for governor in key US swing states",
-"url": "https://www.aljazeera.com/news/2026/11/5/election-deniers-lose-races-for-governor-in-key-us-swing-states?traffic_source=rss",
 "weight": 1
 },
 "2eb149599dd8983139637d6039e299ac7d31235f2903a9634b2962af96b66421": {
@@ -6892,10 +6949,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "315e24c01391fb6a42d50acb4c43997bb8ceca50affe5a72889edb8968b23ce5",
 "last_seen": "2026-11-05",
-"published": "2026-11-04T18:01:27Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -6903,8 +6956,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "What Democrats can and can't do with their new power after taking Congress",
-"url": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo",
 "weight": 1
 },
 "3164101ebad3eede044a2bcf17a1811d5eabafd8d0bfe66040bd60ff7589311f": {
@@ -7750,19 +7801,28 @@
 },
 "372d71761863574bbbdf408b2bdb65bba8b4a6ceaf2deef2471be1832fe1fb74": {
 "category": "security",
-"coverage_count": 1,
+"coverage_count": 2,
 "first_seen": "2026-11-07T14:07:48Z",
 "id": "372d71761863574bbbdf408b2bdb65bba8b4a6ceaf2deef2471be1832fe1fb74",
 "last_seen": "2026-11-08",
 "published": "2026-11-07T06:44:17Z",
-"route": "drop",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
 "source": "The Hacker News",
 "source_type": "rss",
 "sources": [
+"Hacker News",
 "The Hacker News"
 ],
+"tags": [
+"hn"
+],
 "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
-"url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html"
+"url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+"weight": 3
 },
 "3771ec2bcda7ab3b3c3a6c923f6bcadd1042a6e725fbc20ec1327beaea585dc1": {
 "category": "security",
@@ -7907,11 +7967,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "38708239e223607eb6137f164d39789713ccba231a369aadd6cffbfea5d4b978",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T02:43:04Z",
-"reasons": [
-"topic: Africa",
-"source weight +1"
-],
 "route": "digest",
 "score": 3,
 "source": "Al Jazeera",
@@ -7919,11 +7974,9 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Vote counting underway in critical South Africa elections",
 "topic_hits": [
 "Africa"
 ],
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/vote-counting-underway-in-critical-south-africa-elections?traffic_source=rss",
 "weight": 1
 },
 "38845b3b274fd5cd889c2158be3473b428e8d0df9fc22b6030106cfbc72270a3": {
@@ -8407,10 +8460,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "3ea6ee77a2cbb1444c0245f7150bef23dd3d093e321a407e0e8f69a8a4341910",
 "last_seen": "2026-11-05",
-"published": "2026-11-04T23:50:40Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -8418,8 +8467,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Mother and daughter die after suspected grizzly bear attack in Canada",
-"url": "https://www.bbc.co.uk/news/articles/cqvgry8k5d01o",
 "weight": 1
 },
 "3ed2cb012fd1551ecd67221c239ebeefda86e5cc8d7fb616a9cd82eb76c05ed8": {
@@ -9307,10 +9354,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "45a2936b0702d1ce0b2122fc4d340a3da7777b36912a97fc970203ff04c24457",
 "last_seen": "2026-11-08",
-"published": "2026-11-05T04:31:16Z",
-"reasons": [
-"matches Linux kernel (Tier 2)"
-],
 "route": "drop",
 "score": 2,
 "source": "The Hacker News",
@@ -9318,8 +9361,6 @@
 "sources": [
 "The Hacker News"
 ],
-"title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-"url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
 "vendor_matches": [
 {
 "points": 2,
@@ -10774,6 +10815,39 @@
 "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role?traffic_source=rss",
 "weight": 1
 },
+"553977a4a836b7b722372dcf6358b8700343f0eb11bebe95b8e6e46e7d807761": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-08T08:01:41Z",
+"id": "553977a4a836b7b722372dcf6358b8700343f0eb11bebe95b8e6e46e7d807761",
+"last_seen": "2026-11-08",
+"published": "2026-11-07T11:11:15Z",
+"reasons": [
+"matches Microsoft Windows (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Every Windows 11 app should kill Electron, and Discord just showed why",
+"url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
+],
+"weight": 3
+},
 "55402c7f3ca106445c30a480d3a6cb0dfa7bf44bbfaf7a0e648e903459b58479": {
 "category": "world",
 "coverage_count": 1,
@@ -11111,6 +11185,27 @@
 ],
 "weight": 1
 },
+"57ddfd96d18116ccd09af1c1281cb5b238093c57ac9b7346ad2bacb39095baac": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-08T08:01:41Z",
+"id": "57ddfd96d18116ccd09af1c1281cb5b238093c57ac9b7346ad2bacb39095baac",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T06:39:33Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "There is reason to hope that the Democrats might deliver this time",
+"url": "https://www.aljazeera.com/opinions/2026/11/8/there-is-reason-to-hope-that-the-democrats-might-deliver-this-time?traffic_source=rss",
+"weight": 1
+},
 "57e9c12d09e44f9d8f878d7371570d98734413d5daf3412cd28431ac3d5f12ba": {
 "category": "world",
 "coverage_count": 1,
@@ -11267,10 +11362,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "5957c931c078971c0f1128281966fc24688a185498df7d2c614b846580a2db84",
 "last_seen": "2026-11-05",
-"published": "2026-11-04T23:43:26Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -11278,8 +11369,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Ethiopia expels 6 Sudan diplomats, orders closure of consulate, reports say",
-"url": "https://www.aljazeera.com/news/2026/11/4/sudan-ethiopia-order-tit-for-tat-diplomatic-expulsions?traffic_source=rss",
 "weight": 1
 },
 "596e75d941f1a98bb29a05fe0214f3c058b4f7983c4ecb18fcd7395c3336070c": {
@@ -12286,10 +12375,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "626c294da8c74d2fbab2b9f85190fa26c5d136901cc9d11103519c94a88fb157",
 "last_seen": "2026-11-05",
-"published": "2026-11-04T23:12:47Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -12297,8 +12382,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Typhoons batter East Asia as El Niño makes Pacific 'burn with fever'",
-"url": "https://www.bbc.co.uk/news/articles/cw33kgj7nkemo",
 "weight": 1
 },
 "628af0d05d5fecf64ff30e83a0483ab172cc09a202fe87540ceb7a22916cb1c8": {
@@ -12322,11 +12405,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "62a1a0d2e85d875f27eb86d34039e9de774863a554c66b6746fc2a821dd904d8",
 "last_seen": "2026-11-08",
-"published": "2026-11-05T04:16:16Z",
-"reasons": [
-"topic: Rwanda",
-"source weight +1"
-],
 "route": "digest",
 "score": 3,
 "source": "allAfrica Rwanda",
@@ -12334,12 +12412,10 @@
 "sources": [
 "allAfrica Rwanda"
 ],
-"title": "Kigali to Host Cultures From 11 Countries At Diplomatic Bazaar",
 "topic_hits": [
 "Rwanda",
 "Kigali"
 ],
-"url": "https://allafrica.com/stories/202611050024.html",
 "weight": 1
 },
 "62aad86ae4935fd5efd7eefe28879d9c2720a6f215c6a04f1c3e4c5fc6f64c86": {
@@ -12646,6 +12722,27 @@
 "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/pope-leo-xiv-arrives-for-south-american-tour-after-cancer-surgery?traffic_source=rss",
 "weight": 1
 },
+"64b109f6ab9c000781732cba0d47d91b25df57c94ca432aa2bfbfee207064628": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-08T08:01:41Z",
+"id": "64b109f6ab9c000781732cba0d47d91b25df57c94ca432aa2bfbfee207064628",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T06:55:24Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Photos: Heavy rains leave tens of thousands without shelter in Gaza",
+"url": "https://www.aljazeera.com/gallery/2026/11/8/photos-heavy-rains-leave-tens-of-thousands-without-shelter-in-gaza?traffic_source=rss",
+"weight": 1
+},
 "64bdfdf937528f6a7f1e1f826ecb9ac59a5a7ac59bbf5753315a2d496f3adee3": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -12678,10 +12775,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "64f953fb184a8b274d8f9e99ddbe8233d92baa8189f9f568e96a2eea6c7a4c86",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T02:10:07Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -12689,8 +12782,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "El Salvador’s Bukele touts military intervention in Haiti",
-"url": "https://www.aljazeera.com/news/2026/11/5/el-salvadors-bukele-touts-military-intervention-in-haiti?traffic_source=rss",
 "weight": 1
 },
 "650f637259207ad5d15b98bbd129f6187aa0caf466fab29acf5519362809d662": {
@@ -13343,7 +13434,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-03T18:38:33Z",
 "id": "6a9813a9ea22eb5ada8cfdc6c878af8037473ff525eddb14387a1965aafe223d",
-"last_seen": "2026-11-07",
+"last_seen": "2026-11-08",
 "route": "drop",
 "score": 1,
 "source": "allAfrica Rwanda",
@@ -13568,11 +13659,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "6d138a4a9da2fb6f3f1f511785c768ece4f8059aaa5cafc185c7292a18671394",
 "last_seen": "2026-11-08",
-"published": "2026-11-05T03:59:18Z",
-"reasons": [
-"topic: Rwanda",
-"source weight +1"
-],
 "route": "digest",
 "score": 3,
 "source": "allAfrica Rwanda",
@@ -13580,11 +13666,9 @@
 "sources": [
 "allAfrica Rwanda"
 ],
-"title": "Govt to Roll Out Six-Month HIV Prevention Injection On December 1",
 "topic_hits": [
 "Rwanda"
 ],
-"url": "https://allafrica.com/stories/202611050017.html",
 "weight": 1
 },
 "6d153d9495532c322fb11ccaf6cda27ff41b81f8a96542fd95db767bc851184b": {
@@ -14382,10 +14466,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "732ccc3dd8f078b976a729727c32b61292e3aa904caa032bed3aaa6f6836a7a6",
 "last_seen": "2026-11-05",
-"published": "2026-11-04T23:50:34Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -14393,8 +14473,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Who gets to vote in the US?",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/who-gets-to-vote-in-the-us?traffic_source=rss",
 "weight": 1
 },
 "7343143c265f0986d4dbfe874da04c1d5850026d28fb13548de3de604296aa43": {
@@ -14521,10 +14599,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "73f222b4f86400b52a25243e1cc8e49aea9974c8e5b75f6c9c8bd9a08c8b696c",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T02:09:23Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -14532,8 +14606,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Pope Leo hosts Bob Dylan at official residence in Rome",
-"url": "https://www.bbc.co.uk/news/articles/cm0e035n13ylo",
 "weight": 1
 },
 "73f990b5c1aee042fab717922909e3f13cf8f0455d1ca70001f255deb3b0def5": {
@@ -14967,10 +15039,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "7715533866dc8ed7bf9b87169a9dd9592d5845ddb9cf408b9d8b08d3589f0224",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T00:24:20Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -14978,8 +15046,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Historic firsts redraw US political map in 2026 midterm elections",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/historic-firsts-redraw-us-political-map-in-2026-midterm-elections?traffic_source=rss",
 "weight": 1
 },
 "772abf40075e98196cbfba8ce41f9a132a0026ea2fff2a9ff71bc06007366801": {
@@ -15127,10 +15193,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "77fccc28dfd1c2e4a863e2d4ab6289f9d1d6493a8d9d0198c44b8b3494804380",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T00:36:25Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -15138,8 +15200,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Ohio’s voters tell Republicans: don’t take us for granted",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/ohios-voters-tell-republicans-dont-take-us-for-granted?traffic_source=rss",
 "weight": 1
 },
 "7800320577049fc386b1ba6a44f145d178239e682f49eceea42da29d05ed927c": {
@@ -15195,11 +15255,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "78434ab907c4004b7de6e45c3805f8ebc7b9d58a2c588437a5abc6ff2b3dabf8",
 "last_seen": "2026-11-08",
-"published": "2026-11-05T03:59:18Z",
-"reasons": [
-"topic: Rwanda",
-"source weight +1"
-],
 "route": "digest",
 "score": 3,
 "source": "allAfrica Rwanda",
@@ -15207,11 +15262,9 @@
 "sources": [
 "allAfrica Rwanda"
 ],
-"title": "What's At Stake for Rwanda As COP31 Approaches?",
 "topic_hits": [
 "Rwanda"
 ],
-"url": "https://allafrica.com/stories/202611050016.html",
 "weight": 1
 },
 "78435596f0277937b1629121d41735a06cef69c5069bd8b22c2a104f40af41ff": {
@@ -15512,10 +15565,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "7bcc403a526b88bbe091e7303dc646ad8513b94589a2ad1ffe385b08a345d01f",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T03:48:19Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -15523,8 +15572,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "World record 53 red cards shown in Brazil football match",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/world-record-53-red-cards-shown-in-brazil-football-match?traffic_source=rss",
 "weight": 1
 },
 "7bf4279f729a75533cffabbf21d168f2a15c96e57d323c69142bfd08d417be17": {
@@ -15705,10 +15752,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "7e35bc7d80872b960294109e3c5553ff47ed592ca88a412e0934bdf41fcf6570",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T04:30:18Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -15716,8 +15759,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Mamdani: ‘it’s morning again in America’ after blue wave",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/mamdani-its-morning-again-in-america-after-blue-wave?traffic_source=rss",
 "weight": 1
 },
 "7e482cb8634af513ca90b45411fd8850bf69ffe764a2d73d0f888f0f3f2cfd8b": {
@@ -15779,6 +15820,27 @@
 ],
 "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
 "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/"
+},
+"7e9f82a67341b8b1c984aa25ca54f02829399723ba288760c1234a8d0156da64": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-08T08:01:41Z",
+"id": "7e9f82a67341b8b1c984aa25ca54f02829399723ba288760c1234a8d0156da64",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T07:40:07Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh, Eastern province",
+"url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province?traffic_source=rss",
+"weight": 1
 },
 "7f0d37f71b4d41e727afd6557ddf675eb85915a93ae8b9ba9ed101a539db9152": {
 "category": "security",
@@ -16569,6 +16631,27 @@
 "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/houston-mayor-orders-police-to-limit-cooperation-with-ice?traffic_source=rss",
 "weight": 1
 },
+"87334a3860c14ca595c7dd3f01e8da0d65463d0f7f915f901bc779bd31df5db4": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-08T08:01:41Z",
+"id": "87334a3860c14ca595c7dd3f01e8da0d65463d0f7f915f901bc779bd31df5db4",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T04:59:02Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Plane clips truck during emergency landing on busy Florida road",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/aje-onl-nf_plane-clips-truck-during-emergency-landing-florida-071126?traffic_source=rss",
+"weight": 1
+},
 "87840dcd1c50db5265e1defaa38e7c4aaf7ef8e17ad6b81ef4fe4ae4162443c6": {
 "category": "world",
 "coverage_count": 1,
@@ -17186,10 +17269,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "8cb3ae1f2c6bb0fdcfa3f66da7a39d9f1aa6322a8dc222eb82b06503019b0357",
 "last_seen": "2026-11-05",
-"published": "2026-11-04T22:34:08Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -17197,8 +17276,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "'Hopefully things get done': Americans react to historic political shift",
-"url": "https://www.bbc.co.uk/news/videos/cwj0l61e2927o",
 "weight": 1
 },
 "8cc498098a60edaf253e89401886ca19423770da56457a25572ab870acb92464": {
@@ -18147,10 +18224,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "964ea7cde325510c6763be4d6427f8b1215f13804b31bbb06591d5aeb3e0334a",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T04:12:11Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -18158,8 +18231,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Brazilian airport torn apart by violent storm",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/brazilian-airport-torn-apart-by-violent-storm?traffic_source=rss",
 "weight": 1
 },
 "96778a20f5a7825e7d38c1c6939c606b9c46d21bcac755aa4dda219411bbc4c4": {
@@ -18253,10 +18324,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "9782ac9f0cf4eee955abf53a756b856150c7bad5a441cb1cf651e0470d5c695e",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T05:39:31Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -18264,8 +18331,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Israel’s opposition slams ‘toxic Netanyahu’ after Democrats win US Congress",
-"url": "https://www.aljazeera.com/news/2026/11/5/israels-opposition-slams-toxic-netanyahu-after-democrats-win-us-congress?traffic_source=rss",
 "weight": 1
 },
 "9789039a5bee3aaa69ce575b476efff0f29a4a8f6b747ca85f97ca4138d427bc": {
@@ -32565,11 +32630,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "CVE-2026-123010",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T05:18:36Z",
-"reasons": [
-"CVSS 7.2",
-"matches Okta (Tier 3)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -32577,8 +32637,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-123010: @twilio-labs/netlify-okta-auth through 1.0.2 relies on an unverified iss claim",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123010",
 "vendor_matches": [
 {
 "points": 2,
@@ -33569,6 +33627,39 @@
 "term": "JetBrains",
 "tier": 3,
 "vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-123525": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123525"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-08T08:01:41Z",
+"id": "CVE-2026-123525",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T02:16:42Z",
+"reasons": [
+"CVSS 7.1",
+"matches Microsoft (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-123525: Vikunja before 2.7.1 allocates memory without limits in its Trello, Todoist and Microsoft To Do migration importers, which buffer remote…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123525",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
 }
 ]
 },
@@ -51906,15 +51997,12 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "aa63c27852580ba74e77c18b2656ce35896c8ec52c8144833378826223af852b",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T05:00:00Z",
 "route": "drop",
 "source": "The Verge",
 "source_type": "rss",
 "sources": [
 "The Verge"
-],
-"title": "Nintendo’s designers strove for ‘elegance’ when remaking Ocarina of Time",
-"url": "https://www.theverge.com/games/1026380/zelda-ocarina-of-time-interview-eiji-aonuma-hidemaro-fujibayashi"
+]
 },
 "aa844e8d55f0e78f730c54decaf6cc7e7e1969d00983b4f0022ecc8aeab357a3": {
 "category": "security",
@@ -52017,6 +52105,27 @@
 "sources": [
 "BBC World"
 ],
+"weight": 1
+},
+"ac3cbeffb29dffc9ca7abcc25a3317e141be8388f6c165e0d3c7534bcb223872": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-08T08:01:41Z",
+"id": "ac3cbeffb29dffc9ca7abcc25a3317e141be8388f6c165e0d3c7534bcb223872",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T06:52:14Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Is unconditional support for Israel becoming a liability for Republicans?",
+"url": "https://www.aljazeera.com/opinions/2026/11/8/is-unconditional-support-for-israel-becoming-a-liability-for-republicans?traffic_source=rss",
 "weight": 1
 },
 "ac566a0d38206e7914bdce10f9d5bb66977a8f7de5927921be8cc90a14c4e942": {
@@ -52456,15 +52565,12 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "af131114a46c2e5643520cdcafc4dc01727f39086eee3dfe9f3a470c25370cee",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T00:25:12Z",
 "route": "drop",
 "source": "The Verge",
 "source_type": "rss",
 "sources": [
 "The Verge"
-],
-"title": "X says its updated web app is way faster",
-"url": "https://www.theverge.com/tech/1027113/x-says-its-updated-web-app-is-way-faster"
+]
 },
 "af8084d5302e1615ee302364cf1e3d0988a8f9c798c4c87b2eb69590c86c362d": {
 "category": "world",
@@ -53178,11 +53284,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "b7541c9d489a3c3dfc0b33c2dda37316667396690e1634264075b847620200a5",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T00:39:18Z",
-"reasons": [
-"topic: Africa",
-"source weight +1"
-],
 "route": "digest",
 "score": 3,
 "source": "Al Jazeera",
@@ -53190,11 +53291,9 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Africa’s richest man launches mega oil tank farm in Namibia",
 "topic_hits": [
 "Africa"
 ],
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/africas-richest-man-launches-mega-oil-tank-farm-in-namibia?traffic_source=rss",
 "weight": 1
 },
 "b75e2739276b55704558ba62770993339d6c9f7006e52d0beaf5a1d8440ec309": {
@@ -53417,11 +53516,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "b9376d0f81be1ba4da6d1ab665a7ded4211f93e393b9b570c6c5126626e1c2f7",
 "last_seen": "2026-11-08",
-"published": "2026-11-05T04:16:16Z",
-"reasons": [
-"topic: Africa",
-"source weight +1"
-],
 "route": "digest",
 "score": 3,
 "source": "allAfrica Rwanda",
@@ -53429,11 +53523,9 @@
 "sources": [
 "allAfrica Rwanda"
 ],
-"title": "COMESA, Russia Sign Agreement to Expand Trade, Investment Cooperation",
 "topic_hits": [
 "Africa"
 ],
-"url": "https://allafrica.com/stories/202611050023.html",
 "weight": 1
 },
 "b980ef133752bed6215df5b9b49d09a6c69151b5d93d383146ee70aa909b696b": {
@@ -53570,10 +53662,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "babd7b006422566274fc2d54fc333c0255eff3f5500dba85b14ff64e4022ba90",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T03:56:16Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -53581,8 +53669,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
-"url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo",
 "weight": 1
 },
 "bac5a9f27153a0abe696f0043a91451ba6e5c9a3f0cc0294f399ac6fc99b1441": {
@@ -54615,10 +54701,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "c3631edc3b0b03c5d5456ec6dfbc45be802927131eea59e077e0d83ffd2d05bf",
 "last_seen": "2026-11-08",
-"published": "2026-11-05T03:59:19Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "allAfrica Rwanda",
@@ -54626,8 +54708,6 @@
 "sources": [
 "allAfrica Rwanda"
 ],
-"title": "Extreme Weather Threatens Future of Mobile Connectivity, Report Warns",
-"url": "https://allafrica.com/stories/202611050018.html",
 "weight": 1
 },
 "c365d01da7e9eff8d8035b5a4419a7b665c1f72fececf9e8d2a0c384bb2ed5ff": {
@@ -55445,6 +55525,27 @@
 ],
 "weight": 1
 },
+"c9a526a5d58e952c327322b710dc0814b510968cf80eeff86c2b1591e2111db0": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-08T08:01:41Z",
+"id": "c9a526a5d58e952c327322b710dc0814b510968cf80eeff86c2b1591e2111db0",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T05:09:39Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Haitians cheer El Salvador’s Bukele amid gang war",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/haitians-cheer-el-salvadors-bukele-amid-gang-war?traffic_source=rss",
+"weight": 1
+},
 "c9ceb070ceae9815201bdc7a929fba259f3510fc6d1191d58143742ac9f99a0d": {
 "category": "world",
 "coverage_count": 1,
@@ -55681,10 +55782,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "cb75220a0425ea307a38dddc742c527f5db1d7383e0310a74c099cfffdc5e13e",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T04:04:57Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -55692,8 +55789,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Hong Kong activist Joshua Wong sentenced to ten years in jail",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hong-kong-activist-joshua-wong-sentenced-to-ten-years-in-jail?traffic_source=rss",
 "weight": 1
 },
 "cb80d4fcfcdc66aa1e8f7803c022dfb007a32046f7946e3469e8ba33eb47265d": {
@@ -55787,10 +55882,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "ccedfa95574d07a2733c0d2106cf87398057c9a31558cd2ced63eb0cf978ab78",
 "last_seen": "2026-11-06",
-"published": "2026-11-05T03:47:56Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -55798,8 +55889,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
-"url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o",
 "weight": 1
 },
 "ccf26cff4af84feb6a3270bae83ac0d1fa784da515a1adcd33fd76070c204915": {
@@ -56274,10 +56363,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "d19574e2d5493f41602b7b2b653d0e4ab46bf2be2e92ffbc4893a2bab21ae9d1",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T00:25:43Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -56285,8 +56370,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Democrats won Congress. But can they deliver on their promises?",
-"url": "https://www.aljazeera.com/news/2026/11/5/democrats-won-congress-but-can-they-deliver-on-their-promises?traffic_source=rss",
 "weight": 1
 },
 "d1bda190454ecffc71c4c36fae84d5b43d04a8c6b43941e7ee18d2947b22cd1b": {
@@ -56506,13 +56589,13 @@
 ],
 "weight": 1
 },
-"d444b48482a05f5a11cc802f8d5d0b169b5480609a0c8a87c0383b4b16d256db": {
+"d42b41777dfd1a88205d5c676c7bf8915a1f7629f23d68cde5b38e787a89fd46": {
 "category": "world",
 "coverage_count": 1,
-"first_seen": "2026-11-05T06:27:55Z",
-"id": "d444b48482a05f5a11cc802f8d5d0b169b5480609a0c8a87c0383b4b16d256db",
-"last_seen": "2026-11-05",
-"published": "2026-11-05T03:13:08Z",
+"first_seen": "2026-11-08T08:01:41Z",
+"id": "d42b41777dfd1a88205d5c676c7bf8915a1f7629f23d68cde5b38e787a89fd46",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T02:34:04Z",
 "reasons": [
 "source weight +1"
 ],
@@ -56523,8 +56606,23 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "What’s delaying the US Senate election results in Mississippi and Alaska?",
-"url": "https://www.aljazeera.com/news/2026/11/5/whats-delaying-us-midterm-election-calls-in-mississippi-and-alaska?traffic_source=rss",
+"title": "US launches task force to disrupt Iran’s land-based supply routes",
+"url": "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes?traffic_source=rss",
+"weight": 1
+},
+"d444b48482a05f5a11cc802f8d5d0b169b5480609a0c8a87c0383b4b16d256db": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-05T06:27:55Z",
+"id": "d444b48482a05f5a11cc802f8d5d0b169b5480609a0c8a87c0383b4b16d256db",
+"last_seen": "2026-11-05",
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
 "weight": 1
 },
 "d45cfd7805353b5ff386ba8d921e911bf09ea1eaa61f63e0d6d8fdcce7fc73ff": {
@@ -56819,6 +56917,27 @@
 ],
 "title": "Palantir harvests battlefield data that Ukraine pays for ‘with blood’",
 "url": "https://www.aljazeera.com/news/2026/11/5/palantir-mines-battlefield-intelligence-but-is-ukraine-paying-with-blood?traffic_source=rss",
+"weight": 1
+},
+"d6b9b5cfe19a6dec86dbb1ec379240c159c14b050464aeb4b08ef3df4072577a": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-08T08:01:41Z",
+"id": "d6b9b5cfe19a6dec86dbb1ec379240c159c14b050464aeb4b08ef3df4072577a",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T03:12:44Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Trump asks UFC chief Dana White to be White House press secretary",
+"url": "https://www.aljazeera.com/news/2026/11/8/trump-asks-ufc-chief-dana-white-to-be-white-house-press-secretary?traffic_source=rss",
 "weight": 1
 },
 "d6c30f23f5df51c5501c37f2b25e4b781888a7761b619524fa1a4e1b2e7101cf": {
@@ -58314,18 +58433,12 @@
 "muted_hits": [
 "deal"
 ],
-"published": "2026-11-05T03:46:13Z",
-"reasons": [
-"muted: deal"
-],
 "route": "drop",
 "source": "Al Jazeera",
 "source_type": "rss",
 "sources": [
 "Al Jazeera"
 ],
-"title": "Syria, Saudi Arabia sign defence cooperation deal, agree $403m in loans",
-"url": "https://www.aljazeera.com/news/2026/11/5/syria-saudi-arabia-sign-defence-cooperation-deal-agree-403m-in-loans?traffic_source=rss",
 "weight": 1
 },
 "e3e6bbed60100380ea4052da387fff46ecb4f577afa3867ba5eb624896d8bb89": {
@@ -58385,10 +58498,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "e41a715dfcc47dab7c725a8fed4fefb362d2ccc069343ac96ad2e0c31f2ecc86",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T01:53:30Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -58396,8 +58505,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Israel’s Herzog accepts vote results, opens talks on forming a government",
-"url": "https://www.aljazeera.com/news/2026/11/5/israels-herzog-accepts-vote-results-opens-talks-on-forming-a-government?traffic_source=rss",
 "weight": 1
 },
 "e44a5b7954d7cc97e16cb76952292719ab3037ac3af6bc2cc400a7a4440e3c47": {
@@ -58686,15 +58793,12 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "e6bae569d6c91460236123643c00a3381ff68b363bacdf828981605710056251",
 "last_seen": "2026-11-08",
-"published": "2026-11-05T04:36:17Z",
 "route": "drop",
 "source": "Krebs on Security",
 "source_type": "rss",
 "sources": [
 "Krebs on Security"
-],
-"title": "Want to Rent an Internet Address at the White House?",
-"url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/"
+]
 },
 "e6cb34beda15906a292150f163c4535a79fa84b1553048075b62b7d82497d591": {
 "category": "tech",
@@ -61544,10 +61648,6 @@
 "first_seen": "2026-11-05T06:27:55Z",
 "id": "fedd9bfffa61457289ee3e132ee5cd86755f4633bf9704846a486ebbdc98b043",
 "last_seen": "2026-11-05",
-"published": "2026-11-05T02:52:30Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -61555,8 +61655,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Former Israeli generals help Palestinian olive farmers",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/former-israeli-generals-help-palestinian-olive-farmers?traffic_source=rss",
 "weight": 1
 },
 "ff20ee9792096d5efa5e1701d3dc4276c9be49ca4c41197e0120359d086a8770": {
