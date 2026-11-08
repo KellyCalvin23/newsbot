@@ -312,5 +312,112 @@
 ],
 "title": "CVE-2024-1775: nextendweb nextend_social_login Improper Neutralization of Input During Web Page Generation",
 "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-1775"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-103407"
+],
+"cvss": 8.8,
+"epss": 0.00229,
+"first_seen": "2026-11-08T23:04:14Z",
+"id": "CVE-2026-103407",
+"last_seen": "2026-11-08",
+"published": "2026-10-28T17:17:26Z",
+"reasons": [
+"CVSS 8.8",
+"matches Juniper (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An Improper Limitation of a Pathname to a Restricted Directory vulnerability in ConfigDirector in Juniper Networks Session Smart Router and Session Smart Conductor allows an authenticated REST user to read, overwrite, or delete arbitrary certificate and key files on the host filesystem via the…",
+"title": "CVE-2026-103407: An Improper Limitation of a Pathname to a Restricted Directory vulnerability in ConfigDirector in Juniper Networks Session Smart Router and…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103407",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Juniper",
+"tier": 1,
+"vendor": "Juniper"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-08T23:04:14Z",
+"id": "2bf9e4535bf6936dc7cd649779639d71dbfd355855a56d11ef171859e0cf654d",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T18:16:07Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+"url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-08T23:04:14Z",
+"id": "adf6da45b05d490cf97e154bcd817e1700bcd0f5d7e068308e37f72a5cdf5275",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T10:22:04Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+"url": "https://github.com/synchopate/llama-modchip",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-08T23:04:14Z",
+"id": "0dca070c524ba5908bc99940544fb32246d571655272ff630e6f72c7a7675946",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T20:26:43Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+"url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+"weight": 3
 }
 ]
