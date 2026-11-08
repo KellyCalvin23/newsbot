@@ -122,5 +122,195 @@
 ],
 "url": "https://www.aljazeera.com/news/2026/11/8/south-africas-anc-suffers-setback-in-local-elections?traffic_source=rss",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-97677"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-08T19:29:07Z",
+"id": "CVE-2026-97677",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T19:17:54Z",
+"reasons": [
+"CVSS 8.1",
+"matches Langflow (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "IBM Langflow OSS 1.0.0 through 1.12.2 An authenticated flow author could write attacker-controlled file content into any directory writable by the service account, bypassing the platform's local file access isolation safeguard. Via a crafted on-disk index, the attacker could also read the contents…",
+"title": "CVE-2026-97677: IBM Langflow OSS 1.0.0 through 1.12.2 An authenticated flow author could write attacker-controlled file content into any directory writable…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97677",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Langflow",
+"tier": 3,
+"vendor": "Langflow"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-44006"
+],
+"cvss": 8.8,
+"epss": 0.00309,
+"first_seen": "2026-11-08T19:29:07Z",
+"id": "CVE-2024-44006",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "OnTheGoSystems woocommerce_multilingual_\\&_multicurrency. Missing Authorization vulnerability in OnTheGoSystems WooCommerce Multilingual & Multicurrency woocommerce-multilingual.This issue affects WooCommerce Multilingual & Multicurrency: from n/a through 5.3.6.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-44006: OnTheGoSystems woocommerce_multilingual_\\&_multicurrency Missing Authorization",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44006"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-116751"
+],
+"cvss": 7.5,
+"epss": 0.00421,
+"first_seen": "2026-11-08T19:29:07Z",
+"id": "CVE-2026-116751",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.5",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Amelia Booking for Appointments and Events Calendar – Amelia Pro. The Booking for Appointments and Events Calendar – Amelia Pro plugin for WordPress is vulnerable to time-based SQL Injection via the 'tag[] (array KEYS)' parameter in all versions up to, and including, 9.9.1 due to insufficient…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-116751: tms-outsource amelia Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116751"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-114432"
+],
+"cvss": 9.8,
+"epss": 0.00215,
+"first_seen": "2026-11-08T19:29:07Z",
+"id": "CVE-2026-114432",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-08",
+"published": "2026-11-08T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "rocklobster Contact Form 7. The Contact Form 7 WordPress plugin before 6.2.4 does not validate the type or extension of files uploaded through a form file field, and a flaw in its temporary-file cleanup leaves the uploaded file on disk, allowing unauthenticated users to upload arbitrary files to…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-114432: rocklobster contact_form_7 Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114432"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-68040"
+],
+"cvss": 6.5,
+"epss": 0.0026,
+"first_seen": "2026-11-08T19:29:07Z",
+"id": "CVE-2025-68040",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "weDevs WP Project Manager. Insertion of Sensitive Information Into Sent Data vulnerability in weDevs WP Project Manager wedevs-project-manager allows Retrieve Embedded Sensitive Data.This issue affects WP Project Manager: from n/a through 3.0.1.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-68040: weDevs wp_project_manager Insertion of Sensitive Information Into Sent Data",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68040"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-1775"
+],
+"epss": 0.0037,
+"first_seen": "2026-11-08T19:29:07Z",
+"id": "CVE-2024-1775",
+"last_seen": "2026-11-08",
+"published": "2026-11-08T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "nextendweb nextend_social_login. The Nextend Social Login and Register plugin for WordPress is vulnerable to a self-based Reflected Cross-Site Scripting via the ‘error_description’ parameter in all versions up to, and including, 3.1.12 due to insufficient input sanitization and output escaping…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-1775: nextendweb nextend_social_login Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-1775"
 }
 ]
