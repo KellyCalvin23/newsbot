@@ -1,1 +1,1343 @@
-[]
+[
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121032"
+],
+"cvss": 7.4,
+"epss": 0.00221,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-121032",
+"last_seen": "2026-11-09",
+"published": "2026-11-03T21:17:06Z",
+"reasons": [
+"CVSS 7.4",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Out of bounds read in Skia in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121032: Out of bounds read in Skia in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to read memory outside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121032",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121062"
+],
+"cvss": 7.4,
+"epss": 0.00189,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-121062",
+"last_seen": "2026-11-09",
+"published": "2026-11-03T21:17:10Z",
+"reasons": [
+"CVSS 7.4",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization in API in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to bypass system access restrictions via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121062: Incorrect authorization in API in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121062",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121063"
+],
+"cvss": 8.1,
+"epss": 0.00225,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-121063",
+"last_seen": "2026-11-09",
+"published": "2026-11-03T21:17:10Z",
+"reasons": [
+"CVSS 8.1",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization in CacheStorage in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to bypass site isolation via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121063: Incorrect authorization in CacheStorage in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121063",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121095"
+],
+"cvss": 7.4,
+"epss": 0.00202,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-121095",
+"last_seen": "2026-11-09",
+"published": "2026-11-03T21:17:15Z",
+"reasons": [
+"CVSS 7.4",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Uninitialized resource in WebGL in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121095: Uninitialized resource in WebGL in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to read memory outside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121095",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121143"
+],
+"cvss": 7.4,
+"epss": 0.00202,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-121143",
+"last_seen": "2026-11-09",
+"published": "2026-11-03T21:17:23Z",
+"reasons": [
+"CVSS 7.4",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Uninitialized resource in GPU in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121143: Uninitialized resource in GPU in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121143",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121160"
+],
+"cvss": 7.4,
+"epss": 0.00261,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-121160",
+"last_seen": "2026-11-09",
+"published": "2026-11-03T21:17:23Z",
+"reasons": [
+"CVSS 7.4",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Out of bounds read in Skia in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121160: Out of bounds read in Skia in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to read memory outside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121160",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121173"
+],
+"cvss": 7.4,
+"epss": 0.00202,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-121173",
+"last_seen": "2026-11-09",
+"published": "2026-11-03T21:17:25Z",
+"reasons": [
+"CVSS 7.4",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Uninitialized resource in WebGL in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121173: Uninitialized resource in WebGL in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to read memory outside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121173",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121196"
+],
+"cvss": 8.1,
+"epss": 0.00196,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-121196",
+"last_seen": "2026-11-09",
+"published": "2026-11-03T21:17:28Z",
+"reasons": [
+"CVSS 8.1",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Privilege elevation in Mobile in Google Chrome on on iOS prior to 157.0.8103.38 allowed a remote attacker to bypass system access restrictions into a privileged page via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121196: Privilege elevation in Mobile in Google Chrome on on iOS prior to 157.0.8103.38 allowed a remote attacker to bypass system access…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121196",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121197"
+],
+"cvss": 7.4,
+"epss": 0.00185,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-121197",
+"last_seen": "2026-11-09",
+"published": "2026-11-03T21:17:28Z",
+"reasons": [
+"CVSS 7.4",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Out of bounds read in ANGLE in Google Chrome on on Mac prior to 157.0.8103.38 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121197: Out of bounds read in ANGLE in Google Chrome on on Mac prior to 157.0.8103.38 allowed a remote attacker to read memory outside the sandbox…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121197",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121207"
+],
+"cvss": 7.4,
+"epss": 0.00202,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-121207",
+"last_seen": "2026-11-09",
+"published": "2026-11-03T21:17:29Z",
+"reasons": [
+"CVSS 7.4",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Uninitialized resource in Dawn in Google Chrome on on Mac prior to 157.0.8103.38 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121207: Uninitialized resource in Dawn in Google Chrome on on Mac prior to 157.0.8103.38 allowed a remote attacker to read memory outside the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121207",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121227"
+],
+"cvss": 7.4,
+"epss": 0.00202,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-121227",
+"last_seen": "2026-11-09",
+"published": "2026-11-03T21:17:32Z",
+"reasons": [
+"CVSS 7.4",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Uninitialized resource in Skia in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+"title": "CVE-2026-121227: Uninitialized resource in Skia in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121227",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111421"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-111421",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T10:17:03Z",
+"reasons": [
+"CVSS 8.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Apache Airflow's Task Execution API stored XCom values written by a task without the reserved-key check applied elsewhere, so a Dag author's task could write an XCom that, when a user later viewed it through the API with deserialization enabled, made the API server instantiate classes from the…",
+"title": "CVE-2026-111421: Apache Airflow's Task Execution API stored XCom values written by a task without the reserved-key check applied elsewhere, so a Dag…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111421",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123753"
+],
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-123753",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-09",
+"published": "2026-11-09T11:17:23Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Server-Side Request Forgery (SSRF) vulnerability in Apache Axis2/Java. An unauthenticated caller could supply a non-anonymous WS-Addressing wsa:ReplyTo or wsa:FaultTo address, and Axis2 would open a connection to that address to deliver the response or fault, allowing requests to internal hosts and…",
+"title": "CVE-2026-123753: Server-Side Request Forgery (SSRF) vulnerability in Apache Axis2/Java",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123753",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121576"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-121576",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T17:17:14Z",
+"reasons": [
+"CVSS 8.8",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect Privilege Assignment vulnerability in AtlasAiDev MCP Server for WordPress ai-workflow-automation-ai-agent-hub allows Privilege Escalation.This issue affects MCP Server for WordPress: from n/a through 2.0.1.",
+"title": "CVE-2026-121576: Incorrect Privilege Assignment vulnerability in AtlasAiDev MCP Server for WordPress ai-workflow-automation-ai-agent-hub allows Privilege…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121576",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121686"
+],
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-121686",
+"keyword_hits": [
+"remote code execution",
+"unauthenticated"
+],
+"last_seen": "2026-11-09",
+"published": "2026-11-09T17:17:16Z",
+"reasons": [
+"remote code execution",
+"matches AWS (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "FrodoBots EarthRover Mini+ firmware (version 6.2.4_6.2.5_0.614.0) is vulnerable to unauthenticated, remote code execution via MQTT. A firmware method accepts arbitrary shell commands delivered via Amazon Web Services Internet of Things Message Queuing Telemetry Transport (AWS IoT MQTT) messages and…",
+"title": "CVE-2026-121686: FrodoBots EarthRover Mini+ firmware (version 6.2.4_6.2.5_0.614.0) is vulnerable to unauthenticated, remote code execution via MQTT",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121686",
+"vendor_matches": [
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123369"
+],
+"cvss": 5.3,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-123369",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T18:17:25Z",
+"reasons": [
+"matches Azure (Tier 3)",
+"topic: Docker"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "compose-lint is a Docker Compose security linter that identifies dangerous misconfigurations before deployment. Prior to 0.31.0, compose-lint prints attacker-controlled service names, environment keys, file lines, and other Compose text without neutralizing GitHub Actions and Azure Pipelines…",
+"title": "CVE-2026-123369: compose-lint is a Docker Compose security linter that identifies dangerous misconfigurations before deployment",
+"topic_hits": [
+"Docker"
+],
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123369",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Azure",
+"tier": 3,
+"vendor": "Azure"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-62856"
+],
+"cvss": 7.7,
+"epss": 0.00256,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-62856",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.7",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "freescout freescout. FreeScout is a self-hosted help desk and shared mailbox application. Prior to version 1.8.226, the polycast/receive endpoint fails to escape SQL LIKE wildcards in supplied channel names, while channel authorization applies only to names with specific prefixes. An…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-62856: freescout freescout Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62856"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-18027"
+],
+"cvss": 6.5,
+"epss": 0.00867,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-18027",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "WebToffee woocommerce_pdf_invoices\\,_packing_slips\\,_delivery_notes_and_shipping_labels. The WebToffee WooCommerce PDF Invoices, Packing Slips, Delivery Notes & Shipping Labels plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 4.9.8 via the…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-18027: WebToffee woocommerce_pdf_invoices\\,_packing_slips\\,_delivery_notes_and_shipping_labels Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18027"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116606"
+],
+"epss": 0.01602,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-116606",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-09",
+"published": "2026-11-09T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Barracuda Networks Email Security Gateway (ESG). An authentication bypass in Barracuda Email Security Gateway versions earlier than 9.4.0.030 allows an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-116606: Authentication Bypass Using an Alternate Path or Channel",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111793"
+],
+"epss": 0.00274,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-111793",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Openwave Messaging (Ireland) Limited Webtop Media Transcoder. Openwave Webtop Media Transcoder does not enforce administrator-defined file type restrictions to restrict the file-types to be converted. This may allow an authenticated user to process and convert unintended document types if bypassing…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-111793: Incorrect Resource Transfer Between Spheres",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-6070"
+],
+"epss": 0.0064,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2025-6070",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "josxha Restrict File Access. The Restrict File Access plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 1.1.2 via the output() function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to read the contents of…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-6070: josxha restrict_file_access Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6070"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120531"
+],
+"epss": 0.00238,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-120531",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "subscribe2_project subscribe2. The Subscribe2 – Form, Email Subscribers & Newsletters plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘data[ip]’ parameter in all versions up to, and including, 10.47 due to insufficient input sanitization and output escaping. This makes it…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-120531: subscribe2_project subscribe2 Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120531"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-11746"
+],
+"epss": 0.00732,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2025-11746",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "8theme Xstore. The XStore theme for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 9.5.4 via theet_ajax_required_plugins_popup() function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to include and execute…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-11746: 8theme Xstore Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11746"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-15345"
+],
+"epss": 0.00204,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2025-15345",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "interactive_geo_maps_project interactive_geo_maps. The MapGeo – Interactive Geo Maps plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'map' parameter in the display-map shortcode in all versions up to, and including, 1.6.27 due to insufficient input sanitization and…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-15345: interactive_geo_maps_project interactive_geo_maps Improper Neutralization of Script-Related HTML Tags in a Web Page",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15345"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-76124"
+],
+"epss": 0.00437,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-76124",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "BuddyBoss BuddyBoss App. The BuddyBoss App plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 3.2.1 via the send_feedback function. This is due to insufficient file type validation that relies solely on the client-supplied Content-Type header without…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-76124: Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76124"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-14359"
+],
+"epss": 0.00484,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2025-14359",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "BrandExponents oshine. Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in brandexponents Oshine allows PHP Local File Inclusion. This issue affects Oshine: from n/a before 7.3.0.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-14359: BrandExponents oshine Improper Control of Filename for Include/Require Statement in PHP Program",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14359"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2023-51412"
+],
+"epss": 0.00537,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2023-51412",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Piotnet piotnet_forms. Unrestricted Upload of File with Dangerous Type vulnerability in Piotnet Piotnet Forms.This issue affects Piotnet Forms: from n/a through 1.0.25.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-51412: Piotnet piotnet_forms Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-51412"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-7649"
+],
+"epss": 0.00335,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-7649",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "reputeinfosystems ARMember. The ARMember – Membership Plugin, Content Restriction, Member Levels, User Profile & User signup plugin for WordPress is vulnerable to time-based blind SQL Injection via the 'orderby' parameter in all versions up to, and including, 4.0.60 due to insufficient escaping on…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-7649: reputeinfosystems armember Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7649"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2013-2165"
+],
+"epss": 0.12662,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2013-2165",
+"last_seen": "2026-11-09",
+"published": "2026-11-08T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Red Hat JBoss Application Server. ResourceBuilderImpl.java in the RichFaces 3.x through 5.x implementation in Red Hat JBoss Web Framework Kit before 2.3.0, Red Hat JBoss Web Platform through 5.2.0, Red Hat JBoss Enterprise Application Platform through 4.3.0 CP10 and 5.x through 5.2.0, Red Hat JBoss…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2013-2165: JBoss RichFaces Deserialization Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2013-2165"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-123751"
+],
+"cvss": 9.8,
+"epss": 0.00277,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-123751",
+"keyword_hits": [
+"unauthenticated",
+"remote code execution"
+],
+"last_seen": "2026-11-09",
+"published": "2026-11-07T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "revmakx WP Duplicate. The WP Duplicate WordPress plugin through 1.1.11 does not properly verify a request authentication value and does not validate the path or type of uploaded files, making it possible for unauthenticated attackers to write arbitrary files to the server and achieve remote code…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-123751: Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123751"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-115731"
+],
+"epss": 0.00366,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "CVE-2026-115731",
+"last_seen": "2026-11-09",
+"published": "2026-11-04T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Perforce Puppet Enterprise. Deserialization of untrusted data in the report-processing code of Puppet, as used by Puppet Server, in the affected releases, allows a client that holds any CA-signed agent certificate to execute arbitrary code on the Puppet Server as its service user by submitting a…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-115731: Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-76463",
+"CVE-2026-76464",
+"CVE-2026-76467",
+"CVE-2026-76468",
+"CVE-2026-76469",
+"CVE-2026-76470",
+"CVE-2026-76472"
+],
+"epss": 0.00267,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "8685c6f81552361b4481a92c0ea7bff9426ba2f3111ed0fa21fa4b1b992def29",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T17:55:54Z",
+"reasons": [
+"matches Cisco (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "Cisco PSIRT",
+"source_type": "rss",
+"sources": [
+"Cisco PSIRT"
+],
+"summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered vulnerabilities. These vulnerabilities were found…",
+"title": "Cisco Meraki Security Hardening Release: October 2026",
+"url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Cisco",
+"tier": 1,
+"vendor": "Cisco"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "cc8244bfc1903339d6378f708c8c81b42e3cbe84eb08b47e7f7e54e63a0448c0",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-09",
+"published": "2026-11-09T16:12:39Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
+"title": "Binance denies data breach after alleged ShinyHunters claims",
+"url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "918ac89e14ef9618fc2aa6892d723ffa708ef6abbdfe9d40a52b4fe52276bb8c",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-09",
+"published": "2026-11-09T13:28:25Z",
+"reasons": [
+"RCE",
+"topic: APT\\b"
+],
+"route": "digest",
+"score": 5,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack. Elsewhere, attackers are hiding inside…",
+"title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+"topic_hits": [
+"APT\\b"
+],
+"url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "dcd6cf9a0a08737e6cbdb33f16f1fdbdffb544b33db090c7a4beeca5cafe06e0",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-09",
+"published": "2026-11-09T14:08:08Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals. The post Revolve Puts Data Breach Victim Count at 1.5 Million appeared first on SecurityWeek .",
+"title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
+"url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "a166f2cd53ff0a256cda5202574384806c68ebde6a5836c31469df415f6cfc6c",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-09",
+"published": "2026-11-09T11:20:09Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Hackers stole personal, health, and insurance information, including Social Security numbers, from the company’s internal systems. The post Amplifon Americas Data Breach Impacts 1.3 Million appeared first on SecurityWeek .",
+"title": "Amplifon Americas Data Breach Impacts 1.3 Million",
+"url": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "b6959d90caafaca2d1f1f8c8555f9e4f27d2c7a8cb34322c8ebad0fb165fa502",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-09",
+"published": "2026-11-09T10:09:02Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students. The post Over 3 Million People Hit by Frontline Education Data Breach appeared first on SecurityWeek .",
+"title": "Over 3 Million People Hit by Frontline Education Data Breach",
+"url": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "3e0aca0e3319ce47a8bbf9c88a1e6c242d523db118a189e45250d12608f87a61",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T16:00:45Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+"url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 2,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "760b3e66fbfaa5aaf3ceb4e0aaab486523db65d18f9888989a4f1384681eec7d",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T18:56:29Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News",
+"The Verge"
+],
+"summary": "Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster than the 5.1 versions of…",
+"tags": [
+"hn"
+],
+"title": "Claude Fable 5.2 and Mythos 5.2",
+"url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "7ec5c78faf8733d7f06469b133e7fd2f0bf3562588a2cfa1b8699836d1cc5adb",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T12:19:22Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Fold Epic Paper Airplanes",
+"url": "https://www.foldableflight.com",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "98c98088c51ae737d8f6969a25a84549bad7c027131b3b593dc4a9d869bcd0d6",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T07:04:25Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+"url": "https://twitter.com/shanemelaugh/status/2119192075505893695",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "932e806f8f836b5d55f97ffeddece4581f4a30db4787555a2c99702a5813873a",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T17:06:18Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "Hundreds of people from different African countries have been recruited to fight for Russia, according to Ukraine.",
+"title": "Nine Zimbabweans caught allegedly trying to leave South Africa to fight in Ukraine",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.bbc.co.uk/news/articles/cm93z3lp5lnpo",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "1414b1039367dae343c9c594ea7426a6302aa9d4c89aae0954e920274bf23ab1",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T19:56:45Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "Africans and others continue to be recruited to fight for Russia in its war on Ukraine.",
+"title": "South Africa detains foreigners suspected of heading to join Russian forces",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/news/2026/11/9/south-africa-detains-foreigners-suspected-of-heading-to-join-russian-forces?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-09T20:49:32Z",
+"id": "91ee2f52a2f774ffc3116a0843230ae625826c61fede2eacbfe61841518b4dfd",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T10:44:43Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda head coach Stephen Constantine on Thursday, November 5, sent APR FC forward Fidali Uwiyaremye home from the national team camp ahead of the upcoming Africa Cup of Nations (AFCON) qualifying double-header against Mali over what was reportedly described as \"indiscipline.\"",
+"title": "Constantine Takes Hard Line On Discipline As Amavubi Chase Afcon Return",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611090232.html",
+"weight": 1
+}
+]
