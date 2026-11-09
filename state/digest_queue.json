@@ -419,5 +419,123 @@
 "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
 "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-124501"
+],
+"cvss": 7.3,
+"first_seen": "2026-11-09T02:35:10Z",
+"id": "CVE-2026-124501",
+"last_seen": "2026-11-09",
+"published": "2026-11-09T00:18:01Z",
+"reasons": [
+"CVSS 7.3",
+"matches AWS (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A weakness has been identified in Tidelift moto up to 5.2.4. Affected is an unknown function of the file moto/batch/models.py of the component AWS Batch Emulation. This manipulation of the argument privileged/volumes causes improper privilege management. Remote exploitation of the attack is…",
+"title": "CVE-2026-124501: A weakness has been identified in Tidelift moto up to 5.2.4",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124501",
+"vendor_matches": [
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-77932"
+],
+"cvss": 9.8,
+"epss": 0.00804,
+"first_seen": "2026-11-09T02:35:10Z",
+"id": "CVE-2026-77932",
+"keyword_hits": [
+"remote code execution",
+"unauthenticated"
+],
+"last_seen": "2026-11-09",
+"published": "2026-11-09T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"remote code execution",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "dbgpt db-gpt. DB-GPT through 0.8.2 contains an unauthenticated remote code execution vulnerability because the /api/v1/chat/react-agent endpoint relies on a mock get_user_from_headers function that grants every caller the admin role. Unauthenticated attackers can send prompts that make the ReAct…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-77932: dbgpt db-gpt Missing Authentication for Critical Functionality",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77932"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-09T02:35:10Z",
+"id": "327415c740d3ec856f821d7ff793b78bda506cd6b8f59312757f4c85ec6aa0f8",
+"last_seen": "2026-11-09",
+"published": "2026-11-04T17:05:07Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Declarative Dragging",
+"url": "https://declarative-dragging.github.io/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-09T02:35:10Z",
+"id": "4fba482bf7460cfa241c7d0e797cfb4589c4ac733c75bfcf2cef4ba7da134c07",
+"last_seen": "2026-11-09",
+"published": "2026-11-08T22:20:09Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+"url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
+"weight": 3
 }
 ]
