@@ -564,7 +564,7 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-62856"
 ],
@@ -572,11 +572,15 @@
 "epss": 0.00256,
 "first_seen": "2026-11-09T20:49:32Z",
 "id": "CVE-2026-62856",
-"last_seen": "2026-11-09",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-10",
 "published": "2026-11-09T00:00:00Z",
 "reasons": [
 "new VulnCheck KEV",
 "CVSS 7.7",
+"unauthenticated",
 "capped: not on watchlist"
 ],
 "route": "digest",
@@ -584,6 +588,7 @@
 "source": "VulnCheck KEV",
 "source_type": "vulncheck_kev",
 "sources": [
+"NVD",
 "VulnCheck KEV"
 ],
 "summary": "freescout freescout. FreeScout is a self-hosted help desk and shared mailbox application. Prior to version 1.8.226, the polycast/receive endpoint fails to escape SQL LIKE wildcards in supplied channel names, while channel authorization applies only to names with specific prefixes. An…",
@@ -1339,5 +1344,960 @@
 ],
 "url": "https://allafrica.com/stories/202611090232.html",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121109"
+],
+"cvss": 8.1,
+"epss": 0.00135,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-121109",
+"last_seen": "2026-11-10",
+"published": "2026-11-03T21:17:17Z",
+"reasons": [
+"CVSS 8.1",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Inadequate encryption strength in SSL in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially bypass web origin policy via crafted network traffic. (Chromium security severity: Low)",
+"title": "CVE-2026-121109: Inadequate encryption strength in SSL in Google Chrome prior to 157.0.8103.38 allowed a remote attacker to potentially bypass web origin…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121109",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121157"
+],
+"cvss": 9.8,
+"epss": 0.00109,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-121157",
+"last_seen": "2026-11-10",
+"published": "2026-11-03T21:17:23Z",
+"reasons": [
+"CVSS 9.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization in Chromoting in Google Chrome prior to 157.0.8103.38 allowed a local attacker to bypass system access restrictions via a local program. (Chromium security severity: Low)",
+"title": "CVE-2026-121157: Incorrect authorization in Chromoting in Google Chrome prior to 157.0.8103.38 allowed a local attacker to bypass system access restrictions…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121157",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121167"
+],
+"cvss": 8.1,
+"epss": 0.00189,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-121167",
+"last_seen": "2026-11-10",
+"published": "2026-11-03T21:17:24Z",
+"reasons": [
+"CVSS 8.1",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect authorization in Permissions in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer process to bypass system access restrictions via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-121167: Incorrect authorization in Permissions in Google Chrome prior to 157.0.8103.38 allowed a remote attacker who had compromised the renderer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121167",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-114032"
+],
+"cvss": 7.8,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-114032",
+"last_seen": "2026-11-10",
+"published": "2026-11-09T22:18:27Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel OpenSSL (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The OpenSSL library bundled with the Illumio VEN for Windows is affected by an uncontrolled search path vulnerability. A low-privileged, authenticated local attacker could potentially leverage this vulnerability to execute arbitrary code with SYSTEM privileges.",
+"title": "CVE-2026-114032: The OpenSSL library bundled with the Illumio VEN for Windows is affected by an uncontrolled search path vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114032",
+"vendor_matches": [
+{
+"points": 2,
+"term": "OpenSSL",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123811"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-123811",
+"last_seen": "2026-11-10",
+"published": "2026-11-09T22:18:37Z",
+"reasons": [
+"CVSS 7.5",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Dynatrace MCP Server is an MCP server for Dynatrace Observability. Prior to 2.0.0, a server started with the --http option accepts JSON-RPC tools/call requests without authentication, session validation, or Host and Origin protections before dispatching them under the server's configured Dynatrace…",
+"title": "CVE-2026-123811: Dynatrace MCP Server is an MCP server for Dynatrace Observability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123811",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-73857"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-73857",
+"last_seen": "2026-11-10",
+"published": "2026-11-09T22:18:54Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx. From 3.0.15 until 3.0.17, XML request body processing with SecParseXmlIntoArgs set to On or OnlyArgs can leave XMLNodes::parsing_ctx_arg uninitialized in the SAX end-element callback. A…",
+"title": "CVE-2026-73857: ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73857",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-109795"
+],
+"cvss": 9.9,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-109795",
+"last_seen": "2026-11-10",
+"published": "2026-11-10T01:17:13Z",
+"reasons": [
+"CVSS 9.9",
+"matches SAP NetWeaver (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SAP NetWeaver does not perform necessary authorization checks and lacks sufficient input validation in certain remote-enabled functionality. An attacker with low privileges could send specially crafted input through a remote interface to inject and execute arbitrary code within the affected system…",
+"title": "CVE-2026-109795: SAP NetWeaver does not perform necessary authorization checks and lacks sufficient input validation in certain remote-enabled functionality",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109795",
+"vendor_matches": [
+{
+"points": 2,
+"term": "NetWeaver",
+"tier": 3,
+"vendor": "SAP"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-109797"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-109797",
+"last_seen": "2026-11-10",
+"published": "2026-11-10T01:17:13Z",
+"reasons": [
+"CVSS 7.1",
+"matches SAP (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In SAP/astonish, an authenticated user could potentially identify and operate on another team�s sandbox containers because of improper tenant isolation in the legacy Incus sandbox-management API handlers. The affected handlers did not use the tenant-aware session lookup path, allowing cross-tenant…",
+"title": "CVE-2026-109797: In SAP/astonish, an authenticated user could potentially identify and operate on another team�s sandbox containers because of improper…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109797",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SAP",
+"tier": 3,
+"vendor": "SAP"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-109798"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-109798",
+"last_seen": "2026-11-10",
+"published": "2026-11-10T01:17:13Z",
+"reasons": [
+"CVSS 9.1",
+"matches SAP (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SAP BusinessObjects Business Intelligence Platform (Web Intelligence) does not properly restrict external entity resolution when processing OLAP connection requests. An authenticated attacker could exploit this vulnerability to access restricted resources, enabling them to read sensitive files on…",
+"title": "CVE-2026-109798: SAP BusinessObjects Business Intelligence Platform (Web Intelligence) does not properly restrict external entity resolution when processing…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109798",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SAP",
+"tier": 3,
+"vendor": "SAP"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-109799"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-109799",
+"last_seen": "2026-11-10",
+"published": "2026-11-10T01:17:13Z",
+"reasons": [
+"CVSS 7.5",
+"matches SAP (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The SAP Cloud SDK for Python contains an improper cryptographic signature verification vulnerability (CWE-347) in IASContextProvider, the runtime-context provider registered by default via bootstrap(app).IASContextProvider extracted the app_tid, sap_gtid and user_uuid claims from the IAS JWT in the…",
+"title": "CVE-2026-109799: The SAP Cloud SDK for Python contains an improper cryptographic signature verification vulnerability (CWE-347) in IASContextProvider, the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109799",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SAP",
+"tier": 3,
+"vendor": "SAP"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-109800"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-109800",
+"last_seen": "2026-11-10",
+"published": "2026-11-10T01:17:14Z",
+"reasons": [
+"CVSS 7.7",
+"matches SAP (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SAP Web Dispatcher does not sufficiently validate certain inputs during processing, which could lead to memory corruption. An attacker authenticated as a non-administrative user could exploit this vulnerability by providing specially crafted input, causing the Web Dispatcher process to terminate…",
+"title": "CVE-2026-109800: SAP Web Dispatcher does not sufficiently validate certain inputs during processing, which could lead to memory corruption",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109800",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SAP",
+"tier": 3,
+"vendor": "SAP"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-109803"
+],
+"cvss": 9.9,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-109803",
+"last_seen": "2026-11-10",
+"published": "2026-11-10T01:17:14Z",
+"reasons": [
+"CVSS 9.9",
+"matches SAP NetWeaver (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SAP NetWeaver Knowledge Management (XML Forms) does not sufficiently restrict the selection of XSL transformations processed by the affected functionality. Under certain conditions, an authenticated user with access to the affected functionality could cause an unauthorized XSL transformation to be…",
+"title": "CVE-2026-109803: SAP NetWeaver Knowledge Management (XML Forms) does not sufficiently restrict the selection of XSL transformations processed by the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109803",
+"vendor_matches": [
+{
+"points": 2,
+"term": "NetWeaver",
+"tier": 3,
+"vendor": "SAP"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-109810"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-109810",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-10",
+"published": "2026-11-10T01:17:15Z",
+"reasons": [
+"unauthenticated",
+"matches SAP NetWeaver (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SAP NetWeaver Application Server Java (Web Dynpro Java) does not sufficiently validate certain request parameters used to resolve styling resources in the application. An unauthenticated attacker could craft a malicious link that, when clicked by an authenticated victim, causes the victim's browser…",
+"title": "CVE-2026-109810: SAP NetWeaver Application Server Java (Web Dynpro Java) does not sufficiently validate certain request parameters used to resolve styling…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109810",
+"vendor_matches": [
+{
+"points": 2,
+"term": "NetWeaver",
+"tier": 3,
+"vendor": "SAP"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120009"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-120009",
+"last_seen": "2026-11-10",
+"published": "2026-11-10T01:17:16Z",
+"reasons": [
+"CVSS 7.2",
+"matches SAP (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SAP ABAP Developer Tools (AMDP Data Preview) does not perform sufficient validation and authorization checks within certain affected functionality. An attacker with high privileges could submit specially crafted input to inject and execute arbitrary code on the system. Successful exploitation could…",
+"title": "CVE-2026-120009: SAP ABAP Developer Tools (AMDP Data Preview) does not perform sufficient validation and authorization checks within certain affected…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120009",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SAP",
+"tier": 3,
+"vendor": "SAP"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120015"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-120015",
+"last_seen": "2026-11-10",
+"published": "2026-11-10T01:17:16Z",
+"reasons": [
+"CVSS 7.5",
+"matches SAP (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SAP Host Agent does not sufficiently validate certain inputs. Under certain condition, an attacker with low privileges could abuse the affected functionality to influence an internal component into loading a malicious file under a privileged account. Successful exploitation could lead to persistent…",
+"title": "CVE-2026-120015: SAP Host Agent does not sufficiently validate certain inputs",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120015",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SAP",
+"tier": 3,
+"vendor": "SAP"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120016"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-120016",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-10",
+"published": "2026-11-10T01:17:16Z",
+"reasons": [
+"unauthenticated",
+"matches SAP NetWeaver (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SAP NetWeaver Visual Composer does not perform sufficient input validation and output encoding on certain request data. An unauthenticated attacker could craft a malicious link containing specially crafted input. If a victim clicks the link, the injected script executes in the victim's browser…",
+"title": "CVE-2026-120016: SAP NetWeaver Visual Composer does not perform sufficient input validation and output encoding on certain request data",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120016",
+"vendor_matches": [
+{
+"points": 2,
+"term": "NetWeaver",
+"tier": 3,
+"vendor": "SAP"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-76965"
+],
+"cvss": 9.9,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-76965",
+"last_seen": "2026-11-10",
+"published": "2026-11-10T01:17:20Z",
+"reasons": [
+"CVSS 9.9",
+"matches SAP NetWeaver (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SAP NetWeaver Application Server ABAP and ABAP Platform does not perform necessary authorization checks for certain internal functionality. An attacker with low privileges could invoke affected functionality to execute arbitrary operating system commands on the underlying host. Successful…",
+"title": "CVE-2026-76965: SAP NetWeaver Application Server ABAP and ABAP Platform does not perform necessary authorization checks for certain internal functionality",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76965",
+"vendor_matches": [
+{
+"points": 2,
+"term": "NetWeaver",
+"tier": 3,
+"vendor": "SAP"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-89128"
+],
+"cvss": 5.3,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-89128",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-10",
+"published": "2026-11-10T01:17:22Z",
+"reasons": [
+"unauthenticated",
+"matches SAP NetWeaver (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Due to Broken Access Control in SAP NetWeaver AS Java, an unauthenticated attacker could invoke affected SOAP operations exposed over HTTP without proper access control. Successful exploitation could allow disclosure of information accessible through the affected service, resulting in a low impact…",
+"title": "CVE-2026-89128: Due to Broken Access Control in SAP NetWeaver AS Java, an unauthenticated attacker could invoke affected SOAP operations exposed over HTTP…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89128",
+"vendor_matches": [
+{
+"points": 2,
+"term": "NetWeaver",
+"tier": 3,
+"vendor": "SAP"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-89129"
+],
+"cvss": 5.8,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-89129",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-10",
+"published": "2026-11-10T01:17:22Z",
+"reasons": [
+"unauthenticated",
+"matches SAP NetWeaver (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Due to a Server-Side Request Forgery (SSRF) vulnerability in SAP NetWeaver AS Java (Web Services), an unauthenticated attacker could craft a SOAP request that causes the server to return a SOAP fault to a URL under the attacker�s control. Successful exploitation could allow the attacker to disclose…",
+"title": "CVE-2026-89129: Due to a Server-Side Request Forgery (SSRF) vulnerability in SAP NetWeaver AS Java (Web Services), an unauthenticated attacker could craft…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89129",
+"vendor_matches": [
+{
+"points": 2,
+"term": "NetWeaver",
+"tier": 3,
+"vendor": "SAP"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-89131"
+],
+"cvss": 4.3,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-89131",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-10",
+"published": "2026-11-10T01:17:22Z",
+"reasons": [
+"unauthenticated",
+"matches SAP NetWeaver (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SAP NetWeaver Enterprise Portal does not sufficiently protect certain server-side actions against cross-site request forgery. An unauthenticated attacker could craft a malicious link that, when clicked by an authenticated user, triggers an unintended action on the server. Successful exploitation…",
+"title": "CVE-2026-89131: SAP NetWeaver Enterprise Portal does not sufficiently protect certain server-side actions against cross-site request forgery",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89131",
+"vendor_matches": [
+{
+"points": 2,
+"term": "NetWeaver",
+"tier": 3,
+"vendor": "SAP"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-69971"
+],
+"cvss": 9.8,
+"epss": 0.02174,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2025-69971",
+"last_seen": "2026-11-10",
+"published": "2026-11-10T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "frangoteam fuxa. FUXA v1.2.7 contains a hard-coded credential vulnerability in server/api/jwt-helper.js. The application uses a hard-coded secret key to sign and verify JWT Tokens. This allows remote attackers to forge valid admin tokens and bypass authentication to gain full administrative access.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-69971: frangoteam fuxa Use of Hard-coded Credentials",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69971"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-2579"
+],
+"cvss": 7.5,
+"epss": 0.00323,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "CVE-2026-2579",
+"last_seen": "2026-11-10",
+"published": "2026-11-09T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.5",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "wpxpo wowstore. The WowStore – Store Builder & Product Blocks for WooCommerce plugin for WordPress is vulnerable to SQL Injection via the ‘search’ parameter in all versions up to, and including, 4.4.3 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-2579: wpxpo wowstore Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2579"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "d2c8c54cc1f9f69699f9690399fbf67a481539e5b2122c3638fa4857c27592ab",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-10",
+"published": "2026-11-09T23:52:12Z",
+"reasons": [
+"ransomware"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
+"title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+"url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "206a24afbdcff5dfb692b9437b6a2cf5e00cabddb514d1c8a1b58239eb88c300",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-10",
+"published": "2026-11-09T22:09:33Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
+"title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+"url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "b8c4d7a9a61a5eefbe36cd2c7d718c7ca5c9d7620197db3c5f89a53ef97da96c",
+"keyword_hits": [
+"zero-day"
+],
+"last_seen": "2026-11-10",
+"published": "2026-11-09T21:26:25Z",
+"reasons": [
+"zero-day",
+"matches N-able N-central (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]",
+"title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+"url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-central",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "b264ef033b7b8e7bd465168611e214bb5cedd15bcb9ec60fbc3549647849957b",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-10",
+"published": "2026-11-09T20:44:00Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "The Record",
+"source_type": "rss",
+"sources": [
+"The Record"
+],
+"summary": "The U.S arm of international hearing aid company Amplifon has been notifying customers about a data breach early this year that included medical information.",
+"title": "Data breach at hearing aid giant Amplifon impacts thousands",
+"url": "https://therecord.media/amplifon-hearing-aid-company-data-breach"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "40c2ef87e27eda2b1a688ef3f5910c5a0fa538271b1a22d3b8b864c1897ac410",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-10",
+"published": "2026-11-09T21:12:24Z",
+"reasons": [
+"RCE",
+"matches Microsoft Windows (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Dark Reading",
+"source_type": "rss",
+"sources": [
+"Dark Reading"
+],
+"summary": "Last month, Microsoft disclosed a vulnerability in Microsoft Paint, but messaging regarding a patch was unclear.",
+"title": "Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion",
+"url": "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "ab396d78b01bb0d0f808f2789174758fefdfc7842b665926cf809b5dbee14065",
+"last_seen": "2026-11-10",
+"published": "2026-11-09T19:58:59Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "USPS now offers official ZIP Code boundary polygons",
+"url": "https://postalpro.usps.com/zcb",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-10T02:58:52Z",
+"id": "97e71f076824e22c41931e504b521b67cc2a9426f8c01256f5e1ccd9dfe0c90c",
+"last_seen": "2026-11-10",
+"published": "2026-11-09T18:24:38Z",
+"reasons": [
+"matches Google (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Google Gemini routes personal Drive files and emails to human annotators",
+"url": "https://github.com/thisisme6598/gemini_files/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+],
+"weight": 3
 }
 ]
