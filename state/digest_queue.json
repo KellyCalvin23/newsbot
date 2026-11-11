@@ -1,1 +1,2144 @@
-[]
+[
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-105153"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-105153",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T13:17:12Z",
+"reasons": [
+"CVSS 7.7",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper Restriction of XML External Entity Reference in Apache Roller 4.0 through 6.1.6 allows an authenticated user with no weblog permissions to read files readable by the Roller process and cause the server to issue outbound HTTP requests to attacker-chosen destinations, by submitting a crafted…",
+"title": "CVE-2026-105153: Improper Restriction of XML External Entity Reference in Apache Roller 4.0 through 6.1.6 allows an authenticated user with no weblog…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105153",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-105154"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-105154",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T13:17:13Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Cross-Site Request Forgery (CSRF) in the Planet feed aggregator administration of Apache Roller 4.0 through 6.1.6 allows an unauthenticated attacker to make the Roller server fetch a URL the attacker chooses, including internal addresses, by inducing a logged-in global administrator to open a…",
+"title": "CVE-2026-105154: Cross-Site Request Forgery (CSRF) in the Planet feed aggregator administration of Apache Roller 4.0 through 6.1.6 allows an unauthenticated…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105154",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-118409"
+],
+"cvss": 5.3,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-118409",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T13:17:16Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Exposure of Sensitive Information to an Unauthorized Actor in Apache Roller 4.0 through 6.1.6 allows an unauthenticated visitor to recover the email addresses of people who left approved comments. The search index stored commenter email addresses, and the public weblog search accepted queries on…",
+"title": "CVE-2026-118409: Exposure of Sensitive Information to an Unauthorized Actor in Apache Roller 4.0 through 6.1.6 allows an unauthenticated visitor to recover…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118409",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-118410"
+],
+"cvss": 3.7,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-118410",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T13:17:16Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Exposure of Resource to Wrong Sphere in Apache Roller 4.0 through 6.1.6 allows an unauthenticated visitor to read an entry after its author has withdrawn it to draft through the AtomPub API. The entry was removed from the weblog but stayed in the search index, and public search showed its content…",
+"title": "CVE-2026-118410: Exposure of Resource to Wrong Sphere in Apache Roller 4.0 through 6.1.6 allows an unauthenticated visitor to read an entry after its author…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118410",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119618"
+],
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-119618",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T15:17:15Z",
+"reasons": [
+"RCE",
+"matches Apache HTTP Server (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP Server's mod_http2 in assign_headers() can lead to RCE. This issue affects Apache HTTP Server: from 2.4.55 through 2.4.70. Affected releases of mod_h2 from GitHub: from 2.0.8 through 2.0.42.",
+"title": "CVE-2026-119618: Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP Server's mod_http2 in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119618",
+"vendor_matches": [
+{
+"points": 2,
+"term": "HTTP Server",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2022-0541"
+],
+"cvss": 9.8,
+"epss": 0.01703,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2022-0541",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "flothemes flo-launch. The flo-launch WordPress plugin before 2.4.1 injects code into wp-config.php when creating a cloned site, allowing any attacker to initiate a new site install by setting the flo_custom_table_prefix cookie to an arbitrary value.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-0541: flothemes flo-launch Improper Access Control",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0541"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-123478"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-123478",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.1",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Meow Apps AI Engine. Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Meow Apps AI Engine ai-engine allows Stored XSS.This issue affects AI Engine: from n/a through 3.9.1.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-123478: meowapps ai_engine Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123478"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-119529"
+],
+"cvss": 5.9,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-119529",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "RocketGenius Gravity Forms. The Gravity Forms WordPress plugin before 3.2.2 does not properly restrict the file types that unauthenticated users can upload through its chunked file upload feature, allowing them to read server environment variables and the contents of files within the web root on…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-119529: Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119529"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-15272"
+],
+"cvss": 6.5,
+"epss": 0.0032,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-15272",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Shamalli Web 2.0 Directory. The Web 2.0 Directory plugin for WordPress is vulnerable to time-based SQL Injection via the 'w2dc_level_filter' parameter in all versions up to, and including, 2.10.12 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-15272: Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15272"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-77807"
+],
+"cvss": 7.5,
+"epss": 0.00928,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-77807",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.5",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "acyba AcyMailing. The AcyMailing – An Ultimate Newsletter Plugin and Marketing Automation Solution for WordPress plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 11.0.4 via the `user[name]` Parameter. This makes it possible for unauthenticated…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-77807: acymailing acymailing Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77807"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-48876"
+],
+"epss": 0.00175,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-48876",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Web Guy Stop Spammers. Unauthenticated Cross Site Scripting (XSS) in Stop Spammers <= 2026.3 versions.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-48876: trumani stop_spammers Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48876"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123488"
+],
+"epss": 0.00476,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-123488",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "craftcms Craft CMS. Craft CMS 4.0.0 before 4.18.9 and 5.0.0 before 5.11.2 contains an unauthenticated SQL injection vulnerability in the element search endpoint because the attribute parameter is concatenated into the query unsanitized and emulated PDO prepares allow stacked statements. Remote…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-123488: craftcms Craft CMS Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123488"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-3496"
+],
+"epss": 0.00317,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-3496",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Crocoblock JetBooking. The JetBooking plugin for WordPress is vulnerable to SQL Injection via the 'check_in_date' parameter in all versions up to, and including, 4.0.3. This is due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-3496: Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3496"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-13516"
+],
+"epss": 0.01036,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2025-13516",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Brainstorm Force SureMail. The SureMail – SMTP and Email Logs Plugin for WordPress is vulnerable to Unrestricted Upload of File with Dangerous Type in versions up to and including 1.9.0. This is due to the plugin's save_file() function in inc/emails/handler/uploads.php which duplicates all email…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-13516: brainstormforce suremail Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13516"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116692"
+],
+"epss": 0.00704,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-116692",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "MLflow MLflow. MLflow is an open source AI engineering platform for agents, large language models, and machine learning models. From 3.12.0rc0 until 3.17.0, third-party scorer deserialization in mlflow/genai/scorers/base.py accepts request-selected descendants of THIRD_PARTY_SCORER_ALLOWED_MODULES…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-116692: lfprojects MLflow Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116692"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-108097"
+],
+"epss": 0.00572,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-108097",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Drupal Drupal Core. Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') vulnerability in Drupal Drupal core allows Reflection Injection. This issue affects Drupal core versions: from 8.9.0 to 10.6.19, from 11.0.0 to 11.3.19, from 11.4.0 to 11.4.10, from 12.0.0-alpha1…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-108097: Drupal Drupal Core Use of Externally-Controlled Input to Select Classes or Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108097"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-0325"
+],
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-0325",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T17:00:00Z",
+"reasons": [
+"matches Palo Alto Networks PAN-OS (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "Palo Alto Networks",
+"source_type": "rss",
+"sources": [
+"Palo Alto Networks"
+],
+"title": "CVE-2026-0325 PAN-OS: GlobalProtect Authorization Bypass Vulnerability (Severity: LOW)",
+"url": "https://security.paloaltonetworks.com/CVE-2026-0325",
+"vendor_matches": [
+{
+"points": 3,
+"term": "PAN-OS",
+"tier": 1,
+"vendor": "Palo Alto Networks"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-0327"
+],
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-0327",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T17:00:00Z",
+"reasons": [
+"matches Palo Alto Networks PAN-OS (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "Palo Alto Networks",
+"source_type": "rss",
+"sources": [
+"Palo Alto Networks"
+],
+"title": "CVE-2026-0327 PAN-OS: Privilege Escalation Vulnerability in GlobalProtect (Severity: LOW)",
+"url": "https://security.paloaltonetworks.com/CVE-2026-0327",
+"vendor_matches": [
+{
+"points": 3,
+"term": "PAN-OS",
+"tier": 1,
+"vendor": "Palo Alto Networks"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-0331"
+],
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-0331",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T17:00:00Z",
+"reasons": [
+"matches Palo Alto Networks PAN-OS (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "Palo Alto Networks",
+"source_type": "rss",
+"sources": [
+"Palo Alto Networks"
+],
+"title": "CVE-2026-0331 PAN-OS: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)",
+"url": "https://security.paloaltonetworks.com/CVE-2026-0331",
+"vendor_matches": [
+{
+"points": 3,
+"term": "PAN-OS",
+"tier": 1,
+"vendor": "Palo Alto Networks"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-0328"
+],
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-0328",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T17:00:00Z",
+"reasons": [
+"matches Palo Alto Networks PAN-OS (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "Palo Alto Networks",
+"source_type": "rss",
+"sources": [
+"Palo Alto Networks"
+],
+"title": "CVE-2026-0328 PAN-OS: User Impersonation through GlobalProtect Portal (Severity: LOW)",
+"url": "https://security.paloaltonetworks.com/CVE-2026-0328",
+"vendor_matches": [
+{
+"points": 3,
+"term": "PAN-OS",
+"tier": 1,
+"vendor": "Palo Alto Networks"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-0330"
+],
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-0330",
+"keyword_hits": [
+"RCE",
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T17:00:00Z",
+"reasons": [
+"RCE",
+"matches Palo Alto Networks PAN-OS (Tier 1)"
+],
+"route": "digest",
+"score": 6,
+"source": "Palo Alto Networks",
+"source_type": "rss",
+"sources": [
+"Palo Alto Networks"
+],
+"title": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)",
+"url": "https://security.paloaltonetworks.com/CVE-2026-0330",
+"vendor_matches": [
+{
+"points": 3,
+"term": "PAN-OS",
+"tier": 1,
+"vendor": "Palo Alto Networks"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-0329"
+],
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-0329",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T17:00:00Z",
+"reasons": [
+"matches Palo Alto Networks PAN-OS (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "Palo Alto Networks",
+"source_type": "rss",
+"sources": [
+"Palo Alto Networks"
+],
+"title": "CVE-2026-0329 PAN-OS: Buffer Overflow Vulnerability (Severity: MEDIUM)",
+"url": "https://security.paloaltonetworks.com/CVE-2026-0329",
+"vendor_matches": [
+{
+"points": 3,
+"term": "PAN-OS",
+"tier": 1,
+"vendor": "Palo Alto Networks"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-0324"
+],
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-0324",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T17:00:00Z",
+"reasons": [
+"matches Palo Alto Networks GlobalProtect (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "Palo Alto Networks",
+"source_type": "rss",
+"sources": [
+"Palo Alto Networks"
+],
+"title": "CVE-2026-0324 GlobalProtect App: Incorrect Privilege Management Vulnerability in OPSWAT MetaDefender Endpoint Security SDK on Windows (Severity: MEDIUM)",
+"url": "https://security.paloaltonetworks.com/CVE-2026-0324",
+"vendor_matches": [
+{
+"points": 3,
+"term": "GlobalProtect",
+"tier": 1,
+"vendor": "Palo Alto Networks"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-0326"
+],
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-0326",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T17:00:00Z",
+"reasons": [
+"matches Palo Alto Networks PAN-OS (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "Palo Alto Networks",
+"source_type": "rss",
+"sources": [
+"Palo Alto Networks"
+],
+"title": "CVE-2026-0326 PAN-OS: Buffer Overflow Vulnerability in Protocol and Service Processing (Severity: LOW)",
+"url": "https://security.paloaltonetworks.com/CVE-2026-0326",
+"vendor_matches": [
+{
+"points": 3,
+"term": "PAN-OS",
+"tier": 1,
+"vendor": "Palo Alto Networks"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "c4f39dac84fd71ef0cfd7e36b7eb575725d026a3900f193c4875fdbc0969621b",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-953: (0Day) Meta FAIRChem utils load_inference_model Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-953/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "a5968d34f004f8866041287b22ce65ef7c6d3dacf25e3ae50deec1ce1583f76b",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-952: (0Day) Meta FAIRChem _cli YAML File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-952/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "29da89cbde84a772580f35b40e125351755c2041b0bf90dbf728939e7819ea74",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-951: (0Day) Meta FAIRChem utils load_tasks Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-951/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "75c5406bd92983dc991be6baa9751c19a91881bd4dfb3150fe80a814017acb43",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-950: (0Day) Meta FAIRChem migrate_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-950/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "f4116844a74febe2b645df7c2434ac9832e80819e0974ad410629e9cfb338d7c",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-949: (0Day) Meta FAIRChem utils load_model_and_weights_from_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-949/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "e97652107b1dbddcde853d49776c6646b65434175add35c72762bd933b58c6e0",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-948: (0Day) Meta FAIRChem MLIPPredictUnit Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-948/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "e7bbf5680edd19d57bcc5286bf2fba92fda4fdcf87a72f4d02b146383d73b065",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-947: (0Day) Meta FAIRChem make_submission_file NPZ File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-947/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "d56b2e7be0f6bbde83eba691afceef2a41610e166d2b6b164da9ac985d30989e",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-946: (0Day) Meta FAIRChem make_challenge_submission_file NPZ File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-946/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "97a54cec7c515c994a194150bacb9ff048ff54e3744b1fdde1deb7a5c15e9de4",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-945: (0Day) Meta FAIRChem convert_fine_tune_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-945/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "38e95fd3be8f10ce063d1a603d6137250c58b4aa12aa73c914edabf82b624fb7",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-944: (0Day) Meta fairseq load_ema_from_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-944/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "072d6f3e1a29afa1094fa7b9488175dd7ffc94065553cb56a4ea52b27dca1265",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-943: (0Day) Meta fairseq load_checkpoint_to_cpu Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-943/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "d894fe7173c75cdfee25bcd90c58504919e67c3412ad7c9d7bcf3c165da5c810",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-942: (0Day) Meta fairseq rerank Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-942/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "cefb8decdb1230bac6e335c49fe02ddb9f9ebaf4c760e75a7e95b1d0ac4823f3",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-941: (0Day) Meta fairseq FConvModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-941/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "cfc9bb9dbf46cf3104d4f5204c73f4d1d74c82ced4cea2054718c416a54b7d74",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-940: (0Day) Meta fairseq dump_km_label Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-940/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "e550a9855ff970422543ecc1be08db748a698e433c6228df5b11871cd3171da7",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-939: (0Day) Meta fairseq2 FileCheckpointManager _load_state_dict Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-939/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "2ea28970d76d32cbaf149f7900f520c8841695170cf34c9f689881b3aa6e1267",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-938: (0Day) Meta fairseq parse_manifest Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-938/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "3b7ea45a59404ba8266cec021d6879f441efc67b8950166b6af81c3b8c545b50",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-937: (0Day) Meta fairseq quantize_with_kmeans Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-937/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "983aecbb26494bfdebaf3dc85f49cace4b248a5e0926bbe121cdc44a66aa1154",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-936: (0Day) Meta fairseq FairseqCPUAdam YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-936/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "aaba79f61e107bdd913bf56d49908da90279e662360afa20644d51f5b3b003db",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-935: (0Day) Meta fairseq FConvModelSelfAtt YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-935/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "e089e8de4f6652b9ea4df1c75447a14883695049569fbb2b94f10ce8254ca58e",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-934: (0Day) Meta fairseq FConvLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-934/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "f3f4896e40bfc7441e2f88f9504ab1630b9b5aa111725d59a4fabf1ed7d86bc7",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-933: (0Day) Meta fairseq MultiresHubertModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-933/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "be85f33345315662d449009391cff86e00a8a2898e2a1ebf3e7b593267e2f992",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-932: (0Day) Meta fairseq CtcCriterion YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-932/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "7e9f63f837fba7747e803cb2e1faa4a32e036a73c6d7ba30cab3809ea52f3c7d",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-931: (0Day) Meta fairseq AudioModalityConfig YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-931/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "c25602cd5a42039bd2090c37694c2743eb67d585fa9310be838be69293106309",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-930: (0Day) Meta fairseq LightConvLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-930/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "c1b56b5f94d83c3a8b41772f3ba7d826d62363d101751d3b121b4bd3766a5ff9",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-929: (0Day) Meta fairseq FairseqAdamax YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-929/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "1d9e61e34906b3ec99e2b33ee5ad90e72962c79b9c973d43f1d5ca0acc8f5129",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-928: (0Day) Meta fairseq W2lConvGluEncoder YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-928/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "fe75efbab236c461d1a8a0eae22916098a9244236954e0094fd0411dba3a5d50",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-927: (0Day) Meta fairseq FairseqAdam YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-927/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "4e0267f8fd7ef1b05b8fa713f248cad1a04fcf73d186dfe8081e450ea85a26c8",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-926: (0Day) Meta fairseq RawAudioDataset YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-926/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "9ebb21e5a8906a0d90c9f6c2b2de60393b2511d7304f31836eb18bd9690655fd",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-925: (0Day) Meta fairseq FairseqLAMB YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-925/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "0a65e1d06b6d4faf8aa16188d987376932a8be36d50c3311079d36b99edbab08",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-924: (0Day) Meta fairseq S2TWavTransformerEncoder YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-924/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "8451f430c4c77178138b723b693ded056fb19a4fd9ea0ed60b563467d6b4446b",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-923: (0Day) Meta fairseq HubertModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-923/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "9eb4912554f9835d26801f115f9b14c7cbfc15ac6045ee3e184ce55966c1158a",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-922: (0Day) Meta fairseq Wav2Vec2Model YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-922/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "1b4b33d529a07bed031ed2125abc6532bc11a6d0adf44a91bb3c1f03375300bb",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-921: (0Day) Meta fairseq TransformerLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-921/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "49eb68eb6be33f68903f332753d295bb8b1a2cfd1087cc9561955db688f475cc",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-920: (0Day) Meta fairseq Data2VecAudioModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-920/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "b238b3a3e339233def95cfa574a72048d2643341b48300fd3e21b59a6968dda4",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-919: (0Day) Meta fairseq FairseqAdafactor YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-919/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "938f708a41033792001a4173727a91cd7532442cdb1147f5a0f8d402e37ddf62",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-918: (0Day) Meta fairseq VGGTransformerModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-918/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "ff7c0b330c2f3825a710d4d2d6f2e344e35b1725afa4c046eaf7cfa6083b23ee",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-917: (0Day) Meta fairseq load_speaker Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-917/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "65e117bac7c1777f2df2353fd28630ce013aaeb9e0318dd85197097c47a146be",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-916: (0Day) Meta fairseq split_by_lang Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-916/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "30bd30fbd71321af7c8e3e9996eef90fdae529bfea6fb76b3b66cfb8eaf7101a",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-915: (0Day) Meta fairseq FilterNamesDataset Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-915/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "6c3f92083368d854817147a03d53e5572cfd60f53696e421b9846eb2d121a17b",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-914: (0Day) Meta fairseq Wav2VecModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-914/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "459421d76b3bedf79a72106f4b4f6cc7d275a87aac20e2e593178e97d7289e35",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-913: (0Day) Meta fairseq load_audio_path Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-913/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "fb84e60059dae5fabdcc576ec9234e5853da8766b1a67d32fba951b8aef8d5ae",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-912: (0Day) Meta Detectron2 detection_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-912/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "06b11f882f361863b990226d083a96fe63dbe36c7da61a14370f574c037b84bf",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-911: (0Day) Meta Detectron2 DensePose Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-911/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "4ec1fe0dfa4db289f62f708731dc3143d8a2ab9185466b69dcac810b733aa06a",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-910: (0Day) Meta Detectron2 LazyConfig Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-910/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "358ff4c03ed29dfdc46e2164faa220a019e637bef634344a393a3377d2951aed",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-909: (0Day) Meta Detectron2 CfgNode.merge_from_file Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-909/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "951f7e46200d4f573e7f69560584236d7b947529e786e6045b4b289186e7edd8",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-908: (0Day) Meta Detectron2 load_proposals_into_dataset Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-908/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "6f3ba824e9a3b12f39501e5b1f02b7176cae01a01ace49cd73ed5073a646e45f",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-907: (0Day) Meta Detectron2 vertex_feature_embedder Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-907/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "c7aa9dc158510b1be98d0f1e2c3243c519a1ab56dc547766ef1126990df9cbf1",
+"keyword_hits": [
+"data breach",
+"ransomware"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T16:24:18Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
+"title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+"url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "fc39ddb96b11a860b2cb69e0f9ce8e92c479878916a9d16e78c90fb261cb772c",
+"keyword_hits": [
+"zero-day"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T12:32:27Z",
+"reasons": [
+"zero-day",
+"matches N-able N-central (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
+"title": "N-able releases security hotfixes for zero-day vulnerabilities",
+"url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-central",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "5e5e205957375bae67b8865199d983a186230d7edc29ac544fabf10ae4bcbb21",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T13:37:19Z",
+"reasons": [
+"remote code execution",
+"matches Ivanti (Tier 1)"
+],
+"route": "digest",
+"score": 6,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Attackers could exploit the bugs to tamper with certificate entries, achieve remote code execution, and compromise hosts. The post Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities appeared first on SecurityWeek .",
+"title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
+"url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Ivanti",
+"tier": 1,
+"vendor": "Ivanti"
+},
+{
+"points": 3,
+"term": "Citrix",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "abaa5b12892912902eb10e3fbbedce43e48d525c3e28d2b607cb68928fd57a83",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T12:10:14Z",
+"reasons": [
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "The massive drop comes after the company integrated frontier AI models into its product security testing. The post Fortinet Patches Nearly 100 Vulnerabilities appeared first on SecurityWeek .",
+"title": "Fortinet Patches Nearly 100 Vulnerabilities",
+"url": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "e8728b7865d786f1ffcce05de77b9909d2b40040535f8816eee567aa2aacc10c",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-11",
+"published": "2026-11-11T18:06:01Z",
+"reasons": [
+"ransomware"
+],
+"route": "digest",
+"score": 3,
+"source": "Krebs on Security",
+"source_type": "rss",
+"sources": [
+"Krebs on Security"
+],
+"summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over…",
+"title": "Who Runs the Ransomware Group Qilin?",
+"url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "dfe676568e666ba12f05d40865d030b748da7b1bef0737d5ac8e0df4fa64f394",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T12:05:22Z",
+"reasons": [
+"matches Google (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+"url": "https://pietromiotti.com/latest/maya-site/?maya=",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+],
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "6b20b7b03bae41e8cf55f4399509617eb3c099f0a4a2bbf34f041d3373eb62a0",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T04:28:57Z",
+"reasons": [
+"matches Apple macOS (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Protecting SSH Keys with macOS Secure Enclave",
+"url": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "macOS",
+"tier": 2,
+"vendor": "Apple"
+}
+],
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "6d68a8caa0f81c4665c8b49775fac3f4f9fb9f16ca71f9d13051d2ff10b82eb8",
+"last_seen": "2026-11-11",
+"published": "2026-11-11T14:09:42Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "South Africa’s most decorated Olympian is switching nations to swim for the Netherlands.",
+"title": "South Africans divided over Olympic swimmer’s switch to Netherlands",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/south-africans-divided-over-olympic-swimmers-switch-to-netherlands-2?traffic_source=rss",
+"weight": 1
+}
+]
