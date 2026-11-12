@@ -146,16 +146,17 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-119618"
 ],
 "first_seen": "2026-11-11T18:43:51Z",
 "id": "CVE-2026-119618",
 "keyword_hits": [
-"RCE"
+"RCE",
+"unauthenticated"
 ],
-"last_seen": "2026-11-11",
+"last_seen": "2026-11-12",
 "published": "2026-11-11T15:17:15Z",
 "reasons": [
 "RCE",
@@ -166,9 +167,10 @@
 "source": "NVD",
 "source_type": "nvd",
 "sources": [
-"NVD"
+"NVD",
+"The Hacker News"
 ],
-"summary": "Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP Server's mod_http2 in assign_headers() can lead to RCE. This issue affects Apache HTTP Server: from 2.4.55 through 2.4.70. Affected releases of mod_h2 from GitHub: from 2.0.8 through 2.0.42.",
+"summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday. Only servers with HTTP/2 enabled are affected, according to…",
 "title": "CVE-2026-119618: Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP Server's mod_http2 in…",
 "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119618",
 "vendor_matches": [
@@ -4566,5 +4568,103 @@
 "title": "My AI agents found an unmapped Maya site?",
 "url": "https://pietromiotti.com/latest/maya-site",
 "weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-12T08:11:06Z",
+"id": "76bac189dfb5529ad8324dc3a1ad4981f943ff638f1c2872d7c82442c6f72b98",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:34:23Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "93% of paint splatters are valid Perl programs (2019)",
+"url": "https://www.mcmillen.dev/sigbovik/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-12T08:11:06Z",
+"id": "a70fe30e3911ab6c1e937b64ca889870b1c589efd7df532bf7bb59cfd01bcc3f",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T18:32:42Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Gemini Decisions API",
+"url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-12T08:11:06Z",
+"id": "2e6d0d3d0719e5d78777259f21112aa30b4b18956ae8ccc463c86322bf76c077",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T13:39:29Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Hyper-Realistic Sand with WebGL2",
+"url": "https://av.github.io/safe-sand/",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-12T08:11:06Z",
+"id": "b16c8bb5e24bc109f60f2a171859812601268e60858b86073582abc1c059109e",
+"last_seen": "2026-11-12",
+"published": "2026-11-12T05:06:38Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[UN News] Early warning systems are saving lives across the globe, but for millions of people the warning never arrives, UN Secretary-General António Guterres said on Wednesday, urging the world to protect every person on Earth by the end of 2027.",
+"title": "From Japan to Rwanda, Early Warnings Are Saving Lives - but Millions Remain Unprotected",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611120018.html",
+"weight": 1
 }
 ]
