@@ -520,13 +520,14 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-0325"
 ],
+"cvss": 1.3,
 "first_seen": "2026-11-11T18:43:51Z",
 "id": "CVE-2026-0325",
-"last_seen": "2026-11-11",
+"last_seen": "2026-11-12",
 "published": "2026-11-11T17:00:00Z",
 "reasons": [
 "matches Palo Alto Networks PAN-OS (Tier 1)"
@@ -536,8 +537,10 @@
 "source": "Palo Alto Networks",
 "source_type": "rss",
 "sources": [
+"NVD",
 "Palo Alto Networks"
 ],
+"summary": "An authorization bypass vulnerability in the GlobalProtect gateway of Palo Alto Networks PAN-OS® software enables an authenticated attacker with valid GlobalProtect credentials to bypass IP address restrictions and circumvent network access controls that rely on source IP filtering. Cloud NGFW is…",
 "title": "CVE-2026-0325 PAN-OS: GlobalProtect Authorization Bypass Vulnerability (Severity: LOW)",
 "url": "https://security.paloaltonetworks.com/CVE-2026-0325",
 "vendor_matches": [
@@ -551,13 +554,14 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-0327"
 ],
+"cvss": 2.3,
 "first_seen": "2026-11-11T18:43:51Z",
 "id": "CVE-2026-0327",
-"last_seen": "2026-11-11",
+"last_seen": "2026-11-12",
 "published": "2026-11-11T17:00:00Z",
 "reasons": [
 "matches Palo Alto Networks PAN-OS (Tier 1)"
@@ -567,8 +571,10 @@
 "source": "Palo Alto Networks",
 "source_type": "rss",
 "sources": [
+"NVD",
 "Palo Alto Networks"
 ],
+"summary": "A privilege escalation vulnerability in the GlobalProtect gateway of Palo Alto Networks PAN-OS® software enables an authenticated, lower-privileged user to obtain the privileges and configuration of a higher-privileged user. Cloud NGFW and Panorama are not affected by this vulnerability.",
 "title": "CVE-2026-0327 PAN-OS: Privilege Escalation Vulnerability in GlobalProtect (Severity: LOW)",
 "url": "https://security.paloaltonetworks.com/CVE-2026-0327",
 "vendor_matches": [
@@ -582,24 +588,31 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-0331"
 ],
+"cvss": 6.6,
 "first_seen": "2026-11-11T18:43:51Z",
 "id": "CVE-2026-0331",
-"last_seen": "2026-11-11",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-12",
 "published": "2026-11-11T17:00:00Z",
 "reasons": [
+"unauthenticated",
 "matches Palo Alto Networks PAN-OS (Tier 1)"
 ],
 "route": "digest",
-"score": 3,
+"score": 6,
 "source": "Palo Alto Networks",
 "source_type": "rss",
 "sources": [
+"NVD",
 "Palo Alto Networks"
 ],
+"summary": "An information disclosure vulnerability in Palo Alto Networks PAN-OS® software enables an unauthenticated remote attacker with network access to obtain sensitive firewall and session information by sending traffic to or through a dataplane interface. Panorama is not affected by this vulnerability.",
 "title": "CVE-2026-0331 PAN-OS: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)",
 "url": "https://security.paloaltonetworks.com/CVE-2026-0331",
 "vendor_matches": [
@@ -613,24 +626,31 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-0328"
 ],
+"cvss": 2.7,
 "first_seen": "2026-11-11T18:43:51Z",
 "id": "CVE-2026-0328",
-"last_seen": "2026-11-11",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-12",
 "published": "2026-11-11T17:00:00Z",
 "reasons": [
+"unauthenticated",
 "matches Palo Alto Networks PAN-OS (Tier 1)"
 ],
 "route": "digest",
-"score": 3,
+"score": 6,
 "source": "Palo Alto Networks",
 "source_type": "rss",
 "sources": [
+"NVD",
 "Palo Alto Networks"
 ],
+"summary": "Authentication bypass vulnerabilities in the GlobalProtect™ portal and gateway of Palo Alto Networks PAN-OS® software enables an unauthenticated user to bypass security restrictions and establish an unauthorized VPN connection. Panorama, Cloud NGFW, and Prisma® Access are not affected by this…",
 "title": "CVE-2026-0328 PAN-OS: User Impersonation through GlobalProtect Portal (Severity: LOW)",
 "url": "https://security.paloaltonetworks.com/CVE-2026-0328",
 "vendor_matches": [
@@ -644,17 +664,18 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-0330"
 ],
+"cvss": 6.1,
 "first_seen": "2026-11-11T18:43:51Z",
 "id": "CVE-2026-0330",
 "keyword_hits": [
 "RCE",
 "remote code execution"
 ],
-"last_seen": "2026-11-11",
+"last_seen": "2026-11-12",
 "published": "2026-11-11T17:00:00Z",
 "reasons": [
 "RCE",
@@ -665,8 +686,10 @@
 "source": "Palo Alto Networks",
 "source_type": "rss",
 "sources": [
+"NVD",
 "Palo Alto Networks"
 ],
+"summary": "A remote code execution (RCE) vulnerability in Palo Alto Networks PAN-OS® software on Panorama enables an authenticated administrator with network access to execute arbitrary code with root privileges. The security risk posed by this issue is significantly minimized by restricting access to the…",
 "title": "CVE-2026-0330 PAN-OS: Authenticated Remote Code Execution (RCE) in Panorama (Severity: MEDIUM)",
 "url": "https://security.paloaltonetworks.com/CVE-2026-0330",
 "vendor_matches": [
@@ -680,24 +703,31 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-0329"
 ],
+"cvss": 4.6,
 "first_seen": "2026-11-11T18:43:51Z",
 "id": "CVE-2026-0329",
-"last_seen": "2026-11-11",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-12",
 "published": "2026-11-11T17:00:00Z",
 "reasons": [
+"unauthenticated",
 "matches Palo Alto Networks PAN-OS (Tier 1)"
 ],
 "route": "digest",
-"score": 3,
+"score": 6,
 "source": "Palo Alto Networks",
 "source_type": "rss",
 "sources": [
+"NVD",
 "Palo Alto Networks"
 ],
+"summary": "A buffer overflow vulnerability in Palo Alto Networks PAN-OS® software enables an unauthenticated attacker with network access to cause a denial of service (DoS) condition by sending specially crafted network traffic to or through a dataplane interface. Cloud NGFW and Panorama are not affected by…",
 "title": "CVE-2026-0329 PAN-OS: Buffer Overflow Vulnerability (Severity: MEDIUM)",
 "url": "https://security.paloaltonetworks.com/CVE-2026-0329",
 "vendor_matches": [
@@ -711,13 +741,14 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-0324"
 ],
+"cvss": 5.9,
 "first_seen": "2026-11-11T18:43:51Z",
 "id": "CVE-2026-0324",
-"last_seen": "2026-11-11",
+"last_seen": "2026-11-12",
 "published": "2026-11-11T17:00:00Z",
 "reasons": [
 "matches Palo Alto Networks GlobalProtect (Tier 1)"
@@ -727,8 +758,10 @@
 "source": "Palo Alto Networks",
 "source_type": "rss",
 "sources": [
+"NVD",
 "Palo Alto Networks"
 ],
+"summary": "An incorrect privilege management vulnerability in the OPSWAT MetaDefender Endpoint Security SDK used by the Palo Alto Networks GlobalProtect™ app on Windows devices allows a locally authenticated non-administrative Windows user to escalate their privileges to NT AUTHORITY\\SYSTEM.",
 "title": "CVE-2026-0324 GlobalProtect App: Incorrect Privilege Management Vulnerability in OPSWAT MetaDefender Endpoint Security SDK on Windows (Severity: MEDIUM)",
 "url": "https://security.paloaltonetworks.com/CVE-2026-0324",
 "vendor_matches": [
@@ -742,24 +775,31 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-0326"
 ],
+"cvss": 1.7,
 "first_seen": "2026-11-11T18:43:51Z",
 "id": "CVE-2026-0326",
-"last_seen": "2026-11-11",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-12",
 "published": "2026-11-11T17:00:00Z",
 "reasons": [
+"unauthenticated",
 "matches Palo Alto Networks PAN-OS (Tier 1)"
 ],
 "route": "digest",
-"score": 3,
+"score": 6,
 "source": "Palo Alto Networks",
 "source_type": "rss",
 "sources": [
+"NVD",
 "Palo Alto Networks"
 ],
+"summary": "A buffer overflow vulnerability in Palo Alto Networks PAN-OS software enables an unauthenticated attacker to disrupt service processing by causing a service process crash or memory corruption. Panorama and Prisma® Access are not affected by this vulnerability.",
 "title": "CVE-2026-0326 PAN-OS: Buffer Overflow Vulnerability in Protocol and Service Processing (Severity: LOW)",
 "url": "https://security.paloaltonetworks.com/CVE-2026-0326",
 "vendor_matches": [
@@ -2140,5 +2180,2391 @@
 ],
 "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/south-africans-divided-over-olympic-swimmers-switch-to-netherlands-2?traffic_source=rss",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126801"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126801",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T21:16:43Z",
+"reasons": [
+"CVSS 8.8",
+"matches Apple (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Rote 1.2.0 through 2.6.0 contains an authorization bypass in the OAuth bind/merge endpoint that allows authenticated users to merge any OAuth-bound account into their own. Attackers can submit a public existingUserId and GitHub or Apple user ID to take over notes, attachments, and API keys and…",
+"title": "CVE-2026-126801: Rote 1.2.0 through 2.6.0 contains an authorization bypass in the OAuth bind/merge endpoint that allows authenticated users to merge any…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126801",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apple",
+"tier": 2,
+"vendor": "Apple"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126813"
+],
+"cvss": 7.4,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126813",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T21:16:45Z",
+"reasons": [
+"CVSS 7.4",
+"matches Roundcube (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Roundcube Webmail before 1.6.21 and 1.7.x before 1.7.6 contains an IMAP command injection vulnerability that allows attackers to inject commands via CRLF in the _uid parameter when messages_cache is enabled. Attackers can lure logged-in victims into opening crafted GET links to mail/show or…",
+"title": "CVE-2026-126813: Roundcube Webmail before 1.6.21 and 1.7.x before 1.7.6 contains an IMAP command injection vulnerability that allows attackers to inject…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126813",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Roundcube",
+"tier": 3,
+"vendor": "Roundcube"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121526"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-121526",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:10Z",
+"reasons": [
+"unauthenticated",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A url redirection to untrusted site ('open redirect') vulnerability in Fortinet FortiAuthenticator 8.0.0 through 8.0.3, FortiAuthenticator 6.6.0 through 6.6.10 may allow an unauthenticated attacker to perform an open redirect attack via crafted HTTP requests.",
+"title": "CVE-2026-121526: A url redirection to untrusted site ('open redirect') vulnerability in Fortinet FortiAuthenticator 8.0.0 through 8.0.3, FortiAuthenticator…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121526",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121527"
+],
+"cvss": 6.7,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-121527",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:11Z",
+"reasons": [
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A execution with unnecessary privileges vulnerability in Fortinet FortiClientEMS 7.4.3 through 7.4.7, FortiClientEMS 7.4.0 through 7.4.1, FortiClientEMS 7.2 all versions may allow an authenticated local attacker with admin privileges to gain root shell access via CLI commands.",
+"title": "CVE-2026-121527: A execution with unnecessary privileges vulnerability in Fortinet FortiClientEMS 7.4.3 through 7.4.7, FortiClientEMS 7.4.0 through 7.4.1…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121527",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126144"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126144",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:11Z",
+"reasons": [
+"CVSS 8.8",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.4, FortiMail 7.4.0 through 7.4.6, FortiMail 7.2 all versions, FortiRecorder 7.6.0 through 7.6.2, FortiRecorder 7.2.0…",
+"title": "CVE-2026-126144: A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126144",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126145"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126145",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:11Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated administrator with system-time…",
+"title": "CVE-2026-126145: A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126145",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126146"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126146",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:11Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.4, FortiMail 7.4.0 through 7.4.6, FortiMail 7.2.0 through 7.2.9, FortiRecorder 7.6.0, FortiRecorder 7.2.0 through 7.2.11…",
+"title": "CVE-2026-126146: A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126146",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126152"
+],
+"cvss": 7.6,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126152",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:12Z",
+"reasons": [
+"CVSS 7.6",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A authorization bypass through user-controlled key vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated remote attacker to delete arbitrary directories as root, or to access or…",
+"title": "CVE-2026-126152: A authorization bypass through user-controlled key vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126152",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126158"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126158",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:13Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1 may allow an authenticated administrator to execute unauthorized code or commands as root via specially crafted HTTP requests.",
+"title": "CVE-2026-126158: A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiMail 8.0.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126158",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126166"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126166",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:14Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of argument delimiters in a command ('argument injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.2, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated remote attacker with domain admin or…",
+"title": "CVE-2026-126166: A improper neutralization of argument delimiters in a command ('argument injection') vulnerability in Fortinet FortiMail 8.0.0 through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126166",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126167"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126167",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:14Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements used in a command ('command injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.2, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated remote attacker with domain admin or…",
+"title": "CVE-2026-126167: A improper neutralization of special elements used in a command ('command injection') vulnerability in Fortinet FortiMail 8.0.0 through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126167",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126168"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126168",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:15Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of argument delimiters in a command ('argument injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.2, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated remote attacker with domain admin or…",
+"title": "CVE-2026-126168: A improper neutralization of argument delimiters in a command ('argument injection') vulnerability in Fortinet FortiMail 8.0.0 through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126168",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126169"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126169",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:15Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of argument delimiters in a command ('argument injection') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.2, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2 all versions may allow an authenticated remote attacker with domain admin or…",
+"title": "CVE-2026-126169: A improper neutralization of argument delimiters in a command ('argument injection') vulnerability in Fortinet FortiMail 8.0.0 through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126169",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126171"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126171",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:15Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A use of externally-controlled format string vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer…",
+"title": "CVE-2026-126171: A use of externally-controlled format string vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126171",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126175"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126175",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:15Z",
+"reasons": [
+"CVSS 8.8",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.2 through 7.2.12, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer Cloud 7.4.1 through…",
+"title": "CVE-2026-126175: A improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiAnalyzer 7.6.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126175",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126176"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126176",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:15Z",
+"reasons": [
+"CVSS 8.1",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A xml injection (aka blind xpath injection) vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.0, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer Cloud 7.4.1 through…",
+"title": "CVE-2026-126176: A xml injection (aka blind xpath injection) vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126176",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126177"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126177",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:16Z",
+"reasons": [
+"CVSS 8.1",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A xml injection (aka blind xpath injection) vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.0, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer Cloud 7.4.1 through…",
+"title": "CVE-2026-126177: A xml injection (aka blind xpath injection) vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126177",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126178"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126178",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:16Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A heap-based buffer overflow vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer Cloud…",
+"title": "CVE-2026-126178: A heap-based buffer overflow vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126178",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126179"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126179",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:16Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.0, FortiAnalyzer Cloud 7.6.0…",
+"title": "CVE-2026-126179: A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiAnalyzer 8.0.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126179",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126180"
+],
+"cvss": 8.4,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126180",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:16Z",
+"reasons": [
+"CVSS 8.4",
+"matches Fortinet FortiManager (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements used in a template engine vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through 7.4.11, FortiManager 7.2 all versions, FortiManager Cloud 8.0.0 through 8.0.1, FortiManager Cloud 7.6.0…",
+"title": "CVE-2026-126180: A improper neutralization of special elements used in a template engine vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126180",
+"vendor_matches": [
+{
+"points": 3,
+"term": "FortiManager",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126181"
+],
+"cvss": 8.0,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126181",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:16Z",
+"reasons": [
+"CVSS 8.0",
+"matches Fortinet FortiManager (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A use of hard-coded credentials vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through 7.4.11, FortiManager 7.2 all versions may allow an adjacent-network authenticated attacker with user permission to join the FGFM…",
+"title": "CVE-2026-126181: A use of hard-coded credentials vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.0 through 7.6.7, FortiManager…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126181",
+"vendor_matches": [
+{
+"points": 3,
+"term": "FortiManager",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126182"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126182",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:17Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet FortiManager (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper control of generation of code ('code injection') vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through 7.4.11, FortiManager 7.2.0 through 7.2.12, FortiManager Cloud 8.0.0 through 8.0.1, FortiManager Cloud 7.6.0 through…",
+"title": "CVE-2026-126182: A improper control of generation of code ('code injection') vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126182",
+"vendor_matches": [
+{
+"points": 3,
+"term": "FortiManager",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126183"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126183",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:17Z",
+"reasons": [
+"CVSS 8.7",
+"matches Fortinet FortiManager (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A authorization bypass through user-controlled key vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through 7.4.11, FortiManager 7.2.0 through 7.2.12, FortiManager Cloud 8.0.1, FortiManager Cloud 7.6.0 through 7.6.7, FortiManager Cloud…",
+"title": "CVE-2026-126183: A authorization bypass through user-controlled key vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.0 through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126183",
+"vendor_matches": [
+{
+"points": 3,
+"term": "FortiManager",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126184"
+],
+"cvss": 8.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126184",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:17Z",
+"reasons": [
+"CVSS 8.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A authentication bypass by spoofing vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer Cloud 7.4.1…",
+"title": "CVE-2026-126184: A authentication bypass by spoofing vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126184",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126185"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126185",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:17Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper control of generation of code ('code injection') vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer Cloud 7.4.1…",
+"title": "CVE-2026-126185: A improper control of generation of code ('code injection') vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126185",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126211"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126211",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:18Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet FortiManager (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper privilege management vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.1 through 7.6.7, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.1 through 7.6.8, FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.1 through 7.6.7, FortiManager Cloud…",
+"title": "CVE-2026-126211: A improper privilege management vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.1 through 7.6.7…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126211",
+"vendor_matches": [
+{
+"points": 3,
+"term": "FortiManager",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126212"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126212",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:18Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet FortiManager (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A heap-based buffer overflow vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer Cloud 7.4.1 through 7.4.11, FortiManager…",
+"title": "CVE-2026-126212: A heap-based buffer overflow vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126212",
+"vendor_matches": [
+{
+"points": 3,
+"term": "FortiManager",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126213"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126213",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:18Z",
+"reasons": [
+"CVSS 7.1",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4 all versions, FortiAnalyzer 7.2 all versions, FortiAnalyzer Cloud 8.0.0 through 8.0.1…",
+"title": "CVE-2026-126213: A improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiAnalyzer 8.0.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126213",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126214"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126214",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:18Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A authentication bypass by spoofing vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer…",
+"title": "CVE-2026-126214: A authentication bypass by spoofing vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126214",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126215"
+],
+"cvss": 8.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126215",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:18Z",
+"reasons": [
+"CVSS 8.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A incorrect authorization vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer Cloud…",
+"title": "CVE-2026-126215: A incorrect authorization vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126215",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126216"
+],
+"cvss": 3.8,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126216",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:19Z",
+"reasons": [
+"matches Fortinet FortiManager (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper privilege management vulnerability in Fortinet FortiManager 8.0.0, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through 7.4.11, FortiManager 7.2.0 through 7.2.12, FortiManager Cloud 8.0.0 through 8.0.1, FortiManager Cloud 7.6.0 through 7.6.7, FortiManager Cloud 7.4.1 through…",
+"title": "CVE-2026-126216: A improper privilege management vulnerability in Fortinet FortiManager 8.0.0, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126216",
+"vendor_matches": [
+{
+"points": 3,
+"term": "FortiManager",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126217"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126217",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:19Z",
+"reasons": [
+"CVSS 8.7",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A incorrect authorization vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer Cloud…",
+"title": "CVE-2026-126217: A incorrect authorization vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126217",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126218"
+],
+"cvss": 8.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126218",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:19Z",
+"reasons": [
+"CVSS 8.2",
+"matches Fortinet FortiManager (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A authorization bypass through user-controlled key vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through 7.4.11 may allow a remote authenticated attacker with admin permission to elevate their privileges to root via crafted HTTP…",
+"title": "CVE-2026-126218: A authorization bypass through user-controlled key vulnerability in Fortinet FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.0 through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126218",
+"vendor_matches": [
+{
+"points": 3,
+"term": "FortiManager",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126219"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126219",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:19Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer Cloud 8.0.0, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer Cloud 7.4.1…",
+"title": "CVE-2026-126219: A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiAnalyzer 8.0.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126219",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126220"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126220",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:19Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet FortiManager (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements in output used by a downstream component ('injection') vulnerability in Fortinet FortiManager 8.0.0, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through 7.4.11 may allow an authenticated administrator to read or write arbitrary files or execute…",
+"title": "CVE-2026-126220: A improper neutralization of special elements in output used by a downstream component ('injection') vulnerability in Fortinet FortiManager…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126220",
+"vendor_matches": [
+{
+"points": 3,
+"term": "FortiManager",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126221"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126221",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:19Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements in output used by a downstream component ('injection') vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer Cloud 8.0.0, FortiAnalyzer Cloud 7.6.0 through 7.6.7…",
+"title": "CVE-2026-126221: A improper neutralization of special elements in output used by a downstream component ('injection') vulnerability in Fortinet…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126221",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126222"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126222",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:20Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet FortiManager (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.3 through 7.6.7, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.3 through 7.6.7, FortiManager 8.0.0 through 8.0.1…",
+"title": "CVE-2026-126222: A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiAnalyzer 8.0.0 through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126222",
+"vendor_matches": [
+{
+"points": 3,
+"term": "FortiManager",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126223"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126223",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:20Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet FortiManager (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A stack-based buffer overflow vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer Cloud 7.4.1 through 7.4.11, FortiManager…",
+"title": "CVE-2026-126223: A stack-based buffer overflow vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126223",
+"vendor_matches": [
+{
+"points": 3,
+"term": "FortiManager",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126224"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126224",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:20Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of argument delimiters in a command ('argument injection') vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.0, FortiAnalyzer Cloud 7.6.0 through…",
+"title": "CVE-2026-126224: A improper neutralization of argument delimiters in a command ('argument injection') vulnerability in Fortinet FortiAnalyzer 8.0.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126224",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126225"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126225",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:20Z",
+"reasons": [
+"CVSS 7.1",
+"matches Fortinet FortiManager (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A missing authorization vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.7, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.7, FortiManager 8.0.0 through 8.0.1, FortiManager 7.6.7, FortiManager Cloud 8.0.0 through 8.0.1, FortiManager Cloud 7.6.7 may…",
+"title": "CVE-2026-126225: A missing authorization vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.7, FortiAnalyzer Cloud 8.0.0 through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126225",
+"vendor_matches": [
+{
+"points": 3,
+"term": "FortiManager",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126226"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126226",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:20Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.0, FortiAnalyzer Cloud 7.6.0…",
+"title": "CVE-2026-126226: A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiAnalyzer 8.0.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126226",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126227"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126227",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:21Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A unintended proxy or intermediary ('confused deputy') vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7…",
+"title": "CVE-2026-126227: A unintended proxy or intermediary ('confused deputy') vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126227",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126228"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126228",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:21Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A out-of-bounds write vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.4 through 7.2.12, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer Cloud 7.4.1…",
+"title": "CVE-2026-126228: A out-of-bounds write vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126228",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126230"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126230",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:21Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A use of externally-controlled format string vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7…",
+"title": "CVE-2026-126230: A use of externally-controlled format string vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126230",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126231"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126231",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:21Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2 all versions, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer…",
+"title": "CVE-2026-126231: A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiAnalyzer 8.0.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126231",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126232"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126232",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:22Z",
+"reasons": [
+"CVSS 7.5",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper certificate validation vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2 all versions, FortiAnalyzer Cloud 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7, FortiAnalyzer Cloud 7.4.1 through…",
+"title": "CVE-2026-126232: A improper certificate validation vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126232",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126233"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126233",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:22Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A unrestricted upload of file with dangerous type vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.0 through 8.0.1, FortiAnalyzer Cloud 7.6.0 through 7.6.7…",
+"title": "CVE-2026-126233: A unrestricted upload of file with dangerous type vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126233",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126234"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126234",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:22Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet FortiManager (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements used in a template engine vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer Cloud 8.0.0, FortiManager 8.0.0, FortiManager Cloud 8.0.0 may allow an authenticated attacker with restricted privileges to execute unauthorized code or commands via…",
+"title": "CVE-2026-126234: A improper neutralization of special elements used in a template engine vulnerability in Fortinet FortiAnalyzer 8.0.0, FortiAnalyzer Cloud…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126234",
+"vendor_matches": [
+{
+"points": 3,
+"term": "FortiManager",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126235"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126235",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:22Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.2 through 7.6.7, FortiAnalyzer 7.4.7 through 7.4.11, FortiAnalyzer 7.2.10 through 7.2.12, FortiAnalyzer Cloud 8.0.0 through 8.0.1…",
+"title": "CVE-2026-126235: A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiAnalyzer 8.0.0 through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126235",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126236"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126236",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:22Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiAnalyzer 8.0.0 through 8.0.1, FortiAnalyzer 7.6.0 through 7.6.7, FortiAnalyzer 7.4.0 through 7.4.11, FortiAnalyzer 7.2.0 through 7.2.12, FortiAnalyzer Cloud 8.0.1…",
+"title": "CVE-2026-126236: A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiAnalyzer 8.0.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126236",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126237"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126237",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:23Z",
+"reasons": [
+"CVSS 7.5",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A loop with unreachable exit condition ('infinite loop') vulnerability in Fortinet FortiAuthenticator 8.0.0 through 8.0.3, FortiAuthenticator 6.6.0 through 6.6.10 may allow an attacker to cause a denial of service via crafted TCP requests.",
+"title": "CVE-2026-126237: A loop with unreachable exit condition ('infinite loop') vulnerability in Fortinet FortiAuthenticator 8.0.0 through 8.0.3…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126237",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126240"
+],
+"cvss": 8.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126240",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:23Z",
+"reasons": [
+"CVSS 8.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements used in an ldap query ('ldap injection') vulnerability in Fortinet FortiAuthenticator 8.0.0 through 8.0.3, FortiAuthenticator 6.6.0 through 6.6.10 may allow an authenticated attacker to bypass authentication. Successful exploitation requires either a…",
+"title": "CVE-2026-126240: A improper neutralization of special elements used in an ldap query ('ldap injection') vulnerability in Fortinet FortiAuthenticator 8.0.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126240",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126241"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126241",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:23Z",
+"reasons": [
+"CVSS 8.8",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiAuthenticator 8.0.0 through 8.0.3, FortiAuthenticator 6.6.0 through 6.6.10 may allow an authenticated attacker to execute unauthorized SQL commands on the underlying database.",
+"title": "CVE-2026-126241: A improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiAuthenticator 8.0.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126241",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126242"
+],
+"cvss": 7.4,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126242",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:23Z",
+"reasons": [
+"CVSS 7.4",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A incorrect authorization vulnerability in Fortinet FortiAuthenticator 8.0.0 through 8.0.3, FortiAuthenticator 6.6.0 through 6.6.10 may allow an attacker to bypass authentication and gain unauthorized access. Full impersonation however requires the attacker to obtain pre-required id and data via…",
+"title": "CVE-2026-126242: A incorrect authorization vulnerability in Fortinet FortiAuthenticator 8.0.0 through 8.0.3, FortiAuthenticator 6.6.0 through 6.6.10 may…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126242",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126243"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126243",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:24Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A incorrect authorization vulnerability in Fortinet FortiAuthenticator 8.0.0 through 8.0.3, FortiAuthenticator 6.6.0 through 6.6.10 may allow an attacker to bypass authentication and gain unauthorized access. Full impersonation however requires the attacker to obtain pre-required id and data via…",
+"title": "CVE-2026-126243: A incorrect authorization vulnerability in Fortinet FortiAuthenticator 8.0.0 through 8.0.3, FortiAuthenticator 6.6.0 through 6.6.10 may…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126243",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126247"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126247",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:24Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A use of externally-controlled format string vulnerability in Fortinet FortiAuthenticator 8.0.0 through 8.0.3, FortiAuthenticator 6.6.0 through 6.6.10 may allow an authenticated privileged attacker to execute unauthorized code or commands via http requests.",
+"title": "CVE-2026-126247: A use of externally-controlled format string vulnerability in Fortinet FortiAuthenticator 8.0.0 through 8.0.3, FortiAuthenticator 6.6.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126247",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126249"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126249",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:24Z",
+"reasons": [
+"CVSS 7.2",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper privilege management vulnerability in Fortinet FortiAuthenticator 8.0.0 through 8.0.3, FortiAuthenticator 6.6.0 through 6.6.10 may allow an authenticated attacker to escalate privileges.",
+"title": "CVE-2026-126249: A improper privilege management vulnerability in Fortinet FortiAuthenticator 8.0.0 through 8.0.3, FortiAuthenticator 6.6.0 through 6.6.10…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126249",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126252"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126252",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:25Z",
+"reasons": [
+"CVSS 8.3",
+"matches Fortinet (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiAuthenticator 8.0.0 through 8.0.3, FortiAuthenticator 6.6.0 through 6.6.10 may allow an authenticated attacker to execute unauthorized code or commands via http requests",
+"title": "CVE-2026-126252: A improper neutralization of special elements used in an sql command ('sql injection') vulnerability in Fortinet FortiAuthenticator 8.0.0…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126252",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Fortinet",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126255"
+],
+"cvss": 7.4,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126255",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:25Z",
+"reasons": [
+"CVSS 7.4",
+"matches Fortinet FortiOS (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A path traversal: '../filedir' vulnerability in Fortinet FortiOS 8.0.0 through 8.0.1, FortiOS 7.6.0 through 7.6.7, FortiOS 7.4.0 through 7.4.12, FortiOS 7.2.0 through 7.2.13, FortiPAM 1.6 all versions, FortiPAM 1.5 all versions, FortiPAM 1.4 all versions, FortiPAM 1.3 all versions, FortiPAM 1.2 all…",
+"title": "CVE-2026-126255: A path traversal: '../filedir' vulnerability in Fortinet FortiOS 8.0.0 through 8.0.1, FortiOS 7.6.0 through 7.6.7, FortiOS 7.4.0 through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126255",
+"vendor_matches": [
+{
+"points": 3,
+"term": "FortiOS",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126256"
+],
+"cvss": 7.4,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-126256",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:25Z",
+"reasons": [
+"CVSS 7.4",
+"matches Fortinet FortiOS (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A out-of-bounds read vulnerability in Fortinet FortiOS 8.0.0 through 8.0.1, FortiOS 7.6.0 through 7.6.7, FortiOS 7.4 all versions, FortiOS 7.2 all versions, FortiOS 7.0 all versions may allow a remote privileged attacker to execute arbitrary code or command via crafted paquets.",
+"title": "CVE-2026-126256: A out-of-bounds read vulnerability in Fortinet FortiOS 8.0.0 through 8.0.1, FortiOS 7.6.0 through 7.6.7, FortiOS 7.4 all versions, FortiOS…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126256",
+"vendor_matches": [
+{
+"points": 3,
+"term": "FortiOS",
+"tier": 1,
+"vendor": "Fortinet"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-65949"
+],
+"cvss": 8.6,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-65949",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:17:27Z",
+"reasons": [
+"CVSS 8.6",
+"matches Microsoft Windows (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper neutralization of special elements used in an OS command in Lenovo XClarity Integrator for Microsoft Windows Admin Center 5.1.1 and 5.2.0 allows an authenticated remote attacker to execute arbitrary PowerShell commands by submitting a crafted hostname.",
+"title": "CVE-2026-65949: Improper neutralization of special elements used in an OS command in Lenovo XClarity Integrator for Microsoft Windows Admin Center 5.1.1…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65949",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116617"
+],
+"cvss": 8.1,
+"epss": 0.00492,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-116617",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.1",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "stylemix Motors – Car Dealership & Classified Listings. The Motors – Car Dealership & Classified Listings Plugin plugin for WordPress is vulnerable to File Deletion in all versions up to, and including, 1.4.128 The vulnerability exists because `stm_save_user_extra_fields()`, hooked to…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-116617: StylemixThemes Motors - Car Dealer & Classified Ads Plugin (WordPress) Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116617"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-66609"
+],
+"cvss": 9.3,
+"epss": 0.004,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-66609",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-12",
+"published": "2026-11-11T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.3",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "CodexThemes TheGem (Elementor). Unauthenticated SQL Injection in TheGem (Elementor) <= 5.12.3 versions.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-66609: codexthemes thegem_elementor Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66609"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-15983"
+],
+"epss": 0.00522,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "CVE-2026-15983",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "WebRehab Super Forms – Drag & Drop Form Builder. The Super Forms – Drag & Drop Form Builder plugin for WordPress is vulnerable to Arbitrary File/Directory Deletion in all versions up to, and including, 6.3.316. This is due to the `super_save_form` AJAX handler performing no capability check —…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-15983: External Control of File Name or Path",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15983"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-0323"
+],
+"cvss": 1.1,
+"first_seen": "2026-11-11T18:43:51Z",
+"id": "CVE-2026-0323",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-12",
+"published": "2026-11-11T17:00:00Z",
+"reasons": [
+"unauthenticated",
+"matches Palo Alto Networks (Tier 1)"
+],
+"route": "digest",
+"score": 6,
+"source": "Palo Alto Networks",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Palo Alto Networks"
+],
+"summary": "A server-side request forgery vulnerability in Palo Alto Networks Checkov by Prisma® Cloud enables a local unauthenticated user to make unauthorized network requests from host to internal services.",
+"title": "CVE-2026-0323 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+"url": "https://security.paloaltonetworks.com/CVE-2026-0323",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Palo Alto Networks",
+"tier": 1,
+"vendor": "Palo Alto Networks"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "73f68dfae39ccfcb489216836fc47f9636c662a57e4024a0673615db3275c812",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-12",
+"published": "2026-11-11T23:01:31Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
+"title": "Baker Tilly notifies clients of data breach at third-party provider",
+"url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/"
+},
+{
+"category": "tech",
+"coverage_count": 2,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "68813ec6e270d6fd568833f1c5918250f48ae92c54db8f9ad0bf732fac737a80",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T22:31:06Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News",
+"The Verge"
+],
+"summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was…",
+"tags": [
+"hn"
+],
+"title": "Nvidia is preparing to oust Jensen Huang",
+"url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "8ce1e4c4071264ce71a8d85333e20c5a69d2908f051d82a3aa0e5ad9138526e2",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T18:21:38Z",
+"reasons": [
+"matches AWS (Tier 3)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "AWS emulator",
+"url": "https://github.com/aws/aws-emulator",
+"vendor_matches": [
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+],
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "4b022e0cd5de2a5a8a861f78b177577c33935c8beb4bcaef49c22fe6dabf37ff",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T07:03:17Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Tim Peters has died",
+"url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "7615e3cf81115781546e7a4fe5d117789db9cc0a65787816bcaeca31adc6b165",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T21:24:35Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+"url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "9275259f7eab1d250f6512be21908d3896cddc38a3f8eeb570ba74d413d78005",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T16:38:44Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+"url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-12T01:03:20Z",
+"id": "91fb13168df04559a12321866efefd2cd0aa25d036b10cdecc6ce558cbb15be1",
+"last_seen": "2026-11-12",
+"published": "2026-11-11T12:05:22Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "My AI agents found an unmapped Maya site?",
+"url": "https://pietromiotti.com/latest/maya-site",
+"weight": 3
 }
 ]
