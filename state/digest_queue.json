@@ -684,37 +684,6 @@
 "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4348"
 },
 {
-"category": "vulnerabilities",
-"coverage_count": 2,
-"cve_ids": [
-"CVE-2026-123039"
-],
-"cvss": 7.8,
-"first_seen": "2026-11-12T16:51:40Z",
-"id": "CVE-2026-123039",
-"last_seen": "2026-11-12",
-"published": "2026-11-12T00:00:00Z",
-"reasons": [
-"new VulnCheck KEV",
-"CVSS 7.8",
-"capped: not on watchlist"
-],
-"route": "digest",
-"score": 6,
-"source": "VulnCheck KEV",
-"source_type": "vulncheck_kev",
-"sources": [
-"NVD",
-"VulnCheck KEV"
-],
-"summary": "checkpoint quantum_security_management. The Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket (/tmp/dynamic_socket) without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
-"tags": [
-"vulncheck_kev"
-],
-"title": "CVE-2026-123039: checkpoint quantum_security_management Incorrect Permission Assignment for Critical Resource",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
-},
-{
 "category": "security",
 "coverage_count": 1,
 "first_seen": "2026-11-12T16:51:40Z",
@@ -3988,5 +3957,1008 @@
 "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
 "url": "https://github.com/simpsoka/zigzag",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-107411"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-107411",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T03:17:28Z",
+"reasons": [
+"CVSS 8.7",
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow in RTSP ALG can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler",
+"title": "CVE-2026-107411: Memory overflow in RTSP ALG can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107411",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-107413"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-107413",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T03:17:28Z",
+"reasons": [
+"CVSS 8.7",
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow in SAML authentication can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"title": "CVE-2026-107413: Memory overflow in SAML authentication can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107413",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-107414"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-107414",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T03:17:29Z",
+"reasons": [
+"CVSS 8.7",
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow in WebAuth authentication can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"title": "CVE-2026-107414: Memory overflow in WebAuth authentication can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107414",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111340"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-111340",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T04:17:36Z",
+"reasons": [
+"CVSS 8.7",
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow in KBA (knowledge-based authentication) can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"title": "CVE-2026-111340: Memory overflow in KBA (knowledge-based authentication) can lead to unpredictable or erroneous behavior or Denial of Service in Citrix…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111340",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111341"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-111341",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T04:17:36Z",
+"reasons": [
+"CVSS 8.7",
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow in client-certificate authentication can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"title": "CVE-2026-111341: Memory overflow in client-certificate authentication can lead to unpredictable or erroneous behavior or Denial of Service in Citrix…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111341",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111342"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-111342",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T04:17:36Z",
+"reasons": [
+"CVSS 8.7",
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow in LDAP authentication can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"title": "CVE-2026-111342: Memory overflow in LDAP authentication can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111342",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111333"
+],
+"cvss": 6.9,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-111333",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T08:17:15Z",
+"reasons": [
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow in an authentication request can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"title": "CVE-2026-111333: Memory overflow in an authentication request can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111333",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111335"
+],
+"cvss": 6.9,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-111335",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T08:17:15Z",
+"reasons": [
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper request handling can lead to a denial-of-service / reboot-loop condition in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"title": "CVE-2026-111335: Improper request handling can lead to a denial-of-service / reboot-loop condition in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111335",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111336"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-111336",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T08:17:15Z",
+"reasons": [
+"CVSS 8.3",
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow in HTTP/2 handling can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"title": "CVE-2026-111336: Memory overflow in HTTP/2 handling can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111336",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111337"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-111337",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T08:17:15Z",
+"reasons": [
+"CVSS 8.7",
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow in Base64 decoding in advanced policy expressions leading to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"title": "CVE-2026-111337: Memory overflow in Base64 decoding in advanced policy expressions leading to unpredictable or erroneous behavior or Denial of Service in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111337",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111338"
+],
+"cvss": 6.9,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-111338",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T08:17:16Z",
+"reasons": [
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Sensitive authentication material written to a log file in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"title": "CVE-2026-111338: Sensitive authentication material written to a log file in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111338",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111339"
+],
+"cvss": 6.9,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-111339",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T08:17:16Z",
+"reasons": [
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow in Application Firewall data decompression/inspection can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"title": "CVE-2026-111339: Memory overflow in Application Firewall data decompression/inspection can lead to unpredictable or erroneous behavior or Denial of Service…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111339",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120860"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-120860",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T08:17:16Z",
+"reasons": [
+"CVSS 8.7",
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow in protocol load-balancing traffic handling (Diameter, SIP-over-TCP, MQTT, RADIUS) can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"title": "CVE-2026-120860: Memory overflow in protocol load-balancing traffic handling (Diameter, SIP-over-TCP, MQTT, RADIUS) can lead to unpredictable or erroneous…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120860",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120861"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-120861",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T08:17:16Z",
+"reasons": [
+"CVSS 8.7",
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow / improper handling in GSLB and geolocation (MEP, static-proximity, config-sync) can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler",
+"title": "CVE-2026-120861: Memory overflow / improper handling in GSLB and geolocation (MEP, static-proximity, config-sync) can lead to unpredictable or erroneous…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120861",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120862"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-120862",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T08:17:16Z",
+"reasons": [
+"CVSS 8.7",
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow in SIP ALG (LSN) and DNS answer-section logging datapaths can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler",
+"title": "CVE-2026-120862: Memory overflow in SIP ALG (LSN) and DNS answer-section logging datapaths can lead to unpredictable or erroneous behavior or Denial of…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120862",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120863"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-120863",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T08:17:17Z",
+"reasons": [
+"CVSS 8.7",
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow in the management plane can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"title": "CVE-2026-120863: Memory overflow in the management plane can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120863",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120865"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-120865",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T09:17:34Z",
+"reasons": [
+"CVSS 8.7",
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow in HTTP/3 (QUIC) can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"title": "CVE-2026-120865: Memory overflow in HTTP/3 (QUIC) can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120865",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120866"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-120866",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T09:17:34Z",
+"reasons": [
+"CVSS 7.7",
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow / improper handling in BGP dynamic routing can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"title": "CVE-2026-120866: Memory overflow / improper handling in BGP dynamic routing can lead to unpredictable or erroneous behavior or Denial of Service in Citrix…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120866",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120867"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-120867",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T09:17:34Z",
+"reasons": [
+"CVSS 8.7",
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow in SSL/TLS/DTLS can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+"title": "CVE-2026-120867: Memory overflow in SSL/TLS/DTLS can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120867",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-124010"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "CVE-2026-124010",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": ". XWEB EVO before 5.6.2 contains a command injection vulnerability that allows unauthenticated remote attackers to execute arbitrary commands as root by exploiting the setuid-root CGI xwconsole.cgi. Attackers can supply malicious input through the sh parameter, which is passed unsanitized to…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-124010: Improper Neutralization of Special Elements used in an OS Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124010"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "a23411b2405f1203dff3dccf39976af140befe233c0e07745b0ff0ab1fd35274",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T08:05:49Z",
+"reasons": [
+"matches Check Point (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS to deploy a backdoor called TSGA. The activity, detailed by Check Point…",
+"title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+"url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Check Point",
+"tier": 1,
+"vendor": "Check Point"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "ff29ea22b44a2c1571849bf7702925c43fdde9e8b514a19de9de20c1e7a41d83",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T09:36:56Z",
+"reasons": [
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Successful exploitation could lead to unexpected behavior or denial-of-service (DoS) conditions. The post Citrix Patches 10 Critical NetScaler Vulnerabilities appeared first on SecurityWeek .",
+"title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
+"url": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "6f9b0cdc8acdc5850fd9e21c3db48fe33eb8b1da98a12fa6b5d0350f566cc429",
+"keyword_hits": [
+"zero-day"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T08:50:36Z",
+"reasons": [
+"zero-day",
+"matches Microsoft Windows (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "It abuses CLFS and Windows Defender to trigger arbitrary file creation in the context of the antimalware process. The post Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’ appeared first on SecurityWeek .",
+"title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
+"url": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "e503034780be9714db4ec452674269d2e2c59a382e3e2c12d5ee2299604495c3",
+"keyword_hits": [
+"zero-day",
+"unauthenticated"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T07:20:50Z",
+"reasons": [
+"zero-day",
+"matches N-able N-central (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Dubbed 4EverAble2Shell, the flaw could allow remote, unauthenticated attackers to execute code with root privileges. The post Hackers Exploit New N-central Zero-Day Hours After PoC Publication appeared first on SecurityWeek .",
+"title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
+"url": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-central",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "d5055ee5fbbfa41e9e97cc7db77a0adff07d822050098a93943a5bfb0be82651",
+"last_seen": "2026-11-13",
+"published": "2026-11-12T19:05:33Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
+"url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "d5eee998d4a7fbcc97be469903dcfa225a7eeb1920adbd4df10c8ca5d0d9a909",
+"last_seen": "2026-11-13",
+"published": "2026-11-12T15:23:10Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "I'm making LLMs work on small and old devices",
+"url": "https://github.com/hyperionaidev/smolmaxxing/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "ec8c313feeb5b26e5bacc50377b780c0c594935b4a22dc4e3e40e976223c7f04",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T02:16:24Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Nvidia employees petition to bring back Jensen Huang",
+"url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "84b504766e0e8a62e1ce6d5da9ec2e5f07625e05ed42cd1608b8af5eb64438af",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T07:01:43Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "Hall has been seeking a US visa in South Africa as other African beauty queens face similar hurdles.",
+"title": "African Miss Universe beauty queens in limbo as US visa restrictions bite",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.bbc.co.uk/news/articles/cklyw3neqg2wo",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "dad7b5d5931006b5730142d3a69bb57f903daa1d24a4baf9327d084492c42c38",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T09:41:26Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rehabilitation of five wetlands in Kigali will reduce flood risks for more than 220,000 residents while creating public green spaces, jobs and livelihood opportunities, Prime Minister Justin Nsengiyumva said at the 31st UN Climate Change Conference (COP31) in Türkiye.",
+"title": "Kigali Wetlands Will Protect 220,000 People From Floods, Says PM",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611130159.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "4683b51d682932c58775c4b4cf86b2b0a225cb39842cd2e53f965ef3dcf00ff1",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T09:41:26Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The deportation of Jean-Léonard Teganya from the United States to Rwanda is another step towards accountability for perpetrators of the 1994 Genocide against the Tutsi, says the Minister of National Unity and Civic Engagement Jean-Damascène Bizimana.",
+"title": "Minister Bizimana On US-Deported Tenganya - 'He Was a Cruel Killer and Rapist'",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611130160.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "5b23acbc4c3e54896dbdb790fe9ee98de5877c4339e03eb244be03274a9de80c",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T05:39:27Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] President Paul Kagame and First Lady Jeannette Kagame are in Cambodia for a state visit expected to open new opportunities for cooperation with Rwanda in trade, investment, aviation and tourism.",
+"title": "What to Know About Cambodia As Kagame Visits",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611130045.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-13T10:06:31Z",
+"id": "0a7de16fb11e3370cbd5e68bc58326d90ef670e3b1108878270d141ee68e850d",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T05:14:31Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The deportation of Jean-Léonard Teganya from the United States on November 9 brings to eight the number of people deported from the US to Rwanda in connection with alleged or proven involvement in the 1994 Genocide against the Tutsi.",
+"title": "A Look At Genocide Suspects Deported From the U.S.",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611130018.html",
+"weight": 1
 }
 ]
