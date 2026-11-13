@@ -1,1 +1,979 @@
-[]
+[
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-56944"
+],
+"cvss": 7.8,
+"epss": 0.00125,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "CVE-2026-56944",
+"last_seen": "2026-11-13",
+"published": "2026-11-10T20:19:16Z",
+"reasons": [
+"CVSS 7.8",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In smmu_detach_dev of private/google-modules/iommu/arm-smmu-v3/drivers/iommu/arm/arm-smmu-v3/pkvm/arm-smmu-v3.c, there is a possible Use After Free due to a logic error in the code. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not…",
+"title": "CVE-2026-56944: In smmu_detach_dev of private/google-modules/iommu/arm-smmu-v3/drivers/iommu/arm/arm-smmu-v3/pkvm/arm-smmu-v3.c, there is a possible Use…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56944",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-128334"
+],
+"cvss": 6.3,
+"epss": 0.00464,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "CVE-2026-128334",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T10:18:13Z",
+"reasons": [
+"unauthenticated",
+"matches Azure (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "listmonk 6.2.0 before 7.0.0-beta.2 contains a missing authentication vulnerability that allows unauthenticated attackers to submit Azure Event Grid bounce webhooks when no shared secret is configured. Attackers can POST forged EmailDeliveryReportReceived events with Bounced status to…",
+"title": "CVE-2026-128334: listmonk 6.2.0 before 7.0.0-beta.2 contains a missing authentication vulnerability that allows unauthenticated attackers to submit Azure…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128334",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Azure",
+"tier": 3,
+"vendor": "Azure"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-108291"
+],
+"cvss": 9.8,
+"epss": 0.00444,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "CVE-2026-108291",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "itthinx Affiliates. Deserialization of Untrusted Data vulnerability in itthinx Affiliates affiliates allows Object Injection.This issue affects Affiliates: from n/a through 7.0.1.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-108291: itthinx affiliates Deserialization of Untrusted Data",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108291"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-100386"
+],
+"cvss": 7.5,
+"epss": 0.00835,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "CVE-2026-100386",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.5",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Themefic Ultra Addons for Contact Form 7. The Ultra Addons for Contact Form 7 plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 3.5.54 via the uacf7_wpcf7_mail_components function. This makes it possible for unauthenticated attackers to read the…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-100386: Themefic ultimate_addons_for_contact_form_7 Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100386"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-6510"
+],
+"epss": 0.00439,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "CVE-2026-6510",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Infused Addons InfusedWoo Pro. The InfusedWoo Pro plugin for WordPress is vulnerable to privilege escalation via missing authorization in all versions up to, and including, 5.1.2. This is due to missing nonce verification and capability checks in the iwar_save_recipe() AJAX handler. This makes it…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-6510: infusedaddons infusedwoo_pro Missing Authorization",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6510"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111402"
+],
+"epss": 0.00349,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "CVE-2026-111402",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Tribulant Software Newsletters. Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Tribulant Software Newsletters newsletters-lite allows SQL Injection.This issue affects Newsletters: from n/a through 4.18.1.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-111402: tribulant newsletters Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111402"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-6514"
+],
+"epss": 0.00271,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "CVE-2026-6514",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Infused Addons InfusedWoo Pro. The InfusedWoo Pro plugin for WordPress is vulnerable to Arbitrary File Read in all versions up to, and including, 5.1.2 via the popup_submit. This makes it possible for unauthenticated attackers to make web requests to arbitrary locations originating from the web…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-6514: infusedaddons infusedwoo_pro Server-Side Request Forgery",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6514"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-53753"
+],
+"epss": 0.0243,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "CVE-2026-53753",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "kidocode crawl4ai. Crawl4AI is an open-source LLM friendly web crawler & scraper. Prior to 0.8.7, the _safe_eval_expression() function in the computed fields feature uses an AST validator that only blocks attributes starting with underscore. Python generator and frame object attributes (gi_frame…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-53753: kidocode crawl4ai Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53753"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-110628"
+],
+"epss": 0.00425,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "CVE-2026-110628",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "kanbn Kan. Kan 0.5.5 through 0.6.0 contains an unauthenticated server-side request forgery vulnerability in the /api/download/attatchment route due to an incomplete fix for CVE-2026-32255. When S3_ENDPOINT is unset, attackers can pass arbitrary url query parameters to fetch() to read internal…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-110628: kan kan Server-Side Request Forgery",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110628"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-9488"
+],
+"epss": 0.00811,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "CVE-2024-9488",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "gvectors wpdiscuz. The Comments – wpDiscuz plugin for WordPress is vulnerable to authentication bypass in all versions up to, and including, 7.6.24. This is due to insufficient verification on the user being returned by the social login token. This makes it possible for unauthenticated attackers to…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-9488: gvectors wpdiscuz Authentication Bypass Using an Alternate Path or Channel",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-9488"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2024-58406"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "CVE-2024-58406",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.7",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Dalian Huatian Software Co., Ltd. Huatian Dynamic OA8000. Huatian Dynamic OA8000 collaborative office system contains an unauthenticated path traversal vulnerability in /OAapp/jsp/trace/ntkodownload.jsp, where the filename request parameter is used to locate a file without restricting access to an…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-58406: Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58406"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-124218"
+],
+"cvss": 8.2,
+"epss": 0.01019,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "CVE-2026-124218",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.2",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "addonsorg Drag and Drop File Upload for Elementor Forms. The Drag and Drop File Upload for Elementor Forms plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the remove_files function in all versions up to, and including, 1.6.2 This makes it…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-124218: add-ons.org drag_and_drop_file_upload_for_elementor_forms Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124218"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-95870"
+],
+"epss": 0.00322,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "CVE-2026-95870",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "tomdever wpForo Forum. The wpForo Forum plugin for WordPress is vulnerable to generic SQL Injection via the 'data' parameter in all versions up to, and including, 3.2.1 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-95870: gvectors wpforo_forum Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95870"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-39506"
+],
+"epss": 0.00818,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "CVE-2025-39506",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "NasaTheme Nasa Core. Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in NasaTheme Nasa Core nasa-core allows PHP Local File Inclusion.This issue affects Nasa Core: from n/a through <= 6.3.2.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-39506: nasatheme nasa_core Improper Control of Filename for Include/Require Statement in PHP Program",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39506"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-112820"
+],
+"epss": 0.00438,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "CVE-2026-112820",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Elated-Themes Academist Core. Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Elated-Themes Academist Core academist-core allows PHP Local File Inclusion.This issue affects Academist Core: from n/a through 1.4.1.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-112820: elated-themes academist_core Improper Control of Filename for Include/Require Statement in PHP Program",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112820"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "502445ac41cb3a5d6331e9fa3deda9ddcfee254bae938b4890221af4a9f26c52",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T16:21:43Z",
+"reasons": [
+"matches Check Point (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
+"title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+"url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Check Point",
+"tier": 1,
+"vendor": "Check Point"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "0b455e92c4dd5cf2e61654d030db9c08f734f9472a60ed041b8eba6db1bd24ce",
+"keyword_hits": [
+"zero-day"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T10:44:22Z",
+"reasons": [
+"zero-day",
+"matches Check Point (Tier 1)"
+],
+"route": "digest",
+"score": 6,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
+"title": "Check Point warns of zero-day flaw exploited for root access",
+"url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Check Point",
+"tier": 1,
+"vendor": "Check Point"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-6460"
+],
+"epss": 0.0059,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "71a7a7e9b09ef5153b904c33a60a8e1c0014018132d4a63b516dc15508976da7",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T16:53:08Z",
+"reasons": [
+"RCE"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked…",
+"title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+"url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "bd985cea6b644314146d0e1131269ddea6c61aa62ea9645750ea8283a9dd50e1",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T10:55:03Z",
+"reasons": [
+"ransomware"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging to more than 40,000…",
+"title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+"url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "4bd558b54a073b070b101faf66df217e132b4c42eef8803004eff53c7a1be910",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T15:20:00Z",
+"reasons": [
+"data breach",
+"matches Microsoft (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach appeared first on…",
+"title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+"url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "e7cf823e49fe852facc7abccf328e525d2c3d91b88e6e1343474d5391574fb24",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T15:59:00Z",
+"reasons": [
+"ransomware"
+],
+"route": "digest",
+"score": 3,
+"source": "The Record",
+"source_type": "rss",
+"sources": [
+"The Record"
+],
+"summary": "In a briefing adjacent to European announcements about an international anti-malware operation, U.S. officials detailed the history and impact of the Gootloader ransomware.",
+"title": "DOJ: Gootloader used in at least 44 ransomware attacks costing $29 million since 2018",
+"url": "https://therecord.media/gootloader-ransomware-doj-details"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "33e3e4ff0f163b7e4008da831a6aec85862420c366f21a21e120bfb535230f6c",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T15:06:00Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "The Record",
+"source_type": "rss",
+"sources": [
+"The Record"
+],
+"summary": "An investigation into the breach found that no TSMC systems were compromised but the information was “verified to match data stored in the system services of a cloud service provider, but is unrelated to the company’s operations or customer-related data.”",
+"title": "TSMC confirms employee data breach tied to cloud service provider",
+"url": "https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "6ae138df531cbc66572b58c97acfa57fbeb0f0eac764bbb478093c589ddd2a54",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T14:28:00Z",
+"reasons": [
+"ransomware"
+],
+"route": "digest",
+"score": 3,
+"source": "The Record",
+"source_type": "rss",
+"sources": [
+"The Record"
+],
+"summary": "ActiveCloud said hackers had breached its systems and encrypted parts of its cloud infrastructure, leaving customers unable to access key services for several days.",
+"title": "Ransomware attack on Belarusian cloud firm disrupts businesses for days",
+"url": "https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "95bd3081964d09f25df25b560df5e69b832d33bc723408bb6eca506f0b3c44bf",
+"last_seen": "2026-11-13",
+"published": "2026-11-12T22:03:09Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Reverse engineering my Coway air purifier to ditch the cloud",
+"url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "d0c0ce43e4173f4f487680959b5a4d523604f7aa7d802388a2e7ce4f3078263f",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T12:10:24Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
+"url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "0040e4129c527b878b157fb2e7d84ad4ac15186fef71fa854644d8ab6408553b",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T04:54:53Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "IceWM",
+"url": "https://ice-wm.org/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "904690555a456f2449de485c06650f3b01a8bfdc2ed492a32a196f694c65bb40",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T10:18:13Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+"url": "https://status.claude.com/incidents/nn11wk485zfn",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "0cc7336bebfbc6084b845050cc437957f50caa63471cae86fa7c07af442d614f",
+"last_seen": "2026-11-13",
+"published": "2026-11-12T19:51:33Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+"url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "a2426fe36d5e944ea1706ff6e966323d5e63e81507da18ea661dd728c175af7e",
+"last_seen": "2026-11-13",
+"published": "2026-11-12T23:06:17Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+"url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "9a0b2d45f39c79bf900477dbd8d11ec5f86b2ae84fc4e8ac04719b6ac8fa38e7",
+"keyword_hits": [
+"0-day"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T16:26:32Z",
+"reasons": [
+"0-day",
+"matches Microsoft Windows (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Ars Technica",
+"source_type": "rss",
+"sources": [
+"Ars Technica"
+],
+"summary": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
+"title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+"url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"big_story_hits": [
+"nuclear"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "ca2a6fc641adf030e031988b0d9e24da15fa4265e2b3df2ca35004e0b6a8a7de",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T12:28:28Z",
+"reasons": [
+"big story: nuclear",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "It says it has never been able to visit a uranium enrichment plant at Isfahan which Iran announced over a year ago.",
+"title": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
+"url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko",
+"weight": 1
+},
+{
+"big_story_hits": [
+"nuclear"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "706be8b9fa96ae11dac75a438f87c128ba5d6c9a640fee29ba5dcac978a14469",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T11:51:57Z",
+"reasons": [
+"big story: nuclear",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "IAEA says it cannot verify whether an underground Iranian enrichment plant contains nuclear material.",
+"title": "UN watchdog calls on Iran to reopen nuclear facilities to inspection",
+"url": "https://www.aljazeera.com/news/2026/11/13/un-watchdog-calls-on-iran-to-reopen-nuclear-facilities-to-inspection?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "5c8a4ed210098da4ec40703bba38e10c97b7c230da0ceb094d66447616e8b318",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T17:13:16Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] I arrived in Nairobi for a continental media workshop on health investment in Africa, organised by the United Nations Economic Commission for Africa (UNECA), expecting to learn about the challenges facing health systems across the continent, the financing gaps and the search for…",
+"title": "Africa Must Rethink How It Invests in Healthcare",
+"topic_hits": [
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611130549.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-13T17:39:49Z",
+"id": "9cabf6e213d90a82b197438fd2b50d735017ddc87f3776c7ddace8f696d4117f",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T17:12:00Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwandan filmmaker Marie-Clémentine Dusabejambo has signed with Creative Artists Agency (CAA), marking another milestone in a year that has brought international recognition for her debut feature film, 'Ben'imana.'",
+"title": "Rwanda's Dusabejambo Signs With Hollywood Talent Agency CAA",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611130545.html",
+"weight": 1
+}
+]
