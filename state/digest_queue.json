@@ -3882,5 +3882,111 @@
 "title": "A live tree of systemd jobs on the boot console",
 "url": "https://codeberg.org/wvhulle/bootvine",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120868"
+],
+"cvss": 9.3,
+"first_seen": "2026-11-13T02:51:30Z",
+"id": "CVE-2026-120868",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T00:20:09Z",
+"reasons": [
+"CVSS 9.3",
+"matches Citrix NetScaler (Tier 1)"
+],
+"route": "digest",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Memory overflow in Packet Processing can lead to unpredictable or erroneous behavior or Denial of Service in NetScaler ADC and NetScaler Gateway.",
+"title": "CVE-2026-120868: Memory overflow in Packet Processing can lead to unpredictable or erroneous behavior or Denial of Service in NetScaler ADC and NetScaler…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120868",
+"vendor_matches": [
+{
+"points": 3,
+"term": "NetScaler",
+"tier": 1,
+"vendor": "Citrix"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-13T02:51:30Z",
+"id": "3cfd9f43e21db8ad034259915bbd9856cd625c648dbe45fd0ea79637bf672fc4",
+"last_seen": "2026-11-13",
+"published": "2026-11-12T18:39:05Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Rust 1.100",
+"url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-13T02:51:30Z",
+"id": "0b6e5701318c9621f098d8cdcb3261735f40f14737c3f0dd437fc252bd4a9476",
+"last_seen": "2026-11-13",
+"published": "2026-11-12T18:52:01Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Gemini 4 Hydrogen and Orchestrator",
+"url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-13T02:51:30Z",
+"id": "2d17ff39fb24b9113e85d13fa0841f4c826facec48cdf74068df65859b941e31",
+"last_seen": "2026-11-13",
+"published": "2026-11-12T17:02:42Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+"url": "https://github.com/simpsoka/zigzag",
+"weight": 3
 }
 ]
