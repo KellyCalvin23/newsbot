@@ -975,5 +975,690 @@
 ],
 "url": "https://allafrica.com/stories/202611130545.html",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123283"
+],
+"cvss": 8.1,
+"epss": 0.00227,
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-123283",
+"last_seen": "2026-11-13",
+"published": "2026-11-06T11:17:06Z",
+"reasons": [
+"CVSS 8.1",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains Datalore before 2026.4 account takeover was possible via SSO sign-in to a pre-registered account",
+"title": "CVE-2026-123283: In JetBrains Datalore before 2026.4 account takeover was possible via SSO sign-in to a pre-registered account",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123283",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-110278"
+],
+"cvss": 7.4,
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-110278",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T22:17:20Z",
+"reasons": [
+"CVSS 7.4",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "IBM ContextForge MCP Gateway 1.0.0 through 1.1.0 could allow an attacker to replay identity propagation claims signatures or expose sensitive user identity information to third-party MCP servers due to static signature payloads and missing per-gateway configuration checks during tool invocation.",
+"title": "CVE-2026-110278: IBM ContextForge MCP Gateway 1.0.0 through 1.1.0 could allow an attacker to replay identity propagation claims signatures or expose…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110278",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-9661"
+],
+"cvss": 7.3,
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-9661",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T22:17:27Z",
+"reasons": [
+"CVSS 7.3",
+"matches Linux kernel OpenSSL (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Poste Italiane Postecert FIRMAOK! 1.6.29 on Windows contains a local privilege escalation vulnerability caused by an uncontrolled OpenSSL search path, where launcher.exe and dependent executables such as updater.exe and tslupdater.exe load OpenSSL configuration and library files from a hardcoded…",
+"title": "CVE-2026-9661: Poste Italiane Postecert FIRMAOK! 1.6.29 on Windows contains a local privilege escalation vulnerability caused by an uncontrolled OpenSSL…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9661",
+"vendor_matches": [
+{
+"points": 2,
+"term": "OpenSSL",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126967"
+],
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-126967",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution",
+"matches SmarterTools SmarterMail (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-126967.",
+"title": "ZDI-26-994: SmarterTools SmarterMail File Edit API Directory Traversal Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-994/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SmarterMail",
+"tier": 3,
+"vendor": "SmarterTools"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126963"
+],
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-126963",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Hinemos Agent. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5. The following CVEs are assigned: CVE-2026-126963.",
+"title": "ZDI-26-991: Hinemos Agent Improper Certificate Validation Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-991/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126962"
+],
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-126962",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of open62541. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-126962.",
+"title": "ZDI-26-990: open62541 Subscription Use-After-Free Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-990/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126975"
+],
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-126975",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following…",
+"title": "ZDI-26-976: llama.cpp GGUF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-976/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126974"
+],
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-126974",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following…",
+"title": "ZDI-26-975: llama.cpp GGUF File Parsing Integer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-975/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-14676"
+],
+"epss": 0.00436,
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-14676",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PostgreSQL. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-14676.",
+"title": "ZDI-26-974: PostgreSQL pg_stat_statements Extension Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-974/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-110930"
+],
+"epss": 0.00354,
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-110930",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned…",
+"title": "ZDI-26-968: (Pwn2Own) OpenAI Codex GUI OpenProjectInCodex Argument Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-968/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126979"
+],
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-126979",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-126979.",
+"title": "ZDI-26-964: (Pwn2Own) Philips Hue Bridge HomeKit Accessory Protocol chacha20_decrypt Integer Underflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-964/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126978"
+],
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-126978",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-126978.",
+"title": "ZDI-26-963: (Pwn2Own) Philips Hue Bridge hap_pair_setup_handler Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-963/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-92182"
+],
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-92182",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Netgate pfSense. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92182.",
+"title": "ZDI-26-960: Netgate pfSense CE XMLRPC Incorrect Authorization Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-960/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126972"
+],
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-126972",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs…",
+"title": "ZDI-26-958: KiCad Plugin Directory Traversal Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-958/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126971"
+],
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-126971",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs…",
+"title": "ZDI-26-957: KiCad Project Archive File Handling Directory Traversal Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-957/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126970"
+],
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-126970",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs…",
+"title": "ZDI-26-956: KiCad Altium SCHLIB File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-956/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126973"
+],
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-126973",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KDE Gwenview. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-955: KDE Gwenview PNG File Parsing Integer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-955/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126976"
+],
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-126976",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.0. The following CVEs are assigned…",
+"title": "ZDI-26-954: llama.cpp MTMD Multimodal GGUF File Parsing Integer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-954/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "54120117f33713fc35089261efe96d0db9574c1df352abc930a145f0c5138113",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Linux Kernel KSMBD. Authentication may or may not be required to exploit this vulnerability, depending upon configuration. Only systems with SMB Direct enabled are vulnerable. The ZDI has assigned a…",
+"title": "ZDI-26-998: Linux Kernel KSMBD SMB Direct Integer Underflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-998/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "42106ca4577ebceaffb4d60ce17b64b5830dfda804db85ed60c1a7130f131a6e",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of EmbedThis Updater. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5.",
+"title": "ZDI-26-973: EmbedThis Updater Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-973/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "6e8f1a5f29a8990d4f1ccf1a8a8056dec885a0b41299dc5361021dd298e75074",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Windows (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Signal for Windows. User interaction is required to exploit this vulnerability in that the target must accept a malicious attachment. The ZDI has assigned a CVSS rating of 7.5.",
+"title": "ZDI-26-971: Signal for Windows Insufficient UI Warning Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-971/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "f6b61467dce2f4d7aa960a277bae2895d515b71e0b7dbe36de94564aac32af8d",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T06:00:00Z",
+"reasons": [
+"remote code execution",
+"topic: Docker"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows local attackers to execute arbitrary code on affected installations of Docker Agent. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-959: Docker Agent read_skill Missing Authorization Remote Code Execution Vulnerability",
+"topic_hits": [
+"Docker"
+],
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-959/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "7a91494eabbda5c5de3eb6d9c95589d6ddfb1c7895f7ce534b77e493be6ac334",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-13",
+"published": "2026-11-13T19:43:00Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "The Record",
+"source_type": "rss",
+"sources": [
+"The Record"
+],
+"summary": "Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.",
+"title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+"url": "https://therecord.media/city-of-osaka-japan-email-data-breach"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "e12512b9681760b8e48aa1fe14ee1476fa7056de6672d3c2c74d6e64a5d0152b",
+"last_seen": "2026-11-13",
+"published": "2026-11-13T21:05:53Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "FAA Issues National Ground Stop",
+"url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111",
+"weight": 3
 }
 ]
