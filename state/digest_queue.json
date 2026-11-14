@@ -1,1 +1,398 @@
-[]
+[
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120522"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-14T16:33:42Z",
+"id": "CVE-2026-120522",
+"last_seen": "2026-11-14",
+"published": "2026-11-14T13:17:20Z",
+"reasons": [
+"CVSS 9.8",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The Cloud Storage Manager for Fluent Forms – Google Drive, Dropbox, OneDrive, S3 Uploads plugin for WordPress is vulnerable to Arbitrary File Write in all versions up to, and including, 1.2.0. This is due to missing authorization checks on the `connection/{driver}/save` and `/download/single-file`…",
+"title": "CVE-2026-120522: The Cloud Storage Manager for Fluent Forms – Google Drive, Dropbox, OneDrive, S3 Uploads plugin for WordPress is vulnerable to Arbitrary…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120522",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-84761"
+],
+"cvss": 7.2,
+"epss": 0.00266,
+"first_seen": "2026-11-14T16:33:42Z",
+"id": "CVE-2026-84761",
+"last_seen": "2026-11-14",
+"published": "2026-11-14T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.2",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "LiteSpeed Technologies LiteSpeed Cache. Server-Side Request Forgery (SSRF) vulnerability in Hai Zheng / Lite Speed Cache LiteSpeed Cache litespeed-cache allows Server Side Request Forgery.This issue affects LiteSpeed Cache: from n/a through 7.9.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-84761: LiteSpeed Technologies LiteSpeed Cache Server-Side Request Forgery",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84761"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-118635"
+],
+"cvss": 6.5,
+"epss": 0.00435,
+"first_seen": "2026-11-14T16:33:42Z",
+"id": "CVE-2026-118635",
+"last_seen": "2026-11-14",
+"published": "2026-11-14T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "paoltaia GeoDirectory. The The GeoDirectory – WP Business Directory Plugin and Classified Listings Directory plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 2.8.198 This is due to the software allowing users to execute an action that does…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-118635: ayecode geodirectory Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118635"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-61991"
+],
+"cvss": 10.0,
+"epss": 0.00748,
+"first_seen": "2026-11-14T16:33:42Z",
+"id": "CVE-2026-61991",
+"keyword_hits": [
+"RCE",
+"remote code execution",
+"unauthenticated"
+],
+"last_seen": "2026-11-14",
+"published": "2026-11-14T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 10.0",
+"RCE",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Ajax Load More AjaxLoadMore Cache. Unauthenticated Remote Code Execution (RCE) in AjaxLoadMore Cache <= 3.1.1 versions.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-61991: ajaxloadmore ajaxloadmore_cache Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61991"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-39732"
+],
+"epss": 0.00323,
+"first_seen": "2026-11-14T16:33:42Z",
+"id": "CVE-2026-39732",
+"last_seen": "2026-11-14",
+"published": "2026-11-14T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Ivijan-Stefan Stipic Transliterator. Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in INTINITUM FORM Transliterator serbian-transliteration allows Blind SQL Injection.This issue affects Transliterator: from n/a through 2.5.13.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-39732: ivijanstefan transliterator Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39732"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-34151"
+],
+"epss": 0.02469,
+"first_seen": "2026-11-14T16:33:42Z",
+"id": "CVE-2026-34151",
+"last_seen": "2026-11-14",
+"published": "2026-11-14T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "XWiki xwiki. XWiki Platform is a generic wiki platform. Prior to 17.10.5 and 18.2.0, the /skin/ action in com.xpn.xwiki.web.SkinAction can resolve double-encoded parent-directory segments outside the intended skin or web-application resource prefix when Jetty 12 or later decodes the request path…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-34151: XWiki xwiki Path Traversal: '../filedir'",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34151"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-59514"
+],
+"epss": 0.004,
+"first_seen": "2026-11-14T16:33:42Z",
+"id": "CVE-2026-59514",
+"last_seen": "2026-11-14",
+"published": "2026-11-14T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "MightyNetworks vs BuddyBoss Buddyboss Platform. Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in BuddyBoss Buddyboss Platform buddyboss-platform allows Blind SQL Injection.This issue affects Buddyboss Platform: from n/a through 3.0.5.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-59514: buddyboss buddyboss_platform Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59514"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-13423"
+],
+"epss": 0.00963,
+"first_seen": "2026-11-14T16:33:42Z",
+"id": "CVE-2026-13423",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-14",
+"published": "2026-11-14T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Iqonic Design Streamit. The Streamit WordPress theme before 4.5.2 does not perform any authorization or nonce verification on one of its unauthenticated AJAX routes, which invokes an attacker-supplied PHP function with an attacker-supplied argument array, allowing unauthenticated attackers to call…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-13423: streamit_project streamit Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13423"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-62031"
+],
+"epss": 0.00283,
+"first_seen": "2026-11-14T16:33:42Z",
+"id": "CVE-2026-62031",
+"last_seen": "2026-11-14",
+"published": "2026-11-14T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Stylemix uListing. Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in StylemixThemes uListing ulisting allows Blind SQL Injection.This issue affects uListing: from n/a through 2.2.0.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-62031: StylemixThemes ulisting Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62031"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-14T16:33:42Z",
+"id": "d388d9f501aa4ddcfd459bbad64ff10e3f859e1f0c1477f53efba84d6bcb35fc",
+"last_seen": "2026-11-14",
+"published": "2026-11-10T14:16:05Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Why get an expensive Pi when I have an old phone?",
+"url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-14T16:33:42Z",
+"id": "dd43e9fed1ae97ae5ffbe453cdf1035201be991aaa43d803c2464eacdcd2c8ff",
+"last_seen": "2026-11-14",
+"published": "2026-11-14T02:28:29Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Ggml v1.0.0",
+"url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-14T16:33:42Z",
+"id": "47c2a874c614c728c0aa99052bc00385df775a93ecb1fb3aae0f4b12a16ce67e",
+"last_seen": "2026-11-14",
+"published": "2026-11-14T04:23:30Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Monkey Island: all 13 versions side by side",
+"url": "https://monkeyisland.pages.dev/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-14T16:33:42Z",
+"id": "33179a401183483de8edaf79efb5474905ab2fd465b63623685a89495065d48f",
+"last_seen": "2026-11-14",
+"published": "2026-11-13T23:06:40Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Terminal borders that don't cost a cell",
+"url": "https://www.joshka.net/cell-borders/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-14T16:33:42Z",
+"id": "507f15d0c23fbe9d10ec6d2d5fc0dcf097016940b8ed8360fb972fe1f8ad348b",
+"last_seen": "2026-11-14",
+"published": "2026-11-13T15:08:44Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+"url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+"weight": 3
+}
+]
