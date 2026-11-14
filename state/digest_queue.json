@@ -1660,5 +1660,104 @@
 "title": "FAA Issues National Ground Stop",
 "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-0766"
+],
+"first_seen": "2026-11-14T03:02:25Z",
+"id": "CVE-2026-0766",
+"last_seen": "2026-11-14",
+"published": "2026-11-14T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": ". Rejected reason: Open WebU's investigation further investigation showed that this is intended functionality of the Plugins extension system, in which users granted the relevant permission author Python that the server executes by design, and not a security issue…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-0766: Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0766"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-14T03:02:25Z",
+"id": "1b43c7425c684998e84522e32df7090c20e7946629a0454bc290a3c27124e0a2",
+"last_seen": "2026-11-14",
+"published": "2026-11-13T21:05:53Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "FAA issues national ground stop",
+"url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-14T03:02:25Z",
+"id": "16cef6f6904839c8b43ab920b474f797883de13801676b43742c04e1b2b9e5bd",
+"last_seen": "2026-11-14",
+"published": "2026-11-13T18:40:44Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+"url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-14T03:02:25Z",
+"id": "c660db6fc3534269848ea6c22a4a1caf5f58ba7cb32b4a7973974fcefb671519",
+"last_seen": "2026-11-14",
+"published": "2026-11-13T17:30:10Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+"url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+"weight": 3
 }
 ]
