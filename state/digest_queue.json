@@ -46,5 +46,201 @@
 "title": "A family tree of software job titles",
 "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-125771"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-15T20:17:42Z",
+"id": "CVE-2026-125771",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T15:16:46Z",
+"reasons": [
+"CVSS 7.2",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect Privilege Assignment vulnerability in AtlasAiDev MCP Server for WordPress ai-workflow-automation-ai-agent-hub allows Privilege Escalation.This issue affects MCP Server for WordPress: from n/a through 2.0.3.",
+"title": "CVE-2026-125771: Incorrect Privilege Assignment vulnerability in AtlasAiDev MCP Server for WordPress ai-workflow-automation-ai-agent-hub allows Privilege…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125771",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-14307"
+],
+"cvss": 7.1,
+"epss": 0.00282,
+"first_seen": "2026-11-15T20:17:42Z",
+"id": "CVE-2026-14307",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-15",
+"published": "2026-11-15T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.1",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "GeotargetingWP Geotargeting WP. The geotargetingwp WordPress plugin before 3.5.6.2 does not sanitise or escape several parameters before reflecting them back in AJAX responses that are served with an HTML content type, allowing unauthenticated attackers to inject arbitrary web scripts that execute…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-14307: geotargetingwp_project geotargetingwp Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14307"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-13320"
+],
+"cvss": 7.5,
+"epss": 0.00404,
+"first_seen": "2026-11-15T20:17:42Z",
+"id": "CVE-2024-13320",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.5",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "villatheme CURCY - WooCommerce Multi Currency - Currency Switcher. The CURCY - WooCommerce Multi Currency - Currency Switcher plugin for WordPress is vulnerable to SQL Injection via the 'wc_filter_price_meta[where]' parameter in all versions up to, and including, 2.3.6 due to insufficient escaping…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-13320: villatheme woocommerce_multi_currency Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-13320"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-15T20:17:42Z",
+"id": "6c640d1bfd00549fabd6cf4d18bcedfc207abea6e9bcc1c5706bda4a997e837b",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-15",
+"published": "2026-11-15T15:23:48Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+"title": "TSMC employee data breach linked to cloud provider",
+"url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-15T20:17:42Z",
+"id": "1127d85faf9b22d9ae907232f276a5eec98c2b044b5b0deb70e345f87994aa81",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T13:15:22Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "The MacBook Pro's OLED PWM problem",
+"url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-15T20:17:42Z",
+"id": "a19e2c18cd5ba0f32805ea8f95b3288d344703cd8b2f0525e830b45158784c14",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T14:46:58Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "All AI-generated code should be Open Source",
+"url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-15T20:17:42Z",
+"id": "ffd1f47c032797c5bd9a07155a3491c42e92bc5e449fd43953e0ce3947fc26f0",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T11:40:51Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+"url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
+"weight": 3
 }
 ]
