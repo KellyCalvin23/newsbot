@@ -442,5 +442,259 @@
 "title": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
 "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-55559"
+],
+"cvss": 9.8,
+"epss": 0.00784,
+"first_seen": "2026-11-15T00:57:37Z",
+"id": "CVE-2026-55559",
+"last_seen": "2026-11-15",
+"published": "2026-11-14T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "spaceapplications yamcs. Yamcs is a mission control framework. Prior to 5.12.8 and 5.13.2, Yamcs inserts templateArgs from POST /api/instances and PATCH /api/instances/{instance} into YAML through VarStatement.append in yamcs-core/src/main/java/org/yamcs/templating/VarStatement.java without…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-55559: spaceapplications yamcs Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55559"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-54831"
+],
+"cvss": 9.3,
+"epss": 0.004,
+"first_seen": "2026-11-15T00:57:37Z",
+"id": "CVE-2026-54831",
+"last_seen": "2026-11-15",
+"published": "2026-11-14T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.3",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Paolo GeoDirectory. Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in AyeCode Ltd GeoDirectory geodirectory allows Blind SQL Injection.This issue affects GeoDirectory: from n/a through 2.8.162.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-54831: ayecode geodirectory Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54831"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126173"
+],
+"cvss": 9.8,
+"epss": 0.00537,
+"first_seen": "2026-11-15T00:57:37Z",
+"id": "CVE-2026-126173",
+"last_seen": "2026-11-15",
+"published": "2026-11-14T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "AutomatorWP AutomatorWP Webhooks. The AutomatorWP Pro plugin for WordPress' webhook addon is vulnerable to authorization bypass in all versions up to, and including, 1.4.4. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-126173: automatorwp automatorwp_webhooks Missing Authorization",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126173"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2023-41662"
+],
+"epss": 0.00382,
+"first_seen": "2026-11-15T00:57:37Z",
+"id": "CVE-2023-41662",
+"last_seen": "2026-11-15",
+"published": "2026-11-14T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "ulfbenjaminsson wp-dtree. Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Ulf Benjaminsson WP-dTree plugin <= 4.4.5 versions.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-41662: ulfbenjaminsson wp-dtree Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-41662"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-112359"
+],
+"epss": 0.00317,
+"first_seen": "2026-11-15T00:57:37Z",
+"id": "CVE-2026-112359",
+"last_seen": "2026-11-15",
+"published": "2026-11-14T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Amauri.IO WPMobile.App. Missing Authorization vulnerability in Amauri.IO WPMobile.App wpappninja allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WPMobile.App: from n/a through 11.86.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-112359: amauri wpmobile.app Missing Authorization",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112359"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-15T00:57:37Z",
+"id": "7b1e4650b34dbd42770c6c96460cda76c8c066de4143e20075d173f94e906df6",
+"last_seen": "2026-11-15",
+"published": "2026-11-14T21:22:24Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "SpaceX catches the Starship to end Flight 15",
+"url": "https://www.spacex.com/launches/starship-flight-15",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-15T00:57:37Z",
+"id": "e81c051aa326c1b664e8ba303380b2e0b5331204961e2f61be253bd74099dd2a",
+"last_seen": "2026-11-15",
+"published": "2026-11-14T13:43:28Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "KDE: The documentary [video]",
+"url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-15T00:57:37Z",
+"id": "d038e65715ecbc9cab5bd31bc40df6402d504579ce89b59c85fd01a49c8a64fb",
+"last_seen": "2026-11-15",
+"published": "2026-11-14T13:48:06Z",
+"reasons": [
+"matches Google Android (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Italy fines Meta $887M over Android users' data access",
+"url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Android",
+"tier": 2,
+"vendor": "Google"
+}
+],
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-15T00:57:37Z",
+"id": "9ef71648da8a8700aab07dded6adbc93c82b91f9de16e5f87f14a5db516c6bf2",
+"last_seen": "2026-11-15",
+"published": "2026-11-12T21:56:11Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+"url": "https://unemploymentlabs.com/checkpoint-forensics",
+"weight": 3
 }
 ]
