@@ -1783,7 +1783,7 @@
 "CVE-2026-97229"
 ],
 "meta": {
-"nvd_cursor": "2026-11-15T20:17:42Z"
+"nvd_cursor": "2026-11-15T23:59:37Z"
 },
 "seeded_sources": [
 "Al Jazeera",
@@ -2472,10 +2472,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "0313c2b02fb36d0c5a466759d8da1b6b64b70335b40c8ba863e5f23b67379928",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T20:43:02Z",
-"reasons": [
-"matches Microsoft Outlook (Tier 2)"
-],
 "route": "drop",
 "score": 2,
 "source": "The Verge",
@@ -2483,8 +2479,6 @@
 "sources": [
 "The Verge"
 ],
-"title": "Microsoft Outlook is down",
-"url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
 "vendor_matches": [
 {
 "points": 2,
@@ -3372,10 +3366,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "08f41d9016fc256860c9b7316add19d120353bae323e7fc08e5a4dfe45e95e26",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T22:12:32Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -3383,8 +3373,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Italy fight back to beat France 3-1 and move top of Nations League group",
-"url": "https://www.aljazeera.com/sports/2026/11/12/italy-fight-back-to-beat-france-3-1-and-move-top-of-nations-league-group?traffic_source=rss",
 "weight": 1
 },
 "08ff778cf7cfc882cd32d1bfd6278273b454fe7d29c285f67bf286979d81d6f8": {
@@ -3761,10 +3749,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "0a989ec63d1676eddb8477c4bf9276c4b181b9862b663ade10b4dce67f2c92e7",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T17:11:48Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -3772,8 +3756,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "The rise and fall of Jensen Huang - how the tech superstar became mired in scandal",
-"url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo",
 "weight": 1
 },
 "0abc0cd964698794484831a869e30e4529e56a47b9add55461837a52a1e1476f": {
@@ -4502,11 +4484,6 @@
 "zero-day"
 ],
 "last_seen": "2026-11-15",
-"published": "2026-11-12T17:50:27Z",
-"reasons": [
-"zero-day",
-"matches Microsoft Windows (Tier 2)"
-],
 "route": "digest",
 "score": 5,
 "source": "The Hacker News",
@@ -4514,8 +4491,6 @@
 "sources": [
 "The Hacker News"
 ],
-"title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-"url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
 "vendor_matches": [
 {
 "points": 2,
@@ -5066,6 +5041,27 @@
 ],
 "weight": 1
 },
+"1150ac875ea3b5399233ad8455ba5dd4210b9bada78b8ab600339bafbec55795": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "1150ac875ea3b5399233ad8455ba5dd4210b9bada78b8ab600339bafbec55795",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T16:15:20Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Clothing factories shut in Bangladesh as workers strike over pay",
+"url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o",
+"weight": 1
+},
 "115cc82e4d529f83880744c850a4206930dc6c465c07e28bddbaeed015c99f47": {
 "category": "world",
 "coverage_count": 1,
@@ -5264,10 +5260,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "129d01e9721b1d40c8d68feb6b18bdcc105383f8511704636a20255091a8676c",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T21:18:24Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -5275,8 +5267,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Deadly shooting in Washington DC",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/deadly-shooting-in-washington-dc?traffic_source=rss",
 "weight": 1
 },
 "12a2b77a912c239bada93d1eceb5f43409ea87f73d1071a08b1882533f3f0323": {
@@ -6000,15 +5990,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "16c31da66dca872a09117da38f4eb0df48b186d5fb9110ad8d633bce667c2e40",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T18:17:19Z",
 "route": "drop",
 "source": "Ars Technica",
 "source_type": "rss",
 "sources": [
 "Ars Technica"
-],
-"title": "Man's secret use of synthetic testosterone for cows nearly destroyed his heart",
-"url": "https://arstechnica.com/health/2026/11/mans-secret-use-of-synthetic-testosterone-for-cows-nearly-destroyed-his-heart/"
+]
 },
 "16cef6f6904839c8b43ab920b474f797883de13801676b43742c04e1b2b9e5bd": {
 "category": "tech",
@@ -6489,15 +6476,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "18ddde9ee18c9bf4631b86ad9dcc5ba77b0d81bd7e715c5180ffe8e0b63ab717",
 "last_seen": "2026-11-15",
-"published": "2026-11-12T21:18:52Z",
 "route": "drop",
 "source": "Dark Reading",
 "source_type": "rss",
 "sources": [
 "Dark Reading"
-],
-"title": "Cyber Experts Weigh In: How to Fight Artex & AntiFox",
-"url": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox"
+]
 },
 "192b9ce9d48a9850dca9f2ce3b0d1dcb4f7510c87a7b478ccca660b090c573e9": {
 "category": "world",
@@ -7293,6 +7277,32 @@
 ],
 "weight": 1
 },
+"1c6647639ed728e08628811d305fab104501f64c860ea6e7d6db0091358f5527": {
+"big_story_hits": [
+"ceasefire"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "1c6647639ed728e08628811d305fab104501f64c860ea6e7d6db0091358f5527",
+"last_seen": "2026-11-15",
+"muted_hits": [
+"deal"
+],
+"published": "2026-11-15T20:37:43Z",
+"reasons": [
+"muted: deal"
+],
+"route": "drop",
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Who can force Israel to implement Gaza ceasefire deal?",
+"url": "https://www.aljazeera.com/video/inside-story/2026/11/15/who-can-force-israel-to-implement-gaza-ceasefire-deal?traffic_source=rss",
+"weight": 1
+},
 "1c78af3edb2d299a4dc4038dce49fd11e7ab8d1709cd60024e7725033f2bbfda": {
 "category": "security",
 "coverage_count": 1,
@@ -7916,6 +7926,39 @@
 ],
 "weight": 1
 },
+"203d6bb8b61eb38fe5ba55db9c39ffd92d254dd64a5d419961a0c3f49d698bab": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "203d6bb8b61eb38fe5ba55db9c39ffd92d254dd64a5d419961a0c3f49d698bab",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T18:36:10Z",
+"reasons": [
+"matches Microsoft (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+"url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+}
+],
+"weight": 3
+},
 "204ac65754780e054806d1121a7b6388de18f8ee39f159ec5b59ed58490dc944": {
 "category": "world",
 "coverage_count": 1,
@@ -8175,10 +8218,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "218c475479c37ddd95fa5bda0adfd3e1f276708c9a56b875c2a90ff7f2950528",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T19:38:33Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -8186,8 +8225,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Iranian men guilty of spying on British journalists",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/iranian-men-guilty-of-spying-on-british-journalists?traffic_source=rss",
 "weight": 1
 },
 "21918d5df25dfa5b376a1724d0e4df3953c0a1d07a1c68d23c951eb936d623e9": {
@@ -8669,10 +8706,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "24352b5e4bd69422b14eea98bed934e619c3701c9b5a9f87abc6fb1b838a82aa",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T20:49:36Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -8680,8 +8713,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "US releases report on $12bn from Venezuelan oil, mineral resources",
-"url": "https://www.aljazeera.com/news/2026/11/12/us-releases-report-on-12bn-from-venezuelan-oil-mineral-resources?traffic_source=rss",
 "weight": 1
 },
 "244da312b8560aa26dfd69a759d503fa88101bf73b5e10815f46ec0936e4a6a3": {
@@ -8897,10 +8928,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "25f621d7a5380786dccaae7af38d40281e7e57fa706172ca4f2daf433655c9fa",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T13:52:29Z",
-"reasons": [
-"source weight +3"
-],
 "route": "digest",
 "score": 3,
 "source": "Hacker News",
@@ -8911,8 +8938,6 @@
 "tags": [
 "hn"
 ],
-"title": "Jensen Huang resigns",
-"url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
 "weight": 3
 },
 "261e0550fb0e32bbb8ea10fdd9be291fcf316c0fea6cf7c9dc71cebc9047fc1e": {
@@ -9051,10 +9076,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "2652b3b524652f33529a567eba390255942585dadd0a80e11f25fd3eab9ad168",
 "last_seen": "2026-11-12",
-"published": "2026-11-12T10:28:26Z",
-"reasons": [
-"source weight +3"
-],
 "route": "digest",
 "score": 3,
 "source": "Hacker News",
@@ -9065,8 +9086,6 @@
 "tags": [
 "hn"
 ],
-"title": "Why writing correct software is hard and why math (alone) won’t help us (2016)",
-"url": "https://pron.github.io/posts/correctness-and-complexity",
 "weight": 3
 },
 "26748f20d8ec9f89bafe19777488ea631fb3b1e2279a2f5d97327eeb6889e39e": {
@@ -9570,10 +9589,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "29d03e8bf8418b7a2a05f31870751dd96167cb38c411888c1bb46d0d69f40887",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T19:33:37Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -9581,8 +9596,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Jensen Huang has resigned, what's next for Nvidia?",
-"url": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo",
 "weight": 1
 },
 "29da89cbde84a772580f35b40e125351755c2041b0bf90dbf728939e7819ea74": {
@@ -9698,10 +9711,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "2a9d1ad5a3140afd4d532dcba2b70b2222ee5da350a5543639651ad2827cec2f",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T19:32:25Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -9709,8 +9718,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Senegal’s wrestlers turn tradition into gold at Dakar Youth Olympics",
-"url": "https://www.aljazeera.com/sports/2026/11/12/senegals-wrestlers-turn-tradition-into-gold-at-dakar-youth-olympics?traffic_source=rss",
 "weight": 1
 },
 "2ad0185123b327a0eddb30c469f5bc9d6efb5d49e25d70026aa026e9e1aecb94": {
@@ -11217,15 +11224,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "32dffdb5901385ce39eb405dc072dff1a7ba156461e3dc8496b7ec3e5ebfcd2e",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T21:42:00Z",
 "route": "drop",
 "source": "The Record",
 "source_type": "rss",
 "sources": [
 "The Record"
-],
-"title": "Feds announce seizure of $1.2 billion from Binance theft; also takedown of ‘FaceStealer’ tools",
-"url": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted"
+]
 },
 "32fa0ad10d38ce5a62a1a941551ab4f6e5afd0e7ba3a49151bc1600976c4edbd": {
 "category": "tech",
@@ -11672,10 +11676,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "3485ce5c3d2f95a00093872f477499843c98db2d4e8b4beb8bc98671be5636ae",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T18:03:02Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -11683,8 +11683,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Al Jazeera reports from Gaza hospital attacked by Israel",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/al-jazeera-reports-from-gaza-hospital-attacked-by-israel?traffic_source=rss",
 "weight": 1
 },
 "348f31f30e1807bbaab045921bbc10441155d23009f8d56ae2b5c80eb0a3388b": {
@@ -12192,15 +12190,33 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "364440f2d2987fe585f77cbed8a58e917fc9b2e6d7c6c80ab453fa4621d76484",
 "last_seen": "2026-11-12",
-"published": "2026-11-12T17:44:33Z",
 "route": "drop",
 "source": "The Verge",
 "source_type": "rss",
 "sources": [
 "The Verge"
+]
+},
+"367f64751e0aa6e34532a2e321db2e3eea0671f8b1e2256cda214e9383ca8b03": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "367f64751e0aa6e34532a2e321db2e3eea0671f8b1e2256cda214e9383ca8b03",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T20:50:15Z",
+"reasons": [
+"source weight +1"
 ],
-"title": "The Jensen Huang scandal is hardly over",
-"url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling"
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Palestinians reclaim Gaza’s shores with a swim for hope",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/palestinians-reclaim-gazas-shores-with-a-swim-for-hope?traffic_source=rss",
+"weight": 1
 },
 "368df4124e1fa08259b554964452bc0fdde65b161ca7cbfb6a88d97391747f4c": {
 "category": "world",
@@ -12964,6 +12980,31 @@
 "The Record"
 ]
 },
+"3b96a52dc60852c152a338409f98b7b6645f29cfe1335e1dcae290a527bd9940": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "3b96a52dc60852c152a338409f98b7b6645f29cfe1335e1dcae290a527bd9940",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T20:07:06Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Africa CDC says Ebola outbreak in DR Congo ‘still not under control’",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/news/2026/11/15/africa-cdc-says-ebola-outbreak-in-dr-congo-still-not-under-control?traffic_source=rss",
+"weight": 1
+},
 "3bc2975823511648e068bb84173dd13a6bb5f0573b665060e1889834d10c9003": {
 "category": "world",
 "coverage_count": 1,
@@ -13018,15 +13059,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "3c1eebfd1ccedf21eb133555c9fc5c77ad80f486411781a9e3e021db9697abf4",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T21:28:53Z",
 "route": "drop",
 "source": "The Verge",
 "source_type": "rss",
 "sources": [
 "The Verge"
-],
-"title": "The Oura Ring 4 is almost as good as the newer model, but $150 cheaper",
-"url": "https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale"
+]
 },
 "3c2b57dcd9a89d0c0844022a440bedb993d837af1f07fdb8db1148139a57e226": {
 "category": "tech",
@@ -13832,10 +13870,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "4079599ef4205a253f1a14dc96f878772816cc9e9b09a94f4baa791fb5eeb0d0",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T13:58:49Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -13843,8 +13877,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Eight killed in Colombian air strike targeting Gulf Clan gang",
-"url": "https://www.bbc.co.uk/news/articles/crgj3v3z10dno",
 "weight": 1
 },
 "409237012d2b9dc4123d69dd42f7cd320431b43dd6fa6147196d187efb8fb718": {
@@ -15983,10 +16015,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "4a950ff7932992f61bb1baac765d92465fcede4a97a82455c7710856cc9e5565",
 "last_seen": "2026-11-15",
-"published": "2026-11-12T20:09:41Z",
-"reasons": [
-"matches Microsoft (Tier 2)"
-],
 "route": "drop",
 "score": 2,
 "source": "Dark Reading",
@@ -15994,8 +16022,6 @@
 "sources": [
 "Dark Reading"
 ],
-"title": "Extortion Group Luna Moth Flits Into Law Firms a Second Time",
-"url": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
 "vendor_matches": [
 {
 "points": 2,
@@ -16032,10 +16058,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "4af6c75d5e0932d5c4c269680158c65ef84f32a658c6b348bd3f6ce34a861d7c",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T20:15:47Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -16043,8 +16065,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Qatar Under-17 World Cup is on despite US pull out",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/qatar-under-17-world-cup-is-on-despite-us-pull-out?traffic_source=rss",
 "weight": 1
 },
 "4b022e0cd5de2a5a8a861f78b177577c33935c8beb4bcaef49c22fe6dabf37ff": {
@@ -16840,15 +16860,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "503af5189c5f70e200818677723a51e8801a3d886d5d8a948007034fd4fbd896",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T17:18:10Z",
 "route": "drop",
 "source": "Ars Technica",
 "source_type": "rss",
 "sources": [
 "Ars Technica"
-],
-"title": "The amazing disappearing exoplanet",
-"url": "https://arstechnica.com/science/2026/11/the-amazing-disappearing-exoplanet/"
+]
 },
 "50409dfaf693c62c0ac57379fec71f3d0d377bec40b22d020414fa36e54044f2": {
 "category": "world",
@@ -17327,10 +17344,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "540cf3e1aa3c44cc2dbcd8b529cc78a06dab16cfa07dcc86f1e1fa18ee9cd338",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T18:41:40Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -17338,8 +17351,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Pro-Palestine philanthropist faces US extradition hearing in Spain",
-"url": "https://www.aljazeera.com/news/2026/11/12/james-fergie-chambers-extradition-hearing?traffic_source=rss",
 "weight": 1
 },
 "5410b3c5816ea368f0aabb3bb1c67dc0e03329afbdbe3bfb2707817ac7e186cf": {
@@ -17944,6 +17955,22 @@
 ],
 "weight": 1
 },
+"568a381564fa70b64a697bb0a4016430464335608aec87fffb1e28c9721b60ef": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "568a381564fa70b64a697bb0a4016430464335608aec87fffb1e28c9721b60ef",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T23:11:54Z",
+"route": "drop",
+"source": "Ars Technica",
+"source_type": "rss",
+"sources": [
+"Ars Technica"
+],
+"title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+"url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/"
+},
 "56bae47fb83f7a57006149b7d631e0dbeed78375914595375c94e0a90f438756": {
 "category": "tech",
 "coverage_count": 1,
@@ -17972,10 +17999,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "56c580ee40b2e2b4fc5ecfe1d50137deeb64efa649dd091d0e12e4b87ef785f4",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T20:25:21Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -17983,8 +18006,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "What’s at stake in the renewed tensions over the Falkland Islands?",
-"url": "https://www.aljazeera.com/video/inside-story/2026/11/12/whats-at-stake-in-the-renewed-tensions-over-the-falkland-islands?traffic_source=rss",
 "weight": 1
 },
 "56c90062b8c796f6d2af0535e1053757dcaaac27a1f32aeb262a64634d2e98fc": {
@@ -19441,10 +19462,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "5e4459fe19595e75c61b216f21349bc567bebd7fc97939063119aec355e0015c",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T20:12:21Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -19452,8 +19469,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Regional security dominates European talks in Dublin amid hybrid attacks",
-"url": "https://www.aljazeera.com/news/2026/11/12/regional-security-dominates-european-talks-in-dublin-amid-hybrid-attacks?traffic_source=rss",
 "weight": 1
 },
 "5e4be42206e2c3707e42763c22f4f5c8cf4e977872c5725bad9dec05c31d0b36": {
@@ -19881,10 +19896,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "604807fbf8c6148d9f0f1c20751123a82414d91ff6d0e410124f34516a4b2922",
 "last_seen": "2026-11-12",
-"published": "2026-11-12T16:55:10Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -19892,8 +19903,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Jerusalem Daily: Gaza’s Nasser Hospital hit by Israeli air strike",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
 "weight": 1
 },
 "604e4d454e9764b222a70dc499fdc4cb4a47af2432aefd78cf723d3d6d40b1ca": {
@@ -20017,6 +20026,27 @@
 "sources": [
 "BBC World"
 ],
+"weight": 1
+},
+"60c3b9a41c94b3340f7e80a6b4a3d627208e8b301c67b26a290c10f11332de5a": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "60c3b9a41c94b3340f7e80a6b4a3d627208e8b301c67b26a290c10f11332de5a",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T22:57:27Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Steering failure preceded New Orleans cruise ship collision, says NTSB",
+"url": "https://www.bbc.co.uk/news/articles/c65y131w1534o",
 "weight": 1
 },
 "612ac88c1416a0cb07753b56e53d623d9b7e102fc92fa674b7d145e337bb4895": {
@@ -20333,10 +20363,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "630215d9525a169ba9ae8a28613571ddbb7a84d3c6f1ad5d95fa3b2bccc553ef",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T18:26:28Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -20344,8 +20370,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Home sales in the US are at their lowest level since 2016",
-"url": "https://www.aljazeera.com/economy/2026/11/12/home-sales-in-the-us-are-at-their-lowest-level-since-2016?traffic_source=rss",
 "weight": 1
 },
 "630c235ff0e106dd94749ba295d0c5f797a275cb6b5a1ebb4e82626b32fa0100": {
@@ -20371,10 +20395,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "6310007e97b24f42c21263127075395e66d78903e98bc3fe04e1e79a125bda78",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T21:00:00Z",
-"reasons": [
-"matches Microsoft Windows (Tier 2)"
-],
 "route": "drop",
 "score": 2,
 "source": "The Verge",
@@ -20382,8 +20402,6 @@
 "sources": [
 "The Verge"
 ],
-"title": "Here are the 25 original Xbox games you can now play on PC",
-"url": "https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility",
 "vendor_matches": [
 {
 "points": 2,
@@ -21093,10 +21111,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "66d36bbde15f95263ac15cb10bf617910579fe6b7b3781d807bc2e59a2999018",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T11:07:19Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -21104,8 +21118,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Five new miniature frog species found in eastern Himalayas",
-"url": "https://www.bbc.co.uk/news/articles/c8kgkw7dr5rko",
 "weight": 1
 },
 "66fb88651e8f525f53636ff8feb4a58fd59ab76ea0b2043e09035f1ecec2129f": {
@@ -21498,10 +21510,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "68573620ad681250c9d9ab8008e5638b7fb72862db0b371ce950808b7af4f620",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T20:55:30Z",
-"reasons": [
-"matches Microsoft Exchange (Tier 2)"
-],
 "route": "drop",
 "score": 2,
 "source": "SecurityWeek",
@@ -21509,8 +21517,6 @@
 "sources": [
 "SecurityWeek"
 ],
-"title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
-"url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
 "vendor_matches": [
 {
 "points": 2,
@@ -21842,15 +21848,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "69e38f246e086b3f82f97f5d3d11f9a537180ed9ecbdfff0edec1221e93d0f46",
 "last_seen": "2026-11-12",
-"published": "2026-11-12T20:00:00Z",
 "route": "drop",
 "source": "The Verge",
 "source_type": "rss",
 "sources": [
 "The Verge"
-],
-"title": "Meet the people who want peptides to be made in America",
-"url": "https://www.theverge.com/column/1032243/peptides-american-manufacturing-maha"
+]
 },
 "6a60386cb1ba57577ad9e766220cad96872ded789b88e893253d7f3b9b9b4e06": {
 "category": "world",
@@ -22251,15 +22254,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "6bf825ad63119cb8dfadb261093611de9e86fe53b14fd1ae4df8c9e822bece12",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T18:28:22Z",
 "route": "drop",
 "source": "Ars Technica",
 "source_type": "rss",
 "sources": [
 "Ars Technica"
-],
-"title": "Building a rocket is hard. AST SpaceMobile thinks it's \"simple.\"",
-"url": "https://arstechnica.com/space/2026/11/building-a-rocket-is-hard-ast-spacemobile-thinks-its-simple/"
+]
 },
 "6c131addfbfb77251944ff043c7d39be2bb7beb591ad0f47f513f203abae8733": {
 "category": "world",
@@ -22326,10 +22326,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "6c46c4c29889d6a4aaaf6de61458a688384efd528d1e20927b6ac75777d79cc7",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T20:10:31Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -22337,8 +22333,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Democrats gather in Denver to debate party’s future after US midterm wins",
-"url": "https://www.aljazeera.com/news/2026/11/12/democrats-gather-in-denver-to-debate-partys-future-after-us-midterm-wins?traffic_source=rss",
 "weight": 1
 },
 "6c4b1c4429caf3e5271a46f72af696577b882561b70805c065d66ac5cf81a3e2": {
@@ -24120,6 +24114,27 @@
 "The Verge"
 ]
 },
+"7448ed388efaf4830db39240a250d2bdeb6ebcd134491fd946adab77f8b59c17": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "7448ed388efaf4830db39240a250d2bdeb6ebcd134491fd946adab77f8b59c17",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T22:40:01Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "England stun Spain to end La Roja’s 43-game unbeaten run",
+"url": "https://www.aljazeera.com/sports/2026/11/15/england-stun-spain-to-end-la-rojas-43-game-unbeaten-run?traffic_source=rss",
+"weight": 1
+},
 "7454715217ac4c360e4d6e3156eee526c5937b20eb66c0ead02b431befe8a989": {
 "category": "security",
 "coverage_count": 1,
@@ -24187,10 +24202,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "7494ca9873d6aa9c3c53c0dd8242492891f8059e3674f7a09c12966a9e737be2",
 "last_seen": "2026-11-15",
-"published": "2026-11-12T18:02:51Z",
-"reasons": [
-"matches Linux kernel (Tier 2)"
-],
 "route": "drop",
 "score": 2,
 "source": "The Hacker News",
@@ -24198,8 +24209,6 @@
 "sources": [
 "The Hacker News"
 ],
-"title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
-"url": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
 "vendor_matches": [
 {
 "points": 2,
@@ -25058,15 +25067,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "78fb4ca38bb49135461f6380c0d06cc8c3820d3f8ca9beae747baefb225e998a",
 "last_seen": "2026-11-12",
-"published": "2026-11-12T17:00:17Z",
 "route": "drop",
 "source": "The Verge",
 "source_type": "rss",
 "sources": [
 "The Verge"
-],
-"title": "‘The end of Tesla!’: Cybertruck diehards turn on Elon Musk after he pulls the plug",
-"url": "https://www.theverge.com/transportation/1031991/elon-musk-cancels-cybertruck-tesla-fans-backlash"
+]
 },
 "79028d8264bbc237b0e42e23e5c870bc7c14a35377b2e7b1b26d5b32338aed1b": {
 "category": "world",
@@ -25197,15 +25203,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "79a9f71f42ce49c85570fe41ea3b996d54abf7e935d5d922d62128faaf1a5426",
 "last_seen": "2026-11-12",
-"published": "2026-11-12T18:06:54Z",
 "route": "drop",
 "source": "The Verge",
 "source_type": "rss",
 "sources": [
 "The Verge"
-],
-"title": "Oh, Palantir is ‘progressive’ now, is it?",
-"url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video"
+]
 },
 "79c91f776a4e6a02aaa0e8175ea301c80fe149baf9d07de9e1f67b6f2ded91aa": {
 "category": "tech",
@@ -25310,6 +25313,27 @@
 "sources": [
 "BBC World"
 ],
+"weight": 1
+},
+"7a427216285fa903791214bc4d96c3a2d94d1cfb5abe8b46ec41019576d6e25f": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "7a427216285fa903791214bc4d96c3a2d94d1cfb5abe8b46ec41019576d6e25f",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T20:31:18Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Estonia to close border crossings with Russia after alleged arson attack",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/estonia-to-close-border-crossings-with-russia-after-alleged-arson-attack?traffic_source=rss",
 "weight": 1
 },
 "7a6ac507e100c7433ccab6830c5d75f0c73b9a596ee8fd521d3541a2a955926e": {
@@ -25772,15 +25796,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "7d0870aff82891c0f852168ce53c179b8d1c76b671bb5684095fe35426f4a5fa",
 "last_seen": "2026-11-15",
-"published": "2026-11-12T22:25:30Z",
 "route": "drop",
 "source": "BleepingComputer",
 "source_type": "rss",
 "sources": [
 "BleepingComputer"
-],
-"title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
-"url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/"
+]
 },
 "7d09ee31661902ede5192970c69ab2825afb1faa6523f24419cff83758d2b137": {
 "category": "world",
@@ -26204,10 +26225,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "7f2055e7bc4012a26c2a55edc87e5991cf8437faec4c59a999caca46bc891f8a",
 "last_seen": "2026-11-14",
-"published": "2026-11-12T19:23:03Z",
-"reasons": [
-"matches Google (Tier 2)"
-],
 "route": "drop",
 "score": 2,
 "source": "Ars Technica",
@@ -26215,8 +26232,6 @@
 "sources": [
 "Ars Technica"
 ],
-"title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
-"url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
 "vendor_matches": [
 {
 "points": 2,
@@ -26624,10 +26639,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "8149d39516e0174ebcca0b18a3b7426de2ed99ca08285544e46d07bd5edbbe8d",
 "last_seen": "2026-11-12",
-"published": "2026-11-12T16:44:49Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -26635,8 +26646,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Prominent Israeli settler denied entry into France",
-"url": "https://www.aljazeera.com/news/2026/11/12/chk-prominent-israeli-settler-denied-entry-into-france?traffic_source=rss",
 "weight": 1
 },
 "814ede398a63537b0e23be26856dd503079e609f13fec2129e71f81888950cce": {
@@ -28166,10 +28175,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "8916d61627198977c19d2bca195f307324bbfcb846705e1c1bca1b0eb4bb9a4b",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T19:56:26Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -28177,8 +28182,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Palestinian baby dies from cold in Gaza amid Israeli restrictions on aid",
-"url": "https://www.aljazeera.com/news/2026/11/12/palestinian-baby-dies-from-cold-in-gaza-amid-israeli-restrictions-on-aid?traffic_source=rss",
 "weight": 1
 },
 "8918e009c1a3e73854ec9566f7dfcf0d88fe426269d28f775a0e37d4779fdfdb": {
@@ -28257,15 +28260,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "896751a6adacf7003910513dcd4c8b86a9a455ad179cc0e7b12804b20a8fc987",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T19:20:00Z",
 "route": "drop",
 "source": "The Record",
 "source_type": "rss",
 "sources": [
 "The Record"
-],
-"title": "United to block customers from using AI agents, citing cyber threats",
-"url": "https://therecord.media/united-airlines-to-block-customers-using-ai-agents"
+]
 },
 "8978e6892cd47acbcb7ec9300a56317ab26dab9148392f1e451f16e8cedcd2d0": {
 "category": "tech",
@@ -28594,15 +28594,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "8b57bd820e59369a122c15aeae5ca44605e5546b2e7335a812486a6930d91ede",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T18:38:38Z",
 "route": "drop",
 "source": "Ars Technica",
 "source_type": "rss",
 "sources": [
 "Ars Technica"
-],
-"title": "Netflix releases new trailer for Ray Gunn",
-"url": "https://arstechnica.com/culture/2026/11/netflix-releases-new-trailer-for-ray-gunn/"
+]
 },
 "8b9b9c24c1615bb1c43ce49fb7316ba619286da964d8181d9b6fbdeca1c73d80": {
 "category": "tech",
@@ -28673,11 +28670,6 @@
 "unauthenticated"
 ],
 "last_seen": "2026-11-15",
-"published": "2026-11-12T19:12:55Z",
-"reasons": [
-"RCE",
-"matches Apache HTTP Server (Tier 2)"
-],
 "route": "digest",
 "score": 5,
 "source": "BleepingComputer",
@@ -28685,8 +28677,6 @@
 "sources": [
 "BleepingComputer"
 ],
-"title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-"url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
 "vendor_matches": [
 {
 "points": 2,
@@ -29294,10 +29284,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "8deef9592bda35ff1fd22dafd7a8394cca95b96585dd636ab8da78fb71b78721",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T19:55:02Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -29305,8 +29291,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "US nonprofits sue tech giants to halt AI development",
-"url": "https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development?traffic_source=rss",
 "weight": 1
 },
 "8e0130f490dd1e7164cea0858c04d35d500d2d9dd6232820f6cc3aec3fcf161c": {
@@ -29629,10 +29613,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "9004b20cd6498ad62bc667d3025bac487b32a6b36ba4ef4ef1b922bfcd67a96e",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T21:55:32Z",
-"reasons": [
-"matches Google (Tier 2)"
-],
 "route": "drop",
 "score": 2,
 "source": "The Verge",
@@ -29640,8 +29620,6 @@
 "sources": [
 "The Verge"
 ],
-"title": "Google’s new Gemini model is better at understanding complicated questions",
-"url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
 "vendor_matches": [
 {
 "points": 2,
@@ -29986,6 +29964,22 @@
 "sources": [
 "Ars Technica"
 ]
+},
+"917dda919378d5b889a6fe78a705cfbc6d66167df05abf50aa7a5d21164125d5": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "917dda919378d5b889a6fe78a705cfbc6d66167df05abf50aa7a5d21164125d5",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T20:43:49Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+"url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed"
 },
 "918ac89e14ef9618fc2aa6892d723ffa708ef6abbdfe9d40a52b4fe52276bb8c": {
 "category": "security",
@@ -30453,10 +30447,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "930830e278695c6bcc2931a320d7982ab07b47ee357a55042fc1914bcb1c918d",
 "last_seen": "2026-11-12",
-"published": "2026-11-12T19:42:40Z",
-"reasons": [
-"matches Google (Tier 2)"
-],
 "route": "drop",
 "score": 2,
 "source": "The Verge",
@@ -30464,8 +30454,6 @@
 "sources": [
 "The Verge"
 ],
-"title": "No, AI agents did not discover a previously unknown Maya site",
-"url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
 "vendor_matches": [
 {
 "points": 2,
@@ -30785,15 +30773,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "94f86189b301dc6fa86d3ee651cb7c086d2d97393fef0282dfac52d599855e73",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T21:45:00Z",
 "route": "drop",
 "source": "The Verge",
 "source_type": "rss",
 "sources": [
 "The Verge"
-],
-"title": "‘It’s a mistake for Nvidia to let Jensen resign’: reactions from tech leaders on Jensen Huang’s resignation",
-"url": "https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions"
+]
 },
 "9510c1b3fa22c674484a99a69e1e947ba882bba54a565596faed04111e9c489a": {
 "category": "world",
@@ -30881,10 +30866,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "954956bac2fdc94cebdb2cc9c6fa6a6cff07575bfafe87995d6d20b690f4733a",
 "last_seen": "2026-11-12",
-"published": "2026-11-09T13:02:44Z",
-"reasons": [
-"source weight +3"
-],
 "route": "digest",
 "score": 3,
 "source": "Hacker News",
@@ -30895,8 +30876,6 @@
 "tags": [
 "hn"
 ],
-"title": "A live tree of systemd jobs on the boot console",
-"url": "https://codeberg.org/wvhulle/bootvine",
 "weight": 3
 },
 "9561a7b0f2a4c3dda4f178a97ee6ada04b9be955a99e98a30fa5ee58149d90c1": {
@@ -30923,11 +30902,6 @@
 "zero-day"
 ],
 "last_seen": "2026-11-15",
-"published": "2026-11-12T19:51:16Z",
-"reasons": [
-"zero-day",
-"matches N-able N-central (Tier 3)"
-],
 "route": "digest",
 "score": 5,
 "source": "BleepingComputer",
@@ -30935,8 +30909,6 @@
 "sources": [
 "BleepingComputer"
 ],
-"title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-"url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
 "vendor_matches": [
 {
 "points": 2,
@@ -31905,10 +31877,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "9985fbb3529c661868d811ddfd67f916de1fad91dab73ce29313310828910015",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T18:22:04Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -31916,8 +31884,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "What to know about the Logan Circle shooting in Washington, DC",
-"url": "https://www.aljazeera.com/news/2026/11/12/what-to-know-about-the-logan-circle-shooting-in-washington-dc?traffic_source=rss",
 "weight": 1
 },
 "9988a1c45724fb9ef64cef0a8dad4f58e6ea518a5383782df2710e2c494ad491": {
@@ -33985,12 +33951,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2020-13925",
 "last_seen": "2026-11-15",
-"published": "2026-11-12T00:00:00Z",
-"reasons": [
-"new VulnCheck KEV",
-"CVSS 9.8",
-"matches Apache (Tier 2)"
-],
 "route": "alert",
 "score": 10,
 "source": "VulnCheck KEV",
@@ -34001,8 +33961,6 @@
 "tags": [
 "vulncheck_kev"
 ],
-"title": "CVE-2020-13925: Apache Kylin Improper Neutralization of Special Elements used in an OS Command",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-13925",
 "vendor_matches": [
 {
 "points": 2,
@@ -36556,11 +36514,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-101031",
 "last_seen": "2026-11-12",
-"published": "2026-11-09T10:17:02Z",
-"reasons": [
-"CVSS 9.1",
-"matches Apache (Tier 2)"
-],
 "route": "digest",
 "score": 6,
 "source": "NVD",
@@ -36568,8 +36521,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-101031: The `example_dag_decorator` example Dag shipped with Apache Airflow validated an IP address fetched over HTTP with Python's `ipaddress`…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101031",
 "vendor_matches": [
 {
 "points": 2,
@@ -49938,11 +49889,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-113508",
 "last_seen": "2026-11-12",
-"published": "2026-11-09T10:17:05Z",
-"reasons": [
-"CVSS 7.5",
-"matches Apache (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -49950,8 +49896,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-113508: Apache Airflow's logout endpoint attempted to revoke the presented token on the server, but any failure during revocation was silently…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113508",
 "vendor_matches": [
 {
 "points": 2,
@@ -60962,11 +60906,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-119078",
 "last_seen": "2026-11-12",
-"published": "2026-11-09T20:18:04Z",
-"reasons": [
-"CVSS 9.1",
-"matches Apache (Tier 2)"
-],
 "route": "digest",
 "score": 6,
 "source": "NVD",
@@ -60974,8 +60913,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-119078: Apache Commons Codec's Blake3 class documented the output of its doFinalize methods as depending on any previously finalized bytes, so that…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119078",
 "vendor_matches": [
 {
 "points": 2,
@@ -66983,6 +66920,39 @@
 "vulncheck_kev"
 ]
 },
+"CVE-2026-120468": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120468"
+],
+"cvss": 6.9,
+"epss": 0.00372,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "CVE-2026-120468",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-15",
+"published": "2026-11-15T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-120468: acymailing acymailing Exposure of Sensitive Information to an Unauthorized Actor",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120468"
+},
 "CVE-2026-120522": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -72888,11 +72858,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-121685",
 "last_seen": "2026-11-12",
-"published": "2026-11-09T17:17:16Z",
-"reasons": [
-"CVSS 9.8",
-"matches AWS (Tier 3)"
-],
 "route": "digest",
 "score": 6,
 "source": "NVD",
@@ -72900,8 +72865,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-121685: FrodoBots EarthRover Mini+ firmware (version 6.2.4_6.2.5_0.614.0) contains multiple sets of hard-coded credentials",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121685",
 "vendor_matches": [
 {
 "points": 2,
@@ -74863,11 +74826,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-123285",
 "last_seen": "2026-11-12",
-"published": "2026-11-06T11:17:06Z",
-"reasons": [
-"CVSS 8.8",
-"matches JetBrains (Tier 3)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -74875,8 +74833,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-123285: In JetBrains Datalore before 2026.3 command execution was possible in the database task container via JVM options injection",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123285",
 "vendor_matches": [
 {
 "points": 2,
@@ -74897,11 +74853,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-123287",
 "last_seen": "2026-11-12",
-"published": "2026-11-06T11:17:07Z",
-"reasons": [
-"CVSS 7.5",
-"matches JetBrains (Tier 3)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -74909,8 +74860,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-123287: In JetBrains Datalore before 2026.4 private notebook files could be downloaded without authentication via published interactive reports",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123287",
 "vendor_matches": [
 {
 "points": 2,
@@ -76648,13 +76597,6 @@
 "unauthenticated"
 ],
 "last_seen": "2026-11-15",
-"published": "2026-11-12T00:00:00Z",
-"reasons": [
-"new VulnCheck KEV",
-"CVSS 9.1",
-"unauthenticated",
-"capped: not on watchlist"
-],
 "route": "digest",
 "score": 6,
 "source": "VulnCheck KEV",
@@ -76665,9 +76607,7 @@
 ],
 "tags": [
 "vulncheck_kev"
-],
-"title": "CVE-2026-124014: Missing Authentication for Critical Functionality",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124014"
+]
 },
 "CVE-2026-124170": {
 "alerted": true,
@@ -77224,13 +77164,6 @@
 "unauthenticated"
 ],
 "last_seen": "2026-11-15",
-"published": "2026-11-12T00:00:00Z",
-"reasons": [
-"new VulnCheck KEV",
-"CVSS 7.2",
-"unauthenticated",
-"capped: not on watchlist"
-],
 "route": "digest",
 "score": 6,
 "source": "VulnCheck KEV",
@@ -77240,9 +77173,7 @@
 ],
 "tags": [
 "vulncheck_kev"
-],
-"title": "CVE-2026-12424: reputeinfosystems arforms Improper Neutralization of Input During Web Page Generation",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12424"
+]
 },
 "CVE-2026-12427": {
 "category": "vulnerabilities",
@@ -77257,12 +77188,6 @@
 "unauthenticated"
 ],
 "last_seen": "2026-11-15",
-"published": "2026-11-12T00:00:00Z",
-"reasons": [
-"new VulnCheck KEV",
-"unauthenticated",
-"capped: not on watchlist"
-],
 "route": "digest",
 "score": 6,
 "source": "VulnCheck KEV",
@@ -77272,9 +77197,7 @@
 ],
 "tags": [
 "vulncheck_kev"
-],
-"title": "CVE-2026-12427: reputeinfosystems arforms Improper Neutralization of Input During Web Page Generation",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12427"
+]
 },
 "CVE-2026-124446": {
 "category": "vulnerabilities",
@@ -79254,11 +79177,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126196",
 "last_seen": "2026-11-12",
-"published": "2026-11-12T18:17:24Z",
-"reasons": [
-"CVSS 8.1",
-"matches MCP server (Tier 3)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -79266,8 +79184,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-126196: pgEdge Postgres MCP Server enables SQL queries against PostgreSQL databases through Model Context Protocol compatible clients",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126196",
 "vendor_matches": [
 {
 "points": 2,
@@ -79287,11 +79203,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126197",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T18:17:24Z",
-"reasons": [
-"CVSS 8.8",
-"matches MCP server (Tier 3)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -79299,8 +79210,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-126197: pgEdge Postgres MCP Server enables SQL queries against PostgreSQL databases through Model Context Protocol compatible clients",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126197",
 "vendor_matches": [
 {
 "points": 2,
@@ -80785,11 +80694,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126793",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T21:17:22Z",
-"reasons": [
-"CVSS 8.6",
-"matches AWS (Tier 3)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -80797,8 +80701,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-126793: An untrusted search path issue in Aurora PostgreSQL dialect detection in the AWS Advanced Go Wrapper from release 2026-04-06…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126793",
 "vendor_matches": [
 {
 "points": 2,
@@ -80871,11 +80773,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126840",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:11Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -80884,8 +80781,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126840: Out of bounds write in Network in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126840",
 "vendor_matches": [
 {
 "points": 2,
@@ -80944,11 +80839,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126842",
 "last_seen": "2026-11-13",
-"published": "2026-11-11T23:17:11Z",
-"reasons": [
-"CVSS 9.6",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 6,
 "source": "NVD",
@@ -80956,8 +80846,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-126842: Use after free in ANGLE in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to potentially execute arbitrary code outside the…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126842",
 "vendor_matches": [
 {
 "points": 2,
@@ -80978,11 +80866,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126843",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:12Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -80991,8 +80874,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126843: Type confusion in Turbolev in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126843",
 "vendor_matches": [
 {
 "points": 2,
@@ -81089,11 +80970,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126846",
 "last_seen": "2026-11-13",
-"published": "2026-11-11T23:17:12Z",
-"reasons": [
-"CVSS 9.6",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 6,
 "source": "NVD",
@@ -81101,8 +80977,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-126846: Use after free in Skia in Google Chrome on on Android prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code outside…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126846",
 "vendor_matches": [
 {
 "points": 2,
@@ -81123,11 +80997,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126847",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:12Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -81136,8 +81005,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126847: Type confusion in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126847",
 "vendor_matches": [
 {
 "points": 2,
@@ -81192,11 +81059,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126849",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:12Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -81205,8 +81067,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126849: Type confusion in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to potentially execute arbitrary code inside the…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126849",
 "vendor_matches": [
 {
 "points": 2,
@@ -81227,11 +81087,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126851",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:13Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -81240,8 +81095,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126851: Use after free in Accessibility in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126851",
 "vendor_matches": [
 {
 "points": 2,
@@ -81262,11 +81115,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126852",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:13Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -81275,8 +81123,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126852: Use after free in MediaStream in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126852",
 "vendor_matches": [
 {
 "points": 2,
@@ -81467,11 +81313,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126859",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:14Z",
-"reasons": [
-"CVSS 9.6",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 6,
 "source": "NVD",
@@ -81480,8 +81321,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126859: Link following in FileSystem in Google Chrome prior to 157.0.8103.78 allowed a remote attacker leveraging social engineering to execute…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126859",
 "vendor_matches": [
 {
 "points": 2,
@@ -81502,11 +81341,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126860",
 "last_seen": "2026-11-13",
-"published": "2026-11-11T23:17:14Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -81514,8 +81348,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-126860: Incorrect authorization in FileSystem in Google Chrome prior to 157.0.8103.78 allowed a remote attacker leveraging social engineering to…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126860",
 "vendor_matches": [
 {
 "points": 2,
@@ -81536,11 +81368,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126861",
 "last_seen": "2026-11-13",
-"published": "2026-11-11T23:17:14Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -81548,8 +81375,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-126861: Use after free in Media in Google Chrome on on Android prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126861",
 "vendor_matches": [
 {
 "points": 2,
@@ -81570,11 +81395,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126862",
 "last_seen": "2026-11-13",
-"published": "2026-11-11T23:17:14Z",
-"reasons": [
-"CVSS 7.7",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -81582,8 +81402,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-126862: Improper input validation in Core in Google Chrome on on Android prior to 157.0.8103.78 allowed a local attacker to bypass web origin…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126862",
 "vendor_matches": [
 {
 "points": 2,
@@ -81604,11 +81422,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126863",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:14Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -81617,8 +81430,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126863: Use after free in HTML in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to potentially execute arbitrary code inside the…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126863",
 "vendor_matches": [
 {
 "points": 2,
@@ -81639,11 +81450,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126864",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:14Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -81652,8 +81458,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126864: Use after free in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126864",
 "vendor_matches": [
 {
 "points": 2,
@@ -81674,11 +81478,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126865",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:14Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -81687,8 +81486,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126865: Use after free in DOM in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126865",
 "vendor_matches": [
 {
 "points": 2,
@@ -81709,11 +81506,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126866",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:15Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -81722,8 +81514,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126866: Incorrect authorization in Extensions in Google Chrome prior to 157.0.8103.78 allowed a remote attacker leveraging social engineering to…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126866",
 "vendor_matches": [
 {
 "points": 2,
@@ -81744,11 +81534,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126867",
 "last_seen": "2026-11-13",
-"published": "2026-11-11T23:17:15Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -81756,8 +81541,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-126867: Use after free in Browser in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker to potentially execute arbitrary…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126867",
 "vendor_matches": [
 {
 "points": 2,
@@ -81778,11 +81561,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126868",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:15Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -81791,8 +81569,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126868: Type confusion in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to potentially execute arbitrary code inside the…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126868",
 "vendor_matches": [
 {
 "points": 2,
@@ -81813,11 +81589,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126869",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:15Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -81826,8 +81597,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126869: Use after free in Frames in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126869",
 "vendor_matches": [
 {
 "points": 2,
@@ -81924,11 +81693,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126872",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:15Z",
-"reasons": [
-"CVSS 9.6",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 6,
 "source": "NVD",
@@ -81937,8 +81701,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126872: Incorrect authorization in FileSystem in Google Chrome prior to 157.0.8103.78 allowed a remote attacker leveraging social engineering to…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126872",
 "vendor_matches": [
 {
 "points": 2,
@@ -81959,11 +81721,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126873",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:16Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -81972,8 +81729,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126873: Use after free in Extensions in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker leveraging social engineering…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126873",
 "vendor_matches": [
 {
 "points": 2,
@@ -81994,11 +81749,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126874",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:16Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82007,8 +81757,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126874: Type confusion in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126874",
 "vendor_matches": [
 {
 "points": 2,
@@ -82029,11 +81777,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126875",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:16Z",
-"reasons": [
-"CVSS 8.1",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82042,8 +81785,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126875: Missing authorization in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to bypass web origin policy via a crafted…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126875",
 "vendor_matches": [
 {
 "points": 2,
@@ -82064,11 +81805,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126876",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:16Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82077,8 +81813,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126876: Integer overflow in Skia in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126876",
 "vendor_matches": [
 {
 "points": 2,
@@ -82160,11 +81894,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126879",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:16Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82173,8 +81902,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126879: Use after free in Layout in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126879",
 "vendor_matches": [
 {
 "points": 2,
@@ -82195,11 +81922,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126880",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:17Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82208,8 +81930,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126880: Type confusion in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126880",
 "vendor_matches": [
 {
 "points": 2,
@@ -82230,11 +81950,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126881",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:17Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82243,8 +81958,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126881: Improper initialization in Media in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to potentially execute arbitrary code…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126881",
 "vendor_matches": [
 {
 "points": 2,
@@ -82327,11 +82040,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126885",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:17Z",
-"reasons": [
-"CVSS 9.6",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 6,
 "source": "NVD",
@@ -82340,8 +82048,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126885: Use after free in ServiceWorker in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code outside the…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126885",
 "vendor_matches": [
 {
 "points": 2,
@@ -82362,11 +82068,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126886",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:17Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82375,8 +82076,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126886: Use after free in Frames in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126886",
 "vendor_matches": [
 {
 "points": 2,
@@ -82397,11 +82096,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126887",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:17Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82410,8 +82104,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126887: Use after free in Animation in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126887",
 "vendor_matches": [
 {
 "points": 2,
@@ -82432,11 +82124,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126888",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:18Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82445,8 +82132,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126888: Buffer overflow in Turbolev in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126888",
 "vendor_matches": [
 {
 "points": 2,
@@ -82467,11 +82152,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126889",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:18Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82480,8 +82160,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126889: Off-by-one error in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to potentially execute arbitrary code inside the…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126889",
 "vendor_matches": [
 {
 "points": 2,
@@ -82502,11 +82180,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126890",
 "last_seen": "2026-11-13",
-"published": "2026-11-11T23:17:18Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82514,8 +82187,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-126890: Out of bounds read in Media in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to potentially execute arbitrary code inside…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126890",
 "vendor_matches": [
 {
 "points": 2,
@@ -82570,11 +82241,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126892",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:18Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82583,8 +82249,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126892: Use after free in MediaStream in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126892",
 "vendor_matches": [
 {
 "points": 2,
@@ -82605,11 +82269,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126893",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:18Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82618,8 +82277,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126893: Out of bounds write in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126893",
 "vendor_matches": [
 {
 "points": 2,
@@ -82674,11 +82331,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126895",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:19Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82687,8 +82339,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126895: Use after free in CSS in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126895",
 "vendor_matches": [
 {
 "points": 2,
@@ -82709,11 +82359,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126896",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:19Z",
-"reasons": [
-"CVSS 8.1",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82722,8 +82367,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126896: Missing authorization in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to bypass web origin policy via a crafted…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126896",
 "vendor_matches": [
 {
 "points": 2,
@@ -82744,11 +82387,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126897",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:19Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82757,8 +82395,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126897: Type confusion in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126897",
 "vendor_matches": [
 {
 "points": 2,
@@ -82817,11 +82453,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126899",
 "last_seen": "2026-11-13",
-"published": "2026-11-11T23:17:19Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82829,8 +82460,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-126899: Use after free in Elements in Google Chrome prior to 157.0.8103.78 allowed a remote attacker leveraging social engineering to execute…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126899",
 "vendor_matches": [
 {
 "points": 2,
@@ -82851,11 +82480,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126900",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:19Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82864,8 +82488,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126900: Use after free in CSS in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126900",
 "vendor_matches": [
 {
 "points": 2,
@@ -82886,11 +82508,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126901",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:19Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82899,8 +82516,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126901: Use after free in PDF in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126901",
 "vendor_matches": [
 {
 "points": 2,
@@ -82949,11 +82564,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126903",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:20Z",
-"reasons": [
-"CVSS 8.1",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -82962,8 +82572,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126903: Improper state validation in ANGLE in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker to bypass web origin…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126903",
 "vendor_matches": [
 {
 "points": 2,
@@ -83011,11 +82619,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126905",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:20Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -83024,8 +82627,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126905: Incomplete cleanup in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to potentially execute arbitrary code inside the…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126905",
 "vendor_matches": [
 {
 "points": 2,
@@ -83114,11 +82715,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126908",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:20Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -83127,8 +82723,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126908: Type confusion in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to potentially execute arbitrary code inside the…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126908",
 "vendor_matches": [
 {
 "points": 2,
@@ -83149,11 +82743,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126909",
 "last_seen": "2026-11-13",
-"published": "2026-11-11T23:17:20Z",
-"reasons": [
-"CVSS 9.6",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 6,
 "source": "NVD",
@@ -83161,8 +82750,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-126909: Use after free in Passwords in Google Chrome prior to 157.0.8103.78 allowed a remote attacker leveraging social engineering to execute…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126909",
 "vendor_matches": [
 {
 "points": 2,
@@ -83183,11 +82770,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126910",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:21Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -83196,8 +82778,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126910: Type confusion in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126910",
 "vendor_matches": [
 {
 "points": 2,
@@ -83218,11 +82798,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126911",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:21Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -83231,8 +82806,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126911: Use after free in Accessibility in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126911",
 "vendor_matches": [
 {
 "points": 2,
@@ -83253,11 +82826,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126912",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:21Z",
-"reasons": [
-"CVSS 9.6",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 6,
 "source": "NVD",
@@ -83266,8 +82834,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126912: Buffer overflow in Skia in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code outside the sandbox via…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126912",
 "vendor_matches": [
 {
 "points": 2,
@@ -83391,11 +82957,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126916",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:21Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -83404,8 +82965,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126916: Integer overflow in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126916",
 "vendor_matches": [
 {
 "points": 2,
@@ -83426,11 +82985,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126917",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:22Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -83439,8 +82993,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126917: Memory corruption in V8 in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to potentially execute arbitrary code inside the…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126917",
 "vendor_matches": [
 {
 "points": 2,
@@ -83461,11 +83013,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126918",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:22Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -83474,8 +83021,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126918: Use after free in Layout in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126918",
 "vendor_matches": [
 {
 "points": 2,
@@ -83496,11 +83041,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126919",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:22Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -83509,8 +83049,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126919: Use after free in BrowserTag in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126919",
 "vendor_matches": [
 {
 "points": 2,
@@ -83569,11 +83107,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-126921",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T23:17:22Z",
-"reasons": [
-"CVSS 8.8",
-"matches Google Chrome (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -83582,8 +83115,6 @@
 "Microsoft MSRC",
 "NVD"
 ],
-"title": "CVE-2026-126921: Use after free in Accessibility in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126921",
 "vendor_matches": [
 {
 "points": 2,
@@ -84150,11 +83681,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-127063",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T18:17:39Z",
-"reasons": [
-"CVSS 9.3",
-"matches ConnectWise ScreenConnect (Tier 3)"
-],
 "route": "digest",
 "score": 6,
 "source": "NVD",
@@ -84162,8 +83688,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-127063: The third-party RMM+ extension for ConnectWise ScreenConnect uses a static API secret by default",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127063",
 "vendor_matches": [
 {
 "points": 2,
@@ -84376,12 +83900,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-13764",
 "last_seen": "2026-11-15",
-"published": "2026-11-12T00:00:00Z",
-"reasons": [
-"new VulnCheck KEV",
-"CVSS 8.8",
-"capped: not on watchlist"
-],
 "route": "digest",
 "score": 6,
 "source": "VulnCheck KEV",
@@ -84392,9 +83910,7 @@
 ],
 "tags": [
 "vulncheck_kev"
-],
-"title": "CVE-2026-13764: Missing Authorization",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13764"
+]
 },
 "CVE-2026-14307": {
 "category": "vulnerabilities",
@@ -87248,12 +86764,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-62107",
 "last_seen": "2026-11-15",
-"published": "2026-11-12T00:00:00Z",
-"reasons": [
-"new VulnCheck KEV",
-"CVSS 8.8",
-"capped: not on watchlist"
-],
 "route": "digest",
 "score": 6,
 "source": "VulnCheck KEV",
@@ -87263,9 +86773,7 @@
 ],
 "tags": [
 "vulncheck_kev"
-],
-"title": "CVE-2026-62107: Masteriyo masteriyo Deserialization of Untrusted Data",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62107"
+]
 },
 "CVE-2026-62264": {
 "category": "vulnerabilities",
@@ -99002,11 +98510,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-82337",
 "last_seen": "2026-11-12",
-"published": "2026-11-09T10:17:11Z",
-"reasons": [
-"CVSS 7.3",
-"matches Apache (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -99014,8 +98517,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-82337: Apache Airflow rebuilt deadline alert fields through generic deserialization, which imports and instantiates the class named in the…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82337",
 "vendor_matches": [
 {
 "points": 2,
@@ -99061,10 +98562,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-82845",
 "last_seen": "2026-11-15",
-"published": "2026-11-12T00:00:00Z",
-"reasons": [
-"new VulnCheck KEV"
-],
 "route": "digest",
 "score": 5,
 "source": "VulnCheck KEV",
@@ -99074,9 +98571,7 @@
 ],
 "tags": [
 "vulncheck_kev"
-],
-"title": "CVE-2026-82845: Deserialization of Untrusted Data",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82845"
+]
 },
 "CVE-2026-82894": {
 "alerted": true,
@@ -101230,11 +100725,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-86829",
 "last_seen": "2026-11-12",
-"published": "2026-11-09T10:17:13Z",
-"reasons": [
-"CVSS 8.8",
-"matches Apache (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -101242,8 +100732,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-86829: Apache Airflow's scheduler fully deserializes XCom values written by task code while evaluating task dependencies",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86829",
 "vendor_matches": [
 {
 "points": 2,
@@ -110381,11 +109869,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "CVE-2026-96285",
 "last_seen": "2026-11-12",
-"published": "2026-11-09T10:17:16Z",
-"reasons": [
-"CVSS 8.8",
-"matches Apache (Tier 2)"
-],
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -110393,8 +109876,6 @@
 "sources": [
 "NVD"
 ],
-"title": "CVE-2026-96285: Apache Airflow 3.3.1 shipped a fix for CVE-2026-67260 that checks the scheduler's decoded `next_kwargs` value is a dictionary, but performs…",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96285",
 "vendor_matches": [
 {
 "points": 2,
@@ -113349,10 +112830,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "a070cf8a15be131296259cf84fc2e10388add2489b790f95a1c9d4928d2371c7",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T21:03:09Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -113360,8 +112837,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Microsoft outage hits tens of thousands of users",
-"url": "https://www.aljazeera.com/news/2026/11/12/microsoft-outage-hits-tens-of-thousands-of-users?traffic_source=rss",
 "weight": 1
 },
 "a0725e070d9ebf0ca065901bff979e1ccc86857d8d460c7dbf5436c2f53f0ec6": {
@@ -113429,15 +112904,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "a0bc7a7956ef47a1093f9f7f95b3299dbfdd142429d204bc18c9716a4da393d0",
 "last_seen": "2026-11-15",
-"published": "2026-11-11T22:14:44Z",
 "route": "drop",
 "source": "Dark Reading",
 "source_type": "rss",
 "sources": [
 "Dark Reading"
-],
-"title": "AIを活用したサイバー攻撃の増加を受け、日本がサイバーセキュリティへの緊急資金拠出を推進",
-"url": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches-japanese"
+]
 },
 "a0eb98276638ef48e49f6846fa340946a6ac8e6178679926b6fe59f473be6d5a": {
 "category": "world",
@@ -113602,6 +113074,27 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"a160e60f695abddceaa6e8a3bbc909c8099ba75159629b373cf46654784533ad": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "a160e60f695abddceaa6e8a3bbc909c8099ba75159629b373cf46654784533ad",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T20:12:38Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Jordan sentences three men to death over deadly church attack in Karak",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/jordan-sentences-three-men-to-death-over-deadly-church-attack-in-karak?traffic_source=rss",
 "weight": 1
 },
 "a165da7959f730792d70e1f153b96d0a8e062fcee485654ec1fdcdda4fefc63a": {
@@ -114164,6 +113657,27 @@
 ],
 "weight": 3
 },
+"a4c065243513c16aea0d68befc6d1898fd33657afa383bed516b0c73b177bb26": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "a4c065243513c16aea0d68befc6d1898fd33657afa383bed516b0c73b177bb26",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T23:46:37Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Brawl erupts in Brazil’s Women’s League final",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/brawl-erupts-in-brazils-womens-league-final?traffic_source=rss",
+"weight": 1
+},
 "a4c522f2fd6d37a10dbbc31a465b614f3e10f97fe0a1e2985b20289c2fc2a69b": {
 "category": "world",
 "coverage_count": 1,
@@ -114311,10 +113825,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "a5999e929849b470a282932a168c555409bba6556f9b8071d02e3c5b351b3f1d",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T20:09:16Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -114322,8 +113832,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-"url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo",
 "weight": 1
 },
 "a5aeaa34640369e8c5659b8aa44588a8af79b88b2a66ca0d556e405c5ca9b683": {
@@ -115123,6 +114631,22 @@
 ],
 "weight": 1
 },
+"a9c6bc797caf2faa93198db0580a17ed4dbc6a4a5fefd566f5eb2283888c2013": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "a9c6bc797caf2faa93198db0580a17ed4dbc6a4a5fefd566f5eb2283888c2013",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T21:05:02Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+"url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites"
+},
 "a9cee55d42667b8d17d75d38477a9119a2bad3056acbf3f4f0716e4bde709965": {
 "category": "tech",
 "coverage_count": 1,
@@ -115400,15 +114924,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "aaf74a9cb58bb9642fe9be071dcd5df0838394acf86307d4711056165271faf7",
 "last_seen": "2026-11-14",
-"published": "2026-11-12T19:09:57Z",
 "route": "drop",
 "source": "Ars Technica",
 "source_type": "rss",
 "sources": [
 "Ars Technica"
-],
-"title": "Ukraine says it can’t stop Russian strikes because Starshield is limited again",
-"url": "https://arstechnica.com/tech-policy/2026/11/ukraine-says-spacex-starshield-is-restricted-again-spacex-claims-it-isnt/"
+]
 },
 "ab013be9e9bfd1f7c522f46115bc06362871f07ad651af457f397c72abc267bf": {
 "category": "security",
@@ -116815,15 +116336,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "b169402217f6b2530e78b479041482cfe77cbbfdb8da12a1f6ae5faadff1d3e7",
 "last_seen": "2026-11-15",
-"published": "2026-11-12T19:59:59Z",
 "route": "drop",
 "source": "Ars Technica",
 "source_type": "rss",
 "sources": [
 "Ars Technica"
-],
-"title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
-"url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/"
+]
 },
 "b1694f96fcce5ec0a6d927690c5b26c098bcaed8041610c7fa871961d213d3b4": {
 "category": "world",
@@ -117191,6 +116709,27 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"b4018dd50a7c736a8037365c4ddfb09a59e5db5e727cbf9995ab7684c001cd6d": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "b4018dd50a7c736a8037365c4ddfb09a59e5db5e727cbf9995ab7684c001cd6d",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T20:54:13Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Photos: Pope Leo visits Peru’s Amazon and Andean regions during 12-day tour",
+"url": "https://www.aljazeera.com/gallery/2026/11/15/photos-pope-leo-visits-perus-amazon-and-andean-regions-during-12-day-tour?traffic_source=rss",
 "weight": 1
 },
 "b40fc4c21b1fd8e6512f5561ac02a33245aaaf968ff49576c4bef36c9da10c37": {
@@ -118112,10 +117651,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "b78be48e1d989bfd2c344969fc6f5264cd0cf37503b60888eeef327d39574829",
 "last_seen": "2026-11-14",
-"published": "2026-11-12T18:57:45Z",
-"reasons": [
-"matches Google (Tier 2)"
-],
 "route": "drop",
 "score": 2,
 "source": "Ars Technica",
@@ -118123,8 +117658,6 @@
 "sources": [
 "Ars Technica"
 ],
-"title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
-"url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
 "vendor_matches": [
 {
 "points": 2,
@@ -118373,6 +117906,27 @@
 "sources": [
 "The Verge"
 ]
+},
+"b8b000ce8e4eba1d9170ddc0dedb9f60e753376e082ad7141feab9f6f63d390c": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "b8b000ce8e4eba1d9170ddc0dedb9f60e753376e082ad7141feab9f6f63d390c",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T22:28:54Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Police ban protests near 10 schools and five universities in Paris",
+"url": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo",
+"weight": 1
 },
 "b8bb04a6633a307a39e17d80c8980d7e213959a485d6a1f94262d5bca6908887": {
 "category": "security",
@@ -119183,6 +118737,27 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"bc9c1927c7e1fb0feb4d0631fe705f14fe530a6971e498442c9bfe58a194d979": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "bc9c1927c7e1fb0feb4d0631fe705f14fe530a6971e498442c9bfe58a194d979",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T22:06:38Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza",
+"url": "https://www.aljazeera.com/news/2026/11/15/australia-canada-italy-and-the-uk-urge-israel-to-allow-aid-into-gaza?traffic_source=rss",
 "weight": 1
 },
 "bcd53a0296417552f6453671bd6f16317f7934f318a14df0fae50b7c05897992": {
@@ -120317,10 +119892,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "c1f00dfe637fe7a1f1f5061e4573337f63cd8fb6a0225f06cc492fe093cca688",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T18:47:35Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -120328,8 +119899,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
-"url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno",
 "weight": 1
 },
 "c2035ff64d5c35d90efea4b916dc1776cc3dc1494f8494652cbc12863408097c": {
@@ -121608,10 +121177,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "c80d072a055aa86815161478f12477d77b8ec3551f651b11efabf7980ce738bf",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T19:45:40Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -121619,8 +121184,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?",
-"url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress?traffic_source=rss",
 "weight": 1
 },
 "c81d656bdb2ff5c4f5310b73de93c2b9b64190df740ef20e65dce6d3d7acdecc": {
@@ -121724,10 +121287,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "c8528ca67a18f0c3cf177fd0b6ada7609e1c6dcfb7af7cb3ae7b7b606503f73c",
 "last_seen": "2026-11-14",
-"published": "2026-11-11T21:43:35Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -121735,8 +121294,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
-"url": "https://www.bbc.co.uk/news/videos/ck5y132yq1ymo",
 "weight": 1
 },
 "c88500f410355de7e50a068801b808360d984f70813cb6df4192ceb1d0a35cd8": {
@@ -121885,10 +121442,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "c93a3b6c036d0eabef9b5ac2de3e1a53529329d8ea9e9e742aa96558202669a6",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T18:01:48Z",
-"reasons": [
-"source weight +3"
-],
 "route": "digest",
 "score": 3,
 "source": "Hacker News",
@@ -121899,8 +121452,6 @@
 "tags": [
 "hn"
 ],
-"title": "Gemini 4 Hydrogen",
-"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
 "weight": 3
 },
 "c93ec1db5c79a5bb8c15d12b527499ae20756f4caed039b8c743d87b92405ed2": {
@@ -122247,10 +121798,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "cabd179aafd2118e994c6458f6d6d323fd479631dd4b50d1b4a873cceb339e2f",
 "last_seen": "2026-11-15",
-"published": "2026-11-12T20:15:16Z",
-"reasons": [
-"matches Microsoft Outlook (Tier 2)"
-],
 "route": "drop",
 "score": 2,
 "source": "BleepingComputer",
@@ -122258,8 +121805,6 @@
 "sources": [
 "BleepingComputer"
 ],
-"title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
-"url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
 "vendor_matches": [
 {
 "points": 2,
@@ -123089,10 +122634,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "cfa163f9246257da6e96f18fcc588f866dbb59ff3d1f9aae29f4caacb53c7aad",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T20:59:53Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -123100,8 +122641,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Pope Leo calls for Church to make ‘amends’ to sex abuse victims",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/pope-leo-calls-for-church-to-make-amends-to-sex-abuse-victims?traffic_source=rss",
 "weight": 1
 },
 "cfbdf34b289c72727ff12d75e297d89c582590d2446d6527285ca52cba6c12af": {
@@ -123582,6 +123121,30 @@
 "Al Jazeera"
 ],
 "weight": 1
+},
+"d19ab2aa5b68c47c72bbcf290de8837f484bfb62544eb5f24df1033f4670d4f6": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "d19ab2aa5b68c47c72bbcf290de8837f484bfb62544eb5f24df1033f4670d4f6",
+"last_seen": "2026-11-15",
+"published": "2026-11-12T05:29:24Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+"url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
+"weight": 3
 },
 "d1bda190454ecffc71c4c36fae84d5b43d04a8c6b43941e7ee18d2947b22cd1b": {
 "category": "security",
@@ -124839,19 +124402,13 @@
 "ransomware"
 ],
 "last_seen": "2026-11-13",
-"published": "2026-11-12T18:28:00Z",
-"reasons": [
-"ransomware"
-],
 "route": "digest",
 "score": 3,
 "source": "The Record",
 "source_type": "rss",
 "sources": [
 "The Record"
-],
-"title": "Shipping giant Maersk says recent cyber incident affected legacy system",
-"url": "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system"
+]
 },
 "d870bf93f1c8bacfa8a62fd96b8df873a0a901c8a5f38ab5e8c57dd8ac5ba19b": {
 "category": "security",
@@ -125166,6 +124723,27 @@
 ],
 "weight": 1
 },
+"da101738b130ddbee4f7eb0a4c7dc9a8a1e741c81e5d022ef817c6142e79e953": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "da101738b130ddbee4f7eb0a4c7dc9a8a1e741c81e5d022ef817c6142e79e953",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T21:19:08Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Yemen’s Houthis unilaterally release 600 war detainees",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss",
+"weight": 1
+},
 "da489e676aa96f8a8c672e63c77185543a26399a0cb29a24ccd98a0fdd925145": {
 "category": "world",
 "coverage_count": 1,
@@ -125338,15 +124916,12 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "db42e6c093bcf02138ded829de4153a1df1f618932400ba2534bcdf757c48cb7",
 "last_seen": "2026-11-15",
-"published": "2026-11-12T19:49:11Z",
 "route": "drop",
 "source": "Ars Technica",
 "source_type": "rss",
 "sources": [
 "Ars Technica"
-],
-"title": "The Elder Scrolls' most obscure adventure gets a 4K PC makeover",
-"url": "https://arstechnica.com/gaming/2026/11/the-elder-scrolls-most-obscure-adventure-gets-a-4k-pc-makeover/"
+]
 },
 "db4626cfdacabdfb3c421d99f1d20cbcfbeac209fd9593bd9b1047f10d9989cf": {
 "category": "world",
@@ -125535,6 +125110,27 @@
 ],
 "title": "With every rainfall, Gaza risks losing access to power and healthcare",
 "url": "https://www.aljazeera.com/news/2026/11/13/with-every-rainfall-gaza-risks-losing-access-to-power-and-healthcare?traffic_source=rss",
+"weight": 1
+},
+"dbabd0e0006871042f89c1ac4b9850e72c5cc646e237d83a4e0f5d5aaa914fbf": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "dbabd0e0006871042f89c1ac4b9850e72c5cc646e237d83a4e0f5d5aaa914fbf",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T21:47:47Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
+"url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia?traffic_source=rss",
 "weight": 1
 },
 "dbc3cde313cb76eb8b652fcf800d119544e14ce362606ec383f9c23a8f05019b": {
@@ -126069,10 +125665,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "debc4bc7d15e875ea549e4e8d68e4e5a1ab733c957b91097e1329967fa8d8493",
 "last_seen": "2026-11-12",
-"published": "2026-11-12T16:45:00Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -126080,8 +125672,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Italy 3-1 France: UEFA Nations League – as it happened",
-"url": "https://www.aljazeera.com/sports/liveblog/2026/11/12/italy-vs-france-live-uefa-nations-league?traffic_source=rss",
 "weight": 1
 },
 "dec5518966ba68e4628cffaf1705f01e9b0910cbec65526ae9c2285b7e1b571d": {
@@ -126721,11 +126311,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "e1ce6cff2937fcef1dc669d6b4d27ce79af887bc9754cc1ff059c03172e38af3",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T18:20:48Z",
-"reasons": [
-"matches Microsoft (Tier 2)",
-"source weight +3"
-],
 "route": "digest",
 "score": 5,
 "source": "Hacker News",
@@ -126736,8 +126321,6 @@
 "tags": [
 "hn"
 ],
-"title": "Service degradation on Microsoft 365",
-"url": "https://status.cloud.microsoft/",
 "vendor_matches": [
 {
 "points": 2,
@@ -127029,10 +126612,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "e33e0d6c5a2f9ccf7fa8e4722aca1903722295b23f22918866f145fa30028e9a",
 "last_seen": "2026-11-12",
-"published": "2026-11-12T17:18:13Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -127040,8 +126619,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "‘Her hands are as cold as ice’: Gaza families struggle to keep warm",
-"url": "https://www.aljazeera.com/features/2026/11/12/her-hands-are-as-cold-as-ice-gaza-families-struggle-to-keep-warm?traffic_source=rss",
 "weight": 1
 },
 "e346f495a4ffe9936e07121209e75a5072be3fe7ca04d9307446ba3ed6f1ab14": {
@@ -129265,10 +128842,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "ec0ffd3f7e0f7b9071222865cf38276fe7bc2b0d100605e29c717e823adcd2e7",
 "last_seen": "2026-11-13",
-"published": "2026-11-12T18:58:49Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -129276,8 +128849,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "UK mosque rebukes comission’s ‘warning’ following Palestine comments",
-"url": "https://www.aljazeera.com/news/2026/11/12/uk-mosque-rebukes-comissions-warning-following-palestine-comments?traffic_source=rss",
 "weight": 1
 },
 "ec114247dbc6d99a4cdf7893555e1d442d8dcd3ea85d8e516f7c4ef83c617a80": {
@@ -129544,6 +129115,22 @@
 "hn"
 ],
 "weight": 3
+},
+"ed7248fd0fb951522322153512646fd99802d66aa8320af304cc1975c4c9636f": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-15T23:59:37Z",
+"id": "ed7248fd0fb951522322153512646fd99802d66aa8320af304cc1975c4c9636f",
+"last_seen": "2026-11-15",
+"published": "2026-11-15T21:49:22Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Listen to this: Armand Hammer’s Snakes & Ladders",
+"url": "https://www.theverge.com/entertainment/1034013/armand-hammers-snakes-ladders-review"
 },
 "ed75a53e453baa84cac6ead291f625274398a26688c63b35eb5005b1449b58d5": {
 "category": "world",
@@ -129837,10 +129424,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "eefb5a4dc76b66ff43bc653771b3bc45b61cce79f7a7b43cfbbe9f80770843a9",
 "last_seen": "2026-11-12",
-"published": "2026-11-12T17:25:58Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -129848,8 +129431,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Nvidia CEO Jensen Huang steps down, more affair details revealed",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/nvidia-ceo-jensen-huang-steps-down-more-affair-details-revealed?traffic_source=rss",
 "weight": 1
 },
 "ef213d9a60cc2443e653f9e3d825cb96d457d41c00c0901203a8901405306af9": {
@@ -130227,10 +129808,6 @@
 "first_seen": "2026-11-12T22:28:15Z",
 "id": "f0f6bd5bedbe91dc8b95faeca2416ce676352d3490c1a5f1ad5afb5dc500c44a",
 "last_seen": "2026-11-12",
-"published": "2026-11-12T18:02:32Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -130238,8 +129815,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Suspect turns gun on himself after deadly shooting in Washington DC",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/suspect-turns-gun-on-himself-after-deadly-shooting-in-washington-dc?traffic_source=rss",
 "weight": 1
 },
 "f0f7d0579e2ca8c759fcccc221fa5bbae15dd49ea94898411aa4504364a2ca5d": {
