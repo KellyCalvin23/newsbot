@@ -1,1 +1,1503 @@
-[]
+[
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-111792"
+],
+"cvss": 8.2,
+"epss": 0.00212,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-111792",
+"last_seen": "2026-11-17",
+"published": "2026-11-11T11:17:11Z",
+"reasons": [
+"CVSS 8.2",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Uncontrolled Recursion vulnerability in Apache XML Graphics Batik. This issue affects Apache XML Graphics Batik: through 1.19. Users are recommended to upgrade to version 1.20, which fixes the issue.",
+"title": "CVE-2026-111792: Uncontrolled Recursion vulnerability in Apache XML Graphics Batik. This issue affects Apache XML Graphics Batik: through 1.19. Users…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111792",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-90993"
+],
+"cvss": 7.5,
+"epss": 0.00187,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-90993",
+"last_seen": "2026-11-17",
+"published": "2026-11-11T11:17:22Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "XXE vulnerability in Apache XML Graphics Batik. This issue affects Apache XML Graphics Batik: through 1.19. Users are recommended to upgrade to version 1.20, which fixes the issue.",
+"title": "CVE-2026-90993: XXE vulnerability in Apache XML Graphics Batik. This issue affects Apache XML Graphics Batik: through 1.19. Users are recommended to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90993",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-122096"
+],
+"cvss": 7.5,
+"epss": 0.00208,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-122096",
+"last_seen": "2026-11-17",
+"published": "2026-11-11T13:17:17Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Uncontrolled Resource Consumption vulnerability in the sketch deserialization of Apache DataSketches Java. Several deserializers trusted sizes and counts declared in the serialized input. A small crafted input could make an application allocate an excessive amount of memory, leading to an…",
+"title": "CVE-2026-122096: Uncontrolled Resource Consumption vulnerability in the sketch deserialization of Apache DataSketches Java. Several deserializers trusted…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122096",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-122300"
+],
+"cvss": 9.1,
+"epss": 0.00195,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-122300",
+"last_seen": "2026-11-17",
+"published": "2026-11-11T13:17:17Z",
+"reasons": [
+"CVSS 9.1",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Missing Authorization vulnerability in Apache Roller 4.0 through 6.1.6 allows a weblog member with the Limited role to remove or change entries that member may only read, including entries published by other members. The entry editor checked the member's weblog role but not whether that role…",
+"title": "CVE-2026-122300: Missing Authorization vulnerability in Apache Roller 4.0 through 6.1.6 allows a weblog member with the Limited role to remove or change…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122300",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123374"
+],
+"cvss": 9.8,
+"epss": 0.00403,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-123374",
+"last_seen": "2026-11-17",
+"published": "2026-11-11T13:17:17Z",
+"reasons": [
+"CVSS 9.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Deserialization of Untrusted Data vulnerability in Apache Roller. When Roller sends a weblog update ping, its XML-RPC client deserializes Java object data contained in the ping target's response, so a party that controls that response can run code in the Roller server process. This issue affects…",
+"title": "CVE-2026-123374: Deserialization of Untrusted Data vulnerability in Apache Roller",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123374",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-106023"
+],
+"cvss": 7.5,
+"epss": 0.00296,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-106023",
+"last_seen": "2026-11-17",
+"published": "2026-11-11T15:17:13Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache HTTP Server (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "NULL pointer dereference vulnerability in Apache HTTP Server's mod_md during HTTP request processing. This issue affects Apache HTTP Server: from 2.4.30 through 2.4.69.",
+"title": "CVE-2026-106023: NULL pointer dereference vulnerability in Apache HTTP Server's mod_md during HTTP request processing. This issue affects Apache HTTP…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106023",
+"vendor_matches": [
+{
+"points": 2,
+"term": "HTTP Server",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-44929"
+],
+"cvss": 7.5,
+"epss": 0.00187,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-44929",
+"last_seen": "2026-11-17",
+"published": "2026-11-11T15:17:23Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Server-Side Request Forgery (SSRF) vulnerability in Apache XML Graphics Batik. This issue affects Apache XML Graphics Batik: through 1.19. Users are recommended to upgrade to version 1.20, which fixes the issue.",
+"title": "CVE-2026-44929: Server-Side Request Forgery (SSRF) vulnerability in Apache XML Graphics Batik. This issue affects Apache XML Graphics Batik: through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44929",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-71395"
+],
+"cvss": 9.8,
+"epss": 0.00358,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-71395",
+"last_seen": "2026-11-17",
+"published": "2026-11-11T15:17:24Z",
+"reasons": [
+"CVSS 9.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "unsafe deserialization in hyphenation loading vulnerability in Apache XML Graphics FOP. This issue affects Apache XML Graphics FOP: through 2.11. Users are recommended to upgrade to version 2.12, which fixes the issue.",
+"title": "CVE-2026-71395: unsafe deserialization in hyphenation loading vulnerability in Apache XML Graphics FOP. This issue affects Apache XML Graphics FOP…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71395",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-124023"
+],
+"cvss": 9.1,
+"epss": 0.00228,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-124023",
+"last_seen": "2026-11-17",
+"published": "2026-11-12T11:17:10Z",
+"reasons": [
+"CVSS 9.1",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Out-of-bounds Read vulnerability in the Guththila XML parser wrapper of Apache Axis2/C. On some malformed XML input the Guththila parser returned a raw input byte in place of an event code, and the AXIOM reader wrapper used that value as an index into a ten-entry lookup table without checking its…",
+"title": "CVE-2026-124023: Out-of-bounds Read vulnerability in the Guththila XML parser wrapper of Apache Axis2/C",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124023",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-107493"
+],
+"cvss": 7.7,
+"epss": 0.00124,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-107493",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T09:17:25Z",
+"reasons": [
+"CVSS 7.7",
+"matches Linux kernel OpenSSL (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Issue summary: When an application passes a stack to PEM_X509_INFO_read_bio_ex() to add entries to, and reading fails, OpenSSL frees every entry in the stack, both the old ones and any new ones, but leaves them in the stack. Impact summary: An application that passes an existing stack to…",
+"title": "CVE-2026-107493: Issue summary: When an application passes a stack to PEM_X509_INFO_read_bio_ex() to add entries to, and reading fails, OpenSSL frees every…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107493",
+"vendor_matches": [
+{
+"points": 2,
+"term": "OpenSSL",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-21609"
+],
+"cvss": 7.1,
+"epss": 0.00485,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-21609",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T10:17:21Z",
+"reasons": [
+"CVSS 7.1",
+"matches Atlassian Jira (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "This High severity Improper Authorization vulnerability was introduced in versions 5.12.0, 10.3.0, and 11.3.0 of Jira Service Management Data Center. This Improper Authorization vulnerability, with a CVSS Score of 7.1, allows an authenticated attacker to gain unintended access and can lead to the…",
+"title": "CVE-2026-21609: This High severity Improper Authorization vulnerability was introduced in versions 5.12.0, 10.3.0, and 11.3.0 of Jira Service Management…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21609",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Jira",
+"tier": 3,
+"vendor": "Atlassian"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129271"
+],
+"cvss": 8.5,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-129271",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T11:17:25Z",
+"reasons": [
+"CVSS 8.5",
+"matches N-able N-central (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The Patch Management Engine in N-central is vulnerable to LPE via attacker controlled metadata",
+"title": "CVE-2026-129271: The Patch Management Engine in N-central is vulnerable to LPE via attacker controlled metadata",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129271",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-central",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129273"
+],
+"cvss": 8.6,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-129273",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T11:17:26Z",
+"reasons": [
+"CVSS 8.6",
+"matches N-able N-central (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "N-able N-central before 2026.4.1 HF3 does not neutralise control characters in an Audit Export setting before writing it to the system logging configuration. An authenticated attacker with product administrator privileges can inject configuration and execute commands as root on the N-central server.",
+"title": "CVE-2026-129273: N-able N-central before 2026.4.1 HF3 does not neutralise control characters in an Audit Export setting before writing it to the system…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129273",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-central",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129276"
+],
+"cvss": 6.9,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-129276",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-17",
+"published": "2026-11-17T11:17:26Z",
+"reasons": [
+"unauthenticated",
+"matches N-able N-central (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "N-able N-central before 2026.4.1 HF3 does not authenticate callers of the ServerMMS2 AssetDiscoSimplifiedInfoSubmit operation. A remote, unauthenticated attacker can overwrite the asset data recorded for any appliance.",
+"title": "CVE-2026-129276: N-able N-central before 2026.4.1 HF3 does not authenticate callers of the ServerMMS2 AssetDiscoSimplifiedInfoSubmit operation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129276",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-central",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129277"
+],
+"cvss": 6.9,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-129277",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-17",
+"published": "2026-11-17T11:17:26Z",
+"reasons": [
+"unauthenticated",
+"matches N-able N-central (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "N-able N-central before 2026.4.1 HF3 does not authenticate callers of the MaintActionGet operation. A remote, unauthenticated attacker can read and cancel the pending maintenance actions of any appliance.",
+"title": "CVE-2026-129277: N-able N-central before 2026.4.1 HF3 does not authenticate callers of the MaintActionGet operation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129277",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-central",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129278"
+],
+"cvss": 6.9,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-129278",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-17",
+"published": "2026-11-17T11:17:26Z",
+"reasons": [
+"unauthenticated",
+"matches N-able N-central (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "N-able N-central before 2026.4.1 HF3 does not authenticate callers of the ServerII2 remoteControlMSPAStartEndTimeSubmit operation. A remote, unauthenticated attacker can alter the recorded state and times of Take Control remote control tasks and the associated audit log entries.",
+"title": "CVE-2026-129278: N-able N-central before 2026.4.1 HF3 does not authenticate callers of the ServerII2 remoteControlMSPAStartEndTimeSubmit operation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129278",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-central",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129279"
+],
+"cvss": 6.9,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-129279",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-17",
+"published": "2026-11-17T11:17:27Z",
+"reasons": [
+"unauthenticated",
+"matches N-able N-central (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The password reset function in N-able N-central before 2026.4.1 HF3 returns distinguishable responses for valid and invalid accounts. A remote, unauthenticated attacker can enumerate the email addresses of valid user accounts.",
+"title": "CVE-2026-129279: The password reset function in N-able N-central before 2026.4.1 HF3 returns distinguishable responses for valid and invalid accounts",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129279",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-central",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129280"
+],
+"cvss": 9.3,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-129280",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T11:17:27Z",
+"reasons": [
+"CVSS 9.3",
+"matches N-able N-central (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Multiple ServerUI and ServerUI2 SOAP operations in N-able N-central before 2026.4.1 HF3 do not verify the caller's session, permissions or customer scope. A remote attacker, in some cases without authentication, can read device and patch data, test passwords of user accounts, send messages to…",
+"title": "CVE-2026-129280: Multiple ServerUI and ServerUI2 SOAP operations in N-able N-central before 2026.4.1 HF3 do not verify the caller's session, permissions or…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129280",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-central",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129281"
+],
+"cvss": 8.5,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-129281",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T11:17:27Z",
+"reasons": [
+"CVSS 8.5",
+"matches N-able N-central (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "N-able N-central before 2026.4.1 HF3 checks only a view permission for ServerII2 operations that write device execution configuration. An authenticated user with view-only access to a device can set configuration that the Windows agent on that device acts on.",
+"title": "CVE-2026-129281: N-able N-central before 2026.4.1 HF3 checks only a view permission for ServerII2 operations that write device execution configuration",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129281",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-central",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129282"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-129282",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T11:17:27Z",
+"reasons": [
+"CVSS 8.7",
+"matches N-able N-central (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The test email delivery function in N-able N-central before 2026.4.1 HF3 does not check permissions, lacks CSRF protection, and passes sender and recipient values to the mail program without neutralising option characters. An authenticated attacker can inject arguments into the mail command…",
+"title": "CVE-2026-129282: The test email delivery function in N-able N-central before 2026.4.1 HF3 does not check permissions, lacks CSRF protection, and passes…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129282",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-central",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129283"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-129283",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T11:17:27Z",
+"reasons": [
+"CVSS 7.1",
+"matches N-able N-central (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The custom service import in N-able N-central before 2026.4.1 HF3 processes XML external entities. An authenticated attacker can upload a crafted service definition to read files accessible to the N-central service account or cause the server to make outbound requests.",
+"title": "CVE-2026-129283: The custom service import in N-able N-central before 2026.4.1 HF3 processes XML external entities",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129283",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-central",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129286"
+],
+"cvss": 9.2,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-129286",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T11:17:27Z",
+"reasons": [
+"CVSS 9.2",
+"matches N-able N-central (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "N-able N-central before 2026.4.1 HF3 does not validate version values and download locations in software update metadata. An attacker able to supply or modify the update metadata received by the server can write files outside the download directory and execute code as the N-central service account.",
+"title": "CVE-2026-129286: N-able N-central before 2026.4.1 HF3 does not validate version values and download locations in software update metadata",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129286",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-central",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129287"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-129287",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T11:17:28Z",
+"reasons": [
+"CVSS 8.3",
+"matches N-able N-central (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "N-able N-central before 2026.4.1 HF3 processes XML external entities in software repository files. An attacker able to supply or modify the repository files received by the server can read files accessible to the N-central service account or cause the server to make outbound requests.",
+"title": "CVE-2026-129287: N-able N-central before 2026.4.1 HF3 processes XML external entities in software repository files",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129287",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-central",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-18351"
+],
+"cvss": 9.8,
+"epss": 0.01132,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-18351",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "addonsorg Drag and Drop File Upload for Elementor Forms. The Drag and Drop File Upload for Elementor Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.6.0 via the elementor_file_upload function. This is due to insufficient file type validation…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-18351: add-ons.org drag_and_drop_file_upload_for_elementor_forms Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18351"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-125160"
+],
+"cvss": 6.3,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-125160",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "TYPO3 TYPO3 CMS. Files uploaded through FileUpload or ImageUpload elements are stored in an unguessable sub-folder that remains the same for the whole form session. If storing an uploaded file failed, for example because of a file name exceeding the file system's length limit, the raw error message…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-125160: typo3 typo3 Generation of Error Message Containing Sensitive Information",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125160"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-8105"
+],
+"cvss": 7.3,
+"epss": 0.00398,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2025-8105",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.3",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "PenciDesign Soledad. The The Soledad theme for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 8.6.7. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-8105: PenciDesign soledad Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8105"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-30820"
+],
+"cvss": 8.8,
+"epss": 0.00543,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-30820",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "FlowiseAI Flowise. Flowise is a drag & drop user interface to build a customized large language model flow. Prior to version 3.0.13, Flowise trusts any HTTP client that sets the header x-request-from: internal, allowing an authenticated tenant session to bypass all /api/v1/** authorization checks…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-30820: FlowiseAI Flowise Incorrect Authorization",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30820"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-42381"
+],
+"epss": 0.00283,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-42381",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-17",
+"published": "2026-11-17T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "FunnelKit Funnel Builder by FunnelKit. Unauthenticated SQL Injection in Funnel Builder by FunnelKit <= 3.15.0.1 versions.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-42381: FunnelKit funnel_builder Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42381"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121684"
+],
+"epss": 0.00433,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-121684",
+"keyword_hits": [
+"remote code execution",
+"unauthenticated"
+],
+"last_seen": "2026-11-17",
+"published": "2026-11-17T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"remote code execution",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "PenciDesign Soledad. The Soledad theme for WordPress is vulnerable to unauthenticated Remote Code Execution in versions up to, and including, 8.7.7 The public penci_more_post_ajax AJAX action feeds infeedads[ads_code] (base64+urldecoded) to penci_safe_shortcode(), whose allowlist regex inspects…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-121684: PenciDesign soledad Improper Neutralization of Special Elements in Output Used by a Downstream Component",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121684"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-110618"
+],
+"epss": 0.00387,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-110618",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-17",
+"published": "2026-11-17T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "pppscn SmsForwarder. SmsForwarder through 3.5.0 contains a missing authentication vulnerability in its AndServer HTTP server that allows unauthenticated network attackers to invoke remote-control APIs. Attackers can call the default-enabled endpoints to read SMS, call logs and contacts, send SMS…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-110618: Missing Authentication for Critical Functionality",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110618"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-64188"
+],
+"epss": 0.00432,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2025-64188",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "PenciDesign Soledad. Incorrect Privilege Assignment vulnerability in PenciDesign Soledad soledad allows Privilege Escalation.This issue affects Soledad: from n/a through <= 8.6.9.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-64188: PenciDesign soledad Incorrect Privilege Assignment",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64188"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2020-10666"
+],
+"epss": 0.02237,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2020-10666",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-17",
+"published": "2026-11-17T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"remote code execution",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Sangoma restapps. The restapps (aka Rest Phone apps) module for Sangoma FreePBX and PBXact 13, 14, and 15 through 15.0.19.2 allows remote code execution via a URL variable to an AMI command.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2020-10666: Sangoma restapps Improper Neutralization of Special Elements used in a Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-10666"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-108440"
+],
+"epss": 0.00618,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-108440",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-17",
+"published": "2026-11-17T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Office (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-108440 Microsoft Office Word Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108440",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Office",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-78524"
+],
+"epss": 0.00819,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-78524",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-17",
+"published": "2026-11-17T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Office (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-78524 Microsoft Office Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-78524",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Office",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-40400"
+],
+"epss": 0.00868,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "CVE-2026-40400",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-17",
+"published": "2026-11-17T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Windows (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-40400 Windows PowerShell Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-40400",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "2af6c8b09d8994c62c4a3abbdb13307af2389633b8bd9ef620e25d89d59b53eb",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T11:20:18Z",
+"reasons": [
+"matches Microsoft SharePoint (Tier 2)",
+"topic: Africa"
+],
+"route": "digest",
+"score": 4,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2). The activity has been codenamed Operation…",
+"title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+"topic_hits": [
+"Africa"
+],
+"url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SharePoint",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "d4fa518ec6b12773140967dcb865b54fd9bb8f3444d4a4d87846a70862ae08d8",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-17",
+"published": "2026-11-17T12:59:04Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Hackers breached Access Dental’s network and stole personal, health, and insurance information. The post Access Dental Management Data Breach Impacts Over 340,000 appeared first on SecurityWeek .",
+"title": "Access Dental Management Data Breach Impacts Over 340,000",
+"url": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "301dc327f1f814ba5980cfe4c947eac556e88f4b3656fd70c244954075db02d8",
+"keyword_hits": [
+"exploited in the wild"
+],
+"last_seen": "2026-11-17",
+"published": "2026-11-17T12:28:45Z",
+"reasons": [
+"exploited in the wild",
+"matches N-able N-central (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "The patches target recently disclosed zero-days, as well as vulnerabilities already exploited in the wild. The post N-able Kills Legacy APIs, Patches 17 N-central Zero-Days appeared first on SecurityWeek .",
+"title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
+"url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-central",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "331f5af8fe3afa14f412d29b0c7a8238b5294037dabba7f1f617cb387bfe67a2",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T11:45:51Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+"url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "06294494b5e5cc51bcc00455e07d75078a1a19076f332bae715a94f6128068fe",
+"last_seen": "2026-11-17",
+"published": "2026-11-16T23:00:34Z",
+"reasons": [
+"matches GitLab (Tier 3)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Optimizely compromised, served malware on Zoom, GitLab",
+"url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "GitLab",
+"tier": 3,
+"vendor": "GitLab"
+}
+],
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "21996c192324bf28b10561ff6050e4e6ee061dd8e4ae83c5f1b8c64a3d409a8b",
+"last_seen": "2026-11-17",
+"published": "2026-11-16T20:22:18Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Chemistry is Actually Geometry",
+"url": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "a1f18f4382765f3ab11da67ec4655fa2a21ea11223763ea92ff9581b8e4bc768",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T09:47:26Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Despite scepticism and resistance from some, President Paul Kagame's steadfast leadership has ultimately succeeded. Today, against significant odds, Rwanda stands as a unified nation because of his resolve.",
+"title": "Paul Kagame's Fight to Bring Rwandans Together",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611170261.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "4e0b003ec22f45b585921091e8cd7a58a78b68c2b96e3313f5933d63de705fc4",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T12:06:51Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] As digital transformation advances worldwide, the challenge is no longer simply how much information we collect, but how well we connect, understand and use what we already have. With artificial intelligence, Earth observation and other data-driven technologies are advancing rapidly…",
+"title": "Rwanda's Digital Transformation - Connecting Places, Data and Opportunities",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611170398.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "202fa48b5bc914193d2e0e8d25e4c793fcf1fcbb1bc9fdaa6bfd0ab32d264d99",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T12:06:15Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Momentum in sport is hard to build and easy to lose. Over the past few weeks, Rwanda's swimmers have been building it, and it would be a significant loss if we failed to sustain it.",
+"title": "Rwandan Swimming Has Started Well. Now Let Us Keep Building",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611170397.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "42808fcf3624212c2624fd7527889258ba8457fdee82e9c77c93f2437e442c59",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T11:12:37Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Stakeholders in Rwanda's agriculture sector have called for stronger collaboration among government institutions, research organisations, development partners, private sector players and farmers to accelerate the adoption of Conservation Agriculture (CA), saying wider uptake is…",
+"title": "Rica's 2nd Ca Symposium Raises Hopes for Joint Action to Scale Up Conservation Agriculture",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611170349.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-17T17:33:39Z",
+"id": "1b29512cbeec4844884b98518a1c5da7fc510338b6eb2d23ea27889af5a1ee6b",
+"last_seen": "2026-11-17",
+"published": "2026-11-17T11:11:48Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The University of Kigali has reaffirmed its commitment to environmental sustainability by mobilising students, government officials and environmental conservation partners to plant approximately 2,000 trees in an initiative aimed at promoting a greener Rwanda and nurturing a generation…",
+"title": "One Student, One Tree - University of Kigali Strengthens Commitment to a Greener Rwanda",
+"topic_hits": [
+"Rwanda",
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611170347.html",
+"weight": 1
+}
+]
