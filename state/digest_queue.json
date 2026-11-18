@@ -13613,10 +13613,10 @@
 },
 {
 "category": "tech",
-"coverage_count": 1,
+"coverage_count": 2,
 "first_seen": "2026-11-17T23:56:01Z",
 "id": "f4a2e1db6061fb3ec196e1b0c556e0fd426b067cba4c09647c0f330d527fd794",
-"last_seen": "2026-11-17",
+"last_seen": "2026-11-18",
 "published": "2026-11-17T15:38:28Z",
 "reasons": [
 "source weight +3"
@@ -13626,8 +13626,10 @@
 "source": "Hacker News",
 "source_type": "hn",
 "sources": [
-"Hacker News"
+"Hacker News",
+"SecurityWeek"
 ],
+"summary": "The problem disrupted the operations of NSANet, a classified internal network used by employees of the agency. The post Classified Communications Network at the National Security Agency Goes Down, Defense Official Says appeared first on SecurityWeek .",
 "tags": [
 "hn"
 ],
@@ -13742,6 +13744,407 @@
 "Rwanda"
 ],
 "url": "https://allafrica.com/stories/202611170682.html",
+"weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-130121"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-18T07:08:30Z",
+"id": "CVE-2026-130121",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T04:17:14Z",
+"reasons": [
+"CVSS 7.2",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The AI Puffer - MCP Server for Claude & ChatGPT, with AI Chatbot plugin for WordPress is vulnerable to Stored Cross-Site Scripting via AI-generated comment replies in all versions up to, and including, 2.5.28 due to insufficient sanitization of the AI model's output in the…",
+"title": "CVE-2026-130121: The AI Puffer - MCP Server for Claude & ChatGPT, with AI Chatbot plugin for WordPress is vulnerable to Stored Cross-Site Scripting via…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130121",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-124015"
+],
+"cvss": 8.2,
+"epss": 0.00617,
+"first_seen": "2026-11-18T07:08:30Z",
+"id": "CVE-2026-124015",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.2",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": ". XWEB EVO 5.6.2 through 5.8.8 contains an authentication bypass vulnerability that allows unauthenticated attackers to set the password of any account flagged must-reset-at-next-login by exploiting missing session validation in the users.lua update_password action. Attackers can reset the password…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-124015: Missing Authentication for Critical Functionality",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124015"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2023-37170"
+],
+"cvss": 9.8,
+"epss": 0.01675,
+"first_seen": "2026-11-18T07:08:30Z",
+"id": "CVE-2023-37170",
+"keyword_hits": [
+"RCE",
+"remote code execution",
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"RCE",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "TOTOLINK a3300r_firmware. TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain an unauthenticated remote code execution (RCE) vulnerability via the lang parameter in the setLanguageCfg function.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-37170: TOTOLINK a3300r_firmware Improper Neutralization of Special Elements used in an OS Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-37170"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-126966"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-126966",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:18:36Z",
+"reasons": [
+"CVSS 8.8",
+"matches SmarterTools SmarterMail (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "SmarterTools SmarterMail Missing Authorization Privilege Escalation Vulnerability. This vulnerability allows remote attackers to escalate privileges on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability. The specific flaw exists within the…",
+"title": "CVE-2026-126966: SmarterTools SmarterMail Missing Authorization Privilege Escalation Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126966",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SmarterMail",
+"tier": 3,
+"vendor": "SmarterTools"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-126969"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-13T22:54:53Z",
+"id": "CVE-2026-126969",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:18:37Z",
+"reasons": [
+"CVSS 9.1",
+"matches SmarterTools SmarterMail (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "SmarterTools SmarterMail Insufficient Entropy Authentication Bypass Vulnerability. This vulnerability allows remote attackers to bypass authentication on affected installations of SmarterTools SmarterMail. Authentication is not required to exploit this vulnerability. The specific flaw exists within…",
+"title": "CVE-2026-126969: SmarterTools SmarterMail Insufficient Entropy Authentication Bypass Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126969",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SmarterMail",
+"tier": 3,
+"vendor": "SmarterTools"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-18T07:08:30Z",
+"id": "55c2a15526daf11308ff179cc530ee88ef351c8da88f57154e82d482b857ac88",
+"last_seen": "2026-11-18",
+"published": "2026-11-17T22:13:34Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Quad9's withdrawal from France: A canary in the coal mine",
+"url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-18T07:08:30Z",
+"id": "14adf6fa9b5230a17c8e1a5e76166272cf6240b5af3ff5824fb4771c948103d5",
+"last_seen": "2026-11-18",
+"published": "2026-11-17T19:50:40Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "jQuery 4.1.0",
+"url": "https://github.com/jquery/jquery/releases/tag/4.1.0",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-18T07:08:30Z",
+"id": "97093736b467b88818de9d20e13838727f0546580688add7cdf108f8cca63b8d",
+"last_seen": "2026-11-18",
+"published": "2026-11-17T18:25:13Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "MAI Code 2 and Code 2 Flash",
+"url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-18T07:08:30Z",
+"id": "c2e657b4d7fdd47c4472e3f97f5b83371097c418c41973ff6dd37951e8c05b0d",
+"last_seen": "2026-11-18",
+"published": "2026-11-17T19:25:27Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "350 years ago, Ole Rømer discovered that light has a finite speed",
+"url": "https://www.sciencenorway.no/culture-history-history-of-science/350-years-ago-this-man-discovered-that-light-has-a-finite-speed/2737969",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-18T07:08:30Z",
+"id": "894386e8a1a9b8cf19b59c27a36dcf0f4942091ff79d08497365a5f1a18f7268",
+"last_seen": "2026-11-18",
+"published": "2026-11-17T18:31:25Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Phrack 73 Released",
+"url": "https://phrack.org/issues/73/introduction_md",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-18T07:08:30Z",
+"id": "26a6d3b3201de1e882272870840c3f4d9d23a26372917f32afe496d7db36782a",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T06:22:59Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "Trump's move to exclude South Africa and Rwanda from AGOA shows why Africa must accelerate its own economic integration.",
+"title": "Africa’s economic future cannot depend on Washington",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://www.aljazeera.com/opinions/2026/11/18/africas-economic-future-cannot-depend-on-washington?traffic_source=rss",
+"weight": 1
+},
+{
+"big_story_hits": [
+"ceasefire"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-18T07:08:30Z",
+"id": "5ce37cb0f3482d03ff0b4e5e4b67a77ef061e6dd306ae2733ace3c20d0dfe65a",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T01:07:01Z",
+"reasons": [
+"big story: ceasefire",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "The US-led board has decried continued fighting in Gaza and delays in implementing the terms of a 2025 ceasefire deal.",
+"title": "Board of Peace warns Gaza ceasefire faces imminent collapse without action",
+"url": "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-18T07:08:30Z",
+"id": "8c442723f89855cc3c47a81ac45d7e41efbb9127bf1d5d7cf5b75d86fa99ccd1",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T05:19:39Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The City of Kigali is stepping up efforts to get more parents involved in school feeding, as education officials warn that gaps in contributions are limiting the variety of food served to learners.",
+"title": "Kigali Pushes for More Parental Support for School Meals",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611180027.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-18T07:08:30Z",
+"id": "a4ed63b47e92ab5f6ca9f1cc2e3ed46df6915408941358e93b5f91f9edc5db54",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T05:19:38Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The government has called for wider backing and faster implementation of the Kigali Amendment, as global ratification of the agreement to curb powerful planet-warming cooling gases approaches 90 per cent.",
+"title": "Kigali Amendment Ratification Nears 90%",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611180026.html",
 "weight": 1
 }
 ]
