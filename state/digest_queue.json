@@ -1,1 +1,2621 @@
-[]
+[
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-130746"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2026-130746",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T12:17:22Z",
+"reasons": [
+"CVSS 7.7",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Grav before 1.7.53.7 and 2.x before 2.2.18 serves page media files, and rendered pages when lazy sessions are enabled, with the visitor's session cookie and a shared-cacheable Cache-Control header. When a shared cache such as Apache mod_cache stores Set-Cookie responses, an attacker can lure a user…",
+"title": "CVE-2026-130746: Grav before 1.7.53.7 and 2.x before 2.2.18 serves page media files, and rendered pages when lazy sessions are enabled, with the visitor's…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130746",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-110009"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2026-110009",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T14:17:25Z",
+"reasons": [
+"CVSS 9.8",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The Unzer Payments plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in all versions up to, and including, 2.2.1. The vulnerability exists because the Google Pay Express Checkout endpoint (`/?wc-api=google_pay_express`), handled by…",
+"title": "CVE-2026-110009: The Unzer Payments plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in all versions up to, and…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110009",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121812"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2026-121812",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T16:18:03Z",
+"reasons": [
+"CVSS 8.7",
+"matches F5 BIG-IP (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Description: When BIG-IP APM is provisioned, and a virtual server is configured with an APM access profile and a per-request policy, and the tmm.access.policytrace database key is enabled, undisclosed requests can cause the Traffic Management Microkernel (TMM) to terminate. The key is disabled by…",
+"title": "CVE-2026-121812: Description: When BIG-IP APM is provisioned, and a virtual server is configured with an APM access profile and a per-request policy, and…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121812",
+"vendor_matches": [
+{
+"points": 3,
+"term": "BIG-IP",
+"tier": 1,
+"vendor": "F5"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-125272"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2026-125272",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T16:18:05Z",
+"reasons": [
+"CVSS 8.7",
+"matches F5 BIG-IP (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Description: When BIG-IP APM is licensed and provisioned, and a virtual server with the APM access profile is configured with a per-request policy containing a form-based Logon Page, undisclosed requests can cause the Traffic Management Microkernel (TMM) to terminate. Impact: Traffic is disrupted…",
+"title": "CVE-2026-125272: Description: When BIG-IP APM is licensed and provisioned, and a virtual server with the APM access profile is configured with a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125272",
+"vendor_matches": [
+{
+"points": 3,
+"term": "BIG-IP",
+"tier": 1,
+"vendor": "F5"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126336"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2026-126336",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T16:18:07Z",
+"reasons": [
+"CVSS 8.7",
+"matches F5 BIG-IP (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Description: When BIG-IP APM is provisioned and a virtual server is configured with an APM Access profile and a SAML Service Provider (SP) agent with encrypted assertions enabled, undisclosed requests can cause the Traffic Management Microkernel (TMM) to terminate. Impact: Traffic is disrupted…",
+"title": "CVE-2026-126336: Description: When BIG-IP APM is provisioned and a virtual server is configured with an APM Access profile and a SAML Service Provider…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126336",
+"vendor_matches": [
+{
+"points": 3,
+"term": "BIG-IP",
+"tier": 1,
+"vendor": "F5"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126822"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2026-126822",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T16:18:09Z",
+"reasons": [
+"CVSS 8.7",
+"matches F5 BIG-IP (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Description: When BIG-IP APM is provisioned, an Access Profile is configured as a SAML SP (Service Provider) and is applied to a virtual server, undisclosed requests can cause the Traffic Management Microkernel (TMM) to terminate. Impact: Traffic is disrupted while the TMM process restarts. This…",
+"title": "CVE-2026-126822: Description: When BIG-IP APM is provisioned, an Access Profile is configured as a SAML SP (Service Provider) and is applied to a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126822",
+"vendor_matches": [
+{
+"points": 3,
+"term": "BIG-IP",
+"tier": 1,
+"vendor": "F5"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-71861"
+],
+"cvss": 7.4,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2026-71861",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T16:18:16Z",
+"reasons": [
+"CVSS 7.4",
+"matches AWS (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The Chainguard SDK is a public Go SDK for integrating with the Chainguard platform. Prior to 0.1.107, auth/aws.VerifyToken trusts the Chainguard-Audience and Chainguard-Identity headers without requiring those headers to be covered by AWS SigV4 SignedHeaders. An attacker with a fresh STS…",
+"title": "CVE-2026-71861: The Chainguard SDK is a public Go SDK for integrating with the Chainguard platform",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71861",
+"vendor_matches": [
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2022-51031"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2022-51031",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "PMB Services PMB. PMB 7.3.1 before 7.3.15 and 7.4.x before 7.4.5 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject script through unescaped POST parameter names. Attackers can send crafted parameter names to opac_css/index.php extended_search…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-51031: sigb pmb Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51031"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2022-51032"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2022-51032",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "johnwarne reddit-top-rss. Reddit Top RSS through commit 5e38bfd contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject scripts through the unescaped score GET parameter. Attackers can craft links with a score value that closes the input value…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-51032: Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51032"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2023-54420"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2023-54420",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.7",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Fujian Apex Software Co., Ltd. LiveBOS. LiveBOS builds through 2023-08-16 contain a path traversal vulnerability that allows unauthenticated attackers to read arbitrary files via the imgName parameter in /feed/ShowImage.do using a ';.js.jsp' suffix bypass. Attackers can send crafted GET requests…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-54420: Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54420"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2018-25443"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2018-25443",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Baidu UEditor. Baidu UEditor 1.4.0 through 1.4.3.3 contains an unrestricted file upload vulnerability in the catchimage action of /ueditor/net/controller.ashx that only validates the Content-Type header. Unauthenticated attackers can supply a source[] URL like x.jpg?.aspx to retain a malicious…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2018-25443: Baidu ueditor Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25443"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2016-20105"
+],
+"cvss": 9.2,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2016-20105",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.2",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Lucee Lucee Server. Lucee Server versions 5.0.0.0 before 5.3.4.46 contain an insecure default configuration that allows unauthenticated attackers to set the initial admin password via the first-run form on /lucee/admin/web.cfm and /lucee/admin/server.cfm. Attackers can access the 'New Password'…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2016-20105: Initialization of a Resource with an Insecure Default",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2016-20105"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2019-25783"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2019-25783",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Tiny Tiny RSS Tiny Tiny RSS. Tiny Tiny RSS before commit c68ac04 (2019-03-03) contains an open redirect vulnerability that allows unauthenticated attackers to redirect users through the unvalidated 'return' parameter. Attackers can craft requests to /public.php?op=login with an absolute external…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2019-25783: URL Redirection to Untrusted Site",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25783"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-126753"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2026-126753",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "LimeSurvey LimeSurvey. LimeSurvey 6.5.0 before 6.16.11 contains an open redirect vulnerability that allows unauthenticated attackers to redirect users by supplying arbitrary values to the url parameter. Attackers can send crafted GET requests to index.php?r=editorLink, where EditorLinkController…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-126753: limesurvey limesurvey URL Redirection to Untrusted Site",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126753"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2016-20106"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2016-20106",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.7",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "NUUO NVRmini 2. NUUO NVRmini 2 through 3.0.8 contains a file disclosure vulnerability that allows unauthenticated attackers to read web-root files by passing a filename to the 'css' parameter of css_parser.php. Attackers can retrieve PHP source files confined to the document root, exposing…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2016-20106: NUUO nvrmini_2_firmware Insertion of Sensitive Information into Externally-Accessible File or Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2016-20106"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2019-25782"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2019-25782",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "TopThink ThinkPHP. ThinkPHP 5.0.0 before 5.0.24 contains a code injection vulnerability that allows unauthenticated attackers to execute commands by setting _method=__construct in POST data to overwrite the Request filter property. Attackers can send POST requests to endpoints reached via…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2019-25782: ThinkPHP ThinkPHP Use of Externally-Controlled Input to Select Classes or Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25782"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2023-54422"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2023-54422",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "iDocView iDocView. iDocView before 13.10.1_20231115 contains an unrestricted file upload vulnerability in the /html/2word endpoint that allows unauthenticated attackers to write arbitrary files by supplying a malicious url parameter. Attackers can send a crafted GET request with the url parameter…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-54422: idocv idocview Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54422"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-60202"
+],
+"cvss": 7.5,
+"epss": 0.00461,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2025-60202",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.5",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Kyle Phillips Favorites. Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Kyle Phillips Favorites favorites allows PHP Local File Inclusion.This issue affects Favorites: from n/a through <= 2.3.6.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-60202: favorites_project favorites Improper Control of Filename for Include/Require Statement in PHP Program",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60202"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-1560"
+],
+"cvss": 8.8,
+"epss": 0.10388,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2026-1560",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.8",
+"remote code execution",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "nko Custom Block Builder – Lazy Blocks. The Custom Block Builder – Lazy Blocks plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 4.2.0 via multiple functions in the 'LazyBlocks_Blocks' class. This makes it possible for authenticated attackers, with…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-1560: nk lazy_blocks Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1560"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-12719"
+],
+"cvss": 4.3,
+"epss": 0.00361,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2024-12719",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "iptanus wordpress_file_upload. The WordPress File Upload plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the 'wfu_ajax_action_read_subfolders' function in all versions up to, and including, 4.24.15. This makes it possible for authenticated…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-12719: iptanus wordpress_file_upload Missing Authorization",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-12719"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2022-51028"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2022-51028",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "CmsEasy CmsEasy. CmsEasy 7.7.5_20210919 contains an unauthenticated SQL injection vulnerability in the execsql_action function at /?case=crossall&act=execsql that executes attacker-supplied queries decrypted with the hardcoded key 'cmseasy_sql'. Attackers can send a crafted 'sql' parameter to run…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-51028: cmseasy cmseasy Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51028"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2021-48026"
+],
+"cvss": 6.9,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2021-48026",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Beijing Zhongqing Modern Technology Zhongqing Naboo Education Cloud Platform. Zhongqing Naboo Education Cloud Platform builds through 2021-07-09 contain a missing authentication vulnerability in the /api/TeacherQuery/SearchTeacherInSiteWithPagerRecords endpoint that allows unauthenticated attackers…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-48026: Missing Authentication for Critical Functionality",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48026"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2012-20008"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2012-20008",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "OS4ED openSIS. openSIS 5.1 before 9.0 contains a local file inclusion vulnerability that allows authenticated users to include arbitrary files through the modname parameter of ajax.php. Attackers can prefix a payload with misc/ and use ../ directory traversal to read sensitive files like…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2012-20008: os4ed opensis Improper Control of Filename for Include/Require Statement in PHP Program",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2012-20008"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2022-51034"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2022-51034",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Tangshan Pingsheng Electronic Technology Development Co., Ltd. Reservoir Safety Supervision Platform. Tangshan Pingsheng Reservoir Safety Supervision Platform builds through 2022-11-30 contain an unauthenticated SQL injection vulnerability in the simcardId parameter of…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-51034: Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51034"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2010-20126"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2010-20126",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Daniel K. Imori Virtual Keyboard plugin for SquirrelMail. Virtual Keyboard plugin for SquirrelMail through 0.9.1 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject script by supplying unsanitized input in the passformname parameter. Attackers can…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2010-20126: Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2010-20126"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2021-48027"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2021-48027",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Rother OSS OTOBO. OTOBO 10.0.1 before 10.0.13 contains an open redirect vulnerability that allows unauthenticated attackers to redirect users by supplying arbitrary URLs to the ExternalURLJump action. Attackers can craft GET requests to /otobo/index.pl?Action=ExternalURLJump with a malicious URL…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-48027: URL Redirection to Untrusted Site",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48027"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2019-25786"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2019-25786",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "SIR (gnuboard) gnuboard5. Gnuboard5 5.0.1 before 5.3.3.3 and 5.4.0.1 before 5.4.0.2 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject scripts through the arr_ajax_msg parameter. Attackers can craft GET requests to…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2019-25786: Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25786"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-126754"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2026-126754",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "cPanel, L.L.C. cPanel & WHM. cPanel & WHM 11.134.0.13 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject scripts through the mpidentity parameter of /mailman/listinfo. Attackers can send crafted requests with a script-context breakout payload in…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-126754: Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126754"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2021-48022"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2021-48022",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.7",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Rocket.Chat Rocket.Chat. Rocket.Chat versions 0.61.0 before 3.11.4, 3.12.x before 3.12.4 and 3.13.x before 3.13.2 contain a missing authorization vulnerability allowing unauthenticated attackers to read any room's messages via the livechat:loadHistory Meteor method. Attackers can mint a guest token…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-48022: rocket.chat rocket.chat Authorization Bypass Through User-Controlled Key",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48022"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2023-54417"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2023-54417",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.7",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Nuxt nuxt. Nuxt 3.0.0 before 3.4.2 contains a semi-arbitrary file read vulnerability in the vite-node dev server middleware that allows unauthenticated attackers to read files by supplying an absolute path as the moduleId. Attackers can send GET requests to /__nuxt_vite_node__/module/ with an…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-54417: nuxt nuxt Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54417"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2021-48025"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2021-48025",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Jiaxing Xiangtian Information Technology OpenSNS. OpenSNS 3.2.1 contains an unauthenticated code injection vulnerability in the shareBox method of ShareController that allows attackers to invoke arbitrary model methods via the query parameter. Attackers can send crafted GET requests to…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-48025: opensns opensns Use of Externally-Controlled Input to Select Classes or Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48025"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2019-25785"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2019-25785",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.7",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "FanRuan FineReport. FineReport 8.0 contains a path traversal vulnerability that allows unauthenticated attackers to read arbitrary files through the resourcepath parameter of the /WebReport/ReportServer endpoint. Attackers can send GET requests with op=chart and cmd=get_geo_json to read sensitive…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2019-25785: Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25785"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2021-48028"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2021-48028",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Public Knowledge Project Open Journal Systems. Open Journal Systems 2.1.0 before 3.0.0 contains an open redirect vulnerability that allows unauthenticated attackers to redirect users to external domains by abusing the source parameter. Attackers can send GET requests to…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-48028: public_knowledge_project open_journal_systems URL Redirection to Untrusted Site",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48028"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-126751"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2026-126751",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Retool Retool. Retool versions 3.253.0 before 3.253.19, 3.254.0 before 3.284.12, and 3.285.0 before 3.300.4 contain a DOM-based cross-site scripting vulnerability in the custom-component-collections.html postMessage handler that imports received code without origin validation. Unauthenticated…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-126751: retool retool Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126751"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2023-54421"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2023-54421",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "phpLDAPadmin phpLDAPadmin. phpLDAPadmin 1.1.0 before 1.2.5 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject scripts through the dn parameter of cmd.php?cmd=template_engine. Attackers can supply an unparseable dn value that pretty_print_dn…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-54421: phpldapadmin_project phpldapadmin Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54421"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2024-58402"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2024-58402",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "DevWebister Azon Dominator. Azon Dominator releases through 2024-06-03 contain an SQL injection vulnerability that allows unauthenticated attackers to manipulate database queries through the cid parameter in /fetch_products.php. Attackers can send crafted POST requests with boolean-based or…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-58402: Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58402"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2021-48023"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2021-48023",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Weaver Network Co., Ltd. E-cology. Weaver E-cology 9.0 contains an unrestricted file upload vulnerability in /page/exportImport/uploadOperation.jsp that allows unauthenticated attackers to upload arbitrary JSP files. Attackers can send a crafted multipart POST request with a JSP webshell written to…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-48023: Weaver e-cology Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48023"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-126752"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2026-126752",
+"keyword_hits": [
+"unauthenticated",
+"remote code execution"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "dagu-org Dagu. Dagu 1.23.0 before 2.0.0 defaults auth.mode to none, allowing unauthenticated attackers to execute OS commands through the /api/v2/dag-runs endpoint. Attackers can send a POST request with an inline spec defining steps containing arbitrary shell commands to achieve remote code…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-126752: dagu dagu Missing Authentication for Critical Functionality",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126752"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2023-54419"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2023-54419",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "cym1102 nginxWebUI. nginxWebUI 3.0.0 before 3.5.8 contains an authentication bypass vulnerability that allows unauthenticated attackers to reach the /AdminPage/conf/runCmd endpoint by using a case-variant path that evades the case-sensitive /adminPage/ login filter. Attackers can pass OS commands…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-54419: cym1102 nginxwebui Improper Handling of Case Sensitivity",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54419"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2023-54418"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2023-54418",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.7",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Nuxt nuxt. Nuxt 3.0.0-rc.1 before 3.0.0-rc.13 contains an arbitrary file read vulnerability caused by the Vite dev server default setting vite.server.fs.strict=false. Unauthenticated attackers can request /_nuxt/@fs/ with a raw query to read arbitrary files like /etc/passwd from the system…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-54418: nuxt nuxt Files or Directories Accessible to External Parties",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54418"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2022-51029"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2022-51029",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.7",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Synway Information Engineering Co., Ltd. Synway SMG Gateway Management Software. Synway SMG Gateway Management Software builds through 2022-03-15 contain a path traversal vulnerability that allows unauthenticated attackers to read arbitrary files via the downfile parameter in /down.php. Attackers…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-51029: Synway smg_gateway_management_software Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51029"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2022-51035"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2022-51035",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "SLiMS Senayan Library Management System. SLiMS Senayan Library Management System 9.4.0 before 9.4.2 contains a reflected cross-site scripting vulnerability in the destination parameter of /index.php?p=member, which is echoed unmodified into the login form action attribute. Unauthenticated attackers…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-51035: slims senayan_library_management_system Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51035"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2019-25784"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2019-25784",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "dayrui FineCMS. FineCMS versions 5.0.4 before 5.0.11 contain an unauthenticated SQL injection vulnerability in the data2 API action handled by list_tag in libraries/Template.php. Attackers can send GET requests to index.php?c=api&m=data2 with a valid auth hash and the param action=sql sql='...' to…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2019-25784: finecms finecms Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25784"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2021-48021"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2021-48021",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Chamilo Chamilo LMS. Chamilo LMS 1.11.10 before 1.11.16 contains an unauthenticated SQL injection vulnerability in the searchOptionsFromTags function through the options parameter of extra_field.ajax.php. Attackers can send POST requests with a malicious JSON options array to inject SQL into the IN…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-48021: chamilo chamilo Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48021"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2018-25442"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2018-25442",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.3",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Baidu UEditor. Baidu UEditor 1.4.0 before 1.4.3.1 contains a server-side request forgery vulnerability that allows unauthenticated attackers to make arbitrary requests via the source[] parameter in /ueditor/jsp/controller.jsp?action=catchimage. Attackers can supply crafted URLs that the ImageHunter…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2018-25442: Baidu ueditor Server-Side Request Forgery",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25442"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2020-37290"
+],
+"cvss": 6.9,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2020-37290",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Kiwi TCMS Kiwi TCMS. Kiwi TCMS before 8.6 contains a missing authorization vulnerability in the User.filter JSON-RPC method that allows unauthenticated attackers to retrieve user account information. Attackers can send a POST request to /json-rpc/ invoking User.filter with a query parameter to…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2020-37290: kiwitcms kiwi_tcms Missing Authorization",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-37290"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2024-58403"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2024-58403",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.7",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Shanghai Aishu Information Technology Co., Ltd. AnyShare. AnyShare builds through 2024-11 contain a missing authentication vulnerability in the /api/ShareMgnt/Usrm_GetAllUsers endpoint that exposes user records including password fields. Attackers can send unauthenticated POST requests with a…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-58403: Missing Authentication for Critical Functionality",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58403"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-126755"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2026-126755",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "ArangoDB ArangoDB. ArangoDB before 3.12.11 contains an authentication bypass vulnerability caused by a parser differential between the raw path authentication gate and the URL-decoded dispatch logic. Attackers can send requests with a %5f-encoded leading underscore to endpoints like…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-126755: arangodb arangodb Authentication Bypass Using an Alternate Path or Channel",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126755"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2024-58401"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2024-58401",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Webkul Bagisto. Bagisto 2.1.0 before 2.2.1 contains a client-side template injection vulnerability in the search page where the 'query' parameter is rendered unescaped inside a Vue app root. Unauthenticated attackers can send crafted VueJS template expressions to the /bagisto-common/search endpoint…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-58401: webkul bagisto Improper Neutralization of Special Elements Used in a Template Engine",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58401"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2022-51033"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2022-51033",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "JoomBri JoomBri Careers. JoomBri Careers 3.3.0 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject scripts through the 'keyword' parameter of the /for-jobseekers/search-jobs endpoint in com_jbcareers. Attackers can craft malicious URLs using an…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-51033: Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51033"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2012-20007"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2012-20007",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "TopThink ThinkPHP. ThinkPHP 2.0 through 2.2 and 3.0 Lite mode contains an eval injection vulnerability in the Dispatcher PATH_INFO parsing, which uses preg_replace with the /e modifier and a double-quoted replacement. Unauthenticated attackers can send crafted requests to index.php with a malicious…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2012-20007: ThinkPHP ThinkPHP Improper Neutralization of Directives in Dynamically Evaluated Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2012-20007"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2023-54416"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2023-54416",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Tiki Software Community Association Tiki Wiki CMS Groupware. Tiki Wiki CMS Groupware 12.12 through 12.14, 15.5 before 18.10, 19.0 before 21.9, 22.0 before 24.3, and 25.0 contain a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject scripts through the…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-54416: Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54416"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2022-51027"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "CVE-2022-51027",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "FIT2CLOUD MeterSphere. MeterSphere versions 1.13.0 before 1.14.7 and 1.15.0 before 1.16.4 contain a pre-authentication code injection vulnerability due to the /plugin/** endpoints being exposed with anonymous access. Attackers can upload a malicious jar via POST /plugin/add and invoke it through…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-51027: metersphere metersphere Missing Authentication for Critical Functionality",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51027"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-76411",
+"CVE-2026-76414",
+"CVE-2026-76415",
+"CVE-2026-76416",
+"CVE-2026-76417",
+"CVE-2026-76421",
+"CVE-2026-76422",
+"CVE-2026-76430",
+"CVE-2026-76515",
+"CVE-2026-76516"
+],
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "bb47b3431c24127e2c629e4a5920cb0e4ef2b36a64e9aae106f6f51b46898123",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T16:00:00Z",
+"reasons": [
+"matches Cisco (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "Cisco PSIRT",
+"source_type": "rss",
+"sources": [
+"Cisco PSIRT"
+],
+"summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to bypass configured file and scan time limits and cause a denial of service (DoS) condition, interrupting scanning operations. For more information about these vulnerabilities, see the Details section of this advisory. For additional…",
+"title": "ClamAV Vulnerabilities Affecting Cisco Products: November 2026",
+"url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-multi-e93M3vdA",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Cisco",
+"tier": 1,
+"vendor": "Cisco"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "f44a29b19d55f220567bba1fe528d9055868a1c4806c652937ee1f5a31a48d57",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+"title": "ZDI-26-1027: (0Day) Open Robotics RViz fillIndexBuffer Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1027/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "c17e59405e064b8007db9cf73f3dae73a81674e969d83b327871857e167d3852",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-1018: (0Day) Krita TIF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1018/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "30a10d174c053a39e204115569f16c30f43f7f7922fca4c1fe871fea9b9cd854",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-1017: (0Day) Krita HEIC File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1017/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "c2901a225cf51ac05d2ae80ff408c4f7a2cc6310a28967d75d6e1f8b65700e00",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-1016: (0Day) Krita EXR File Parsing Integer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1016/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "f057dec329ba59e5e0c8475ca6d8e16c9903b94995bb5776b29aaf6c858bbf55",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-1015: (0Day) Krita HEIC File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1015/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "3bbb8bb045a722efefe9c441068714d774fb5eed0b67916b5468aaa87c8c4d2f",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-1014: (0Day) Krita TIFF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1014/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "6ab048d8dca460ff88092d992261e2994f7ae3245c36c8fc724fd2eda1acbb4f",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-1013: (0Day) Krita PSB File Parsing Integer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1013/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "0dc2a1087eca317afa41dfeab43202fd0002e703a15b13bb20e24a9dcc1df708",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-1012: (0Day) Krita ASL File Parsing Integer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1012/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "ced3b3366c9dcc4f25e1ad882c9e09657c0a53857e29de2408d9b2c7a5f8a825",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-1011: (0Day) Krita ABR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1011/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "fb35b5007182ecae10a5eead171c2e64b1cc9311799b1e8c4ba63e4aba5b772e",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8.",
+"title": "ZDI-26-1010: (0Day) Krita JC2 File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1010/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "f385432ee4199473a27ec435594b2e8e0908d7d93ec1508ae7b503b0f284f386",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T10:35:05Z",
+"reasons": [
+"RCE",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
+"title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+"url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "7848cf60918b2e5b939046f9a4ad90a634c77d5c6b7c6b66b258f5a6bbeb2e04",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T06:45:26Z",
+"reasons": [
+"matches Microsoft (Tier 2)",
+"topic: PyPI"
+],
+"route": "digest",
+"score": 4,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on…",
+"title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+"topic_hits": [
+"PyPI"
+],
+"url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "cff59ea71254878e3d96998fb81344446a29b490f2004a670c25011ffb7a4c6f",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T11:05:39Z",
+"reasons": [
+"matches Microsoft (Tier 2)",
+"topic: PyPI"
+],
+"route": "digest",
+"score": 4,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Versions 1.26.1 and 1.26.2 of agent-framework on PyPI steal Azure, Azure DevOps, and GitHub Actions credentials when Python starts. The post Microsoft Agent Framework Releases Poisoned With Credential Stealer appeared first on SecurityWeek .",
+"title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
+"topic_hits": [
+"PyPI"
+],
+"url": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "80cf7200be7eec30e91acfb461d3e7a64bfc17792dd5f09bc299f9960c9e30cf",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T08:47:18Z",
+"reasons": [
+"unauthenticated",
+"matches Oracle (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Over 300 patches address unauthenticated, remotely exploitable flaws, while 62 fix critical-severity flaws. The post Oracle Patches 950 Vulnerabilities With November 2026 CSPU appeared first on SecurityWeek .",
+"title": "Oracle Patches 950 Vulnerabilities With November 2026 CSPU",
+"url": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Oracle",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "f8e70df23776c8c45ffbd0278e9264132ae66e2746333b6f1ced85f21de6063e",
+"keyword_hits": [
+"RCE",
+"remote code execution"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T07:43:34Z",
+"reasons": [
+"RCE",
+"matches Jenkins (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work The post Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover appeared first on SecurityWeek .",
+"title": "Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover",
+"url": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Jenkins",
+"tier": 3,
+"vendor": "Jenkins"
+},
+{
+"points": 2,
+"term": "Jira",
+"tier": 3,
+"vendor": "Atlassian"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "5b9b938e61ead2fe002f72e93ab587c855327e936b7364302e994192714cd3e1",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-18",
+"published": "2026-11-18T14:00:00Z",
+"reasons": [
+"RCE"
+],
+"route": "digest",
+"score": 3,
+"source": "Dark Reading",
+"source_type": "rss",
+"sources": [
+"Dark Reading"
+],
+"summary": "Government-sanctioned authentication middleware is used for exceptionally important legal documents, yet it's often rife with RCE bugs.",
+"title": "Major Brazilian Signature Apps Enable RCE & Fraud",
+"url": "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "0e350c52f4eb4150fa3cc89b74ac747df4e42f036b9624c4e6e1a911330af5ca",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:17:58Z",
+"reasons": [
+"matches Google (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Google's AI answers reducing search traffic by 40%",
+"url": "https://revscope.co/blog/search-seo-geo-2026/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+],
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "f60ac01c0291b51e8fa1aa6ab2f2f5ede73c32c6131f19d1201332a943a1e857",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T00:51:45Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "ID.me terms required for IRS sign-in",
+"url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "1e4951591b62b70669148c7cbc42857bec54aa80b341316ad0a9f1a544ef90d2",
+"last_seen": "2026-11-18",
+"published": "2026-11-17T23:18:49Z",
+"reasons": [
+"matches Microsoft (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+"url": "https://github.com/microsoft/onnxruntime",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+}
+],
+"weight": 3
+},
+{
+"big_story_hits": [
+"coup"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "d48ace609352c19c596d4621fc996c136e3e82716213b7be9d327a8a5577ba8c",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T10:53:21Z",
+"reasons": [
+"big story: coup",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "Thursday's meeting between the leaders of US, China and Russia will give Vladimir Putin a big stage - but it does not bring him closer to winning the war in Ukraine.",
+"title": "Steve Rosenberg: Historic talks with Xi and Trump are a coup for Putin",
+"url": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "cce886d88384a881b88cbf780780bdf720b8e7ec46e80ce261c00a42b5850ecd",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T05:11:42Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "The Lobito Corridor is at the centre of a US-backed effort to secure access to Africa's critical minerals.",
+"title": "Can a US-backed mineral highway bring peace and prosperity to DR Congo?",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.bbc.co.uk/news/articles/cx053jrv9rz9o",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "e3f10ca786f689e86d6da1cf0a4faaebb36218f537a99b5cf41acf2e61d1d6ad",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T16:05:37Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "Five European countries are looking to Rwanda to host rejected asylum seekers.",
+"title": "Five EU nations to deport migrants to Rwanda",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/five-eu-nations-to-deport-migrants-to-rwanda?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "e38c8597c931d7cce1a1ee97665e2ee569ed6b5a0877228aa35854e36f8f40e1",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T14:12:57Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "South Africa seeks billions in new investment to revive weak growth and tackle unemployment crisis.",
+"title": "What’s holding South Africa’s economy back?",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/video/counting-the-cost/2026/11/18/whats-holding-south-africas-economy-back?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "011ef808e89ea2db1c8ee7528cc6b670867d031a5315a0786bdfedebee2b45e6",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T12:27:23Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "The two sides remain divided over key security commitments under the Washington Accords.",
+"title": "Rwanda and DRC: What is holding up the Washington peace process?",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://www.aljazeera.com/news/2026/11/18/rwanda-and-drc-what-is-holding-up-the-washington-peace-process?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "7c92192a20c22fb8cdb740627770a8a4fe5cc832a01decf8746f73645a2be7c0",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T11:58:10Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "A British immigration lawyer, Rwandan journalist, rights groups and leading politicians decry the proposal as inhumane.",
+"title": "‘Partnership buys silence’: Fears grow over EU-Rwanda deportation plans",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://www.aljazeera.com/news/2026/11/18/partnership-buys-silence-fears-grow-over-eu-rwanda-deportation-plans?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "225f6206701d326d5eaf3887709779e3a7b8d4a0b468f5b372570089c97120e9",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T10:00:56Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] African governments should address shortages of midwives and improve their working conditions to strengthen maternal and newborn healthcare and reduce preventable deaths, a senior United Nations Population Fund (UNFPA) official has said.",
+"title": "UNFPA Urges Africa to Address Midwife Shortages, Poor Working Conditions",
+"topic_hits": [
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611180187.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "b7cbceaac849de0197f2fc4174a22bc6587a5e90e5e3cca89543816683d4e2d0",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T11:43:24Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda's campaign in the qualifiers for the 2027 U-23 Africa Cup of Nations came to an end after they held Cameroon to a goalless draw in the second leg in Yaoundé on Tuesday.",
+"title": "Rwanda Bow Out of Afcon U23 Qualifiers",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611180284.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-18T16:30:18Z",
+"id": "d16a342c8511465b100e33b67008cfd82a0fd796d44bdfaea1b0b631580b8259",
+"last_seen": "2026-11-18",
+"published": "2026-11-18T11:42:45Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda head coach Stephen Constantine has congratulated Mali on qualifying for the 2027 Africa Cup of Nations (AFCON), admitting that the visitors were the better side over the two teams' qualifying encounters.",
+"title": "Constantine Admits Mali's Quality Squad Made the Difference",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611180283.html",
+"weight": 1
+}
+]
