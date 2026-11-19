@@ -1788,7 +1788,7 @@
 "CVE-2026-97229"
 ],
 "meta": {
-"nvd_cursor": "2026-11-19T04:05:37Z"
+"nvd_cursor": "2026-11-19T12:53:16Z"
 },
 "seeded_sources": [
 "Al Jazeera",
@@ -2194,6 +2194,22 @@
 "Al Jazeera"
 ],
 "weight": 1
+},
+"01b4c9a699579ce3eb428ee3bdd4ec6a10db4cf04d5ca6a4cb1973e6f587931a": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "01b4c9a699579ce3eb428ee3bdd4ec6a10db4cf04d5ca6a4cb1973e6f587931a",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:30:00Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Canva adds an AI ‘off’ button",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button"
 },
 "01b878f60716ce50634cc63560b45ffbe2d29d818019ac6e6b9030a782b1b815": {
 "category": "tech",
@@ -4025,6 +4041,38 @@
 ],
 "weight": 1
 },
+"0aa9e1bfc5bcca2029e57152e9f0c7a9e40580e10c5dbdd4f376481ff5ed4e3d": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "0aa9e1bfc5bcca2029e57152e9f0c7a9e40580e10c5dbdd4f376481ff5ed4e3d",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T08:14:00Z",
+"reasons": [
+"RCE",
+"matches Oracle (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+"url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Oracle",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
+},
 "0abc0cd964698794484831a869e30e4529e56a47b9add55461837a52a1e1476f": {
 "category": "security",
 "coverage_count": 1,
@@ -4331,10 +4379,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "0bcef1caf0853b85c24596752eafa71ab22a9c86a9270fb2f4a8191b135cce7a",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T02:14:44Z",
-"reasons": [
-"source weight +3"
-],
 "route": "digest",
 "score": 3,
 "source": "Hacker News",
@@ -4345,8 +4389,6 @@
 "tags": [
 "hn"
 ],
-"title": "Qwen4-Max",
-"url": "https://qwen.ai/blog?id=qwen4-max",
 "weight": 3
 },
 "0bd73d3b1ea88de7028393986e1fedbad7c0fa4e9c8c38447b29f3a77ed9f7ca": {
@@ -5669,6 +5711,27 @@
 }
 ]
 },
+"110ea30ef04d05262e8de333a70a532bc764387eff1920242623354085dc9e64": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "110ea30ef04d05262e8de333a70a532bc764387eff1920242623354085dc9e64",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T10:05:33Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "‘Displacement by design’: Trump’s Gaza peace plan a failure, aid groups say",
+"url": "https://www.aljazeera.com/news/2026/11/19/displacement-by-design-trumps-gaza-peace-plan-a-failure-aid-groups-say?traffic_source=rss",
+"weight": 1
+},
 "111d75cbdfbe7681c40bc7b93a1f9cb6528850ad30042a4e69dd7b2708c09800": {
 "category": "tech",
 "coverage_count": 1,
@@ -5917,6 +5980,27 @@
 ],
 "title": "Mercedes' clever new driving assist handles complex traffic like a champ",
 "url": "https://arstechnica.com/cars/2026/11/mercedes-clever-new-driving-assist-handles-complex-traffic-like-a-champ/"
+},
+"12739ee2ccc02ec31f3853e45309e4abd3ad2b481f37fa767477de349dc1bfc2": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "12739ee2ccc02ec31f3853e45309e4abd3ad2b481f37fa767477de349dc1bfc2",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T09:21:54Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Survivors of Uganda's deadly landslide seek justice at the UN",
+"url": "https://www.bbc.co.uk/news/articles/c920xgxp5785o",
+"weight": 1
 },
 "127fe3a0af2365eb7846e292ab3cf7c2ae33e1af371549bd3b99cb4b738ea75a": {
 "category": "security",
@@ -6670,6 +6754,27 @@
 }
 ]
 },
+"1634eca35feada30f303745436733687611e60a114251105927a9dc7f4f18416": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "1634eca35feada30f303745436733687611e60a114251105927a9dc7f4f18416",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:57:34Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Argentina mourns teen footballer Nunez who died after on-pitch collision",
+"url": "https://www.aljazeera.com/sports/2026/11/19/argentina-mourns-teen-footballer-nunez-who-died-after-on-pitch-collision?traffic_source=rss",
+"weight": 1
+},
 "1635def8271ec545028c32c4f9380fe301e15b64ef0eac47b82dbf6978963e3e": {
 "category": "tech",
 "coverage_count": 1,
@@ -6884,6 +6989,27 @@
 "sources": [
 "Ars Technica"
 ]
+},
+"16cbac08ce6398ca5caf4ea8b4c050c78534bc971b3aa81b5770e7e342c3457c": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "16cbac08ce6398ca5caf4ea8b4c050c78534bc971b3aa81b5770e7e342c3457c",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T07:52:30Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Why is Pete Hegseth strengthening US military ties with Venezuela?",
+"url": "https://www.aljazeera.com/news/2026/11/19/why-is-pete-hegseth-strengthening-us-military-ties-with-venezuela?traffic_source=rss",
+"weight": 1
 },
 "16cef6f6904839c8b43ab920b474f797883de13801676b43742c04e1b2b9e5bd": {
 "category": "tech",
@@ -7913,6 +8039,29 @@
 "url": "https://allafrica.com/stories/202611170347.html",
 "weight": 1
 },
+"1b35ef5bc51c4152b033b90cdb0259e8d463478fd4c2a6033ca3bd804af1c82b": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "1b35ef5bc51c4152b033b90cdb0259e8d463478fd4c2a6033ca3bd804af1c82b",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T10:41:05Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
+"url": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/"
+},
 "1b3e536ad95270ca885f53334522eeb4328e1b3edb4896067bf38aeb3c9f3a7d": {
 "category": "world",
 "coverage_count": 1,
@@ -8318,6 +8467,27 @@
 "url": "https://allafrica.com/stories/202611170167.html",
 "weight": 1
 },
+"1c9bb64ffe906b866f73c615bc6e8e962ee71903040b9ad21cf32a50e46a3080": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "1c9bb64ffe906b866f73c615bc6e8e962ee71903040b9ad21cf32a50e46a3080",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T08:19:17Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Saudi-led coalition intercepts Houthi missiles targeting Riyadh and south",
+"url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss",
+"weight": 1
+},
 "1c9f53f3c0c6fc6866232fe852cd21aac5c8f9d41d86a979260bce20559cdacf": {
 "category": "tech",
 "coverage_count": 1,
@@ -8592,10 +8762,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "1dcdc24151416904349efc95948254d656018bc67bc7086d8f7169c14e2a7bc6",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T03:21:56Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -8603,8 +8769,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
-"url": "https://www.bbc.co.uk/news/articles/c51k9nkwrndxo",
 "weight": 1
 },
 "1dde15e7d0be604697f0b2d4b8cfe4cef9cdfa7d36acafbcce16c15b886a222a": {
@@ -8791,10 +8955,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "1e7be030be290e29a7d803b780960419337fd729358376c41c95075d7468a7b8",
 "last_seen": "2026-11-17",
-"published": "2026-11-16T00:13:14Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -8802,8 +8962,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Russia's mega-rich are already imagining a future after Putin",
-"url": "https://www.bbc.co.uk/news/articles/c60733mxm0x0o",
 "weight": 1
 },
 "1e967d82dbc6abe4ca2ed2a7984c989767f6c594956d41fd64f7c49f9e025ee9": {
@@ -9475,10 +9633,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "211947f3eb0f59640d94289c3e735a8189ba8e1c09080c9a5274391ec4f63e37",
 "last_seen": "2026-11-17",
-"published": "2026-11-16T05:21:13Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "allAfrica Rwanda",
@@ -9486,8 +9640,6 @@
 "sources": [
 "allAfrica Rwanda"
 ],
-"title": "Belgium Must Ensure That No Genocide Suspect Finds Safe Haven",
-"url": "https://allafrica.com/stories/202611160066.html",
 "weight": 1
 },
 "2142a21d5a598a13b33a84d1717bde0a0e5dc9c17b97be88987fd7a432cf0ff5": {
@@ -9546,6 +9698,27 @@
 "vendor": "Apple"
 }
 ]
+},
+"218a17e7ad6bb0944355bee4b7080857c7caa8464a80facbf612900852c11506": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "218a17e7ad6bb0944355bee4b7080857c7caa8464a80facbf612900852c11506",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T06:44:59Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "‘It’s my friend’: Moment Trump greets Putin at China summit",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/its-my-friend-moment-trump-greets-putin-at-china-summit?traffic_source=rss",
+"weight": 1
 },
 "218c475479c37ddd95fa5bda0adfd3e1f276708c9a56b875c2a90ff7f2950528": {
 "category": "world",
@@ -11636,10 +11809,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "2afededda8665473f20a26fa9741180e31d79873c79d5b45e236f25ae967b22e",
 "last_seen": "2026-11-16",
-"published": "2026-11-15T22:00:13Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -11647,8 +11816,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Prince Harry praises war veterans on surprise visit to Ukraine",
-"url": "https://www.bbc.co.uk/news/articles/c60evn992jq8o",
 "weight": 1
 },
 "2b0b723fecdddb0f039a85ba58e9e42b1ec8960a4f3b0fc8b248f7a10cfdef7a": {
@@ -11756,6 +11923,31 @@
 "sources": [
 "BBC World"
 ],
+"weight": 1
+},
+"2bbe60a0567e9503fd587be1ba8440c45c109a91a98c8de9332b83834dd96592": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "2bbe60a0567e9503fd587be1ba8440c45c109a91a98c8de9332b83834dd96592",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:39:10Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Rwanda, Pakistan Seek Stronger Parliamentary Ties",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611190067.html",
 "weight": 1
 },
 "2bc67b8f526e5fe6281c4993be01437891fe087d5b8faba0d3b3a60abc4da5c6": {
@@ -12810,6 +13002,27 @@
 }
 ]
 },
+"303f6bfe04568363891874cdf31f5e976de920fdb610e7b285b7cec88c466713": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "303f6bfe04568363891874cdf31f5e976de920fdb610e7b285b7cec88c466713",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:20:19Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "ICJ rules Myanmar committed genocide against the Rohingya",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/icj-rules-myanmar-committed-genocide-against-the-rohingya?traffic_source=rss",
+"weight": 1
+},
 "304ec61de1a1df956e307b38ebdcaf792e7e8989f9c55a14526fddf88d49b7ff": {
 "category": "tech",
 "coverage_count": 1,
@@ -13057,6 +13270,34 @@
 ],
 "weight": 1
 },
+"31435675a8d0d772b3d8b6f1ea22dda201f2087db5bcdc44ffe5e8fc6601f4a8": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "31435675a8d0d772b3d8b6f1ea22dda201f2087db5bcdc44ffe5e8fc6601f4a8",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:46:00Z",
+"reasons": [
+"matches Microsoft Edge (Tier 2)"
+],
+"route": "drop",
+"score": 2,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
+"url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Edge",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
 "314ed095ef4f69d23c7e8cb460f2107228fd6c29542b23f3b812a8d3861f4711": {
 "category": "world",
 "coverage_count": 1,
@@ -13287,6 +13528,22 @@
 "vendor": "VMware"
 }
 ]
+},
+"31e9dcf9676e63ed5e619e9c6fdc080a98159e4823311635d4f3a3f649a65d29": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "31e9dcf9676e63ed5e619e9c6fdc080a98159e4823311635d4f3a3f649a65d29",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T00:00:00Z",
+"route": "drop",
+"source": "The Record",
+"source_type": "rss",
+"sources": [
+"The Record"
+],
+"title": "Russian charged with spying on Palantir employees for Moscow",
+"url": "https://therecord.media/russian-charged-with-spying-on-palantir-for-moscow"
 },
 "320f06139c04608c0a73fc2b3dacc95d1c629e7ec5ea46cab190b3c5f1a60602": {
 "category": "tech",
@@ -13652,10 +13909,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "33398de696ab677ae2c6467813e67ceaa0812336986665304c76034b8052448a",
 "last_seen": "2026-11-18",
-"published": "2026-11-16T04:36:45Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -13663,8 +13916,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Watch: New York teen reunites with cat missing after building collapse",
-"url": "https://www.bbc.co.uk/news/videos/cm3wgeqnppljo",
 "weight": 1
 },
 "334dcf82f322210269cdfe83fdb33f32931ad2b95b52b6a0683c86fde5ca70a1": {
@@ -14293,6 +14544,31 @@
 ],
 "weight": 1
 },
+"354e055aa4809a3c874c97331ba35184e151106caf8383a0561fa35b4e8f66c2": {
+"big_story_hits": [
+"nuclear"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "354e055aa4809a3c874c97331ba35184e151106caf8383a0561fa35b4e8f66c2",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T10:03:27Z",
+"reasons": [
+"big story: nuclear",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Trump calls for nuclear arms reduction at APEC summit",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/trump-calls-for-nuclear-arms-reduction-at-apec-summit?traffic_source=rss",
+"weight": 1
+},
 "3558342efc4e11d5b0bb956b2eb57f961a7d07354aef3f196f5085913fe55ef9": {
 "category": "security",
 "coverage_count": 1,
@@ -14404,6 +14680,29 @@
 "vendor": "Cisco"
 }
 ]
+},
+"358c914e24f00d337dac2a38c4836d2a8db2e51621e66bb93fec6551b4d722e1": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "358c914e24f00d337dac2a38c4836d2a8db2e51621e66bb93fec6551b4d722e1",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T08:00:00Z",
+"reasons": [
+"topic: Africa"
+],
+"route": "drop",
+"score": 2,
+"source": "Dark Reading",
+"source_type": "rss",
+"sources": [
+"Dark Reading"
+],
+"title": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.darkreading.com/threat-intelligence/africa-top-spot-most-attacked-region-nigeria-surge"
 },
 "358ff4c03ed29dfdc46e2164faa220a019e637bef634344a393a3377d2951aed": {
 "category": "vulnerabilities",
@@ -14931,6 +15230,29 @@
 "sources": [
 "SecurityWeek"
 ]
+},
+"37745bdb30b0f503eeaabd8e686681bad08d839f670fb7e58222c7aa70f20066": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "37745bdb30b0f503eeaabd8e686681bad08d839f670fb7e58222c7aa70f20066",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T08:42:11Z",
+"reasons": [
+"RCE"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+"url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html"
 },
 "37799a2f30ec7a7c15f46e453a94312c69b335791bedf12763317040e3136a15": {
 "category": "vulnerabilities",
@@ -15974,6 +16296,32 @@
 ],
 "weight": 1
 },
+"3d1fdc4115107cf0935ca2795a2c5eb0a14826533aacc7782c04b811d75e6cb1": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "3d1fdc4115107cf0935ca2795a2c5eb0a14826533aacc7782c04b811d75e6cb1",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:39:08Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Uganda Airlines Launches Entebbe-Kigali Route to Boost Trade and Tourism",
+"topic_hits": [
+"Rwanda",
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611190065.html",
+"weight": 1
+},
 "3d27ab1240004edef00cb77189a07367c4fd2a6fe68e1d1e83b2c72a2a6afb5e": {
 "category": "security",
 "coverage_count": 1,
@@ -16465,6 +16813,31 @@
 "sources": [
 "Zero Day Initiative"
 ]
+},
+"3fa02d8fd4947b1e480bcda3b97f6f1168171becce729a6569793270b50e5099": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "3fa02d8fd4947b1e480bcda3b97f6f1168171becce729a6569793270b50e5099",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:10:13Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "University of Rwanda Lays Out Measures to Address Sexual Corruption Allegations",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611190021.html",
+"weight": 1
 },
 "3fb5652b7dc36e4a96f0d431a7937d0e8e361eb9e1f00d0014bf17a87852672e": {
 "category": "security",
@@ -18740,10 +19113,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "48b4676a1367e4ffcc9ab4e956cfe55d6c0b836beeec314e1c1f16a23622669f",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T03:09:49Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -18751,8 +19120,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
-"url": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o",
 "weight": 1
 },
 "48eaab83adce16d80731d5ab47667f05b71b3785272434cb8c18ba55bbee165e": {
@@ -19472,6 +19839,31 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"4bc1a1756cebf574720fba053e962db000f664276da16909323e222b93346810": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "4bc1a1756cebf574720fba053e962db000f664276da16909323e222b93346810",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:39:05Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Africa Urged to Tackle Midwife Shortages, Poor Working Conditions to Save Lives",
+"topic_hits": [
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611190061.html",
 "weight": 1
 },
 "4bd558b54a073b070b101faf66df217e132b4c42eef8803004eff53c7a1be910": {
@@ -20265,10 +20657,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "4fbd357eb0effd5dac96118ebee212bc938f7cfc0f05b866b79a1e8cffec5ab5",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T00:26:32Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -20276,8 +20664,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Czechs rally against gov’t threat to media independence",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/czechs-rally-against-govt-threat-to-media-independence?traffic_source=rss",
 "weight": 1
 },
 "4fe69e79a11c1d735abcdb55c53a21823559d2cd53c0af7b8f7f63477114d575": {
@@ -20774,10 +21160,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "524896ffd24460953c7b3207d6e0d1dc58e66ca272eb77d32daa2382018abd93",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T02:22:29Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -20785,8 +21167,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Houthis advance in Yemen as government forces move to defend Aden",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/houthis-advance-in-yemen-as-government-forces-move-to-defend-aden?traffic_source=rss",
 "weight": 1
 },
 "524af3d1e0c6374b082b600471a051ff233bc836ad6375277c5ea187b2dc0c70": {
@@ -21035,10 +21415,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "539efdd155cb110210663600314c44ca1104e0f834cf4a220304f1d8cbca63b3",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T05:38:52Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -21046,8 +21422,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Widow of Haiti’s slain leader Moise to contest presidential vote",
-"url": "https://www.aljazeera.com/news/2026/11/16/widow-of-haitis-slain-leader-moise-to-contest-presidential-vote?traffic_source=rss",
 "weight": 1
 },
 "53b4405c640702ad0ec1aaca2e487f0bfa7cb2bfdb46a97908cb3733ae56c6d3": {
@@ -21332,10 +21706,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "54cee32fb1edb09eabfcdd47cc41a9ab81d07082a4f1c9ef161a67a521a38700",
 "last_seen": "2026-11-17",
-"published": "2026-11-16T05:54:14Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "allAfrica Rwanda",
@@ -21343,8 +21713,6 @@
 "sources": [
 "allAfrica Rwanda"
 ],
-"title": "AU Urges African Countries to Back African Candidate for Francophonie Top Job",
-"url": "https://allafrica.com/stories/202611160148.html",
 "weight": 1
 },
 "54da4f317a9c6af14370c07c36c5061a8c1766dc641bcaacca4a3c1f486625b7": {
@@ -22295,6 +22663,27 @@
 "Dark Reading"
 ]
 },
+"57ec4853b7026a20370c0670f39b0a33c5ad85643a2f85eb022b8cd73427fe08": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "57ec4853b7026a20370c0670f39b0a33c5ad85643a2f85eb022b8cd73427fe08",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:20:00Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Will laser weapons change warfare?",
+"url": "https://www.aljazeera.com/video/project-force-2/2026/11/19/will-lasers-weapons-change-warfare?traffic_source=rss",
+"weight": 1
+},
 "57f26593ced39fcdf81e417709865966a8d3964cfd118a9efecef68929da8b48": {
 "category": "world",
 "coverage_count": 1,
@@ -22547,6 +22936,27 @@
 "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o",
 "weight": 1
 },
+"5918b1ce21a3e1d19ae98a579bcda2f706afd6b9cbaedb79bbe0c422da5d7a69": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "5918b1ce21a3e1d19ae98a579bcda2f706afd6b9cbaedb79bbe0c422da5d7a69",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T04:42:52Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
+"url": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o",
+"weight": 1
+},
 "591c78a153b2790fa2458f7be7747fba33cc6473567ca5f48ac768792fb4d11e": {
 "category": "world",
 "coverage_count": 1,
@@ -22773,6 +23183,27 @@
 }
 ]
 },
+"5a2c7640e8acf73e1e112296bd8098ddaea0d1992fb2c75770f7cbdc4192faa5": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "5a2c7640e8acf73e1e112296bd8098ddaea0d1992fb2c75770f7cbdc4192faa5",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:22:43Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Putin says US-China-Russia can strengthen global stability",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/putin-says-us-china-russia-can-strengthen-global-stability?traffic_source=rss",
+"weight": 1
+},
 "5a5cc5bcbdf7ac8308fae2aca624b4ddbd6117fe781bdc72ceb6537899a49d3a": {
 "category": "tech",
 "coverage_count": 1,
@@ -22964,6 +23395,34 @@
 "title": "Iran war live: Trump says Iran seeks new weapons; Houthis target Riyadh",
 "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz?traffic_source=rss",
 "weight": 1
+},
+"5aec7770a5c91a9acb4aef31ef1b176dbe2db41ca62ed505d3a7d24e09c7b4c7": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "5aec7770a5c91a9acb4aef31ef1b176dbe2db41ca62ed505d3a7d24e09c7b4c7",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T10:35:05Z",
+"reasons": [
+"matches Microsoft Windows (Tier 2)"
+],
+"route": "drop",
+"score": 2,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "Microsoft confirms app installation, launch issues after hotpatch",
+"url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
 },
 "5afdc33f052648196f65933a449d8e6bac210226992540a83512b82982e5bb20": {
 "category": "tech",
@@ -23283,10 +23742,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "5c0c7bc273542021b4aa2b7594c9aee852df81af337b08b111af49aafc78e621",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T01:52:12Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -23294,8 +23749,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Pope condemns murders of Peru’s Indigenous leaders, deforestation of Amazon",
-"url": "https://www.aljazeera.com/news/2026/11/16/pope-condemns-murders-of-perus-indigenous-leaders-deforestation-of-amazon?traffic_source=rss",
 "weight": 1
 },
 "5c39c2897926eeb9dfb6ddbef2a7268756ed3caa4e88ab0ffac98c80196c03d5": {
@@ -24514,10 +24967,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "616e1f7fdc954b333a9a3a45a3e04736e6af78dcd8325a038662fe7c21abf820",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T03:08:31Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -24525,8 +24974,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Yemeni forces' retreat leaves Houthis in control of key Red Sea waterway",
-"url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo",
 "weight": 1
 },
 "617dcc56d9aadd65747d60f70fa4f6477c004f5717b50b356ba030d301d69f81": {
@@ -25270,10 +25717,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "64c76bbd8bc8404c2d84d0b09d4a30c654aa67d1c941fa5cebe70b6faab1a392",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T03:51:43Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -25281,8 +25724,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Shophouse fire kills at least 11 in Phuket",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/shophouse-fire-kills-at-least-11-in-phuket?traffic_source=rss",
 "weight": 1
 },
 "64d8f12fcb7fc16e5f5b6b5d47c0adcc825c35196751d65f27c2d5dab85d90ec": {
@@ -25856,10 +26297,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "674b8192ff6cfbcfaf84ef8a0db7018d916fc4c504e911b5d52462438014028f",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T00:45:48Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -25867,8 +26304,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "After a nationwide ground stop, US faces aviation infrastructure questions",
-"url": "https://www.aljazeera.com/news/2026/11/16/after-a-nationwide-ground-stop-us-faces-aviation-infrastructure-questions?traffic_source=rss",
 "weight": 1
 },
 "6750f7be53f6988743e7a570d12ad668211fc1d528a2712c9a0001e32d9b2df0": {
@@ -26142,6 +26577,22 @@
 ],
 "weight": 1
 },
+"682abe7e8b41a5531bd15c880740b284fb6445b7a02ea9b58de5674631b592f4": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "682abe7e8b41a5531bd15c880740b284fb6445b7a02ea9b58de5674631b592f4",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:00:00Z",
+"route": "drop",
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "The Governance Gap in Open-Weight AI and What to Do About It",
+"url": "https://www.securityweek.com/the-governance-gap-in-open-weight-ai-and-what-to-do-about-it/"
+},
 "682d9deea856532bb2eb5befdbb972fe65d7fec5f0c878882a786cf36239ded3": {
 "category": "tech",
 "coverage_count": 1,
@@ -26348,10 +26799,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "68cfba2331c7d9113b8bc6be8bda6cc3f6af1654ee50bbcb30776d167d42767b",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T00:00:00Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -26359,8 +26806,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Iran war live: Third US carrier arrives, Iran warns it could strike first",
-"url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss",
 "weight": 1
 },
 "690ba49167f421561062cb90b119b844753079adca7d36f3b3025794d29545aa": {
@@ -27491,6 +27936,27 @@
 "BleepingComputer"
 ]
 },
+"6d502feebe440feb0dad3313d4681fe2c6d5fcb88f8d6ba4e93466acea382064": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "6d502feebe440feb0dad3313d4681fe2c6d5fcb88f8d6ba4e93466acea382064",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T10:31:36Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "UN top court finds Myanmar guilty of genocide against Rohingya",
+"url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide?traffic_source=rss",
+"weight": 1
+},
 "6d68a8caa0f81c4665c8b49775fac3f4f9fb9f16ca71f9d13051d2ff10b82eb8": {
 "category": "world",
 "coverage_count": 1,
@@ -28336,6 +28802,31 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"6ff1ff6df640b312c48fe91a75871970ec2cbe49ffe94081c5ae81f76b5b7ec3": {
+"big_story_hits": [
+"nuclear"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "6ff1ff6df640b312c48fe91a75871970ec2cbe49ffe94081c5ae81f76b5b7ec3",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:11:42Z",
+"reasons": [
+"big story: nuclear",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "What is a ‘nuclear briefcase’, spotted at the APEC summit?",
+"url": "https://www.aljazeera.com/news/2026/11/19/what-is-a-nuclear-briefcase-spotted-at-the-apec-summit?traffic_source=rss",
 "weight": 1
 },
 "6ffb088d4bbe81217352a30280b9492bca65c7eb4833984bce4239fcccbdd220": {
@@ -29692,6 +30183,22 @@
 "Zero Day Initiative"
 ]
 },
+"75c96d9f465542a504377237842f82efa93f3c4d438e4933163f09b50cfe6189": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "75c96d9f465542a504377237842f82efa93f3c4d438e4933163f09b50cfe6189",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T04:33:46Z",
+"route": "drop",
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+"url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html"
+},
 "75cfab10da9adaf4c2139f7b53a290f2e8d0ecca0b1e4d3127d2364669ce47f2": {
 "category": "world",
 "coverage_count": 1,
@@ -30411,6 +30918,22 @@
 ],
 "weight": 1
 },
+"782d7acdf0d508ad232988b520bcfdd58557f287f09928749e038ee009f0b56f": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "782d7acdf0d508ad232988b520bcfdd58557f287f09928749e038ee009f0b56f",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:00:00Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Roblox money is pushing a controversial anorexia treatment",
+"url": "https://www.theverge.com/features/1034740/ketogenic-diet-anorexia-roblox-medical-funding"
+},
 "783b12ae820b8eab25ae7f6449e05be70f74357ff39c7b7aa2541519885a67fd": {
 "category": "tech",
 "coverage_count": 1,
@@ -30808,10 +31331,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "79e8619bd5cdd0973272f62a44e07b1f8db43367cf340c91c23aaa6a5ff17f3a",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T04:11:53Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -30819,8 +31338,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Indonesian president apologises to Singapore, Malaysia for wildfire haze",
-"url": "https://www.aljazeera.com/news/2026/11/16/indonesian-president-apologises-to-singapore-malaysia-for-wildfire-haze?traffic_source=rss",
 "weight": 1
 },
 "79f2abbb98b0c490e3b52d4f0277064f47c0f8cfe9dcf19d4a680b38ca5b8671": {
@@ -31101,6 +31618,27 @@
 "hn"
 ],
 "weight": 3
+},
+"7b3ee3fc2df36d8e29c8a21fc10c20833baa345739d572eb235bf73733dca240": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "7b3ee3fc2df36d8e29c8a21fc10c20833baa345739d572eb235bf73733dca240",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:38:39Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Trump claims Iran is developing bioweapons: Is there any evidence?",
+"url": "https://www.aljazeera.com/news/2026/11/19/trump-claims-iran-is-developing-bioweapons-is-there-any-evidence?traffic_source=rss",
+"weight": 1
 },
 "7b556bf9798f76326570d4735dbf155a658978744d9b2f6bd688d5de40879cb1": {
 "category": "world",
@@ -31520,6 +32058,31 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"7d18a62a79c1cd3e7d102008d47e811cc952355d9b9de4854cef05b5714d3d26": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "7d18a62a79c1cd3e7d102008d47e811cc952355d9b9de4854cef05b5714d3d26",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:07:50Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Rwanda, Pakistan Sign Agreement to Strengthen Legal Cooperation",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611190229.html",
 "weight": 1
 },
 "7d1ab4fa74071d7d0b0738165e6577c6d169f8c094f002458b37bb1edb83230f": {
@@ -32202,10 +32765,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "7ff5167f6ff4f7736e739f7af3dd99cf591c60805fe7c3138d488896e42e1df3",
 "last_seen": "2026-11-16",
-"published": "2026-11-15T22:01:16Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -32213,8 +32772,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Canada bars Russia from Junior World Championships",
-"url": "https://www.bbc.co.uk/sport/ice-hockey/articles/cqkgm0jgv4mdo",
 "weight": 1
 },
 "8030665882d04fc307088a8e1b36b612c0ebad99f093e7974baabf187ceda8a9": {
@@ -32281,10 +32838,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "8093087dcb115f3fabb1eb1790f99828473811bee479014e909d3186eeaf0784",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T00:04:28Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -32292,8 +32845,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Zambia’s copper boom attracts billions in investment, but who benefits?",
-"url": "https://www.aljazeera.com/news/2026/11/16/zambias-copper-boom-attracts-billions-in-investment-but-who-benefits?traffic_source=rss",
 "weight": 1
 },
 "809793a4759fd555edc3645872395d1a34613f5838c9b08606c3d2eed5c3d503": {
@@ -33648,6 +34199,41 @@
 ],
 "weight": 1
 },
+"870e0de5a12d82104b1f5d973a1558e4d50f83ef21528ce740871d344339dd1d": {
+"category": "security",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-115560"
+],
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "870e0de5a12d82104b1f5d973a1558e4d50f83ef21528ce740871d344339dd1d",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T07:45:17Z",
+"reasons": [
+"RCE",
+"matches PHP Group (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "PHP Readies Critical Security Updates to Patch Another RCE Flaw",
+"url": "https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "PHP Group",
+"tier": 2,
+"vendor": "PHP Group"
+}
+]
+},
 "87163258fb3ca24d2a981d3ecb1a17e9880ac3e7a02c011d8600872c16531b74": {
 "category": "world",
 "coverage_count": 1,
@@ -34214,6 +34800,34 @@
 ],
 "weight": 1
 },
+"892d61dad46523aeb8ab11aec9a53eccc3476fe17f52a50fbe0a7a08a5847dcd": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "892d61dad46523aeb8ab11aec9a53eccc3476fe17f52a50fbe0a7a08a5847dcd",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:13:24Z",
+"reasons": [
+"matches Apache (Tier 2)"
+],
+"route": "drop",
+"score": 2,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
+"url": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
 "892f54c1ca747cdfc374357ac5c3fba83655ef252e88e12c588295693369c1ca": {
 "category": "world",
 "coverage_count": 1,
@@ -34658,6 +35272,27 @@
 ],
 "title": "Jordan bans Telegram over national security concerns",
 "url": "https://www.aljazeera.com/news/2026/11/16/jordan-bans-telegram-messing-app-over-national-security-concerns?traffic_source=rss",
+"weight": 1
+},
+"8a9d2cf467796fb718f8899cd5480e3a87e6bb781eb330d51c61b59f06fe8855": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "8a9d2cf467796fb718f8899cd5480e3a87e6bb781eb330d51c61b59f06fe8855",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T10:42:53Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "FIFA confirms Diallo, Tashima as Infantino’s challengers at 2027 election",
+"url": "https://www.aljazeera.com/sports/2026/11/19/fifa-confirms-diallo-tashima-as-infantinos-challengers-at-2027-election?traffic_source=rss",
 "weight": 1
 },
 "8ad930d0532c95183fe9322efe5776d057e403393ba450db9ca6569328aa24c2": {
@@ -35624,10 +36259,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "8e4eebd6c1c8317a56573d43352b9d979c12ade6f1a1e80939708911e6353b7f",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T04:46:49Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -35635,8 +36266,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Megaspeed, firm at centre of Nvidia scandal, says Alice Huang left in 2025",
-"url": "https://www.aljazeera.com/news/2026/11/16/megaspeed-firm-at-centre-of-nvidia-scandal-says-alice-huang-left-in-2025?traffic_source=rss",
 "weight": 1
 },
 "8e6855bf7bb88199dedbaea0dff2368d62c3a9c47375a1586c8a8db740f850d4": {
@@ -39988,6 +40617,27 @@
 ],
 "weight": 1
 },
+"9ee89fc2c7a8cd08c31624dcf16ff7ae47c1d6cfb9e08e53b00c040be876945a": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "9ee89fc2c7a8cd08c31624dcf16ff7ae47c1d6cfb9e08e53b00c040be876945a",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T09:56:07Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Malaysian weightlifting champion Roslin loses arm after motorbike crash",
+"url": "https://www.aljazeera.com/sports/2026/11/19/malaysian-weightlifting-champion-hafizuddin-loses-arm-after-motorbike-crash?traffic_source=rss",
+"weight": 1
+},
 "9ef71648da8a8700aab07dded6adbc93c82b91f9de16e5f87f14a5db516c6bf2": {
 "category": "tech",
 "coverage_count": 1,
@@ -40182,10 +40832,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "9f7663540cc8f010f49ffe9240f5a0e74f7453fd8ae1ece82b0ffcb765d0af71",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T03:54:04Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -40193,8 +40839,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Pope Leo flies to mass in the Papacoptero",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/pope-leo-flies-to-mass-in-the-papacoptero?traffic_source=rss",
 "weight": 1
 },
 "9f7789562a7a2959ab04363adca093d6d19fc220d4855efe3768feef594a192c": {
@@ -40224,11 +40868,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "9f8ee32966df636f689c5ef0bad87f82efc743b7ad764d8736340f1dcd857fdd",
 "last_seen": "2026-11-17",
-"published": "2026-11-16T05:09:24Z",
-"reasons": [
-"topic: Rwanda",
-"source weight +1"
-],
 "route": "digest",
 "score": 3,
 "source": "allAfrica Rwanda",
@@ -40236,11 +40875,9 @@
 "sources": [
 "allAfrica Rwanda"
 ],
-"title": "Rwanda-DR Congo Tensions Threaten to Overshadow Francophonie Election",
 "topic_hits": [
 "Rwanda"
 ],
-"url": "https://allafrica.com/stories/202611160039.html",
 "weight": 1
 },
 "9fa0d17c2623e747ffad4a20921ffaacdfa732dcdd49ea990b1225f65aefa6cd": {
@@ -40264,10 +40901,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "9fa6643488dc9d3617afeb03fe5a9378288e33092193ee7755a68132050bdde6",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T01:44:11Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -40275,8 +40908,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Pope urges end to Amazon deforestation",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/pope-urges-end-to-amazon-deforestation?traffic_source=rss",
 "weight": 1
 },
 "9fa8efaeec1eeb4e3b0151597b2853b8c8b035f8978da5d73b78cc2fdad9e237": {
@@ -40344,6 +40975,31 @@
 "sources": [
 "BBC World"
 ],
+"weight": 1
+},
+"9fc46f3280b1f18e4a2d99a0054aee86c45f6df86646c8ddb9b117aa9db50861": {
+"big_story_hits": [
+"nuclear"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "9fc46f3280b1f18e4a2d99a0054aee86c45f6df86646c8ddb9b117aa9db50861",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T09:16:47Z",
+"reasons": [
+"big story: nuclear",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "North Korea expanding uranium enrichment facility, UN nuclear watchdog says",
+"url": "https://www.aljazeera.com/news/2026/11/19/north-korea-expanding-uranium-enrichment-facility-un-nuclear-watchdog-says?traffic_source=rss",
 "weight": 1
 },
 "9fc657cd79deccea6ff01005e6e2de5e3a8fc5ad591ef784735bf07cb92e0fff": {
@@ -54045,7 +54701,7 @@
 },
 "CVE-2026-109618": {
 "category": "vulnerabilities",
-"coverage_count": 3,
+"coverage_count": 4,
 "cve_ids": [
 "CVE-2026-109618",
 "CVE-2026-109619"
@@ -54057,7 +54713,7 @@
 "keyword_hits": [
 "RCE"
 ],
-"last_seen": "2026-11-12",
+"last_seen": "2026-11-19",
 "route": "digest",
 "score": 10,
 "source": "NVD",
@@ -54065,7 +54721,8 @@
 "sources": [
 "Fortinet PSIRT",
 "NVD",
-"Palo Alto Networks"
+"Palo Alto Networks",
+"The Hacker News"
 ],
 "vendor_matches": [
 {
@@ -63017,7 +63674,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:05Z",
 "reasons": [
 "CVSS 10.0",
@@ -63778,7 +64435,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:10Z",
 "reasons": [
 "CVSS 10.0",
@@ -63854,7 +64511,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:10Z",
 "reasons": [
 "CVSS 9.8",
@@ -64063,7 +64720,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:11Z",
 "reasons": [
 "CVSS 10.0",
@@ -64210,7 +64867,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:13Z",
 "reasons": [
 "CVSS 9.8",
@@ -64248,7 +64905,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:13Z",
 "reasons": [
 "CVSS 9.8",
@@ -64602,7 +65259,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:14Z",
 "reasons": [
 "CVSS 9.1",
@@ -64640,7 +65297,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:14Z",
 "reasons": [
 "CVSS 9.8",
@@ -65125,7 +65782,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:16Z",
 "reasons": [
 "CVSS 9.8",
@@ -66159,7 +66816,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:22Z",
 "reasons": [
 "CVSS 9.8",
@@ -66197,7 +66854,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:22Z",
 "reasons": [
 "CVSS 9.8",
@@ -66932,7 +67589,7 @@
 "cvss": 9.1,
 "first_seen": "2026-11-17T23:56:01Z",
 "id": "CVE-2026-114952",
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:25Z",
 "reasons": [
 "CVSS 9.1",
@@ -68470,7 +69127,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:36Z",
 "reasons": [
 "CVSS 9.8",
@@ -68508,7 +69165,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:36Z",
 "reasons": [
 "CVSS 9.8",
@@ -68579,7 +69236,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:37Z",
 "reasons": [
 "CVSS 9.1",
@@ -69407,7 +70064,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:40Z",
 "reasons": [
 "CVSS 9.8",
@@ -69593,7 +70250,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:41Z",
 "reasons": [
 "CVSS 9.8",
@@ -69702,7 +70359,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:41Z",
 "reasons": [
 "CVSS 9.8",
@@ -95395,7 +96052,7 @@
 "RCE",
 "remote code execution"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-18T16:18:04Z",
 "reasons": [
 "CVSS 9.8",
@@ -104196,7 +104853,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:56Z",
 "reasons": [
 "CVSS 9.8",
@@ -104234,7 +104891,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:56Z",
 "reasons": [
 "CVSS 9.8",
@@ -104272,7 +104929,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:56Z",
 "reasons": [
 "CVSS 9.8",
@@ -104310,7 +104967,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:18:56Z",
 "reasons": [
 "CVSS 9.8",
@@ -105069,7 +105726,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:19:00Z",
 "reasons": [
 "CVSS 9.1",
@@ -105215,7 +105872,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:19:01Z",
 "reasons": [
 "CVSS 9.1",
@@ -107150,6 +107807,41 @@
 }
 ]
 },
+"CVE-2026-129446": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129446"
+],
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-129446",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T06:16:53Z",
+"reasons": [
+"unauthenticated",
+"matches Microsoft (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-129446: The WPO365 | SEAMLESS WORDPRESS + MICROSOFT INTEGRATION (WPO365 | LOGIN) WordPress plugin before 45.4 does not ensure the signature…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129446",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
 "CVE-2026-129448": {
 "alerted": true,
 "alerted_tags": [
@@ -107600,7 +108292,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-17",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T14:17:44Z",
 "reasons": [
 "CVSS 9.3",
@@ -107948,7 +108640,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-17",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T20:17:45Z",
 "reasons": [
 "CVSS 8.8",
@@ -108383,7 +109075,7 @@
 "epss": 0.00237,
 "first_seen": "2026-11-18T23:03:24Z",
 "id": "CVE-2026-130926",
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T21:17:47Z",
 "reasons": [
 "CVSS 9.0",
@@ -108485,7 +109177,7 @@
 "epss": 0.00247,
 "first_seen": "2026-11-18T23:03:24Z",
 "id": "CVE-2026-130929",
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T21:17:48Z",
 "reasons": [
 "CVSS 9.0",
@@ -108950,7 +109642,7 @@
 "epss": 0.00247,
 "first_seen": "2026-11-18T23:03:24Z",
 "id": "CVE-2026-130963",
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T21:17:52Z",
 "reasons": [
 "CVSS 9.0",
@@ -109018,7 +109710,7 @@
 "epss": 0.00247,
 "first_seen": "2026-11-18T23:03:24Z",
 "id": "CVE-2026-130968",
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T21:17:53Z",
 "reasons": [
 "CVSS 9.6",
@@ -109749,7 +110441,7 @@
 "epss": 0.00121,
 "first_seen": "2026-11-18T23:03:24Z",
 "id": "CVE-2026-131006",
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T21:17:57Z",
 "reasons": [
 "CVSS 7.0",
@@ -109951,7 +110643,7 @@
 "epss": 0.00247,
 "first_seen": "2026-11-18T23:03:24Z",
 "id": "CVE-2026-131020",
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T21:17:59Z",
 "reasons": [
 "CVSS 9.0",
@@ -110219,7 +110911,7 @@
 "epss": 0.00237,
 "first_seen": "2026-11-18T23:03:24Z",
 "id": "CVE-2026-131037",
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T21:18:01Z",
 "reasons": [
 "CVSS 9.0",
@@ -110387,7 +111079,7 @@
 "epss": 0.00247,
 "first_seen": "2026-11-18T23:03:24Z",
 "id": "CVE-2026-131043",
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T21:18:03Z",
 "reasons": [
 "CVSS 9.6",
@@ -110488,7 +111180,7 @@
 "epss": 0.00247,
 "first_seen": "2026-11-18T23:03:24Z",
 "id": "CVE-2026-131049",
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T21:18:03Z",
 "reasons": [
 "CVSS 8.8",
@@ -111252,7 +111944,7 @@
 "epss": 0.00165,
 "first_seen": "2026-11-18T23:03:24Z",
 "id": "CVE-2026-131089",
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T21:18:08Z",
 "reasons": [
 "CVSS 7.0",
@@ -111656,7 +112348,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-18T17:17:44Z",
 "reasons": [
 "CVSS 9.9",
@@ -111694,7 +112386,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-18T17:17:44Z",
 "reasons": [
 "CVSS 9.9",
@@ -111732,7 +112424,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-18T17:17:44Z",
 "reasons": [
 "CVSS 9.9",
@@ -111770,7 +112462,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-18T17:17:44Z",
 "reasons": [
 "CVSS 9.9",
@@ -111808,7 +112500,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-18T17:17:45Z",
 "reasons": [
 "CVSS 7.2",
@@ -111846,7 +112538,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-18T17:17:45Z",
 "reasons": [
 "CVSS 8.8",
@@ -111884,7 +112576,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-18T17:17:45Z",
 "reasons": [
 "CVSS 8.8",
@@ -112217,6 +112909,1898 @@
 "sources": [
 "NVD",
 "Zero Day Initiative"
+]
+},
+"CVE-2026-132802": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132802"
+],
+"cvss": 9.9,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132802",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:18:38Z",
+"reasons": [
+"CVSS 9.9",
+"matches Ubiquiti UniFi (Tier 1)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132802: A malicious actor with access to the network and low privileges could exploit an Improper Link Resolution Before File Access vulnerability…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132802",
+"vendor_matches": [
+{
+"points": 3,
+"term": "UniFi",
+"tier": 1,
+"vendor": "Ubiquiti"
+}
+]
+},
+"CVE-2026-132803": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132803"
+],
+"cvss": 9.9,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132803",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:18:38Z",
+"reasons": [
+"CVSS 9.9",
+"matches Ubiquiti UniFi (Tier 1)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132803: A malicious actor with access to the network and low privileges could exploit a series of authenticated SQL Injection vulnerabilities found…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132803",
+"vendor_matches": [
+{
+"points": 3,
+"term": "UniFi",
+"tier": 1,
+"vendor": "Ubiquiti"
+}
+]
+},
+"CVE-2026-132804": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132804"
+],
+"cvss": 9.9,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132804",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:18:38Z",
+"reasons": [
+"CVSS 9.9",
+"matches Ubiquiti UniFi (Tier 1)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132804: A malicious actor with access to the network and low privileges could exploit a Server-Side Request Forgery (SSRF) vulnerability found in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132804",
+"vendor_matches": [
+{
+"points": 3,
+"term": "UniFi",
+"tier": 1,
+"vendor": "Ubiquiti"
+}
+]
+},
+"CVE-2026-132805": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132805"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132805",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:18:39Z",
+"reasons": [
+"CVSS 8.3",
+"matches Ubiquiti UniFi (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132805: A malicious actor with access to the network could exploit a Server-Side Request Forgery (SSRF) vulnerability found in UniFi Access…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132805",
+"vendor_matches": [
+{
+"points": 3,
+"term": "UniFi",
+"tier": 1,
+"vendor": "Ubiquiti"
+}
+]
+},
+"CVE-2026-132806": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132806"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132806",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:18:39Z",
+"reasons": [
+"CVSS 8.8",
+"matches Ubiquiti UniFi (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132806: A malicious actor with access to the network and low privileges could exploit an authenticated SQL Injection vulnerability found in UniFi…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132806",
+"vendor_matches": [
+{
+"points": 3,
+"term": "UniFi",
+"tier": 1,
+"vendor": "Ubiquiti"
+}
+]
+},
+"CVE-2026-132807": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132807"
+],
+"cvss": 9.0,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132807",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:18:39Z",
+"reasons": [
+"CVSS 9.0",
+"matches Ubiquiti UniFi (Tier 1)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132807: A malicious actor with access to the network and under certain conditions could exploit an Improper Certificate Validation vulnerability…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132807",
+"vendor_matches": [
+{
+"points": 3,
+"term": "UniFi",
+"tier": 1,
+"vendor": "Ubiquiti"
+}
+]
+},
+"CVE-2026-132808": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132808"
+],
+"cvss": 9.9,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132808",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:18:39Z",
+"reasons": [
+"CVSS 9.9",
+"matches Ubiquiti UniFi (Tier 1)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132808: A malicious actor with access to the network and low privileges could exploit an Incorrect Authorization vulnerability found in UniFi…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132808",
+"vendor_matches": [
+{
+"points": 3,
+"term": "UniFi",
+"tier": 1,
+"vendor": "Ubiquiti"
+}
+]
+},
+"CVE-2026-132891": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132891"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132891",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:55Z",
+"reasons": [
+"CVSS 9.8",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 9,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132891: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via external pull requests",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132891",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132892": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132892"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132892",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:55Z",
+"reasons": [
+"CVSS 8.1",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132892: In JetBrains TeamCity before 2026.2 privilege escalation was possible via the authorization flow",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132892",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132893": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132893"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132893",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:55Z",
+"reasons": [
+"CVSS 7.7",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132893: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 an SSRF via pipeline repository branch listing was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132893",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132894": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132894"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132894",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:55Z",
+"reasons": [
+"CVSS 7.7",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132894: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 an SSRF in AWS connection settings could expose server credentials",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132894",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+},
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+"CVE-2026-132895": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132895"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132895",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:55Z",
+"reasons": [
+"CVSS 7.5",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132895: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via Subversion VCS root settings",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132895",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132896": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132896"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132896",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:55Z",
+"reasons": [
+"CVSS 7.2",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)",
+"topic: Kubernetes"
+],
+"route": "alert",
+"score": 9,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132896: In JetBrains TeamCity before 2026.2, 2026.1.4 remote code execution was possible via Kubernetes Executor settings",
+"topic_hits": [
+"Kubernetes"
+],
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132896",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132897": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132897"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132897",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:55Z",
+"reasons": [
+"CVSS 7.7",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132897: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 improper authorization allowed access to credentials of other projects via build…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132897",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132898": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132898"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132898",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:56Z",
+"reasons": [
+"CVSS 7.2",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132898: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 arbitrary file write on the server was possible via Kotlin DSL settings",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132898",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132899": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132899"
+],
+"cvss": 7.6,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132899",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:56Z",
+"reasons": [
+"CVSS 7.6",
+"matches JetBrains TeamCity (Tier 3)",
+"topic: npm"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132899: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS in the NPM Registry build feature was possible",
+"topic_hits": [
+"npm"
+],
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132899",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132900": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132900"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132900",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:56Z",
+"reasons": [
+"CVSS 7.5",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132900: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 secure parameter values were disclosed to project viewers in pipelines",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132900",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132901": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132901"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132901",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:56Z",
+"reasons": [
+"CVSS 7.7",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132901: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 improper authorization allowed publishing packages to NuGet feeds of other projects",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132901",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132902": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132902"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132902",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:56Z",
+"reasons": [
+"CVSS 7.7",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132902: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 access keys of parent project AWS connections could be disclosed",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132902",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+},
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+"CVE-2026-132903": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132903"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132903",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:56Z",
+"reasons": [
+"CVSS 8.1",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132903: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 missing authorization allowed any authenticated user to start and stop cloud agent…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132903",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132904": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132904"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132904",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:56Z",
+"reasons": [
+"CVSS 8.1",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132904: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 missing authorization allowed project viewers to remove VCS roots",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132904",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132905": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132905"
+],
+"cvss": 7.6,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132905",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:56Z",
+"reasons": [
+"CVSS 7.6",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132905: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS in the AWS Credentials build feature was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132905",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+},
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+"CVE-2026-132906": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132906"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132906",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:57Z",
+"reasons": [
+"CVSS 8.8",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132906: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via native code loading in the Kotlin DSL…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132906",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132907": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132907"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132907",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:57Z",
+"reasons": [
+"CVSS 8.1",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132907: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 project viewers could redirect GitHub App connection credentials of parent projects",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132907",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132908": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132908"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132908",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:57Z",
+"reasons": [
+"CVSS 7.5",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132908: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via Mercurial VCS root settings",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132908",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132909": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132909"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132909",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:57Z",
+"reasons": [
+"CVSS 8.8",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132909: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via Mercurial repository contents",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132909",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132910": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132910"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132910",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:57Z",
+"reasons": [
+"CVSS 7.5",
+"unauthenticated",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132910: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 unauthenticated DoS via the agent protocol was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132910",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132911": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132911"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132911",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:57Z",
+"reasons": [
+"CVSS 7.5",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132911: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via build access codes disclosed to project…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132911",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132912": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132912"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132912",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:57Z",
+"reasons": [
+"CVSS 7.2",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132912: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via class injection in the Kotlin DSL sandbox",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132912",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132913": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132913"
+],
+"cvss": 8.4,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132913",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:57Z",
+"reasons": [
+"CVSS 8.4",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132913: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS on the P4 Code Review build tab was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132913",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132914": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132914"
+],
+"cvss": 8.0,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132914",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:58Z",
+"reasons": [
+"CVSS 8.0",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132914: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS on the Issue Log tab was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132914",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132915": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132915"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132915",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:58Z",
+"reasons": [
+"CVSS 7.1",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132915: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 an LDAP injection allowed bypassing login restrictions",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132915",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132916": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132916"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132916",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:58Z",
+"reasons": [
+"CVSS 7.1",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132916: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 arbitrary file deletion on the server was possible via the Kotlin DSL sandbox",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132916",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132917": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132917"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132917",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:58Z",
+"reasons": [
+"CVSS 8.8",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132917: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via a file write bypass in the Kotlin DSL…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132917",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132918": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132918"
+],
+"cvss": 7.6,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132918",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:58Z",
+"reasons": [
+"CVSS 7.6",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132918: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS on build and queue pages was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132918",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132936": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132936"
+],
+"cvss": 5.4,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132936",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:17:00Z",
+"reasons": [
+"matches JetBrains TeamCity (Tier 3)",
+"topic: npm"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132936: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS in the npm connection health report was possible",
+"topic_hits": [
+"npm"
+],
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132936",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132942": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132942"
+],
+"cvss": 5.3,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132942",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:17:01Z",
+"reasons": [
+"unauthenticated",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132942: In JetBrains TeamCity before 2026.2, 2026.1.4 unauthenticated extraction of build parameter values via a timing attack on build status…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132942",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132947": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132947"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132947",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:17:02Z",
+"reasons": [
+"matches JetBrains TeamCity (Tier 3)",
+"topic: Kubernetes"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132947: In JetBrains TeamCity before 2026.2 reflected XSS in Kubernetes cloud profile namespace and deployment choosers was possible",
+"topic_hits": [
+"Kubernetes"
+],
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132947",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-132959": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132959"
+],
+"cvss": 5.9,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132959",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:17:03Z",
+"reasons": [
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-132959: In JetBrains TeamCity before 2026.2 remote code execution on build agents was possible via service message injection in build configuration…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132959",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-133014": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133014"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133014",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:42Z",
+"reasons": [
+"CVSS 7.2",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-133014: In JetBrains TeamCity before 2026.2.1, 2026.1.5 remote code execution was possible via public reflection in the Kotlin DSL sandbox",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133014",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-133015": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133015"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133015",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:42Z",
+"reasons": [
+"CVSS 8.8",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-133015: In JetBrains TeamCity before 2026.2.1, 2026.1.5 remote code execution was possible via boot classpath libraries in the Kotlin DSL sandbox",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133015",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-133016": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133016"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133016",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:42Z",
+"reasons": [
+"CVSS 8.8",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-133016: In JetBrains TeamCity before 2026.2.1, 2026.1.5 remote code execution was possible via script definitions in the Kotlin DSL settings…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133016",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-133017": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133017"
+],
+"cvss": 8.0,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133017",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:42Z",
+"reasons": [
+"CVSS 8.0",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-133017: In JetBrains TeamCity before 2026.2.1, 2026.1.5 remote code execution was possible via Git VCS root settings",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133017",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-133018": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133018"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133018",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:42Z",
+"reasons": [
+"CVSS 8.8",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-133018: In JetBrains TeamCity before 2026.2.1, 2026.1.5 remote code execution was possible via a UI patches callback in the Kotlin DSL sandbox",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133018",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-133019": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133019"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133019",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:42Z",
+"reasons": [
+"CVSS 8.8",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-133019: In JetBrains TeamCity before 2026.2.1, 2026.1.5 remote code execution was possible via a context parameters callback in the Kotlin DSL…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133019",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-133020": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133020"
+],
+"cvss": 7.4,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133020",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:43Z",
+"reasons": [
+"CVSS 7.4",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-133020: In JetBrains TeamCity before 2026.1.5 untrusted build approval for GitHub fork pull requests could be bypassed",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133020",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-133021": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133021"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133021",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:43Z",
+"reasons": [
+"CVSS 7.5",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-133021: In JetBrains TeamCity before 2026.2.1, 2026.1.5 remote code execution was possible via Mercurial subrepository paths",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133021",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-133022": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133022"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133022",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:43Z",
+"reasons": [
+"CVSS 7.5",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-133022: In JetBrains TeamCity before 2026.2.1 remote code execution was possible via the Notification Rules form",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133022",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-133023": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133023"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133023",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:43Z",
+"reasons": [
+"CVSS 7.2",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-133023: In JetBrains TeamCity before 2026.2.1, 2026.1.5 remote code execution was possible via Kotlin DSL compiler arguments",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133023",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-133024": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133024"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133024",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:43Z",
+"reasons": [
+"CVSS 7.5",
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-133024: In JetBrains TeamCity before 2026.2.1, 2026.1.5 remote code execution was possible via personal builds with versioned settings",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133024",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-133025": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133025"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133025",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:43Z",
+"reasons": [
+"CVSS 7.7",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-133025: In JetBrains TeamCity before 2026.2.1 missing authorization allowed project viewers to download project settings",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133025",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-133026": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133026"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133026",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:43Z",
+"reasons": [
+"CVSS 7.2",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-133026: In JetBrains TeamCity before 2026.2.1, 2026.1.5 code injection in generated Kotlin DSL was possible via matrix build parameters",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133026",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+"CVE-2026-133027": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133027"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133027",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:43Z",
+"reasons": [
+"CVSS 8.8",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-133027: In JetBrains TeamCity before 2026.2.1, 2026.1.5 privilege escalation was possible via username handling in token authentication",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133027",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
 ]
 },
 "CVE-2026-13423": {
@@ -114650,6 +117234,52 @@
 ],
 "tags": [
 "vulncheck_kev"
+]
+},
+"CVE-2026-49468": {
+"alerted": true,
+"alerted_tags": [
+"vulncheck_kev"
+],
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-49468"
+],
+"cvss": 9.8,
+"epss": 0.03033,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-49468",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"matches BerriAI LiteLLM (Tier 3)"
+],
+"route": "alert",
+"score": 10,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-49468: LiteLLM LiteLLM Authentication Bypass by Spoofing",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49468",
+"vendor_matches": [
+{
+"points": 2,
+"term": "LiteLLM",
+"tier": 3,
+"vendor": "BerriAI"
+}
 ]
 },
 "CVE-2026-49769": {
@@ -132279,7 +134909,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "route": "alert",
 "score": 10,
 "silent_update": true,
@@ -133907,7 +136537,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:19:21Z",
 "reasons": [
 "CVSS 9.8",
@@ -133983,7 +136613,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:19:22Z",
 "reasons": [
 "CVSS 9.8",
@@ -134090,7 +136720,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:19:22Z",
 "reasons": [
 "CVSS 10.0",
@@ -134231,7 +136861,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-17",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:19:22Z",
 "reasons": [
 "CVSS 10.0",
@@ -134815,7 +137445,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:19:24Z",
 "reasons": [
 "CVSS 10.0",
@@ -134853,7 +137483,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:19:25Z",
 "reasons": [
 "CVSS 9.8",
@@ -134999,7 +137629,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:19:25Z",
 "reasons": [
 "CVSS 9.8",
@@ -135037,7 +137667,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:19:25Z",
 "reasons": [
 "CVSS 9.8",
@@ -135151,7 +137781,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-17T22:19:26Z",
 "reasons": [
 "CVSS 9.1",
@@ -144466,6 +147096,27 @@
 ],
 "weight": 3
 },
+"a0743aa3190e8a66726097a4953362f366e6db9821c5c7433356be012ada6aa0": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "a0743aa3190e8a66726097a4953362f366e6db9821c5c7433356be012ada6aa0",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T09:02:52Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
+"url": "https://www.bbc.co.uk/news/articles/c58j484089ewo",
+"weight": 1
+},
 "a0790154d29321e641ea461e92003d800e1d764281f5debb8282c3c20575d6f8": {
 "category": "security",
 "coverage_count": 1,
@@ -145592,10 +148243,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "a576b18b6a6d6ace6463110150b8d8019fb7ad7d93428e1ccc274a3063f86f2c",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T00:01:45Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -145603,9 +148250,35 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Eisenkot says Netanyahu can’t remain Israel PM amid alleged vote meddling",
-"url": "https://www.aljazeera.com/news/2026/11/16/eisenkot-says-netanyahu-cant-remain-israel-pm-amid-alleged-vote-meddling?traffic_source=rss",
 "weight": 1
+},
+"a57b9913aa764eae285023987bd4a3e901d05bf42128a49b35c22e973a6fa5b5": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "a57b9913aa764eae285023987bd4a3e901d05bf42128a49b35c22e973a6fa5b5",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T09:10:58Z",
+"reasons": [
+"matches Cisco (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
+"url": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Cisco",
+"tier": 1,
+"vendor": "Cisco"
+}
+]
 },
 "a586da501b0291118e0a7c2f145332a846dd10394f59b6699fed81be279591a1": {
 "category": "tech",
@@ -146253,6 +148926,52 @@
 "critical infrastructure"
 ]
 },
+"a84e3ee03331d0d80c6ef4ee91d6ab05a8eaab57a59d5b90c1f94ba1f7d3616b": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "a84e3ee03331d0d80c6ef4ee91d6ab05a8eaab57a59d5b90c1f94ba1f7d3616b",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:39:05Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "How Zimbabwean Teachers Are Supporting Language Proficiency in Rwanda",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611190060.html",
+"weight": 1
+},
+"a8628102283c05323d337974c65481538c0eac4fa92d071c23aefea93000dcab": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "a8628102283c05323d337974c65481538c0eac4fa92d071c23aefea93000dcab",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T08:31:14Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Is Trump helping rehabilitate Putin on the world stage?",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/is-trump-helping-rehabilitate-putin-on-the-world-stage?traffic_source=rss",
+"weight": 1
+},
 "a872e3b7ac1651da060abdaabcb0d7a181eae4081488460ba29ee6ada6f0cf8d": {
 "category": "world",
 "coverage_count": 1,
@@ -146748,6 +149467,31 @@
 "sources": [
 "BBC World"
 ],
+"weight": 1
+},
+"aa310ceca35f88014358d6b25e8b3d92d8b91eaf0799273bb1f32bb58add541e": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "aa310ceca35f88014358d6b25e8b3d92d8b91eaf0799273bb1f32bb58add541e",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T10:32:10Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "'It's a dream come true' – South African DJ celebrates featuring in GTA 6",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.bbc.co.uk/news/articles/crx20q3qy0vxo",
 "weight": 1
 },
 "aa33324a6f2216d17fa9cafb34e89d19a32a8dacf0b41212284d9989a18ba99a": {
@@ -148852,6 +151596,29 @@
 ],
 "weight": 1
 },
+"b1ce7ef60abffc4c50df453d930f21de6122f9aace022b5a349b5dba31d2f696": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "b1ce7ef60abffc4c50df453d930f21de6122f9aace022b5a349b5dba31d2f696",
+"last_seen": "2026-11-19",
+"muted_hits": [
+"deal"
+],
+"published": "2026-11-19T11:09:00Z",
+"reasons": [
+"muted: deal"
+],
+"route": "drop",
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Denmark parliament approves security deal with Greenland and US",
+"url": "https://www.aljazeera.com/news/2026/11/19/denmark-parliament-approves-security-deal-with-greenland-and-us?traffic_source=rss",
+"weight": 1
+},
 "b1e1b2a4e14956329f6b2452a86293408907535735fd87672bf26e2c8432d58f": {
 "category": "security",
 "coverage_count": 1,
@@ -149020,6 +151787,22 @@
 "Al Jazeera"
 ],
 "weight": 1
+},
+"b2d6390e5b35df69a5d9720b702cc2c8d585fe0c5217cf82e30b4d3c92c8c6f1": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "b2d6390e5b35df69a5d9720b702cc2c8d585fe0c5217cf82e30b4d3c92c8c6f1",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:13:01Z",
+"route": "drop",
+"source": "Ars Technica",
+"source_type": "rss",
+"sources": [
+"Ars Technica"
+],
+"title": "How to tell a cyberattack from a plain old outage",
+"url": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/"
 },
 "b2dadb548cfbe32d814b1465061f8c44d728fe1587a89685034e0b3552e1b076": {
 "category": "tech",
@@ -149546,6 +152329,32 @@
 "vendor": "Palo Alto Networks"
 }
 ]
+},
+"b532ce57682cf3c3b3deece4e40bda03bdd10b00ec321e4b06b7e4626f4af36a": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "b532ce57682cf3c3b3deece4e40bda03bdd10b00ec321e4b06b7e4626f4af36a",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T04:52:57Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Europe's Rwanda Return Hub Raises Serious Human Rights Concerns - a Migration Researcher Explains",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611190006.html",
+"weight": 1
 },
 "b55bd490279fad7c5afe3b2d9123eea2152157962cac7517172c774da2b5f057": {
 "category": "security",
@@ -151601,6 +154410,27 @@
 ],
 "weight": 1
 },
+"bd3b8746783a105c70e2ff7251e82f693cae7afc81bdfa478c955401a72bd4c5": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "bd3b8746783a105c70e2ff7251e82f693cae7afc81bdfa478c955401a72bd4c5",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:10:13Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "What Will It Take for More Rwandan Riders to Go Electric?",
+"url": "https://allafrica.com/stories/202611190020.html",
+"weight": 1
+},
 "bd4f862bb46d3caa9ec9991ab129347ace3712fd61a0bce11f55aeeca460ecd5": {
 "category": "world",
 "coverage_count": 1,
@@ -152371,6 +155201,27 @@
 ],
 "weight": 1
 },
+"c02b412b7881157e77dfbb24fff223bf90fc68892976cee489c838c645eb8ca1": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "c02b412b7881157e77dfbb24fff223bf90fc68892976cee489c838c645eb8ca1",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T07:36:08Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Charting the world’s biggest IPOs as Anthropic overtakes SpaceX",
+"url": "https://www.aljazeera.com/news/2026/11/19/charting-the-worlds-biggest-ipos-as-anthropic-overtakes-spacex?traffic_source=rss",
+"weight": 1
+},
 "c03907be2a0d5cde79d51aff678dc78dbec858ee28c1e2b665715eb591c289ec": {
 "category": "world",
 "coverage_count": 1,
@@ -152635,6 +155486,38 @@
 "title": "Russell Brand and the media that made him",
 "url": "https://www.aljazeera.com/video/the-listening-post/2026/11/16/russell-brand-and-the-media-that-made-him?traffic_source=rss",
 "weight": 1
+},
+"c1224409bc6efa78aada7c8701cb8245f0b26511122ceab0336d3cef122a76b7": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "c1224409bc6efa78aada7c8701cb8245f0b26511122ceab0336d3cef122a76b7",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T10:26:51Z",
+"reasons": [
+"unauthenticated",
+"matches F5 (Tier 1)"
+],
+"route": "digest",
+"score": 6,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public",
+"url": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "F5",
+"tier": 1,
+"vendor": "F5"
+}
+]
 },
 "c122b13c2c519b1e8ced5c0abba0a6f2b4eaa8624097bd5deea8c447dc1351cc": {
 "category": "world",
@@ -153475,7 +156358,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-18T16:30:18Z",
 "id": "c44708cb5c264bb8d2edbcb7cb81f45a643a3e96770016025d8a155dcba705f6",
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-19",
 "published": "2026-11-18T13:55:14Z",
 "reasons": [
 "source weight +1"
@@ -154389,6 +157272,38 @@
 ],
 "weight": 1
 },
+"c7e9b4e906a695b285b169166a9e7def15f87f678f07256e47d90876eae613f0": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "c7e9b4e906a695b285b169166a9e7def15f87f678f07256e47d90876eae613f0",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T08:00:00Z",
+"reasons": [
+"ransomware",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+"url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
 "c80d072a055aa86815161478f12477d77b8ec3551f651b11efabf7980ce738bf": {
 "category": "world",
 "coverage_count": 1,
@@ -155242,6 +158157,48 @@
 ],
 "weight": 1
 },
+"cb19f3a5da0dfffcea8cbf5b0701a03ff560fd278158b7a66e43738cb5f26252": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "cb19f3a5da0dfffcea8cbf5b0701a03ff560fd278158b7a66e43738cb5f26252",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T08:32:10Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Trump meets Putin and Xi for trilateral US, Russia, China talks at APEC",
+"url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss",
+"weight": 1
+},
+"cb298f26f92615b2beb8e7c85470ee5de762e2d33053098f52aeb985ef2500ca": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "cb298f26f92615b2beb8e7c85470ee5de762e2d33053098f52aeb985ef2500ca",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T07:51:03Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Gaza Syndrome: Why Israeli soldiers’ trauma erases Palestinian victims",
+"url": "https://www.aljazeera.com/features/2026/11/19/gaza-syndrome-why-israeli-soldiers-trauma-erases-palestinian-victims?traffic_source=rss",
+"weight": 1
+},
 "cb36b3585cbc7fc4ef724c8285ae5d86913e54adb7c74f01b3c0ddaaef9961d6": {
 "category": "world",
 "coverage_count": 1,
@@ -155839,6 +158796,27 @@
 "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
 "weight": 3
 },
+"cd88b2f1e48100d05cb6b6c67ef24dbab81281bef08e450800c2b6ea89e5ef6b": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "cd88b2f1e48100d05cb6b6c67ef24dbab81281bef08e450800c2b6ea89e5ef6b",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:11:40Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "The Bitter Cost of Cheap Infrastructure",
+"url": "https://allafrica.com/stories/202611190231.html",
+"weight": 1
+},
 "cd97691eb0334f8e6619a896d94a6473b2ba425addb29a51de584e1faa040df9": {
 "category": "tech",
 "coverage_count": 1,
@@ -155864,11 +158842,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "cdbf9f35696f45c2fece8087f09877455808486f219f7f91157f1fa14e756830",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T05:06:59Z",
-"reasons": [
-"big story: assassinated",
-"source weight +1"
-],
 "route": "digest",
 "score": 3,
 "source": "BBC World",
@@ -155876,8 +158849,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Wife of assassinated ex-Haitian leader registers for presidential election",
-"url": "https://www.bbc.co.uk/news/articles/cmwy83432q1jo",
 "weight": 1
 },
 "cdcb5e55747092eb4f89003a5b1e029dfe859b79b19e2e9ccf2d5261d10cba77": {
@@ -159652,6 +162623,29 @@
 ],
 "weight": 1
 },
+"dd80d8704c80f2d8591a789c9ea56d296cbbbee47049886d5fe4d26a58fb75b2": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "dd80d8704c80f2d8591a789c9ea56d296cbbbee47049886d5fe4d26a58fb75b2",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T09:23:21Z",
+"reasons": [
+"ransomware"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "NVIDIA investigating Gentlemen ransomware breach claims",
+"url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/"
+},
 "dd859ac944ea9c367a2eb10a0ac23be534a90e0557776a2154a6b83c85c72271": {
 "category": "tech",
 "coverage_count": 1,
@@ -160138,6 +163132,27 @@
 ],
 "title": "How the US House of Representatives chooses its leaders: A visual guide",
 "url": "https://www.aljazeera.com/news/2026/11/18/how-the-us-house-of-representatives-chooses-its-leaders-a-visual-guide?traffic_source=rss",
+"weight": 1
+},
+"df9eea3b58321952f2a7e6e49311dc0f793324cc17835b8b23c04998064f6507": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "df9eea3b58321952f2a7e6e49311dc0f793324cc17835b8b23c04998064f6507",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T09:06:36Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Kenya’s marathon champion Peres Jepchirchir gets three-year ban for doping",
+"url": "https://www.aljazeera.com/sports/2026/11/19/kenyas-marathon-champion-peres-jepchirchir-gets-three-year-ban-for-doping?traffic_source=rss",
 "weight": 1
 },
 "dfa40df2927a30ae9c343902798d64f1a87bb9e2eaad59dad7e7a5999b349c2b": {
@@ -160899,6 +163914,31 @@
 "hn"
 ],
 "weight": 3
+},
+"e249c7d1b91836c89dc9bb5ae8af189a8e8314d2ab5dc5024fb8b6d17061f4d6": {
+"big_story_hits": [
+"nuclear"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "e249c7d1b91836c89dc9bb5ae8af189a8e8314d2ab5dc5024fb8b6d17061f4d6",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T06:15:55Z",
+"reasons": [
+"big story: nuclear",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Could Trump, Putin and Xi end the nuclear age?",
+"url": "https://www.aljazeera.com/opinions/2026/11/19/could-trump-putin-and-xi-end-the-nuclear-age?traffic_source=rss",
+"weight": 1
 },
 "e26036014a700042f961f4c18aab549aafe1f7e4118ef4bcb14746d221e63789": {
 "category": "world",
@@ -162267,6 +165307,27 @@
 ],
 "weight": 1
 },
+"e786ce3e44101cebb3b651bbe2d0a201cad49a741c665444360fcbb98ec83f77": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "e786ce3e44101cebb3b651bbe2d0a201cad49a741c665444360fcbb98ec83f77",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:08:53Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Minusca Gets New Head As Rugwabiza's Mandate Ends",
+"url": "https://allafrica.com/stories/202611190230.html",
+"weight": 1
+},
 "e792245c8cc07cb67a372c0a8213f558e9fc5878aedf074d7cca134ec2f4a233": {
 "category": "world",
 "coverage_count": 1,
@@ -162905,11 +165966,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "e9432bacfe2f4a16a898f2fdc9dca37c51eca035245dd9ef5e8d9c1ae9d17a51",
 "last_seen": "2026-11-17",
-"published": "2026-11-16T05:33:13Z",
-"reasons": [
-"topic: Rwanda",
-"source weight +1"
-],
 "route": "digest",
 "score": 3,
 "source": "allAfrica Rwanda",
@@ -162917,11 +165973,9 @@
 "sources": [
 "allAfrica Rwanda"
 ],
-"title": "Electricity Access Rises to Over 88%, but Outages Remain a Concern - Report",
 "topic_hits": [
 "Rwanda"
 ],
-"url": "https://allafrica.com/stories/202611160083.html",
 "weight": 1
 },
 "e96cff4ae2558b120828219368f44f8710dfbf154669874ef557a2ff97a789c9": {
@@ -163651,6 +166705,27 @@
 }
 ]
 },
+"ebcc296e931f53b0b9ae120767407a919290ae7673fbb4780747f0564aebc7bd": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "ebcc296e931f53b0b9ae120767407a919290ae7673fbb4780747f0564aebc7bd",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:07:33Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Akagera Medicines Gets Rwf11.5bn Grant to Advance TB Vaccine Trials",
+"url": "https://allafrica.com/stories/202611190228.html",
+"weight": 1
+},
 "ebce420e09dab921c9c1fbde01a692dcf01c46b767a45cf30a6bfbaf27028a21": {
 "category": "world",
 "coverage_count": 1,
@@ -163855,6 +166930,31 @@
 "Dark Reading"
 ]
 },
+"ec51d8541f81f8fd0b98ec215a70333ff0fd8b7ff797b0cb23fd6e6cff7cd4d3": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "ec51d8541f81f8fd0b98ec215a70333ff0fd8b7ff797b0cb23fd6e6cff7cd4d3",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:10:14Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "How Rwanda's Gacaca Courts Drew On a Tradition of Resolving Disputes",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611190022.html",
+"weight": 1
+},
 "ec6fed98fe09ff03f7d26f6a3c79552a51c2ee6ec50897bdf994d806e1ff20a3": {
 "big_story_hits": [
 "earthquake"
@@ -163962,6 +167062,22 @@
 "sources": [
 "The Verge"
 ]
+},
+"ece396b0fd3454091a59a46de8c2ac07bdd06d9bdaf6078c43957cc74be04b0e": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "ece396b0fd3454091a59a46de8c2ac07bdd06d9bdaf6078c43957cc74be04b0e",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:23:34Z",
+"route": "drop",
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "StepSecurity Secures $20 Million to Expand Supply Chain Protection",
+"url": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/"
 },
 "ed155159212b17c57beb341347ea282c4255655a4861b931b70063a882a5b76c": {
 "category": "world",
@@ -164434,6 +167550,34 @@
 ],
 "weight": 1
 },
+"ef41ae2eee1e669b7d0c7fbe8b243079dc95adf250801c42771d06202754e30a": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "ef41ae2eee1e669b7d0c7fbe8b243079dc95adf250801c42771d06202754e30a",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T09:31:26Z",
+"reasons": [
+"matches N-able (Tier 3)"
+],
+"route": "drop",
+"score": 2,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+"url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-able",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
 "ef4d13e5d244742be064b502305082c208e8513a3e62780351488109097ccfb2": {
 "category": "world",
 "coverage_count": 1,
@@ -164561,6 +167705,27 @@
 "sources": [
 "BleepingComputer"
 ]
+},
+"effdf553295dc9d538230d28eb44d80f2f01f93b06cff5a8141c8a37877a3069": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "effdf553295dc9d538230d28eb44d80f2f01f93b06cff5a8141c8a37877a3069",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T06:58:44Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Netanyahu’s last stand and the dangerous politics of survival",
+"url": "https://www.aljazeera.com/news/2026/11/19/netanyahus-last-stand-and-the-dangerous-politics-of-survival?traffic_source=rss",
+"weight": 1
 },
 "f039a324cf21924dce1a24b2b4de2635d1193088bb00163fc5193963ca39a2ef": {
 "category": "world",
@@ -164977,10 +168142,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "f18c458594b526a49609335122f52f9faa5edf1fb010301cbc15fd6270691d90",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T01:26:56Z",
-"reasons": [
-"matches Apple (Tier 2)"
-],
 "route": "drop",
 "score": 2,
 "source": "The Verge",
@@ -164988,8 +168149,6 @@
 "sources": [
 "The Verge"
 ],
-"title": "Apple’s new study looks to improve the effectiveness of AI health tools",
-"url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
 "vendor_matches": [
 {
 "points": 2,
@@ -165120,6 +168279,27 @@
 "sources": [
 "BBC World"
 ],
+"weight": 1
+},
+"f2283a7a5d587e297c0b34df93bb2e64c5a66f63fac98aedb7dd0f4b3d3dde88": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "f2283a7a5d587e297c0b34df93bb2e64c5a66f63fac98aedb7dd0f4b3d3dde88",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:21:33Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Home of Bangladesh’s former leader Muhammad Yunus set on fire",
+"url": "https://www.aljazeera.com/news/2026/11/19/home-of-bangladeshs-former-leader-muhammad-yunus-set-on-fire?traffic_source=rss",
 "weight": 1
 },
 "f23551ed9ad008af145a360ed4940f5b1ddadde2eaf7884e7f3250e844fc52f2": {
@@ -166165,10 +169345,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "f623a75580bbf17670abc94f37cb321e33f2744de7f31ddf52e18d0672bde15c",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T02:46:35Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -166176,8 +169352,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "ASEAN, China fall short of agreeing on South China Sea code",
-"url": "https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code?traffic_source=rss",
 "weight": 1
 },
 "f653dee337ce9125fc602f7658967f3ec873343c66b974e5aaa55e3be858433e": {
@@ -166333,10 +169507,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "f6d3366857fa462e3fccd81ce369c01d12ccac888e006f23c48601eef2a06b32",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T04:53:42Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -166344,8 +169514,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Iraqi armed group denies involvement in oil smuggling, calls probe a ‘lie’",
-"url": "https://www.aljazeera.com/news/2026/11/16/iraqi-armed-group-denies-involvement-in-oil-smuggling-calls-probe-a-lie?traffic_source=rss",
 "weight": 1
 },
 "f6dc3752fb6cd492283ffe318d055cc0a6b8842a9cc18d3993b8e6c9d07fe04a": {
@@ -167550,10 +170718,6 @@
 "first_seen": "2026-11-16T06:08:41Z",
 "id": "fbd88e0b350a627f4e0a0665bd6eddec25d40a94422fc738109d80fca5dddcc3",
 "last_seen": "2026-11-16",
-"published": "2026-11-16T00:51:23Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -167561,8 +170725,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Founder of Guadalajara cartel dies in hospital after decades in prison",
-"url": "https://www.aljazeera.com/news/2026/11/16/founder-of-guadalajara-cartel-dies-in-hospital-after-decades-in-prison?traffic_source=rss",
 "weight": 1
 },
 "fbe86309f2085d0cb8aeaf87ce3f736f44a55ff4281c20d80c3222cc59736246": {
@@ -167577,6 +170739,27 @@
 "sources": [
 "The Verge"
 ]
+},
+"fbfffeb17b80dcc64c9f33469b88ff2d22fe99b379ea5c19539e526f86917b17": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "fbfffeb17b80dcc64c9f33469b88ff2d22fe99b379ea5c19539e526f86917b17",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T07:08:57Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant",
+"url": "https://www.aljazeera.com/economy/2026/11/19/too-early-to-determine-impact-of-us-siege-on-iran-with-tehran-defiant?traffic_source=rss",
+"weight": 1
 },
 "fc39ddb96b11a860b2cb69e0f9ce8e92c479878916a9d16e78c90fb261cb772c": {
 "category": "security",
@@ -168219,6 +171402,32 @@
 "sources": [
 "Zero Day Initiative"
 ]
+},
+"fe847d9013033d7d886781e06beaa932c0946f22d086743c4169893155cd2f39": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "fe847d9013033d7d886781e06beaa932c0946f22d086743c4169893155cd2f39",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:39:10Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Rwanda Down Six Places in November FIFA Rankings",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611190068.html",
+"weight": 1
 },
 "fea5c62a9d327ad3c2bc5730464628d3563f3924c1bdf6826c5da7dab729526c": {
 "category": "world",

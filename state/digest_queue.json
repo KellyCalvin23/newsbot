@@ -6255,5 +6255,1630 @@
 "title": "We need smart people who give a shit",
 "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132805"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132805",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:18:39Z",
+"reasons": [
+"CVSS 8.3",
+"matches Ubiquiti UniFi (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A malicious actor with access to the network could exploit a Server-Side Request Forgery (SSRF) vulnerability found in UniFi Access Application to obtain information and make unauthorized changes on the host device.",
+"title": "CVE-2026-132805: A malicious actor with access to the network could exploit a Server-Side Request Forgery (SSRF) vulnerability found in UniFi Access…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132805",
+"vendor_matches": [
+{
+"points": 3,
+"term": "UniFi",
+"tier": 1,
+"vendor": "Ubiquiti"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132806"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132806",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:18:39Z",
+"reasons": [
+"CVSS 8.8",
+"matches Ubiquiti UniFi (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A malicious actor with access to the network and low privileges could exploit an authenticated SQL Injection vulnerability found in UniFi Access Application to obtain sensitive information and make unauthorized changes within the UniFi Access Application.",
+"title": "CVE-2026-132806: A malicious actor with access to the network and low privileges could exploit an authenticated SQL Injection vulnerability found in UniFi…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132806",
+"vendor_matches": [
+{
+"points": 3,
+"term": "UniFi",
+"tier": 1,
+"vendor": "Ubiquiti"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129446"
+],
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-129446",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T06:16:53Z",
+"reasons": [
+"unauthenticated",
+"matches Microsoft (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The WPO365 | SEAMLESS WORDPRESS + MICROSOFT INTEGRATION (WPO365 | LOGIN) WordPress plugin before 45.4 does not ensure the signature validated on a SAML response covers the element the user identity is read from, allowing unauthenticated attackers to forge a response via signature wrapping and log…",
+"title": "CVE-2026-129446: The WPO365 | SEAMLESS WORDPRESS + MICROSOFT INTEGRATION (WPO365 | LOGIN) WordPress plugin before 45.4 does not ensure the signature…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129446",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132892"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132892",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:55Z",
+"reasons": [
+"CVSS 8.1",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2 privilege escalation was possible via the authorization flow",
+"title": "CVE-2026-132892: In JetBrains TeamCity before 2026.2 privilege escalation was possible via the authorization flow",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132892",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132893"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132893",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:55Z",
+"reasons": [
+"CVSS 7.7",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 an SSRF via pipeline repository branch listing was possible",
+"title": "CVE-2026-132893: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 an SSRF via pipeline repository branch listing was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132893",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132894"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132894",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:55Z",
+"reasons": [
+"CVSS 7.7",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 an SSRF in AWS connection settings could expose server credentials",
+"title": "CVE-2026-132894: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 an SSRF in AWS connection settings could expose server credentials",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132894",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+},
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132897"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132897",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:55Z",
+"reasons": [
+"CVSS 7.7",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 improper authorization allowed access to credentials of other projects via build configuration settings",
+"title": "CVE-2026-132897: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 improper authorization allowed access to credentials of other projects via build…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132897",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132898"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132898",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:56Z",
+"reasons": [
+"CVSS 7.2",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 arbitrary file write on the server was possible via Kotlin DSL settings",
+"title": "CVE-2026-132898: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 arbitrary file write on the server was possible via Kotlin DSL settings",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132898",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132899"
+],
+"cvss": 7.6,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132899",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:56Z",
+"reasons": [
+"CVSS 7.6",
+"matches JetBrains TeamCity (Tier 3)",
+"topic: npm"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS in the NPM Registry build feature was possible",
+"title": "CVE-2026-132899: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS in the NPM Registry build feature was possible",
+"topic_hits": [
+"npm"
+],
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132899",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132900"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132900",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:56Z",
+"reasons": [
+"CVSS 7.5",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 secure parameter values were disclosed to project viewers in pipelines",
+"title": "CVE-2026-132900: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 secure parameter values were disclosed to project viewers in pipelines",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132900",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132901"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132901",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:56Z",
+"reasons": [
+"CVSS 7.7",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 improper authorization allowed publishing packages to NuGet feeds of other projects",
+"title": "CVE-2026-132901: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 improper authorization allowed publishing packages to NuGet feeds of other projects",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132901",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132902"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132902",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:56Z",
+"reasons": [
+"CVSS 7.7",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 access keys of parent project AWS connections could be disclosed",
+"title": "CVE-2026-132902: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 access keys of parent project AWS connections could be disclosed",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132902",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+},
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132903"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132903",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:56Z",
+"reasons": [
+"CVSS 8.1",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 missing authorization allowed any authenticated user to start and stop cloud agent instances",
+"title": "CVE-2026-132903: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 missing authorization allowed any authenticated user to start and stop cloud agent…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132903",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132904"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132904",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:56Z",
+"reasons": [
+"CVSS 8.1",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 missing authorization allowed project viewers to remove VCS roots",
+"title": "CVE-2026-132904: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 missing authorization allowed project viewers to remove VCS roots",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132904",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132905"
+],
+"cvss": 7.6,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132905",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:56Z",
+"reasons": [
+"CVSS 7.6",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS in the AWS Credentials build feature was possible",
+"title": "CVE-2026-132905: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS in the AWS Credentials build feature was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132905",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+},
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132907"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132907",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:57Z",
+"reasons": [
+"CVSS 8.1",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 project viewers could redirect GitHub App connection credentials of parent projects",
+"title": "CVE-2026-132907: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 project viewers could redirect GitHub App connection credentials of parent projects",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132907",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132913"
+],
+"cvss": 8.4,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132913",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:57Z",
+"reasons": [
+"CVSS 8.4",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS on the P4 Code Review build tab was possible",
+"title": "CVE-2026-132913: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS on the P4 Code Review build tab was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132913",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132914"
+],
+"cvss": 8.0,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132914",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:58Z",
+"reasons": [
+"CVSS 8.0",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS on the Issue Log tab was possible",
+"title": "CVE-2026-132914: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS on the Issue Log tab was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132914",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132915"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132915",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:58Z",
+"reasons": [
+"CVSS 7.1",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 an LDAP injection allowed bypassing login restrictions",
+"title": "CVE-2026-132915: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 an LDAP injection allowed bypassing login restrictions",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132915",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132916"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132916",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:58Z",
+"reasons": [
+"CVSS 7.1",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 arbitrary file deletion on the server was possible via the Kotlin DSL sandbox",
+"title": "CVE-2026-132916: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 arbitrary file deletion on the server was possible via the Kotlin DSL sandbox",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132916",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132918"
+],
+"cvss": 7.6,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132918",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:16:58Z",
+"reasons": [
+"CVSS 7.6",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS on build and queue pages was possible",
+"title": "CVE-2026-132918: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS on build and queue pages was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132918",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132936"
+],
+"cvss": 5.4,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132936",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:17:00Z",
+"reasons": [
+"matches JetBrains TeamCity (Tier 3)",
+"topic: npm"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS in the npm connection health report was possible",
+"title": "CVE-2026-132936: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS in the npm connection health report was possible",
+"topic_hits": [
+"npm"
+],
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132936",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132942"
+],
+"cvss": 5.3,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132942",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:17:01Z",
+"reasons": [
+"unauthenticated",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2, 2026.1.4 unauthenticated extraction of build parameter values via a timing attack on build status icons was possible",
+"title": "CVE-2026-132942: In JetBrains TeamCity before 2026.2, 2026.1.4 unauthenticated extraction of build parameter values via a timing attack on build status…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132942",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132947"
+],
+"cvss": 6.1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132947",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:17:02Z",
+"reasons": [
+"matches JetBrains TeamCity (Tier 3)",
+"topic: Kubernetes"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2 reflected XSS in Kubernetes cloud profile namespace and deployment choosers was possible",
+"title": "CVE-2026-132947: In JetBrains TeamCity before 2026.2 reflected XSS in Kubernetes cloud profile namespace and deployment choosers was possible",
+"topic_hits": [
+"Kubernetes"
+],
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132947",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132959"
+],
+"cvss": 5.9,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-132959",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:17:03Z",
+"reasons": [
+"remote code execution",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2 remote code execution on build agents was possible via service message injection in build configuration names",
+"title": "CVE-2026-132959: In JetBrains TeamCity before 2026.2 remote code execution on build agents was possible via service message injection in build configuration…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132959",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133020"
+],
+"cvss": 7.4,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133020",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:43Z",
+"reasons": [
+"CVSS 7.4",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.1.5 untrusted build approval for GitHub fork pull requests could be bypassed",
+"title": "CVE-2026-133020: In JetBrains TeamCity before 2026.1.5 untrusted build approval for GitHub fork pull requests could be bypassed",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133020",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133025"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133025",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:43Z",
+"reasons": [
+"CVSS 7.7",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2.1 missing authorization allowed project viewers to download project settings",
+"title": "CVE-2026-133025: In JetBrains TeamCity before 2026.2.1 missing authorization allowed project viewers to download project settings",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133025",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133026"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133026",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:43Z",
+"reasons": [
+"CVSS 7.2",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2.1, 2026.1.5 code injection in generated Kotlin DSL was possible via matrix build parameters",
+"title": "CVE-2026-133026: In JetBrains TeamCity before 2026.2.1, 2026.1.5 code injection in generated Kotlin DSL was possible via matrix build parameters",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133026",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133027"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "CVE-2026-133027",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:18:43Z",
+"reasons": [
+"CVSS 8.8",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2.1, 2026.1.5 privilege escalation was possible via username handling in token authentication",
+"title": "CVE-2026-133027: In JetBrains TeamCity before 2026.2.1, 2026.1.5 privilege escalation was possible via username handling in token authentication",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133027",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "dd80d8704c80f2d8591a789c9ea56d296cbbbee47049886d5fe4d26a58fb75b2",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T09:23:21Z",
+"reasons": [
+"ransomware"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
+"title": "NVIDIA investigating Gentlemen ransomware breach claims",
+"url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "37745bdb30b0f503eeaabd8e686681bad08d839f670fb7e58222c7aa70f20066",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T08:42:11Z",
+"reasons": [
+"RCE"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine. \"We are aware of PoCs that prove some of them can be…",
+"title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+"url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "0aa9e1bfc5bcca2029e57152e9f0c7a9e40580e10c5dbdd4f376481ff5ed4e3d",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T08:14:00Z",
+"reasons": [
+"RCE",
+"matches Oracle (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL. The exploits, published yesterday, are the researcher's proofs…",
+"title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+"url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Oracle",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "c7e9b4e906a695b285b169166a9e7def15f87f678f07256e47d90876eae613f0",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T08:00:00Z",
+"reasons": [
+"ransomware",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV)…",
+"title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+"url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "1b35ef5bc51c4152b033b90cdb0259e8d463478fd4c2a6033ca3bd804af1c82b",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T10:41:05Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "The security updates resolve critical and high-severity issues leading to authentication bypass, remote code execution, and privilege escalation. The post Splunk Patches Nearly 140 Flaws Across Three Core Products appeared first on SecurityWeek .",
+"title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
+"url": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "c1224409bc6efa78aada7c8701cb8245f0b26511122ceab0336d3cef122a76b7",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T10:26:51Z",
+"reasons": [
+"unauthenticated",
+"matches F5 (Tier 1)"
+],
+"route": "digest",
+"score": 6,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "The five NGINX2Root vulnerabilities could allow remote, unauthenticated attackers to execute arbitrary code. The post F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public appeared first on SecurityWeek .",
+"title": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public",
+"url": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "F5",
+"tier": 1,
+"vendor": "F5"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "a57b9913aa764eae285023987bd4a3e901d05bf42128a49b35c22e973a6fa5b5",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T09:10:58Z",
+"reasons": [
+"matches Cisco (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "GreyNoise, WatchTowr and Cloudflare report probing and exploit attempts, while Cisco, Elastic, Red Hat and Siemens detail impact. The post Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories appeared first on SecurityWeek .",
+"title": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
+"url": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Cisco",
+"tier": 1,
+"vendor": "Cisco"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-115560"
+],
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "870e0de5a12d82104b1f5d973a1558e4d50f83ef21528ce740871d344339dd1d",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T07:45:17Z",
+"reasons": [
+"RCE",
+"matches PHP Group (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Affecting the session upload progress, CVE-2026-115560 was publicly disclosed two days after PHP2Shell patches landed. The post PHP Readies Critical Security Updates to Patch Another RCE Flaw appeared first on SecurityWeek .",
+"title": "PHP Readies Critical Security Updates to Patch Another RCE Flaw",
+"url": "https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "PHP Group",
+"tier": 2,
+"vendor": "PHP Group"
+}
+]
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "aa310ceca35f88014358d6b25e8b3d92d8b91eaf0799273bb1f32bb58add541e",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T10:32:10Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "DJ lag, one of South Africa's best-known electronic music producers, is among several African stars to feature on Grand Theft Auto 6.",
+"title": "'It's a dream come true' – South African DJ celebrates featuring in GTA 6",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.bbc.co.uk/news/articles/crx20q3qy0vxo",
+"weight": 1
+},
+{
+"big_story_hits": [
+"nuclear"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "6ff1ff6df640b312c48fe91a75871970ec2cbe49ffe94081c5ae81f76b5b7ec3",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T12:11:42Z",
+"reasons": [
+"big story: nuclear",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "Vladimir Putin's special briefcase - thought to carry access to nuclear weapons - made a rare appearance in Shenzhen.",
+"title": "What is a ‘nuclear briefcase’, spotted at the APEC summit?",
+"url": "https://www.aljazeera.com/news/2026/11/19/what-is-a-nuclear-briefcase-spotted-at-the-apec-summit?traffic_source=rss",
+"weight": 1
+},
+{
+"big_story_hits": [
+"nuclear"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "354e055aa4809a3c874c97331ba35184e151106caf8383a0561fa35b4e8f66c2",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T10:03:27Z",
+"reasons": [
+"big story: nuclear",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "Trump calls for nuclear arms reduction at APEC summit",
+"title": "Trump calls for nuclear arms reduction at APEC summit",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/trump-calls-for-nuclear-arms-reduction-at-apec-summit?traffic_source=rss",
+"weight": 1
+},
+{
+"big_story_hits": [
+"nuclear"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "9fc46f3280b1f18e4a2d99a0054aee86c45f6df86646c8ddb9b117aa9db50861",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T09:16:47Z",
+"reasons": [
+"big story: nuclear",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "North Korea can produce both highly enriched uranium and weapons-grade plutonium at its facilities, according to IAEA.",
+"title": "North Korea expanding uranium enrichment facility, UN nuclear watchdog says",
+"url": "https://www.aljazeera.com/news/2026/11/19/north-korea-expanding-uranium-enrichment-facility-un-nuclear-watchdog-says?traffic_source=rss",
+"weight": 1
+},
+{
+"big_story_hits": [
+"nuclear"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "e249c7d1b91836c89dc9bb5ae8af189a8e8314d2ab5dc5024fb8b6d17061f4d6",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T06:15:55Z",
+"reasons": [
+"big story: nuclear",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "Their meeting could revive the dream of nuclear disarmament that Reagan and Gorbachev nearly realised 40 years ago.",
+"title": "Could Trump, Putin and Xi end the nuclear age?",
+"url": "https://www.aljazeera.com/opinions/2026/11/19/could-trump-putin-and-xi-end-the-nuclear-age?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "2bbe60a0567e9503fd587be1ba8440c45c109a91a98c8de9332b83834dd96592",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:39:10Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda and Pakistan are looking to strengthen parliamentary cooperation, with both countries exploring ways to deepen engagement between their respective legislatures.",
+"title": "Rwanda, Pakistan Seek Stronger Parliamentary Ties",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611190067.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "3d1fdc4115107cf0935ca2795a2c5eb0a14826533aacc7782c04b811d75e6cb1",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:39:08Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[Nile Post] Uganda Airlines has launched direct flights between Entebbe and Kigali, a development expected to strengthen trade, tourism and investment ties between Uganda and Rwanda.",
+"title": "Uganda Airlines Launches Entebbe-Kigali Route to Boost Trade and Tourism",
+"topic_hits": [
+"Rwanda",
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611190065.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "a84e3ee03331d0d80c6ef4ee91d6ab05a8eaab57a59d5b90c1f94ba1f7d3616b",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:39:05Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Since 2022, more than 200 Zimbabwean teachershave been deployed across Teacher Training Colleges (TTCs) and model schools in Rwanda to strengthen language proficiency and improve teaching methodologies under a bilateral teacher exchange programme between the two countries.",
+"title": "How Zimbabwean Teachers Are Supporting Language Proficiency in Rwanda",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611190060.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "4bc1a1756cebf574720fba053e962db000f664276da16909323e222b93346810",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:39:05Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] African countries are being urged to address critical shortages of midwives and improve their working conditions to strengthen maternal and newborn healthcare and prevent avoidable deaths, amid growing calls for greater investment in the midwifery workforce across the continent.",
+"title": "Africa Urged to Tackle Midwife Shortages, Poor Working Conditions to Save Lives",
+"topic_hits": [
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611190061.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "ec51d8541f81f8fd0b98ec215a70333ff0fd8b7ff797b0cb23fd6e6cff7cd4d3",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:10:14Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda introduced the Gacaca courts because the conventional judicial system could not cope with the backlog of cases following the 1994 Genocide against the Tutsi. The country needed a way to bring cases to trial more quickly, restore confidence in the justice process and involve local…",
+"title": "How Rwanda's Gacaca Courts Drew On a Tradition of Resolving Disputes",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611190022.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "3fa02d8fd4947b1e480bcda3b97f6f1168171becce729a6569793270b50e5099",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:10:13Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The University of Rwanda (UR) says it is working with Transparency International Rwanda (TI-Rwanda) and the Rwanda Investigation Bureau (RIB) to investigate allegations that some lecturers have been demanding sexual favours from female students in exchange for academic marks.",
+"title": "University of Rwanda Lays Out Measures to Address Sexual Corruption Allegations",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611190021.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "7d18a62a79c1cd3e7d102008d47e811cc952355d9b9de4854cef05b5714d3d26",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T11:07:50Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda and Pakistan have signed a Memorandum of Understanding (MoU) to strengthen cooperation in the legal sector, with a focus on sharing expertise, law reform, access to justice and combating emerging crimes.",
+"title": "Rwanda, Pakistan Sign Agreement to Strengthen Legal Cooperation",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611190229.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "fe847d9013033d7d886781e06beaa932c0946f22d086743c4169893155cd2f39",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:39:10Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda have dropped six places in the latest FIFA Men's World Ranking, falling from 119th in October to 125th following back-to-back defeats against Mali in the 2027 Africa Cup of Nations qualifiers.",
+"title": "Rwanda Down Six Places in November FIFA Rankings",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611190068.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-19T12:53:16Z",
+"id": "b532ce57682cf3c3b3deece4e40bda03bdd10b00ec321e4b06b7e4626f4af36a",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T04:52:57Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[The Conversation Africa] When I met Chadi, a young Tunisian man recently deported from Italy after crossing the Mediterranean by boat, he was already planning his next attempt: \"They brought me here, but I'm not planning on staying.\"",
+"title": "Europe's Rwanda Return Hub Raises Serious Human Rights Concerns - a Migration Researcher Explains",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611190006.html",
+"weight": 1
 }
 ]
