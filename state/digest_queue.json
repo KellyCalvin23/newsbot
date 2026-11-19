@@ -4910,5 +4910,1350 @@
 "title": "Putin’s nuclear briefcase makes surprise appearance at China summit",
 "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/putins-nuclear-briefcase-makes-surprise-appearance-at-china-summit?traffic_source=rss",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-131068"
+],
+"cvss": 8.8,
+"epss": 0.00247,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2026-131068",
+"last_seen": "2026-11-19",
+"published": "2026-11-17T21:18:06Z",
+"reasons": [
+"CVSS 8.8",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Use after free in DOM in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted Chrome extension. (Chromium security severity: High)",
+"title": "CVE-2026-131068: Use after free in DOM in Google Chrome prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131068",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-77283"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2026-77283",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T23:17:21Z",
+"reasons": [
+"CVSS 8.8",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "obsidian-sync-mcp is an MCP server that gives AI agents access to Obsidian vaults. Prior to 0.5.7, deployments running without MCP_AUTH_TOKEN install no serverOptions.authenticate check for the HTTP /mcp endpoint, so requests are dispatched without validating the Host or Origin headers. A malicious…",
+"title": "CVE-2026-77283: obsidian-sync-mcp is an MCP server that gives AI agents access to Obsidian vaults",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77283",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-61678"
+],
+"cvss": 8.6,
+"epss": 0.45356,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2025-61678",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.6",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Sangoma FreePBX. FreePBX Endpoint Manager is a module for managing telephony endpoints in FreePBX systems. In versions prior to 16.0.92 for FreePBX 16 and versions prior to 17.0.6 for FreePBX 17, the Endpoint Manager module contains an authenticated arbitrary file upload vulnerability affecting the…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-61678: Sangoma FreePBX Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61678"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2018-25138"
+],
+"cvss": 9.8,
+"epss": 0.00621,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2018-25138",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "flir flir_ax8_firmware. FLIR AX8 Thermal Camera 1.32.16 contains hard-coded SSH and web panel credentials that cannot be changed through normal camera operations. Attackers can exploit these persistent credentials to gain unauthorized shell access and login to multiple camera interfaces using…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2018-25138: flir flir_ax8_firmware Use of Hard-coded Credentials",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25138"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2023-3554"
+],
+"cvss": 6.1,
+"epss": 0.00485,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2023-3554",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "gzscripts gz_forum_script. A vulnerability was found in GZ Scripts GZ Forum Script 1.8 and classified as problematic. Affected by this issue is some unknown functionality of the file /preview.php. The manipulation of the argument catid/topicid/topic/topic_message/free_name leads to cross site…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-3554: gzscripts gz_forum_script Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-3554"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2022-40494"
+],
+"epss": 0.02105,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2022-40494",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "ehang-io nps. NPS before v0.26.10 was discovered to contain an authentication bypass vulnerability via constantly generating and sending the Auth key and Timestamp parameters.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-40494: ehang-io nps Improper Authentication",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-40494"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2019-11616"
+],
+"epss": 0.02435,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2019-11616",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "doorgets doorgets_cms. doorGets 7.0 has a sensitive information disclosure vulnerability in /setup/temp/admin.php and /setup/temp/database.php. A remote unauthenticated attacker could exploit this vulnerability to obtain the administrator password.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2019-11616: doorgets doorgets_cms Exposure of Sensitive Information to an Unauthorized Actor",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-11616"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2008-6465"
+],
+"epss": 0.05114,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2008-6465",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "parallels h-sphere. Multiple cross-site scripting (XSS) vulnerabilities in login.php in webshell4 in Parallels H-Sphere 3.0.0 P9 and 3.1 P1 allow remote attackers to inject arbitrary web script or HTML via the (1) err, (2) errorcode, and (3) login parameters.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2008-6465: parallels h-sphere Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2008-6465"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2023-40829"
+],
+"epss": 0.00554,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2023-40829",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "tencent enterprise_wechat_privatization. There is an interface unauthorized access vulnerability in the background of Tencent Enterprise Wechat Privatization 2.5.x and 2.6.930000.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-40829: tencent enterprise_wechat_privatization Incorrect Authorization",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-40829"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2006-2863"
+],
+"epss": 0.0955,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2006-2863",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "cs-cart cs-cart. PHP remote file inclusion vulnerability in class.cs_phpmailer.php in CS-Cart 1.3.3 allows remote attackers to execute arbitrary PHP code via a URL in the classes_dir parameter.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2006-2863: cs-cart cs-cart Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2006-2863"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-1536"
+],
+"epss": 0.032,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2025-1536",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Raisecom Multi-Service Intelligent Gateway. A vulnerability was found in Raisecom Multi-Service Intelligent Gateway up to 20250208. It has been declared as critical. This vulnerability affects unknown code of the file /vpn/vpn_template_style.php of the component Request Parameter Handler. The…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-1536: Improper Neutralization of Special Elements used in a Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1536"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2023-54357"
+],
+"epss": 0.00658,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2023-54357",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "artio book_it\\!. Joomla com_booking component 2.4.9 contains an information disclosure vulnerability that allows unauthenticated attackers to enumerate user accounts by exploiting the getUserData function in the customer controller. Attackers can send GET requests to index.php with…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-54357: artio book_it\\! Observable Discrepancy",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54357"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2020-21993"
+],
+"epss": 0.00805,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2020-21993",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "wems enterprise_manager. In WEMS Limited Enterprise Manager 2.58, input passed to the GET parameter 'email' is not properly sanitized before being returned to the user. This can be exploited to execute arbitrary HTML code in a user's browser session in context of an affected site.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2020-21993: wems enterprise_manager Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-21993"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-34411"
+],
+"epss": 0.00402,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2026-34411",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "appsmith appsmith. Appsmith versions prior to 1.98 expose sensitive instance management API endpoints without authentication. Unauthenticated attackers can query endpoints like /api/v1/consolidated-api/view and /api/v1/tenants/current to retrieve configuration metadata, license information, and…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-34411: appsmith appsmith Missing Authentication for Critical Functionality",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34411"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2023-37600"
+],
+"epss": 0.00526,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2023-37600",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "mobisystems office_suite. Office Suite Premium Version v10.9.1.42602 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the id parameter at /api?path=profile.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-37600: mobisystems office_suite Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-37600"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2023-53982"
+],
+"epss": 0.00606,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2023-53982",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "sigb pmb. PMB 7.4.6 contains a SQL injection vulnerability in the id parameter of the storage module (categ=storage) of the opac_css/ajax.php endpoint that allows remote attackers to manipulate database queries. Attackers can exploit the unsanitized 'id' parameter by injecting conditional sleep…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-53982: sigb pmb Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-53982"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-40117"
+],
+"epss": 0.00715,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2024-40117",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "solar-log Solar-Log 1000. Incorrect access control in Solar-Log 1000 before v2.8.2 and build 52- 23.04.2013 allows attackers to obtain Administrative privileges via connecting to the web administration server. Not existing for SL 200, 500, 1000 / fixed in 4.2.8 for SL 250, 300, 1200, 2000, SL 50…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-40117: solar-log solar-log_1000_firmware Improper Access Control",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-40117"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2021-3029"
+],
+"epss": 0.03059,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2021-3029",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "evolucare ecs_imaging. EVOLUCARE ECSIMAGING (aka ECS Imaging) through 6.21.5 has an OS Command Injection vulnerability via shell metacharacters and an IFS manipulation. The parameter \"file\" on the webpage /showfile.php can be exploited to gain root access. NOTE: This vulnerability only affects…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-3029: evolucare ecs_imaging Improper Neutralization of Special Elements used in an OS Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3029"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2020-36893"
+],
+"epss": 0.01678,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2020-36893",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "eibiz i-media_server_digital_signage. Eibiz i-Media Server Digital Signage 3.8.0 contains a directory traversal vulnerability that allows unauthenticated remote attackers to access files outside the server's root directory. Attackers can exploit the 'oldfile' GET parameter to view sensitive…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2020-36893: eibiz i-media_server_digital_signage Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-36893"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2019-25760"
+],
+"epss": 0.00505,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2019-25760",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "joomtech easy_shop. Joomla! Component Easy Shop 1.2.3 contains a local file inclusion vulnerability that allows unauthenticated attackers to read arbitrary files by supplying base64-encoded file paths. Attackers can send GET requests to index.php with the option parameter set to com_easyshop, task…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2019-25760: joomtech easy_shop Improper Control of Filename for Include/Require Statement in PHP Program",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25760"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2018-25113"
+],
+"epss": 0.0197,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2018-25113",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Dicoogle Project PACS Web Server. An unauthenticated path traversal vulnerability exists in Dicoogle PACS Web Server version 2.5.0 and possibly earlier. The vulnerability allows remote attackers to read arbitrary files on the underlying system by sending a crafted request to the /exportFile…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2018-25113: Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25113"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2021-47715"
+],
+"epss": 0.00384,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2021-47715",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "hasura graphql_engine. Hasura GraphQL 1.3.3 contains a server-side request forgery vulnerability that allows attackers to inject arbitrary remote schema URLs through the add_remote_schema endpoint. Attackers can exploit the vulnerability by sending crafted POST requests to the /v1/query endpoint…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-47715: hasura graphql_engine Server-Side Request Forgery",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47715"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-1359"
+],
+"epss": 0.00781,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2025-1359",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "SIAM Industria de Automação e Monitoramento SIAM. A vulnerability, which was classified as problematic, has been found in SIAM Industria de Automação e Monitoramento SIAM 2.0. This issue affects some unknown processing of the file /qrcode.jsp. The manipulation of the argument url leads to cross…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-1359: Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1359"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2018-25374"
+],
+"epss": 0.00785,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2018-25374",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Softneta MedDream PACS Server Premium. Softneta MedDream PACS Server Premium 6.7.1.1 contains a directory traversal vulnerability that allows unauthenticated attackers to read arbitrary files by manipulating the path parameter. Attackers can send requests to nocache.php with encoded backslash…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2018-25374: softneta meddream_pacs Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25374"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2006-2437"
+],
+"epss": 0.06912,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2006-2437",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "caucho_technology resin. The viewfile servlet in the documentation package (resin-doc) for Caucho Resin 3.0.17 and 3.0.18 allows remote attackers to obtain the source code for file under the web root via the file parameter.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2006-2437: caucho_technology resin Exposure of Sensitive Information to an Unauthorized Actor",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2006-2437"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2021-47748"
+],
+"epss": 0.01131,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2021-47748",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"remote code execution",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "hasura graphql_engine. Hasura GraphQL 1.3.3 contains a remote code execution vulnerability that allows attackers to execute arbitrary shell commands through SQL query manipulation. Attackers can inject commands into the run_sql endpoint by crafting malicious GraphQL queries that execute system…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-47748: hasura graphql_engine Improper Neutralization of Special Elements used in an OS Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47748"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2021-47776"
+],
+"epss": 0.0038,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2021-47776",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "umbraco umbraco_cms. Umbraco CMS v8.14.1 contains a server-side request forgery vulnerability that allows attackers to manipulate baseUrl parameters in multiple dashboard and help controller endpoints. Attackers can craft malicious requests to the GetContextHelpForPage, GetRemoteDashboardContent…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-47776: umbraco umbraco_cms Server-Side Request Forgery",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47776"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2020-36896"
+],
+"epss": 0.00933,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2020-36896",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "howfor qihang_media_web_digital_signage. QiHang Media Web Digital Signage 3.0.9 contains a cleartext credentials vulnerability that allows unauthenticated attackers to access administrative login information through an unprotected XML file. Attackers can retrieve hardcoded admin credentials by…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2020-36896: howfor qihang_media_web_digital_signage Insufficiently Protected Credentials",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-36896"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2020-36970"
+],
+"epss": 0.00294,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2020-36970",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "PMB Services PMB. PMB 5.6 contains a local file disclosure vulnerability in getgif.php that allows attackers to read arbitrary system files by manipulating the 'chemin' parameter. Attackers can exploit the unsanitized file path input to access sensitive files like /etc/passwd by sending crafted…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2020-36970: pmb_services pmb Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-36970"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-34053"
+],
+"epss": 0.00629,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2025-34053",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "AVTECH IP camera, DVR, and NVR devices. An authentication bypass vulnerability exists in AVTECH IP camera, DVR, and NVR devices’ streamd web server. The strstr() function is used to identify \".cab\" requests, allowing any URL containing \".cab\" to bypass authentication and access protected endpoints.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-34053: Authentication Bypass by Spoofing",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34053"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-24489"
+],
+"epss": 0.00308,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2025-24489",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "INFINITT Healthcare INFINITT PACS System Manager. An attacker could exploit this vulnerability by uploading arbitrary files via a specific service, which could lead to system compromise.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-24489: Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24489"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-15153"
+],
+"epss": 0.00509,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2025-15153",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "pbootcms pbootcms. A weakness has been identified in PbootCMS up to 3.2.12. Impacted is an unknown function of the file /data/pbootcms.db of the component SQLite Database. Executing a manipulation can lead to files or directories accessible. It is possible to launch the attack remotely. Attacks of…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-15153: pbootcms pbootcms Direct Request",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15153"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2020-22983"
+],
+"epss": 0.02461,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2020-22983",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "microstrategy microstrategy_web. A Server-Side Request Forgery (SSRF) vulnerability exists in MicroStrategy Web SDK 11.1 and earlier, allows remote unauthenticated attackers to conduct a server-side request forgery (SSRF) attack via the srcURL parameter to the shortURL task.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2020-22983: microstrategy microstrategy_web Server-Side Request Forgery",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-22983"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2021-47706"
+],
+"epss": 0.00454,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2021-47706",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "COMMAX Co., Ltd. COMMAX Biometric Access Control System. COMMAX Biometric Access Control System 1.0.0 contains an authentication bypass vulnerability that allows unauthenticated attackers to access sensitive information and circumvent physical controls in smart homes and buildings by exploiting…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-47706: Reliance on Cookies without Validation and Integrity Checking",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47706"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-27721"
+],
+"epss": 0.0037,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2025-27721",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "INFINITT Healthcare INFINITT PACS System Manager. Unauthorized users can access INFINITT PACS System Manager without proper authorization, which could lead to unauthorized access to system resources.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-27721: Exposure of Sensitive System Information to an Unauthorized Control Sphere",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27721"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-66571"
+],
+"epss": 0.00656,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2025-66571",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "una UNA CMS. UNA CMS versions 9.0.0-RC1 - 14.0.0-RC4 contain a PHP object injection vulnerability in BxBaseMenuSetAclLevel.php where the profile_id POST parameter is passed to PHP unserialize() without proper handling, allowing remote, unauthenticated attackers to inject arbitrary PHP objects and…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-66571: una una Deserialization of Untrusted Data",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66571"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2022-50792"
+],
+"epss": 0.0157,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2022-50792",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "sound4 impact_firmware. SOUND4 IMPACT/FIRST/PULSE/Eco versions 2.x and below contain an unauthenticated file disclosure vulnerability that allows remote attackers to access sensitive system files. Attackers can exploit the vulnerability by manipulating the 'file' GET parameter to disclose arbitrary…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-50792: sound4 impact_firmware Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-50792"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2020-36899"
+],
+"epss": 0.00984,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2020-36899",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "howfor qihang_media_web_digital_signage. QiHang Media Web Digital Signage 3.0.9 contains an unauthenticated file disclosure vulnerability that allows remote attackers to access sensitive files through unverified 'filename' and 'path' parameters. Attackers can exploit the QH.aspx endpoint to read…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2020-36899: howfor qihang_media_web_digital_signage Exposure of Backup File to an Unauthorized Control Sphere",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-36899"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2020-37219"
+],
+"epss": 0.00716,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "CVE-2020-37219",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-18T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Fabrikar Fabrik. Joomla com_fabrik 3.9.11 contains a directory traversal vulnerability that allows unauthenticated attackers to list arbitrary files by manipulating the folder parameter. Attackers can send GET requests to the onAjax_files method with path traversal sequences to enumerate files in…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2020-37219: fabrikar fabrik Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-37219"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "7b7d186672b87b8d309ddee2e368236ffeb7be009e3c08278de59377cb1e88dd",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-18T23:08:33Z",
+"reasons": [
+"ransomware"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
+"title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+"url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "869599c75a6b48c85ae80fa6c71239c2d197873955184c52262d2ca66b44525e",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T16:58:42Z",
+"reasons": [
+"matches Microsoft (Tier 2)",
+"topic: PyPI"
+],
+"route": "digest",
+"score": 4,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems. [...]",
+"title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+"topic_hits": [
+"PyPI"
+],
+"url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "101269db37712459871434c4ebd128dcec222733159078254d4b8884fe183439",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T03:25:23Z",
+"reasons": [
+"matches Palo Alto Networks (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "The all-stock deal will give the cybersecurity company a platform for fine-tuning and running open-weight AI models in public and sovereign clouds. The post Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion appeared first on SecurityWeek .",
+"title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
+"url": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Palo Alto Networks",
+"tier": 1,
+"vendor": "Palo Alto Networks"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "b5caa54726787e203d94b04db53161e8694c262902c0037822dd1ec27364f18f",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T21:34:07Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Gemini 4 Neon",
+"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "66e6c61d8123c70950366cbe31ba3c8bf05a8762a301db648d56e635d64da277",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T15:49:34Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "AI agents ask better questions than KPMG accountants in audit trial",
+"url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-19T04:05:37Z",
+"id": "0ef70e942a5da956c641daa1c125ca754e523bdcdb67e76acca4d2c04e15fc2a",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T23:53:49Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "We need smart people who give a shit",
+"url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
+"weight": 3
 }
 ]
