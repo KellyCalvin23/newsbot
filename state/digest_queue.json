@@ -1,1 +1,2547 @@
-[]
+[
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99288"
+],
+"cvss": 7.5,
+"epss": 0.00252,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99288",
+"last_seen": "2026-11-19",
+"published": "2026-11-10T19:22:32Z",
+"reasons": [
+"CVSS 7.5",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: inet: reject unhashed sockets during established lookups TCP established ehash lookups are lockless. The socket caches involved use SLAB_TYPESAFE_BY_RCU, so memory can be reused before an RCU reader that retained its old address…",
+"title": "CVE-2026-99288: In the Linux kernel, the following vulnerability has been resolved: inet: reject unhashed sockets during established lookups TCP…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99288",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99289"
+],
+"cvss": 8.8,
+"epss": 0.00198,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99289",
+"last_seen": "2026-11-19",
+"published": "2026-11-16T10:17:00Z",
+"reasons": [
+"CVSS 8.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: ksmbd: fix app-instance non-durable supersede session UAF ksmbd_close_fd_app_instance_id() supersedes a prior open that has the same AppInstanceId. It reaches that open's session through opinfo->sess. This pointer is not…",
+"title": "CVE-2026-99289: In the Linux kernel, the following vulnerability has been resolved: ksmbd: fix app-instance non-durable supersede session…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99289",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99290"
+],
+"cvss": 7.5,
+"epss": 0.00157,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99290",
+"last_seen": "2026-11-19",
+"published": "2026-11-16T10:17:01Z",
+"reasons": [
+"CVSS 7.5",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: ksmbd: fix use-after-free after a failed durable reconnect ksmbd_reopen_durable_fd() republishes a detached durable handle in the reconnecting session's file table and takes no reference for that entry. If smb2_open() then fails…",
+"title": "CVE-2026-99290: In the Linux kernel, the following vulnerability has been resolved: ksmbd: fix use-after-free after a failed durable…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99290",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99291"
+],
+"cvss": 8.8,
+"epss": 0.0016,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99291",
+"last_seen": "2026-11-19",
+"published": "2026-11-16T10:17:01Z",
+"reasons": [
+"CVSS 8.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: ksmbd: fix SMB2 CREATE response buffer overflow smb2_allocate_rsp_buf() uses the MAX_CIFS_SMALL_BUFFER_SIZE (448-byte) buffer for a single SMB2_CREATE response. That buffer also holds a 4-byte length field, which only leaves 444…",
+"title": "CVE-2026-99291: In the Linux kernel, the following vulnerability has been resolved: ksmbd: fix SMB2 CREATE response buffer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99291",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99292"
+],
+"cvss": 8.8,
+"epss": 0.00226,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99292",
+"last_seen": "2026-11-19",
+"published": "2026-11-16T10:17:01Z",
+"reasons": [
+"CVSS 8.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: smb: client: fix slab-out-of-bounds write in id_mode_to_cifs_acl() In id_mode_to_cifs_acl(), while the chown branch reserves sizeof(struct smb_ntsd) + 2 * sizeof(struct smb_sid) (plus sizeof(struct smb_acl) and the worst-case ACE…",
+"title": "CVE-2026-99292: In the Linux kernel, the following vulnerability has been resolved: smb: client: fix slab-out-of-bounds write in id_mode_to_cifs_acl() In…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99292",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99295"
+],
+"cvss": 7.5,
+"epss": 0.00157,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99295",
+"last_seen": "2026-11-19",
+"published": "2026-11-16T10:17:02Z",
+"reasons": [
+"CVSS 7.5",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: smb: client: stop processing a read response after a receive error cifs_read_iter_from_socket() may call cifs_reconnect() before returning an error. The reconnect path aborts pending mids and invokes their callbacks. The callback…",
+"title": "CVE-2026-99295: In the Linux kernel, the following vulnerability has been resolved: smb: client: stop processing a read response after a receive…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99295",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99296"
+],
+"cvss": 7.1,
+"epss": 0.00209,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99296",
+"last_seen": "2026-11-19",
+"published": "2026-11-16T10:17:02Z",
+"reasons": [
+"CVSS 7.1",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: libceph: bound mon_command ack decode to front len handle_command_ack() bounds the decode with msg->front_alloc_len, the size of the reply buffer, instead of msg->front.iov_len, the number of bytes the monitor sent. mon_alloc_msg()…",
+"title": "CVE-2026-99296: In the Linux kernel, the following vulnerability has been resolved: libceph: bound mon_command ack decode to front…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99296",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99297"
+],
+"cvss": 7.8,
+"epss": 0.00157,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99297",
+"last_seen": "2026-11-19",
+"published": "2026-11-16T10:17:02Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: media: em28xx: fix double free in em28xx_alloc_urbs When allocation of usb_bufs->buf[i] fails, em28xx_alloc_urbs() explicitly frees all items within usb_bufs->buf before calling em28xx_uninit_usb_xfer(), which also frees these…",
+"title": "CVE-2026-99297: In the Linux kernel, the following vulnerability has been resolved: media: em28xx: fix double free in em28xx_alloc_urbs When allocation…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99297",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99304"
+],
+"cvss": 9.8,
+"epss": 0.00157,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99304",
+"last_seen": "2026-11-19",
+"published": "2026-11-16T10:17:04Z",
+"reasons": [
+"CVSS 9.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: ceph: fix integer overflow in the snap trace bounds check ceph_update_snap_trace() bounds the two encoded snapid arrays that follow a struct ceph_mds_snap_realm with sizeof(u64) * (num_snaps + num_prior_parent_snaps). Both counts…",
+"title": "CVE-2026-99304: In the Linux kernel, the following vulnerability has been resolved: ceph: fix integer overflow in the snap trace bounds…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99304",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99305"
+],
+"cvss": 7.8,
+"epss": 0.00157,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99305",
+"last_seen": "2026-11-19",
+"published": "2026-11-16T10:17:05Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: fbdev: udlfb: don't rebuild the mode list while the framebuffer is in use dlfb_setup_modes() frees info->modelist with fb_destroy_modelist() and rebuilds it, but fbcon holds raw pointers into that list in fb_display[i].mode and…",
+"title": "CVE-2026-99305: In the Linux kernel, the following vulnerability has been resolved: fbdev: udlfb: don't rebuild the mode list while the framebuffer is in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99305",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99306"
+],
+"cvss": 9.8,
+"epss": 0.00157,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99306",
+"last_seen": "2026-11-19",
+"published": "2026-11-16T10:17:05Z",
+"reasons": [
+"CVSS 9.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: ceph: reject mdsmaps that claim more than CEPH_MAX_MDS ranks check_new_map() sizes its export-target bitmap from CEPH_MAX_MDS but walks it with newmap->possible_max_rank, which comes straight off the wire: ceph_mdsmap_decode() sets…",
+"title": "CVE-2026-99306: In the Linux kernel, the following vulnerability has been resolved: ceph: reject mdsmaps that claim more than CEPH_MAX_MDS…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99306",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99309"
+],
+"cvss": 8.8,
+"epss": 0.00157,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99309",
+"last_seen": "2026-11-19",
+"published": "2026-11-16T10:17:06Z",
+"reasons": [
+"CVSS 8.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: ksmbd: fix overflow in dacloffset bounds check in build_sec_desc() When the large dacl_offset is provided, dacl_offset + sizeof(struct smb_acl) overflows on 32-bit builds and the check is passed, Which makes…",
+"title": "CVE-2026-99309: In the Linux kernel, the following vulnerability has been resolved: ksmbd: fix overflow in dacloffset bounds check in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99309",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99310"
+],
+"cvss": 9.8,
+"epss": 0.00157,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99310",
+"last_seen": "2026-11-19",
+"published": "2026-11-16T10:17:06Z",
+"reasons": [
+"CVSS 9.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: nfsd: hold cl_lock in client_has_openowners() client_has_openowners() walks clp->cl_openowners and reads so_stateids without clp->cl_lock. nfs4_put_stateowner() unhashes that openowner under cl_lock and then frees it, so a…",
+"title": "CVE-2026-99310: In the Linux kernel, the following vulnerability has been resolved: nfsd: hold cl_lock in client_has_openowners() client_has_openowners()…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99310",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-130959"
+],
+"cvss": 8.1,
+"epss": 0.00225,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-130959",
+"last_seen": "2026-11-19",
+"published": "2026-11-17T21:17:51Z",
+"reasons": [
+"CVSS 8.1",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Missing authorization in FileSystem in Google Chrome prior to 158.0.8127.36 allowed a remote attacker who had compromised the renderer process and leveraged social engineering to bypass site isolation via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-130959: Missing authorization in FileSystem in Google Chrome prior to 158.0.8127.36 allowed a remote attacker who had compromised the renderer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130959",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-130990"
+],
+"cvss": 8.1,
+"epss": 0.00208,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-130990",
+"last_seen": "2026-11-19",
+"published": "2026-11-17T21:17:55Z",
+"reasons": [
+"CVSS 8.1",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Missing authorization in PersistentCache in Google Chrome prior to 158.0.8127.36 allowed a remote attacker who had compromised the renderer process to bypass site isolation via a crafted PDF file. (Chromium security severity: Medium)",
+"title": "CVE-2026-130990: Missing authorization in PersistentCache in Google Chrome prior to 158.0.8127.36 allowed a remote attacker who had compromised the renderer…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130990",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-131014"
+],
+"cvss": 7.4,
+"epss": 0.0022,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-131014",
+"last_seen": "2026-11-19",
+"published": "2026-11-17T21:17:58Z",
+"reasons": [
+"CVSS 7.4",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Confused deputy in Grid in Google Chrome on on Android prior to 158.0.8127.36 allowed a remote attacker to bypass web origin policy via crafted network traffic. (Chromium security severity: Medium)",
+"title": "CVE-2026-131014: Confused deputy in Grid in Google Chrome on on Android prior to 158.0.8127.36 allowed a remote attacker to bypass web origin policy via…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131014",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-131091"
+],
+"cvss": 8.1,
+"epss": 0.00225,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-131091",
+"last_seen": "2026-11-19",
+"published": "2026-11-17T21:18:09Z",
+"reasons": [
+"CVSS 8.1",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Missing authorization in Autofill in Google Chrome on on Android prior to 158.0.8127.36 allowed a remote attacker who had compromised the renderer process to bypass site isolation via a crafted HTML page. (Chromium security severity: Medium)",
+"title": "CVE-2026-131091: Missing authorization in Autofill in Google Chrome on on Android prior to 158.0.8127.36 allowed a remote attacker who had compromised the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131091",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-128981"
+],
+"cvss": 9.8,
+"epss": 0.00244,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-128981",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T09:17:44Z",
+"reasons": [
+"CVSS 9.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "** UNSUPPORTED WHEN ASSIGNED ** Improper Authentication in Apache SeaTunnel Web 1.0.2 allows a user whose account has been disabled to authenticate with valid credentials and obtain a new login token. The login query does not check the account status, so disabling an account does not prevent new…",
+"title": "CVE-2026-128981: ** UNSUPPORTED WHEN ASSIGNED ** Improper Authentication in Apache SeaTunnel Web 1.0.2 allows a user whose account has been disabled to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128981",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99312"
+],
+"cvss": 8.8,
+"epss": 0.00187,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99312",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T09:17:45Z",
+"reasons": [
+"CVSS 8.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: KVM: x86: Unconditionally reset MMU context when emulating INIT Force an MMU reset when emulating an INIT even if paging was already disabled, as the MMU page role includes guest_mode (L2), i.e. an INIT while L2 is running with…",
+"title": "CVE-2026-99312: In the Linux kernel, the following vulnerability has been resolved: KVM: x86: Unconditionally reset MMU context when emulating INIT Force…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99312",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99313"
+],
+"cvss": 8.8,
+"epss": 0.00192,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99313",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T09:17:45Z",
+"reasons": [
+"CVSS 8.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: HID: logitech-hidpp: fix race condition when accessing stale stack pointer The driver uses hidpp->send_receive_buf to point to a stack-allocated buffer in the synchronous command path (__do_hidpp_send_message_sync). However, this…",
+"title": "CVE-2026-99313: In the Linux kernel, the following vulnerability has been resolved: HID: logitech-hidpp: fix race condition when accessing stale stack…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99313",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99316"
+],
+"cvss": 7.0,
+"epss": 0.00187,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99316",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T09:17:45Z",
+"reasons": [
+"CVSS 7.0",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: ALSA: usx2y: Initialize idle URBs before submitting streams usb_stream_start() submits the first two capture and playback URBs and only afterwards assigns sk->idle_inurb, sk->idle_outurb, sk->completed_inurb and…",
+"title": "CVE-2026-99316: In the Linux kernel, the following vulnerability has been resolved: ALSA: usx2y: Initialize idle URBs before submitting…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99316",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99317"
+],
+"cvss": 7.8,
+"epss": 0.00187,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99317",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T09:17:45Z",
+"reasons": [
+"CVSS 7.8",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: ALSA: hwdep: Serialize DSP load requests The check of the loaded DSP indices and the call of the driver's dsp_load callback in snd_hwdep_dsp_load() are not serialized. A hwdep file descriptor can be shared among threads, or…",
+"title": "CVE-2026-99317: In the Linux kernel, the following vulnerability has been resolved: ALSA: hwdep: Serialize DSP load requests The check of the loaded DSP…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99317",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-110513"
+],
+"cvss": 9.8,
+"epss": 0.00233,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-110513",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T10:16:52Z",
+"reasons": [
+"CVSS 9.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Insufficient Session Expiration vulnerability in the Apache Iggy server HTTP transport. A self-issued JSON Web Token (JWT) identified the user only by numeric user ID, and a new user takes the lowest free ID. After an administrator deleted a user, that user's unexpired token, or a token refreshed…",
+"title": "CVE-2026-110513: Insufficient Session Expiration vulnerability in the Apache Iggy server HTTP transport",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110513",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129509"
+],
+"cvss": 7.5,
+"epss": 0.00131,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-129509",
+"last_seen": "2026-11-19",
+"published": "2026-11-18T10:16:54Z",
+"reasons": [
+"CVSS 7.5",
+"matches Microsoft (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Apache Airflow Microsoft Azure provider 10.2.0 through 15.3.0, `S3ToAzureBlobStorageOperator` turned off TLS certificate verification for its connection to Amazon S3 by default (`s3_verify=False`), whatever the AWS connection's own verification settings were. An attacker positioned on the…",
+"title": "CVE-2026-129509: In the Apache Airflow Microsoft Azure provider 10.2.0 through 15.3.0, `S3ToAzureBlobStorageOperator` turned off TLS certificate…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129509",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-99320"
+],
+"cvss": 7.0,
+"epss": 0.00205,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99320",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T09:18:18Z",
+"reasons": [
+"CVSS 7.0",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: ipv6: raw: fix use-after-free in rawv6_send_hdrinc() rawv6_send_hdrinc() caches the route before handing the skb to l3mdev_ip6_out(). The VRF output path may replace skb->dst and release the original route, leaving the cached…",
+"title": "CVE-2026-99320: In the Linux kernel, the following vulnerability has been resolved: ipv6: raw: fix use-after-free in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99320",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133077"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-133077",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T13:17:28Z",
+"reasons": [
+"CVSS 7.2",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2.2, 2026.1.6 privilege escalation to system administrator was possible via Project Import",
+"title": "CVE-2026-133077: In JetBrains TeamCity before 2026.2.2, 2026.1.6 privilege escalation to system administrator was possible via Project Import",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133077",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133083"
+],
+"cvss": 8.0,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-133083",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T13:17:29Z",
+"reasons": [
+"CVSS 8.0",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2.2, 2026.1.6 stored XSS in Server Health reports was possible",
+"title": "CVE-2026-133083: In JetBrains TeamCity before 2026.2.2, 2026.1.6 stored XSS in Server Health reports was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133083",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133084"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-133084",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T13:17:29Z",
+"reasons": [
+"CVSS 7.7",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2.2, 2026.1.6 vCS root credentials could be exposed via change viewer links",
+"title": "CVE-2026-133084: In JetBrains TeamCity before 2026.2.2, 2026.1.6 vCS root credentials could be exposed via change viewer links",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133084",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133085"
+],
+"cvss": 7.6,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-133085",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T13:17:29Z",
+"reasons": [
+"CVSS 7.6",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2.2, 2026.1.6 an XXE was possible in the TFS helper process",
+"title": "CVE-2026-133085: In JetBrains TeamCity before 2026.2.2, 2026.1.6 an XXE was possible in the TFS helper process",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133085",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133090"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-133090",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T13:17:30Z",
+"reasons": [
+"CVSS 7.2",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2.2, 2026.1.6 improper authorization allowed overwriting versioned settings of other projects",
+"title": "CVE-2026-133090: In JetBrains TeamCity before 2026.2.2, 2026.1.6 improper authorization allowed overwriting versioned settings of other projects",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133090",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133091"
+],
+"cvss": 8.0,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-133091",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T13:17:30Z",
+"reasons": [
+"CVSS 8.0",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2.2, 2026.1.6 stored XSS on the Users page was possible",
+"title": "CVE-2026-133091: In JetBrains TeamCity before 2026.2.2, 2026.1.6 stored XSS on the Users page was possible",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133091",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133093"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-133093",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T13:17:30Z",
+"reasons": [
+"CVSS 7.2",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2.2, 2026.1.6 code injection in parent project Kotlin DSL was possible via subproject settings",
+"title": "CVE-2026-133093: In JetBrains TeamCity before 2026.2.2, 2026.1.6 code injection in parent project Kotlin DSL was possible via subproject settings",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133093",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133094"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-133094",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T13:17:30Z",
+"reasons": [
+"CVSS 7.7",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2.2 missing authorization allowed project developers to read arbitrary HashiCorp Vault secrets",
+"title": "CVE-2026-133094: In JetBrains TeamCity before 2026.2.2 missing authorization allowed project developers to read arbitrary HashiCorp Vault secrets",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133094",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133095"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-133095",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T13:17:30Z",
+"reasons": [
+"CVSS 8.1",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2.2, 2026.1.6 a CSRF attack was possible on the Hub integration settings",
+"title": "CVE-2026-133095: In JetBrains TeamCity before 2026.2.2, 2026.1.6 a CSRF attack was possible on the Hub integration settings",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133095",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133096"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-133096",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T13:17:30Z",
+"reasons": [
+"CVSS 7.1",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2.2, 2026.1.6 improper authorization allowed queuing builds with personal changes of other users",
+"title": "CVE-2026-133096: In JetBrains TeamCity before 2026.2.2, 2026.1.6 improper authorization allowed queuing builds with personal changes of other users",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133096",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133097"
+],
+"cvss": 7.4,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-133097",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T13:17:31Z",
+"reasons": [
+"CVSS 7.4",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2.2, 2026.1.6 agent Push authorization keys were predictable",
+"title": "CVE-2026-133097: In JetBrains TeamCity before 2026.2.2, 2026.1.6 agent Push authorization keys were predictable",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133097",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133102"
+],
+"cvss": 4.9,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-133102",
+"keyword_hits": [
+"out-of-band"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T13:17:31Z",
+"reasons": [
+"out-of-band",
+"matches JetBrains TeamCity (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains TeamCity before 2026.2.2, 2026.1.6 out-of-band data exfiltration via DNS resolution was possible in the Kotlin DSL sandbox",
+"title": "CVE-2026-133102: In JetBrains TeamCity before 2026.2.2, 2026.1.6 out-of-band data exfiltration via DNS resolution was possible in the Kotlin DSL sandbox",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133102",
+"vendor_matches": [
+{
+"points": 2,
+"term": "TeamCity",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-128090"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-128090",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T15:17:27Z",
+"reasons": [
+"CVSS 7.7",
+"matches Linux kernel OpenSSL (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "PHAR OpenSSL signature bypass via algorithm downgrade. The Phar extension selects the signature verification method from the signature type stored in the archive, and only the OpenSSL types consult the separate .pubkey file holding the trusted public key. An attacker who can modify an…",
+"title": "CVE-2026-128090: PHAR OpenSSL signature bypass via algorithm downgrade. The Phar extension selects the signature verification method from the signature…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128090",
+"vendor_matches": [
+{
+"points": 2,
+"term": "OpenSSL",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133195"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-133195",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T15:17:40Z",
+"reasons": [
+"CVSS 7.5",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains Junie CLI before 26.6.29 files outside the project directory could be modified by agent file tools",
+"title": "CVE-2026-133195: In JetBrains Junie CLI before 26.6.29 files outside the project directory could be modified by agent file tools",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133195",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133198"
+],
+"cvss": 7.8,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-133198",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T15:17:40Z",
+"reasons": [
+"CVSS 7.8",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains Junie before 252.819.35, 253.819.35 code execution was possible via terminal environment settings in project files",
+"title": "CVE-2026-133198: In JetBrains Junie before 252.819.35, 253.819.35 code execution was possible via terminal environment settings in project files",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133198",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-99388"
+],
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-99388",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T15:17:51Z",
+"reasons": [
+"remote code execution",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "In the Linux kernel, the following vulnerability has been resolved: smb: smbdirect: fix buffer length underflow in RDMA transfers When a remote buffer descriptor is larger than the remaining local buffer, smbdirect_connection_rdma_xmit() clamps its length and sets buf_len to zero. The common…",
+"title": "CVE-2026-99388: In the Linux kernel, the following vulnerability has been resolved: smb: smbdirect: fix buffer length underflow in RDMA transfers When a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-99388",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133253"
+],
+"cvss": 7.4,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-133253",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T16:21:28Z",
+"reasons": [
+"CVSS 7.4",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains IntelliJ IDEA before 2026.3 untrusted projects could read files of other open projects via the built-in web server",
+"title": "CVE-2026-133253: In JetBrains IntelliJ IDEA before 2026.3 untrusted projects could read files of other open projects via the built-in web server",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133253",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133254"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-133254",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T16:21:28Z",
+"reasons": [
+"CVSS 8.3",
+"matches JetBrains (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In JetBrains IntelliJ IDEA before 2026.3, 2026.2.4 code execution was possible in untrusted projects via the Code Provenance plugin",
+"title": "CVE-2026-133254: In JetBrains IntelliJ IDEA before 2026.3, 2026.2.4 code execution was possible in untrusted projects via the Code Provenance plugin",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133254",
+"vendor_matches": [
+{
+"points": 2,
+"term": "JetBrains",
+"tier": 3,
+"vendor": "JetBrains"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-77359"
+],
+"cvss": 9.3,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-77359",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T17:18:59Z",
+"reasons": [
+"CVSS 9.3",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Jupyter MCP Server is a Model Context Protocol server for Jupyter. Prior to 1.0.3, standalone streamable-http mode validates Host and Origin values for /mcp but does not apply the same browser-origin controls to the state-changing /api/connect and /api/stop management routes. A malicious website…",
+"title": "CVE-2026-77359: Jupyter MCP Server is a Model Context Protocol server for Jupyter",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77359",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-103579"
+],
+"cvss": 8.6,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-103579",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T19:17:16Z",
+"reasons": [
+"CVSS 8.6",
+"matches WatchGuard (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A CRLF injection vulnerability in WatchGuard Dimension's outgoing email server configuration allows an authenticated Dimension Administrator to execute arbitrary operating system commands on the Dimension appliance with the privileges of the local mail-handling account.",
+"title": "CVE-2026-103579: A CRLF injection vulnerability in WatchGuard Dimension's outgoing email server configuration allows an authenticated Dimension…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103579",
+"vendor_matches": [
+{
+"points": 3,
+"term": "WatchGuard",
+"tier": 1,
+"vendor": "WatchGuard"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-103580"
+],
+"cvss": 8.6,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-103580",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T19:17:16Z",
+"reasons": [
+"CVSS 8.6",
+"matches WatchGuard (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An OS command injection vulnerability in WatchGuard Dimension's package update functionality allows an authenticated Dimension Administrator to execute arbitrary operating system commands as root by submitting a specially crafted package update request.",
+"title": "CVE-2026-103580: An OS command injection vulnerability in WatchGuard Dimension's package update functionality allows an authenticated Dimension…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103580",
+"vendor_matches": [
+{
+"points": 3,
+"term": "WatchGuard",
+"tier": 1,
+"vendor": "WatchGuard"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126037"
+],
+"cvss": 5.3,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-126037",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T19:17:18Z",
+"reasons": [
+"matches WatchGuard (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A broken access control vulnerability in WatchGuard Dimension's Device Summary feature allows an authenticated, low-privileged user to retrieve a device's detailed summary data by bypassing restrictions that would otherwise hide this information.",
+"title": "CVE-2026-126037: A broken access control vulnerability in WatchGuard Dimension's Device Summary feature allows an authenticated, low-privileged user to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126037",
+"vendor_matches": [
+{
+"points": 3,
+"term": "WatchGuard",
+"tier": 1,
+"vendor": "WatchGuard"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-81430"
+],
+"cvss": 8.6,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-81430",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T19:17:33Z",
+"reasons": [
+"CVSS 8.6",
+"matches WatchGuard (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A vulnerability in WatchGuard Dimension's system upgrade process allows an authenticated administrator to create or overwrite arbitrary files on the appliance filesystem by uploading a specially crafted upgrade archive.",
+"title": "CVE-2026-81430: A vulnerability in WatchGuard Dimension's system upgrade process allows an authenticated administrator to create or overwrite arbitrary…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81430",
+"vendor_matches": [
+{
+"points": 3,
+"term": "WatchGuard",
+"tier": 1,
+"vendor": "WatchGuard"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-81434"
+],
+"cvss": 4.8,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-81434",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T19:17:34Z",
+"reasons": [
+"matches WatchGuard (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A reflected Cross-Site Scripting (XSS) vulnerability in WatchGuard Dimension's Device Configuration History page allows an authenticated attacker with view permission on a device to execute arbitrary JavaScript in another authenticated user's browser by enticing the victim to open a specially…",
+"title": "CVE-2026-81434: A reflected Cross-Site Scripting (XSS) vulnerability in WatchGuard Dimension's Device Configuration History page allows an authenticated…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81434",
+"vendor_matches": [
+{
+"points": 3,
+"term": "WatchGuard",
+"tier": 1,
+"vendor": "WatchGuard"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-93911"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-93911",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T19:17:35Z",
+"reasons": [
+"CVSS 8.7",
+"matches WatchGuard (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A SQL injection vulnerability in WatchGuard Dimension's log collection service allows an authenticated managed device, or an attacker in possession of a valid device logging key, to achieve arbitrary code execution on the Dimension appliance.",
+"title": "CVE-2026-93911: A SQL injection vulnerability in WatchGuard Dimension's log collection service allows an authenticated managed device, or an attacker in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93911",
+"vendor_matches": [
+{
+"points": 3,
+"term": "WatchGuard",
+"tier": 1,
+"vendor": "WatchGuard"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-93912"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-93912",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T19:17:35Z",
+"reasons": [
+"CVSS 8.7",
+"matches WatchGuard (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A code injection vulnerability in WatchGuard Dimension's log notification processing allows an authenticated managed device, or an attacker in possession of a valid device logging key, to achieve arbitrary code execution on the Dimension appliance.",
+"title": "CVE-2026-93912: A code injection vulnerability in WatchGuard Dimension's log notification processing allows an authenticated managed device, or an attacker…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93912",
+"vendor_matches": [
+{
+"points": 3,
+"term": "WatchGuard",
+"tier": 1,
+"vendor": "WatchGuard"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-93914"
+],
+"cvss": 8.6,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-93914",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T19:17:36Z",
+"reasons": [
+"CVSS 8.6",
+"matches WatchGuard (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An improper input validation vulnerability in WatchGuard Dimension's database snapshot restore feature allows an authenticated Dimension Administrator to execute arbitrary operating system commands as root by uploading a specially crafted database snapshot archive.",
+"title": "CVE-2026-93914: An improper input validation vulnerability in WatchGuard Dimension's database snapshot restore feature allows an authenticated Dimension…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93914",
+"vendor_matches": [
+{
+"points": 3,
+"term": "WatchGuard",
+"tier": 1,
+"vendor": "WatchGuard"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-93915"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-93915",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T19:17:36Z",
+"reasons": [
+"CVSS 7.7",
+"matches WatchGuard (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A missing authorization vulnerability in WatchGuard Dimension's legacy system settings configuration handler allows a low-privileged authenticated user to execute arbitrary commands with elevated privileges on the underlying OS.",
+"title": "CVE-2026-93915: A missing authorization vulnerability in WatchGuard Dimension's legacy system settings configuration handler allows a low-privileged…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93915",
+"vendor_matches": [
+{
+"points": 3,
+"term": "WatchGuard",
+"tier": 1,
+"vendor": "WatchGuard"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-93916"
+],
+"cvss": 8.6,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-93916",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T19:17:36Z",
+"reasons": [
+"CVSS 8.6",
+"matches WatchGuard (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An insufficient session expiration vulnerability in WatchGuard Dimension's administrator session management allows an attacker holding a valid Super Administrator WebUI session to retain full Super Administrator privileges after that account has been downgraded or deleted by another administrator.",
+"title": "CVE-2026-93916: An insufficient session expiration vulnerability in WatchGuard Dimension's administrator session management allows an attacker holding a…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93916",
+"vendor_matches": [
+{
+"points": 3,
+"term": "WatchGuard",
+"tier": 1,
+"vendor": "WatchGuard"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-93917"
+],
+"cvss": 8.6,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-93917",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T19:17:36Z",
+"reasons": [
+"CVSS 8.6",
+"matches WatchGuard (Tier 1)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "An improper authorization vulnerability in WatchGuard Dimension's device management registration process allows an attacker who controls one enrolled managed device's credentials to take over another managed device's identity. This allows the attacker to receive the victim device's queued…",
+"title": "CVE-2026-93917: An improper authorization vulnerability in WatchGuard Dimension's device management registration process allows an attacker who controls…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93917",
+"vendor_matches": [
+{
+"points": 3,
+"term": "WatchGuard",
+"tier": 1,
+"vendor": "WatchGuard"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-130151"
+],
+"cvss": 8.5,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-130151",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T21:17:52Z",
+"reasons": [
+"CVSS 8.5",
+"matches Okta (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Okta Privileged Access (OPA) Gateway includes a version of the FreeRDP library affected by memory management issues in its smartcard redirection handling. When an RDP session is established meeting specific session criteria, command execution within the context of the local Gateway service account…",
+"title": "CVE-2026-130151: Okta Privileged Access (OPA) Gateway includes a version of the FreeRDP library affected by memory management issues in its smartcard…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130151",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Okta",
+"tier": 3,
+"vendor": "Okta"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-130179"
+],
+"cvss": 8.5,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-130179",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T21:17:53Z",
+"reasons": [
+"CVSS 8.5",
+"matches Okta (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The Okta .NET SDK Abstractions library systematically writes per-request authentication credentials to a shared HTTP client instance, rather than being isolated to individual outbound request objects. When using scoped child clients, a subsequent scoped request can overwrite the shared client…",
+"title": "CVE-2026-130179: The Okta .NET SDK Abstractions library systematically writes per-request authentication credentials to a shared HTTP client instance…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130179",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Okta",
+"tier": 3,
+"vendor": "Okta"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-130234"
+],
+"cvss": 8.0,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-130234",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T21:17:53Z",
+"reasons": [
+"CVSS 8.0",
+"matches Okta (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The Okta Swift Management SDK does not percent-encode forward slash (/) characters during path parameter interpolation. If an application supplies input containing relative path sequences (e.g., ../) to an SDK method, standard URL normalization may direct the outbound request to an alternative Okta…",
+"title": "CVE-2026-130234: The Okta Swift Management SDK does not percent-encode forward slash (/) characters during path parameter interpolation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130234",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Okta",
+"tier": 3,
+"vendor": "Okta"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-130235"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-130235",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T21:17:53Z",
+"reasons": [
+"CVSS 8.7",
+"matches Okta (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In the Okta .NET SDK Abstractions library, outbound HTTP requests are not restricted to the configured Okta organization domain when processing certain URL formats. If a URL parameter is modified to specify an external host, the library may transmit the configured SSWS API token to that unintended…",
+"title": "CVE-2026-130235: In the Okta .NET SDK Abstractions library, outbound HTTP requests are not restricted to the configured Okta organization domain when…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130235",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Okta",
+"tier": 3,
+"vendor": "Okta"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119220"
+],
+"cvss": 7.5,
+"epss": 0.00523,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-119220",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.5",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "dokaninc Dokan. The Dokan: AI Powered WooCommerce Multivendor Marketplace Solution – Build Your Own Amazon, eBay, Etsy plugin for WordPress is vulnerable to Authorization Bypass in all versions up to, and including, 5.3.3. The vulnerability exists because the `matches_mcp_endpoint()` function…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-119220: dokan dokan Improper Authorization",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119220"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-45140"
+],
+"cvss": 9.8,
+"epss": 0.01326,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "CVE-2026-45140",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Chamilo chamilo. Chamilo LMS is an open-source learning management system. Prior to 2.0.1, Chamilo LMS allows an unauthenticated remote attacker to execute arbitrary code on the server. The authoritative advisory does not identify the affected endpoint, component, input, or exploitation mechanism…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-45140: Chamilo chamilo Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45140"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "ea2a680c4fe75aa5dd20cc44a903dc57c3bd6013dfe8884ce358fba1907dafc2",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T18:20:01Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
+"title": "Transport for London breach exposes 265,000 Oyster card users' data",
+"url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "b8b09c7f1597341fd7be5bacfb80f3d77c005b2260f91e5a84c712a92b631be2",
+"keyword_hits": [
+"RCE",
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T16:28:23Z",
+"reasons": [
+"RCE"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
+"title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+"url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "e96dff1b8308eb4713d411c9bd8ad8bb23e8a36dda2afa975023eaa0f708e9b1",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T15:00:10Z",
+"reasons": [
+"ransomware"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups…",
+"title": "Five warning signs of ransomware breach before encryption or data theft",
+"url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "ede6e0af109ef08e71a79aeee527decd00f80aa457fa293861672073770a3b54",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T14:57:24Z",
+"reasons": [
+"unauthenticated",
+"matches Linux kernel (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]",
+"title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+"url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "570f61bd70b2ec952bcf15b04400fdd29ca5482a7510cfa74390c3b91c2948df",
+"keyword_hits": [
+"RCE",
+"remote code execution"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T13:08:08Z",
+"reasons": [
+"RCE"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]",
+"title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+"url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "9df3c1b13cf88086c0a6fc84be03c339eb3a6274373dafd39887d30b5dc39b06",
+"keyword_hits": [
+"remote code execution",
+"unauthenticated"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T14:33:06Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as…",
+"title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+"url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "5ae000475809a368ee289022ca067879240272a369b542557d6574f028d92d51",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T15:54:20Z",
+"reasons": [
+"RCE"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges. The post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek .",
+"title": "PHP Patches Seven Critical RCE Vulnerabilities",
+"url": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "815b89f4b045fed5ccf770938e32a1f10ce13555a5512b682b4bec250923801a",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T14:17:32Z",
+"reasons": [
+"ransomware"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim. The post Nvidia Responds to Gentlemen Ransomware Claim appeared first on SecurityWeek .",
+"title": "Nvidia Responds to Gentlemen Ransomware Claim",
+"url": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "3b639a4df09c3f6cd4cf2994c280ed77879203e735003697fbc3f971a121f7fe",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T13:12:20Z",
+"reasons": [
+"matches Cisco (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement. The post Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release appeared first on SecurityWeek .",
+"title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+"url": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Cisco",
+"tier": 1,
+"vendor": "Cisco"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "ceff20153d6e7feb889f077a017d19bf34896aefe18e39148f36a1613507d781",
+"keyword_hits": [
+"ransomware"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T13:30:00Z",
+"reasons": [
+"ransomware"
+],
+"route": "digest",
+"score": 3,
+"source": "The Record",
+"source_type": "rss",
+"sources": [
+"The Record"
+],
+"summary": "Ukrainian authorities arrested four suspected members of an international ransomware network accused of extorting more than $40 million from companies around the world.",
+"title": "Ukraine exposes ransomware network extorting US oil, healthcare firms",
+"url": "https://therecord.media/ukraine-ransomware-arrests-cyber"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "153c83d7d5cd6491f3326fc3a9bd1f5fd1bad414e32cdb2415bf00eafb2278ec",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T17:02:40Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Anthropic hits $2T in Nasdaq debut",
+"url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "4ab2c4077fd798b1c66d9ef291406a2530002631678e1df79d107d7b3ebe87bb",
+"last_seen": "2026-11-19",
+"published": "2026-11-16T16:13:36Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Garage Door Spam",
+"url": "https://blog.harrison.page/garage-door-spam/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "09aaa81a3f9121c21ca746c961b189820f6074d7f52c9374a0738f2920e70359",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T16:21:03Z",
+"reasons": [
+"matches Apple (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "UK government forced to admit it issued Apple a secret encryption order",
+"url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apple",
+"tier": 2,
+"vendor": "Apple"
+}
+],
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "e98619dd6626f91842410ec741d8b49a54c890db1c5a7bb07892be469352f20c",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T10:58:29Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "How the European Commission rolled out Matrix to more than 40k staff",
+"url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "84c7577e9db6d3745a61ef3e6fb2a5994d181056541c88f419ed269baf0ae2a8",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:09:11Z",
+"reasons": [
+"RCE",
+"source weight +3"
+],
+"route": "digest",
+"score": 6,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+"url": "https://verialabs.com/ruby2shell/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "63c4dab38bb49416542c6f362b3422a051a1b324c34dabe33b99f3f78b96b19e",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T16:30:18Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Fuck Your AI Safeguards",
+"url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "eca1568194e70107a2e3845639c05f85012b5148141be0fbfcb303967ddda319",
+"last_seen": "2026-11-19",
+"published": "2026-11-19T05:56:36Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
+"url": "https://kapteko.com/15-million-webservers/",
+"weight": 3
+}
+]
