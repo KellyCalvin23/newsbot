@@ -3445,5 +3445,371 @@
 ],
 "url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2019-3912"
+],
+"cvss": 6.1,
+"epss": 0.04966,
+"first_seen": "2026-11-20T10:23:24Z",
+"id": "CVE-2019-3912",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "labkey labkey_server. An open redirect vulnerability in LabKey Server Community Edition before 18.3.0-61806.763 via the /__r1/ returnURL parameter allows an unauthenticated remote attacker to redirect users to arbitrary web sites.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2019-3912: labkey labkey_server URL Redirection to Untrusted Site",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-3912"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2023-6380"
+],
+"cvss": 6.1,
+"epss": 0.01594,
+"first_seen": "2026-11-20T10:23:24Z",
+"id": "CVE-2023-6380",
+"last_seen": "2026-11-20",
+"published": "2026-11-19T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "alkacon opencms. Open redirect vulnerability has been found in the Open CMS product affecting versions 14 and 15 of the 'Mercury' template. An attacker could create a specially crafted URL and send it to a specific user to redirect them to a malicious site and compromise them. Exploitation of this…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-6380: alkacon opencms URL Redirection to Untrusted Site",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6380"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-11141"
+],
+"epss": 0.03098,
+"first_seen": "2026-11-20T10:23:24Z",
+"id": "CVE-2025-11141",
+"last_seen": "2026-11-20",
+"published": "2026-11-19T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": ". A security flaw has been discovered in Ruijie NBR2100G-E up to 20250919. Affected by this issue is the function listAction of the file /itbox_pi/branch_passw.php?a=list. Performing manipulation of the argument city results in os command injection. The attack is possible to be carried out…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-11141: Improper Neutralization of Special Elements used in a Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11141"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-20T10:23:24Z",
+"id": "e7da1452b01b2dd98b8692de7ede96b7813d5d3f3ff16598bb71b68d9697f4cf",
+"keyword_hits": [
+"zero-day",
+"0-day"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-20T05:30:01Z",
+"reasons": [
+"zero-day",
+"matches Microsoft Windows (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher…",
+"title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+"url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-19T21:22:22Z",
+"id": "18cded685887331813d78f33268ffeb255aa32c122fc1e2e0cdd826d7ccc9bcf",
+"keyword_hits": [
+"zero-day"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T15:11:06Z",
+"reasons": [
+"zero-day",
+"matches VMware vCenter (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no workaround. vCenter…",
+"title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+"url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "vCenter",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-20T10:23:24Z",
+"id": "5ae771852baff8ab5d66aa3e8b6e6f1bf503cd878ecef15c4b66ec056e3e4fdb",
+"last_seen": "2026-11-20",
+"published": "2026-11-19T13:18:11Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Making 8-page foldable zines from a single A4 sheet in the browser",
+"url": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-20T10:23:24Z",
+"id": "11ccee424baa95857ad9a5bf91f9d3f93f2d3c6b19501251318c597d8ea68586",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T05:37:38Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Dennis Karera, the Vice Chairperson representing Rwanda on the East African Business Council (EABC) Executive Committee and Governing Council, has called for the removal of taxes on air tickets between Kigali and Entebbe.",
+"title": "Regional Air Ticket Prices Too High, Govts Should Waive Taxes - Dennis Karera",
+"topic_hits": [
+"Rwanda",
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611200156.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-20T10:23:24Z",
+"id": "221a34164073c77facc7c9b2e764ace3c6bb80ce46f2e5550cab562e963726e7",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T04:59:54Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The ongoing investigation into allegations of sexual favours being demanded in exchange for academic marks at the University of Rwanda has renewed calls for stronger reporting mechanisms and protection for students who speak out against sexual misconduct.",
+"title": "Safe Reporting Channels Key to Tackling Sexual Corruption in Varsities - Transparency Rwanda",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611200108.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-20T10:23:24Z",
+"id": "7a00f7efda2c3e96c75c0b3c142a2bf8462d76d3721b5ef0142c55cf5efcf845",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T04:59:54Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] As the world marks World Antimicrobial Resistance Awareness Week 2026 under the theme \"One Health, One Action: Prevent AMR Now\", we are reminded that antimicrobial resistance (AMR) is one of the defining challenges of our time. It threatens human and animal health, food security…",
+"title": "One Health, One Action - How Rwanda Is Advancing the Fight Against Antimicrobial Resistance",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611200109.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-20T10:23:24Z",
+"id": "3c64ca64f0778246a6aa887f47966422997d19e864b92c28986fe35c6ae4e866",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T04:59:53Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The number of electric four-wheel vehicles in Rwanda reached 5,725 by August 2026, nearly 191 times the 30 recorded in 2020, according to the Ministry of Infrastructure.",
+"title": "Electric Four-Wheel Cars Increase Nearly 200-Fold",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611200107.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-20T10:23:24Z",
+"id": "bd1e45f8d967f2fe94f70ffb0278c0d686d3fdb89496eb6b57c7d784055231b9",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T09:54:46Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Amavubi's back-to-back defeats against Mali in the 2027 Africa Cup of Nations (AFCON) qualifiers have exposed a familiar weakness in Rwandan football: the gap between ambition and the foundations needed to compete consistently at the highest level.",
+"title": "Constantine Spot-On - Amavubi's Mali Defeats Expose Need for Grassroots Football Reform",
+"topic_hits": [
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611200286.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-20T10:23:24Z",
+"id": "2768eb2b29540a2c4e122da3e3a1ff81017764f9bc382354a649c4e5e272709c",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T09:54:17Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Africa's pride is defended when its representatives insist that their voice carries weight, their participation has meaning, and the rules of international institutions apply equally to everyone. In Phnom Penh, Rwanda's resistance to pressure over the leadership of the Organisation…",
+"title": "When Rwanda Defends Africa's Pride in Phnom Penh",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611200285.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-20T10:23:24Z",
+"id": "ab0ba927cb231892a85f11aa72f4e9a8c193a7fbe0e167dd2b7f784ed87b0c2a",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T09:53:56Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda should not have to apologise for insisting that its security matters. Yet international diplomacy too often treats the country's concerns as an inconvenience, while the conditions sustaining insecurity across its western border receive less sustained political attention.",
+"title": "Rwanda's Security Cannot Be Bargained Away",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611200281.html",
+"weight": 1
 }
 ]
