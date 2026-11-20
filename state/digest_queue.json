@@ -1,1 +1,975 @@
-[]
+[
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133659"
+],
+"cvss": 8.6,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2026-133659",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T11:18:33Z",
+"reasons": [
+"CVSS 8.6",
+"matches Microsoft Entra ID (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Flowintel contains multiple SSO identity and organisation trust boundary violations that collectively allow account takeover, privilege escalation, and unauthorized access to private case data. - Keycloak SSO accepted unverified email claims, and all SSO providers (Keycloak, Entra ID, SimpleSAML)…",
+"title": "CVE-2026-133659: Flowintel contains multiple SSO identity and organisation trust boundary violations that collectively allow account takeover, privilege…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133659",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Entra ID",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129074"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2026-129074",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T14:17:45Z",
+"reasons": [
+"CVSS 7.1",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Missing Authorization vulnerability in miniOrange miniOrange's Google Authenticator miniorange-2-factor-authentication allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects miniOrange's Google Authenticator: from n/a through 6.6.0.",
+"title": "CVE-2026-129074: Missing Authorization vulnerability in miniOrange miniOrange's Google Authenticator miniorange-2-factor-authentication allows Exploiting…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129074",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-80188"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2026-80188",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T14:17:54Z",
+"reasons": [
+"CVSS 9.8",
+"matches Apple (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The BuddyBoss Addons plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in versions up to, and including, 1.2.1. This is due to the Social Login REST endpoint trusting unverified Apple and Facebook identity-token claims and linking an attacker-controlled…",
+"title": "CVE-2026-80188: The BuddyBoss Addons plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in versions up to, and…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80188",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apple",
+"tier": 2,
+"vendor": "Apple"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126054"
+],
+"cvss": 9.3,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2026-126054",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T15:17:39Z",
+"reasons": [
+"CVSS 9.3",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A Path Traversal vulnerability in workspace directory handling and Git integration in Google Cloud Dataform, BigQuery Studio and Colab Enterprise on Google Cloud Platform allows an authenticated remote attacker to read private files and create arbitrary files across tenant repositories using…",
+"title": "CVE-2026-126054: A Path Traversal vulnerability in workspace directory handling and Git integration in Google Cloud Dataform, BigQuery Studio and Colab…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126054",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133199"
+],
+"cvss": 8.5,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2026-133199",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T17:18:17Z",
+"reasons": [
+"CVSS 8.5",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect privilege assignment in the user and group reconciliation logic in AWS ssosync before 2.9.5 might allow an authenticated remote user who is assigned a reused Google Workspace e-mail address or group name to inherit the IAM Identity Center group memberships and permission set assignments…",
+"title": "CVE-2026-133199: Incorrect privilege assignment in the user and group reconciliation logic in AWS ssosync before 2.9.5 might allow an authenticated remote…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133199",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-77329"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2026-77329",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T17:18:26Z",
+"reasons": [
+"CVSS 8.8",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Tapo provides Rust and Python APIs and an MCP server for TP-Link Tapo smart devices. From 0.3.1 until 0.5.0, the Streamable HTTP implementation in tapo-mcp/src/server.rs calls disable_allowed_hosts() without replacement Host or Origin validation, while TAPO_MCP_API_KEY remains optional for a…",
+"title": "CVE-2026-77329: Tapo provides Rust and Python APIs and an MCP server for TP-Link Tapo smart devices",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77329",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-55216"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2026-55216",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T18:18:54Z",
+"reasons": [
+"CVSS 8.1",
+"matches Microsoft Azure AD (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Logto is the modern, open-source auth infrastructure for SaaS and AI apps. Prior to 1.46.0, social account linking can use an unverified email returned by the standard OAuth 2.0 or Azure AD connector to select an existing local account. When findSocialRelatedUser matches a victim's email and a…",
+"title": "CVE-2026-55216: Logto is the modern, open-source auth infrastructure for SaaS and AI apps",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55216",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Azure AD",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-87741"
+],
+"cvss": 8.8,
+"epss": 0.00388,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2026-87741",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Brainstorm Force ConvertPlus. The ConvertPlus plugin for WordPress is vulnerable to Deserialization of Untrusted Data in all versions up to, and including, 3.6.3 via the style parameter of the cp_display_preview_modal AJAX action. The vulnerability exists because the action's nonce guard is gated…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-87741: convertplug convertplus Improper Neutralization of Special Elements used in an OS Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87741"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-86793"
+],
+"cvss": 9.8,
+"epss": 0.00909,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2026-86793",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-20T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "SGLang SGLang. SGLang allows unauthenticated pickle deserialization through /update_weights_from_tensor when no auth keys are configured, and the SafeUnpickler policy can be bypassed because builtins.import and builtins.getattr are resolvable, enabling code execution via pickle REDUCE.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-86793: lmsys sglang Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86793"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-127027"
+],
+"cvss": 9.2,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2026-127027",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-20T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.2",
+"remote code execution",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Analogic Poste.io. Poste.io is vulnerable to remote code execution in DMARC report processing. Email sent to dmarc-reports@ is saved without sender verification. Script that runs as root unpacks the attachments using unsafe shell commands, allowing command injection through crafted attachments…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-127027: analogic poste.io Improper Neutralization of Special Elements used in an OS Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127027"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2021-3021"
+],
+"epss": 0.02142,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2021-3021",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "ispconfig ispconfig. ISPConfig before 3.2.2 allows SQL injection.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-3021: ispconfig ispconfig Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3021"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-47729"
+],
+"epss": 0.01503,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2026-47729",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "squid-cache squid. Squid is a caching proxy for the Web. Prior to 7.6, due to an improper validation of syntactic correctness of input in the FTP gateway (src/clients/FtpGateway.cc), Squid is vulnerable to an out-of-bounds read: when a listing entry date in the TypeA or TypeB directory-listing…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-47729: squid-cache squid Out-of-bounds Read",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47729"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-129073"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2026-129073",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "MiniOrange miniorange otp verification. Authentication Bypass Using an Alternate Path or Channel vulnerability in miniOrange miniorange otp verification miniorange-otp-verification allows Authentication Abuse.This issue affects miniorange otp verification: from n/a through 5.6.1.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-129073: MiniOrange miniorange_otp_verification Authentication Bypass Using an Alternate Path or Channel",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129073"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129292"
+],
+"epss": 0.0107,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2026-129292",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "PHP PHP. PHP-FPM status endpoint XSS via unescaped user and script fields. The PHP-FPM full status output includes the request method, authentication user and script filename of each worker without escaping them for the HTML, XML or JSON format. When the status endpoint is enabled, an…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-129292: PHP PHP Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129292"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2023-6020"
+],
+"epss": 0.16741,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2023-6020",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "ray_project ray. LFI in Ray's /static/ directory allows attackers to read any file on the server without authentication.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-6020: ray_project ray Missing Authorization",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6020"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2018-7125"
+],
+"epss": 0.01321,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2018-7125",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-20T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"remote code execution",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "HP intelligent_management_center. A remote code execution vulnerability was identified in HPE Intelligent Management Center (IMC) PLAT earlier than version 7.3 E0506P09.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2018-7125: HPE Intelligent Management Center (IMC) PLAT Remote Code Execution",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2018-7125"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "8daed554bf4aefb7a5926517aea9abb0a6862852b9e947db2c04cc02509293f7",
+"keyword_hits": [
+"zero-day"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-20T17:30:00Z",
+"reasons": [
+"zero-day"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
+"title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+"url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "61a2190c8d0a15b68cb9498c83c232f408a36e9ed46997e83da1910a178c55cd",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-20T15:58:06Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
+"title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+"url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "6f14820c13c2c71235f69d478a01cf5a7a38b30f6b7704d3f5040270f5823bd5",
+"keyword_hits": [
+"RCE",
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-20T10:57:43Z",
+"reasons": [
+"RCE",
+"matches F5 BIG-IP (Tier 1)"
+],
+"route": "digest",
+"score": 6,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
+"title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+"url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "BIG-IP",
+"tier": 1,
+"vendor": "F5"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "84a8895ef6cd14de6fa48242c190922f0be096a53a8957b9c199a50977b6f564",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T10:38:22Z",
+"reasons": [
+"matches SonicWall (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsupported edge devices…",
+"title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+"url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+"vendor_matches": [
+{
+"points": 3,
+"term": "SonicWall",
+"tier": 1,
+"vendor": "SonicWall"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "6291bb9dcc351a34bf9aabd6c422f9ab40aa83faab3b92bbff1ffa1bc852e887",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-20T11:36:51Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Threat actors accessed databases containing customer information associated with clinics in Japan. The post SBC Medical Group Data Breach Impacts Over 2 Million appeared first on SecurityWeek .",
+"title": "SBC Medical Group Data Breach Impacts Over 2 Million",
+"url": "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "d79822c07e139ef5fa3113ee3b625a153cffac5558c504fd6dda8dead4c58fcc",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-20T10:51:42Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "The Commission took certain services offline to contain the incident, but it has no evidence of a data breach. The post European Commission Confirms AI-Assisted Cyberattack Disrupted Services appeared first on SecurityWeek .",
+"title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
+"url": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "91b88024555c3b13786103bd8e9c1cd67ca382b8ad1062365d63b495e6f8bc90",
+"keyword_hits": [
+"zero-day"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-20T17:30:00Z",
+"reasons": [
+"zero-day"
+],
+"route": "digest",
+"score": 3,
+"source": "The Record",
+"source_type": "rss",
+"sources": [
+"The Record"
+],
+"summary": "A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.",
+"title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+"url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "15d01d33ef7f47149a827a11b8f639774a3145ea119c363ca8e9621b2a450fb0",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T14:16:21Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+"url": "https://alpo.ge/remark.pdf",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "68005382459cdc4cb5fc266d0eb9478d7f9987c4629249f2a65665d3424d4150",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T16:06:30Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "I'll never buy Framework hardware again",
+"url": "https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "fffce19f5d489240f3d257f46f3fac4d8bcc1d8837706542032c37c911c83ad9",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T09:43:19Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "If you can't explain something in simple terms, you don't understand it (2017)",
+"url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "66533cfd0d61cc26450eac13801a67a3981410468d8293339f6b39b3353e23a9",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T10:01:41Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+"url": "https://architectlabs.com/blog/frostbite",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "d539777b9d97076d49c46d8337b6933f964cfe06d1c096e42fa6e22a887b106c",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T09:42:16Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Signal Is Serious About Protecting Your Privacy",
+"url": "https://signal.org/blog/protecting-your-privacy/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "4761c1bba41d5212e479101674ed68a109063a2950526070a653a2d724ba1128",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T09:13:09Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Carnival Cruises emits ten times more sulphur oxide than all of Europe's cars (2019)",
+"url": "https://ecohustler.com/article/one-corporation-to-pollute-them-all/",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "f290b0053d3d07d45a0ab33b89d571e8f28880a32aa17fd7ecd25aec1462c736",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T15:55:16Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "Police officials called for \"greater efforts to prevent... violence\" against women and children.",
+"title": "Nearly 600 women killed in South Africa within three months",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "bf8cbfa555fdd62d85122d6efe008166b00aa05b9515481ec54dddd23309a073",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T17:54:40Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda needs to expand access to trade financing and support women-owned businesses to move into higher-value production as their exports decline, a new report by the United Nations Economic Commission for Africa (ECA) and the National Institute of Statistics of Rwanda (NISR) has…",
+"title": "Women-Owned Exports Decline By 51 Percent As Finance Challenges Linger - New Report",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611200689.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "69b5912205ec292b59712dbb1b7e7c7614ea91d0902d6c7659168a63380167e5",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T17:54:17Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The Minister of Foreign Affairs and International Cooperation, Olivier Nduhungirehe, has called for stronger African representation in global decision-making and greater influence in shaping international policies.",
+"title": "Nduhungirehe Calls for Africa to Have Greater Say in Global Affairs",
+"topic_hits": [
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611200688.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "c4c64fce10c56582364adb1407938ab99f79554219ee9282f28c32cd3505138c",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T17:55:15Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Weekend plans, anyone? November is almost wrapping up, but Kigali still has plenty in store before the month ends.",
+"title": "Kigali, What's the Plan? 12 Ways to Enjoy Your Weekend",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611200690.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "c6f8708785cfed7a58b61ea642b68a4da05e7777e60307accfff399a3994157a",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T11:07:16Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda's theatre industry has grown considerably over the past two decades, attracting more artists and generating increasing interest, particularly among young people.",
+"title": "Theatre Industry Grows, but Challenges Threaten Its Potential",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611200403.html",
+"weight": 1
+}
+]
