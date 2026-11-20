@@ -2543,5 +2543,907 @@
 "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
 "url": "https://kapteko.com/15-million-webservers/",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126708"
+],
+"cvss": 9.8,
+"epss": 0.0017,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-126708",
+"last_seen": "2026-11-20",
+"published": "2026-11-18T10:16:54Z",
+"reasons": [
+"CVSS 9.8",
+"matches Linux kernel OpenSSL (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In Eclipse Mosquitto versions 2.0.0 to 2.0.22 and 2.1.0 to 2.1.2, the return value of password hash functions for sha512-pbkdf2 and legacy sha512 were not checked. Starting with OpenSSL 4.0, sha512-pbkdf2 hashing will fail when using the FIPS provider for passwords shorter than 8 characters. This…",
+"title": "CVE-2026-126708: In Eclipse Mosquitto versions 2.0.0 to 2.0.22 and 2.1.0 to 2.1.2, the return value of password hash functions for sha512-pbkdf2 and legacy…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126708",
+"vendor_matches": [
+{
+"points": 2,
+"term": "OpenSSL",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-118493"
+],
+"cvss": 7.5,
+"epss": 0.00238,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-118493",
+"last_seen": "2026-11-20",
+"published": "2026-11-18T12:17:02Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Insertion of Sensitive Information into Log File vulnerability in the Apache Iggy server. If Apache Iggy 0.9.0 started without IGGY_ROOT_USERNAME and IGGY_ROOT_PASSWORD, it generated a root password and wrote it to the server log file, which is enabled by default. The system snapshot command…",
+"title": "CVE-2026-118493: Insertion of Sensitive Information into Log File vulnerability in the Apache Iggy server",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118493",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132079"
+],
+"cvss": 9.8,
+"epss": 0.00215,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-132079",
+"last_seen": "2026-11-20",
+"published": "2026-11-18T12:17:22Z",
+"reasons": [
+"CVSS 9.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Insufficient Session Expiration vulnerability in the Apache Iggy Go SDK. The TCP client method CreatePersonalAccessToken wrote the 32-bit expiry into the upper half of the 64-bit expiry field that the server reads. The server read a nonzero expiry as 2^32 times the requested value. A token created…",
+"title": "CVE-2026-132079: Insufficient Session Expiration vulnerability in the Apache Iggy Go SDK",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132079",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133325"
+],
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-133325",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T22:18:04Z",
+"reasons": [
+"unauthenticated",
+"matches Apache Tomcat (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Key exchange without entity authentication vulnerability in Apache Tomcat allowed an unauthenticated node to join a cluster when the cluster was secured with TLS 1.3 and TLS-PSK. This issue affects Apache Tomcat: 11.0.29, 10.1.62, 9.0.124. Users are recommended to switch to TLS 1.2 and PLDS-PSK or…",
+"title": "CVE-2026-133325: Key exchange without entity authentication vulnerability in Apache Tomcat allowed an unauthenticated node to join a cluster when the…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133325",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Tomcat",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-69370"
+],
+"epss": 0.00877,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-69370",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-69370 Visual Studio Code Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69370"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-84015"
+],
+"epss": 0.00874,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-84015",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-84015 Remote Access Point-to-Point Protocol (PPP) EAP-TLS Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-84015"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-70174"
+],
+"epss": 0.00913,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-70174",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-70174 .NET Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70174"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-97761"
+],
+"epss": 0.0082,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-97761",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Office (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-97761 Microsoft Office Excel Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97761",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Office",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-97780"
+],
+"epss": 0.0082,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-97780",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Office (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-97780 Microsoft Office Excel Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97780",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Office",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-88207"
+],
+"epss": 0.00589,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-88207",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Office (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-88207 Microsoft Office PowerPoint Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88207",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Office",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-70035"
+],
+"epss": 0.01435,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-70035",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-70035 .NET Framework Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70035"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-97756"
+],
+"epss": 0.0091,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-97756",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Office (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-97756 Microsoft Office Excel Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97756",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Office",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-97773"
+],
+"epss": 0.00841,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-97773",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Office (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-97773 Microsoft Office Excel Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97773",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Office",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-97741"
+],
+"epss": 0.00929,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-97741",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Office (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-97741 Microsoft Office Excel Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97741",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Office",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-97772"
+],
+"epss": 0.00841,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-97772",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Office (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-97772 Microsoft Office Excel Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97772",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Office",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-100209"
+],
+"epss": 0.0095,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-100209",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Office (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-100209 Microsoft Office Excel Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-100209",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Office",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-55007"
+],
+"epss": 0.00707,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-55007",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Exchange Server (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-55007 Microsoft Exchange Server Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55007",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Exchange Server",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-78505"
+],
+"epss": 0.00819,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-78505",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Office (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-78505 Microsoft Office Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-78505",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Office",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-69360"
+],
+"epss": 0.00819,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-69360",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Office (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-69360 Microsoft Office Word Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69360",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Office",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-72973"
+],
+"epss": 0.00819,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-72973",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Office (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-72973 Microsoft Office Word Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72973",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Office",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-78521"
+],
+"epss": 0.00819,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-78521",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Office (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-78521 Microsoft Office Word Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-78521",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Office",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-78526"
+],
+"epss": 0.00819,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "CVE-2026-78526",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-19T16:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft Office (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Microsoft MSRC",
+"source_type": "rss",
+"sources": [
+"Microsoft MSRC"
+],
+"summary": "Updated an acknowledgement. This is an informational change only.",
+"title": "CVE-2026-78526 Microsoft Office Word Remote Code Execution Vulnerability",
+"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-78526",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Office",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "4fde3b4a0c69229835f1d747f5698bf718ce8bedcc674c1723eb663012c193a8",
+"keyword_hits": [
+"zero-day"
+],
+"last_seen": "2026-11-20",
+"published": "2026-11-20T00:26:25Z",
+"reasons": [
+"zero-day",
+"matches VMware vCenter (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
+"title": "VMware patches vCenter zero-day exploited in attacks since September",
+"url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "vCenter",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "dbe7d6e4fbad9e363e56a7e87e25dfdc230c3808deb82685eaabab8b35efb83e",
+"last_seen": "2026-11-20",
+"published": "2026-11-19T17:25:33Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Pancreatic cancer halted by virus injection in three patients",
+"url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "ee952828ada504765b33cc6c2083c3402347c388816d493379f787d74b90b60f",
+"last_seen": "2026-11-20",
+"published": "2026-11-19T17:30:44Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Claude solves two open problems in the physics of black holes",
+"url": "https://www.anthropic.com/research/claude-black-hole-physics",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "8ab9c2e00298e5fd1ab3e4e4edc149b56577bf4f65fb70202cbe6b7df8c1911f",
+"last_seen": "2026-11-20",
+"published": "2026-11-19T11:47:03Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Someone reported java4shell bug in September 2026",
+"url": "https://github.com/openjdk/jdk/pull/32781",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-20T02:31:37Z",
+"id": "66b37500e47859ebc2493333541efcc29388825319d4009214172b9495d07b98",
+"last_seen": "2026-11-20",
+"published": "2026-11-20T00:54:50Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "African countries at the UN climate summit in Turkey are demanding more funding from developed nations to help them cope with climate change.",
+"title": "More climate money for Africa? Europe says use what's already pledged",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko",
+"weight": 1
 }
 ]
