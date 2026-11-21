@@ -1792,7 +1792,7 @@
 "CVE-2026-97229"
 ],
 "meta": {
-"nvd_cursor": "2026-11-21T07:24:52Z"
+"nvd_cursor": "2026-11-21T15:32:58Z"
 },
 "seeded_sources": [
 "Al Jazeera",
@@ -4048,6 +4048,38 @@
 "source_type": "rss",
 "sources": [
 "The Hacker News"
+]
+},
+"0a3c2d6358598e211aa8e78fd733ed4f26e460985f6351605428a05b2d137fd3": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "0a3c2d6358598e211aa8e78fd733ed4f26e460985f6351605428a05b2d137fd3",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T15:17:27Z",
+"reasons": [
+"matches Google Android (Tier 2)",
+"topic: botnet"
+],
+"route": "digest",
+"score": 4,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "BADBOX 3.0 botnet returns with record-breaking 40 billion daily ad requests",
+"topic_hits": [
+"botnet"
+],
+"url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Android",
+"tier": 2,
+"vendor": "Google"
+}
 ]
 },
 "0a41f7ede46dadbcf538728d8c857616d4a29964b1e858ec3eb6dcca80170857": {
@@ -6485,6 +6517,22 @@
 "url": "https://www.aljazeera.com/sports/2026/11/20/nepali-cricket-fans-in-qatar-want-to-see-their-team-competing-with-the-best?traffic_source=rss",
 "weight": 1
 },
+"135590e85a2e193961ef1b83e2c789c915d4cebcee43b60f6a54cbbf642c1ac9": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "135590e85a2e193961ef1b83e2c789c915d4cebcee43b60f6a54cbbf642c1ac9",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T12:00:00Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Harbinger is building the unsexy EVs that keep the economy moving",
+"url": "https://www.theverge.com/transportation/1038448/harbinger-ev-startup-240m-series-d-fedex-army-trucks"
+},
 "1382475cd0b60ea4e7e6f1a6d0926b1c3484d128def12d946f7bb5b44ca9c612": {
 "category": "tech",
 "coverage_count": 1,
@@ -6746,6 +6794,27 @@
 "sources": [
 "The Verge"
 ]
+},
+"149c325f88bfa9fe8aae59df4d34797cf355834331e428a0cf66a0cfe87dc10f": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "149c325f88bfa9fe8aae59df4d34797cf355834331e428a0cf66a0cfe87dc10f",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T13:15:21Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+"url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o",
+"weight": 1
 },
 "14adf6fa9b5230a17c8e1a5e76166272cf6240b5af3ff5824fb4771c948103d5": {
 "category": "tech",
@@ -7413,6 +7482,31 @@
 "sources": [
 "allAfrica Rwanda"
 ],
+"weight": 1
+},
+"1680cd9b0b303f40b6053b3ed994474478e0238b0727b4a484bc3a7fc93fbbe3": {
+"big_story_hits": [
+"nuclear"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "1680cd9b0b303f40b6053b3ed994474478e0238b0727b4a484bc3a7fc93fbbe3",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T14:15:36Z",
+"reasons": [
+"big story: nuclear",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Could Iran reverse its stated policy of a civil-only nuclear programme?",
+"url": "https://www.aljazeera.com/news/2026/11/21/could-iran-reverse-its-stated-policy-of-a-civil-only-nuclear-programme?traffic_source=rss",
 "weight": 1
 },
 "168cfd64a9975cce5c77853a9f9460c3d886d6be803663ee58228b3d8155fc40": {
@@ -10080,6 +10174,30 @@
 "Ars Technica"
 ]
 },
+"2062efc3c877f86db4f7b324e09cbfea80afe3d23e3759fa465211cc0c981890": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "2062efc3c877f86db4f7b324e09cbfea80afe3d23e3759fa465211cc0c981890",
+"last_seen": "2026-11-21",
+"published": "2026-11-20T15:34:31Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Finite-time blow-up for the Navier–Stokes equations",
+"url": "https://github.com/tristanbuckmaster/navier-stokes/",
+"weight": 3
+},
 "2064459831ecc8f95ab898a9b029f7b556a5b54822d39620c40c8438269a0ebd": {
 "category": "tech",
 "coverage_count": 1,
@@ -10785,6 +10903,29 @@
 ],
 "url": "https://allafrica.com/stories/202611180187.html",
 "weight": 1
+},
+"22696230159e53c6d706229ac9627320ca4aa6c49151675c7dd77204ca455139": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "22696230159e53c6d706229ac9627320ca4aa6c49151675c7dd77204ca455139",
+"keyword_hits": [
+"zero-day"
+],
+"last_seen": "2026-11-21",
+"published": "2026-11-21T12:08:50Z",
+"reasons": [
+"zero-day"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+"url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/"
 },
 "228a94cec1a268b0c8fc2207d1e632a58aecaa6aa022ec64f9c29b9fcaf4c0bc": {
 "category": "world",
@@ -12214,6 +12355,27 @@
 ],
 "weight": 1
 },
+"2927cc9a11de692aef742ffd652a33256b82f0e7b8b7335e963b1fd43d80f13d": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "2927cc9a11de692aef742ffd652a33256b82f0e7b8b7335e963b1fd43d80f13d",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T10:27:23Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Cavaliers’ Harden passes Bryant, closes on Jordan in NBA 50-point game list",
+"url": "https://www.aljazeera.com/sports/2026/11/21/cavaliers-james-harden-closes-on-michael-jordan-in-nba-50-point-game-list?traffic_source=rss",
+"weight": 1
+},
 "293f6295b94d933fa5d3c8220b0b36ac3c85b183ffbd3832846c282e359d0d86": {
 "category": "world",
 "coverage_count": 1,
@@ -13255,6 +13417,25 @@
 "SecurityWeek"
 ]
 },
+"2d36b2960e51fcdbd8dc4cb9f58718bb77380afa13d99bd816e1dd0412d4501c": {
+"category": "security",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129975"
+],
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "2d36b2960e51fcdbd8dc4cb9f58718bb77380afa13d99bd816e1dd0412d4501c",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T11:05:53Z",
+"route": "drop",
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+"url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
+},
 "2d4bed449bd16f6c9aa3bda7f089b5924a6bb954da183b7810b2072d34dafb92": {
 "category": "world",
 "coverage_count": 1,
@@ -13268,6 +13449,27 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"2d61ea3eaaffbbf0a6b9d758ab8e90542fd03222d8d2cb07247db1bc491c859d": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "2d61ea3eaaffbbf0a6b9d758ab8e90542fd03222d8d2cb07247db1bc491c859d",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T10:25:29Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Nations agree to ‘elaborate’ on rules for AI-run ‘killer robots’ by 2028",
+"url": "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit?traffic_source=rss",
 "weight": 1
 },
 "2d7710afbfe4a8677fae0cb1305480843854216d0ab3dc0a4909583a2862bbe7": {
@@ -15048,6 +15250,27 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"339ddaf0df1cf1866cc806117807e8189df7927a56bc2cb59ed786b5d445fc9e": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "339ddaf0df1cf1866cc806117807e8189df7927a56bc2cb59ed786b5d445fc9e",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T10:38:13Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Demolition notices for buildings in Hebron provoke fear among Palestinians",
+"url": "https://www.aljazeera.com/news/2026/11/21/demolition-notices-for-buildings-in-area-a-of-hebron-spark-fear-among-palestinians?traffic_source=rss",
 "weight": 1
 },
 "33aa3821502c89c95f69ca059485de412ad321a12812d0d0c675f61d6352c7df": {
@@ -17321,6 +17544,43 @@
 "sources": [
 "BBC World"
 ],
+"weight": 1
+},
+"3bf4a826cb5dba6dacb18ff13d85b074f440e3dbcd00307b4b2797f9d4cf97c6": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "3bf4a826cb5dba6dacb18ff13d85b074f440e3dbcd00307b4b2797f9d4cf97c6",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T14:26:04Z",
+"route": "drop",
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "FBI reportedly hacked again, this time targeting nationwide police database",
+"url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/"
+},
+"3bf6ae3881705af6ce9a267e79db9f15353fa95b1f4ec169e6cc8ea0aa1ade00": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "3bf6ae3881705af6ce9a267e79db9f15353fa95b1f4ec169e6cc8ea0aa1ade00",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T09:20:40Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Fire sprinkler sprays water at flame-covered sign in China",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/fire-sprinkler-sprays-water-at-flame-covered-sign-in-china?traffic_source=rss",
 "weight": 1
 },
 "3c0843226c84500f1dd04269772862557326d98380909966be74fb7a1596d905": {
@@ -20028,6 +20288,22 @@
 ],
 "weight": 1
 },
+"46a15e2b98f53ca633f16992b4a70626a28c91cd7b2d8da7769d4d4ce0078749": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "46a15e2b98f53ca633f16992b4a70626a28c91cd7b2d8da7769d4d4ce0078749",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T12:01:13Z",
+"route": "drop",
+"source": "Ars Technica",
+"source_type": "rss",
+"sources": [
+"Ars Technica"
+],
+"title": "“Race realism” isn’t realistic—and it isn’t good science",
+"url": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/"
+},
 "46dc3ae135feed41c3617ea319ccdae9894bd7a6154b946e0f2e69e295692c3b": {
 "category": "security",
 "coverage_count": 1,
@@ -20465,6 +20741,48 @@
 "sources": [
 "BBC World"
 ],
+"weight": 1
+},
+"483387ba54310dbf0123e79151fe6aacea7adaf444c163e84913dce458c1552f": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "483387ba54310dbf0123e79151fe6aacea7adaf444c163e84913dce458c1552f",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T12:49:20Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Riemann hypothesis: Has the world’s most famous maths problem been cracked?",
+"url": "https://www.aljazeera.com/news/2026/11/21/riemann-hypothesis-has-the-worlds-most-famous-maths-problem-been-cracked?traffic_source=rss",
+"weight": 1
+},
+"4838e530767d50ab1c1d60ed70aa013b1133a78a58edc103e573726d6d3eef66": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "4838e530767d50ab1c1d60ed70aa013b1133a78a58edc103e573726d6d3eef66",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T11:53:56Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Mexico captures FBI-wanted cartel boss in military raid",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid?traffic_source=rss",
 "weight": 1
 },
 "483ccbfb6b9df23cf334721c27521b21a676e96d983ae087582dcf753d5d2920": {
@@ -22005,6 +22323,22 @@
 ],
 "weight": 1
 },
+"4e5f9f890d88fb861789ddc7bc1f372efe8131dcf3758d76ace28a3533eb8981": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "4e5f9f890d88fb861789ddc7bc1f372efe8131dcf3758d76ace28a3533eb8981",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T13:00:00Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "The game of the year is finally here",
+"url": "https://www.theverge.com/tech/1039433/gta-vi-alfred-6-clockwisetv-installer"
+},
 "4e7e8b1b5e1ac3559ef9d9e031f32528b4a110dfd186396f40921f724b91aef9": {
 "category": "world",
 "coverage_count": 1,
@@ -22108,6 +22442,27 @@
 "sources": [
 "Zero Day Initiative"
 ]
+},
+"4f1ad965c2bf1a6bb66f05fc155cb3a71f3dc04b5e868c74b1bad90f590e577a": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "4f1ad965c2bf1a6bb66f05fc155cb3a71f3dc04b5e868c74b1bad90f590e577a",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T12:45:24Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Rescue efforts under way as drones hit Russian ship off Finland coast",
+"url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
+"weight": 1
 },
 "4f1d8d76423cd791b2e5fcdd196b030d0d1713eb1dc8009b8952e4cb667f39f8": {
 "category": "world",
@@ -23144,6 +23499,22 @@
 "Al Jazeera"
 ],
 "weight": 1
+},
+"540b7c770415117cbceaef9b71b2eb85d28e68dd316acfec7c32e1cbb2934192": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "540b7c770415117cbceaef9b71b2eb85d28e68dd316acfec7c32e1cbb2934192",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T13:00:00Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "The Xiaomi 18 Pro proves two screens aren’t better than one",
+"url": "https://www.theverge.com/tech/1038562/xiaomi-18-pro-max-review"
 },
 "540cf3e1aa3c44cc2dbcd8b529cc78a06dab16cfa07dcc86f1e1fa18ee9cd338": {
 "category": "world",
@@ -27341,6 +27712,30 @@
 }
 ]
 },
+"6315a0a2501badbc1f1e0fc8b563a7fbd9d68c987f85169017cf59f042edd618": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "6315a0a2501badbc1f1e0fc8b563a7fbd9d68c987f85169017cf59f042edd618",
+"last_seen": "2026-11-21",
+"published": "2026-11-20T15:24:11Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Slopstrap – Make your site look hastily vibecoded",
+"url": "https://slopstrap.mikelacher.com/",
+"weight": 3
+},
 "63323c736c22ec519dc0c51e830ff8732b84b7ddb224b156cf519b77cf080ba4": {
 "category": "world",
 "coverage_count": 1,
@@ -29259,6 +29654,27 @@
 ],
 "weight": 1
 },
+"6954740cbff16410df49b73148e5f61a62cb4149894e93710f62e1783f94d558": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "6954740cbff16410df49b73148e5f61a62cb4149894e93710f62e1783f94d558",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T14:54:24Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+"url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o",
+"weight": 1
+},
 "69affab4435ae0dac2dc891b146a487d2b2ac51d6b205523e7382a309c0d07d1": {
 "category": "world",
 "coverage_count": 1,
@@ -30843,6 +31259,27 @@
 "sources": [
 "Zero Day Initiative"
 ]
+},
+"6f765fcf802166eb063f8a2b99a585df46cf96ab5d10f4d55e8f7b79fa19b945": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "6f765fcf802166eb063f8a2b99a585df46cf96ab5d10f4d55e8f7b79fa19b945",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T11:04:10Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Migrants caravan in Mexico walks towards US border",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/migrants-caravan-in-mexico-walks-towards-us-border?traffic_source=rss",
+"weight": 1
 },
 "6f84b2eb5d33a94a156ef9fb2ed8104f8e914c7752962574edcc1e8cff9bc611": {
 "category": "world",
@@ -35349,6 +35786,27 @@
 "The Verge"
 ]
 },
+"808fdaea81fbf573337e23c88a7b3f9b658091db0f85259cc9a31c50c96527c0": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "808fdaea81fbf573337e23c88a7b3f9b658091db0f85259cc9a31c50c96527c0",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T14:35:52Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Man City claw back 1-1 draw with Fulham to end three-game losing streak",
+"url": "https://www.aljazeera.com/sports/2026/11/21/man-city-fightback-for-1-1-draw-with-fulham-to-end-three-game-losing-streak?traffic_source=rss",
+"weight": 1
+},
 "8093087dcb115f3fabb1eb1790f99828473811bee479014e909d3186eeaf0784": {
 "category": "world",
 "coverage_count": 1,
@@ -35802,6 +36260,30 @@
 "title": "Three arrested during Anthropic IPO protest outside Nasdaq",
 "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/three-arrested-during-anthropic-ipo-protest-outside-nasdaq?traffic_source=rss",
 "weight": 1
+},
+"8269f1099e5af4bd2f7caedc10ba02f3ff994d62ef58074dc642a3f98326bcc7": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "8269f1099e5af4bd2f7caedc10ba02f3ff994d62ef58074dc642a3f98326bcc7",
+"last_seen": "2026-11-21",
+"published": "2026-11-20T22:30:47Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "NINLIVE: The Nine Inch Nails live archive",
+"url": "https://ninlive.com/",
+"weight": 3
 },
 "827fc4191db40fb2f5488dc76a99db3297ef3729ffd69c020032bd34fc082f06": {
 "category": "world",
@@ -36579,6 +37061,27 @@
 }
 ]
 },
+"85d960e288fd5c9fa165e7d1fa8ced769f8e7ebb0d5677c547c6f36f284c51c5": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "85d960e288fd5c9fa165e7d1fa8ced769f8e7ebb0d5677c547c6f36f284c51c5",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T11:02:49Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Russian missiles hit Poland: What happened, and could NATO respond?",
+"url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond?traffic_source=rss",
+"weight": 1
+},
 "85ecb1c7c391a57b101a864af5eb4cde0d78b99e2debc4e6d0ea05c6f79890e6": {
 "category": "tech",
 "coverage_count": 1,
@@ -37085,6 +37588,27 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"87addd71ff8ba03c55eef802c7672a9c04153dd4dc33197c812681c2eafa2b94": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "87addd71ff8ba03c55eef802c7672a9c04153dd4dc33197c812681c2eafa2b94",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T15:01:18Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Tankers hit in Strait of Hormuz as Iran tightens grip on shipping",
+"url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
 "weight": 1
 },
 "87d403e9bc17c59d1aae58b061ed85d3aca4bbb7a631d152342198b9d52bc698": {
@@ -38430,6 +38954,27 @@
 }
 ]
 },
+"8bfde9bfe1afd80a1910c3f625e056ac8ee2c48f8a1510204d481a4d285064da": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "8bfde9bfe1afd80a1910c3f625e056ac8ee2c48f8a1510204d481a4d285064da",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T13:08:59Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Chaudhary helps Australia beat England in T20 shake-off of scandal-hit run",
+"url": "https://www.aljazeera.com/sports/2026/11/21/chaudhary-helps-australia-beat-england-in-t20-shake-off-of-scandal-hit-run?traffic_source=rss",
+"weight": 1
+},
 "8bffad4f94551d40a60de14f75f2afa6daa676b90413308b197ab9feaf0d45fa": {
 "category": "tech",
 "coverage_count": 1,
@@ -38456,6 +39001,27 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"8c0f2d7d70d7de582e9ce2f970e61da44980d835f6533899ea444de58f3b06a3": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "8c0f2d7d70d7de582e9ce2f970e61da44980d835f6533899ea444de58f3b06a3",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T14:30:00Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Newcastle United vs Arsenal LIVE: Premier League",
+"url": "https://www.aljazeera.com/sports/liveblog/2026/11/21/newcastle-united-vs-arsenal-live-premier-league?traffic_source=rss",
 "weight": 1
 },
 "8c17b9f13ac2e2a1d9a9cbc8cf0a5e5ff4b24327bf2a4d9f0481700519da4f3c": {
@@ -39354,6 +39920,22 @@
 ],
 "weight": 1
 },
+"8f42b337c9c6a0be9a28b1df024ea20684a2d526d33eb6b8bcc1aa65e6015fc9": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "8f42b337c9c6a0be9a28b1df024ea20684a2d526d33eb6b8bcc1aa65e6015fc9",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T15:00:00Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Can Anthropic afford to put safety first?",
+"url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
+},
 "8f42f5080c0a73b7f418e3a8d509681b47bcd2505db2a33d32343cb35a301a24": {
 "category": "tech",
 "coverage_count": 1,
@@ -39958,6 +40540,27 @@
 "sources": [
 "The Record"
 ]
+},
+"915bcdf63deeeb43a5c183142e9d61db27f825a530eefc563434a2afece7d20b": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "915bcdf63deeeb43a5c183142e9d61db27f825a530eefc563434a2afece7d20b",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T11:35:42Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Pakistan drop Rizwan and Masood, but back Babar and Agha in overhaul",
+"url": "https://www.aljazeera.com/sports/2026/11/21/pakistan-drop-rizwan-and-masood-but-babar-and-agha-backed-in-overhaul?traffic_source=rss",
+"weight": 1
 },
 "916b52c2bb5a086de9c717edae5778266bb5209eb813d55d24e57e3708f0b419": {
 "category": "tech",
@@ -41643,6 +42246,30 @@
 "Al Jazeera"
 ],
 "weight": 1
+},
+"97637b9a97918d7b20ded6c6144e1d3c27ab0acea1e6f15485cf39013f8eb86b": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "97637b9a97918d7b20ded6c6144e1d3c27ab0acea1e6f15485cf39013f8eb86b",
+"last_seen": "2026-11-21",
+"published": "2026-11-20T23:18:32Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
+"url": "https://news.ycombinator.com/item?id=50583761",
+"weight": 3
 },
 "9782ac9f0cf4eee955abf53a756b856150c7bad5a441cb1cf651e0470d5c695e": {
 "category": "world",
@@ -44243,6 +44870,27 @@
 "sources": [
 "The Verge"
 ]
+},
+"9fd5c11b2ba3cec6308f1933d6af8cfb93df4dfc0d383fd8d5c2f8bcbda47de4": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "9fd5c11b2ba3cec6308f1933d6af8cfb93df4dfc0d383fd8d5c2f8bcbda47de4",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T12:30:49Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Sudan’s elderly face hardship and heartbreak in a life of displacement",
+"url": "https://www.aljazeera.com/news/2026/11/21/sudans-elderly-face-hardship-and-heartbreak-in-a-life-of-displacement?traffic_source=rss",
+"weight": 1
 },
 "CVE-2005-3390": {
 "alerted": true,
@@ -48307,6 +48955,36 @@
 "vendor": "Apple"
 }
 ]
+},
+"CVE-2024-28545": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-28545"
+],
+"cvss": 9.8,
+"epss": 0.02302,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "CVE-2024-28545",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-28545: Tenda ac18_firmware Improper Neutralization of Special Elements used in a Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-28545"
 },
 "CVE-2024-33563": {
 "category": "vulnerabilities",
@@ -152157,6 +152835,27 @@
 ],
 "weight": 1
 },
+"a1219d58f30455b14d62e2930710e1b5755e0364386863b93fcd77924739e3f1": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "a1219d58f30455b14d62e2930710e1b5755e0364386863b93fcd77924739e3f1",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T14:06:06Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/jerusalem-daily-gaza-faces-deadly-strikes-and-health-crisis?traffic_source=rss",
+"weight": 1
+},
 "a135acb25d7e62a02f2ff6f081839f540f011a59e82ff4550f8540565d594201": {
 "category": "world",
 "coverage_count": 1,
@@ -155528,6 +156227,22 @@
 }
 ]
 },
+"ad594f5f42f81e7d87e69f11d22d60f9c9baaf11bd61debec96c4b078d11a682": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "ad594f5f42f81e7d87e69f11d22d60f9c9baaf11bd61debec96c4b078d11a682",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T14:55:28Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Our go-to earbuds for taking calls have fallen to their lowest price to date",
+"url": "https://www.theverge.com/gadgets/1039160/anker-soundcore-liberty-5-pro-black-friday-2026-deal-sale"
+},
 "ad845335b5f605cbafd18db8f6f26719969f669ede34dd75f3954bb86e0b4977": {
 "category": "world",
 "coverage_count": 1,
@@ -156107,6 +156822,30 @@
 }
 ]
 },
+"af6cd7e83095bf80cb9f1e150a459e05cff4baee16573dc5e103bce8c77d16bf": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "af6cd7e83095bf80cb9f1e150a459e05cff4baee16573dc5e103bce8c77d16bf",
+"last_seen": "2026-11-21",
+"published": "2026-11-17T15:22:57Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+"url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+"weight": 3
+},
 "af8084d5302e1615ee302364cf1e3d0988a8f9c798c4c87b2eb69590c86c362d": {
 "category": "world",
 "coverage_count": 1,
@@ -156672,6 +157411,27 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"b1b8517a7307d9b069c18082e709f3c71d4f36976537295fcb8babe16e8fefe9": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "b1b8517a7307d9b069c18082e709f3c71d4f36976537295fcb8babe16e8fefe9",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T11:02:29Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Deadly fire engulfs power station in southern Iraq",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/deadly-fire-engulfs-power-station-in-southern-iraq?traffic_source=rss",
 "weight": 1
 },
 "b1c032a570a5ca2859b948022df588a9ef697c651166e421537781fc4a111a12": {
@@ -160374,6 +161134,22 @@
 }
 ]
 },
+"bf5497f2d754844d1c891cd3978e18f1abadbefae611b35d523a044b5c486afe": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "bf5497f2d754844d1c891cd3978e18f1abadbefae611b35d523a044b5c486afe",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T11:53:07Z",
+"route": "drop",
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+"url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html"
+},
 "bf77d03c84080d097b85c649e73772879097f363621bd1e6d36645178bb4e8b5": {
 "category": "tech",
 "coverage_count": 1,
@@ -161827,6 +162603,29 @@
 "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o",
 "weight": 1
 },
+"c4534c919666158ab8c8fdf8c75c2b14cd9fb7ae4e3db486867a6b5b8b132433": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "c4534c919666158ab8c8fdf8c75c2b14cd9fb7ae4e3db486867a6b5b8b132433",
+"keyword_hits": [
+"zero-day"
+],
+"last_seen": "2026-11-21",
+"published": "2026-11-21T11:03:17Z",
+"reasons": [
+"zero-day"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+"url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+},
 "c46659194d2eaa8b3a475c74d3437367aabdc75583c6c159c6fcf1e64d034d1d": {
 "category": "world",
 "coverage_count": 1,
@@ -163023,6 +163822,27 @@
 }
 ]
 },
+"c891fc875e35b13b6debe3984566a2c6b1b4d5073a723250e0fe2f55c20d1ea5": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "c891fc875e35b13b6debe3984566a2c6b1b4d5073a723250e0fe2f55c20d1ea5",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T09:58:59Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Verstappen escapes Vegas F1 discipline, takes pole as Antonelli penalised",
+"url": "https://www.aljazeera.com/sports/2026/11/21/verstappen-escapes-las-vegas-discipline-takes-pole-as-antonelli-penalised?traffic_source=rss",
+"weight": 1
+},
 "c89f20188b00b2adb41c5bb037031d0d721048746d02849ca4832949304b3932": {
 "category": "tech",
 "coverage_count": 1,
@@ -163910,6 +164730,31 @@
 ],
 "weight": 1
 },
+"cba19c89afeb28d2254f7adc48ba0da76882c7773debce91ca4e43aa2b9a01c9": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "cba19c89afeb28d2254f7adc48ba0da76882c7773debce91ca4e43aa2b9a01c9",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T09:38:29Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Sandpapergate: Cummins has Australia’s ‘unanimous support’ as Test captain",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/sports/2026/11/21/cummins-wins-cricket-australias-unanimous-support-as-test-captain-sandpapergate?traffic_source=rss",
+"weight": 1
+},
 "cbac0a15e18da0e81dac1f6762dbd4457bb26e518261f4bd17091acea31990bc": {
 "category": "world",
 "coverage_count": 1,
@@ -164252,6 +165097,27 @@
 "sources": [
 "BleepingComputer"
 ]
+},
+"cd21738ca940947ffc5f01d8eb5b664322c54d304eb9913695ce45d686867177": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "cd21738ca940947ffc5f01d8eb5b664322c54d304eb9913695ce45d686867177",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T12:22:24Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Florida residents turn to kayaks and rafts as floods swamp streets",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/florida-residents-turn-to-kayaks-and-rafts-as-floods-swamp-streets?traffic_source=rss",
+"weight": 1
 },
 "cd21eed67955fdd4f34fdf9fa4f5da29db52729750fe2a4d8327e8cbfb17c2ac": {
 "category": "world",
@@ -164851,6 +165717,22 @@
 ],
 "weight": 1
 },
+"cf139eecfc7fe6125d7aec2837b6600007465712b80d7468fe3b3a6b8278ad22": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "cf139eecfc7fe6125d7aec2837b6600007465712b80d7468fe3b3a6b8278ad22",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T14:00:00Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+"url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai"
+},
 "cf16121480250bcba56cd7104a935a3654c8c2c8d317422fff9a6e603bb128fc": {
 "category": "tech",
 "coverage_count": 1,
@@ -164964,6 +165846,27 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"cf96b062ffc80fe0fc7065912c995acc55ea733d941816f8a993a6487d02e6c6": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "cf96b062ffc80fe0fc7065912c995acc55ea733d941816f8a993a6487d02e6c6",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T09:34:20Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "FBI reportedly investigating apparent hack of its criminal database",
+"url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o",
 "weight": 1
 },
 "cf992ae68a613cc2684f4c4f7bf475437c5b6d9ff6737774aafd02a5c72f25c2": {
@@ -170057,6 +170960,40 @@
 }
 ]
 },
+"e3554f5571a3ac609a3198606e7abedee07f771cc67e49cb8913f539c8231342": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "e3554f5571a3ac609a3198606e7abedee07f771cc67e49cb8913f539c8231342",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T08:49:20Z",
+"reasons": [
+"matches Apple iOS (Tier 2)"
+],
+"route": "drop",
+"score": 2,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+"url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "iOS",
+"tier": 2,
+"vendor": "Apple"
+},
+{
+"points": 2,
+"term": "Android",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
 "e35b6447f216f8230838204e2b72d13fa849f8cab7972242f5bfa19183443f16": {
 "category": "tech",
 "coverage_count": 1,
@@ -170425,6 +171362,51 @@
 "Al Jazeera"
 ],
 "weight": 1
+},
+"e4b2c501ebfdd5d6f495aed8090aa0e18116fbde8498872ad6d2df18cdf6f770": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "e4b2c501ebfdd5d6f495aed8090aa0e18116fbde8498872ad6d2df18cdf6f770",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T08:10:03Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Trafalgar Square Christmas tree felled in Norway",
+"url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo",
+"weight": 1
+},
+"e4ca683a1a620c33b1249842745a68bfce106416281fe5dea36f1191f1a8aeba": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "e4ca683a1a620c33b1249842745a68bfce106416281fe5dea36f1191f1a8aeba",
+"last_seen": "2026-11-21",
+"published": "2026-11-20T13:29:59Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+"url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+"weight": 3
 },
 "e4d8161772eb290c14d4d840eee13fe3920117ee55cacd60e218f169d08b7fa7": {
 "category": "world",
@@ -174924,6 +175906,31 @@
 }
 ]
 },
+"f3714d0d43648c09dd62e59986f740923cfa7a5de350bacc09ab89b5abc73738": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "f3714d0d43648c09dd62e59986f740923cfa7a5de350bacc09ab89b5abc73738",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T10:54:22Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Usman Khawaja and David Warner taken off air over Australia’s Sandpapergate",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/sports/2026/11/21/usman-khawaja-and-david-warner-taken-off-air-over-australias-sandpapergate?traffic_source=rss",
+"weight": 1
+},
 "f37c9c9566ec347c9ddfe24c6e3ff69b8906cc1cf8ddbfb866e6d342309adb86": {
 "category": "security",
 "coverage_count": 1,
@@ -175671,6 +176678,27 @@
 "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
 "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html"
 },
+"f5fb4c9e3e712e23a1949cc7bf850caade5b5dfb47cd314724038e914f9eaa12": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "f5fb4c9e3e712e23a1949cc7bf850caade5b5dfb47cd314724038e914f9eaa12",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T09:30:24Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Iran says it downed US drones over Hormuz as bid to end war remains stalled",
+"url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss",
+"weight": 1
+},
 "f5fba946a4b7a33e90c56666c6283f1c5838bbd9331f8f41165db865840fd4c4": {
 "category": "world",
 "coverage_count": 1,
@@ -176185,6 +177213,27 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"f8120ad8c5093aba11be6b2659c08fea10e985fbc2d9ab42d28ec994cd491f7c": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "f8120ad8c5093aba11be6b2659c08fea10e985fbc2d9ab42d28ec994cd491f7c",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T12:29:49Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Israeli attacks on Gaza kill at least four Palestinians",
+"url": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza?traffic_source=rss",
 "weight": 1
 },
 "f82aa0ae44bf17aed5c1a68932ff0e2f72f4ebde9f751f11771bbccc4a640e40": {
@@ -177520,6 +178569,27 @@
 ],
 "weight": 1
 },
+"fce4fb3f639792a35a9f49b6dab5d841688a67c99c489d50fbe7b059ec2ac947": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "fce4fb3f639792a35a9f49b6dab5d841688a67c99c489d50fbe7b059ec2ac947",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T13:17:38Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+"url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo",
+"weight": 1
+},
 "fd1189b68a0473ae49a6caa01b74caeaf0085ae1183048d730da57012569472b": {
 "category": "tech",
 "coverage_count": 1,
@@ -178423,6 +179493,27 @@
 "vendor": "Google"
 }
 ]
+},
+"fff6069a8401bd17ae846224ee0199c768cb6a008edaf94d6057ddf14cef33ba": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "fff6069a8401bd17ae846224ee0199c768cb6a008edaf94d6057ddf14cef33ba",
+"last_seen": "2026-11-21",
+"published": "2026-11-21T11:39:03Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Why is GTA VI so expensive to play?",
+"url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/11/21/why-is-gta-vi-so-expensive-to-play?traffic_source=rss",
+"weight": 1
 },
 "fff66bbfc75422a342bdfac07b8ff91305da7bc90ee0231c8fb78db19fced66b": {
 "category": "security",
