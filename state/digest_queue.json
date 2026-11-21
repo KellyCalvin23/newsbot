@@ -971,5 +971,663 @@
 ],
 "url": "https://allafrica.com/stories/202611200403.html",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-106012"
+],
+"cvss": 7.3,
+"epss": 0.0014,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "CVE-2026-106012",
+"last_seen": "2026-11-21",
+"published": "2026-11-19T22:17:49Z",
+"reasons": [
+"CVSS 7.3",
+"matches Apache Tomcat (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Incorrect Authorization vulnerability in Apache Tomcat could occur during a request dispatch if the request depended on a security-role-ref provided by the dispatch target. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.27, from 10.1.0-M1 through 10.1.61, from 9.0.0.M1 through…",
+"title": "CVE-2026-106012: Incorrect Authorization vulnerability in Apache Tomcat could occur during a request dispatch if the request depended on a security-role-ref…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106012",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Tomcat",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116561"
+],
+"cvss": 9.1,
+"epss": 0.00188,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "CVE-2026-116561",
+"last_seen": "2026-11-21",
+"published": "2026-11-19T22:17:58Z",
+"reasons": [
+"CVSS 9.1",
+"matches Apache Tomcat (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper cleanup on thrown exception vulnerability in Apache Tomcat meant that an HTTP 200 response was sent rather than an HTTP 500 response after a AuthException was thrown during Jakarta Authentication secureResponse(). This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.27, from…",
+"title": "CVE-2026-116561: Improper cleanup on thrown exception vulnerability in Apache Tomcat meant that an HTTP 200 response was sent rather than an HTTP 500…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116561",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Tomcat",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116600"
+],
+"cvss": 7.5,
+"epss": 0.00185,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "CVE-2026-116600",
+"last_seen": "2026-11-21",
+"published": "2026-11-19T22:17:58Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache Tomcat (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Missing release of memory after effective lifetime vulnerability in Apache Tomcat via WebSocket. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.27, from 10.1.0-M1 through 10.1.61, from 9.0.22 through 9.0.123 The following versions were EOL at the time the CVE was created but are…",
+"title": "CVE-2026-116600: Missing release of memory after effective lifetime vulnerability in Apache Tomcat via WebSocket. This issue affects Apache Tomcat: from…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116600",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Tomcat",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116830"
+],
+"cvss": 7.5,
+"epss": 0.00146,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "CVE-2026-116830",
+"last_seen": "2026-11-21",
+"published": "2026-11-19T22:17:58Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache Tomcat (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Missing release of resource after effective lifetime vulnerability in Apache Tomcat's HTTP/2 initial connection handling leads to DoS. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.27, from 10.1.0-M1 through 10.1.61, from 9.0.20 through 9.0.123. Users are recommended to upgrade to…",
+"title": "CVE-2026-116830: Missing release of resource after effective lifetime vulnerability in Apache Tomcat's HTTP/2 initial connection handling leads to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116830",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Tomcat",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-117517"
+],
+"cvss": 7.3,
+"epss": 0.00138,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "CVE-2026-117517",
+"last_seen": "2026-11-21",
+"published": "2026-11-19T22:17:58Z",
+"reasons": [
+"CVSS 7.3",
+"matches Apache Tomcat (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The fix for CVE-2026-25854 was incomplete. This issue affects Apache Tomcat: from 11.0.19 through 11.0.27, from 10.1.53 through 10.1.61, from 9.0.116 through 9.0.123. Users are recommended to upgrade to version 11.0.29, 10.1.62 or 9.0.124, which fix the issue. Note: Tomcat 11.0.28 was not released",
+"title": "CVE-2026-117517: The fix for CVE-2026-25854 was incomplete. This issue affects Apache Tomcat: from 11.0.19 through 11.0.27, from 10.1.53 through 10.1.61…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117517",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Tomcat",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-118028"
+],
+"cvss": 9.1,
+"epss": 0.00162,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "CVE-2026-118028",
+"last_seen": "2026-11-21",
+"published": "2026-11-19T22:17:58Z",
+"reasons": [
+"CVSS 9.1",
+"matches Apache Tomcat (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Execution After Redirect (EAR) vulnerability in Apache Tomcat in RedirectValve affecting flags [F], [G] and [R]. This issue affects Apache Tomcat: from 11.0.0-M18 through 11.0.27, from 10.1.20 through 10.1.61, from 9.0.87 through 9.0.123. The following versions were EOL at the time the CVE was…",
+"title": "CVE-2026-118028: Execution After Redirect (EAR) vulnerability in Apache Tomcat in RedirectValve affecting flags [F], [G] and [R]. This issue affects…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118028",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Tomcat",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-118233"
+],
+"cvss": 7.5,
+"epss": 0.00146,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "CVE-2026-118233",
+"last_seen": "2026-11-21",
+"published": "2026-11-19T22:17:59Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache Tomcat (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Allocation of resources without limits or throttling vulnerability in Apache Tomcat during HTTP upgrade in some circumstances lead to possible DoS. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.27, from 10.1.0-M1 through 10.1.61, from 9.0.41 through 9.0.123. The following versions…",
+"title": "CVE-2026-118233: Allocation of resources without limits or throttling vulnerability in Apache Tomcat during HTTP upgrade in some circumstances lead to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118233",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Tomcat",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-118436"
+],
+"cvss": 7.5,
+"epss": 0.00146,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "CVE-2026-118436",
+"last_seen": "2026-11-21",
+"published": "2026-11-19T22:17:59Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache Tomcat (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Allocation of resources without limits or throttling vulnerability in Apache Tomcat in the CGI Servlet when handling POST bodies can result in a DoS for some inputs. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.27, from 10.1.0-M1 through 10.1.61, from 9.0.0.M1 through 9.0.123. The…",
+"title": "CVE-2026-118436: Allocation of resources without limits or throttling vulnerability in Apache Tomcat in the CGI Servlet when handling POST bodies can result…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118436",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Tomcat",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-95517"
+],
+"cvss": 9.1,
+"epss": 0.00056,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "CVE-2026-95517",
+"last_seen": "2026-11-21",
+"published": "2026-11-19T22:19:56Z",
+"reasons": [
+"CVSS 9.1",
+"matches Apache Tomcat (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Reliance on obfuscation or encryption of Security-Relevant inputs without integrity checking, Improper validation of integrity check value, Cleartext transmission of sensitive information vulnerability in the EncryptInterceptor of Apache Tomcat. This issue affects Apache Tomcat: from 11.0.0-M1…",
+"title": "CVE-2026-95517: Reliance on obfuscation or encryption of Security-Relevant inputs without integrity checking, Improper validation of integrity check value…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95517",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Tomcat",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129995"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "CVE-2026-129995",
+"last_seen": "2026-11-21",
+"published": "2026-11-20T19:18:44Z",
+"reasons": [
+"CVSS 8.8",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "mcp-ssh-manager is an MCP server for managing servers over SSH with human approval, an encrypted vault, and a live audit trail. Prior to 3.8.5, ssh_backup_create, ssh_backup_restore, ssh_backup_schedule, and ssh_backup_list build remote shell commands from caller-controlled values in…",
+"title": "CVE-2026-129995: mcp-ssh-manager is an MCP server for managing servers over SSH with human approval, an encrypted vault, and a live audit trail",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129995",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-77383"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "CVE-2026-77383",
+"last_seen": "2026-11-21",
+"published": "2026-11-20T19:18:55Z",
+"reasons": [
+"CVSS 8.7",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "mcp-ssh-manager is an MCP server for managing servers over SSH with human approval, an encrypted vault, and a live audit trail. Prior to 3.6.7, ssh_db_list, ssh_db_dump, ssh_db_import, and ssh_db_restore in src/database-manager.js interpolate caller-controlled database, table, collection, file…",
+"title": "CVE-2026-77383: mcp-ssh-manager is an MCP server for managing servers over SSH with human approval, an encrypted vault, and a live audit trail",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77383",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 3,
+"cve_ids": [
+"CVE-2026-23871"
+],
+"cvss": 3.5,
+"first_seen": "2026-11-20T18:45:40Z",
+"id": "CVE-2026-23871",
+"last_seen": "2026-11-21",
+"published": "2026-11-20T17:18:25Z",
+"reasons": [
+"matches Google Android (Tier 2)",
+"3 sources"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD",
+"SecurityWeek",
+"The Hacker News"
+],
+"summary": "Incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4 could have caused a target's device to reveal its IP information to an attacker if an attacker sent media from an attacker-controlled URL when a crafted Click to WhatsApp…",
+"title": "CVE-2026-23871: Incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4 could have…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23871",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Android",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-56681"
+],
+"cvss": 7.3,
+"epss": 0.01114,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "CVE-2026-56681",
+"last_seen": "2026-11-21",
+"published": "2026-11-20T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.3",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "decolua 9Router. 9Router is an AI router & token saver. Prior to 0.5.6, 9Router deployments that allow requests to reach Next.js without the sanitizing custom-server.js wrapper trust the client-supplied X-9r-Real-Ip header in src/dashboardGuard.js when isLocalRequest decides whether…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-56681: Reliance on Untrusted Inputs in a Security Decision",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56681"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-133968"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "CVE-2026-133968",
+"keyword_hits": [
+"exploited in the wild",
+"remote code execution"
+],
+"last_seen": "2026-11-21",
+"published": "2026-11-20T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"exploited in the wild",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "Project-MONIA MONAI Label. monailabel (aka MONAI Label) through 0.8.5 allows directory traversal, with resultant remote code execution, via the image parameter to the PUT /datastore/image endpoint, as exploited in the wild starting in September 2026.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-133968: Path Traversal: '../filedir'",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-113425",
+"CVE-2026-121810",
+"CVE-2026-123007",
+"CVE-2026-123633",
+"CVE-2026-123634"
+],
+"cvss": 9.2,
+"epss": 0.06086,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "139b04ef92ca141b84525392a63993b1cf3577f7bb937745bfafc637694e74c6",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-21",
+"published": "2026-11-20T16:00:00Z",
+"reasons": [
+"CVSS 9.2",
+"remote code execution",
+"matches Cisco (Tier 1)"
+],
+"route": "digest",
+"score": 10,
+"source": "Cisco PSIRT",
+"source_type": "rss",
+"sources": [
+"Cisco PSIRT"
+],
+"summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These…",
+"title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
+"url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Cisco",
+"tier": 1,
+"vendor": "Cisco"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "d6dd2958abbd66dccaa35ca599cabf2e583378495a507c1f58731420cb9ffe0e",
+"keyword_hits": [
+"zero-day"
+],
+"last_seen": "2026-11-21",
+"published": "2026-11-20T21:03:27Z",
+"reasons": [
+"zero-day",
+"matches VMware vCenter (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Dark Reading",
+"source_type": "rss",
+"sources": [
+"Dark Reading"
+],
+"summary": "During the last wave of major VMware vCenter security updates, a China-nexus threat group likely already had its next zero-day up its sleeve.",
+"title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
+"url": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+"vendor_matches": [
+{
+"points": 2,
+"term": "vCenter",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "3f0582b469733ac3b5bc8768549830dde80c7525bf776313a6dbaa866ad2bb84",
+"last_seen": "2026-11-21",
+"published": "2026-11-20T18:33:14Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Hurried Announcement: Alessandro Masullo GRH",
+"url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "663b49ab5a80f2b1c1b612ae93bd5986e82db055dbaa1319cc470d23a7a19511",
+"last_seen": "2026-11-21",
+"published": "2026-11-20T20:12:19Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Inkling 2 Mini",
+"url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "eca662c1efdbf5bb86ff79defb35f3c85516ca2cbea986bee21e4efa3bfb906e",
+"last_seen": "2026-11-21",
+"published": "2026-11-20T17:21:36Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+"url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-21T00:19:38Z",
+"id": "7b45400aa9d7152a1afa8c31fa694ec52e5028ff941106051ecba34be7b9a99c",
+"last_seen": "2026-11-21",
+"published": "2026-11-20T16:29:06Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Language Models Can Rewrite Their Own Weights",
+"url": "https://arxiv.org/abs/2611.21885",
+"weight": 3
 }
 ]
