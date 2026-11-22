@@ -4434,5 +4434,98 @@
 "title": "Getting the mind to steer the body to steer you",
 "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134624"
+],
+"cvss": 9.3,
+"first_seen": "2026-11-22T21:52:40Z",
+"id": "CVE-2026-134624",
+"last_seen": "2026-11-22",
+"published": "2026-11-22T19:16:32Z",
+"reasons": [
+"CVSS 9.3",
+"matches N-able (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "N-able MailAssure (SpamExperts) before 20261121.1943 does not restrict the destination of the LDAP synchronisation connection check performed when a relay is configured. An authenticated API user can cause the server to connect to arbitrary internal hosts and ports, determine which are reachable…",
+"title": "CVE-2026-134624: N-able MailAssure (SpamExperts) before 20261121.1943 does not restrict the destination of the LDAP synchronisation connection check…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-able",
+"tier": 3,
+"vendor": "N-able"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-54322"
+],
+"cvss": 10.0,
+"epss": 0.15266,
+"first_seen": "2026-11-22T21:52:40Z",
+"id": "CVE-2025-54322",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-22",
+"published": "2026-11-22T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 10.0",
+"remote code execution",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "xspeeder sxzos. Xspeeder SXZOS through 2025-12-26 allows root remote code execution via base64-encoded Python code in the chkid parameter to vLogin.py. The title and oIP parameters are also used.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-54322: xspeeder sxzos Improper Neutralization of Directives in Dynamically Evaluated Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54322"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-22T21:52:40Z",
+"id": "3e1762a9564ba6008fb430f74cdfd8f786e4fc01351a1b7f49f43f7e0f030bbf",
+"last_seen": "2026-11-22",
+"published": "2026-11-22T17:06:27Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Perplexity and Intelligence",
+"url": "https://openai.com/index/perplexity-and-intelligence/",
+"weight": 3
 }
 ]
