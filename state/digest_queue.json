@@ -403,7 +403,7 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-129289"
 ],
@@ -411,7 +411,7 @@
 "epss": 0.16138,
 "first_seen": "2026-11-21T21:03:21Z",
 "id": "CVE-2026-129289",
-"last_seen": "2026-11-21",
+"last_seen": "2026-11-22",
 "published": "2026-11-21T00:00:00Z",
 "reasons": [
 "new VulnCheck KEV",
@@ -423,6 +423,7 @@
 "source": "VulnCheck KEV",
 "source_type": "vulncheck_kev",
 "sources": [
+"NVD",
 "VulnCheck KEV"
 ],
 "summary": "PHP PHP. PHP-FPM request smuggling through an unread HTTP request body. PHP does not discard the unread part of an HTTP request body at request shutdown when the application has opened php://input without reading it to the end. When the front end reuses backend connections, which is not the default…",
@@ -595,5 +596,53 @@
 ],
 "url": "https://www.aljazeera.com/sports/2026/11/21/diallo-present-as-africa-football-boss-motsepe-reiterates-infantino-support?traffic_source=rss",
 "weight": 1
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-22T01:08:38Z",
+"id": "54b2c83e86bbc774fb14bc9245ff700adf265a454c0baf40b5674ac60230abfc",
+"last_seen": "2026-11-22",
+"published": "2026-11-20T21:03:12Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+"url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-22T01:08:38Z",
+"id": "1a38409ac843aa651bd2731f60abb6193193be6be9c2b64123cd295e2f59ff43",
+"last_seen": "2026-11-22",
+"published": "2026-11-21T18:02:19Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Inkling-2-Mini in 5.4 GB Memory",
+"url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+"weight": 3
 }
 ]
