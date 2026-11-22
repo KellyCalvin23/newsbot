@@ -644,5 +644,89 @@
 "title": "Inkling-2-Mini in 5.4 GB Memory",
 "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132814"
+],
+"first_seen": "2026-11-22T08:04:08Z",
+"id": "CVE-2026-132814",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-22",
+"published": "2026-11-22T06:17:11Z",
+"reasons": [
+"unauthenticated",
+"matches Microsoft (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The WPO365 | SEAMLESS WORDPRESS + MICROSOFT INTEGRATION (WPO365 | LOGIN) WordPress plugin before 45.0 does not verify that a Microsoft ID token was issued for the site's own application and tenant when multi-tenant sign-in is enabled with an empty list of allowed tenants, allowing unauthenticated…",
+"title": "CVE-2026-132814: The WPO365 | SEAMLESS WORDPRESS + MICROSOFT INTEGRATION (WPO365 | LOGIN) WordPress plugin before 45.0 does not verify that a Microsoft ID…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132814",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-22T08:04:08Z",
+"id": "c799364a285d63c41f35a27e99551ea8fa9448b9f1462eb7073f8d3bf0305bef",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-22",
+"published": "2026-11-22T05:03:41Z",
+"reasons": [
+"RCE"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the…",
+"title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+"url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-22T08:04:08Z",
+"id": "d3f60c1cc10e528c63980a68662767114fc7a5a6c43260cf71b6641a22cc73e4",
+"last_seen": "2026-11-22",
+"published": "2026-11-22T04:04:56Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+"url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+"weight": 3
 }
 ]
