@@ -4527,5 +4527,152 @@
 "title": "Perplexity and Intelligence",
 "url": "https://openai.com/index/perplexity-and-intelligence/",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134819"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-23T02:29:59Z",
+"id": "CVE-2026-134819",
+"last_seen": "2026-11-23",
+"published": "2026-11-22T22:17:36Z",
+"reasons": [
+"CVSS 7.1",
+"matches Azure (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Delta Sharing reference server 1.4.0 before 1.5.0 contains an incorrect permission assignment vulnerability that allows share recipients to read unshared data via container-scoped Azure SAS tokens. Recipients with a valid bearer token can request credentials from the temporary-table-credentials…",
+"title": "CVE-2026-134819: Delta Sharing reference server 1.4.0 before 1.5.0 contains an incorrect permission assignment vulnerability that allows share recipients to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134819",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Azure",
+"tier": 3,
+"vendor": "Azure"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134827"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-23T02:29:59Z",
+"id": "CVE-2026-134827",
+"last_seen": "2026-11-23",
+"published": "2026-11-22T22:17:37Z",
+"reasons": [
+"CVSS 8.3",
+"matches GitLab (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Lightdash before 3.212.0 contains an insufficiently protected credentials vulnerability in getGitlabInstallationRepoReadAccess that sends the organization GitLab app token to unverified hosts. Project developers can set the dbt connection host_domain to an attacker-controlled server and capture the…",
+"title": "CVE-2026-134827: Lightdash before 3.212.0 contains an insufficiently protected credentials vulnerability in getGitlabInstallationRepoReadAccess that sends…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134827",
+"vendor_matches": [
+{
+"points": 2,
+"term": "GitLab",
+"tier": 3,
+"vendor": "GitLab"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120814"
+],
+"cvss": 7.5,
+"epss": 0.00415,
+"first_seen": "2026-11-23T02:29:59Z",
+"id": "CVE-2026-120814",
+"last_seen": "2026-11-23",
+"published": "2026-11-23T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.5",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "mongodb mongodb. An improper privilege management issue in the sharding subsystem of MongoDB Server may allow a user holding certain shard-level administrative privileges to cause persisted internal coordination state to be reprocessed with elevated internal authority. Because that state is trusted…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-120814: mongodb mongodb Execution with Unnecessary Privileges",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120814"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-23T02:29:59Z",
+"id": "03e05485bd309b8bdeef50b7c1b1e788ad8d238acc1db854f34657260c886dd3",
+"last_seen": "2026-11-23",
+"published": "2026-11-22T19:10:34Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+"url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-23T02:29:59Z",
+"id": "2dd40e6e50cbc72c6b6d5aab1623c61fd73a6503d617a305ca294f5cd468334e",
+"last_seen": "2026-11-23",
+"published": "2026-11-22T19:20:15Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "What Happened to Silicon Valley?",
+"url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+"weight": 3
 }
 ]
