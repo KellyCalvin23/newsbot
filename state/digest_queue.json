@@ -4674,5 +4674,379 @@
 "title": "What Happened to Silicon Valley?",
 "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2022-25568"
+],
+"cvss": 7.5,
+"epss": 0.0686,
+"first_seen": "2026-11-23T11:08:19Z",
+"id": "CVE-2022-25568",
+"last_seen": "2026-11-23",
+"published": "2026-11-23T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 7.5",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "motioneye_project motioneye. MotionEye v0.42.1 and below allows attackers to access sensitive information via a GET request to /config/list. To exploit this vulnerability, a regular user password must be unconfigured.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2022-25568: motioneye_project motioneye Initialization of a Resource with an Insecure Default",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-25568"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-23T11:08:19Z",
+"id": "37b117f7d07af355cb38acfe2202716ab75f267c4e9b959b058270df0e0a8903",
+"keyword_hits": [
+"actively exploited",
+"RCE"
+],
+"last_seen": "2026-11-23",
+"published": "2026-11-23T07:44:19Z",
+"reasons": [
+"actively exploited",
+"matches Cisco (Tier 1)"
+],
+"route": "digest",
+"score": 6,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
+"title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+"url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Cisco",
+"tier": 1,
+"vendor": "Cisco"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-131914"
+],
+"epss": 0.00614,
+"first_seen": "2026-11-23T11:08:19Z",
+"id": "3d4bf6d33d64ff3fb394a3223815a44e0b3eed27ee2a08bfe435b27101e340c8",
+"keyword_hits": [
+"exploited in the wild",
+"RCE",
+"unauthenticated"
+],
+"last_seen": "2026-11-23",
+"published": "2026-11-23T09:11:56Z",
+"reasons": [
+"exploited in the wild"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as CVE-2026-131914, carries a CVSS…",
+"title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+"url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-23T11:08:19Z",
+"id": "4baa56258ab27858442a7cf182bbc94916a58f427093958539ebf636b1594ce0",
+"last_seen": "2026-11-23",
+"published": "2026-11-23T03:49:24Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "XNU Linux: Full OS X GUI Userspace on Linux",
+"url": "https://github.com/AFK-surf/xnulinux",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-23T11:08:19Z",
+"id": "ddc35f218f5252ec9d869aa2719127e6528fd415f9465cdc685fcca9d28bda93",
+"last_seen": "2026-11-23",
+"published": "2026-11-23T01:13:51Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+"url": "https://spelunkr.tv",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-23T11:08:19Z",
+"id": "dfcc4e8f8697fb8b0a6c01b58d10a986aee1163291f87a3a119fe5a551f35d4d",
+"last_seen": "2026-11-23",
+"published": "2026-11-22T21:01:16Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+"url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-23T11:08:19Z",
+"id": "44cce0e24aaa737e4b5dffcf2b6ea5f233d0fdfc95724493aca947617ededdce",
+"last_seen": "2026-11-23",
+"published": "2026-11-22T13:56:58Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Show HN: I built a game where you are an LLM's subagent",
+"url": "https://github.com/gulivan/worker755",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-23T11:08:19Z",
+"id": "a661f569635d1a8c3aa34ceccb037fd8a6c1a5d1ef33c3425dcc6413766b1238",
+"last_seen": "2026-11-23",
+"published": "2026-11-23T10:03:54Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Unlocking bank financing will be key to pushing Rwanda's mineral exports past $2 billion, the Rwanda Mining Association (RMA) has said.",
+"title": "What Will It Take to Push Rwanda's Mineral Exports Past $2bn?",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611230197.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-23T11:08:19Z",
+"id": "2da85333e2b95d545bdab731951693728ae90bd885fd36740b1611d6d5983d74",
+"last_seen": "2026-11-23",
+"published": "2026-11-23T05:31:38Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Prime Minister Justin Nsengiyumva arrived in Addis Ababa, Ethiopia, on Sunday, November 22, to represent President Paul Kagame at the fifth International Conference on Public Health in Africa (CPHIA).",
+"title": "PM Nsengiyumva in Addis for Africa Public Health Summit",
+"topic_hits": [
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611230093.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-23T11:08:19Z",
+"id": "2d24c46b4b8c0e8b2309f4d5d029e22ae63fc8a0519f4bc0d1902ba795313f11",
+"last_seen": "2026-11-23",
+"published": "2026-11-23T05:02:23Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[The Conversation Africa] For many women, childbirth is the one of the most meaningful and joyous moments of life. For some, though, the experience can be overshadowed by fear, neglect or a loss of dignity in a health facility. A woman arrives at a hospital in labour, anxious, in pain, and relies…",
+"title": "Most Women in Rwanda Give Birth in a Health Facility - but How Are They Treated?",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611230035.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-23T11:08:19Z",
+"id": "4d1165a86c67eb893c44384b5256183333d74072654dd2550f5c96480d2a23cc",
+"last_seen": "2026-11-23",
+"published": "2026-11-23T10:28:45Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Let me tell you about my Friday the 13th.",
+"title": "Microsoft's Bad Friday Is Rwanda's Warning",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611230257.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-23T11:08:19Z",
+"id": "412ae5e8af12bea19e63751d7d0b90a10b19a5f0c5d089d134e30aa1a9ae86ca",
+"last_seen": "2026-11-23",
+"published": "2026-11-23T10:28:10Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The 2027 Tour du Rwanda is set to offer a new experience for cycling fans and participants, with several innovations introduced for its 19th edition, including a trophy for the overall champion.",
+"title": "Tour Du Rwanda - What Should Cycling Fans Expect in 2027?",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611230256.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-23T11:08:19Z",
+"id": "30e337335febab82cc36979315729a41962f71c338cb35878fb84f0f167a42f2",
+"last_seen": "2026-11-23",
+"published": "2026-11-23T10:27:41Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Nigerian comedian Doctall Kingsley has spoken about his growing affection for Rwanda, describing it as a peaceful and beautiful country where he enjoys visiting to relax and unwind.",
+"title": "Comedian Doctall Kingsley Opens Up About His Rwanda Love Story",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611230255.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-23T11:08:19Z",
+"id": "a5e1467d118baeb8123cb9ee082dad3bb5ad7a783a99e894a08f80bab7886b30",
+"last_seen": "2026-11-23",
+"published": "2026-11-23T10:04:18Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Mobile money adoption among women in Rwanda has risen to 78 per cent, but only 16 per cent have bank accounts, compared with 28 per cent of men, highlighting a persistent gap in access to traditional financial services, a new report has found.",
+"title": "Women's Mobile Money Use Rises, but Business Financing Lags - Report",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611230198.html",
+"weight": 1
 }
 ]
