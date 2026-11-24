@@ -1510,5 +1510,199 @@
 ],
 "url": "https://allafrica.com/stories/202611230535.html",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134401"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-24T06:29:08Z",
+"id": "CVE-2026-134401",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T00:17:30Z",
+"reasons": [
+"CVSS 9.6",
+"matches Google Chrome (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper input validation in Variations in Google Chrome prior to 158.0.8127.88 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+"title": "CVE-2026-134401: Improper input validation in Variations in Google Chrome prior to 158.0.8127.88 allowed a remote attacker to potentially execute arbitrary…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134401",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Chrome",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T06:29:08Z",
+"id": "a8ccee1f330e854439de776a7bb54c73bb257e399e6e1201530056448abbce92",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T22:32:29Z",
+"reasons": [
+"matches Microsoft Exchange (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+"url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Exchange",
+"tier": 2,
+"vendor": "Microsoft"
+}
+],
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T06:29:08Z",
+"id": "a5727cf32e489fb88d5e5e30cea3ef12a898746f7ab4df6c8285cf84ef52a579",
+"last_seen": "2026-11-24",
+"published": "2026-11-21T09:14:02Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Spacecraft reaches Mercury on second-ever mission to enter its orbit",
+"url": "https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T06:29:08Z",
+"id": "aa4920476a8a7bd7ebfa35fee4631289987656043259649b35ee21ed24d7a420",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T17:17:01Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Kagi Mail (public beta)",
+"url": "https://blog.kagi.com/kagi-mail-public-beta",
+"weight": 3
+},
+{
+"big_story_hits": [
+"nuclear"
+],
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T06:29:08Z",
+"id": "5b0871d81766d075c28439ca5bfd8f6130cd0d5bd3e86360b8e91ccb976a0ff7",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T02:15:59Z",
+"reasons": [
+"big story: nuclear",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "German media said Russia planned to launch a satellite with a nuclear warhead into space in coming weeks.",
+"title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+"url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T06:29:08Z",
+"id": "0d63c0a368a8d4d62a35be16069ddc45179c5504dd83fc7e2bde2c177d1f5d2d",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T05:46:45Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Prime Minister Justin Nsengiyumva has called on African countries to take greater responsibility for financing their health systems, warning that declining external assistance and growing health threats make reliance on foreign funding increasingly unsustainable.",
+"title": "PM Nsengiyumva Challenges Africa to Rethink Healthcare Financing",
+"topic_hits": [
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611240109.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T06:29:08Z",
+"id": "97cdea725d29c3a6a04b7d3916463db7a898f9d92011ce46251cb36a35f88ca4",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T05:05:11Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[The Conversation Africa] In both Rwanda and Papua New Guinea, only about 10% of the population had electricity in the early 2000s. Both countries have rural populations that are difficult to reach with national electricity grids. Both partly privatised their electricity sectors and set ambitious…",
+"title": "Rwanda and Papua New Guinea Had Big Energy Access Plans - Study Compares What Happened",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611240059.html",
+"weight": 1
 }
 ]
