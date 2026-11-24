@@ -1794,7 +1794,7 @@
 "CVE-2026-97229"
 ],
 "meta": {
-"nvd_cursor": "2026-11-24T06:29:08Z"
+"nvd_cursor": "2026-11-24T18:10:55Z"
 },
 "seeded_sources": [
 "Al Jazeera",
@@ -3227,7 +3227,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -3350,7 +3350,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -3567,10 +3567,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "0808318b9804fe407b8303641c31bc621f4e2798aba074f0f51d29854b35c17f",
 "last_seen": "2026-11-23",
-"published": "2026-11-21T05:15:41Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -3578,8 +3574,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-"url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo",
 "weight": 1
 },
 "080bee490fded9bf621cb7b736786816382145631b64c325370ff6bc917fe1fa": {
@@ -3934,6 +3928,34 @@
 ],
 "weight": 1
 },
+"0927fbf4634fc5c40272cf82162140789a6fbc55ac161445aed4e3901c188ca7": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "0927fbf4634fc5c40272cf82162140789a6fbc55ac161445aed4e3901c188ca7",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:09:23Z",
+"reasons": [
+"matches Adobe (Tier 2)"
+],
+"route": "drop",
+"score": 2,
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "The New York Times warns photographers not to update Photoshop over AI features",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
 "092e0bfe38c69a1871bf75ede6145c6935472442ab2f1b74a4597656b0bbf590": {
 "category": "world",
 "coverage_count": 1,
@@ -4198,6 +4220,29 @@
 ],
 "weight": 1
 },
+"0a1f35c3585bfd6fd296e1f6abc0fcb3d183554094d793015ff35d499eb0d56c": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "0a1f35c3585bfd6fd296e1f6abc0fcb3d183554094d793015ff35d499eb0d56c",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:49:00Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "The Record",
+"source_type": "rss",
+"sources": [
+"The Record"
+],
+"title": "Lawmakers warn ID verification companies to bolster security after September hack",
+"url": "https://therecord.media/idscan-data-breach-warning-congressional-letter"
+},
 "0a28533b71e9f4ed3e1b8c5408e640c1ae9921a066a4c4189198e50093975e04": {
 "category": "security",
 "coverage_count": 1,
@@ -4217,11 +4262,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "0a3c2d6358598e211aa8e78fd733ed4f26e460985f6351605428a05b2d137fd3",
 "last_seen": "2026-11-23",
-"published": "2026-11-21T15:17:27Z",
-"reasons": [
-"matches Google Android (Tier 2)",
-"topic: botnet"
-],
 "route": "digest",
 "score": 4,
 "source": "BleepingComputer",
@@ -4229,11 +4269,9 @@
 "sources": [
 "BleepingComputer"
 ],
-"title": "BADBOX 3.0 botnet returns with record-breaking 40 billion daily ad requests",
 "topic_hits": [
 "botnet"
 ],
-"url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
 "vendor_matches": [
 {
 "points": 2,
@@ -4273,6 +4311,22 @@
 ],
 "weight": 1
 },
+"0a5b0f141b24357fe2d57eb48c962ed54385bcf63566cf373909b8b0fe29fcdd": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "0a5b0f141b24357fe2d57eb48c962ed54385bcf63566cf373909b8b0fe29fcdd",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:01:11Z",
+"route": "drop",
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
+"url": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/"
+},
 "0a6364e41fb45c44a2a95bc89e8d259a4ed507605c109d4f9ffce74922e31677": {
 "category": "world",
 "coverage_count": 1,
@@ -4296,7 +4350,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -4964,10 +5018,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "0c5b955f9827fcbb5a28e9890a0bdb25bc8f3faea210052c424d8fb576c1d4d3",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T04:32:07Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -4975,8 +5025,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
-"url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh?traffic_source=rss",
 "weight": 1
 },
 "0c6e90957233671b3c816096ef0619b54d2014427bb874e6309dc9a252abf8cc": {
@@ -5020,6 +5068,27 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"0c9ea328f4cef0db9d67e367b43939669915ed87cdd36aeb3bc45066a1b8f77a": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "0c9ea328f4cef0db9d67e367b43939669915ed87cdd36aeb3bc45066a1b8f77a",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T14:56:18Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Russia tows it cargo ship back home after Ukrainian drone attack",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/russia-tows-it-cargo-ship-back-home-after-ukrainian-drone-attack?traffic_source=rss",
 "weight": 1
 },
 "0cbbeda277f6a0530a10644583aa02dab05ef4766d6bae7c5b601eea0693fbdf": {
@@ -5204,6 +5273,22 @@
 "url": "https://allafrica.com/stories/202611240109.html",
 "weight": 1
 },
+"0d7889d6b5c22277160c961b79608abf31c2bb8060142966ee494101f025008c": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "0d7889d6b5c22277160c961b79608abf31c2bb8060142966ee494101f025008c",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T13:00:00Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Uber, Nuro, and Lucid kick off fully driverless robotaxi testing",
+"url": "https://www.theverge.com/transportation/1040676/uber-nuro-lucid-driverless-robotaxi-testing-bay-area"
+},
 "0d80b3b4441ea47fc03f6deba54497350959df02bea1c190ea78caa3858df3f5": {
 "category": "world",
 "coverage_count": 1,
@@ -5271,7 +5356,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -5665,6 +5750,22 @@
 "vendor": "Microsoft"
 }
 ]
+},
+"0e9251d3fecc57c422851209b61af5809bbc25499488c9c4b515d50622ceadc1": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "0e9251d3fecc57c422851209b61af5809bbc25499488c9c4b515d50622ceadc1",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:58:20Z",
+"route": "drop",
+"source": "Ars Technica",
+"source_type": "rss",
+"sources": [
+"Ars Technica"
+],
+"title": "Porsche 718 Boxster prototype drive: This electric roadster is real",
+"url": "https://arstechnica.com/cars/2026/11/fake-gears-and-real-911-dna-driving-porsches-electric-718-boxster/"
 },
 "0e98616e1f8c5d67aa6936c64d4f6cfaf2a7f5074d199c009473863b0a4ff32b": {
 "category": "world",
@@ -6270,6 +6371,29 @@
 ],
 "weight": 1
 },
+"111b28d87e3fbd401f780d2a02e2d36e10da7dfe044ba5e0c5fe72cf6cfe8d8f": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "111b28d87e3fbd401f780d2a02e2d36e10da7dfe044ba5e0c5fe72cf6cfe8d8f",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T14:49:59Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
+"url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/"
+},
 "111d75cbdfbe7681c40bc7b93a1f9cb6528850ad30042a4e69dd7b2708c09800": {
 "category": "tech",
 "coverage_count": 1,
@@ -6397,6 +6521,28 @@
 "sources": [
 "Ars Technica"
 ]
+},
+"11a746372162725ee8582b58b43138d03fcb8796024acd97446c57d782aae667": {
+"category": "world",
+"coverage_count": 2,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "11a746372162725ee8582b58b43138d03fcb8796024acd97446c57d782aae667",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:35:53Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"Al Jazeera",
+"BBC World"
+],
+"title": "Israeli air strike kills Hamas internal security chief in Gaza",
+"url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o",
+"weight": 1
 },
 "11a9e447f3a8e865527dbb0fec6c97b6413973d278b1e4959001dac733b8f7d5": {
 "alerted": true,
@@ -6743,10 +6889,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "12df842130b12ba3ac4890da68de66762209a2f851af1b2221c35c78a122cfce",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T06:21:03Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -6754,8 +6896,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Netanyahu is playing with the fire that killed Rabin",
-"url": "https://www.aljazeera.com/opinions/2026/11/21/netanyahu-is-playing-with-the-fire-that-killed-rabin?traffic_source=rss",
 "weight": 1
 },
 "12e81a6077a2b5373e15916b8b35bb93176785304bf2c43e73b99471c80ce8d1": {
@@ -6863,15 +7003,12 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "135590e85a2e193961ef1b83e2c789c915d4cebcee43b60f6a54cbbf642c1ac9",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T12:00:00Z",
 "route": "drop",
 "source": "The Verge",
 "source_type": "rss",
 "sources": [
 "The Verge"
-],
-"title": "Harbinger is building the unsexy EVs that keep the economy moving",
-"url": "https://www.theverge.com/transportation/1038448/harbinger-ev-startup-240m-series-d-fedex-army-trucks"
+]
 },
 "13679283c87e19ec6a158b57fd1666ef88a0704ff7b8002832169fb6797287db": {
 "category": "security",
@@ -7082,6 +7219,22 @@
 ],
 "weight": 1
 },
+"143531439c91f9783bb31f543cf0bcba40f188360679486d63ba6eceb5e382c4": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "143531439c91f9783bb31f543cf0bcba40f188360679486d63ba6eceb5e382c4",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:30:19Z",
+"route": "drop",
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+"url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/"
+},
 "14379680a633d5795516c13a6b4696ba10c7045bf5cfe3ed1cbf54a531604eae": {
 "category": "world",
 "coverage_count": 1,
@@ -7200,10 +7353,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "149c325f88bfa9fe8aae59df4d34797cf355834331e428a0cf66a0cfe87dc10f",
 "last_seen": "2026-11-23",
-"published": "2026-11-21T13:15:21Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -7211,8 +7360,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-"url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o",
 "weight": 1
 },
 "14adf6fa9b5230a17c8e1a5e76166272cf6240b5af3ff5824fb4771c948103d5": {
@@ -7388,6 +7535,22 @@
 "hn"
 ],
 "weight": 3
+},
+"153ef3314e7e9d9fa80c30308f60bf1a24aa416491c41de1629073fcba7824d2": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "153ef3314e7e9d9fa80c30308f60bf1a24aa416491c41de1629073fcba7824d2",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T14:56:50Z",
+"route": "drop",
+"source": "Ars Technica",
+"source_type": "rss",
+"sources": [
+"Ars Technica"
+],
+"title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
+"url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/"
 },
 "1547b394f08414871962a7c075cc772b50d5d762e2a7f86dffd2f0b0ac0c4fea": {
 "category": "world",
@@ -7582,6 +7745,22 @@
 "Al Jazeera"
 ],
 "weight": 1
+},
+"15e2299c0842427d5dca5d5994d0dc6e516ee508e2a7d0d769725e54851e322c": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "15e2299c0842427d5dca5d5994d0dc6e516ee508e2a7d0d769725e54851e322c",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T13:00:00Z",
+"route": "drop",
+"source": "The Record",
+"source_type": "rss",
+"sources": [
+"The Record"
+],
+"title": "McDonald’s Japan discloses breach exposing customer purchase and location data",
+"url": "https://therecord.media/japan-mcdonalds-cyberattack-breach"
 },
 "15e9dfe337b0026fc00c78d7290242371edf3169714f4ab8f932593280fe1d70": {
 "category": "security",
@@ -7806,6 +7985,22 @@
 "Dark Reading"
 ]
 },
+"16771f05ebcfecc7a97570ba5b412ec72d06123ef09315e4d60fe28e6ad1052d": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "16771f05ebcfecc7a97570ba5b412ec72d06123ef09315e4d60fe28e6ad1052d",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:14:05Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Wyze’s new window feeder records birds from a camera inside your home",
+"url": "https://www.theverge.com/tech/1041164/wyze-window-bird-cam-camera-identification"
+},
 "1678942e7bcca9764dc459b45a1c5782e318822f5bb785c998b47d5cf000479b": {
 "category": "world",
 "coverage_count": 1,
@@ -7844,11 +8039,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "1680cd9b0b303f40b6053b3ed994474478e0238b0727b4a484bc3a7fc93fbbe3",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T14:15:36Z",
-"reasons": [
-"big story: nuclear",
-"source weight +1"
-],
 "route": "digest",
 "score": 3,
 "source": "Al Jazeera",
@@ -7856,8 +8046,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Could Iran reverse its stated policy of a civil-only nuclear programme?",
-"url": "https://www.aljazeera.com/news/2026/11/21/could-iran-reverse-its-stated-policy-of-a-civil-only-nuclear-programme?traffic_source=rss",
 "weight": 1
 },
 "168cfd64a9975cce5c77853a9f9460c3d886d6be803663ee58228b3d8155fc40": {
@@ -7937,6 +8125,34 @@
 "hn"
 ],
 "weight": 3
+},
+"16d8900e56f6e611f3f3ead628260d7926b850e83aa3259381421bdec824a47f": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "16d8900e56f6e611f3f3ead628260d7926b850e83aa3259381421bdec824a47f",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:44:49Z",
+"reasons": [
+"matches Microsoft (Tier 2)"
+],
+"route": "drop",
+"score": 2,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+"url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
 },
 "16efb7e13ff6edadcaa38f680b68957dd060fca5adde5845656a85c5dc01d476": {
 "category": "world",
@@ -8163,11 +8379,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "17d44eeeef2dbd19285b26987023c39005f6b15a65578d07cfaea6c875f31905",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T01:36:10Z",
-"reasons": [
-"topic: Africa",
-"source weight +1"
-],
 "route": "digest",
 "score": 3,
 "source": "Al Jazeera",
@@ -8175,11 +8386,9 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Can Africa’s new credit rating agency change how the continent is assessed?",
 "topic_hits": [
 "Africa"
 ],
-"url": "https://www.aljazeera.com/news/2026/11/21/can-africas-new-credit-rating-agency-change-how-the-continent-is-assessed?traffic_source=rss",
 "weight": 1
 },
 "17d50f048d53f41ff96dc02c4ea129f17414972860e656f590a6e63879185ba9": {
@@ -9199,6 +9408,34 @@
 ],
 "weight": 1
 },
+"1b2ec6a0d34697b62911b44666f98c83469d77d1641007b480768ba9c8c42a5f": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "1b2ec6a0d34697b62911b44666f98c83469d77d1641007b480768ba9c8c42a5f",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T14:21:56Z",
+"reasons": [
+"matches Check Point (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+"url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Check Point",
+"tier": 1,
+"vendor": "Check Point"
+}
+]
+},
 "1b35ef5bc51c4152b033b90cdb0259e8d463478fd4c2a6033ca3bd804af1c82b": {
 "category": "security",
 "coverage_count": 1,
@@ -9257,7 +9494,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -9805,6 +10042,31 @@
 ],
 "weight": 1
 },
+"1d1dc71834271f52c509a1e87cba1652ff2ae69ba96539341eb2720161286d4f": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "1d1dc71834271f52c509a1e87cba1652ff2ae69ba96539341eb2720161286d4f",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:05:45Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "After Libya, where will Ukraine strike Russia next?",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/after-libya-where-will-ukraine-strike-russia-next?traffic_source=rss",
+"weight": 1
+},
 "1d20c6bbcfec451923cd37e3ce34b32db3835b9ecce0614442c066e68b7cbe22": {
 "category": "security",
 "coverage_count": 1,
@@ -9899,7 +10161,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -9957,10 +10219,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "1dc89b30aa8b178135e765c2272a7fdcb12335d9cb35c34b5fa2a026e57899c8",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T06:55:02Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -9968,8 +10226,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Train collides with minibus in Indonesia",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/train-collides-with-minibus-in-indonesia?traffic_source=rss",
 "weight": 1
 },
 "1dcdc24151416904349efc95948254d656018bc67bc7086d8f7169c14e2a7bc6": {
@@ -10308,6 +10564,31 @@
 "The Hacker News"
 ]
 },
+"1efc07254990dada5fe92c77e65636558d07509c644e4c6a189f048177c4114e": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "1efc07254990dada5fe92c77e65636558d07509c644e4c6a189f048177c4114e",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T11:48:05Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "New Digital Coffee School Seeks to Raise Quality Standards",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611240332.html",
+"weight": 1
+},
 "1f0f7ae3bc00b076fa308eec330209a60bcedae667b3649c8b45a44e41954c9f": {
 "category": "world",
 "coverage_count": 1,
@@ -10627,10 +10908,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "2062efc3c877f86db4f7b324e09cbfea80afe3d23e3759fa465211cc0c981890",
 "last_seen": "2026-11-21",
-"published": "2026-11-20T15:34:31Z",
-"reasons": [
-"source weight +3"
-],
 "route": "digest",
 "score": 3,
 "source": "Hacker News",
@@ -10641,8 +10918,6 @@
 "tags": [
 "hn"
 ],
-"title": "Finite-time blow-up for the Navier–Stokes equations",
-"url": "https://github.com/tristanbuckmaster/navier-stokes/",
 "weight": 3
 },
 "2064459831ecc8f95ab898a9b029f7b556a5b54822d39620c40c8438269a0ebd": {
@@ -11376,19 +11651,13 @@
 "zero-day"
 ],
 "last_seen": "2026-11-23",
-"published": "2026-11-21T12:08:50Z",
-"reasons": [
-"zero-day"
-],
 "route": "digest",
 "score": 3,
 "source": "SecurityWeek",
 "source_type": "rss",
 "sources": [
 "SecurityWeek"
-],
-"title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
-"url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/"
+]
 },
 "228a94cec1a268b0c8fc2207d1e632a58aecaa6aa022ec64f9c29b9fcaf4c0bc": {
 "category": "world",
@@ -11396,10 +11665,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "228a94cec1a268b0c8fc2207d1e632a58aecaa6aa022ec64f9c29b9fcaf4c0bc",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T05:46:29Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -11407,8 +11672,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Can Israel’s opposition bloc stay united against Netanyahu?",
-"url": "https://www.aljazeera.com/news/2026/11/21/can-israels-opposition-bloc-stay-united-against-netanyahu?traffic_source=rss",
 "weight": 1
 },
 "22a4460479cd3d2efddef180b538b6e941dcd5bd1f1b6f30732b67b15cc6d91d": {
@@ -11533,6 +11796,27 @@
 "sources": [
 "The Hacker News"
 ]
+},
+"2316df6492b46a960a769cde5b54ef513744ec371ecf77a8d18fb2420ede44e0": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "2316df6492b46a960a769cde5b54ef513744ec371ecf77a8d18fb2420ede44e0",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T14:16:33Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Could Russia-Ukraine war threaten Libya’s fragile reunification process?",
+"url": "https://www.aljazeera.com/news-analysis/2026/11/24/could-russia-ukraine-war-threaten-libyas-fragile-reunification-process?traffic_source=rss",
+"weight": 1
 },
 "231e63c479821cb45e0f2f83237105a4b08cc7631c2bbf9c3e5e1295759569a4": {
 "category": "world",
@@ -11973,6 +12257,27 @@
 "Ars Technica"
 ]
 },
+"2501d3dd1907cf4b8df6db9b8d73ab46be9fe7ce09384fd7826f4496b94ff17d": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "2501d3dd1907cf4b8df6db9b8d73ab46be9fe7ce09384fd7826f4496b94ff17d",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:33:41Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Five tonnes of explosives set to blow up in Iowa",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/five-tonnes-of-explosives-set-to-blow-up-in-iowa?traffic_source=rss",
+"weight": 1
+},
 "2520fcbe1e4397eddd2bd8e07a529c44717ecfbf089b1a064a0b939aae40a01f": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -12123,6 +12428,22 @@
 "hn"
 ],
 "weight": 3
+},
+"26107aa4b3df95688021db54507696e3fbb6b9ee67f33dc80a115dec4280d384": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "26107aa4b3df95688021db54507696e3fbb6b9ee67f33dc80a115dec4280d384",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:12:46Z",
+"route": "drop",
+"source": "Ars Technica",
+"source_type": "rss",
+"sources": [
+"Ars Technica"
+],
+"title": "NASA may get $2 billion boost as White House seeks to accelerate Artemis",
+"url": "https://arstechnica.com/space/2026/11/nasa-may-get-2-billion-boost-as-white-house-seeks-to-accelerate-artemis/"
 },
 "261e0550fb0e32bbb8ea10fdd9be291fcf316c0fea6cf7c9dc71cebc9047fc1e": {
 "category": "world",
@@ -12324,6 +12645,22 @@
 "topic_hits": [
 "critical infrastructure"
 ]
+},
+"26811aa91ff11aebaf28682e6e818f78f0dbf1f337cbb48afc74abb112e6731f": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "26811aa91ff11aebaf28682e6e818f78f0dbf1f337cbb48afc74abb112e6731f",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:22:44Z",
+"route": "drop",
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "European Commission confirms data theft in EU Academy breach",
+"url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/"
 },
 "26840cfe25002d0bccb298be3672d8884410d44e608df883db7734508cb39fa9": {
 "category": "world",
@@ -13048,10 +13385,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "2927cc9a11de692aef742ffd652a33256b82f0e7b8b7335e963b1fd43d80f13d",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T10:27:23Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -13059,8 +13392,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Cavaliers’ Harden passes Bryant, closes on Jordan in NBA 50-point game list",
-"url": "https://www.aljazeera.com/sports/2026/11/21/cavaliers-james-harden-closes-on-michael-jordan-in-nba-50-point-game-list?traffic_source=rss",
 "weight": 1
 },
 "293f6295b94d933fa5d3c8220b0b36ac3c85b183ffbd3832846c282e359d0d86": {
@@ -13206,7 +13537,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -14183,15 +14514,12 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "2d36b2960e51fcdbd8dc4cb9f58718bb77380afa13d99bd816e1dd0412d4501c",
 "last_seen": "2026-11-24",
-"published": "2026-11-21T11:05:53Z",
 "route": "drop",
 "source": "The Hacker News",
 "source_type": "rss",
 "sources": [
 "The Hacker News"
-],
-"title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-"url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
+]
 },
 "2d4bed449bd16f6c9aa3bda7f089b5924a6bb954da183b7810b2072d34dafb92": {
 "category": "world",
@@ -14214,10 +14542,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "2d61ea3eaaffbbf0a6b9d758ab8e90542fd03222d8d2cb07247db1bc491c859d",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T10:25:29Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -14225,9 +14549,23 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Nations agree to ‘elaborate’ on rules for AI-run ‘killer robots’ by 2028",
-"url": "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit?traffic_source=rss",
 "weight": 1
+},
+"2d639385b10c52ac756b5e442a86511eab54ab846fe00729570abbf731749d75": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "2d639385b10c52ac756b5e442a86511eab54ab846fe00729570abbf731749d75",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T14:13:22Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Harman Kardon’s classic, see-through SoundSticks 4 are half off",
+"url": "https://www.theverge.com/gadgets/1040300/harman-kardon-soundsticks-4-speakers-black-friday-2026-deal-sale"
 },
 "2d7710afbfe4a8677fae0cb1305480843854216d0ab3dc0a4909583a2862bbe7": {
 "category": "world",
@@ -14262,7 +14600,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-18T16:30:18Z",
 "id": "2d7c1a24a37d0b48a56124034f6fadc9be7eddc1c8a631837a0a136ac3a63457",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -14607,7 +14945,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -14843,6 +15181,34 @@
 ],
 "weight": 1
 },
+"2fc6aa311b4c81e5162b0d8c4bd495966361602652b3a3c2033ac9ecd3604aa0": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "2fc6aa311b4c81e5162b0d8c4bd495966361602652b3a3c2033ac9ecd3604aa0",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T06:02:57Z",
+"reasons": [
+"matches Cisco (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+"url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Cisco",
+"tier": 1,
+"vendor": "Cisco"
+}
+]
+},
 "2fe0fbdb098cef070794933f5d1056fafa16f318b0061ffd4fe1efee072ebdf1": {
 "category": "security",
 "coverage_count": 1,
@@ -15029,7 +15395,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-18T16:30:18Z",
 "id": "3063bb86a29f5920c5a9cbd7e3f501721693779844fc4d7e56d39805f8d141eb",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -15127,7 +15493,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -15170,7 +15536,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -16155,10 +16521,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "339ddaf0df1cf1866cc806117807e8189df7927a56bc2cb59ed786b5d445fc9e",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T10:38:13Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -16166,8 +16528,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Demolition notices for buildings in Hebron provoke fear among Palestinians",
-"url": "https://www.aljazeera.com/news/2026/11/21/demolition-notices-for-buildings-in-area-a-of-hebron-spark-fear-among-palestinians?traffic_source=rss",
 "weight": 1
 },
 "33aa3821502c89c95f69ca059485de412ad321a12812d0d0c675f61d6352c7df": {
@@ -16327,6 +16687,31 @@
 ],
 "weight": 1
 },
+"33fc36969b1af1daa748d46c1d94de01099ecd04e0a71e5616d4075256d20b85": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "33fc36969b1af1daa748d46c1d94de01099ecd04e0a71e5616d4075256d20b85",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:10:52Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Artificial Intelligence Won't Take Your Job. Someone Else Will",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611240212.html",
+"weight": 1
+},
 "340856c06f57cbab0b291535477f8766de6c55cedc105b33be1560684fdc9466": {
 "category": "world",
 "coverage_count": 1,
@@ -16480,10 +16865,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "34858bef87ae792f4429995863f068212f80d6bebd1e4a6da95a34e5d9f85971",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T05:08:40Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -16491,8 +16872,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Al Jazeera explains: The US-China AI race is entering a new phase",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/al-jazeera-explains-the-us-china-ai-race-is-entering-a-new-phase?traffic_source=rss",
 "weight": 1
 },
 "3485ce5c3d2f95a00093872f477499843c98db2d4e8b4beb8bc98671be5636ae": {
@@ -16947,7 +17326,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -17432,10 +17811,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "36e49242013fa9db75b4d84c1d4943d9204b14fa444e08d5c13e7ef92e0e23f3",
 "last_seen": "2026-11-21",
-"published": "2026-11-20T21:10:53Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -17443,8 +17818,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Trump threatens tax on US tech firms building AI data centres abroad",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_trump-tax-us-tech-firms-ai-data-centres-abroad-201126?traffic_source=rss",
 "weight": 1
 },
 "36eb619d6b53c3b9fa2417e67c7aa5d38829a1f754b2d60dfdb670fabf1d7d5a": {
@@ -17887,7 +18260,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -17934,6 +18307,27 @@
 "topic_hits": [
 "Kigali"
 ],
+"weight": 1
+},
+"38a33d7a0c6af30d5191d00380d82be425d0ca54bec88891c834b06fbdea7956": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "38a33d7a0c6af30d5191d00380d82be425d0ca54bec88891c834b06fbdea7956",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T07:26:27Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "What Jensen Huang's return teaches China's Xi about Trump",
+"url": "https://www.bbc.co.uk/news/articles/c63rgpy50x98o",
 "weight": 1
 },
 "38a4533f7eb40a8e142f4773b3ec0f09e5fd1bcd0441a4b7d7d03fd69ccc10fe": {
@@ -17995,7 +18389,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -18173,6 +18567,50 @@
 ],
 "weight": 1
 },
+"39a4deb44499dff2c7d55251b357b6312c3679437680b63897de9f09831cdf02": {
+"category": "security",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-87268"
+],
+"epss": 0.00161,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "39a4deb44499dff2c7d55251b357b6312c3679437680b63897de9f09831cdf02",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:02:00Z",
+"reasons": [
+"matches Microsoft Windows (Tier 2)"
+],
+"route": "drop",
+"score": 2,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+"url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+},
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+},
+{
+"points": 2,
+"term": "Oracle",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
+},
 "39c1159975a62a594af779852ea92e509bbddccdba8e4cf6349add53081dc365": {
 "category": "world",
 "coverage_count": 1,
@@ -18222,6 +18660,31 @@
 "sources": [
 "BBC World"
 ],
+"weight": 1
+},
+"39fcc641df5d06c85d2543f75dcef188eac162333b03c4c811bcaf333fdd8696": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "39fcc641df5d06c85d2543f75dcef188eac162333b03c4c811bcaf333fdd8696",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T11:51:22Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "The Reminisce Brings 90s Nostalgia and Friday Night Fever Back to Kigali",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611240333.html",
 "weight": 1
 },
 "3a051c5f84979e356b2ee5ca6aa35a25c469de6380ddec4606c69ef778c5e67e": {
@@ -18581,7 +19044,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -18625,6 +19088,31 @@
 ],
 "weight": 1
 },
+"3b9d3dc0d60ce808b0de0c5ffdb1e17ab9b652720892c49c9518a227974a9aa5": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "3b9d3dc0d60ce808b0de0c5ffdb1e17ab9b652720892c49c9518a227974a9aa5",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:12:23Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "How Exactly Did the ICTR Come About?",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611240216.html",
+"weight": 1
+},
 "3bbb8bb045a722efefe9c441068714d774fb5eed0b67916b5468aaa87c8c4d2f": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -18633,7 +19121,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -18693,15 +19181,12 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "3bf4a826cb5dba6dacb18ff13d85b074f440e3dbcd00307b4b2797f9d4cf97c6",
 "last_seen": "2026-11-23",
-"published": "2026-11-21T14:26:04Z",
 "route": "drop",
 "source": "BleepingComputer",
 "source_type": "rss",
 "sources": [
 "BleepingComputer"
-],
-"title": "FBI reportedly hacked again, this time targeting nationwide police database",
-"url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/"
+]
 },
 "3bf6ae3881705af6ce9a267e79db9f15353fa95b1f4ec169e6cc8ea0aa1ade00": {
 "category": "world",
@@ -18709,10 +19194,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "3bf6ae3881705af6ce9a267e79db9f15353fa95b1f4ec169e6cc8ea0aa1ade00",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T09:20:40Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -18720,8 +19201,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Fire sprinkler sprays water at flame-covered sign in China",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/fire-sprinkler-sprays-water-at-flame-covered-sign-in-china?traffic_source=rss",
 "weight": 1
 },
 "3c0843226c84500f1dd04269772862557326d98380909966be74fb7a1596d905": {
@@ -19735,6 +20214,22 @@
 ],
 "weight": 3
 },
+"400592313d545f11bb6020a5e8384dedde1a0afa74a5831351a1ff0e923ca25b": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "400592313d545f11bb6020a5e8384dedde1a0afa74a5831351a1ff0e923ca25b",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:30:00Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Jensen Huang deepfakes are the hot new AI slop",
+"url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes"
+},
 "40154c7122996b8e8eda9f82da7f541843e3fb3185369f5e6e372e1343266f16": {
 "category": "world",
 "coverage_count": 1,
@@ -20133,6 +20628,31 @@
 ],
 "weight": 1
 },
+"41451fdb9048a89dcd0b57a18a16354a5f5d957f7ed2a459cb9f3cf185a94100": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "41451fdb9048a89dcd0b57a18a16354a5f5d957f7ed2a459cb9f3cf185a94100",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:08:13Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Why Conservation Agriculture Matters for Rwanda's Food Production",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611240208.html",
+"weight": 1
+},
 "4152ce76a2d80f5ad5f8496cc44445b17d60b0c54102a3e1511cda4016eb4fa1": {
 "category": "world",
 "coverage_count": 1,
@@ -20198,6 +20718,27 @@
 "sources": [
 "BBC World"
 ],
+"weight": 1
+},
+"41ba300c18b1651095214819988d0613b860dde8c00d184ba703d87950dd5e1d": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "41ba300c18b1651095214819988d0613b860dde8c00d184ba703d87950dd5e1d",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T13:52:45Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Records tumble as Indian teen Sooryavanshi smashes 53-ball 204 against UAE",
+"url": "https://www.aljazeera.com/sports/2026/11/24/records-tumble-as-indian-teen-sooryavanshi-smashes-53-ball-204-against-uae?traffic_source=rss",
 "weight": 1
 },
 "41d36467feb740947cb671e136ed64ffad920f06e361331360cdfcae571008fc": {
@@ -20289,7 +20830,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -21023,6 +21564,27 @@
 ],
 "weight": 1
 },
+"4458141d5f3f82e985774e1f2ee6e34cbd94be81ba8ad4ecf09ba1395c0d42a1": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "4458141d5f3f82e985774e1f2ee6e34cbd94be81ba8ad4ecf09ba1395c0d42a1",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:41:22Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "How Senegal got their AFCON trophy back",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/aje-onl-nf_how-senegal-got-their-afcon-trophy-back-241126?traffic_source=rss",
+"weight": 1
+},
 "445e0841839e4daba43a095990b06bc4d78b3b7a638ccad6f834fcdcde6358d8": {
 "category": "world",
 "coverage_count": 1,
@@ -21482,7 +22044,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -21812,15 +22374,33 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "46a15e2b98f53ca633f16992b4a70626a28c91cd7b2d8da7769d4d4ce0078749",
 "last_seen": "2026-11-24",
-"published": "2026-11-21T12:01:13Z",
 "route": "drop",
 "source": "Ars Technica",
 "source_type": "rss",
 "sources": [
 "Ars Technica"
+]
+},
+"46a4e7f03609359cf296857afd1f1139895eadd7269387ab3c3ff6e086031e22": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "46a4e7f03609359cf296857afd1f1139895eadd7269387ab3c3ff6e086031e22",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:09:00Z",
+"reasons": [
+"source weight +1"
 ],
-"title": "“Race realism” isn’t realistic—and it isn’t good science",
-"url": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/"
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "How Brazil’s mosquitoes are helping to fight dengue",
+"url": "https://www.aljazeera.com/news/2026/11/24/how-brazils-mosquitoes-are-helping-to-fight?traffic_source=rss",
+"weight": 1
 },
 "46dc3ae135feed41c3617ea319ccdae9894bd7a6154b946e0f2e69e295692c3b": {
 "category": "security",
@@ -22270,10 +22850,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "483387ba54310dbf0123e79151fe6aacea7adaf444c163e84913dce458c1552f",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T12:49:20Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -22281,8 +22857,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Riemann hypothesis: Has the world’s most famous maths problem been cracked?",
-"url": "https://www.aljazeera.com/news/2026/11/21/riemann-hypothesis-has-the-worlds-most-famous-maths-problem-been-cracked?traffic_source=rss",
 "weight": 1
 },
 "4838e530767d50ab1c1d60ed70aa013b1133a78a58edc103e573726d6d3eef66": {
@@ -22291,10 +22865,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "4838e530767d50ab1c1d60ed70aa013b1133a78a58edc103e573726d6d3eef66",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T11:53:56Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -22302,8 +22872,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Mexico captures FBI-wanted cartel boss in military raid",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid?traffic_source=rss",
 "weight": 1
 },
 "483ccbfb6b9df23cf334721c27521b21a676e96d983ae087582dcf753d5d2920": {
@@ -22335,6 +22903,22 @@
 "BBC World"
 ],
 "weight": 1
+},
+"48619296c36bc45693d889ee7756c05edfaf85af1a3dd578f4a98f21b0a797db": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "48619296c36bc45693d889ee7756c05edfaf85af1a3dd578f4a98f21b0a797db",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T18:03:58Z",
+"route": "drop",
+"source": "Ars Technica",
+"source_type": "rss",
+"sources": [
+"Ars Technica"
+],
+"title": "Kalshi makes “difficult decision” to halt Utah trading after losing court fights",
+"url": "https://arstechnica.com/tech-policy/2026/11/kalshi-makes-difficult-decision-to-halt-utah-trading-after-losing-court-fights/"
 },
 "48620913c4244ced8787f46c311fd9dd5415a9d30c6b164dbfb66843edb3a653": {
 "category": "world",
@@ -22662,6 +23246,27 @@
 ],
 "weight": 1
 },
+"4966eee62715d057ee3f267720c10039327084206d46625983e4c535cebee41b": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "4966eee62715d057ee3f267720c10039327084206d46625983e4c535cebee41b",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:26:50Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "China’s probes Shanghai party chief Chen Jining over corruption",
+"url": "https://www.aljazeera.com/news/2026/11/24/xis-anti-corruption-campaign-targets-shanghai-party-chief-chen-jining?traffic_source=rss",
+"weight": 1
+},
 "49809b6ead961a872a9dd021c67ee3010199de96d75d496940544653450f0234": {
 "category": "world",
 "coverage_count": 1,
@@ -22792,7 +23397,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -22887,6 +23492,34 @@
 "term": "N-able",
 "tier": 3,
 "vendor": "N-able"
+}
+]
+},
+"4a2a6a4aaa41cb6672dcb00ebff59b46a3a9b08d38efa0f84095b6841f86db27": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "4a2a6a4aaa41cb6672dcb00ebff59b46a3a9b08d38efa0f84095b6841f86db27",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:20:41Z",
+"reasons": [
+"matches Cisco (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
+"url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Cisco",
+"tier": 1,
+"vendor": "Cisco"
 }
 ]
 },
@@ -23444,6 +24077,22 @@
 ],
 "weight": 1
 },
+"4c564de4959e86452d450982ce82b4401f3565e68da30a03e920029e17e673cb": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "4c564de4959e86452d450982ce82b4401f3565e68da30a03e920029e17e673cb",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:00:00Z",
+"route": "drop",
+"source": "NCSC UK",
+"source_type": "rss",
+"sources": [
+"NCSC UK"
+],
+"title": "Familiar weaknesses, exploited faster: defending against agentic cyber attacks",
+"url": "https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks"
+},
 "4c5d16ba38cae7c6ebbcee0f4e1abc963e555b9c32f857b79cdd96b6e5283fd3": {
 "category": "security",
 "coverage_count": 1,
@@ -23833,7 +24482,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -24001,15 +24650,12 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "4e5f9f890d88fb861789ddc7bc1f372efe8131dcf3758d76ace28a3533eb8981",
 "last_seen": "2026-11-22",
-"published": "2026-11-21T13:00:00Z",
 "route": "drop",
 "source": "The Verge",
 "source_type": "rss",
 "sources": [
 "The Verge"
-],
-"title": "The game of the year is finally here",
-"url": "https://www.theverge.com/tech/1039433/gta-vi-alfred-6-clockwisetv-installer"
+]
 },
 "4e7e8b1b5e1ac3559ef9d9e031f32528b4a110dfd186396f40921f724b91aef9": {
 "category": "world",
@@ -24106,7 +24752,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -24121,10 +24767,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "4f1ad965c2bf1a6bb66f05fc155cb3a71f3dc04b5e868c74b1bad90f590e577a",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T12:45:24Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -24132,8 +24774,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Rescue efforts under way as drones hit Russian ship off Finland coast",
-"url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
 "weight": 1
 },
 "4f1d8d76423cd791b2e5fcdd196b030d0d1713eb1dc8009b8952e4cb667f39f8": {
@@ -24151,16 +24791,37 @@
 ],
 "weight": 1
 },
+"4f3bc5f190d504bd6a35d203e14b5c7184db8d08cc3cf21756e1b13e8e738d0d": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "4f3bc5f190d504bd6a35d203e14b5c7184db8d08cc3cf21756e1b13e8e738d0d",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:08:40Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Rwanda to Pilot Usdc Payments for Move Afrika Concert Suppliers",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611240209.html",
+"weight": 1
+},
 "4f5b2e167fa23e04091ebb0e8637af77271b5ed0d084d426e3eabf4cf61603a2": {
 "category": "world",
 "coverage_count": 1,
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "4f5b2e167fa23e04091ebb0e8637af77271b5ed0d084d426e3eabf4cf61603a2",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T03:01:24Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -24168,8 +24829,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Three French police officers sentenced over racist assault on Black man",
-"url": "https://www.aljazeera.com/news/2026/11/21/three-french-police-officers-sentenced-over-racist-assault-on-black-man?traffic_source=rss",
 "weight": 1
 },
 "4f71928b42bd55e4d11409c343125c4d6775c2da75925989189dfbfa1e468ca0": {
@@ -24682,6 +25341,27 @@
 "Dark Reading"
 ]
 },
+"5166f845500d7af8f0e21a32e1447cfb6faca2c24c155a7c1351ae55054e0869": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "5166f845500d7af8f0e21a32e1447cfb6faca2c24c155a7c1351ae55054e0869",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:18:11Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Jerusalem Daily: Clash in Israeli parliament",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/jerusalem-daily-clash-in-israeli-parliament?traffic_source=rss",
+"weight": 1
+},
 "5173734d53aa5d411a4aa23de438425552f07229db132718910c13d4e1e40149": {
 "category": "world",
 "coverage_count": 1,
@@ -25044,6 +25724,27 @@
 ],
 "weight": 1
 },
+"533311588079d0a5976f105b8daf114ec28849e9ed9595e5d9172e73feabd2a9": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "533311588079d0a5976f105b8daf114ec28849e9ed9595e5d9172e73feabd2a9",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:31:26Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
+"url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o",
+"weight": 1
+},
 "53339e488d2b8f0e4387a1e177e6770d6d41473c3a39387d1c1ffd41d1e9545f": {
 "category": "tech",
 "coverage_count": 1,
@@ -25056,6 +25757,27 @@
 "sources": [
 "The Verge"
 ]
+},
+"534508faeb4af267f3983161090851edd5df63246c2a00d789fdde5a4c6215d7": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "534508faeb4af267f3983161090851edd5df63246c2a00d789fdde5a4c6215d7",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:09:48Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Economic Self-Reliance in Eastern Congo and Tshisekedi's Constitutional Gamble",
+"url": "https://allafrica.com/stories/202611240210.html",
+"weight": 1
 },
 "53570c79f3f64c60ae72954e8dfb6557dbb7cd34c48e0fdd6e272b55b8238435": {
 "category": "vulnerabilities",
@@ -25206,21 +25928,39 @@
 ],
 "weight": 1
 },
+"53e659f0d7487d442a7ab31216b7a02c0a9b4340d9e57358e3d62c72d2a86b1e": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "53e659f0d7487d442a7ab31216b7a02c0a9b4340d9e57358e3d62c72d2a86b1e",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:19:47Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "UK police arrest two after break-in at Prince William’s country residence",
+"url": "https://www.aljazeera.com/news/2026/11/24/police-arrest-two-after-break-in-at-prince-william-and-kates-country-home?traffic_source=rss",
+"weight": 1
+},
 "540b7c770415117cbceaef9b71b2eb85d28e68dd316acfec7c32e1cbb2934192": {
 "category": "tech",
 "coverage_count": 1,
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "540b7c770415117cbceaef9b71b2eb85d28e68dd316acfec7c32e1cbb2934192",
 "last_seen": "2026-11-22",
-"published": "2026-11-21T13:00:00Z",
 "route": "drop",
 "source": "The Verge",
 "source_type": "rss",
 "sources": [
 "The Verge"
-],
-"title": "The Xiaomi 18 Pro proves two screens aren’t better than one",
-"url": "https://www.theverge.com/tech/1038562/xiaomi-18-pro-max-review"
+]
 },
 "540cf3e1aa3c44cc2dbcd8b529cc78a06dab16cfa07dcc86f1e1fa18ee9cd338": {
 "category": "world",
@@ -26121,6 +26861,31 @@
 "vendor": "Google"
 }
 ]
+},
+"56abfd5aa6c5115b8bb8b6f0e148193fa1521d385d602dbc1b3e74e4dbb448a2": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "56abfd5aa6c5115b8bb8b6f0e148193fa1521d385d602dbc1b3e74e4dbb448a2",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T14:35:56Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Senegal reinstated as 2025 Africa Cup of Nations winners over Morocco",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/sports/2026/11/24/senegal-reinstated-as-2025-africa-cup-of-nations-winners-over-morocco?traffic_source=rss",
+"weight": 1
 },
 "56b736ac396d7e546632fbcf723f05e20d7fb37482f19919a0b115d184a6cc3f": {
 "category": "world",
@@ -27304,6 +28069,27 @@
 ],
 "weight": 1
 },
+"5a94f22e6e1b73a823f972c49f083df56ebc7b4357ffd739ab43828318422c80": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "5a94f22e6e1b73a823f972c49f083df56ebc7b4357ffd739ab43828318422c80",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T14:27:38Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "11 injured in Houthi attack on Riyadh tower, Saudi civil defence says",
+"url": "https://www.aljazeera.com/news/2026/11/24/saudi-led-coalition-condemns-terrorist-attack-on-tower-in-riyadh?traffic_source=rss",
+"weight": 1
+},
 "5a95c466ba1d367df33506a45aa3766de14dc8072313dded05ffcc112af173c6": {
 "category": "world",
 "coverage_count": 1,
@@ -27856,10 +28642,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "5c329024636b717366d6284e301a7f87de4c9bfc8f559b354f3ea130a64d7f5c",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T06:32:04Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -27867,8 +28649,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Sudan’s war will end, but will it be too late?",
-"url": "https://www.aljazeera.com/opinions/2026/11/21/sudans-war-will-end-but-will-it-be-too-late?traffic_source=rss",
 "weight": 1
 },
 "5c39c2897926eeb9dfb6ddbef2a7268756ed3caa4e88ab0ffac98c80196c03d5": {
@@ -27994,10 +28774,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "5c9fc3a4f96c945998f42bc79bc2e55a465342cf03492fdc17356e1de78359c0",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T01:12:48Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -28005,8 +28781,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Denmark expels Russian diplomat over alleged plot to kill Ukrainian rapper",
-"url": "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper?traffic_source=rss",
 "weight": 1
 },
 "5cb6d0fcff6dc5741e14d13fa9c59405fe592ce20295ced702f1ccfd2bece45f": {
@@ -28365,6 +29139,34 @@
 "BBC World"
 ],
 "weight": 1
+},
+"5e202f1c5a27e11efc555be3069329fb2fbf33c7c69dfbe5c4fc26f0e93a3847": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "5e202f1c5a27e11efc555be3069329fb2fbf33c7c69dfbe5c4fc26f0e93a3847",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:32:56Z",
+"reasons": [
+"matches VMware vCenter (Tier 2)"
+],
+"route": "drop",
+"score": 2,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
+"url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "vCenter",
+"tier": 2,
+"vendor": "VMware"
+}
+]
 },
 "5e303004cfa6503bd06de7b5b99c84acfdde3e13355d196d99380489537b462e": {
 "category": "world",
@@ -28731,10 +29533,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "5f24852c6b8860d1620bee363b4993ef30255b2e2d85b684fad9bd074031acbb",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T01:49:07Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -28742,8 +29540,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Trump calls for Nvidia to reinstate ‘brilliant’ Jensen Huang",
-"url": "https://www.aljazeera.com/news/2026/11/21/trump-calls-for-nvidia-to-reinstate-brilliant-jensen-huang?traffic_source=rss",
 "weight": 1
 },
 "5f2f318004dd172d9fe25e58a5cbb3a98f7999d4c52f80771e04d95b62b3570e": {
@@ -29117,6 +29913,22 @@
 "BBC World"
 ],
 "weight": 1
+},
+"60c025647bed8bd27c97b23c4eeb6b983c27c5ac373dedeaa1a8cb2488d37b4f": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "60c025647bed8bd27c97b23c4eeb6b983c27c5ac373dedeaa1a8cb2488d37b4f",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:17:09Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Tidal will start banning AI-generated music next month",
+"url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
 },
 "60c3b9a41c94b3340f7e80a6b4a3d627208e8b301c67b26a290c10f11332de5a": {
 "category": "world",
@@ -29710,10 +30522,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "6315a0a2501badbc1f1e0fc8b563a7fbd9d68c987f85169017cf59f042edd618",
 "last_seen": "2026-11-21",
-"published": "2026-11-20T15:24:11Z",
-"reasons": [
-"source weight +3"
-],
 "route": "digest",
 "score": 3,
 "source": "Hacker News",
@@ -29724,8 +30532,6 @@
 "tags": [
 "hn"
 ],
-"title": "Slopstrap – Make your site look hastily vibecoded",
-"url": "https://slopstrap.mikelacher.com/",
 "weight": 3
 },
 "63323c736c22ec519dc0c51e830ff8732b84b7ddb224b156cf519b77cf080ba4": {
@@ -30545,7 +31351,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -31324,10 +32130,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "682d34ae0b7be74bd88ef724f37fa17d0e03042077e8700516a492ca5560ade4",
 "last_seen": "2026-11-22",
-"published": "2026-11-20T18:17:51Z",
-"reasons": [
-"source weight +3"
-],
 "route": "digest",
 "score": 3,
 "source": "Hacker News",
@@ -31338,8 +32140,6 @@
 "tags": [
 "hn"
 ],
-"title": "We promoted developers into architects without informing them",
-"url": "https://manidoraisamy.com/developer-to-architect.html",
 "weight": 3
 },
 "682d9deea856532bb2eb5befdbb972fe65d7fec5f0c878882a786cf36239ded3": {
@@ -31755,10 +32555,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "6954740cbff16410df49b73148e5f61a62cb4149894e93710f62e1783f94d558",
 "last_seen": "2026-11-22",
-"published": "2026-11-21T14:54:24Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -31766,8 +32562,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
-"url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o",
 "weight": 1
 },
 "69547758f8ab93695a0770eb336fd07a369fa087bc9e4a6a26cb9865beb4c915": {
@@ -31912,10 +32706,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "6a4264be43720837279219dcf95e82f974e46f2901dbaff83d554da82db21723",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T07:07:59Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -31923,8 +32713,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Three US citizens among 4 convicted in Honduras over sex-trafficking case",
-"url": "https://www.aljazeera.com/news/2026/11/21/three-us-citizens-among-4-convicted-in-honduras-over-sex-trafficking-case?traffic_source=rss",
 "weight": 1
 },
 "6a42f65c0d5b86142ebe80761be2bf7057043bbeb77bc0693d2fd8d797ee7502": {
@@ -32059,7 +32847,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -32486,7 +33274,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -32899,6 +33687,22 @@
 ],
 "weight": 1
 },
+"6d8e9e0e5fe3320a00e57eed2b3b6cfcf6363324cddb321d711c26df561f7322": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "6d8e9e0e5fe3320a00e57eed2b3b6cfcf6363324cddb321d711c26df561f7322",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T08:34:20Z",
+"route": "drop",
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
+"url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html"
+},
 "6da8a866f9fc48b54ee0e7e93d876c17475eb5d92c9f5cfe480bf8630778e633": {
 "category": "world",
 "coverage_count": 1,
@@ -32965,6 +33769,27 @@
 "vendor": "Cisco"
 }
 ]
+},
+"6deaad924e33b59a0f486eb20d29bdcbdfd036c3349b20f18d7b1fd202c79eac": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "6deaad924e33b59a0f486eb20d29bdcbdfd036c3349b20f18d7b1fd202c79eac",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:39:18Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Cameroon separatist leader pleads not guilty at war crimes trial in Norway",
+"url": "https://www.aljazeera.com/news/2026/11/24/cameroon-separatist-leader-pleads-not-guilty-in-war-crimes-trial?traffic_source=rss",
+"weight": 1
 },
 "6df15703fe27ffcfeb9d159d2a08d82fe2cc2e467648fc140904dc9d2d6ed296": {
 "category": "security",
@@ -33146,7 +33971,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-17T17:33:39Z",
 "id": "6e7c20ad4f6ffd12b09546cd1c267e5ebedf0f273c9132333dc629f4373f43cc",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "muted_hits": [
 "webinar"
 ],
@@ -33165,7 +33990,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -33461,7 +34286,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -33476,10 +34301,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "6f765fcf802166eb063f8a2b99a585df46cf96ab5d10f4d55e8f7b79fa19b945",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T11:04:10Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -33487,8 +34308,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Migrants caravan in Mexico walks towards US border",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/migrants-caravan-in-mexico-walks-towards-us-border?traffic_source=rss",
 "weight": 1
 },
 "6f84b2eb5d33a94a156ef9fb2ed8104f8e914c7752962574edcc1e8cff9bc611": {
@@ -33762,6 +34581,27 @@
 ],
 "weight": 1
 },
+"6ff68d93b570b0a490c8b83147f6317e464365191a3dd4451d12e3706adf6ef9": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "6ff68d93b570b0a490c8b83147f6317e464365191a3dd4451d12e3706adf6ef9",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:56:07Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Palestine Weekly: A night of arson sees Israel ‘Jewish terrorism’ reckoning",
+"url": "https://www.aljazeera.com/news/2026/11/24/palestine-weekly-a-night-of-arson-sees-israel-jewish-terrorism-reckoning?traffic_source=rss",
+"weight": 1
+},
 "6ffb088d4bbe81217352a30280b9492bca65c7eb4833984bce4239fcccbdd220": {
 "category": "world",
 "coverage_count": 1,
@@ -33828,6 +34668,27 @@
 "topic_hits": [
 "Rwanda"
 ],
+"weight": 1
+},
+"6ffdcba416054aa2c38245ec99bcc439ce9f29c0c0d2b109ad4fd579d896879e": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "6ffdcba416054aa2c38245ec99bcc439ce9f29c0c0d2b109ad4fd579d896879e",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T11:45:52Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Car bomb tears through Colombian city wounding more than 20",
+"url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do",
 "weight": 1
 },
 "701448508942d2e365257fc556bb4785841b92279d5768b3874234166861f521": {
@@ -35385,7 +36246,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -35833,6 +36694,27 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"775694a817d550309416e50c3e9996576a80bdce359b389acdc0a656a8cf1c48": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "775694a817d550309416e50c3e9996576a80bdce359b389acdc0a656a8cf1c48",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:17:28Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Land mine casualties soar in Syria, two years after war",
+"url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo",
 "weight": 1
 },
 "77592238c8bc8395d46b063e88de4e01bfbc748846bee569d1bb5b54a6186e2c": {
@@ -37144,6 +38026,31 @@
 ],
 "weight": 1
 },
+"7bac88c34d126713a5a8ffbe2e0df4bcd4721da73ef3f344383d6395c54b2859": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "7bac88c34d126713a5a8ffbe2e0df4bcd4721da73ef3f344383d6395c54b2859",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:52:04Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Why Rwanda Green Fund Is Set for Major Overhaul",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611240280.html",
+"weight": 1
+},
 "7bb00a5084939f6599f36899fa8bb5a817f05966152a670aa28b783c694c5cf5": {
 "category": "world",
 "coverage_count": 1,
@@ -37286,6 +38193,29 @@
 ],
 "weight": 1
 },
+"7c3e0d091d4eaeb2829f3b17404e0c56674ec4bd5b7a48f416c3cac1a5e07fef": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "7c3e0d091d4eaeb2829f3b17404e0c56674ec4bd5b7a48f416c3cac1a5e07fef",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T14:09:37Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "McDonald's Japan data breach exposes customer location information",
+"url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/"
+},
 "7c3f703aa56a23cf045ebac87301abee8f8942bdf0feef40bd67a729a26667a7": {
 "alerted": true,
 "category": "vulnerabilities",
@@ -37349,10 +38279,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "7c95bd8e03e6dd0f9ec7331f9c94f26921c3c74810113776d511ddefa9d4d4d1",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T02:49:16Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -37360,8 +38286,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Gen Z protests sweep Europe over wars, rising costs and climate",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate?traffic_source=rss",
 "weight": 1
 },
 "7cc0c4b3cdb37892312cf4b21c24138af318319d52e710b2dee99002f230c6de": {
@@ -37436,6 +38360,22 @@
 "Al Jazeera"
 ],
 "weight": 1
+},
+"7cf656537d4d0c9597378ea1ea33dabca2fe278b12d52a6cd17f743cbb87e3b7": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "7cf656537d4d0c9597378ea1ea33dabca2fe278b12d52a6cd17f743cbb87e3b7",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:30:00Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Dreame and Eufy are offering nearly 60 percent off robovacs for Black Friday",
+"url": "https://www.theverge.com/gadgets/1040315/black-friday-best-early-robot-vacuum-mop-deals-2026"
 },
 "7d0870aff82891c0f852168ce53c179b8d1c76b671bb5684095fe35426f4a5fa": {
 "category": "security",
@@ -37710,6 +38650,27 @@
 "Ars Technica"
 ]
 },
+"7dce92cc3b7ea81ab9acd70c738cdb35d37b6649eb6bf933bb34b5f08b0e34df": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "7dce92cc3b7ea81ab9acd70c738cdb35d37b6649eb6bf933bb34b5f08b0e34df",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:33:03Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "‘Unfinished Beginnings’: Art installation for children affected by war",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/unfinished-beginnings-art-installation-for-children-affected-by-war?traffic_source=rss",
+"weight": 1
+},
 "7ddf9939c1b39d8854f5a6616533ce685edb6023cc6281cff68fc9f19e3b3e06": {
 "category": "tech",
 "coverage_count": 1,
@@ -37931,7 +38892,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -38109,6 +39070,27 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"7f3f300bc2ffc3646279f05c737969e6926d16cd51b3b670757429ebbd4ad69b": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "7f3f300bc2ffc3646279f05c737969e6926d16cd51b3b670757429ebbd4ad69b",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T07:13:39Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Kivu Belt Water Project Brings Relief to Households, Schools and Health Centres",
+"url": "https://allafrica.com/stories/202611240174.html",
 "weight": 1
 },
 "7f52922fd0522ae4a07ae1fdfa58ba44c5f343bf739e0c614db52ffb1b3c715e": {
@@ -38413,10 +39395,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "808fdaea81fbf573337e23c88a7b3f9b658091db0f85259cc9a31c50c96527c0",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T14:35:52Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -38424,8 +39402,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Man City claw back 1-1 draw with Fulham to end three-game losing streak",
-"url": "https://www.aljazeera.com/sports/2026/11/21/man-city-fightback-for-1-1-draw-with-fulham-to-end-three-game-losing-streak?traffic_source=rss",
 "weight": 1
 },
 "8093087dcb115f3fabb1eb1790f99828473811bee479014e909d3186eeaf0784": {
@@ -38543,6 +39519,27 @@
 "vendor": "Oracle"
 }
 ]
+},
+"80d6f312baf0965ea15fc4804fab7ffce1862ee5134889dcd0af1445491b9878": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "80d6f312baf0965ea15fc4804fab7ffce1862ee5134889dcd0af1445491b9878",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:49:07Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "French ex-President Sarkozy and wife Carla Bruni to face trial",
+"url": "https://www.bbc.co.uk/news/articles/c65y17pwv1z7o",
+"weight": 1
 },
 "80ddc5ef140e7bcf94b2675036909cefa404e4438de6102409eebeaf7a669c93": {
 "category": "security",
@@ -38804,7 +39801,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "81f58daa9465ec2547baf555419f6317435326d32f1f9b7fe48ae8d4ecbbc1d7",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -38884,10 +39881,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "8269f1099e5af4bd2f7caedc10ba02f3ff994d62ef58074dc642a3f98326bcc7",
 "last_seen": "2026-11-21",
-"published": "2026-11-20T22:30:47Z",
-"reasons": [
-"source weight +3"
-],
 "route": "digest",
 "score": 3,
 "source": "Hacker News",
@@ -38898,8 +39891,6 @@
 "tags": [
 "hn"
 ],
-"title": "NINLIVE: The Nine Inch Nails live archive",
-"url": "https://ninlive.com/",
 "weight": 3
 },
 "827fc4191db40fb2f5488dc76a99db3297ef3729ffd69c020032bd34fc082f06": {
@@ -38998,6 +39989,27 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"82d3e82f64228fd42eef9e5d4443f71043c917baade4cd42ac2ac81c4a52aaa1": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "82d3e82f64228fd42eef9e5d4443f71043c917baade4cd42ac2ac81c4a52aaa1",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:11:05Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Nizeyimana, Byukusenge Shine At Festive Track and Field Championship",
+"url": "https://allafrica.com/stories/202611240213.html",
 "weight": 1
 },
 "82fe3d1f2215eb4c226fd6e9b32011dea6b4ecbf0b12f4c0cb7312367ea71864": {
@@ -39219,7 +40231,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -39638,10 +40650,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "85d960e288fd5c9fa165e7d1fa8ced769f8e7ebb0d5677c547c6f36f284c51c5",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T11:02:49Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -39649,8 +40657,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Russian missiles hit Poland: What happened, and could NATO respond?",
-"url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond?traffic_source=rss",
 "weight": 1
 },
 "85ecb1c7c391a57b101a864af5eb4cde0d78b99e2debc4e6d0ea05c6f79890e6": {
@@ -40136,13 +41142,13 @@
 ],
 "weight": 1
 },
-"87addd71ff8ba03c55eef802c7672a9c04153dd4dc33197c812681c2eafa2b94": {
+"87a8bad523a961915d6debabb0170e1070fc40750aeb6af9c8a6775fdb11a206": {
 "category": "world",
 "coverage_count": 1,
-"first_seen": "2026-11-21T15:32:58Z",
-"id": "87addd71ff8ba03c55eef802c7672a9c04153dd4dc33197c812681c2eafa2b94",
-"last_seen": "2026-11-21",
-"published": "2026-11-21T15:01:18Z",
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "87a8bad523a961915d6debabb0170e1070fc40750aeb6af9c8a6775fdb11a206",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:31:48Z",
 "reasons": [
 "source weight +1"
 ],
@@ -40153,8 +41159,23 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Tankers hit in Strait of Hormuz as Iran tightens grip on shipping",
-"url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
+"title": "African rivals fret over Morocco’s growing football dominance",
+"url": "https://www.aljazeera.com/sports/2026/11/24/african-rivals-fret-over-moroccos-growing-football-dominance?traffic_source=rss",
+"weight": 1
+},
+"87addd71ff8ba03c55eef802c7672a9c04153dd4dc33197c812681c2eafa2b94": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-21T15:32:58Z",
+"id": "87addd71ff8ba03c55eef802c7672a9c04153dd4dc33197c812681c2eafa2b94",
+"last_seen": "2026-11-21",
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
 "weight": 1
 },
 "87d403e9bc17c59d1aae58b061ed85d3aca4bbb7a631d152342198b9d52bc698": {
@@ -40505,7 +41526,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-18T16:30:18Z",
 "id": "88edca6e0816f1de604c507546278dff0781c954e2fd5fde3d174f017bb436d5",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -40741,6 +41762,34 @@
 "hn"
 ],
 "weight": 3
+},
+"8945761ab3a7cdfa74bcd2e82dc03906280086023a283c7f80596302111e09b6": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "8945761ab3a7cdfa74bcd2e82dc03906280086023a283c7f80596302111e09b6",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:00:00Z",
+"reasons": [
+"matches N-able (Tier 3)"
+],
+"route": "drop",
+"score": 2,
+"source": "The Record",
+"source_type": "rss",
+"sources": [
+"The Record"
+],
+"title": "CISA warns of exploited N-able bug as company restores email platform",
+"url": "https://therecord.media/cisa-nable-cybersecurity-bug",
+"vendor_matches": [
+{
+"points": 2,
+"term": "N-able",
+"tier": 3,
+"vendor": "N-able"
+}
+]
 },
 "895faa749343a67d11a8a045707ee0613d2821cc4e292db785e05fd0e260955c": {
 "category": "security",
@@ -41294,6 +42343,29 @@
 "Ars Technica"
 ]
 },
+"8b6a3510f7bd5558cd2af334da385649bd99262eba44ca66b0e648ae9c723565": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "8b6a3510f7bd5558cd2af334da385649bd99262eba44ca66b0e648ae9c723565",
+"keyword_hits": [
+"0-day"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:30:05Z",
+"reasons": [
+"0-day"
+],
+"route": "digest",
+"score": 3,
+"source": "Ars Technica",
+"source_type": "rss",
+"sources": [
+"Ars Technica"
+],
+"title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+"url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+},
 "8b9ab23ebd0d138328882237cae354cd3943b1cd4f61d48fab4402794125ecfe": {
 "category": "world",
 "coverage_count": 1,
@@ -41514,6 +42586,22 @@
 ],
 "weight": 1
 },
+"8bf1642264ef4febe1cb4e270b7e93eef7439c8de427472e86c452716567fa6f": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "8bf1642264ef4febe1cb4e270b7e93eef7439c8de427472e86c452716567fa6f",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:37:03Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "US Commerce Department adds Megaspeed to trade blacklist as Huang retakes control of Nvidia",
+"url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list"
+},
 "8bf47b67a619de151389bd9a2901acd240054d6b220f637eabe5108a8850395a": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -41545,10 +42633,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "8bfde9bfe1afd80a1910c3f625e056ac8ee2c48f8a1510204d481a4d285064da",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T13:08:59Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -41556,8 +42640,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Chaudhary helps Australia beat England in T20 shake-off of scandal-hit run",
-"url": "https://www.aljazeera.com/sports/2026/11/21/chaudhary-helps-australia-beat-england-in-t20-shake-off-of-scandal-hit-run?traffic_source=rss",
 "weight": 1
 },
 "8bffad4f94551d40a60de14f75f2afa6daa676b90413308b197ab9feaf0d45fa": {
@@ -41594,10 +42676,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "8c0f2d7d70d7de582e9ce2f970e61da44980d835f6533899ea444de58f3b06a3",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T14:30:00Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -41605,8 +42683,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Newcastle United vs Arsenal LIVE: Premier League",
-"url": "https://www.aljazeera.com/sports/liveblog/2026/11/21/newcastle-united-vs-arsenal-live-premier-league?traffic_source=rss",
 "weight": 1
 },
 "8c17b9f13ac2e2a1d9a9cbc8cf0a5e5ff4b24327bf2a4d9f0481700519da4f3c": {
@@ -42229,6 +43305,27 @@
 }
 ]
 },
+"8dc575c2888cbef44beb6d544c02a9864cba0a059e3dea94297ac1355b67d40c": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "8dc575c2888cbef44beb6d544c02a9864cba0a059e3dea94297ac1355b67d40c",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:11:54Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Qatar urges restraint and dialogue amid US-Iran tensions",
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/aje-onl-nf_qatar-urges-restraint-amid-us-iran-tensions-241126?traffic_source=rss",
+"weight": 1
+},
 "8deef9592bda35ff1fd22dafd7a8394cca95b96585dd636ab8da78fb71b78721": {
 "category": "world",
 "coverage_count": 1,
@@ -42348,6 +43445,29 @@
 "Al Jazeera"
 ],
 "weight": 1
+},
+"8e7c7058a18f30c55a5cf01d475cef1d3aa23a22e87066922b4fa7510e9bf0cc": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "8e7c7058a18f30c55a5cf01d475cef1d3aa23a22e87066922b4fa7510e9bf0cc",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:54:07Z",
+"reasons": [
+"topic: critical infrastructure"
+],
+"route": "drop",
+"score": 2,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+"topic_hits": [
+"critical infrastructure"
+],
+"url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html"
 },
 "8e7ddfa0a132f9e3aa700adf3ba8499172fb165aae409b364c04d1f007597a8a": {
 "category": "tech",
@@ -42560,15 +43680,12 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "8f42b337c9c6a0be9a28b1df024ea20684a2d526d33eb6b8bcc1aa65e6015fc9",
 "last_seen": "2026-11-22",
-"published": "2026-11-21T15:00:00Z",
 "route": "drop",
 "source": "The Verge",
 "source_type": "rss",
 "sources": [
 "The Verge"
-],
-"title": "Can Anthropic afford to put safety first?",
-"url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
+]
 },
 "8f42f5080c0a73b7f418e3a8d509681b47bcd2505db2a33d32343cb35a301a24": {
 "category": "tech",
@@ -42942,6 +44059,22 @@
 ],
 "weight": 1
 },
+"90629ea5263200381e9ca1e62993de70d0c2495a6df914c74f6374f66c781bcc": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "90629ea5263200381e9ca1e62993de70d0c2495a6df914c74f6374f66c781bcc",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T13:30:23Z",
+"route": "drop",
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
+"url": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/"
+},
 "9066b2283d1fdd1d436e4420de93e7c59f5ca7ecd3f10b42ba41d360270979ef": {
 "category": "world",
 "coverage_count": 1,
@@ -43018,6 +44151,34 @@
 "source_type": "rss",
 "sources": [
 "Dark Reading"
+]
+},
+"90a6d205867a8f516a9b81ba502b95e27d4790db24c58c49240f93dbd6715ead": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "90a6d205867a8f516a9b81ba502b95e27d4790db24c58c49240f93dbd6715ead",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T13:28:21Z",
+"reasons": [
+"matches Okta (Tier 3)"
+],
+"route": "drop",
+"score": 2,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+"url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Okta",
+"tier": 3,
+"vendor": "Okta"
+}
 ]
 },
 "90aadf0918ce8ddcccb48769b4c1b0dd7242d3541f5994b446661f00ba3d4168": {
@@ -43138,7 +44299,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "911515139dd1a0a30323c163709b26fadbb3a2ea99fce182fb1ba95145db908c",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -43211,10 +44372,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "915bcdf63deeeb43a5c183142e9d61db27f825a530eefc563434a2afece7d20b",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T11:35:42Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -43222,8 +44379,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Pakistan drop Rizwan and Masood, but back Babar and Agha in overhaul",
-"url": "https://www.aljazeera.com/sports/2026/11/21/pakistan-drop-rizwan-and-masood-but-babar-and-agha-backed-in-overhaul?traffic_source=rss",
 "weight": 1
 },
 "915e4573f0fff2419211317d9644e92ef778559c69f80526ae63c87574e5c148": {
@@ -43329,7 +44484,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-18T16:30:18Z",
 "id": "91a91bd2b2fca20cb40c773563da185ae46fed3e31c4e519bf3837eb00d556b7",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -43778,10 +44933,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "92cd4abd9ab76f8d7ed2c8f97f5e4b5fb7ee7dd7b1e8fe681bc25dcbdd14dc6e",
 "last_seen": "2026-11-23",
-"published": "2026-11-21T00:01:39Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -43789,8 +44940,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
-"url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo",
 "weight": 1
 },
 "92cda95d0fd2ca8511d366ebb92b10111ac144c0350695b048f54eb48c21fed4": {
@@ -43952,6 +45101,27 @@
 ],
 "weight": 1
 },
+"936c49981e4c7a8640f4d485a71ed6ca6a7ee254fa67678c748fd55369b771d1": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "936c49981e4c7a8640f4d485a71ed6ca6a7ee254fa67678c748fd55369b771d1",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:51:38Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Inside the Proposed Climate Change Law",
+"url": "https://allafrica.com/stories/202611240279.html",
+"weight": 1
+},
 "9374806748b062a7626690b0c7083b4cbbfb988035d52324c1ae9be1905e0005": {
 "category": "world",
 "coverage_count": 1,
@@ -44005,7 +45175,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -44185,6 +45355,48 @@
 ],
 "weight": 1
 },
+"945f8f94ff9b801a710af0ccd55df028eff9a94b0c7feb233d452e5d7f15261c": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "945f8f94ff9b801a710af0ccd55df028eff9a94b0c7feb233d452e5d7f15261c",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:47:16Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Nvidia stock cools after Huang’s return-driven surge",
+"url": "https://www.aljazeera.com/economy/2026/11/24/nvidia-stock-cools-after-huangs-return-driven-surge?traffic_source=rss",
+"weight": 1
+},
+"946fe6239d9f3d3f90962d8493ac3160e071f81043f1aa6fb359f9152a81f079": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "946fe6239d9f3d3f90962d8493ac3160e071f81043f1aa6fb359f9152a81f079",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:01:23Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Arsenal vs Borussia Dortmund LIVE: UEFA Champions League",
+"url": "https://www.aljazeera.com/sports/liveblog/2026/11/24/arsenal-vs-borussia-dortmund-live-uefa-champions-league?traffic_source=rss",
+"weight": 1
+},
 "9471d7e46e27c92f0966895a450b60777de0bbf7d1a04a4c861ff1db86474013": {
 "category": "world",
 "coverage_count": 1,
@@ -44311,7 +45523,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -44605,10 +45817,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "95d4f0919563b6ac0f289783bb57885c4e254e2f8193967050b22a8de0d9c08b",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T07:12:03Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -44616,8 +45824,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Emergency crews in Ukraine hit by a double-tap strike",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/emergency-crews-in-ukraine-hit-by-a-double-tap-strike?traffic_source=rss",
 "weight": 1
 },
 "95f21afffd0440e61c512ce5ebba7c0558368cbd8c770b8ccd63909f3dfebf45": {
@@ -44633,6 +45839,22 @@
 "BBC World"
 ],
 "weight": 1
+},
+"96008f6188379e687edbe958d8178e59cd8ad0f316a56497a0f6776912e7e885": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "96008f6188379e687edbe958d8178e59cd8ad0f316a56497a0f6776912e7e885",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:00:00Z",
+"route": "drop",
+"source": "NCSC UK",
+"source_type": "rss",
+"sources": [
+"NCSC UK"
+],
+"title": "Introducing CORNERSTONE: delivering external services for the NCSC",
+"url": "https://www.ncsc.gov.uk/blogs/introducing-cornerstone-delivering-external-services-for-the-ncsc"
 },
 "960bb3c349f6ed3d4adad8a574fbbeee0bc408578b822f451df5af37556fc00e": {
 "category": "tech",
@@ -44982,10 +46204,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "97637b9a97918d7b20ded6c6144e1d3c27ab0acea1e6f15485cf39013f8eb86b",
 "last_seen": "2026-11-22",
-"published": "2026-11-20T23:18:32Z",
-"reasons": [
-"source weight +3"
-],
 "route": "digest",
 "score": 3,
 "source": "Hacker News",
@@ -44996,8 +46214,6 @@
 "tags": [
 "hn"
 ],
-"title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
-"url": "https://news.ycombinator.com/item?id=50583761",
 "weight": 3
 },
 "9782ac9f0cf4eee955abf53a756b856150c7bad5a441cb1cf651e0470d5c695e": {
@@ -45100,7 +46316,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -45366,7 +46582,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -46035,6 +47251,31 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"9aca401ba2f27fe431e5760c047c1a4761ef213542db7bcfea3067699201416f": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "9aca401ba2f27fe431e5760c047c1a4761ef213542db7bcfea3067699201416f",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:04:00Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Zimbabwean convicted in South Africa of trying to fight in Ukraine",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.bbc.co.uk/news/articles/cmqj5qlj5yz9o",
 "weight": 1
 },
 "9adc645aad7aa7778febec052cdba62f39efab5f5aa9ef63a55e5d17433eb000": {
@@ -47154,7 +48395,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -47171,7 +48412,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -47697,10 +48938,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "9fd5c11b2ba3cec6308f1933d6af8cfb93df4dfc0d383fd8d5c2f8bcbda47de4",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T12:30:49Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -47708,8 +48945,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Sudan’s elderly face hardship and heartbreak in a life of displacement",
-"url": "https://www.aljazeera.com/news/2026/11/21/sudans-elderly-face-hardship-and-heartbreak-in-a-life-of-displacement?traffic_source=rss",
 "weight": 1
 },
 "9fd736866a0c31ed50f7a61fa56b82236c5609139c6379ab54dd5b6c1e081623": {
@@ -49571,6 +50806,47 @@
 "vulncheck_kev"
 ]
 },
+"CVE-2021-45232": {
+"alerted": true,
+"alerted_tags": [
+"vulncheck_kev"
+],
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2021-45232"
+],
+"epss": 0.86327,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2021-45232",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"EPSS 0.86",
+"matches Apache (Tier 2)"
+],
+"route": "alert",
+"score": 9,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-45232: Apache apisix_dashboard Missing Authentication for Critical Functionality",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-45232",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
 "CVE-2021-47706": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -51393,12 +52669,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "CVE-2024-28545",
 "last_seen": "2026-11-24",
-"published": "2026-11-21T00:00:00Z",
-"reasons": [
-"new VulnCheck KEV",
-"CVSS 9.8",
-"capped: not on watchlist"
-],
 "route": "digest",
 "score": 6,
 "source": "VulnCheck KEV",
@@ -51408,9 +52678,7 @@
 ],
 "tags": [
 "vulncheck_kev"
-],
-"title": "CVE-2024-28545: Tenda ac18_firmware Improper Neutralization of Special Elements used in a Command",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-28545"
+]
 },
 "CVE-2024-33563": {
 "category": "vulnerabilities",
@@ -51616,7 +52884,7 @@
 "epss": 0.00261,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2024-50073",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -52206,7 +53474,7 @@
 "epss": 0.00475,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2025-14713",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -52276,6 +53544,36 @@
 "tags": [
 "vulncheck_kev"
 ]
+},
+"CVE-2025-1609": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-1609"
+],
+"cvss": 9.8,
+"epss": 0.1017,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2025-1609",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-1609: lb-link ac1900_firmware Improper Neutralization of Special Elements used in a Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1609"
 },
 "CVE-2025-24489": {
 "category": "vulnerabilities",
@@ -54952,6 +56250,39 @@
 ],
 "tags": [
 "vulncheck_kev"
+]
+},
+"CVE-2026-103333": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-103333"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-103333",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:17:13Z",
+"reasons": [
+"CVSS 7.7",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-103333: Improper input validation in some SPARQL functions available in Apache Jena ARQ allows users to submit SPARQL queries that cause excessive…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103333",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
 ]
 },
 "CVE-2026-103366": {
@@ -58206,7 +59537,8 @@
 "cve_ids": [
 "CVE-2026-105582"
 ],
-"cvss": 7.0,
+"cvss": 7.8,
+"epss": 0.00258,
 "first_seen": "2026-11-10T18:36:36Z",
 "id": "CVE-2026-105582",
 "last_seen": "2026-11-24",
@@ -58233,7 +59565,8 @@
 "cve_ids": [
 "CVE-2026-105583"
 ],
-"cvss": 7.0,
+"cvss": 7.8,
+"epss": 0.00286,
 "first_seen": "2026-11-10T18:36:36Z",
 "id": "CVE-2026-105583",
 "last_seen": "2026-11-24",
@@ -58960,6 +60293,48 @@
 "term": "SonicOS",
 "tier": 1,
 "vendor": "SonicWall"
+}
+]
+},
+"CVE-2026-107328": {
+"alerted": true,
+"alerted_tags": [
+"vulncheck_kev"
+],
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-107328"
+],
+"cvss": 9.9,
+"epss": 0.00853,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-107328",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.9",
+"matches Langflow (Tier 3)"
+],
+"route": "alert",
+"score": 10,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-107328: Langflow Langflow Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107328",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Langflow",
+"tier": 3,
+"vendor": "Langflow"
 }
 ]
 },
@@ -62939,7 +64314,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -64344,7 +65719,7 @@
 ],
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-111777",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -64360,7 +65735,7 @@
 ],
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-111778",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -64376,7 +65751,7 @@
 ],
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-111779",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -64392,7 +65767,7 @@
 ],
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-111780",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -64408,7 +65783,7 @@
 ],
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-111781",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -64424,7 +65799,7 @@
 ],
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-111782",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -64440,7 +65815,7 @@
 ],
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-111783",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -64456,7 +65831,7 @@
 ],
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-111784",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -64472,7 +65847,7 @@
 ],
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-111785",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -64488,7 +65863,7 @@
 ],
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-111786",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -64504,7 +65879,7 @@
 ],
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-111787",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -64520,7 +65895,7 @@
 ],
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-111788",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -64536,7 +65911,7 @@
 ],
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-111790",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -66038,7 +67413,8 @@
 "cve_ids": [
 "CVE-2026-112763"
 ],
-"cvss": 7.0,
+"cvss": 7.8,
+"epss": 0.0027,
 "first_seen": "2026-11-10T18:36:36Z",
 "id": "CVE-2026-112763",
 "last_seen": "2026-11-24",
@@ -66137,6 +67513,41 @@
 "term": "Windows",
 "tier": 2,
 "vendor": "Microsoft"
+}
+]
+},
+"CVE-2026-112788": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-112788"
+],
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-112788",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T11:17:06Z",
+"reasons": [
+"matches Apache (Tier 2)",
+"topic: Docker"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-112788: Missing Authentication for Critical Function in Apache Texera (incubating). The Python virtual environment (PVE) management endpoints of…",
+"topic_hits": [
+"Docker"
+],
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112788",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
 }
 ]
 },
@@ -68689,7 +70100,7 @@
 "cvss": 9.1,
 "first_seen": "2026-11-23T22:43:08Z",
 "id": "CVE-2026-113824",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "published": "2026-11-23T22:19:04Z",
 "reasons": [
 "CVSS 9.1",
@@ -72288,7 +73699,7 @@
 "cvss": 7.3,
 "first_seen": "2026-11-17T23:56:01Z",
 "id": "CVE-2026-114888",
-"last_seen": "2026-11-19",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -77756,6 +79167,142 @@
 }
 ]
 },
+"CVE-2026-116001": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116001"
+],
+"cvss": 7.5,
+"epss": 0.00216,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-116001",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T13:17:02Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-116001: NULL pointer dereference vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_04 through 2.0.13. Users are…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116001",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+"CVE-2026-116005": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116005"
+],
+"cvss": 7.5,
+"epss": 0.00233,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-116005",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T13:17:02Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-116005: Fixed-size stack buffer overflow vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_01 through 2.0.13. Users are…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116005",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+"CVE-2026-116032": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116032"
+],
+"cvss": 7.5,
+"epss": 0.00213,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-116032",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T13:17:02Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-116032: Stack buffer overflow vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_01 through 2.0.13. Users are…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116032",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+"CVE-2026-116043": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116043"
+],
+"cvss": 7.5,
+"epss": 0.00182,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-116043",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T13:17:02Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-116043: NULL pointer dereference, Out-of-bounds read vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_01 through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116043",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
 "CVE-2026-116512": {
 "category": "vulnerabilities",
 "coverage_count": 2,
@@ -78411,6 +79958,40 @@
 "vulncheck_kev"
 ]
 },
+"CVE-2026-116772": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116772"
+],
+"cvss": 7.5,
+"epss": 0.00216,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-116772",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T13:17:03Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-116772: OOB read vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_07 through 2.0.13. Users are recommended to upgrade…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116772",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
 "CVE-2026-116779": {
 "alerted": true,
 "alerted_tags": [
@@ -78436,6 +80017,40 @@
 ],
 "tags": [
 "cisa_kev"
+]
+},
+"CVE-2026-116799": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116799"
+],
+"cvss": 7.5,
+"epss": 0.00197,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-116799",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T13:17:03Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-116799: OOB read vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_01 through 2.0.13. Note: The over-read data can be…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116799",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
 ]
 },
 "CVE-2026-116830": {
@@ -81450,7 +83065,7 @@
 "cvss": 9.6,
 "first_seen": "2026-11-23T22:43:08Z",
 "id": "CVE-2026-118285",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "published": "2026-11-23T22:19:30Z",
 "reasons": [
 "CVSS 9.6",
@@ -81483,7 +83098,7 @@
 "cvss": 9.1,
 "first_seen": "2026-11-23T22:43:08Z",
 "id": "CVE-2026-118286",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "published": "2026-11-23T22:19:30Z",
 "reasons": [
 "CVSS 9.1",
@@ -84387,7 +86002,7 @@
 "cvss": 8.8,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-118630",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -92126,7 +93741,7 @@
 "cvss": 7.1,
 "first_seen": "2026-11-23T22:43:08Z",
 "id": "CVE-2026-120777",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "published": "2026-11-23T22:19:55Z",
 "reasons": [
 "CVSS 7.1",
@@ -92331,7 +93946,7 @@
 "cvss": 7.5,
 "first_seen": "2026-11-23T22:43:08Z",
 "id": "CVE-2026-120787",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "published": "2026-11-23T22:19:56Z",
 "reasons": [
 "CVSS 7.5",
@@ -98246,6 +99861,63 @@
 "Zero Day Initiative"
 ]
 },
+"CVE-2026-121754": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121754"
+],
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-121754",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T06:00:00Z",
+"route": "drop",
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"title": "ZDI-26-1040: Parallels Desktop inittool2 Link Following Local Privilege Escalation Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1040/"
+},
+"CVE-2026-121755": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121755"
+],
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-121755",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T06:00:00Z",
+"route": "drop",
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"title": "ZDI-26-1041: Parallels Desktop Handle-based Rename Time-Of-Check Time-Of-Use Information Disclosure Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1041/"
+},
+"CVE-2026-121756": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121756"
+],
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-121756",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T06:00:00Z",
+"route": "drop",
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"title": "ZDI-26-1042: Parallels Desktop CSHAShellExt Improper Access Control Local Privilege Escalation Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1042/"
+},
 "CVE-2026-121812": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -99773,6 +101445,174 @@
 "term": "OpenSSH",
 "tier": 2,
 "vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-123165": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123165"
+],
+"cvss": 4.7,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-123165",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:13Z",
+"reasons": [
+"unauthenticated",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-123165: SolarWinds Serv-U was found to be vulnerable to an unauthenticated HTTP response header injection vulnerability that allows an attacker…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123165",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+"CVE-2026-123166": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123166"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-123166",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:13Z",
+"reasons": [
+"CVSS 7.2",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-123166: SolarWinds Serv-U fails to properly sanitize user-controlled arguments, which could allow the injection of commands",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123166",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+"CVE-2026-123167": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123167"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-123167",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:13Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-123167: SolarWinds Serv-U is affected by a privilege escalation vulnerability that, when exploited, can allow a domain administrator to access…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123167",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+"CVE-2026-123168": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123168"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-123168",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:13Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-123168: SolarWinds Serv-U is affected by an insufficient validation vulnerability that, when exploited, could lead to privilege escalation into…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123168",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+"CVE-2026-123172": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123172"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-123172",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:13Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-123172: Solarwinds Serv-U is affected by a privilege escalation vulnerability that, when exploited, could lead to the escalation of privileges to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123172",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
 }
 ]
 },
@@ -103447,6 +105287,40 @@
 }
 ]
 },
+"CVE-2026-125651": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-125651"
+],
+"cvss": 9.1,
+"epss": 0.00142,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-125651",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T13:17:03Z",
+"reasons": [
+"CVSS 9.1",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-125651: Cleartext storage in encrypted parquet file vulnerability in Apache Arrow Rust (`parquet` crate), from version 55.0.0 through to 57.3.2…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125651",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
 "CVE-2026-12573": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -104813,7 +106687,7 @@
 "cvss": 8.4,
 "first_seen": "2026-11-12T01:03:20Z",
 "id": "CVE-2026-126180",
-"last_seen": "2026-11-17",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "NVD",
@@ -105542,7 +107416,7 @@
 "cvss": 7.2,
 "first_seen": "2026-11-12T01:03:20Z",
 "id": "CVE-2026-126231",
-"last_seen": "2026-11-13",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "NVD",
@@ -105568,7 +107442,7 @@
 "cvss": 7.5,
 "first_seen": "2026-11-12T01:03:20Z",
 "id": "CVE-2026-126232",
-"last_seen": "2026-11-16",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "NVD",
@@ -106231,7 +108105,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-16",
+"last_seen": "2026-11-24",
 "route": "alert",
 "score": 8,
 "source": "NVD",
@@ -106570,7 +108444,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-17",
+"last_seen": "2026-11-24",
 "route": "alert",
 "score": 7,
 "source": "NVD",
@@ -109202,7 +111076,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -109224,7 +111098,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -109243,7 +111117,7 @@
 "cvss": 5.5,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-126964",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -109261,7 +111135,7 @@
 "cvss": 2.7,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-126965",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -109279,7 +111153,7 @@
 "cvss": 8.8,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-126966",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 4,
 "source": "Zero Day Initiative",
@@ -109310,7 +111184,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "alert",
 "score": 7,
 "source": "Zero Day Initiative",
@@ -109337,7 +111211,7 @@
 "cvss": 6.5,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-126968",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -109364,7 +111238,7 @@
 "cvss": 9.1,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-126969",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 6,
 "source": "Zero Day Initiative",
@@ -109394,7 +111268,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -109416,7 +111290,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -109438,7 +111312,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -109460,7 +111334,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -109482,7 +111356,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -109504,7 +111378,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -109526,7 +111400,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -109545,7 +111419,7 @@
 "cvss": 8.1,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-126977",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -109567,7 +111441,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -109589,7 +111463,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -109608,7 +111482,7 @@
 "cvss": 6.5,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-126980",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -109625,7 +111499,7 @@
 ],
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-126981",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -112744,6 +114618,41 @@
 }
 ]
 },
+"CVE-2026-129514": {
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-129514"
+],
+"cvss": 10.0,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-129514",
+"keyword_hits": [
+"unauthenticated",
+"actively exploited"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 10.0",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-129514: hex hexpm Deserialization of Untrusted Data",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129514"
+},
 "CVE-2026-129851": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -113220,7 +115129,7 @@
 "cvss": 8.2,
 "first_seen": "2026-11-17T23:56:01Z",
 "id": "CVE-2026-130621",
-"last_seen": "2026-11-17",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -113246,7 +115155,7 @@
 "cvss": 7.1,
 "first_seen": "2026-11-17T23:56:01Z",
 "id": "CVE-2026-130622",
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 6,
 "source": "NVD",
@@ -113275,7 +115184,7 @@
 "cvss": 7.1,
 "first_seen": "2026-11-17T23:56:01Z",
 "id": "CVE-2026-130623",
-"last_seen": "2026-11-18",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 6,
 "source": "NVD",
@@ -116438,7 +118347,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -116457,7 +118366,7 @@
 "cvss": 6.3,
 "first_seen": "2026-11-18T23:03:24Z",
 "id": "CVE-2026-131808",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -116475,7 +118384,7 @@
 "cvss": 7.6,
 "first_seen": "2026-11-18T23:03:24Z",
 "id": "CVE-2026-131809",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -116497,7 +118406,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -116516,7 +118425,7 @@
 "cvss": 7.6,
 "first_seen": "2026-11-18T23:03:24Z",
 "id": "CVE-2026-131811",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -116538,7 +118447,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -116560,7 +118469,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "NVD",
@@ -116596,6 +118505,38 @@
 "vendor": "Apache"
 }
 ]
+},
+"CVE-2026-132165": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132165"
+],
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-132165",
+"keyword_hits": [
+"remote code execution",
+"unauthenticated"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"remote code execution",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-132165: Drupal Core Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
 },
 "CVE-2026-132231": {
 "alerted": true,
@@ -117800,7 +119741,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-24",
 "route": "alert",
 "score": 7,
 "source": "NVD",
@@ -117830,7 +119771,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-24",
 "route": "alert",
 "score": 7,
 "source": "NVD",
@@ -117860,7 +119801,7 @@
 "keyword_hits": [
 "unauthenticated"
 ],
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-24",
 "route": "alert",
 "score": 7,
 "source": "NVD",
@@ -117890,7 +119831,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-24",
 "route": "alert",
 "score": 7,
 "source": "NVD",
@@ -117920,7 +119861,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-24",
 "route": "alert",
 "score": 7,
 "source": "NVD",
@@ -117946,7 +119887,7 @@
 "cvss": 8.4,
 "first_seen": "2026-11-19T12:53:16Z",
 "id": "CVE-2026-132913",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -117972,7 +119913,7 @@
 "cvss": 8.0,
 "first_seen": "2026-11-19T12:53:16Z",
 "id": "CVE-2026-132914",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -117998,7 +119939,7 @@
 "cvss": 7.1,
 "first_seen": "2026-11-19T12:53:16Z",
 "id": "CVE-2026-132915",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -118024,7 +119965,7 @@
 "cvss": 7.1,
 "first_seen": "2026-11-19T12:53:16Z",
 "id": "CVE-2026-132916",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -118054,7 +119995,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-24",
 "route": "alert",
 "score": 7,
 "source": "NVD",
@@ -118080,7 +120021,7 @@
 "cvss": 7.6,
 "first_seen": "2026-11-19T12:53:16Z",
 "id": "CVE-2026-132918",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -118106,7 +120047,7 @@
 "cvss": 5.4,
 "first_seen": "2026-11-19T12:53:16Z",
 "id": "CVE-2026-132936",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -119323,7 +121264,7 @@
 "cvss": 8.5,
 "first_seen": "2026-11-20T18:45:40Z",
 "id": "CVE-2026-133199",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -119432,7 +121373,7 @@
 "cvss": 7.8,
 "first_seen": "2026-11-23T22:43:08Z",
 "id": "CVE-2026-133632",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "published": "2026-11-23T16:17:29Z",
 "reasons": [
 "CVSS 7.8",
@@ -119465,7 +121406,7 @@
 "cvss": 8.6,
 "first_seen": "2026-11-20T18:45:40Z",
 "id": "CVE-2026-133659",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 4,
 "source": "NVD",
@@ -119526,7 +121467,7 @@
 "cvss": 8.3,
 "first_seen": "2026-11-23T22:43:08Z",
 "id": "CVE-2026-134056",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "published": "2026-11-23T20:17:59Z",
 "reasons": [
 "CVSS 8.3",
@@ -119559,7 +121500,7 @@
 "cvss": 8.2,
 "first_seen": "2026-11-23T22:43:08Z",
 "id": "CVE-2026-134069",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "published": "2026-11-23T22:20:12Z",
 "reasons": [
 "CVSS 8.2",
@@ -119717,14 +121658,18 @@
 "CVE-2026-134624"
 ],
 "cvss": 9.3,
-"epss": 0.00354,
+"epss": 0.00617,
 "first_seen": "2026-11-22T21:52:40Z",
 "id": "CVE-2026-134624",
+"keyword_hits": [
+"zero-day"
+],
 "last_seen": "2026-11-24",
 "published": "2026-11-22T19:16:32Z",
 "reasons": [
 "new CISA KEV",
 "CVSS 9.3",
+"zero-day",
 "matches N-able (Tier 3)",
 "3 sources"
 ],
@@ -119855,6 +121800,44 @@
 }
 ]
 },
+"CVE-2026-136165": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-136165"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-136165",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:17:34Z",
+"reasons": [
+"CVSS 9.1",
+"unauthenticated",
+"matches Google (Tier 2)"
+],
+"route": "alert",
+"score": 9,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-136165: Fider before 0.40.0 contains an account takeover vulnerability that allows unauthenticated attackers to sign in as existing users by…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136165",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
 "CVE-2026-13756": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -119936,7 +121919,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -120461,7 +122444,7 @@
 "cvss": 7.8,
 "first_seen": "2026-11-18T16:30:18Z",
 "id": "CVE-2026-19776",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -120480,7 +122463,7 @@
 "cvss": 6.1,
 "first_seen": "2026-11-18T16:30:18Z",
 "id": "CVE-2026-19777",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -120498,7 +122481,7 @@
 "cvss": 7.3,
 "first_seen": "2026-11-18T16:30:18Z",
 "id": "CVE-2026-19779",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -121125,7 +123108,7 @@
 "epss": 0.00182,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-25293",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -121685,7 +123668,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "alert",
 "score": 7,
 "source": "Zero Day Initiative",
@@ -123385,6 +125368,72 @@
 "vulncheck_kev"
 ]
 },
+"CVE-2026-59697": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-59697"
+],
+"cvss": 7.6,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-59697",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:17:24Z",
+"reasons": [
+"CVSS 7.6",
+"matches AWS (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-59697: Server-Side Request Forgery (SSRF) vulnerability in ex_aws (instance metadata token provider). This vulnerability is associated with…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59697",
+"vendor_matches": [
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+"CVE-2026-59698": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-59698"
+],
+"cvss": 7.4,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-59698",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:17:24Z",
+"reasons": [
+"CVSS 7.4",
+"matches AWS (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-59698: Relative path traversal in ex_aws allows an attacker who controls an S3 object key to escape the intended bucket or key prefix. When…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59698",
+"vendor_matches": [
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
 "CVE-2026-60037": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -123434,6 +125483,40 @@
 "term": "OpenSSL",
 "tier": 2,
 "vendor": "Linux kernel"
+}
+]
+},
+"CVE-2026-60076": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-60076"
+],
+"cvss": 7.5,
+"epss": 0.00216,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-60076",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T15:17:54Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-60076: Allocation of resources without limits or throttling vulnerability in Apache IoTDB. Unbounded in-memory materialization in REST…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60076",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
 }
 ]
 },
@@ -123864,7 +125947,7 @@
 "cvss": 10.0,
 "first_seen": "2026-11-23T22:43:08Z",
 "id": "CVE-2026-62841",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "published": "2026-11-23T22:20:39Z",
 "reasons": [
 "CVSS 10.0",
@@ -124153,6 +126236,39 @@
 }
 ]
 },
+"CVE-2026-63583": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-63583"
+],
+"cvss": 7.0,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-63583",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:17:38Z",
+"reasons": [
+"CVSS 7.0",
+"matches AWS (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-63583: ExAws.S3.Utils.build_lifecycle_rule/1 in ex_aws_s3 interpolates caller-supplied lifecycle rule fields (the rule id, filter prefix, tag key…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63583",
+"vendor_matches": [
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
 "CVE-2026-64138": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -124162,7 +126278,7 @@
 "epss": 0.00447,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-64138",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -124297,7 +126413,7 @@
 "cvss": 8.3,
 "first_seen": "2026-11-23T22:43:08Z",
 "id": "CVE-2026-65817",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "published": "2026-11-23T22:20:52Z",
 "reasons": [
 "CVSS 8.3",
@@ -125294,7 +127410,7 @@
 "cvss": 8.6,
 "first_seen": "2026-11-23T22:43:08Z",
 "id": "CVE-2026-69437",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "published": "2026-11-23T22:21:30Z",
 "reasons": [
 "CVSS 8.6",
@@ -125673,7 +127789,7 @@
 "cvss": 9.1,
 "first_seen": "2026-11-23T22:43:08Z",
 "id": "CVE-2026-69899",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "published": "2026-11-23T22:22:11Z",
 "reasons": [
 "CVSS 9.1",
@@ -126180,7 +128296,7 @@
 "cvss": 9.9,
 "first_seen": "2026-11-23T22:43:08Z",
 "id": "CVE-2026-70193",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "published": "2026-11-23T22:22:36Z",
 "reasons": [
 "CVSS 9.9",
@@ -126509,7 +128625,7 @@
 "cvss": 9.6,
 "first_seen": "2026-11-23T22:43:08Z",
 "id": "CVE-2026-70305",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "published": "2026-11-23T22:22:50Z",
 "reasons": [
 "CVSS 9.6",
@@ -127465,6 +129581,48 @@
 ],
 "tags": [
 "vulncheck_kev"
+]
+},
+"CVE-2026-75604": {
+"alerted": true,
+"alerted_tags": [
+"vulncheck_kev"
+],
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-75604"
+],
+"cvss": 9.0,
+"epss": 0.02105,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-75604",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.0",
+"matches Microsoft Windows (Tier 2)"
+],
+"route": "alert",
+"score": 10,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-75604: vercel next.js Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75604",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
 ]
 },
 "CVE-2026-75612": {
@@ -136598,7 +138756,7 @@
 "cvss": 8.6,
 "first_seen": "2026-11-23T22:43:08Z",
 "id": "CVE-2026-81962",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "published": "2026-11-23T22:23:40Z",
 "reasons": [
 "CVSS 8.6",
@@ -136619,6 +138777,110 @@
 "term": "Azure",
 "tier": 3,
 "vendor": "Azure"
+}
+]
+},
+"CVE-2026-82168": {
+"alerted": true,
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82168"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82168",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:53Z",
+"reasons": [
+"CVSS 7.7",
+"unauthenticated",
+"matches VMware (Tier 2)"
+],
+"route": "alert",
+"score": 7,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-82168: Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains a Use of Hard-coded Credentials…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82168",
+"vendor_matches": [
+{
+"points": 2,
+"term": "VMware",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+"CVE-2026-82169": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82169"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82169",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:53Z",
+"reasons": [
+"CVSS 8.3",
+"matches VMware (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-82169: Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains an OS Command Injection – confirm…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82169",
+"vendor_matches": [
+{
+"points": 2,
+"term": "VMware",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+"CVE-2026-82170": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82170"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82170",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:53Z",
+"reasons": [
+"CVSS 7.7",
+"matches VMware (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-82170: Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains a Server-Side Request Forgery SSRF…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82170",
+"vendor_matches": [
+{
+"points": 2,
+"term": "VMware",
+"tier": 2,
+"vendor": "VMware"
 }
 ]
 },
@@ -136696,6 +138958,237 @@
 "term": "SonicOS",
 "tier": 1,
 "vendor": "SonicWall"
+}
+]
+},
+"CVE-2026-82313": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82313"
+],
+"cvss": 8.4,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82313",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:53Z",
+"reasons": [
+"CVSS 8.4",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-82313: SolarWinds Serv-U is affected by a business logic vulnerability that may allow access to a higher privileged account, which can then be…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82313",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+"CVE-2026-82315": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82315"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82315",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:54Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-82315: SolarWinds Serv-U is affected by another Time-of-Check to Time-of-Use (TOCTOU) vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82315",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+"CVE-2026-82316": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82316"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82316",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:54Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-82316: SolarWinds Serv-U is affected by a Time-of-Check to Time-of-Use (TOCTOU) vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82316",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+"CVE-2026-82319": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82319"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82319",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:54Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-82319: SolarWinds Serv-U is affected by a time-of-check to time-of-use (TOCTOU) vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82319",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+"CVE-2026-82320": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82320"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82320",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:54Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-82320: SolarWinds Serv-U was found to be affected by another type confusion vulnerability that may allow domain administrators to escalate…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82320",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+"CVE-2026-82321": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82321"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82321",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:54Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-82321: SolarWinds Serv-U was found to be affected by a type confusion vulnerability that may allow domain administrators to escalate privileges…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82321",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+"CVE-2026-82322": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82322"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82322",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:54Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-82322: SolarWinds Serv-U is affected by an Insecure Direct Object Reference (IDOR) vulnerability that allows a domain group administrator to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82322",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
 }
 ]
 },
@@ -144562,7 +147055,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -150432,6 +152925,41 @@
 }
 ]
 },
+"CVE-2026-96298": {
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-96298"
+],
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-96298",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T11:17:21Z",
+"reasons": [
+"matches Apache (Tier 2)",
+"topic: Docker"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"title": "CVE-2026-96298: Missing Authorization vulnerability in the computing unit workflow websocket of Apache Texera (incubating) allows an authenticated user to…",
+"topic_hits": [
+"Docker"
+],
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96298",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
 "CVE-2026-96303": {
 "category": "vulnerabilities",
 "coverage_count": 1,
@@ -152176,7 +154704,7 @@
 "epss": 0.00453,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-98130",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -152258,7 +154786,7 @@
 "epss": 0.0016,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-98797",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -153539,7 +156067,7 @@
 "epss": 0.00209,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "CVE-2026-99284",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -154601,7 +157129,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "alert",
 "score": 7,
 "source": "NVD",
@@ -155885,7 +158413,7 @@
 ],
 "first_seen": "2026-11-19T21:22:22Z",
 "id": "CVE-2026-99534",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "NVD",
@@ -158588,10 +161116,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "a1219d58f30455b14d62e2930710e1b5755e0364386863b93fcd77924739e3f1",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T14:06:06Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -158599,8 +161123,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/jerusalem-daily-gaza-faces-deadly-strikes-and-health-crisis?traffic_source=rss",
 "weight": 1
 },
 "a135acb25d7e62a02f2ff6f081839f540f011a59e82ff4550f8540565d594201": {
@@ -158938,7 +161460,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-18T16:30:18Z",
 "id": "a24b9d54d939ac635a588ee1e5af0cb8aba56ce2c95ad4908acf315aa85ee34d",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -159548,10 +162070,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "a4ceebbd82a827f6202926a2f1c89d73d17187127633ec00afe607a7bd4972bf",
 "last_seen": "2026-11-23",
-"published": "2026-11-21T04:34:00Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -159559,8 +162077,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Man convicted of starting Palisades fire in Los Angeles",
-"url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o",
 "weight": 1
 },
 "a4d032f1f5bbf0ba9a91cd64e648b36f20ce9da6a5c0bb5a37312650c2a26479": {
@@ -159634,6 +162150,22 @@
 "sources": [
 "Zero Day Initiative"
 ]
+},
+"a50ae9ce161fcfdac5ea0ce55c1f51af03241c65541aebbe8374eece1a7dbf6e": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "a50ae9ce161fcfdac5ea0ce55c1f51af03241c65541aebbe8374eece1a7dbf6e",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:44:44Z",
+"route": "drop",
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking",
+"url": "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/"
 },
 "a52b281c0e1b5f7a1ba524bfb558081a947a013309d16d07f37ff0f824cd1600": {
 "category": "world",
@@ -159828,7 +162360,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -160047,6 +162579,27 @@
 ],
 "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
 "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/"
+},
+"a625043ffb175ea0fe3638b0775f42785e5b345bcedac9e2931e0927c4160820": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "a625043ffb175ea0fe3638b0775f42785e5b345bcedac9e2931e0927c4160820",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:45:43Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Russian governor detained in rare criminal case against regional leader",
+"url": "https://www.bbc.co.uk/news/articles/cmwy868v3nneo",
+"weight": 1
 },
 "a63cb97c9e1a22ac64e775dddec488c98302414b10ac94a8e9583a6f4654849a": {
 "category": "world",
@@ -160318,6 +162871,34 @@
 "Al Jazeera"
 ],
 "weight": 1
+},
+"a7040f881823b0fb30233c7470bc139721bcd7a96423b663c48b10a0f186143b": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "a7040f881823b0fb30233c7470bc139721bcd7a96423b663c48b10a0f186143b",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:15:38Z",
+"reasons": [
+"matches Google Android (Tier 2)"
+],
+"route": "drop",
+"score": 2,
+"source": "Ars Technica",
+"source_type": "rss",
+"sources": [
+"Ars Technica"
+],
+"title": "One terminal command gave my forgotten Android device a desk job",
+"url": "https://arstechnica.com/gadgets/2026/11/one-terminal-command-gave-my-forgotten-android-device-a-desk-job/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Android",
+"tier": 2,
+"vendor": "Google"
+}
+]
 },
 "a70fabcd0222517b2814b57195b4665f63da7d503563a23abd296cc28fc2945d": {
 "category": "tech",
@@ -161100,19 +163681,13 @@
 "ransomware"
 ],
 "last_seen": "2026-11-24",
-"published": "2026-11-21T00:36:39Z",
-"reasons": [
-"ransomware"
-],
 "route": "digest",
 "score": 3,
 "source": "Krebs on Security",
 "source_type": "rss",
 "sources": [
 "Krebs on Security"
-],
-"title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
-"url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/"
+]
 },
 "a9c0a9689ca0a02741c46c54f62a184ca7593d333cc8847e7a967d15a537f5bf": {
 "category": "world",
@@ -161590,7 +164165,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -161824,6 +164399,27 @@
 "sources": [
 "Fortinet PSIRT"
 ]
+},
+"ab5d676404621c15c6f1466aa4d45be0ff26e6987731df6c9166df97310bd767": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "ab5d676404621c15c6f1466aa4d45be0ff26e6987731df6c9166df97310bd767",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:04:20Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Nvidia shares slide as Trump's role in Jensen Huang's comeback questioned by US politicians",
+"url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo",
+"weight": 1
 },
 "ab5ec93782d62b8dcb19bf3d697f6f845bd303a63b521b90f814cf95817c1f0d": {
 "category": "world",
@@ -162454,15 +165050,12 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "ad594f5f42f81e7d87e69f11d22d60f9c9baaf11bd61debec96c4b078d11a682",
 "last_seen": "2026-11-22",
-"published": "2026-11-21T14:55:28Z",
 "route": "drop",
 "source": "The Verge",
 "source_type": "rss",
 "sources": [
 "The Verge"
-],
-"title": "Our go-to earbuds for taking calls have fallen to their lowest price to date",
-"url": "https://www.theverge.com/gadgets/1039160/anker-soundcore-liberty-5-pro-black-friday-2026-deal-sale"
+]
 },
 "ad845335b5f605cbafd18db8f6f26719969f669ede34dd75f3954bb86e0b4977": {
 "category": "world",
@@ -162846,6 +165439,22 @@
 ],
 "weight": 1
 },
+"ae84f8b11a5d5988b4783533361470dc4f40ac3a9f9677fe27b38e339017baf6": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "ae84f8b11a5d5988b4783533361470dc4f40ac3a9f9677fe27b38e339017baf6",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:49:05Z",
+"route": "drop",
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "Radware discloses breach exposing customer cloud access keys",
+"url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/"
+},
 "ae9659e272c06b36de4ddfb0c532a06b361191cc8395c502f55ccbf7b8e7b582": {
 "category": "world",
 "coverage_count": 1,
@@ -163031,10 +165640,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "af6cd7e83095bf80cb9f1e150a459e05cff4baee16573dc5e103bce8c77d16bf",
 "last_seen": "2026-11-22",
-"published": "2026-11-17T15:22:57Z",
-"reasons": [
-"source weight +3"
-],
 "route": "digest",
 "score": 3,
 "source": "Hacker News",
@@ -163045,8 +165650,6 @@
 "tags": [
 "hn"
 ],
-"title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
-"url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
 "weight": 3
 },
 "af8084d5302e1615ee302364cf1e3d0988a8f9c798c4c87b2eb69590c86c362d": {
@@ -163155,18 +165758,12 @@
 "muted_hits": [
 "deal"
 ],
-"published": "2026-11-21T06:00:09Z",
-"reasons": [
-"muted: deal"
-],
 "route": "drop",
 "source": "BBC World",
 "source_type": "rss",
 "sources": [
 "BBC World"
 ],
-"title": "Deal with EU not dependent on tuition fees agreement, Miliband says",
-"url": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o",
 "weight": 1
 },
 "afebcf037c105659b98b6a06a98a5c4be1e90dee8176796ab0d6a1c5183c2536": {
@@ -163622,10 +166219,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "b1b8517a7307d9b069c18082e709f3c71d4f36976537295fcb8babe16e8fefe9",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T11:02:29Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -163633,8 +166226,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Deadly fire engulfs power station in southern Iraq",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/deadly-fire-engulfs-power-station-in-southern-iraq?traffic_source=rss",
 "weight": 1
 },
 "b1c032a570a5ca2859b948022df588a9ef697c651166e421537781fc4a111a12": {
@@ -163763,7 +166354,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -164417,7 +167008,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-18T16:30:18Z",
 "id": "b4b06fd996ce3fa94e349b0cb522a4a76937b811b3fd29cd33b4686efb3de0ef",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -164488,7 +167079,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "b4e5b943cc409c397495262703ba8b68523572ad4858769a407242ce5de3e98a",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -165658,6 +168249,27 @@
 }
 ]
 },
+"b90be9328485295a8df389d2afd2294e86a24390bac3e5aa83e6df2a77ed8f13": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "b90be9328485295a8df389d2afd2294e86a24390bac3e5aa83e6df2a77ed8f13",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T06:23:01Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Bangladesh's ex-PM Sheikh Hasina says she plans to return on 16 December",
+"url": "https://www.bbc.co.uk/news/articles/c60rk1yj07xeo",
+"weight": 1
+},
 "b9376d0f81be1ba4da6d1ab665a7ded4211f93e393b9b570c6c5126626e1c2f7": {
 "category": "world",
 "coverage_count": 1,
@@ -166081,6 +168693,27 @@
 ],
 "weight": 1
 },
+"baab91016e58ed729924639f314f230c38a6c5a964c88fe4d2f8d071171b2d85": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "baab91016e58ed729924639f314f230c38a6c5a964c88fe4d2f8d071171b2d85",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:25:57Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "US sanctions on Lebanon’s Hezbollah-affiliates may have limited impact",
+"url": "https://www.aljazeera.com/news/2026/11/24/us-sanctions-on-lebanons-hezbollah-affiliates-may-have-limited-impact?traffic_source=rss",
+"weight": 1
+},
 "bab4389fcac12597dfb36bb30413dd7d2576352e9b2ad0d79c22d11ca63e8844": {
 "category": "security",
 "coverage_count": 1,
@@ -166358,18 +168991,12 @@
 "muted_hits": [
 "deal"
 ],
-"published": "2026-11-21T01:44:09Z",
-"reasons": [
-"muted: deal"
-],
 "route": "drop",
 "source": "Al Jazeera",
 "source_type": "rss",
 "sources": [
 "Al Jazeera"
 ],
-"title": "COP31 deal stalls as nations struggle to agree on climate plan",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/cop31-deal-stalls-as-nations-struggle-to-agree-on-climate-plan?traffic_source=rss",
 "weight": 1
 },
 "bbc9c2be5c74d0f47b5ef3ff16cff04c9fd85a2ee51695990a77ad7f8aaf2a9d": {
@@ -167232,7 +169859,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-18T16:30:18Z",
 "id": "be5c46870f673707f321f134bea073aa980fe5c8c8653bdd25f88850219a4720",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -167289,7 +169916,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -167532,15 +170159,12 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "bf5497f2d754844d1c891cd3978e18f1abadbefae611b35d523a044b5c486afe",
 "last_seen": "2026-11-24",
-"published": "2026-11-21T11:53:07Z",
 "route": "drop",
 "source": "The Hacker News",
 "source_type": "rss",
 "sources": [
 "The Hacker News"
-],
-"title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-"url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html"
+]
 },
 "bf77d03c84080d097b85c649e73772879097f363621bd1e6d36645178bb4e8b5": {
 "category": "tech",
@@ -168082,10 +170706,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "c1076b0a97f88d074269071ef9236f1d220fc1c4c51037d312c27672dd94f8aa",
 "last_seen": "2026-11-23",
-"published": "2026-11-21T01:02:39Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -168093,8 +170713,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "They were fined $811m for conning detained migrants, but the scams didn't stop",
-"url": "https://www.bbc.co.uk/news/articles/cqgm0zlkgrm2o",
 "weight": 1
 },
 "c10daf7a0ca3c65ed29e3e70ad931fb86742393f47581c9c9d48946f5ed1dc4f": {
@@ -168246,7 +170864,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -168300,7 +170918,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -168500,7 +171118,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -168530,7 +171148,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -168865,6 +171483,41 @@
 "The Verge"
 ]
 },
+"c382abab83d5c3a156fc51a9ae9def7e81ae126a84f45b1c5ddff21fe3949028": {
+"category": "security",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123903"
+],
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "c382abab83d5c3a156fc51a9ae9def7e81ae126a84f45b1c5ddff21fe3949028",
+"keyword_hits": [
+"zero-day"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T13:28:26Z",
+"reasons": [
+"zero-day",
+"matches VMware vCenter (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+"url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "vCenter",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
 "c388f54fad9e01c5696256a911f07310c0aa1649eba3d940d44b8981f08a5b4e": {
 "alerted": true,
 "category": "vulnerabilities",
@@ -169064,19 +171717,13 @@
 "zero-day"
 ],
 "last_seen": "2026-11-24",
-"published": "2026-11-21T11:03:17Z",
-"reasons": [
-"zero-day"
-],
 "route": "digest",
 "score": 3,
 "source": "The Hacker News",
 "source_type": "rss",
 "sources": [
 "The Hacker News"
-],
-"title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-"url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+]
 },
 "c46659194d2eaa8b3a475c74d3437367aabdc75583c6c159c6fcf1e64d034d1d": {
 "category": "world",
@@ -169311,7 +171958,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -169619,6 +172266,27 @@
 "topic_hits": [
 "Rwanda"
 ],
+"weight": 1
+},
+"c5d1bb4d9de7887394352f376da1c00db9520568b6df86f85badc29325f9124a": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "c5d1bb4d9de7887394352f376da1c00db9520568b6df86f85badc29325f9124a",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T14:50:02Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "The photos from Gaza resonating with the people of Sarajevo",
+"url": "https://www.aljazeera.com/features/2026/11/24/the-photographs-from-gaza-that-sarajevo-took-home?traffic_source=rss",
 "weight": 1
 },
 "c5da624f5ed99ded8b5903fc441ee27dae851f2e45318fd20fc0499a21df2d25": {
@@ -170344,10 +173012,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "c891fc875e35b13b6debe3984566a2c6b1b4d5073a723250e0fe2f55c20d1ea5",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T09:58:59Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -170355,8 +173019,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Verstappen escapes Vegas F1 discipline, takes pole as Antonelli penalised",
-"url": "https://www.aljazeera.com/sports/2026/11/21/verstappen-escapes-las-vegas-discipline-takes-pole-as-antonelli-penalised?traffic_source=rss",
 "weight": 1
 },
 "c89ea1094c00213e7aa2ac4a3a49c9ee32fe1752f4019dcc82324004a8420137": {
@@ -170716,6 +173378,29 @@
 ],
 "weight": 1
 },
+"c9d2b1e41e5ac8a36ae846e5bc70899e3b30519da4a6e467745c9452a74cdfd1": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "c9d2b1e41e5ac8a36ae846e5bc70899e3b30519da4a6e467745c9452a74cdfd1",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T11:50:21Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
+"url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/"
+},
 "c9d5e38309785c9a4bfdd514d4ce2ca2ca98685269de0b64b7be0a3a41c660dd": {
 "category": "tech",
 "coverage_count": 1,
@@ -170956,6 +173641,27 @@
 ],
 "weight": 1
 },
+"ca9ecb2b87cc6a00c199ecc9a1a0e5012e7ef9cb8c66bfb15443da773dcfe796": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "ca9ecb2b87cc6a00c199ecc9a1a0e5012e7ef9cb8c66bfb15443da773dcfe796",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T09:09:41Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Watch: Moment troops raid home and capture Mexican drug lord",
+"url": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo",
+"weight": 1
+},
 "caa76a74b240f6027862953df75ee4bc77224fcfc7e46f0e0638bcdd656d362e": {
 "category": "security",
 "coverage_count": 1,
@@ -171084,6 +173790,27 @@
 "sources": [
 "BBC World"
 ],
+"weight": 1
+},
+"cb1615c3cded508a6c021538de76722a1185b485fe98eae7d1eb1677d1a09cae": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "cb1615c3cded508a6c021538de76722a1185b485fe98eae7d1eb1677d1a09cae",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:55:36Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Five women killed every hour globally by partner, relative last year: UN",
+"url": "https://www.aljazeera.com/news/2026/11/24/five-women-killed-every-hour-globally-by-partner-relative-in-2025-un?traffic_source=rss",
 "weight": 1
 },
 "cb19f3a5da0dfffcea8cbf5b0701a03ff560fd278158b7a66e43738cb5f26252": {
@@ -171276,11 +174003,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "cba19c89afeb28d2254f7adc48ba0da76882c7773debce91ca4e43aa2b9a01c9",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T09:38:29Z",
-"reasons": [
-"topic: Africa",
-"source weight +1"
-],
 "route": "digest",
 "score": 3,
 "source": "Al Jazeera",
@@ -171288,11 +174010,9 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Sandpapergate: Cummins has Australia’s ‘unanimous support’ as Test captain",
 "topic_hits": [
 "Africa"
 ],
-"url": "https://www.aljazeera.com/sports/2026/11/21/cummins-wins-cricket-australias-unanimous-support-as-test-captain-sandpapergate?traffic_source=rss",
 "weight": 1
 },
 "cbaa071ee1acd0adb12408b07d9b614d5091827822459c751b9687aa6934c93e": {
@@ -171330,6 +174050,22 @@
 "Al Jazeera"
 ],
 "weight": 1
+},
+"cbb0ac23bee6ae8265067f8553b23d2b9841bd6a5c263c12f3bccd8eaafca700": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "cbb0ac23bee6ae8265067f8553b23d2b9841bd6a5c263c12f3bccd8eaafca700",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:00:00Z",
+"route": "drop",
+"source": "The Record",
+"source_type": "rss",
+"sources": [
+"The Record"
+],
+"title": "Carnegie Endowment for International Peace says third-party breach leaked donation info",
+"url": "https://therecord.media/carnegie-endowment-data-breach"
 },
 "cbcb723c50032ca8384dd354c5e6a88ced7d224d74dca7b9536028bf059f7b8e": {
 "category": "tech",
@@ -171533,10 +174269,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "ccb1fe62e73367fab8805e4d4d34a0a32c6663429950ba79606525c32f9d486a",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T00:55:01Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -171544,8 +174276,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Can Mauricio Pochettino save Man United from Premier League relegation?",
-"url": "https://www.aljazeera.com/sports/2026/11/21/can-pochetinno-save-man-united-from-premier-league-relegation?traffic_source=rss",
 "weight": 1
 },
 "cce886d88384a881b88cbf780780bdf720b8e7ec46e80ce261c00a42b5850ecd": {
@@ -171646,10 +174376,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "cd21738ca940947ffc5f01d8eb5b664322c54d304eb9913695ce45d686867177",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T12:22:24Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -171657,8 +174383,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Florida residents turn to kayaks and rafts as floods swamp streets",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/florida-residents-turn-to-kayaks-and-rafts-as-floods-swamp-streets?traffic_source=rss",
 "weight": 1
 },
 "cd21eed67955fdd4f34fdf9fa4f5da29db52729750fe2a4d8327e8cbfb17c2ac": {
@@ -171899,6 +174623,22 @@
 ],
 "weight": 1
 },
+"cdeb0916cdb34f72f42df9d2e8232c450db7c4030e96a15938f790e36128bca3": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "cdeb0916cdb34f72f42df9d2e8232c450db7c4030e96a15938f790e36128bca3",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T13:45:00Z",
+"route": "drop",
+"source": "The Record",
+"source_type": "rss",
+"sources": [
+"The Record"
+],
+"title": "UK cyber agency seeing ‘marked rise’ in AI-driven attacks",
+"url": "https://therecord.media/cyberattacks-uk-artificial-intelligence"
+},
 "ce05e990bcf9c8d605b9aa53d2a555b92d1e4343e0d5cddf04a8d93c397cea3b": {
 "category": "world",
 "coverage_count": 1,
@@ -172079,7 +174819,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -172158,7 +174898,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -172238,15 +174978,12 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "cf139eecfc7fe6125d7aec2837b6600007465712b80d7468fe3b3a6b8278ad22",
 "last_seen": "2026-11-22",
-"published": "2026-11-21T14:00:00Z",
 "route": "drop",
 "source": "The Verge",
 "source_type": "rss",
 "sources": [
 "The Verge"
-],
-"title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
-"url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai"
+]
 },
 "cf16121480250bcba56cd7104a935a3654c8c2c8d317422fff9a6e603bb128fc": {
 "category": "tech",
@@ -172408,10 +175145,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "cf96b062ffc80fe0fc7065912c995acc55ea733d941816f8a993a6487d02e6c6",
 "last_seen": "2026-11-23",
-"published": "2026-11-21T09:34:20Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -172419,8 +175152,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "FBI reportedly investigating apparent hack of its criminal database",
-"url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o",
 "weight": 1
 },
 "cf992ae68a613cc2684f4c4f7bf475437c5b6d9ff6737774aafd02a5c72f25c2": {
@@ -172510,7 +175241,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -172667,6 +175398,22 @@
 "sources": [
 "SecurityWeek"
 ]
+},
+"d0368a2db5d53146b5548ba8d3f83cdd39ea438308b6dad532bdb2132fd0e1a6": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "d0368a2db5d53146b5548ba8d3f83cdd39ea438308b6dad532bdb2132fd0e1a6",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:01:19Z",
+"route": "drop",
+"source": "Ars Technica",
+"source_type": "rss",
+"sources": [
+"Ars Technica"
+],
+"title": "Homo erectus lived in the rainforest alongside Denisovans",
+"url": "https://arstechnica.com/science/2026/11/homo-erectus-lived-in-the-rainforest-alongside-denisovans/"
 },
 "d038e65715ecbc9cab5bd31bc40df6402d504579ce89b59c85fd01a49c8a64fb": {
 "category": "tech",
@@ -174080,7 +176827,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -174863,6 +177610,22 @@
 "The Record"
 ]
 },
+"d85b6e6a801a75b1d13487e5f12e476d635bc012ffc98b3f0a247f5f7e05d600": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "d85b6e6a801a75b1d13487e5f12e476d635bc012ffc98b3f0a247f5f7e05d600",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:01:54Z",
+"route": "drop",
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+"url": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html"
+},
 "d870bf93f1c8bacfa8a62fd96b8df873a0a901c8a5f38ab5e8c57dd8ac5ba19b": {
 "category": "security",
 "coverage_count": 1,
@@ -174914,7 +177677,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -175925,6 +178688,22 @@
 "The Verge"
 ]
 },
+"dcbb2cb73c94adab0879372f936ae97ad4d0c89a1b20d3baf131f625ae60e5ff": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "dcbb2cb73c94adab0879372f936ae97ad4d0c89a1b20d3baf131f625ae60e5ff",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:34:34Z",
+"route": "drop",
+"source": "Ars Technica",
+"source_type": "rss",
+"sources": [
+"Ars Technica"
+],
+"title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+"url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/"
+},
 "dcbe6366221ff1a9ce5250b185bd729412aa9bb1b1ff48c455a728af7074fab6": {
 "category": "world",
 "coverage_count": 1,
@@ -176033,11 +178812,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "dd25b7e638c1215371d69b994e2b3ef20bc05ec5efb4851c252ddb00699c5017",
 "last_seen": "2026-11-23",
-"published": "2026-11-21T00:34:51Z",
-"reasons": [
-"topic: Africa",
-"source weight +1"
-],
 "route": "digest",
 "score": 3,
 "source": "BBC World",
@@ -176045,11 +178819,9 @@
 "sources": [
 "BBC World"
 ],
-"title": "ANC fights to keep control of South Africa's key cities after election setback",
 "topic_hits": [
 "Africa"
 ],
-"url": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo",
 "weight": 1
 },
 "dd394e96510d5a6af36b3e3cffbce80db6f34d1857c5256c603ef923ed506fe6": {
@@ -176333,6 +179105,31 @@
 "vendor": "Google"
 }
 ]
+},
+"ddf3feb353251ac4d53faa8c677d4e2fc6b6be707e9d3899b8e3b23b341e506e": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "ddf3feb353251ac4d53faa8c677d4e2fc6b6be707e9d3899b8e3b23b341e506e",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:54:04Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"title": "Rwanda, Denmark Sign Agreements to Deepen Bilateral Ties",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611240282.html",
+"weight": 1
 },
 "de01aea464f427788878bd40ad9d4fdf6f44cffe670218d04ae7c4c6770cb064": {
 "category": "tech",
@@ -177050,7 +179847,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -177180,6 +179977,22 @@
 "Africa"
 ],
 "weight": 1
+},
+"e1215799f3997cdb9c9e2d60b31b156cb4ab74b8c83d931cebc3353702fc565c": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "e1215799f3997cdb9c9e2d60b31b156cb4ab74b8c83d931cebc3353702fc565c",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:10:10Z",
+"route": "drop",
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
+"url": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/"
 },
 "e12512b9681760b8e48aa1fe14ee1476fa7056de6672d3c2c74d6e64a5d0152b": {
 "category": "tech",
@@ -177566,6 +180379,22 @@
 ],
 "weight": 1
 },
+"e21e0027e7a8012290a7cc9be5ef2d6cac03264bae0d1bff4612b3dd4d7e210a": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "e21e0027e7a8012290a7cc9be5ef2d6cac03264bae0d1bff4612b3dd4d7e210a",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:20:37Z",
+"route": "drop",
+"source": "Ars Technica",
+"source_type": "rss",
+"sources": [
+"Ars Technica"
+],
+"title": "No more heated seat subscriptions for cars in New York from 2027",
+"url": "https://arstechnica.com/cars/2026/11/new-york-says-no-more-subscriptions-for-in-car-features-or-does-it/"
+},
 "e224c1cedd0e5fea247d524a67d2c329a733d3a10afb595fda54853ccd2952a7": {
 "category": "world",
 "coverage_count": 1,
@@ -177856,10 +180685,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "e3554f5571a3ac609a3198606e7abedee07f771cc67e49cb8913f539c8231342",
 "last_seen": "2026-11-24",
-"published": "2026-11-21T08:49:20Z",
-"reasons": [
-"matches Apple iOS (Tier 2)"
-],
 "route": "drop",
 "score": 2,
 "source": "The Hacker News",
@@ -177867,8 +180692,6 @@
 "sources": [
 "The Hacker News"
 ],
-"title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-"url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
 "vendor_matches": [
 {
 "points": 2,
@@ -178258,6 +181081,22 @@
 ],
 "weight": 1
 },
+"e48c3f8bd825300e476969049f4353fea67a1bc7aee8d79416c71ce74ee9d20f": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "e48c3f8bd825300e476969049f4353fea67a1bc7aee8d79416c71ce74ee9d20f",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:35:04Z",
+"route": "drop",
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"title": "Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine",
+"url": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/"
+},
 "e4a3fdd381224438b018b954c9830582e3ad4388d6d456f088c8c2f7fdcd193e": {
 "category": "world",
 "coverage_count": 1,
@@ -178279,10 +181118,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "e4b2c501ebfdd5d6f495aed8090aa0e18116fbde8498872ad6d2df18cdf6f770",
 "last_seen": "2026-11-23",
-"published": "2026-11-21T08:10:03Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -178290,8 +181125,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Trafalgar Square Christmas tree felled in Norway",
-"url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo",
 "weight": 1
 },
 "e4ca683a1a620c33b1249842745a68bfce106416281fe5dea36f1191f1a8aeba": {
@@ -178300,10 +181133,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "e4ca683a1a620c33b1249842745a68bfce106416281fe5dea36f1191f1a8aeba",
 "last_seen": "2026-11-21",
-"published": "2026-11-20T13:29:59Z",
-"reasons": [
-"source weight +3"
-],
 "route": "digest",
 "score": 3,
 "source": "Hacker News",
@@ -178314,8 +181143,6 @@
 "tags": [
 "hn"
 ],
-"title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
-"url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
 "weight": 3
 },
 "e4d8161772eb290c14d4d840eee13fe3920117ee55cacd60e218f169d08b7fa7": {
@@ -178335,6 +181162,22 @@
 "Africa"
 ],
 "weight": 1
+},
+"e4ec173981acbec4627156932d171ea5c5d6b541845da4a9e5a1c457a8b40df2": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "e4ec173981acbec4627156932d171ea5c5d6b541845da4a9e5a1c457a8b40df2",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:24:46Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "You can lock in Hulu and Disney Plus for as low as $5 per month for a year",
+"url": "https://www.theverge.com/gadgets/1041150/hulu-disney-plus-black-friday-ad-free-streaming-subscription-deal-sale-2026"
 },
 "e4ff4ef2812c56c1143dde1cbe64ed2cfb7d4016fc4654fb947b465deda771db": {
 "category": "world",
@@ -178510,7 +181353,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -178837,7 +181680,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "e65d10dc1b152fa2cda1ac72e35296430393f337016be05ca7dc87e95759dc4e",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -179183,6 +182026,22 @@
 ],
 "weight": 1
 },
+"e76d21cdac3db242a3be3472582e54029daffbdb9c9dc4f7bcaeda2733ba82da": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "e76d21cdac3db242a3be3472582e54029daffbdb9c9dc4f7bcaeda2733ba82da",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T14:00:00Z",
+"route": "drop",
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"The Verge"
+],
+"title": "Bambu’s five-nozzle P3C isn’t quite the 3D printer I expected",
+"url": "https://www.theverge.com/tech/1041034/bambu-p3c-3d-printer-price-release-date"
+},
 "e7728f36d406044e22b66228527a9dbf49d66993b27ba4626bec1fdc38f401f9": {
 "category": "world",
 "coverage_count": 1,
@@ -179273,7 +182132,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -179778,6 +182637,30 @@
 ],
 "weight": 1
 },
+"e8e7bbdaa8827770f9f55b2d748f6bae723e7d4c157bd662090270259ecba20e": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "e8e7bbdaa8827770f9f55b2d748f6bae723e7d4c157bd662090270259ecba20e",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T20:52:54Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "GPUI is getting its own repository",
+"url": "https://github.com/zed-industries/gpui",
+"weight": 3
+},
 "e8fd3a19b4c7178b65d5a56f3784446b9bcda19b4f67b47e3afac028148262e1": {
 "category": "world",
 "coverage_count": 1,
@@ -179965,7 +182848,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -180040,6 +182923,30 @@
 "vendor": "Apple"
 }
 ]
+},
+"e9a210e7064ff48fca4f3a1d58a5b249bac73724282859eeb556448a307369e0": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "e9a210e7064ff48fca4f3a1d58a5b249bac73724282859eeb556448a307369e0",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T06:30:33Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "2035 came early",
+"url": "https://fzakaria.com/2026/11/23/2035-came-early",
+"weight": 3
 },
 "e9ac73fec802c838f83ab8d560a98cf52adcd59f21d01fdd173272a7a3d66d64": {
 "category": "world",
@@ -180128,7 +183035,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "e9be27895efbee2eb631bdce1b2b88c35b0ee2efe91f92015881bc46775ff59b",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "score": 2,
 "source": "Zero Day Initiative",
@@ -180499,10 +183406,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "ead7673ca00aeb03bcaa46859c2f20daf349d38446e21b46ab029f2332e60b14",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T05:16:15Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -180510,8 +183413,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Funeral held for New York teen shot while walking to school",
-"url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/funeral-held-for-new-york-teen-shot-while-walking-to-school?traffic_source=rss",
 "weight": 1
 },
 "eaea66fd7facf0e21e5a929614bf32696dc82a9e842e98c9801708630b05f33d": {
@@ -180659,6 +183560,27 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"eb787ed6169cf5a1be0b1c3db0a8861fe739cd78e535018a394323de937bf3a7": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "eb787ed6169cf5a1be0b1c3db0a8861fe739cd78e535018a394323de937bf3a7",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:10:29Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "How the Iran war is reshaping the US military presence in the Middle East",
+"url": "https://www.aljazeera.com/news/2026/11/24/how-the-iran-war-is-reshaping-the-us-military-presence-in-the-middle-east?traffic_source=rss",
 "weight": 1
 },
 "eb799e461c572ed892de832ad2bd12ef106395b2345b5dd46f535ece77203117": {
@@ -180944,6 +183866,22 @@
 "Zero Day Initiative"
 ]
 },
+"ec344594ee4276b33445f2ef669b9f5d16d20d1148e924d8913ebb60f8e44e8a": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "ec344594ee4276b33445f2ef669b9f5d16d20d1148e924d8913ebb60f8e44e8a",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:00:57Z",
+"route": "drop",
+"source": "Ars Technica",
+"source_type": "rss",
+"sources": [
+"Ars Technica"
+],
+"title": "Ukraine sinks Russian warship, strikes cargo ships from Mediterranean to Baltic",
+"url": "https://arstechnica.com/gadgets/2026/11/ukraines-sea-drones-blow-up-russian-warship-in-benghazi-operation/"
+},
 "ec50670250d132c3d5bd08541f82c008de0eb35b40974c35525a3bbaa57cd403": {
 "category": "security",
 "coverage_count": 1,
@@ -180996,10 +183934,6 @@
 "first_seen": "2026-11-21T07:24:52Z",
 "id": "ec6eabad8a9e7992f680c3d49ff11c4e2d8e9a6eb50e7fc25c2b0a59c1e35483",
 "last_seen": "2026-11-23",
-"published": "2026-11-20T18:48:48Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -181007,8 +183941,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Miami or Vice City? Tour the real-world inspiration for GTA 6",
-"url": "https://www.bbc.co.uk/news/videos/c8wy5d43zp9qo",
 "weight": 1
 },
 "ec6fed98fe09ff03f7d26f6a3c79552a51c2ee6ec50897bdf994d806e1ff20a3": {
@@ -182097,7 +185029,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -182601,7 +185533,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-18T16:30:18Z",
 "id": "f23551ed9ad008af145a360ed4940f5b1ddadde2eaf7884e7f3250e844fc52f2",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -182708,6 +185640,30 @@
 "sources": [
 "Ars Technica"
 ]
+},
+"f2ed9130072cafb327c9c89361250186c0ff8c9b37e74255a9b3613ca9455aa7": {
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "f2ed9130072cafb327c9c89361250186c0ff8c9b37e74255a9b3613ca9455aa7",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:40:15Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "LLM agents work for their parent companies, not for you",
+"url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+"weight": 3
 },
 "f3134944ecda6d2eda8c5c40a9cf2454632481a5ffc8cddecb53136e9bce5208": {
 "category": "world",
@@ -182960,11 +185916,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "f3714d0d43648c09dd62e59986f740923cfa7a5de350bacc09ab89b5abc73738",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T10:54:22Z",
-"reasons": [
-"topic: Africa",
-"source weight +1"
-],
 "route": "digest",
 "score": 3,
 "source": "Al Jazeera",
@@ -182972,11 +185923,9 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Usman Khawaja and David Warner taken off air over Australia’s Sandpapergate",
 "topic_hits": [
 "Africa"
 ],
-"url": "https://www.aljazeera.com/sports/2026/11/21/usman-khawaja-and-david-warner-taken-off-air-over-australias-sandpapergate?traffic_source=rss",
 "weight": 1
 },
 "f37c9c9566ec347c9ddfe24c6e3ff69b8906cc1cf8ddbfb866e6d342309adb86": {
@@ -183030,6 +185979,27 @@
 "sources": [
 "allAfrica Rwanda"
 ],
+"weight": 1
+},
+"f38d6ae41ea5e2a2be8ee409b509b963dcfe34de3b9fd2ad5b0367a19abc8b07": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "f38d6ae41ea5e2a2be8ee409b509b963dcfe34de3b9fd2ad5b0367a19abc8b07",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:45:00Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"title": "Should freedom of movement be a right or a privilege?",
+"url": "https://www.aljazeera.com/video/doha-debates/2026/11/24/should-freedom-of-movement-be-a-right-or-a-privilege?traffic_source=rss",
 "weight": 1
 },
 "f3964cf0345a1e4c718d5202e61ecc973586d8fe8ec483ef546adf8bbf1f75bb": {
@@ -183207,7 +186177,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -183269,7 +186239,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -183336,7 +186306,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -183738,6 +186708,34 @@
 "title": "Tri-screen portable monitors aren’t for the faint of heart",
 "url": "https://arstechnica.com/gadgets/2026/11/a-triple-screen-portable-monitor-means-more-pixels-and-more-bulk/"
 },
+"f5d3ed98554c86f795098878bddf8bc096280963755fa6d44a615908a4275f3a": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "f5d3ed98554c86f795098878bddf8bc096280963755fa6d44a615908a4275f3a",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:15:23Z",
+"reasons": [
+"matches Check Point (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "Hackers compromise Check Point Servers in 22 organizations",
+"url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Check Point",
+"tier": 1,
+"vendor": "Check Point"
+}
+]
+},
 "f5ddd1cbdeec8e9551c342e08b2519a36aaa89fac2b06a259f5fdfa17ae820c0": {
 "category": "tech",
 "coverage_count": 1,
@@ -183825,10 +186823,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "f5fb4c9e3e712e23a1949cc7bf850caade5b5dfb47cd314724038e914f9eaa12",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T09:30:24Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -183836,8 +186830,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Iran says it downed US drones over Hormuz as bid to end war remains stalled",
-"url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss",
 "weight": 1
 },
 "f5fba946a4b7a33e90c56666c6283f1c5838bbd9331f8f41165db865840fd4c4": {
@@ -184074,7 +187066,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 5,
 "source": "Zero Day Initiative",
@@ -184100,6 +187092,34 @@
 "BBC World"
 ],
 "weight": 1
+},
+"f6c889b1730c3068f0ae902f7d3ccf43bf272773bbe20c7b486ca0d1dabb292d": {
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "f6c889b1730c3068f0ae902f7d3ccf43bf272773bbe20c7b486ca0d1dabb292d",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T13:34:23Z",
+"reasons": [
+"matches Cisco (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
+"url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Cisco",
+"tier": 1,
+"vendor": "Cisco"
+}
+]
 },
 "f6d3366857fa462e3fccd81ce369c01d12ccac888e006f23c48601eef2a06b32": {
 "category": "world",
@@ -184386,10 +187406,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "f8120ad8c5093aba11be6b2659c08fea10e985fbc2d9ab42d28ec994cd491f7c",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T12:29:49Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -184397,8 +187413,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Israeli attacks on Gaza kill at least four Palestinians",
-"url": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza?traffic_source=rss",
 "weight": 1
 },
 "f82aa0ae44bf17aed5c1a68932ff0e2f72f4ebde9f751f11771bbccc4a640e40": {
@@ -185102,7 +188116,7 @@
 "coverage_count": 1,
 "first_seen": "2026-11-13T22:54:53Z",
 "id": "faa8e572588eb19dbab802ec8ab4a3fae4aac6bc51aeb96ff31dc1645a6066da",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "drop",
 "source": "Zero Day Initiative",
 "source_type": "rss",
@@ -185237,7 +188251,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -185330,7 +188344,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -185469,6 +188483,27 @@
 "sources": [
 "Al Jazeera"
 ],
+"weight": 1
+},
+"fc1e9d94fd1a6f7d1637911ccd01f087e91f0199f8fdccd427296855a64d46f0": {
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "fc1e9d94fd1a6f7d1637911ccd01f087e91f0199f8fdccd427296855a64d46f0",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T11:10:57Z",
+"reasons": [
+"source weight +1"
+],
+"route": "drop",
+"score": 1,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"title": "Pope Francis' diary reveals claims he saw the devil three times",
+"url": "https://www.bbc.co.uk/news/articles/cm78270l4z7no",
 "weight": 1
 },
 "fc39ddb96b11a860b2cb69e0f9ce8e92c479878916a9d16e78c90fb261cb772c": {
@@ -185732,10 +188767,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "fce4fb3f639792a35a9f49b6dab5d841688a67c99c489d50fbe7b059ec2ac947",
 "last_seen": "2026-11-23",
-"published": "2026-11-21T13:17:38Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "BBC World",
@@ -185743,8 +188774,6 @@
 "sources": [
 "BBC World"
 ],
-"title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
-"url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo",
 "weight": 1
 },
 "fce9e0a62419241753a1dcf5b05520bb2833edd510f0771c8c3b1ef06fe1ee25": {
@@ -186239,7 +189268,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -186607,7 +189636,7 @@
 "keyword_hits": [
 "remote code execution"
 ],
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "route": "digest",
 "score": 3,
 "source": "Zero Day Initiative",
@@ -186756,10 +189785,6 @@
 "first_seen": "2026-11-21T15:32:58Z",
 "id": "fff6069a8401bd17ae846224ee0199c768cb6a008edaf94d6057ddf14cef33ba",
 "last_seen": "2026-11-21",
-"published": "2026-11-21T11:39:03Z",
-"reasons": [
-"source weight +1"
-],
 "route": "drop",
 "score": 1,
 "source": "Al Jazeera",
@@ -186767,8 +189792,6 @@
 "sources": [
 "Al Jazeera"
 ],
-"title": "Why is GTA VI so expensive to play?",
-"url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/11/21/why-is-gta-vi-so-expensive-to-play?traffic_source=rss",
 "weight": 1
 },
 "fff66bbfc75422a342bdfac07b8ff91305da7bc90ee0231c8fb78db19fced66b": {

@@ -1,1 +1,1728 @@
-[]
+[
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116001"
+],
+"cvss": 7.5,
+"epss": 0.00216,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-116001",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T13:17:02Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "NULL pointer dereference vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_04 through 2.0.13. Users are recommended to upgrade to version 2.0.14, which fixes the issue.",
+"title": "CVE-2026-116001: NULL pointer dereference vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_04 through 2.0.13. Users are…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116001",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116005"
+],
+"cvss": 7.5,
+"epss": 0.00233,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-116005",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T13:17:02Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Fixed-size stack buffer overflow vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_01 through 2.0.13. Users are recommended to upgrade to version 2.0.14, which fixes the issue.",
+"title": "CVE-2026-116005: Fixed-size stack buffer overflow vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_01 through 2.0.13. Users are…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116005",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116032"
+],
+"cvss": 7.5,
+"epss": 0.00213,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-116032",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T13:17:02Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Stack buffer overflow vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_01 through 2.0.13. Users are recommended to upgrade to version 2.0.14, which fixes the issue.",
+"title": "CVE-2026-116032: Stack buffer overflow vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_01 through 2.0.13. Users are…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116032",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116043"
+],
+"cvss": 7.5,
+"epss": 0.00182,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-116043",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T13:17:02Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "NULL pointer dereference, Out-of-bounds read vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_01 through 2.0.13. Also fixes an out-of-bounds read in per-request $/ save/restore for which CVE-2026-116021 (now rejected) had previously been assigned. Users are recommended to…",
+"title": "CVE-2026-116043: NULL pointer dereference, Out-of-bounds read vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_01 through…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116043",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116772"
+],
+"cvss": 7.5,
+"epss": 0.00216,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-116772",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T13:17:03Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "OOB read vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_07 through 2.0.13. Users are recommended to upgrade to version 2.0.14, which fixes the issue.",
+"title": "CVE-2026-116772: OOB read vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_07 through 2.0.13. Users are recommended to upgrade…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116772",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-116799"
+],
+"cvss": 7.5,
+"epss": 0.00197,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-116799",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T13:17:03Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "OOB read vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_01 through 2.0.13. Note: The over-read data can be returned to the client in the response. Users are recommended to upgrade to version 2.0.14, which fixes the issue.",
+"title": "CVE-2026-116799: OOB read vulnerability in Apache Perl. This issue affects Apache Perl: from 1.99_01 through 2.0.13. Note: The over-read data can be…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116799",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-125651"
+],
+"cvss": 9.1,
+"epss": 0.00142,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-125651",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T13:17:03Z",
+"reasons": [
+"CVSS 9.1",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Cleartext storage in encrypted parquet file vulnerability in Apache Arrow Rust (`parquet` crate), from version 55.0.0 through to 57.3.2, 58.4.1, 59.3.2 and 60.1.0. When writing an encrypted parquet file with a column with bloom filters, the header and bitsets of the bloom filter are written in…",
+"title": "CVE-2026-125651: Cleartext storage in encrypted parquet file vulnerability in Apache Arrow Rust (`parquet` crate), from version 55.0.0 through to 57.3.2…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125651",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-60076"
+],
+"cvss": 7.5,
+"epss": 0.00216,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-60076",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T15:17:54Z",
+"reasons": [
+"CVSS 7.5",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Allocation of resources without limits or throttling vulnerability in Apache IoTDB. Unbounded in-memory materialization in REST fastLastQuery cache-hit path enables heap-exhaustion DoS. This issue affects Apache IoTDB: from 2.0.5 before 2.0.12. Users are recommended to upgrade to version 2.0.12…",
+"title": "CVE-2026-60076: Allocation of resources without limits or throttling vulnerability in Apache IoTDB. Unbounded in-memory materialization in REST…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60076",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-112788"
+],
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-112788",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T11:17:06Z",
+"reasons": [
+"matches Apache (Tier 2)",
+"topic: Docker"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Missing Authentication for Critical Function in Apache Texera (incubating). The Python virtual environment (PVE) management endpoints of a computing unit are not authenticated by the application itself. In the local JVM and single-node Docker Compose deployments, which place no authenticating…",
+"title": "CVE-2026-112788: Missing Authentication for Critical Function in Apache Texera (incubating). The Python virtual environment (PVE) management endpoints of…",
+"topic_hits": [
+"Docker"
+],
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112788",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-96298"
+],
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-96298",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T11:17:21Z",
+"reasons": [
+"matches Apache (Tier 2)",
+"topic: Docker"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Missing Authorization vulnerability in the computing unit workflow websocket of Apache Texera (incubating) allows an authenticated user to view workflow results, control workflow executions, and run code in a computing unit they have not been granted. In local JVM and single-node Docker Compose…",
+"title": "CVE-2026-96298: Missing Authorization vulnerability in the computing unit workflow websocket of Apache Texera (incubating) allows an authenticated user to…",
+"topic_hits": [
+"Docker"
+],
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96298",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-103333"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-103333",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:17:13Z",
+"reasons": [
+"CVSS 7.7",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper input validation in some SPARQL functions available in Apache Jena ARQ allows users to submit SPARQL queries that cause excessive CPU and/or memory usage. This may be the result of intentionally malicious inputs in the query itself, or an expression applied over data that has been…",
+"title": "CVE-2026-103333: Improper input validation in some SPARQL functions available in Apache Jena ARQ allows users to submit SPARQL queries that cause excessive…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103333",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-59697"
+],
+"cvss": 7.6,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-59697",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:17:24Z",
+"reasons": [
+"CVSS 7.6",
+"matches AWS (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Server-Side Request Forgery (SSRF) vulnerability in ex_aws (instance metadata token provider). This vulnerability is associated with program files lib/ex_aws/instance_meta_token_provider.ex and program routines ExAws.InstanceMetaTokenProvider.request_token/1 and…",
+"title": "CVE-2026-59697: Server-Side Request Forgery (SSRF) vulnerability in ex_aws (instance metadata token provider). This vulnerability is associated with…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59697",
+"vendor_matches": [
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-59698"
+],
+"cvss": 7.4,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-59698",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:17:24Z",
+"reasons": [
+"CVSS 7.4",
+"matches AWS (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Relative path traversal in ex_aws allows an attacker who controls an S3 object key to escape the intended bucket or key prefix. When ex_aws builds a path-style S3 request, ExAws.Operation.S3.add_bucket_to_path/2 in lib/ex_aws/operation/s3.ex joins the bucket name and the object key into a single…",
+"title": "CVE-2026-59698: Relative path traversal in ex_aws allows an attacker who controls an S3 object key to escape the intended bucket or key prefix. When…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59698",
+"vendor_matches": [
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-63583"
+],
+"cvss": 7.0,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-63583",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T15:17:38Z",
+"reasons": [
+"CVSS 7.0",
+"matches AWS (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "ExAws.S3.Utils.build_lifecycle_rule/1 in ex_aws_s3 interpolates caller-supplied lifecycle rule fields (the rule id, filter prefix, tag key and value, storage class, and noncurrent-version count) directly into the PutBucketLifecycleConfiguration XML body without escaping XML metacharacters. An…",
+"title": "CVE-2026-63583: ExAws.S3.Utils.build_lifecycle_rule/1 in ex_aws_s3 interpolates caller-supplied lifecycle rule fields (the rule id, filter prefix, tag key…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63583",
+"vendor_matches": [
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123165"
+],
+"cvss": 4.7,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-123165",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:13Z",
+"reasons": [
+"unauthenticated",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SolarWinds Serv-U was found to be vulnerable to an unauthenticated HTTP response header injection vulnerability that allows an attacker to manipulate a victim's browser session.",
+"title": "CVE-2026-123165: SolarWinds Serv-U was found to be vulnerable to an unauthenticated HTTP response header injection vulnerability that allows an attacker…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123165",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123166"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-123166",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:13Z",
+"reasons": [
+"CVSS 7.2",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SolarWinds Serv-U fails to properly sanitize user-controlled arguments, which could allow the injection of commands. This only affects Windows installations.",
+"title": "CVE-2026-123166: SolarWinds Serv-U fails to properly sanitize user-controlled arguments, which could allow the injection of commands",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123166",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123167"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-123167",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:13Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SolarWinds Serv-U is affected by a privilege escalation vulnerability that, when exploited, can allow a domain administrator to access files that otherwise would require elevated privileges. The risk is lower for Windows installations.",
+"title": "CVE-2026-123167: SolarWinds Serv-U is affected by a privilege escalation vulnerability that, when exploited, can allow a domain administrator to access…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123167",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123168"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-123168",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:13Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SolarWinds Serv-U is affected by an insufficient validation vulnerability that, when exploited, could lead to privilege escalation into the root user in Linux installations. The risk is lower for Windows installations.",
+"title": "CVE-2026-123168: SolarWinds Serv-U is affected by an insufficient validation vulnerability that, when exploited, could lead to privilege escalation into…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123168",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123172"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-123172",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:13Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Solarwinds Serv-U is affected by a privilege escalation vulnerability that, when exploited, could lead to the escalation of privileges to root for Linux installations. The risk is lower for Windows installations.",
+"title": "CVE-2026-123172: Solarwinds Serv-U is affected by a privilege escalation vulnerability that, when exploited, could lead to the escalation of privileges to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123172",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82169"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82169",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:53Z",
+"reasons": [
+"CVSS 8.3",
+"matches VMware (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains an OS Command Injection – confirm single CWE vulnerability in Upgrade Service. A low privileged remote attacker could potentially exploit this vulnerability, leading to arbitrary command execution.",
+"title": "CVE-2026-82169: Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains an OS Command Injection – confirm…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82169",
+"vendor_matches": [
+{
+"points": 2,
+"term": "VMware",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82170"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82170",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:53Z",
+"reasons": [
+"CVSS 7.7",
+"matches VMware (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains a Server-Side Request Forgery SSRF vulnerability in httpRest.js. A low privileged remote attacker could potentially exploit this vulnerability, leading to unauthorized access to internal services",
+"title": "CVE-2026-82170: Dell Virtual Storage Integrator for VMware vSphere Web Client, versions prior to 10.12.0.0, contains a Server-Side Request Forgery SSRF…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82170",
+"vendor_matches": [
+{
+"points": 2,
+"term": "VMware",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82313"
+],
+"cvss": 8.4,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82313",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:53Z",
+"reasons": [
+"CVSS 8.4",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SolarWinds Serv-U is affected by a business logic vulnerability that may allow access to a higher privileged account, which can then be used to execute commands or code. An account with high privileges and a configured SMTP server are required. The risk is lower in Windows installations.",
+"title": "CVE-2026-82313: SolarWinds Serv-U is affected by a business logic vulnerability that may allow access to a higher privileged account, which can then be…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82313",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82315"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82315",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:54Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SolarWinds Serv-U is affected by another Time-of-Check to Time-of-Use (TOCTOU) vulnerability. A user with domain administrator or higher privileges may be able to access or modify protected files outside the intended directory, potentially leading to code execution. The risk is lower in Windows…",
+"title": "CVE-2026-82315: SolarWinds Serv-U is affected by another Time-of-Check to Time-of-Use (TOCTOU) vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82315",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82316"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82316",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:54Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SolarWinds Serv-U is affected by a Time-of-Check to Time-of-Use (TOCTOU) vulnerability. A user with domain administrator or higher privileges may be able to access or modify protected files outside the intended directory, potentially leading to code execution. The risk is lower in Windows…",
+"title": "CVE-2026-82316: SolarWinds Serv-U is affected by a Time-of-Check to Time-of-Use (TOCTOU) vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82316",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82319"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82319",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:54Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SolarWinds Serv-U is affected by a time-of-check to time-of-use (TOCTOU) vulnerability. A user with domain administrator or higher privileges may allow a user to modify protected files outside their home directory. The issue can result in read and write access to the application files and privilege…",
+"title": "CVE-2026-82319: SolarWinds Serv-U is affected by a time-of-check to time-of-use (TOCTOU) vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82319",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82320"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82320",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:54Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SolarWinds Serv-U was found to be affected by another type confusion vulnerability that may allow domain administrators to escalate privileges to that of a system administrator. The risk is lower for Windows installations.",
+"title": "CVE-2026-82320: SolarWinds Serv-U was found to be affected by another type confusion vulnerability that may allow domain administrators to escalate…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82320",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82321"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82321",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:54Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SolarWinds Serv-U was found to be affected by a type confusion vulnerability that may allow domain administrators to escalate privileges to that of a system administrator. The risk is lower for Windows installations.",
+"title": "CVE-2026-82321: SolarWinds Serv-U was found to be affected by a type confusion vulnerability that may allow domain administrators to escalate privileges…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82321",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-82322"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-82322",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:18:54Z",
+"reasons": [
+"CVSS 9.1",
+"matches SolarWinds (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "SolarWinds Serv-U is affected by an Insecure Direct Object Reference (IDOR) vulnerability that allows a domain group administrator to bypass restrictions and escalate privileges to the server administrator level. The risk is lower for Windows installations.",
+"title": "CVE-2026-82322: SolarWinds Serv-U is affected by an Insecure Direct Object Reference (IDOR) vulnerability that allows a domain group administrator to…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82322",
+"vendor_matches": [
+{
+"points": 2,
+"term": "SolarWinds",
+"tier": 3,
+"vendor": "SolarWinds"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-129514"
+],
+"cvss": 10.0,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-129514",
+"keyword_hits": [
+"unauthenticated",
+"actively exploited"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 10.0",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"NVD",
+"VulnCheck KEV"
+],
+"summary": "hexpm hexpm. Deserialization of Untrusted Data vulnerability in the application/vnd.hex+erlang request body parser in hexpm hexpm allows an unauthenticated remote attacker to execute operating system commands via a crafted Erlang external term format request body. This vulnerability was actively…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-129514: hex hexpm Deserialization of Untrusted Data",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129514"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-1609"
+],
+"cvss": 9.8,
+"epss": 0.1017,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2025-1609",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "lb-link ac1900_firmware. A vulnerability has been found in LB-LINK AC1900 Router 1.0.2 and classified as critical. Affected by this vulnerability is the function websGetVar of the file /goform/set_cmd. The manipulation of the argument cmd leads to os command injection. The attack can be launched…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-1609: lb-link ac1900_firmware Improper Neutralization of Special Elements used in a Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1609"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132165"
+],
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "CVE-2026-132165",
+"keyword_hits": [
+"remote code execution",
+"unauthenticated"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"remote code execution",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Drupal Drupal Core. Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-132165: Drupal Core Remote Code Execution Vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "f5d3ed98554c86f795098878bddf8bc096280963755fa6d44a615908a4275f3a",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T16:15:23Z",
+"reasons": [
+"matches Check Point (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
+"title": "Hackers compromise Check Point Servers in 22 organizations",
+"url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Check Point",
+"tier": 1,
+"vendor": "Check Point"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "7c3e0d091d4eaeb2829f3b17404e0c56674ec4bd5b7a48f416c3cac1a5e07fef",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T14:09:37Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
+"title": "McDonald's Japan data breach exposes customer location information",
+"url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "f6c889b1730c3068f0ae902f7d3ccf43bf272773bbe20c7b486ca0d1dabb292d",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T13:34:23Z",
+"reasons": [
+"matches Cisco (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services. [...]",
+"title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
+"url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Cisco",
+"tier": 1,
+"vendor": "Cisco"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123903"
+],
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "c382abab83d5c3a156fc51a9ae9def7e81ae126a84f45b1c5ddff21fe3949028",
+"keyword_hits": [
+"zero-day"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T13:28:26Z",
+"reasons": [
+"zero-day",
+"matches VMware vCenter (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the…",
+"title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+"url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+"vendor_matches": [
+{
+"points": 2,
+"term": "vCenter",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "2fc6aa311b4c81e5162b0d8c4bd495966361602652b3a3c2033ac9ecd3604aa0",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T06:02:57Z",
+"reasons": [
+"matches Cisco (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time…",
+"title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+"url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Cisco",
+"tier": 1,
+"vendor": "Cisco"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "111b28d87e3fbd401f780d2a02e2d36e10da7dfe044ba5e0c5fe72cf6cfe8d8f",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T14:49:59Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October. The post European Commission Uncovers Data Breach in Cyberattack Investigation appeared first on SecurityWeek .",
+"title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
+"url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "1b2ec6a0d34697b62911b44666f98c83469d77d1641007b480768ba9c8c42a5f",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T14:21:56Z",
+"reasons": [
+"matches Check Point (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "The attacks were launched from 99 IP addresses and targeted organizations across multiple industries and countries. The post Check Point Security Management Servers Hacked in AI-Assisted Campaign appeared first on SecurityWeek .",
+"title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+"url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Check Point",
+"tier": 1,
+"vendor": "Check Point"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "4a2a6a4aaa41cb6672dcb00ebff59b46a3a9b08d38efa0f84095b6841f86db27",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:20:41Z",
+"reasons": [
+"matches Cisco (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "OpenAI and Cisco’s Shirudo uses AI-generated shields to block Linux exploits while patches are prepared, but it’s not yet production-ready. The post OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems appeared first on SecurityWeek .",
+"title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
+"url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Cisco",
+"tier": 1,
+"vendor": "Cisco"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "c9d2b1e41e5ac8a36ae846e5bc70899e3b30519da4a6e467745c9452a74cdfd1",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T11:50:21Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Hackers stole personal information from the company’s customer portal and supplier relationship management platform. The post 1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO appeared first on SecurityWeek .",
+"title": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
+"url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "0a1f35c3585bfd6fd296e1f6abc0fcb3d183554094d793015ff35d499eb0d56c",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:49:00Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "The Record",
+"source_type": "rss",
+"sources": [
+"The Record"
+],
+"summary": "A bicameral, bipartisan letter from lawmakers said identity verification companies still have significant security work to do in the wake of a data breach at IDscan in September.",
+"title": "Lawmakers warn ID verification companies to bolster security after September hack",
+"url": "https://therecord.media/idscan-data-breach-warning-congressional-letter"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "e9a210e7064ff48fca4f3a1d58a5b249bac73724282859eeb556448a307369e0",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T06:30:33Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "2035 came early",
+"url": "https://fzakaria.com/2026/11/23/2035-came-early",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "f2ed9130072cafb327c9c89361250186c0ff8c9b37e74255a9b3613ca9455aa7",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:40:15Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "LLM agents work for their parent companies, not for you",
+"url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "e8e7bbdaa8827770f9f55b2d748f6bae723e7d4c157bd662090270259ecba20e",
+"last_seen": "2026-11-24",
+"published": "2026-11-23T20:52:54Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "GPUI is getting its own repository",
+"url": "https://github.com/zed-industries/gpui",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "8b6a3510f7bd5558cd2af334da385649bd99262eba44ca66b0e648ae9c723565",
+"keyword_hits": [
+"0-day"
+],
+"last_seen": "2026-11-24",
+"published": "2026-11-24T12:30:05Z",
+"reasons": [
+"0-day"
+],
+"route": "digest",
+"score": 3,
+"source": "Ars Technica",
+"source_type": "rss",
+"sources": [
+"Ars Technica"
+],
+"summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+"title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+"url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "9aca401ba2f27fe431e5760c047c1a4761ef213542db7bcfea3067699201416f",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:04:00Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "Hundreds of people from different African countries have been recruited to fight for Russia, according to Ukraine.",
+"title": "Zimbabwean convicted in South Africa of trying to fight in Ukraine",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.bbc.co.uk/news/articles/cmqj5qlj5yz9o",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "1d1dc71834271f52c509a1e87cba1652ff2ae69ba96539341eb2720161286d4f",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T17:05:45Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "From Libya to Sudan and Mali, Ukraine is targeting Russia's military networks across Africa.",
+"title": "After Libya, where will Ukraine strike Russia next?",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/after-libya-where-will-ukraine-strike-russia-next?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "56abfd5aa6c5115b8bb8b6f0e148193fa1521d385d602dbc1b3e74e4dbb448a2",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T14:35:56Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "Court of Arbitration for Sport rules in Senegal's favour over the controversial final in January.",
+"title": "Senegal reinstated as 2025 Africa Cup of Nations winners over Morocco",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/sports/2026/11/24/senegal-reinstated-as-2025-africa-cup-of-nations-winners-over-morocco?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "ddf3feb353251ac4d53faa8c677d4e2fc6b6be707e9d3899b8e3b23b341e506e",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:54:04Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda and Denmark have signed three agreements to strengthen cooperation in diplomatic relations, employment opportunities for diplomatic staff and taxation.",
+"title": "Rwanda, Denmark Sign Agreements to Deepen Bilateral Ties",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611240282.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "33fc36969b1af1daa748d46c1d94de01099ecd04e0a71e5616d4075256d20b85",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:10:52Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] On November 6, the University of Kigali opened its new Artificial Intelligence and Cybersecurity Training Centre. The launch raised a question many of us have been quietly asking. What happens to our jobs when a machine can do much of what we do?",
+"title": "Artificial Intelligence Won't Take Your Job. Someone Else Will",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611240212.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "4f3bc5f190d504bd6a35d203e14b5c7184db8d08cc3cf21756e1b13e8e738d0d",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:08:40Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Global Citizen and financial technology company Circle Internet Group have announced a multi-year partnership to introduce USDC payments for businesses participating in the Move Afrika concert series, beginning in Rwanda in 2027.",
+"title": "Rwanda to Pilot Usdc Payments for Move Afrika Concert Suppliers",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611240209.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "39fcc641df5d06c85d2543f75dcef188eac162333b03c4c811bcaf333fdd8696",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T11:51:22Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Powered by Virunga Beer and Bank of Kigali, The Reminisce, Kigali's premier old school party is back on Friday, December 18, 2026 at Atelier du Vin from 6pm. This edition, the theme is Friday Night Fever.",
+"title": "The Reminisce Brings 90s Nostalgia and Friday Night Fever Back to Kigali",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611240333.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "1efc07254990dada5fe92c77e65636558d07509c644e4c6a189f048177c4114e",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T11:48:05Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The Japan International Cooperation Agency (JICA) has launched the \"Rwanda Digital Coffee School\" that gives farmers and coffee washing station operators across Rwanda access to training they can use on the farm and at the washing station. It is the country's first comprehensive digital…",
+"title": "New Digital Coffee School Seeks to Raise Quality Standards",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611240332.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "7bac88c34d126713a5a8ffbe2e0df4bcd4721da73ef3f344383d6395c54b2859",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:52:04Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda Green Fund is set for a major overhaul because its funding model is no longer fit for purpose in the current climate finance environment, Minister of Environment Bernadette Arakwiye has told Members of Parliament.",
+"title": "Why Rwanda Green Fund Is Set for Major Overhaul",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611240280.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "3b9d3dc0d60ce808b0de0c5ffdb1e17ab9b652720892c49c9518a227974a9aa5",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:12:23Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The nature and magnitude of the Tutsi massacres that the country experienced prompted the RPF to launch a campaign. It was aimed at convincing the international community that the massacres that took place in Rwanda amounted to genocide. Thanks to this campaign, international reporters…",
+"title": "How Exactly Did the ICTR Come About?",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611240216.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "41451fdb9048a89dcd0b57a18a16354a5f5d957f7ed2a459cb9f3cf185a94100",
+"last_seen": "2026-11-24",
+"published": "2026-11-24T10:08:13Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The government's ability to feed a growing population will increasingly depend on how well farmers protect their soil, conserve water and adapt to erratic rainfall. With limited farmland and declining soil fertility, agricultural experts say conservation agriculture can help keep land…",
+"title": "Why Conservation Agriculture Matters for Rwanda's Food Production",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611240208.html",
+"weight": 1
+}
+]
