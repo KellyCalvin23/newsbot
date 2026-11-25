@@ -4184,5 +4184,608 @@
 ],
 "url": "https://www.aljazeera.com/news/2026/11/24/south-africa-convicts-zimbabwean-who-tried-to-fight-ukraine-for-russia?traffic_source=rss",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134304"
+],
+"cvss": 4.7,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "CVE-2026-134304",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-25T04:17:26Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Webmin through 2.670 contains a stored cross-site scripting vulnerability in apache/restart.cgi that displays the last five Apache ErrorLog lines without HTML escaping. Unauthenticated attackers can inject script into error_log via malformed requests or denied paths, executing in a Webmin user's…",
+"title": "CVE-2026-134304: Webmin through 2.670 contains a stored cross-site scripting vulnerability in apache/restart.cgi that displays the last five Apache ErrorLog…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134304",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-78114"
+],
+"cvss": 10.0,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "CVE-2026-78114",
+"last_seen": "2026-11-25",
+"published": "2026-11-25T11:17:13Z",
+"reasons": [
+"CVSS 10.0",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Session Fixation in the login flow of Apache JSPWiki versions 2.10 through 3.0.0 on all platforms. The session identifier was not replaced when a user authenticated, so an attacker who could set a known session identifier in the browser of a victim could use the same identifier after the victim…",
+"title": "CVE-2026-78114: Session Fixation in the login flow of Apache JSPWiki versions 2.10 through 3.0.0 on all platforms",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78114",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2019-17146"
+],
+"cvss": 9.8,
+"epss": 0.09532,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "CVE-2019-17146",
+"last_seen": "2026-11-25",
+"published": "2026-11-25T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "D-Link dcs-935l_firmware. This vulnerability allows remote attackers to execute arbitrary code on affected installations of D-Link DCS-960L v1.07.102. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HNAP service, which listens on TCP port 80 by…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2019-17146: D-Link dcs-935l_firmware Stack-based Buffer Overflow",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-17146"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-41492"
+],
+"cvss": 9.8,
+"epss": 0.03082,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "CVE-2026-41492",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-25T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "dgraph dgraph. Dgraph is an open source distributed GraphQL database. Prior to 25.3.3, Dgraphl exposes the process command line through the unauthenticated /debug/vars endpoint on Alpha. Because the admin token is commonly supplied via the --security \"token=...\" startup flag, an unauthenticated…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-41492: dgraph dgraph Exposure of Sensitive Information to an Unauthorized Actor",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41492"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-124007"
+],
+"cvss": 9.2,
+"epss": 0.02119,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "CVE-2026-124007",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-25T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.2",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": ". XWEB EVO before 5.6.2 contains a pre-authentication OS command injection vulnerability that allows unauthenticated remote attackers to execute arbitrary commands by injecting shell metacharacters into the password field. Attackers can exploit the unescaped interpolation of the password value into…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-124007: Improper Neutralization of Special Elements used in an OS Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124007"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "ff957fd92cefff831c6b5243923c8d372424b1db868abceb28dc593afd6b4cf6",
+"keyword_hits": [
+"actively exploited",
+"RCE"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-25T10:10:20Z",
+"reasons": [
+"actively exploited"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
+"title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+"url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "e0becc3bd5072d17a2cac332b61e15b17b07be34d3a18a571d4a69538245fd33",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-25T09:02:57Z",
+"reasons": [
+"remote code execution",
+"matches Microsoft (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. [...]",
+"title": "Microsoft confirms authentication issues after November updates",
+"url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Microsoft",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "d6e39d1b80e25babb326c75ad9f59716e1b54e5a366550209532dbd5d1e9f58d",
+"keyword_hits": [
+"RCE"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-25T09:06:59Z",
+"reasons": [
+"RCE"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from. The flaw used in the attack had been in the registry's code since February 2016, and the team that maintains the service had…",
+"title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+"url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "53a8a165ab3059e1d09812640e60e2a960b69eb965a12a79375f6d0bfa22c20b",
+"last_seen": "2026-11-25",
+"published": "2026-11-25T06:50:19Z",
+"reasons": [
+"matches Check Point (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity, tracked by GreyNoise under the moniker GreyNoise Threat 13…",
+"title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+"url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Check Point",
+"tier": 1,
+"vendor": "Check Point"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "a38a41230f30b90871dbe14229cd065d69ed1018cd5f605700a8fb1cfce2b35c",
+"last_seen": "2026-11-25",
+"published": "2026-11-25T06:37:06Z",
+"reasons": [
+"matches Palo Alto Networks (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The attacks have targeted financial services, healthcare, and legal…",
+"title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+"url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Palo Alto Networks",
+"tier": 1,
+"vendor": "Palo Alto Networks"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "a31e6169a58c0671221beb37e00b98aec2897afef82bd460df5d36e3dae9327b",
+"last_seen": "2026-11-25",
+"published": "2026-11-25T08:12:24Z",
+"reasons": [
+"matches Palo Alto Networks (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "A China-linked hacking group chained PHP2Shell with Fragnesia in AI-assisted attacks that hit 25 servers. The post Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls appeared first on SecurityWeek .",
+"title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+"url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "Palo Alto Networks",
+"tier": 1,
+"vendor": "Palo Alto Networks"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "35d06ede33938ba7cc534010436701648f66f1d61059e30f89a8808dbdaab9a0",
+"last_seen": "2026-11-25",
+"published": "2026-11-25T01:19:26Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+"url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "dc95b6b5ea59216e5d3e5576ea49c1fff4933ca2503b20b073d46b7606062910",
+"last_seen": "2026-11-25",
+"published": "2026-11-25T03:23:07Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+"url": "https://buttons.joshwcomeau.com/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "9971e1c22aea33e81587143858c88a2747e0471fea048ecc6cade3898142b17c",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T16:45:44Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+"url": "https://news.ycombinator.com/item?id=50630809",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "d770983940915b22a213ca0518fdc0eec6c99a8c19867f9a106f15dff8cdc771",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T13:19:31Z",
+"reasons": [
+"matches Microsoft Windows (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "GTA 6 Running on Windows",
+"url": "https://twitter.com/raul_bs3/status/2125213756238291075",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
+],
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "88a3356e330500e063de88cc22bee279aa6984da37a29796bedab60cc2012cdd",
+"last_seen": "2026-11-25",
+"published": "2026-11-25T09:06:02Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "The break-in happened in 2020, when thieves allegedly stole bundles of US dollar bills hidden inside a sofa at the farm.",
+"title": "South Africa's Ramaphosa wins court battle over impeachment threat",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "177339cebb64f5aab066e2bb25bb3d7a05a3cd71250c6a2e409fbfb15e300f5e",
+"last_seen": "2026-11-25",
+"published": "2026-11-25T10:17:37Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[ISS] Offshore deportation deals will produce opacity, shield authoritarian governments and drive more political signalling than reduce migration pressures.",
+"title": "Rwanda's Return Hub Plan Risks Making Africa Europe's 'Drop-Off Zone'",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611250226.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "3c5cc1aef9e701adc461e7c5f003221d3bab806ba6c3dfb580c547d5bad0eb21",
+"last_seen": "2026-11-25",
+"published": "2026-11-25T08:32:03Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Waste management tops the list of environmental issues requiring government attention, according to 41 per cent of respondents in a survey conducted by Transparency International Rwanda (TI-Rwanda) across five districts.",
+"title": "Waste Management Tops Environmental Concerns in Five Districts - Report",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611250218.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "238ee2510e744ffe4680d2c06189145ee9d22876736cd34c8f314b711e4045ae",
+"last_seen": "2026-11-25",
+"published": "2026-11-25T05:06:42Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Prime Minister Justin Nsengiyumva met with Dr Sania Nishtar, CEO of Gavi, the Vaccine Alliance, and Peter Sands, Executive Director of the Global Fund, on the sidelines of the fifth International Conference on Public Health in Africa (CPHIA 2026) in Addis Ababa, Ethiopia.",
+"title": "PM Discusses Health Cooperation With Gavi, Global Fund Bosses",
+"topic_hits": [
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611250070.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "f810535bc21921d5246ec0d7797e057632a669337ae67ce49f1b4027c6539754",
+"last_seen": "2026-11-25",
+"published": "2026-11-25T05:37:36Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda needs to improve the implementation of its national plan to combat antimicrobial resistance, after fewer than four in 10 planned activities were carried out, health experts say.",
+"title": "Rwanda's Fight Against Antibiotic Resistance Faces Implementation Hurdles",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611250136.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-25T11:39:54Z",
+"id": "f98d680267e4ec02c0ca82509c82bcfede0a00a28bda3215e5ca769aaafa8da2",
+"last_seen": "2026-11-25",
+"published": "2026-11-25T05:33:41Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda's decision to convert two existing World Bank loans into Japanese yen could help reduce the pressure that servicing foreign debt places on the country's finances, experts have said.",
+"title": "Experts On Why Rwanda Converted World Bank Loans Into Japanese Yen",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611250120.html",
+"weight": 1
 }
 ]
