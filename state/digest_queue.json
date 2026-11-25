@@ -1034,39 +1034,6 @@
 "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1609"
 },
 {
-"category": "vulnerabilities",
-"coverage_count": 1,
-"cve_ids": [
-"CVE-2026-132165"
-],
-"first_seen": "2026-11-24T18:10:55Z",
-"id": "CVE-2026-132165",
-"keyword_hits": [
-"remote code execution",
-"unauthenticated"
-],
-"last_seen": "2026-11-24",
-"published": "2026-11-24T00:00:00Z",
-"reasons": [
-"new VulnCheck KEV",
-"remote code execution",
-"capped: not on watchlist"
-],
-"route": "digest",
-"score": 6,
-"source": "VulnCheck KEV",
-"source_type": "vulncheck_kev",
-"sources": [
-"VulnCheck KEV"
-],
-"summary": "Drupal Drupal Core. Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on…",
-"tags": [
-"vulncheck_kev"
-],
-"title": "CVE-2026-132165: Drupal Core Remote Code Execution Vulnerability",
-"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
-},
-{
 "category": "security",
 "coverage_count": 1,
 "first_seen": "2026-11-24T18:10:55Z",
@@ -1723,6 +1690,2499 @@
 "Rwanda"
 ],
 "url": "https://allafrica.com/stories/202611240208.html",
+"weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-124615"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-124615",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T17:18:14Z",
+"reasons": [
+"CVSS 8.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The shell command ACL for the feature scope (etc/org.apache.karaf.command.acl.feature.cfg) restricts feature:install, feature:uninstall, feature:start and feature:stop to the admin role, but had no entry for feature:requirement-add or feature:requirement-remove. The provisioning resolver turns a…",
+"title": "CVE-2026-124615: The shell command ACL for the feature scope (etc/org.apache.karaf.command.acl.feature.cfg) restricts feature:install, feature:uninstall…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124615",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-130808"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-130808",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T17:18:15Z",
+"reasons": [
+"CVSS 8.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "In Apache Karaf, the default command ACL configuration for the feature scope (etc/org.apache.karaf.command.acl.feature.cfg, defined in assemblies/features/standard/src/main/feature/feature.xml and the child-instance template…",
+"title": "CVE-2026-130808: In Apache Karaf, the default command ACL configuration for the feature scope (etc/org.apache.karaf.command.acl.feature.cfg, defined…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130808",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-109484"
+],
+"cvss": 10.0,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-109484",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T18:18:45Z",
+"reasons": [
+"CVSS 10.0",
+"matches Azure (Tier 3)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Failure to sanitize special elements into a different plane (special element injection) in Azure App Service allows an unauthorized attacker to elevate privileges over a network.",
+"title": "CVE-2026-109484: Failure to sanitize special elements into a different plane (special element injection) in Azure App Service allows an unauthorized…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109484",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Azure",
+"tier": 3,
+"vendor": "Azure"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123342"
+],
+"cvss": 9.9,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-123342",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T18:18:53Z",
+"reasons": [
+"CVSS 9.9",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
+"title": "CVE-2026-123342: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123342",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123721"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-123721",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T18:18:53Z",
+"reasons": [
+"CVSS 9.6",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Campaign Classic (ACC) is affected by an Incorrect Authorization vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to sensitive resources. Exploitation of this issue does not require user interaction…",
+"title": "CVE-2026-123721: Adobe Campaign Classic (ACC) is affected by an Incorrect Authorization vulnerability that could result in privilege escalation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123721",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123722"
+],
+"cvss": 9.9,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-123722",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T18:18:53Z",
+"reasons": [
+"CVSS 9.9",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
+"title": "CVE-2026-123722: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123722",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123723"
+],
+"cvss": 9.9,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-123723",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T18:18:53Z",
+"reasons": [
+"CVSS 9.9",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
+"title": "CVE-2026-123723: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123723",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123986"
+],
+"cvss": 9.9,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-123986",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T18:18:53Z",
+"reasons": [
+"CVSS 9.9",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
+"title": "CVE-2026-123986: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123986",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123987"
+],
+"cvss": 9.9,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-123987",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T18:18:53Z",
+"reasons": [
+"CVSS 9.9",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
+"title": "CVE-2026-123987: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123987",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-125675"
+],
+"cvss": 9.9,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-125675",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T18:18:54Z",
+"reasons": [
+"CVSS 9.9",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
+"title": "CVE-2026-125675: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125675",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-125676"
+],
+"cvss": 9.9,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-125676",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T18:18:54Z",
+"reasons": [
+"CVSS 9.9",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation…",
+"title": "CVE-2026-125676: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125676",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-125716"
+],
+"cvss": 9.3,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-125716",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T18:18:54Z",
+"reasons": [
+"CVSS 9.3",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Campaign Classic (ACC) is affected by a reflected Cross-Site Scripting (XSS) vulnerability. An attacker could exploit this vulnerability to inject malicious scripts into a web page, potentially gaining elevated access or control over the victim's account or session. Exploitation of this issue…",
+"title": "CVE-2026-125716: Adobe Campaign Classic (ACC) is affected by a reflected Cross-Site Scripting (XSS) vulnerability",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125716",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-125717"
+],
+"cvss": 9.6,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-125717",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T18:18:54Z",
+"reasons": [
+"CVSS 9.6",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to sensitive data or…",
+"title": "CVE-2026-125717: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125717",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-125718"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-125718",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T18:18:54Z",
+"reasons": [
+"CVSS 9.1",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and gain…",
+"title": "CVE-2026-125718: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125718",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-125723"
+],
+"cvss": 9.0,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-125723",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T18:18:55Z",
+"reasons": [
+"CVSS 9.0",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Campaign Classic (ACC) is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by a low-privileged attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim's browser when they browse to the page containing…",
+"title": "CVE-2026-125723: Adobe Campaign Classic (ACC) is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by a low-privileged…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125723",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-119579"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-119579",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T19:17:51Z",
+"reasons": [
+"CVSS 8.7",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Experience Manager is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by a low-privileged attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim's browser when they browse to the page containing the…",
+"title": "CVE-2026-119579: Adobe Experience Manager is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by a low-privileged attacker…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119579",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-121357"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-121357",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T19:17:52Z",
+"reasons": [
+"CVSS 8.7",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Experience Manager is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by a low-privileged attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim's browser when they browse to the page containing the…",
+"title": "CVE-2026-121357: Adobe Experience Manager is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by a low-privileged attacker…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121357",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123253"
+],
+"cvss": 8.7,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-123253",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T19:18:03Z",
+"reasons": [
+"CVSS 8.7",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Experience Manager is affected by an Improper Neutralization of Special Elements Used in a Template Engine vulnerability that could result in a Security feature bypass. An attacker with high privileges could leverage this vulnerability to bypass security measures and gain unauthorized read…",
+"title": "CVE-2026-123253: Adobe Experience Manager is affected by an Improper Neutralization of Special Elements Used in a Template Engine vulnerability that could…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123253",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123256"
+],
+"cvss": 7.1,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-123256",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T19:18:03Z",
+"reasons": [
+"CVSS 7.1",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Experience Manager is affected by an Incorrect Authorization vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and gain unauthorized write access. Exploitation of this issue does not require…",
+"title": "CVE-2026-123256: Adobe Experience Manager is affected by an Incorrect Authorization vulnerability that could result in a Security feature bypass",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123256",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123266"
+],
+"cvss": 9.9,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-123266",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T19:18:04Z",
+"reasons": [
+"CVSS 9.9",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Experience Manager is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of…",
+"title": "CVE-2026-123266: Adobe Experience Manager is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123266",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129959"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-129959",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T19:18:08Z",
+"reasons": [
+"CVSS 8.8",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "When sftpEnabled=true (the default configuration in etc/org.apache.karaf.shell.cfg), the SSH server exposes the karaf.base directory tree through the MINA SSHD SFTP subsystem and SCP command factory without verifying the authenticated user's roles beyond the initial sshRole login check…",
+"title": "CVE-2026-129959: When sftpEnabled=true (the default configuration in etc/org.apache.karaf.shell.cfg), the SSH server exposes the karaf.base directory tree…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129959",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132877"
+],
+"cvss": 9.9,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-132877",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T19:18:09Z",
+"reasons": [
+"CVSS 9.9",
+"matches Adobe (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Adobe Experience Manager is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of…",
+"title": "CVE-2026-132877: Adobe Experience Manager is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132877",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134066"
+],
+"cvss": 8.5,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-134066",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T19:18:10Z",
+"reasons": [
+"CVSS 8.5",
+"matches AWS (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Improper neutralization of special elements in data query logic in the query construction of AWS Graph Explorer before 3.2.1 might allow an authenticated remote user with write access to the connected graph database to access and modify data in that database with Graph Explorer's privileges via a…",
+"title": "CVE-2026-134066: Improper neutralization of special elements in data query logic in the query construction of AWS Graph Explorer before 3.2.1 might allow an…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134066",
+"vendor_matches": [
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134068"
+],
+"cvss": 7.7,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-134068",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T19:18:10Z",
+"reasons": [
+"CVSS 7.7",
+"matches AWS (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A stack-based buffer overflow in the replication origin name parsing component in AWS pgactive before 2.1.10 might allow an authenticated remote user to execute arbitrary operating system commands as the database operating system user via a crafted replication origin name. To remediate this issue…",
+"title": "CVE-2026-134068: A stack-based buffer overflow in the replication origin name parsing component in AWS pgactive before 2.1.10 might allow an authenticated…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134068",
+"vendor_matches": [
+{
+"points": 2,
+"term": "AWS",
+"tier": 3,
+"vendor": "AWS"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-86155"
+],
+"cvss": 10.0,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-86155",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T19:18:25Z",
+"reasons": [
+"CVSS 10.0",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "A vulnerability in Apache Jena Fuseki in the SHACL validation functionality cause server side request forgery (SSRF). This issue affects Apache Jena Fuseki: through 6.2.0. Users are recommended to upgrade to version 6.3.0, which fixes the issue.",
+"title": "CVE-2026-86155: A vulnerability in Apache Jena Fuseki in the SHACL validation functionality cause server side request forgery (SSRF). This issue affects…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86155",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-38353"
+],
+"cvss": 5.3,
+"epss": 0.01149,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2024-38353",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "hackmd codimd. CodiMD allows realtime collaborative markdown notes on all platforms. CodiMD before 2.5.4 is missing authentication and access control vulnerability allowing an unauthenticated attacker to gain unauthorised access to image data uploaded to CodiMD. CodiMD does not require valid…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-38353: hackmd codimd Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG)",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38353"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-62253"
+],
+"cvss": 9.8,
+"epss": 0.01961,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-62253",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "sipcapture Homer. Homer is open source telecom observability software. Prior to version 11.0.283, both JWT middleware functions (`JWTMiddleware` and `JWTMiddlewareV4`) immediately return `next(c)` when `jwtSecret == \"\"`. The JWT secret defaults to an empty string. On a default installation, all…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-62253: Missing Authentication for Critical Functionality",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62253"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-102657"
+],
+"epss": 0.03957,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-102657",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "esm esm.sh. esm.sh is a no-build content delivery network (CDN) for web development. Prior to server version 137_7, the documented web.NewHandler static file server in web/handler.go joins the URL-decoded r.URL.Path with Config.AppDir without verifying that the result remains inside the configured…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-102657: esm esm.sh Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102657"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-103041"
+],
+"epss": 0.00774,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-103041",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "ModelTC LightLLM. LightLLM through 1.2.0 multimodal deployments expose an unauthenticated RPyC cache service with pickle deserialization enabled on all interfaces. Attackers can send crafted serialized objects to exposed cache methods to execute arbitrary code with service privileges.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-103041: Deserialization of Untrusted Data",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103041"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2021-4328"
+],
+"epss": 0.00743,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2021-4328",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "lionfish_cms_project lionfish_cms. A vulnerability has been found in 狮子鱼CMS and classified as critical. Affected by this vulnerability is the function goods_detail of the file ApiController.class.php. The manipulation of the argument goods_id leads to sql injection. The attack can be launched…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-4328: lionfish_cms_project lionfish_cms Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-4328"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-54381"
+],
+"epss": 0.13849,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2025-54381",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "bentoml bentoml. BentoML is a Python library for building online serving systems optimized for AI apps and model inference. In versions 1.4.0 until 1.4.19, the file upload processing system contains an SSRF vulnerability that allows unauthenticated remote attackers to force the server to make…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2025-54381: bentoml bentoml Server-Side Request Forgery",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54381"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-91483"
+],
+"epss": 0.0025,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-91483",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Oracle (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of…",
+"title": "ZDI-26-1154: Oracle Outside In Technology PNG File Parsing Integer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1154/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Oracle",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-91459"
+],
+"epss": 0.0025,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-91459",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Oracle (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of…",
+"title": "ZDI-26-1153: Oracle Outside In Technology BMP File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1153/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Oracle",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-91460"
+],
+"epss": 0.0025,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-91460",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Oracle (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of…",
+"title": "ZDI-26-1152: Oracle Outside In Technology TIFF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1152/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Oracle",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-91457"
+],
+"epss": 0.0018,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-91457",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Oracle (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of…",
+"title": "ZDI-26-1151: Oracle Outside In Technology BMP File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1151/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Oracle",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-91458"
+],
+"epss": 0.00143,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-91458",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Oracle (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of…",
+"title": "ZDI-26-1150: Oracle Outside In Technology XLSX File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1150/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Oracle",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-104868"
+],
+"epss": 0.00179,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-104868",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-1148: Autodesk AutoCAD DWG File Parsing Integer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1148/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-85648"
+],
+"epss": 0.00171,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-85648",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-1147: Autodesk AutoCAD DDS File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1147/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-85647"
+],
+"epss": 0.00171,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-85647",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-1146: Autodesk AutoCAD DWG File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1146/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-85646"
+],
+"epss": 0.00171,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-85646",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-1145: Autodesk AutoCAD DWF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1145/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-84855"
+],
+"epss": 0.00171,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-84855",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-1144: Autodesk AutoCAD DGN File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1144/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-77943"
+],
+"epss": 0.0016,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-77943",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-1141: Autodesk AutoCAD DXF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1141/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-77942"
+],
+"epss": 0.00167,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-77942",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-1140: Autodesk AutoCAD IES File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1140/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-18827"
+],
+"epss": 0.00174,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-18827",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-1134: Autodesk AutoCAD DWG File Data Link Exposed Dangerous Method Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1134/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-18826"
+],
+"epss": 0.00174,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-18826",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-1132: Autodesk AutoCAD DXF File Parsing _FldPtr Type Confusion Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1132/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-16780"
+],
+"epss": 0.00186,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-16780",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-1130: Autodesk AutoCAD DXF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1130/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-133995"
+],
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-133995",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of LM Studio. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8. The following CVEs are assigned: CVE-2026-133995.",
+"title": "ZDI-26-1121: (Pwn2Own) LM Studio MCP Tool Schema Code Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1121/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-131817"
+],
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-131817",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of ChargePoint Home Flex EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-131817.",
+"title": "ZDI-26-1113: (Pwn2Own) ChargePoint Home Flex wpa_passphrase Command Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1113/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-61752"
+],
+"epss": 0.00405,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-61752",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron Bridge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8…",
+"title": "ZDI-26-1106: (Pwn2Own) NVIDIA Megatron Bridge _validate_target_prefix Permissive List of Allowed Inputs Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1106/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-61754"
+],
+"epss": 0.00405,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-61754",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron Bridge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8…",
+"title": "ZDI-26-1105: (Pwn2Own) NVIDIA Megatron Bridge ModelConfig Unsafe Reflection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1105/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-61753"
+],
+"epss": 0.00536,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-61753",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron Bridge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8…",
+"title": "ZDI-26-1104: (Pwn2Own) NVIDIA Megatron Bridge Weight Map Directory Traversal Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1104/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-100968"
+],
+"epss": 0.00172,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-100968",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-1100: NVIDIA Megatron Dataset Cache Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1100/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-65103"
+],
+"epss": 0.009,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-65103",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA AIStore. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1. The following CVEs are assigned: CVE-2026-65103.",
+"title": "ZDI-26-1099: NVIDIA AIStore Object Rename Directory Traversal Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1099/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-65111"
+],
+"epss": 0.00246,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-65111",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA NeMo Framework. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The…",
+"title": "ZDI-26-1094: NVIDIA NeMo Framework nemo File Parsing Directory Traversal Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1094/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2025-60037"
+],
+"epss": 0.00357,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2025-60037",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Bosch Rexroth IndraWorks. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8…",
+"title": "ZDI-26-1091: Bosch Rexroth IndraWorks MTX XIWP File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1091/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-131837"
+],
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-131837",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1. The following CVEs are assigned: CVE-2026-131837.",
+"title": "ZDI-26-1079: llama.cpp server_context_impl destroy vocab Use-After-Free Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1079/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-131836"
+],
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-131836",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must load a malicious model file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned…",
+"title": "ZDI-26-1078: llama.cpp GGUF File Parsing MINICPM-V Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1078/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-131835"
+],
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-131835",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must load a malicious model file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned…",
+"title": "ZDI-26-1077: llama.cpp GGUF File Parsing HunyuanVL Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1077/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-131834"
+],
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-131834",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned…",
+"title": "ZDI-26-1076: llama.cpp Multimodal GGUF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1076/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-131833"
+],
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-131833",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following…",
+"title": "ZDI-26-1075: llama.cpp GGUF File Parsing set_swa_pattern Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1075/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-131832"
+],
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-131832",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must load a malicious model file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned…",
+"title": "ZDI-26-1074: llama.cpp GGUF File Parsing GEMMA4A Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1074/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-131828"
+],
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-131828",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following…",
+"title": "ZDI-26-1071: llama.cpp GGUF File Parsing Integer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1071/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-126961"
+],
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-126961",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Devman OpenCart Google Marketing Tools. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8. The following CVEs are assigned: CVE-2026-126961.",
+"title": "ZDI-26-1070: Devman OpenCart Google Marketing Tools Extension product_id_key Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1070/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134052"
+],
+"epss": 0.00564,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-134052",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-134052.",
+"title": "ZDI-26-1027: (0Day) Open Robotics RViz fillIndexBuffer Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1027/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134043"
+],
+"epss": 0.00383,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-134043",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs…",
+"title": "ZDI-26-1018: (0Day) Krita TIF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1018/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134042"
+],
+"epss": 0.00362,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-134042",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs…",
+"title": "ZDI-26-1017: (0Day) Krita HEIC File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1017/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134041"
+],
+"epss": 0.00362,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-134041",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs…",
+"title": "ZDI-26-1016: (0Day) Krita EXR File Parsing Integer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1016/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134040"
+],
+"epss": 0.00357,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-134040",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs…",
+"title": "ZDI-26-1015: (0Day) Krita HEIC File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1015/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134039"
+],
+"epss": 0.00379,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-134039",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs…",
+"title": "ZDI-26-1014: (0Day) Krita TIFF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1014/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134038"
+],
+"epss": 0.00406,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-134038",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs…",
+"title": "ZDI-26-1013: (0Day) Krita PSB File Parsing Integer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1013/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134037"
+],
+"epss": 0.00406,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-134037",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs…",
+"title": "ZDI-26-1012: (0Day) Krita ASL File Parsing Integer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1012/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134036"
+],
+"epss": 0.00401,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-134036",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs…",
+"title": "ZDI-26-1011: (0Day) Krita ABR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1011/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134035"
+],
+"epss": 0.00374,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-134035",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-18T06:00:00Z",
+"reasons": [
+"remote code execution"
+],
+"route": "digest",
+"score": 3,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs…",
+"title": "ZDI-26-1010: (0Day) Krita JC2 File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1010/"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "3d7cc1abdab99ce17b43967523d7ab01b2d95946d247928c5c5e4769fb0af4eb",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T23:10:00Z",
+"reasons": [
+"matches Palo Alto Networks PAN-OS (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "Palo Alto Networks",
+"source_type": "rss",
+"sources": [
+"Palo Alto Networks"
+],
+"title": "PAN-SA-2026-0015 Security Bulletin: OSS CVEs Fixed in PAN-OS (Severity: INFORMATIONAL)",
+"url": "https://security.paloaltonetworks.com/PAN-SA-2026-0015",
+"vendor_matches": [
+{
+"points": 3,
+"term": "PAN-OS",
+"tier": 1,
+"vendor": "Palo Alto Networks"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "fca3137f8b0d05a36d4674e0a327afac0faca14499e58b434ac2b2b007e805ef",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T19:00:00Z",
+"reasons": [
+"matches Palo Alto Networks PAN-OS (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "Palo Alto Networks",
+"source_type": "rss",
+"sources": [
+"Palo Alto Networks"
+],
+"title": "PAN-SA-2026-0005 Informational Bulletin: Precautionary Fixes for Non-Exploitable OSS CVEs in PAN-OS (Severity: INFORMATIONAL)",
+"url": "https://security.paloaltonetworks.com/PAN-SA-2026-0005",
+"vendor_matches": [
+{
+"points": 3,
+"term": "PAN-OS",
+"tier": 1,
+"vendor": "Palo Alto Networks"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "66ad329305497ccde9c955bb047abc433dbe1b0467d1dcc59984cf84d9634107",
+"keyword_hits": [
+"remote code execution"
+],
+"last_seen": "2026-11-25",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"remote code execution",
+"matches Oracle (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"Zero Day Initiative"
+],
+"summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Autonomous AI Database. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The ZDI has assigned a CVSS rating of 7.5.",
+"title": "ZDI-26-1149: (Pwn2Own) Oracle Autonomous AI Database ORDS AutoUpgrade Servlet Command Injection Remote Code Execution Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1149/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Oracle",
+"tier": 2,
+"vendor": "Oracle"
+}
+]
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "01d6cee3f9e03244182bc170e50fa274b9824ce4d7a485d632044eb0713f2032",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T20:08:03Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Ternary Bonsai 2.5 27B",
+"url": "https://prismml.com/news/bonsai-2-5-27b",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "de53c20148f4a0ac5855a485ecb847aa1412c36d7bc77f11ed770de9eda2837f",
+"last_seen": "2026-11-25",
+"published": "2026-11-22T11:16:30Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "The Spray Bottle",
+"url": "https://mechanical-pencil.com/products/spray-bottle",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "31c07a4c25aed3e8ad96f1809c51ed4c8a1f4014ecc6915431e187e735bfc9e5",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T08:33:14Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Quad9 pulled their DNS service from France",
+"url": "https://quad9.net/news/blog/quad9-service-deactivation-in-france/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "d541ca24edb3487449c6dfc9671cd41c6767f51a49cc776e0e472b701df4a84d",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T02:08:09Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
+"url": "https://github.com/ItsNotRexed/Leonida/issues",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 3,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "51e4c63e2752c41819a4120fb18f2165cf87b32271031e8c233bbf84c9ac4637",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T22:23:27Z",
+"reasons": [
+"3 sources",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"Al Jazeera",
+"BBC World",
+"The Verge"
+],
+"summary": "A jury has found Huawei guilty of stealing US trade secrets, as reported earlier by NBC News and Bloomberg. The verdict, handed down in a federal court in New York, concludes a years-long legal battle that accused the Chinese telecom giant of stealing source code and proprietary technology from…",
+"title": "Huawei found guilty of stealing trade secrets",
+"url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "a21ddf98d6861fc3add2f41731440cacb98896c90bac7493c4779416f111c772",
+"last_seen": "2026-11-25",
+"published": "2026-11-24T23:29:40Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "The Zimbabwean man was arrested on November 8 at a Johannesburg airport while attempting to board a flight to Russia.",
+"title": "South Africa convicts Zimbabwean who tried to fight Ukraine for Russia",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/news/2026/11/24/south-africa-convicts-zimbabwean-who-tried-to-fight-ukraine-for-russia?traffic_source=rss",
 "weight": 1
 }
 ]
