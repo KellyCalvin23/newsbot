@@ -441,23 +441,33 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 2,
+"coverage_count": 3,
 "cve_ids": [
-"CVE-2026-136716"
+"CVE-2026-136716",
+"CVE-2026-132165"
 ],
+"cvss": 9.8,
 "first_seen": "2026-11-25T20:41:20Z",
 "id": "CVE-2026-136716",
+"keyword_hits": [
+"exploited in the wild"
+],
 "last_seen": "2026-11-26",
 "published": "2026-11-25T00:00:00Z",
 "reasons": [
-"new VulnCheck KEV"
+"new VulnCheck KEV",
+"CVSS 9.8",
+"exploited in the wild",
+"3 sources",
+"capped: not on watchlist"
 ],
 "route": "digest",
-"score": 5,
+"score": 6,
 "source": "VulnCheck KEV",
 "source_type": "vulncheck_kev",
 "sources": [
 "NVD",
+"The Hacker News",
 "VulnCheck KEV"
 ],
 "summary": "Drupal Drupal Core. Improper Check for Unusual or Exceptional Conditions vulnerability in Drupal Drupal core allows Forceful Browsing. This issue affects Drupal core versions: from 0.0.0 to 10.6.23, from 11.0.0 to 11.3.23, from 11.4.0 to 11.4.14.",
@@ -1257,7 +1267,7 @@
 },
 {
 "category": "security",
-"coverage_count": 1,
+"coverage_count": 2,
 "first_seen": "2026-11-26T03:12:21Z",
 "id": "f87bc0b96948c6cc7a0d55b0f8f42060bcdcffbaad8b4853598fe87653e792d0",
 "keyword_hits": [
@@ -1273,7 +1283,8 @@
 "source": "BleepingComputer",
 "source_type": "rss",
 "sources": [
-"BleepingComputer"
+"BleepingComputer",
+"The Hacker News"
 ],
 "summary": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
 "title": "1Password customer data stolen after employee GitHub account breach",
@@ -1335,5 +1346,779 @@
 }
 ],
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-131589"
+],
+"cvss": 7.2,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "CVE-2026-131589",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T10:17:07Z",
+"reasons": [
+"CVSS 7.2",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The AI Engine – MCP Server & AI Chatbot for WordPress, with Claude, ChatGPT & Gemini plugin for WordPress is vulnerable to Limited Arbitrary File Upload in all versions up to, and including, 3.9.4 via the `url` parameter of the `/mwai/v1/helpers/create_image` REST API endpoint. The vulnerability…",
+"title": "CVE-2026-131589: The AI Engine – MCP Server & AI Chatbot for WordPress, with Claude, ChatGPT & Gemini plugin for WordPress is vulnerable to Limited…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131589",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123903"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "CVE-2026-123903",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T11:17:00Z",
+"reasons": [
+"CVSS 9.8",
+"matches VMware vCenter (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service. Broadcom has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base score of 9.8. Affected versions: VMware vCenter Server 9.1.x.x: fixed in 9.1.2 VMware…",
+"title": "CVE-2026-123903: VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123903",
+"vendor_matches": [
+{
+"points": 2,
+"term": "vCenter",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123904"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "CVE-2026-123904",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T11:17:00Z",
+"reasons": [
+"CVSS 7.5",
+"matches VMware vCenter (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "VMware vCenter contains an arbitrary file write vulnerability while processing certain archives. Broadcom has evaluated the severity of this issue to be in the Important severity range with a maximum CVSSv3 base score of 7.5. Affected versions: VMware vCenter Server 9.1.x.x: fixed in 9.1.2 VMware…",
+"title": "CVE-2026-123904: VMware vCenter contains an arbitrary file write vulnerability while processing certain archives",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123904",
+"vendor_matches": [
+{
+"points": 2,
+"term": "vCenter",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123905"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "CVE-2026-123905",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T11:17:00Z",
+"reasons": [
+"CVSS 7.5",
+"matches VMware vCenter (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "VMware vCenter contains multiple denial-of-service vulnerabilities in the VMware Directory Service. Broadcom has evaluated the severity of these issues to be in the Important severity range with a maximum CVSSv3 base score of 7.5. Affected versions: VMware vCenter Server 9.1.x.x: fixed in 9.1.2…",
+"title": "CVE-2026-123905: VMware vCenter contains multiple denial-of-service vulnerabilities in the VMware Directory Service",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123905",
+"vendor_matches": [
+{
+"points": 2,
+"term": "vCenter",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123906"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "CVE-2026-123906",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T11:17:00Z",
+"reasons": [
+"CVSS 7.5",
+"matches VMware vCenter (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "VMware vCenter contains multiple denial-of-service vulnerabilities in the VMware Directory Service. Broadcom has evaluated the severity of these issues to be in the Important severity range with a maximum CVSSv3 base score of 7.5. Affected versions: VMware vCenter Server 9.1.x.x: fixed in 9.1.2…",
+"title": "CVE-2026-123906: VMware vCenter contains multiple denial-of-service vulnerabilities in the VMware Directory Service",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123906",
+"vendor_matches": [
+{
+"points": 2,
+"term": "vCenter",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123907"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "CVE-2026-123907",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T11:17:01Z",
+"reasons": [
+"CVSS 7.5",
+"matches VMware vCenter (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "VMware vCenter contains multiple denial-of-service vulnerabilities in the VMware Directory Service. Broadcom has evaluated the severity of these issues to be in the Important severity range with a maximum CVSSv3 base score of 7.5. Affected versions: VMware vCenter Server 9.1.x.x: fixed in 9.1.2…",
+"title": "CVE-2026-123907: VMware vCenter contains multiple denial-of-service vulnerabilities in the VMware Directory Service",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123907",
+"vendor_matches": [
+{
+"points": 2,
+"term": "vCenter",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123910"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "CVE-2026-123910",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T11:17:01Z",
+"reasons": [
+"CVSS 9.8",
+"matches VMware ESXi (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "ESX contains a heap out-of-bounds write vulnerability in the I/O filter service. Broadcom has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base score of 9.8. Affected versions: VMware ESX 9.1.x.x: fixed in ESXi-9.1.2.0-25946735 VMware ESX 9.0.x.x…",
+"title": "CVE-2026-123910: ESX contains a heap out-of-bounds write vulnerability in the I/O filter service",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123910",
+"vendor_matches": [
+{
+"points": 2,
+"term": "ESXi",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123911"
+],
+"cvss": 9.8,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "CVE-2026-123911",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T11:17:01Z",
+"reasons": [
+"CVSS 9.8",
+"matches VMware ESXi (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "ESX contains a use-after-free vulnerability in the I/O filter service. Broadcom has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base score of 9.8. Affected versions: VMware ESX 9.1.x.x: fixed in ESXi-9.1.2.0-25946735 VMware ESX 9.0.x.x: fixed in…",
+"title": "CVE-2026-123911: ESX contains a use-after-free vulnerability in the I/O filter service",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123911",
+"vendor_matches": [
+{
+"points": 2,
+"term": "ESXi",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123912"
+],
+"cvss": 9.3,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "CVE-2026-123912",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T11:17:01Z",
+"reasons": [
+"CVSS 9.3",
+"matches VMware ESXi (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "VMware ESXi, Workstation, and Fusion contain an out-of-bounds write vulnerability in the XHCI USB controller. Broadcom has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base score of 9.3. Affected versions: VMware ESX 9.1.x.x: fixed in…",
+"title": "CVE-2026-123912: VMware ESXi, Workstation, and Fusion contain an out-of-bounds write vulnerability in the XHCI USB controller",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123912",
+"vendor_matches": [
+{
+"points": 2,
+"term": "ESXi",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-123913"
+],
+"cvss": 8.2,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "CVE-2026-123913",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T11:17:01Z",
+"reasons": [
+"CVSS 8.2",
+"matches VMware ESXi (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "VMware ESX contains a stack-based buffer-overflow vulnerability in the VMkernel. Broadcom has evaluated the severity of this issue to be in the Important severity range with a maximum CVSSv3 base score of 8.2. Affected versions: VMware ESX 9.1.x.x: fixed in ESXi-9.1.2.0-25946735 VMware ESX 9.0.x.x…",
+"title": "CVE-2026-123913: VMware ESX contains a stack-based buffer-overflow vulnerability in the VMkernel",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123913",
+"vendor_matches": [
+{
+"points": 2,
+"term": "ESXi",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-131688"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "CVE-2026-131688",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T12:17:09Z",
+"reasons": [
+"CVSS 8.1",
+"matches MCP server (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The Secure MCP Server for Claude, ChatGPT, Gemini, Cursor and other AI Agents plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 1.5.8 This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it…",
+"title": "CVE-2026-131688: The Secure MCP Server for Claude, ChatGPT, Gemini, Cursor and other AI Agents plugin for WordPress is vulnerable to authorization bypass in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131688",
+"vendor_matches": [
+{
+"points": 2,
+"term": "MCP server",
+"tier": 3,
+"vendor": "MCP server"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-73695"
+],
+"cvss": 8.8,
+"epss": 0.00935,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "CVE-2026-73695",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "control-webpanel webpanel. Control Web Panel (CWP) before webpanel_version 1.16 contains a path traversal vulnerability in services/users/index.php that allows attackers to include arbitrary local PHP files by supplying an unsanitized module name parameter concatenated directly into an include…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-73695: control-webpanel webpanel Improper Control of Filename for Include/Require Statement in PHP Program",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73695"
+},
+{
+"category": "tech",
+"coverage_count": 2,
+"first_seen": "2026-11-24T18:10:55Z",
+"id": "0927fbf4634fc5c40272cf82162140789a6fbc55ac161445aed4e3901c188ca7",
+"last_seen": "2026-11-26",
+"published": "2026-11-24T16:09:23Z",
+"reasons": [
+"matches Adobe (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "The Verge",
+"source_type": "rss",
+"sources": [
+"Hacker News",
+"The Verge"
+],
+"tags": [
+"hn"
+],
+"title": "The New York Times warns photographers not to update Photoshop over AI features",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Adobe",
+"tier": 2,
+"vendor": "Adobe"
+}
+],
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "a0cc754cd1680ba874fdf98d824a0a9ab413b758b8f2121c334f7ed22ae0a46d",
+"last_seen": "2026-11-26",
+"published": "2026-11-25T20:38:00Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Slow Ubuntu security response times",
+"url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "68a9dd2d8afa66d1dfedd4197af5abeedde47c99383eb619e28a497d15dd4595",
+"last_seen": "2026-11-26",
+"published": "2026-11-22T16:44:48Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+"url": "https://bjin.github.io/go-codegolf-benchmark/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "3cae446da2a0e2459030112d32b2991c0e0af16f100298db2f3d8db09ee8e3ee",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T03:36:58Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+"url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "c5f03a69f8f4480a7ee299f69e814e006386777e9c0ee1c97c2d1e508ebae686",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T11:00:39Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "Lenacapavir, administered as an injection twice a year, is nearly 100% effective at preventing HIV infection.",
+"title": "Hope for millions as cheaper HIV prevention jab reaches Africa",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "60e4451ce89689b98e882b2c0eefebe38710a8ba95858c62c18b5bbce8e4c33e",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T09:52:01Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The failure of the 31st United Nations Climate Change Conference (COP31) to deliver a consensus agreement has deepened concerns over the future of climate action, leaving Rwanda and other developing countries facing uncertainty over financing, adaptation and the transition away from…",
+"title": "COP31 Deadlock - What It Means for Rwanda and Africa",
+"topic_hits": [
+"Rwanda",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611260201.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "a54b083fdca6d55fb9e55c09ea929e70ad31e9a4beb92ceb1d669c739a22b98a",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T05:29:19Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] President Paul Kagame opened the eighth YouthConnekt Africa Summit in Kigali on Wednesday, November 25, bringing together thousands of young people, policymakers, business leaders and investors from across the continent to discuss opportunities for young Africans.",
+"title": "Kagame Opens Eighth YouthConnekt Africa Summit",
+"topic_hits": [
+"Kigali",
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611260107.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "e9fb700f852ad429f335e1f5bc0d75e325fa06867fd831e267b3db0232deb7a7",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T05:14:08Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[Agenzia Fides] Kigali (Fides News Agency) - On 16 November, five European Union countries - Germany, Austria, Greece, Denmark and the Netherlands - announced an agreement with Rwanda to transfer asylum seekers whose applications have been rejected, to repatriation centres.",
+"title": "Reasons Behind and Implications of the New Agreement Between Kigali and Five European Countries On Rejected Asylum Seekers",
+"topic_hits": [
+"Rwanda",
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611260081.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "071c801c9dbf12b877c0b33f296f3c1cdcaa6307943e9cbbdad672ae95b7b95b",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T05:00:23Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] For three decades, the campaign against Rwanda emanating from sections of the DR Congo has gone far beyond ordinary political rhetoric. Its message rarely changes: that Rwanda is the cause of eastern Congo's crisis and that the FDLR, a terrorist group made up of remnants of the…",
+"title": "How the FDLR-Kinshasa Propaganda Against Rwanda Is Financed, Coordinated and Exported",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611260058.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "288a3acc6e6cb7ea12a2b510f884e109d9851abc65ca45ad4b1ade17d8f3f20d",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T05:00:08Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] An expanded network of 20 bacteriology laboratories across Rwanda is expected to help doctors identify bacteria that cause infections and determine which antibiotics can effectively treat them, as the country intensifies efforts to curb antimicrobial resistance (AMR).",
+"title": "Govt Expands Lab Testing to Tackle Antibiotic Resistance",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611260056.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "4b327e18b947c703fe84030627a3beec3986a1d8465e6a67307d24401d1911a4",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T10:32:07Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] On November 16 in Vienna, five European governments of Austria, Denmark, Germany, Greece and the Netherlands stood beside Rwanda and announced they were exploring a \"return hub\" for people deported from the EU, with transfers envisioned from 2027.",
+"title": "The Moral Test of Irregular Migration",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611260250.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "ee810543e3e94bd0db0555f5c47eb6f0179a7aeb7ccbf1c3900a1ff566bc2ead",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T03:48:28Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Homepoint Rwanda has officially launched global home appliance brand Haier in Rwanda, marking a major milestone for the company and bringing an extensive range of innovative home appliances, HVAC solutions, water heating technologies and smart home solutions to the Rwandan market.",
+"title": "Homepoint Introduces Haier's World-Class Home Appliances to the Rwandan Market",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611260042.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "db930db2fe7b140eeed826d132fb5592982aa530a23742c17c94dceb0ee84c01",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T03:48:26Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] For some people, buying a home is one of the biggest financial decisions they will ever make. Beyond price and location, buyers increasingly seek properties that offer comfort, quality, convenience and an environment where families can enjoy a better lifestyle.",
+"title": "Inside Savannah Creek Homes Transforming Kigali's Urbanscape",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611260040.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-26T12:46:21Z",
+"id": "bc51c19ad3eaccb05ee18896c6eb727373cca7789d9050d354846bcc9cec2f9c",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T03:48:25Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] From university lecture halls and technical education institutions to local government offices and security agencies, Rwanda's newly elected mayors bring diverse professional backgrounds to district leadership.",
+"title": "From Academia to Public Service - Meet Rwanda's New Mayors",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611260037.html",
+"weight": 1
 }
 ]
