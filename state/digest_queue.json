@@ -1,1 +1,611 @@
-[]
+[
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-86470"
+],
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "CVE-2026-86470",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-26",
+"published": "2026-11-26T13:16:46Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Allocation of resources without limits or throttling vulnerability in Apache SkyWalking BanyanDB. Uncontrolled resource consumption in Apache SkyWalking BanyanDB's query API allows a remote unauthenticated attacker to cause the server to exhaust memory and terminate. A query request can specify an…",
+"title": "CVE-2026-86470: Allocation of resources without limits or throttling vulnerability in Apache SkyWalking BanyanDB. Uncontrolled resource consumption in…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86470",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-137566"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "CVE-2026-137566",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T14:17:24Z",
+"reasons": [
+"CVSS 8.8",
+"matches Azure (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Argo Workflows 3.0.0 through 3.7.18, 4.0.0 before 4.0.12, and 4.1.0 before 4.1.4 contains a path traversal vulnerability in the S3, GCS, and Azure Blob artifact drivers. Attackers who can write bucket objects or supply malicious artifact sources can use object keys containing ../ sequences to write…",
+"title": "CVE-2026-137566: Argo Workflows 3.0.0 through 3.7.18, 4.0.0 before 4.0.12, and 4.1.0 before 4.1.4 contains a path traversal vulnerability in the S3, GCS…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137566",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Azure",
+"tier": 3,
+"vendor": "Azure"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-130331"
+],
+"cvss": 7.5,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "CVE-2026-130331",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T15:17:24Z",
+"reasons": [
+"CVSS 7.5",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The WP Statistics – Simple, privacy-friendly Google Analytics alternative plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 14.16.19 via the 'tab' parameter parameter. This makes it possible for authenticated attackers, with subscriber-level access and…",
+"title": "CVE-2026-130331: The WP Statistics – Simple, privacy-friendly Google Analytics alternative plugin for WordPress is vulnerable to Local File Inclusion in all…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130331",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-103886"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "CVE-2026-103886",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T16:17:48Z",
+"reasons": [
+"CVSS 8.1",
+"matches Google Android (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The App Builder – Create Native Android & iOS Apps On The Flight plugin for WordPress is vulnerable to Authentication Bypass via Google ID Token Audience Validation Bypass in all versions up to, and including, 5.7.1. This is due to the `LoginGoogle::login()` function failing to validate the `aud`…",
+"title": "CVE-2026-103886: The App Builder – Create Native Android & iOS Apps On The Flight plugin for WordPress is vulnerable to Authentication Bypass via Google ID…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103886",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Android",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-137465"
+],
+"cvss": 9.1,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "CVE-2026-137465",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T16:17:54Z",
+"reasons": [
+"CVSS 9.1",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 6,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Parse Server 3.10.0 before 8.6.123 and 9.0.0 before 9.11.1-alpha.4 contains an authentication bypass in the Google Play Games authentication adapter, which does not verify that the supplied player ID belongs to the presented access token. Attackers can sign in with their own Google Play Games…",
+"title": "CVE-2026-137465: Parse Server 3.10.0 before 8.6.123 and 9.0.0 before 9.11.1-alpha.4 contains an authentication bypass in the Google Play Games…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137465",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-137503"
+],
+"cvss": 8.1,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "CVE-2026-137503",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T16:18:01Z",
+"reasons": [
+"CVSS 8.1",
+"matches Google (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "Budibase before 4.0.0 contains a JSON injection vulnerability that allows attackers to inject JSON structure into S3 delete and Google Sheets row fields via unescaped template parameters. Attackers can submit crafted parameters to the queries endpoint to add extra Key entries, deleting chosen S3…",
+"title": "CVE-2026-137503: Budibase before 4.0.0 contains a JSON injection vulnerability that allows attackers to inject JSON structure into S3 delete and Google…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137503",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-137543"
+],
+"cvss": 8.3,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "CVE-2026-137543",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T16:18:07Z",
+"reasons": [
+"CVSS 8.3",
+"matches Ollama (Tier 3)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "LaraDashboard before 1.5.2 contains a server-side request forgery vulnerability that allows authenticated users to reach internal services by abusing the unvalidated ai_ollama_base_url setting. Once a settings.edit user points the Ollama base URL internally, any post.create user can call…",
+"title": "CVE-2026-137543: LaraDashboard before 1.5.2 contains a server-side request forgery vulnerability that allows authenticated users to reach internal services…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137543",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Ollama",
+"tier": 3,
+"vendor": "Ollama"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-120353"
+],
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "CVE-2026-120353",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T19:17:09Z",
+"reasons": [
+"matches Apache (Tier 2)",
+"topic: Kubernetes"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The Apache Airflow TaskFlow decorators @task.bash, @task.sql, @task.analytics, @task.kubernetes_cmd and the common.ai decorators (@task.llm, @task.agent, @task.llm_sql, @task.llm_branch, @task.llm_file_analysis, @task.llm_schema_compare) rendered Jinja templates a second time after the task runner…",
+"title": "CVE-2026-120353: The Apache Airflow TaskFlow decorators @task.bash, @task.sql, @task.analytics, @task.kubernetes_cmd and the common.ai decorators…",
+"topic_hits": [
+"Kubernetes"
+],
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120353",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-94589"
+],
+"cvss": 9.8,
+"epss": 0.01225,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "CVE-2026-94589",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "htplugins Extensions For CF7 (Contact form 7 Database, Conditional Fields and Redirection). The Extensions For CF7 (Contact form 7 Database, Conditional Fields and Redirection) plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 3.4.5 via the…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-94589: HasThemes extensions_for_cf7 Unrestricted Upload of File with Dangerous Type",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94589"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134643"
+],
+"cvss": 8.3,
+"epss": 0.00678,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "CVE-2026-134643",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-26",
+"published": "2026-11-26T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 8.3",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Webmin Webmin. Webmin through 2.670 contains an authentication bypass vulnerability in password_change.cgi that allows unauthenticated attackers to change passwords for accounts with empty stored hashes. When passwd_mode is 2, attackers can POST user, old, new1 and new2 with any old value to set a…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-134643: Webmin Webmin Incorrect Implementation of Authentication Algorithm",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134643"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-37843"
+],
+"cvss": 9.8,
+"epss": 0.09073,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "CVE-2024-37843",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "craftcms Craft CMS. Craft CMS up to v3.7.31 was discovered to contain a SQL injection vulnerability via the GraphQL API endpoint.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-37843: craftcms Craft CMS Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-37843"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-55552"
+],
+"epss": 0.01722,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "CVE-2026-55552",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-26",
+"published": "2026-11-26T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "spaceapplications yamcs. Yamcs is a mission control framework. Prior to 5.11.13, Yamcs StaticFileHandler.locateFile resolves an unauthenticated request path without using Path.normalize and Path.toAbsolutePath to confirm that the absolute path remains within the configured staticRoots. A path…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-55552: spaceapplications yamcs Improper Limitation of a Pathname to a Restricted Directory",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55552"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-23734"
+],
+"epss": 0.01683,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "CVE-2026-23734",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "XWiki xwiki. XWiki Platform is a generic wiki platform. Versions prior to 18.1.0-rc-1, 17.10.3, 17.4.9, and 16.10.17 allow access to read configuration files by using URLs such as http://localhost:8080/bin/ssx/Main/WebHome?resource=/../../WEB-INF/xwiki.cfg&minify=false, leading to Path Traversal…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-23734: XWiki xwiki Relative Path Traversal",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23734"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2021-42235"
+],
+"epss": 0.01036,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "CVE-2021-42235",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "enhancesoft osticket. SQL injection in osTicket before 1.14.8 and 1.15.4 login and password reset process allows attackers to access the osTicket administration profile functionality.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2021-42235: enhancesoft osticket Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-42235"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-129245"
+],
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "CVE-2026-129245",
+"last_seen": "2026-11-26",
+"published": "2026-11-25T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": ".",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-129245:",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129245"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "f7bae5a0b6788bc0e53f707265372df06c85edb1c30254e8abb6053873c9f091",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T10:11:01Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Intel One Mono font (2023)",
+"url": "https://github.com/intel/intel-one-mono",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "e61d0ea12953889c593696c27b94877948539838fbda18e9ee6498f84d265e5a",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T11:50:49Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Nextcloud Office Desktop app",
+"url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "3c33ad60d32bf8f7f09f8cb8b73795e06f090b0161929f9dbd43d05c15d4dc28",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T14:26:54Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Tell HN: Happy Thanksgiving",
+"url": "https://news.ycombinator.com/item?id=50655664",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "e47d25bd5969ffc66a81734845b082c23a0e908b831c9807e500718a6f5aa1d3",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T00:40:00Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Collection of preserved UI style guides",
+"url": "https://aresluna.org/ui-style-guides/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-26T21:58:08Z",
+"id": "9506259517b32943b11090f175fa997e0970bfb7a907562c3a38fca1995f60c0",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T00:43:34Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Tell HN: Lots of Ask HNs again",
+"url": "https://news.ycombinator.com/item?id=50649864",
+"weight": 3
+}
+]
