@@ -441,13 +441,13 @@
 },
 {
 "category": "vulnerabilities",
-"coverage_count": 1,
+"coverage_count": 2,
 "cve_ids": [
 "CVE-2026-136716"
 ],
 "first_seen": "2026-11-25T20:41:20Z",
 "id": "CVE-2026-136716",
-"last_seen": "2026-11-25",
+"last_seen": "2026-11-26",
 "published": "2026-11-25T00:00:00Z",
 "reasons": [
 "new VulnCheck KEV"
@@ -457,9 +457,10 @@
 "source": "VulnCheck KEV",
 "source_type": "vulncheck_kev",
 "sources": [
+"NVD",
 "VulnCheck KEV"
 ],
-"summary": ".",
+"summary": "Drupal Drupal Core. Improper Check for Unusual or Exceptional Conditions vulnerability in Drupal Drupal core allows Forceful Browsing. This issue affects Drupal core versions: from 0.0.0 to 10.6.23, from 11.0.0 to 11.3.23, from 11.4.0 to 11.4.14.",
 "tags": [
 "vulncheck_kev"
 ],
@@ -1022,5 +1023,317 @@
 ],
 "url": "https://allafrica.com/stories/202611250269.html",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-132102"
+],
+"cvss": 5.3,
+"first_seen": "2026-11-26T03:12:21Z",
+"id": "CVE-2026-132102",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-26",
+"published": "2026-11-25T21:17:17Z",
+"reasons": [
+"unauthenticated",
+"matches GitLab (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 14.4 before 19.4.11, 19.5 before 19.5.9, and 19.6 before 19.6.2 that under certain conditions could have allowed an unauthenticated user to cause denial of service due to unconstrained backtracking in regular expression…",
+"title": "CVE-2026-132102: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 14.4 before 19.4.11, 19.5 before 19.5.9, and 19.6 before 19.6.2…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132102",
+"vendor_matches": [
+{
+"points": 2,
+"term": "GitLab",
+"tier": 3,
+"vendor": "GitLab"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-81336"
+],
+"cvss": 6.5,
+"first_seen": "2026-11-26T03:12:21Z",
+"id": "CVE-2026-81336",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-26",
+"published": "2026-11-25T21:17:20Z",
+"reasons": [
+"unauthenticated",
+"matches GitLab (Tier 3)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 12.8 before 19.4.11, 19.5 before 19.5.9, and 19.6 before 19.6.2 that could have allowed an unauthenticated user to execute quick actions through Service Desk emails due to improper input sanitization.",
+"title": "CVE-2026-81336: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 12.8 before 19.4.11, 19.5 before 19.5.9, and 19.6 before 19.6.2…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81336",
+"vendor_matches": [
+{
+"points": 2,
+"term": "GitLab",
+"tier": 3,
+"vendor": "GitLab"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-118264"
+],
+"cvss": 9.1,
+"epss": 0.00701,
+"first_seen": "2026-11-26T03:12:21Z",
+"id": "CVE-2026-118264",
+"last_seen": "2026-11-26",
+"published": "2026-11-26T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.1",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "labstack echo. Echo is a Go web framework. From 4.0.0 until 4.16.1 and 5.4.1, Echo's Proxy middleware selects a raw tunnel from a client WebSocket upgrade request before verifying that the configured upstream accepted the upgrade. If the upstream rejects the upgrade with an ordinary keep-alive…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-118264: labstack echo Inconsistent Interpretation of HTTP Requests",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118264"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-134447"
+],
+"cvss": 6.1,
+"epss": 0.00378,
+"first_seen": "2026-11-26T03:12:21Z",
+"id": "CVE-2026-134447",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-26",
+"published": "2026-11-25T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "Webmin Webmin. Webmin through 2.670 contains a stored cross-site scripting vulnerability in postfix/view_mailq.cgi and sendmail/view_mailq.cgi that allows unauthenticated attackers to inject script via unsanitized MIME attachment filenames. Attackers can send a message with a crafted…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-134447: Webmin Webmin Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134447"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-63471"
+],
+"epss": 0.00543,
+"first_seen": "2026-11-26T03:12:21Z",
+"id": "CVE-2026-63471",
+"last_seen": "2026-11-26",
+"published": "2026-11-25T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": ". fastapi-code-generator creates FastAPI applications from OpenAPI files. Prior to 0.8.1, the generator inserts an OpenAPI path into a generated @app.get(...) route decorator as a single-quoted generated route string without escaping embedded quotes. An attacker-controlled or attacker-influenced…",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-63471: Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63471"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 2,
+"cve_ids": [
+"CVE-2026-131827"
+],
+"cvss": 7.8,
+"first_seen": "2026-11-25T02:34:12Z",
+"id": "CVE-2026-131827",
+"last_seen": "2026-11-26",
+"published": "2026-11-24T06:00:00Z",
+"reasons": [
+"CVSS 7.8",
+"matches Microsoft Windows (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "Zero Day Initiative",
+"source_type": "rss",
+"sources": [
+"NVD",
+"Zero Day Initiative"
+],
+"summary": "RustDesk Client for Windows reg_recovery Missing Authorization Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of RustDesk Client for Windows. An attacker must first obtain the ability to execute low-privileged…",
+"title": "ZDI-26-1080: RustDesk Client for Windows reg_recovery Missing Authorization Local Privilege Escalation Vulnerability",
+"url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1080/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-26T03:12:21Z",
+"id": "4f1a78e93168e88949d330ccb7598351fa6a4728f95dc501c69e8d2430b054f5",
+"last_seen": "2026-11-26",
+"published": "2026-11-25T22:05:09Z",
+"reasons": [
+"matches Palo Alto Networks PAN-OS (Tier 1)"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
+"title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+"url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+"vendor_matches": [
+{
+"points": 3,
+"term": "PAN-OS",
+"tier": 1,
+"vendor": "Palo Alto Networks"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-26T03:12:21Z",
+"id": "f87bc0b96948c6cc7a0d55b0f8f42060bcdcffbaad8b4853598fe87653e792d0",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-26",
+"published": "2026-11-25T21:33:33Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "BleepingComputer",
+"source_type": "rss",
+"sources": [
+"BleepingComputer"
+],
+"summary": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
+"title": "1Password customer data stolen after employee GitHub account breach",
+"url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-26T03:12:21Z",
+"id": "bf5889e125b56448634c6368253d7a38e3a255ff0fdf2da34941b8648e66751d",
+"last_seen": "2026-11-26",
+"published": "2026-11-25T21:48:10Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Much shorter version of GRH Lean verification from Anthropic",
+"url": "https://github.com/lsernau/grh-lean",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-26T03:12:21Z",
+"id": "b732eb6f4b460e985e3a60fc99b2ab812bbc47719be83820e4c436a06f103708",
+"last_seen": "2026-11-26",
+"published": "2026-11-25T11:34:25Z",
+"reasons": [
+"matches Microsoft Windows (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+"url": "https://github.com/xoxorwr/pw-loudness-eq",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Windows",
+"tier": 2,
+"vendor": "Microsoft"
+}
+],
+"weight": 3
 }
 ]
