@@ -607,5 +607,108 @@
 "title": "Tell HN: Lots of Ask HNs again",
 "url": "https://news.ycombinator.com/item?id=50649864",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2023-31719"
+],
+"cvss": 9.8,
+"epss": 0.06466,
+"first_seen": "2026-11-27T04:03:58Z",
+"id": "CVE-2023-31719",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "frangoteam fuxa. FUXA <= 1.1.12 is vulnerable to SQL Injection via /api/signin.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2023-31719: frangoteam fuxa Improper Neutralization of Special Elements used in an SQL Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-31719"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-27T04:03:58Z",
+"id": "11d8963c7c0287c54bb9af333a79696c69275efdf4ba5ee9158d9c2f8a358a42",
+"last_seen": "2026-11-27",
+"published": "2026-11-26T21:47:45Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "AI made self-hosting fun again",
+"url": "https://janlukas.blog/posts/ai-self-hosting",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-27T04:03:58Z",
+"id": "d7e9771fc760d03ace805444c8c1a6118a30ec69cd3c873fc4c4842f77cee01a",
+"last_seen": "2026-11-27",
+"published": "2026-11-26T17:36:47Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+"url": "https://github.com/antonpictures/youtube-punisher",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-27T04:03:58Z",
+"id": "fb5840117d8000bff9e43f42011373e846c0e5e70b774e8595140506158bb2ed",
+"last_seen": "2026-11-27",
+"published": "2026-11-26T17:11:29Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "AMD-specific fork of llama.cpp",
+"url": "https://devnull.land/amd-specific-llama-cpp",
+"weight": 3
 }
 ]
