@@ -710,5 +710,692 @@
 "title": "AMD-specific fork of llama.cpp",
 "url": "https://devnull.land/amd-specific-llama-cpp",
 "weight": 3
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-105917"
+],
+"cvss": 8.8,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "CVE-2026-105917",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T05:18:58Z",
+"reasons": [
+"CVSS 8.8",
+"matches VMware (Tier 2)"
+],
+"route": "digest",
+"score": 4,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "File Permission Vulnerability in RV3000 Log Monitor for VMware. This issue affects RV3000 Log Monitor for VMware(CIM): before 98-09; RV3000 Log Monitor for VMware: before 97-05.",
+"title": "CVE-2026-105917: File Permission Vulnerability in RV3000 Log Monitor for VMware. This issue affects RV3000 Log Monitor for VMware(CIM): before 98-09…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105917",
+"vendor_matches": [
+{
+"points": 2,
+"term": "VMware",
+"tier": 2,
+"vendor": "VMware"
+}
+]
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-137686"
+],
+"cvss": 6.3,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "CVE-2026-137686",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-27",
+"published": "2026-11-27T10:17:28Z",
+"reasons": [
+"unauthenticated",
+"matches Apache (Tier 2)"
+],
+"route": "digest",
+"score": 5,
+"source": "NVD",
+"source_type": "nvd",
+"sources": [
+"NVD"
+],
+"summary": "The fix for CVE-2014-0074 https://shiro.apache.org/security-reports.html#cve_2014_0074 was incomplete for ActiveDirectoryRealm, which still accepted an empty username and password as an anonymous LDAP bind. This allowed an unauthenticated user to log in with an empty principal. This issue affects…",
+"title": "CVE-2026-137686: The fix for CVE-2014-0074 https://shiro.apache.org/security-reports.html#cve_2014_0074 was incomplete for ActiveDirectoryRealm, which…",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137686",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Apache",
+"tier": 2,
+"vendor": "Apache"
+}
+]
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "9508ee247d90530b2d0a5a71719a6a34d79c87fa18c6d8f34b04c7df906ab4b7",
+"keyword_hits": [
+"supply chain attack"
+],
+"last_seen": "2026-11-27",
+"published": "2026-11-27T09:29:30Z",
+"reasons": [
+"supply chain attack"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that malicious files were generated not only when users downloaded the programs…",
+"title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+"url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "88a09091239d8f2d749b726ef8638d660f1949ec463de6996ee33d2e6c25c121",
+"keyword_hits": [
+"zero-day",
+"RCE",
+"remote code execution"
+],
+"last_seen": "2026-11-27",
+"published": "2026-11-27T05:48:20Z",
+"reasons": [
+"zero-day"
+],
+"route": "digest",
+"score": 3,
+"source": "The Hacker News",
+"source_type": "rss",
+"sources": [
+"The Hacker News"
+],
+"summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. \"I…",
+"title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+"url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "e24f7e82969498614c73346378226621302a2189b0a7e093a667303bb298e8d3",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-27",
+"published": "2026-11-27T09:30:54Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek .",
+"title": "100,000 Potentially Impacted by Colorado Data Breach",
+"url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/"
+},
+{
+"category": "security",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "129c00331c993d281caa98c80a13ddb363a091f66ff3c8d6f9a0c3f27f8a4a96",
+"keyword_hits": [
+"data breach"
+],
+"last_seen": "2026-11-27",
+"published": "2026-11-27T07:44:49Z",
+"reasons": [
+"data breach"
+],
+"route": "digest",
+"score": 3,
+"source": "SecurityWeek",
+"source_type": "rss",
+"sources": [
+"SecurityWeek"
+],
+"summary": "A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek .",
+"title": "Hex Package Manager Warns of Potential Data Breach",
+"url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "61e7cc123e19d9818fb2ed5a93c6fa3d8edf79290cd832e2fa8439637e703ffb",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T06:44:34Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "The group chat where your AI talks behind your back",
+"url": "https://construct22.com/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "8efecf50559cc104d79af23717cb92058bf8bbb5f260b0907ee2b192ee9bbed9",
+"last_seen": "2026-11-27",
+"published": "2026-11-26T21:08:05Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+"url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "ddb2db2768abc538e1cd0b56f9f67f869e3d546e7da0d299b4598189952d0776",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T01:13:49Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Hard Drive pricing has gotten bad",
+"url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "3147bd97b354a670633eadf7d3d60fd7856baf12d9e3ec8026a38e459a663404",
+"last_seen": "2026-11-27",
+"published": "2026-11-26T20:49:49Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Company Culture = Slack Emoji ÷ √Headcount",
+"url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "976d601338ea1b762e8a7616c1c5ee1392c15ea152d4d6a33ace83dd010e8ec4",
+"last_seen": "2026-11-27",
+"published": "2026-11-26T09:44:23Z",
+"reasons": [
+"matches Google (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+"url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+],
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "857078e344aacf558146087a8dc1c760f1f075d361047736352f8a767195dacf",
+"last_seen": "2026-11-27",
+"published": "2026-11-26T06:32:48Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Moat: OpenRouter replacement",
+"url": "https://commandcode.ai/moat",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "87b89b68d1c9ed515f80a1358f8a1c99205abb25dfbf0337b1070d500fdabb3b",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T13:16:28Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "El Nino is a major driver behind three of the four newly identified hotspots, mainly in different parts of Africa.",
+"title": "Famine expect to rise due to global conflict, El Nino, warns UN",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/news/2026/11/27/famine-expect-to-rise-due-to-global-conflict-el-nino-warns-un?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "0a8133ab3a75c5740ea587f880ea8c4399a78d735d4ca94529f332af4cd4c4e4",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T08:57:37Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "India makes Ahmedabad pitch for 2036 Games as it bids to host first Olympics, but Qatar and South Africa strong rivals.",
+"title": "India upbeat about first Olympic Games after ‘very good’ 2036 presentation",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/sports/2026/11/27/india-upbeat-about-first-olympics-after-very-good-2036-presentation?traffic_source=rss",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "c3d09cb1c1db2d288fc7797e2518abba7ff46572c0ef3c51acd9d5b019016b89",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T07:33:20Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Individuals, communities and organisations involved in environmental protection could receive financial and other rewards under Rwanda's proposed law on environment and climate change, which seeks to incentivise efforts to conserve natural resources, restore degraded ecosystems and…",
+"title": "Inside Plan to Reward Citizens for Environmental Protection",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611270170.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "0bb26b7b48f736497c689b6c06594ce18a5965f7714c39f7d93d2d375e372099",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T10:27:47Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The Rwandan embassy in Egypt extended condolences to the Egyptian government and people following an incident in which a fuel tanker fire in Giza that claimed 31 lives and left 21 others injured.",
+"title": "Rwanda Condoles With Egypt After Fuel Tanker Fire Kills 31",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611270216.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "692088ba886f5187897baca4881bcfa20150d1b46ae3db9110c2423b6f8c3864",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T07:33:20Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda and Uganda are seeking stronger intelligence sharing and operational coordination between their military forces to tackle cross-border crimes and prevent criminals from exploiting gaps along their common border.",
+"title": "RDF, UPDF Step Up Efforts to Tackle Cross-Border Crimes",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611270171.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "cb6a26fee315d1a5ec775122b3e70836a3f65ddb90436d286225b21b23d1f2fc",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T05:47:56Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Rwanda is set to receive $15 million from the Mohamed bin Zayed Foundation for Humanity to equip 170 health facilities with essential medicines, equipment and technologies aimed at improving maternal and newborn care.",
+"title": "Rwanda Among African Countries to Benefit From $135m Health Investment",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611270128.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "90ec61452252b3443811a04fd71844be0992615bfbbd18010aebb0503c662f54",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T05:38:44Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The African Development Bank Group (AfDB) launched a Sovereign Credit Rating Initiative on Wednesday, November 25, in a bid to strengthen African countries' capacity to engage effectively with credit rating agencies.",
+"title": "AfDB Launches Initiative to Strengthen Africa's Sovereign Credit Rating Capacity",
+"topic_hits": [
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611270096.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "a82b739ea7e3b6ff3675e46eaff5194bf15a78f27f9dccbf6dfbac49eeb75a3e",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T04:54:20Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Concerns over sexual misconduct in Rwanda's higher learning institutions have raised questions about the effectiveness of existing safeguards to protect students from exploitation, abuse of academic authority and retaliation against those who report misconduct.",
+"title": "Sexual Misconduct in Varsities Raises Questions Over Student Protection",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611270040.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "ae26b9a695f93598904c1594c07765ac0f50cec6967854011d6a4693e0723d52",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T04:54:19Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The government plans to distribute 24 million coffee seedlings in the 2026/27 financial year to expand cultivation and replace ageing trees as Rwanda seeks to raise annual coffee exports to 32,000 tonnes by the end of 2029.",
+"title": "Govt Banks On 24 Million Seedlings to Boost Coffee Exports",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611270039.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "aea4aa0ea26a0df7ebe995fad344688372d16867e9184bf3afc2213a57102990",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T12:25:53Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Whether you are waking up to a misty morning in the hills of Musanze or rushing to a meeting in the bustling heart of Kigali, nothing quite hits the spot like that first hot cup of ikawa. Rwanda produces some of the finest coffee beans in the world, and drinking coffee is a national…",
+"title": "Ikawa and Ageing - How Much Is Too Much?",
+"topic_hits": [
+"Rwanda",
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611270349.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "cddc6bec2664d8d66e813b4daabd6d72a090ee1f696a8c44402e398a48573696",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T12:25:35Z",
+"reasons": [
+"topic: Rwanda",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] At the justice sector retreat in Nyagatare District in the Eastern Province, Chief Justice Domitille Mukantaganzwa asked institutions to judge their work by the difference it makes in people's lives. The time it takes to deliver justice is one of the clearest measures of that difference.",
+"title": "Rwanda Must Make Timely Justice a Priority",
+"topic_hits": [
+"Rwanda"
+],
+"url": "https://allafrica.com/stories/202611270348.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "ab8bf56e3c2b3ca3b56a86f67b376b0327411218c236d73e91c17b07c697632f",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T10:06:37Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] The race for African club football supremacy resumes this weekend as the CAF Champions League group stage gets underway, with 16 teams beginning their quest for the continent's most prestigious trophy and a $6 million prize for the eventual champions.",
+"title": "CAF Champions League - Who Will Rise to Claim Africa's Biggest Club Prize?",
+"topic_hits": [
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611270184.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "6bd4d70768bdb6ead72ccefe3337630e401d04f85037f12217f0f5b13218dd9e",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T10:05:54Z",
+"reasons": [
+"topic: Kigali",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Last week, Uganda Airlines touched down in Kigali on its first daily flight from Entebbe, connecting two capitals whose people are already frequent travellers. Speaking at the launch, Dennis Karera of the East African Business Council voiced what many travellers have long believed: a…",
+"title": "Tax the Hotel Bed, Not the Boarding Pass",
+"topic_hits": [
+"Kigali"
+],
+"url": "https://allafrica.com/stories/202611270183.html",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-27T13:43:50Z",
+"id": "f546ce5679e21ea9eff440d1fae31c9f1cb8e56f3d575f0aeb9992d0f2ab6c7e",
+"last_seen": "2026-11-27",
+"published": "2026-11-27T10:04:48Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "allAfrica Rwanda",
+"source_type": "rss",
+"sources": [
+"allAfrica Rwanda"
+],
+"summary": "[New Times] Artificial intelligence (AI), automation, green technology and the digitisation of Africa's informal economy could become major drivers of job creation by 2035, offering new opportunities for the continent's growing youth population.",
+"title": "Where Will Africa's Next Generation of Jobs Come From?",
+"topic_hits": [
+"Africa"
+],
+"url": "https://allafrica.com/stories/202611270182.html",
+"weight": 1
 }
 ]
