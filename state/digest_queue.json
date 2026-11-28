@@ -677,5 +677,265 @@
 "title": "Will Taiwan vote to revive nuclear power – and why does that matter for AI?",
 "url": "https://www.aljazeera.com/news/2026/11/27/will-taiwan-vote-to-revive-nuclear-power-and-why-does-that-matter-for-ai?traffic_source=rss",
 "weight": 1
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2024-39205"
+],
+"cvss": 9.8,
+"epss": 0.11201,
+"first_seen": "2026-11-28T13:11:05Z",
+"id": "CVE-2024-39205",
+"last_seen": "2026-11-28",
+"published": "2026-11-28T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.8",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "pyload pyload. An issue in pyload-ng v0.5.0b3.dev85 running under python3.11 or below allows attackers to execute arbitrary code via a crafted HTTP request.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2024-39205: pyload pyload Improper Control of Generation of Code",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-39205"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2009-2283"
+],
+"epss": 0.01656,
+"first_seen": "2026-11-28T13:11:05Z",
+"id": "CVE-2009-2283",
+"last_seen": "2026-11-28",
+"published": "2026-11-27T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV"
+],
+"route": "digest",
+"score": 5,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": "sun java_web_console. Multiple cross-site scripting (XSS) vulnerabilities in the help jsp scripts in Sun Java Web Console 3.0.2 through 3.0.5, and Sun Java Web Console in Solaris 10, allow remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2009-2283: sun java_web_console Improper Neutralization of Input During Web Page Generation",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2009-2283"
+},
+{
+"category": "vulnerabilities",
+"coverage_count": 1,
+"cve_ids": [
+"CVE-2026-35906"
+],
+"cvss": 9.6,
+"epss": 0.00755,
+"first_seen": "2026-11-28T13:11:05Z",
+"id": "CVE-2026-35906",
+"keyword_hits": [
+"unauthenticated"
+],
+"last_seen": "2026-11-28",
+"published": "2026-11-27T00:00:00Z",
+"reasons": [
+"new VulnCheck KEV",
+"CVSS 9.6",
+"unauthenticated",
+"capped: not on watchlist"
+],
+"route": "digest",
+"score": 6,
+"source": "VulnCheck KEV",
+"source_type": "vulncheck_kev",
+"sources": [
+"VulnCheck KEV"
+],
+"summary": ". An undocumented debug CGI endpoint in T3 Technology CPE models T625Pro v1.0.07, T6825G v1.0.03 allows unauthenticated attackers to execute arbitrary system commands as root via supplying a crafted HTTP query string.",
+"tags": [
+"vulncheck_kev"
+],
+"title": "CVE-2026-35906: Improper Neutralization of Special Elements used in an OS Command",
+"url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35906"
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-28T13:11:05Z",
+"id": "79e3375bf79e0e6e1247cb1e1274f1cbe2741a83850ff04df979c8fe0ecfe807",
+"last_seen": "2026-11-28",
+"published": "2026-11-28T03:19:20Z",
+"reasons": [
+"matches Linux kernel (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+"url": "https://unkernel.dev",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Linux kernel",
+"tier": 2,
+"vendor": "Linux kernel"
+}
+],
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-28T13:11:05Z",
+"id": "cfa196a28b957618bbbe0e23e30ef275ecc386a886400548c619b63f41bc3b3b",
+"last_seen": "2026-11-28",
+"published": "2026-11-27T23:06:29Z",
+"reasons": [
+"matches Google (Tier 2)",
+"source weight +3"
+],
+"route": "digest",
+"score": 5,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+"url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+"vendor_matches": [
+{
+"points": 2,
+"term": "Google",
+"tier": 2,
+"vendor": "Google"
+}
+],
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-28T13:11:05Z",
+"id": "9d0746354c654ba16eb2fc37cf5d1d532e75f174f083940cd169109fdec9176e",
+"last_seen": "2026-11-28",
+"published": "2026-11-26T17:20:27Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "The Balatro Timeline",
+"url": "https://localthunk.com/blog/balatro-timeline-3aarh",
+"weight": 3
+},
+{
+"category": "tech",
+"coverage_count": 1,
+"first_seen": "2026-11-28T13:11:05Z",
+"id": "7fbb04cf9f0ba2bbf8d3ba6bd859e12b8fdba6fa6a2bc24b880fecc7f4f1dcee",
+"last_seen": "2026-11-28",
+"published": "2026-11-27T18:02:45Z",
+"reasons": [
+"source weight +3"
+],
+"route": "digest",
+"score": 3,
+"source": "Hacker News",
+"source_type": "hn",
+"sources": [
+"Hacker News"
+],
+"tags": [
+"hn"
+],
+"title": "Convex skills send the user's app idea to a remote server without telling them",
+"url": "https://github.com/convex/convex-backend-skill/issues/64",
+"weight": 3
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-28T04:09:59Z",
+"id": "52e814268270cb2844c7424dea1bec6e8c0cd025de3b8a5c2b3adee492eadd82",
+"last_seen": "2026-11-28",
+"published": "2026-11-28T01:20:35Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "BBC World",
+"source_type": "rss",
+"sources": [
+"BBC World"
+],
+"summary": "Before becoming a household name in the Nigerian film industry, Edochie built a career in broadcasting.",
+"title": "Nigeria's 'ultimate hard man' who become an online meme",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.bbc.co.uk/news/articles/cm3vg3lkrk03o",
+"weight": 1
+},
+{
+"category": "world",
+"coverage_count": 1,
+"first_seen": "2026-11-28T13:11:05Z",
+"id": "9267d63fbd77b4e577c8509325d9172553840e02f9d8701d214530a94225b642",
+"last_seen": "2026-11-28",
+"published": "2026-11-28T07:22:17Z",
+"reasons": [
+"topic: Africa",
+"source weight +1"
+],
+"route": "digest",
+"score": 3,
+"source": "Al Jazeera",
+"source_type": "rss",
+"sources": [
+"Al Jazeera"
+],
+"summary": "The trial targets the less common Bundibugyo strain behind the Ebola outbreak in neighbouring DRC.",
+"title": "Uganda starts mRNA Ebola vaccine trial in first for Africa",
+"topic_hits": [
+"Africa"
+],
+"url": "https://www.aljazeera.com/news/2026/11/28/uganda-starts-mrna-ebola-vaccine-trial-in-first-for-africa?traffic_source=rss",
+"weight": 1
 }
 ]
